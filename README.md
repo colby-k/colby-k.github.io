@@ -1,9 +1,5 @@
 # Data Analysis Portfolio
 
-#### Technical Skills: Python, SQL, Power BI, Excel
-
-# Data Analysis Portfolio
-
 ### Technical Skills: SQL, Python, Power BI, Excel
 
 ## Projects
