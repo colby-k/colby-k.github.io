@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 ### Education
 Accounting, Masters
