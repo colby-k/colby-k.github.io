@@ -1,8 +1,10 @@
-# Portfolio
+# Data Analysis Portfolio
+
+#### Technical Skills: Python, SQL, Power BI, Excel
 
 ### Education
-Accounting, Masters
-Accounting, Bachelors
+- Master of Accountancy (MAcc) | Southern Utah Univeristy
+- Bachelors of Science in Accounting | University of Utah
 
 ### Professional Experience
 Senior Manager - Compliance Analytics
