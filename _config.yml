@@ -6,6 +6,11 @@ social-network-links:
   email: "colby.keller@gmail.com"
   linkedin: colby-k
   github: colby-k
+
+share-links-active:
+  linkedin: true
+  github: true
+  email: true
   
 url: "https://github.com/colby-k/portfolio/github.io" 
 baseurl: 'portfolio/'
