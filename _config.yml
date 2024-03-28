@@ -2,6 +2,11 @@ title: Colby Kellersberger
 logo: assets/img/profile_circle.png
 #description: text below image
 #show_downloads: true
+social-network-links:
+  email: "colby.keller@gmail.com"
+  linkedin: colby-k
+  github: colby-k
+  
 url: "https://github.com/colby-k/portfolio/github.io" 
 baseurl: 'portfolio/'
 theme: jekyll-theme-minimal
