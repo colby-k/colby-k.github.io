@@ -33,5 +33,5 @@ I was asked to pull some data and summarize loan pricing into "pie charts". I fi
 The following tools were used to create this project:
 
 - **VS Code:** I used VS Code to write and edit my SQL queries that I used to query the company's data warehouse for loan data.
-- **Power BI Desktop:** I used Power BI Desktop to create the visualizations and report that I used to present the data.
+- **Power BI:** I used Power BI Desktop to create the visualizations and report that I used to present the data.
 - **PowerPoint:** I used PowerPoint to create the slide deck that I used to embed the Power BI report to present the data. I preferred this option in order to manipulate the report as questions arised during the presentation, to answer stakeholders' questions.
