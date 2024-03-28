@@ -1,6 +1,6 @@
 title: Colby Kellersberger
 url: "https://github.com/colby-k/portfolio/github.io" 
-image: /assets/img/profile_circle.png
+logo: /assets/img/profile_circle.png
 description: text below image
 show_downloads: true
 theme: jekyll-theme-minimal
