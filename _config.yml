@@ -12,6 +12,7 @@ share-links-active:
   github: true
   email: true
   
-url: "https://github.com/colby-k/portfolio/github.io" 
+#url: "https://github.com/colby-k/portfolio/github.io" 
+url: "https://github.com/colby-k/portfolio"
 baseurl: 'portfolio/'
 theme: jekyll-theme-minimal
