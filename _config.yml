@@ -1,18 +1,13 @@
-#title: Colby Kellersberger
+# Site Settings
+title: Portfolio
 logo: assets/img/profile_circle.png
+name: Colby Kellersberger
+email: colby.keller@gmail.com
+linikedin: colby-k
 #description: text below image
 #show_downloads: true
-social-network-links:
-  email: "colby.keller@gmail.com"
-  linkedin: colby-k
-  github: colby-k
-
-share-links-active:
-  linkedin: true
-  github: true
-  email: true
   
-#url: "https://github.com/colby-k/portfolio/github.io" 
+# url: "https://github.com/colby-k/portfolio/github.io" 
 url: "https://github.com/colby-k/portfolio"
-#baseurl: 'portfolio/'
+# baseurl: 'portfolio/'
 theme: jekyll-theme-minimal
