@@ -7,6 +7,8 @@
 
 <img src="assets/img/1_top_paying_roles.png" alt="Top Paying Roles" width="300" height="150">
 
+![Top Paying Roles](assets/img/1_top_paying_roles.png)
+
 This project was driven by a desire to better understand the data job market. I wanted to understand what the demand for data analysts is, what skills are in demand, and where the demand for data analysts meets the demand for high salaries.
 
 For my deep dive into the data analyst job market, I utilized the power of several tools:
