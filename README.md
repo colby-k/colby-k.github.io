@@ -5,6 +5,8 @@
 # Projects
 ## [Project 1: SQL Project Data Job Analysis](https://github.com/colby-k/SQL_Project_Data_Job_Analysis)
 
+<img src="assets/img/1_top_paying_roles.png" alt="Top Paying Roles" width="100" height="100">
+
 This project was driven by a desire to better understand the data job market. I wanted to understand what the demand for data analysts is, what skills are in demand, and where the demand for data analysts meets the demand for high salaries.
 
 For my deep dive into the data analyst job market, I utilized the power of several tools:
