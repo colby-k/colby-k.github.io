@@ -5,8 +5,6 @@
 # Projects
 ## [Project 1: SQL Project Data Job Analysis](https://github.com/colby-k/SQL_Project_Data_Job_Analysis)
 
-![Top Paying Roles](assets/img/1_top_paying_roles.png)
-
 This project was driven by a desire to better understand the data job market. I wanted to understand what the demand for data analysts is, what skills are in demand, and where the demand for data analysts meets the demand for high salaries.
 
 For my deep dive into the data analyst job market, I utilized the power of several tools:
@@ -16,6 +14,8 @@ For my deep dive into the data analyst job market, I utilized the power of sever
 - **Visual Studio Code (VS Code):** My preferred code editor for database management and executing SQL queries.
 - **Python/Jupyter Notebook:** I used to analyze and visualize my data.
 - **Git & GitHub:** Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
+
+![Top Paying Roles](assets/img/1_top_paying_roles.png)
 
 ## [Project 2: Python Fair Lending Pricing Analysis](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis)
 
