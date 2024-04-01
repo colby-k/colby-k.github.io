@@ -5,8 +5,6 @@
 # Projects
 ## [Project 1: SQL Project Data Job Analysis](https://github.com/colby-k/SQL_Project_Data_Job_Analysis)
 
-<img src="assets/img/1_top_paying_roles.png" alt="Top Paying Roles" width="300" height="150">
-
 ![Top Paying Roles](assets/img/1_top_paying_roles.png)
 
 This project was driven by a desire to better understand the data job market. I wanted to understand what the demand for data analysts is, what skills are in demand, and where the demand for data analysts meets the demand for high salaries.
@@ -22,6 +20,8 @@ For my deep dive into the data analyst job market, I utilized the power of sever
 ## [Project 2: Python Fair Lending Pricing Analysis](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis)
 
 <img src="assets/img/national_result.png" alt="Fair Lending" width="300" height="150">
+
+![Fair Lending Analysis](assets/img/national_result.png)
 
 This project was one of the responsibilities I had as a Senior Data Analyst Manager for a mortgage company. I was asked to build out a fair lending monitoring program where loan pricing could be analyzed for pricing disparaties between different borrower demographics. The dataset used in this analysis is not real, and I used a Python Package (Faker) to create dummy data so that there was no sensitive data used and no privacy concerns. The results of this analysis does not imply, or one cannot and should not assume that the lending practices of any lender are based on the results of this analysis.
 
