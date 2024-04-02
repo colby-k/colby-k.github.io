@@ -17,7 +17,7 @@ For my deep dive into the data analyst job market, I utilized the power of sever
 
 ![Top Paying Roles](assets/img/1_top_paying_roles.png)
 
-## [Project 2: Python Fair Lending Pricing Analysis](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis)
+## [Project 2: Python Fair Lending Analysis](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis)
 
 This project was one of the responsibilities I had as a Senior Data Analyst Manager for a mortgage company. I was asked to build out a fair lending monitoring program where loan pricing could be analyzed for pricing disparaties between different borrower demographics. The dataset used in this analysis is not real, and I used a Python Package (Faker) to create dummy data so that there was no sensitive data used and no privacy concerns. The results of this analysis does not imply, or one cannot and should not assume that the lending practices of any lender are based on the results of this analysis.
 
