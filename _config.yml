@@ -3,13 +3,12 @@
 logo: assets/img/profile_circle.png
 name: Colby Kellersberger
 email: colby.keller@gmail.com
-linikedin_url: https://www.linkedin.com/in/colby-k
+linikedin: colby-k
 #description: text below image
 #show_downloads: true
   
- 
+
 url: "https://github.com/colby-k/portfolio"
-baseurl: "/portfolio"
+
 theme: jekyll-theme-minimal
-plugins:
-  - jekyll-remote-theme
+
