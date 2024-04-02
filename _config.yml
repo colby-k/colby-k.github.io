@@ -9,7 +9,7 @@ linikedin: colby-k
   
 # url: "https://github.com/colby-k/portfolio/github.io" 
 url: "https://github.com/colby-k/portfolio"
-baseurl: ""
+# baseurl: ""
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-remote-theme
