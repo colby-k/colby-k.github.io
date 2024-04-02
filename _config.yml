@@ -1,14 +1,14 @@
 # Site Settings
-# title: Portfolio
-logo: assets/img/profile_circle.png
+title: Portfolio
+logo: /assets/img/profile_circle.png
 name: Colby Kellersberger
 email: colby.keller@gmail.com
 linikedin: colby-k
-#description: text below image
-#show_downloads: true
+# description: text below image
+# show_downloads: true
   
 
-url: "https://github.com/colby-k/portfolio"
+# url: "https://github.com/colby-k/portfolio"
 
 theme: jekyll-theme-minimal
 
