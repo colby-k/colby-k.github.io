@@ -7,9 +7,9 @@ linikedin: colby-k
 #description: text below image
 #show_downloads: true
   
-# url: "https://github.com/colby-k/portfolio/github.io" 
+ 
 url: "https://github.com/colby-k/portfolio"
-# baseurl: ""
+baseurl: "/portfolio"
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-remote-theme
