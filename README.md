@@ -48,15 +48,3 @@ For my project I utilized the following tools:
 - **Power BI:** Data visualization tool. -Git & GitHub: Version control system and repository.
 
 ![Sales Dashboard](assets/img/sales_overview.png)
-
-## [Project 4: Power BI Loan Pricing Analysis](https://github.com/colby-k/PowerBI_Pricing_Analysis)
-
-I was asked to pull some data and summarize loan pricing into "pie charts". I figured this exercise would be a great opportunity to do a little Power BI magic and break away from excel charts and do an interactive report that would be embedded in a slide deck.
-
-The following tools were used to create this project:
-
-- **VS Code:** I used VS Code to write and edit my SQL queries that I used to query the company's data warehouse for loan data.
-- **Power BI:** I used Power BI Desktop to create the visualizations and report that I used to present the data.
-- **PowerPoint:** I used PowerPoint to create the slide deck that I used to embed the Power BI report to present the data. I preferred this option in order to manipulate the report as questions arised during the presentation, to answer stakeholders' questions.
-
-![Loan Pricing Report](assets/img/loan_pricing_ha.png)
