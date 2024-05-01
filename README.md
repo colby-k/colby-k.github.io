@@ -53,6 +53,6 @@ For my project I utilized the following tools:
 
 These are a few Power BI Dashboards / Reports I have built from trainings and learnings to become more familiar with Power BI. 
 
-[![Property Management](assets/img/property_management.png)](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2Zm
+![Property Management](assets/img/property_management.png)](<iframe title="property_management" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" frameborder="0" allowFullScreen="true"></iframe>)
 
 
