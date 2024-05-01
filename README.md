@@ -47,13 +47,14 @@ For my project I utilized the following tools:
 - **Visual Studio Code:** My preferred code editor for SQL queries.
 - **Power BI:** Data visualization tool. -Git & GitHub: Version control system and repository.
 
-![Sales Dashboard](assets/img/sales_overview.png)
+[![Sales Dashboard](assets/img/sales_overview.png)](https://app.powerbi.com/view?r=eyJrIjoiNDlhNDdjOWEtOGRkMS00OWM1LTkyNGItNmE4YzQ1YjAxNjU1IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Power BI Dashboards / Reports
 
 These are a few Power BI Dashboards / Reports I have built from trainings and learnings to become more familiar with Power BI. 
 
+### Property Management Dashboard
 [![Property Management](assets/img/property_management.png)](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
-
+### 
 
