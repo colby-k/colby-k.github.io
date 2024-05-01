@@ -47,7 +47,8 @@ For my project I utilized the following tools:
 - **Visual Studio Code:** My preferred code editor for SQL queries.
 - **Power BI:** Data visualization tool. -Git & GitHub: Version control system and repository.
 
-[![Sales Dashboard](assets/img/sales_overview.png)](https://app.powerbi.com/view?r=eyJrIjoiNDlhNDdjOWEtOGRkMS00OWM1LTkyNGItNmE4YzQ1YjAxNjU1IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+[![Sales Dashboard](assets/img/sales_overview.png)](https://app.powerbi.com/view?r=eyJrIjoiODBmZTYzMzAtYzZlMi00ODRlLWE2ZWItMmJkNDgwODhlNTc2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
+
 
 ## Power BI Dashboards / Reports
 
