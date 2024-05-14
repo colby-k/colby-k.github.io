@@ -1,16 +1,15 @@
 # Site Settings
-title: Portfolio
+title: Colby Kellersberger's Data Analytics Portfolio
 logo: /assets/img/profile_circle.png
 name: Colby Kellersberger
 email: colby.keller@gmail.com
-linikedin: colby-k
-# description: text below image
-# show_downloads: true
-  
+linkedin: colby-k
+description: Leveraging data to drive strategic decisions and optimize business outcomes
+show_downloads: true
 
-# url: "https://github.com/colby-k/portfolio"
+# URL: "https://github.com/colby-k/portfolio"
 
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
