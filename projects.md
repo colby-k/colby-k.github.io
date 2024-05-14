@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Home
 ---
 
 <header class="projects">
