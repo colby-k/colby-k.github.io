@@ -1,6 +1,8 @@
 ---
 layout: default
+title: Home
 ---
+
 
 <header class="intro">
   <div class="container">
