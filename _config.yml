@@ -5,23 +5,14 @@ name: Colby Kellersberger
 email: colby.keller@gmail.com
 linkedin: colby-k
 description: Personal portfolio showcasing my work and projects
-show_downloads: true  # Optional, set to true if you want to show download links
-
-# Social Links
-social_links:
-  - icon: "linkedin"
-    url: "https://www.linkedin.com/in/colby-k"
-  - icon: "envelope"
-    url: "mailto:colby.keller@gmail.com"
-  - icon: "github"
-    url: "https://github.com/colby-k"
+show_downloads: true
 
 # URL
 url: "https://colby-k.github.io/portfolio"
 
 # Theme Settings
-theme: "jekyll-theme-minimal-mistakes"  # Correct theme name
-remote_theme: "mmistakes/minimal-mistakes@master"  # Correct reference to remote theme repository
+theme: "minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@v4.23.0"  # Correct reference to the remote theme repository
 
 plugins:
   - jekyll-remote-theme
