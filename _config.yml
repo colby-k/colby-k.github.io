@@ -7,7 +7,7 @@ linkedin: colby-k
 description: Personal portfolio showcasing my work and projects
 show_downloads: true  # Optional, set to true if you want to show download links
 
-# Social Media Links (Display these in the header or footer)
+# Social Links
 social_links:
   - icon: "linkedin"
     url: "https://www.linkedin.com/in/colby-k"
@@ -16,12 +16,13 @@ social_links:
   - icon: "github"
     url: "https://github.com/colby-k"
 
-# URL (change this to your actual GitHub Pages URL or leave empty for local testing)
-url: "https://colby-k.github.io/portfolio" # Update with your GitHub Pages URL
+# URL
+url: "https://colby-k.github.io/portfolio"
 
 # Theme Settings
-theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes@master"
+theme: "jekyll-theme-minimal-mistakes"  # Correct theme name
+remote_theme: "mmistakes/minimal-mistakes@master"  # Correct reference to remote theme repository
+
 plugins:
   - jekyll-remote-theme
 
@@ -29,12 +30,5 @@ plugins:
 head:
   favicon: "favicon.png"
 
-# Optional: Change the layout and colors of the site as per your preference
-# Customize the layout of the homepage and other pages
-# This will help ensure your contact information appears where you'd like it to
-
-# Show social sharing buttons in posts and pages
+# Optional: Enable social sharing
 social_share: true
-
-# Other theme settings can be found in the Minimal Mistakes documentation
-# For example, you can add custom header/footer information, additional scripts, and more
