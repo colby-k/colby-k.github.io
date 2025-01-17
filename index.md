@@ -1,8 +1,3 @@
----
-layout: default
-title: Data Analytics Portfolio
----
-
 # Data Analytics Portfolio
 
 ### Technical Skills: SQL, Python, Power BI, Excel
