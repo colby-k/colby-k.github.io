@@ -1,0 +1,40 @@
+# Site Settings
+title: Portfolio
+logo: /assets/img/profile_circle.png
+name: Colby Kellersberger
+email: colby.keller@gmail.com
+linkedin: colby-k
+description: Personal portfolio showcasing my work and projects
+show_downloads: true  # Optional, set to true if you want to show download links
+
+# Social Media Links (Display these in the header or footer)
+social_links:
+  - icon: "linkedin"
+    url: "https://www.linkedin.com/in/colby-k"
+  - icon: "envelope"
+    url: "mailto:colby.keller@gmail.com"
+  - icon: "github"
+    url: "https://github.com/colby-k"
+
+# URL (change this to your actual GitHub Pages URL or leave empty for local testing)
+url: "https://colby-k.github.io/portfolio" # Update with your GitHub Pages URL
+
+# Theme Settings
+theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes@master"
+plugins:
+  - jekyll-remote-theme
+
+# Favicon
+head:
+  favicon: "favicon.png"
+
+# Optional: Change the layout and colors of the site as per your preference
+# Customize the layout of the homepage and other pages
+# This will help ensure your contact information appears where you'd like it to
+
+# Show social sharing buttons in posts and pages
+social_share: true
+
+# Other theme settings can be found in the Minimal Mistakes documentation
+# For example, you can add custom header/footer information, additional scripts, and more
