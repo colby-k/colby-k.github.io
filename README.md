@@ -14,11 +14,6 @@
   </a>
 </p>
 
-# Data Analytics Portfolio
-
-Welcome! This is a collection of projects I have done to showcase my abilities with different data analysis tools.
-
-
 # Tech Stack 
 
 | <img src="assets/img/New_Power_BI_Logo.svg" alt="Power BI" width="60"/> | <img src="assets/img/Sql_data_base_with_logo.png" alt="SQL" width="60"/> | <img src="assets/img/Microsoft_Excel-Logo.wine.svg" alt="Excel" width="60"/> | <img src="assets/img/Python-logo-notext.svg" alt="Python" width="60"/> |
