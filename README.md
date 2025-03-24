@@ -18,7 +18,7 @@
 
 # Tech Stack 
 
-| <img src="assets/img/New_Power_BI_Logo.svg" alt="Power BI" width="60"/> | <img src="assets/img/Sql_data_base_with_logo.png" alt="SQL" width="60"/> | <img src="assets/img/Microsoft_Excel-Logo.wine.svg" alt="Excel" width="60"/> | <img src="assets/img/Python-logo-notext.svg" alt="Python" width="60"/> |
+| <img src="assets/img/New_Power_BI_Logo.svg" alt="Power BI" width="60"/> | <img src="assets/img/Sql_data_base_with_logo.png" alt="SQL" width="60"/> | <img src="assets/img/Excel.png" alt="Excel" width="60"/> | <img src="assets/img/Python-logo-notext.svg" alt="Python" width="60"/> |
 |:--:|:--:|:--:|:--:|
 | **Power BI** | **SQL** | **Excel** | **Python** |
 
