@@ -1,10 +1,10 @@
-# Data Analysis Portfolio
+# Data Analytics Portfolio
 
 ### Technical Skills: SQL, Python, Power BI, Excel
 
-# Power BI Dashboards / Reports
+# Power BI Solutions
 
-These are a few Power BI Dashboards / Reports I have built from trainings and learnings to become more familiar with Power BI. 
+These are a few Power BI Solutions I have built from trainings and learnings to become more familiar with Power BI. 
 
 ### [Adventure Works Report](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 [![Adventure Works](assets/img/AdventureWorks.png)](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
