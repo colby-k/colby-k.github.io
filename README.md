@@ -1,6 +1,10 @@
 # Data Analytics Portfolio
 
-### Technical Skills: SQL, Python, Power BI, Excel
+### Tech Stack: 
+- **SQL**
+- **Python**
+- **Power BI**
+- **Excel**
 
 # Power BI Solutions
 
