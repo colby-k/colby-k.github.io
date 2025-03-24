@@ -2,14 +2,14 @@
 
 <p align="left">
   <a href="https://www.linkedin.com/in/colby-k" target="_blank">
-    <img src="assets/img/linkedin_logo.png" alt="LinkedIn" width="30" style="vertical-align:middle; margin-right:8px;"/>
+    <img src="assets/img/LinkedIn_logo_initials.png" alt="LinkedIn" width="30" style="vertical-align:middle; margin-right:8px;"/>
     Connect with me on LinkedIn
   </a>
 </p>
 
 <p align="left">
   <a href="mailto:colby.keller@gmail.com">
-    <img src="assets/img/email_icon.png" alt="Email" width="30" style="vertical-align:middle; margin-right:8px;"/>
+    <img src="assets/img/Mail_(iOS).svg" alt="Email" width="30" style="vertical-align:middle; margin-right:8px;"/>
     Email Me
   </a>
 </p>
