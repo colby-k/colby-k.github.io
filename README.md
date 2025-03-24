@@ -10,7 +10,7 @@
 
 <p align="left">
   <a href="mailto:colby.keller@gmail.com">
-    <img src="assets/img/Mail_(iOS).svg" alt="Email" width="30" style="vertical-align:middle;"/>
+    <img src="assets/img/email.svg" alt="Email" width="30" style="vertical-align:middle;"/>
   </a>
 </p>
 
