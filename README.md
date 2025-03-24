@@ -1,3 +1,24 @@
+<!-- LinkedIn & Email Contact -->
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/colby-k" target="_blank">
+    <img src="assets/img/linkedin_logo.png" alt="LinkedIn" width="30" style="vertical-align:middle; margin-right:8px;"/>
+    Connect with me on LinkedIn
+  </a>
+</p>
+
+<p align="left">
+  <a href="mailto:colby.keller@gmail.com">
+    <img src="assets/img/email_icon.png" alt="Email" width="30" style="vertical-align:middle; margin-right:8px;"/>
+    Email Me
+  </a>
+</p>
+
+# Data Analytics Portfolio
+
+Welcome! This is a collection of projects I have done to showcase my abilities with different data analysis tools.
+
+
 # Tech Stack 
 
 | <img src="assets/img/New_Power_BI_Logo.svg" alt="Power BI" width="60"/> | <img src="assets/img/Sql_data_base_with_logo.png" alt="SQL" width="60"/> | <img src="assets/img/Microsoft_Excel-Logo.wine.svg" alt="Excel" width="60"/> | <img src="assets/img/Python-logo-notext.svg" alt="Python" width="60"/> |
