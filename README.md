@@ -15,7 +15,6 @@
 </p>
 
 
-
 # Tech Stack 
 
 | <img src="assets/img/New_Power_BI_Logo.svg" alt="Power BI" width="60"/> | <img src="assets/img/SQL.png" alt="SQL" width="60"/> | <img src="assets/img/Excel.png" alt="Excel" width="60"/> | <img src="assets/img/Python-logo-notext.svg" alt="Python" width="60"/> |
