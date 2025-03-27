@@ -1,11 +1,11 @@
-# 👋 Hi, I'm Colby Kellersberger
+# Hi, I'm Colby Kellersberger
 
-### 🧠 Data & Analytics Professional | Internal Auditor | Python-Powered Storyteller  
+### Data & Analytics Professional | Internal Auditor | Python-Powered Storyteller  
 🔍 Building tools that drive insights, compliance, and decisions.
 
 ---
 
-## 📬 Connect with Me
+## Connect with Me
 
 | <a href="https://www.linkedin.com/in/colby-k" target="_blank"><img src="assets/img/LinkedIn.png" alt="LinkedIn" width="40"/></a> | <a href="mailto:colby.keller@gmail.com"><img src="assets/img/email.svg" alt="Email" width="40"/></a> | <a href="resume.md" target="_blank"><img src="assets/img/resume-md.png" alt="View Resume" width="40"/></a> | <a href="assets/docs/Resume.pdf" download><img src="assets/img/resume-pdf.png" alt="Download Resume" width="40"/></a> |
 |:--:|:--:|:--:|:--:|
@@ -21,7 +21,7 @@
 
 ---
 
-## 🧠 Featured Projects
+## Featured Projects
 
 ### 📊 Power BI Dashboards
 
