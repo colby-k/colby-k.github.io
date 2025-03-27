@@ -46,10 +46,13 @@
 
 ---
 
-### 🧰 Audit & Automation Tools
+### 🧰 Audit Sampling Tool (Preview)
 
-- ⚙️ [Audit Sampling Tool (Streamlit + Flet)](https://github.com/colby-k/audit-sampling-tool)  
-  Upload populations ➜ filter ➜ sample ➜ export. GUI launcher, Excel audit logs, ready for enterprise internal audit teams.
+An internal audit sampling utility built with Python and Streamlit.  
+Upload → Filter → Sample → Export.
+
+![Audit Sampling Tool](assets/img/sampling_tool.png)
+
 
 ---
 
