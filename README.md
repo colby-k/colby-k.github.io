@@ -2,7 +2,7 @@
 
 # Contact
 
-| <a href="https://www.linkedin.com/in/colby-k" target="_blank"><img src="assets/img/LinkedIn.png" alt="LinkedIn" width="40"/></a> | <a href="mailto:colby.keller@gmail.com"><img src="assets/img/email.svg" alt="Email" width="40"/></a> | <a href="https://github.com/ColbyKellersberger/Data-Analytics-Portfolio/blob/main/resume.md" target="_blank"><img src="assets/img/resume-md.png" alt="View Resume" width="40"/></a> | <a href="assets/docs/Resume.pdf" download><img src="assets/img/resume-pdf.png" alt="Download Resume" width="40"/></a> |
+| <a href="https://www.linkedin.com/in/colby-k" target="_blank"><img src="assets/img/LinkedIn.png" alt="LinkedIn" width="40"/></a> | <a href="mailto:colby.keller@gmail.com"><img src="assets/img/email.svg" alt="Email" width="40"/></a> | <a href="resume.md" target="_blank"><img src="assets/img/resume-md.png" alt="View Resume" width="40"/></a> | <a href="assets/docs/Resume.pdf" download><img src="assets/img/resume-pdf.png" alt="Download Resume" width="40"/></a> |
 |:--:|:--:|:--:|:--:|
 | **LinkedIn** | **Email** | **Resume (View)** | **Resume (PDF)** |
 
