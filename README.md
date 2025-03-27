@@ -1,19 +1,10 @@
 # Data Analytics Portfolio
 
-<!-- LinkedIn & Email Contact -->
+# Contact
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/colby-k" target="_blank">
-    <img src="assets/img/LinkedIn.png" alt="LinkedIn" width="30" style="vertical-align:middle;"/>
-  </a>
-</p>
-
-<p align="left">
-  <a href="mailto:colby.keller@gmail.com">
-    <img src="assets/img/email.svg" alt="Email" width="30" style="vertical-align:middle;"/>
-  </a>
-</p>
-
+| <a href="https://www.linkedin.com/in/colby-k" target="_blank"><img src="assets/img/LinkedIn.png" alt="LinkedIn" width="40"/></a> | <a href="mailto:colby.keller@gmail.com"><img src="assets/img/email.svg" alt="Email" width="40"/></a> |
+|:--:|:--:|
+| **LinkedIn** | **Email** |
 
 # Tech Stack 
 
