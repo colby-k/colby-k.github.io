@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Colby Keller
+# 👋 Hi, I'm Colby Kellersberger
 
 ### 🧠 Data & Analytics Professional | Internal Auditor | Python-Powered Storyteller  
 🔍 Building tools that drive insights, compliance, and decisions.
@@ -15,7 +15,7 @@
 
 ## 💻 Tech Stack
 
-| ![Power BI](assets/img/New_Power_BI_Logo.svg) | ![SQL](assets/img/SQL.png) | ![Excel](assets/img/Excel.png) | ![Python](assets/img/Python-logo-notext.svg) |
+| <img src="assets/img/New_Power_BI_Logo.svg" alt="Power BI" width="50"/> | <img src="assets/img/SQL.png" alt="SQL" width="50"/> | <img src="assets/img/Excel.png" alt="Excel" width="50"/> | <img src="assets/img/Python-logo-notext.svg" alt="Python" width="50"/> |
 |:--:|:--:|:--:|:--:|
 | **Power BI** | **SQL** | **Excel** | **Python** |
 
