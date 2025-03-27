@@ -1,0 +1,41 @@
+title: "Colby K. | Data Portfolio"
+description: "Analytics, Audit, Python & Power BI"
+baseurl: "" # for root domain
+url: "https://colby-k.github.io"
+
+theme: minimal-mistakes-jekyll
+logo: "assets/img/Python-logo-notext.svg"
+
+author:
+  name   : "Colby Keller"
+  avatar : "assets/img/LinkedIn.png"
+  bio    : "Internal Auditor | Data Analyst | Builder of Audit Tools"
+  location: "Texas, USA"
+  email  : "colby.keller@gmail.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/colby-k"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:colby.keller@gmail.com"
+    - label: "Resume"
+      icon: "fas fa-file-alt"
+      url: "/assets/docs/Resume.pdf"
+
+# Navigation
+header_pages:
+  - _pages/about.md
+  - _pages/projects.md
+  - _pages/contact.md
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Optional plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
