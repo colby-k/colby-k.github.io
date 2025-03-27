@@ -1,66 +1,12 @@
 title: "Colby K. | Data Portfolio"
 description: "Analytics, Audit, Python & Power BI"
 url: "https://colby-k.github.io"
-baseurl: ""  # Root domain
+baseurl: ""
 
-# ✅ GitHub Pages-compatible theme
-remote_theme: mmistakes/minimal-mistakes
+theme: jekyll-theme-minimal
 
-# ✅ SEO + metadata
-locale: "en-US"
-repository: "colby-k/colby-k.github.io"
-github_username: "colby-k"
-
-# ✅ Author info
-author:
-  name: "Colby Keller"
-  avatar: "assets/img/LinkedIn.png"
-  bio: "Internal Auditor • Data Analyst • Builder of Audit Tools"
-  location: "Texas, USA"
-  email: "colby.keller@gmail.com"
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/colby-k"
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:colby.keller@gmail.com"
-    - label: "Resume PDF"
-      icon: "fas fa-file"
-      url: "/assets/docs/Resume.pdf"
-
-# ✅ Navigation menu
-header_pages:
-  - _pages/about.md
-  - _pages/projects.md
-  - _pages/contact.md
-
-# ✅ Collections (like project cards)
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
-
-# ✅ Theme settings
-minimal_mistakes_skin: "default"  # Options: dark, neon, air, contrast, etc.
-logo: "assets/img/Python-logo-notext.svg"
-search: true
-
-# ✅ Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-remote-theme
 
-# ✅ Markdown options
 markdown: kramdown
-highlighter: rouge
-
-# ✅ Exclude unnecessary files
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - README.md
