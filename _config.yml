@@ -14,8 +14,4 @@ markdown: kramdown
 head:
   favicon: "favicon.png"
 
-# 🚫 Disable extra page links
-# (Commented out or deleted)
-# header_pages:
-#   - about.md
-#   - projects.md
+force_refresh: true
