@@ -1,4 +1,5 @@
-
+**Colby Kellersberger, MAcc, CIA, CFE, CICA**
+<br><br>
 Internal audit professional bridging compliance and analytics — using SQL, Python, and Power BI to automate controls, surface risk, and drive decision-making.
 
 ---
@@ -9,6 +10,7 @@ Internal audit professional bridging compliance and analytics — using SQL, Pyt
 - [Email Me](mailto:colby.keller@gmail.com)
 - [Resume – Web View](resume.md)
 - [Resume – PDF Download](assets/docs/Resume.pdf)
+
 
 ---
 
