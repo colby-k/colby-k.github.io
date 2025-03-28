@@ -1,4 +1,3 @@
-## 🧭 About Me
 
 I'm a internal audit professional with a background in compliance testing and data analytics. I bridge the gap between regulatory insight and technical implementation — using code to automate judgment, and visualizations to drive decisions.
 
