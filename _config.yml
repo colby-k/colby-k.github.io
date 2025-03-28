@@ -3,7 +3,7 @@ description: "Colby Kellersberger, MAcc, CIA, CFE, CICA"
 url: "https://colby-k.github.io"
 baseurl: ""
 
-theme: minima
+theme: cayman
 
 plugins:
   - jekyll-feed
