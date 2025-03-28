@@ -2,8 +2,11 @@
 layout: page
 permalink: /resume/
 ---
+## Resume
 
-### **Lehi, Utah**  | [linkedin.com/in/colby-k](https://www.linkedin.com/in/colby-k) | [colby-k.github.io](https://colby-k.github.io)
+# Colby Kellersberger, MAcc, CIA, CFE, CICA
+
+#### **Lehi, Utah**  | [linkedin.com/in/colby-k](https://www.linkedin.com/in/colby-k) | [colby-k.github.io](https://colby-k.github.io)
 
 ---
 
