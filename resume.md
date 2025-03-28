@@ -1,8 +1,6 @@
 # Colby Kellersberger, MAcc, CIA, CFE, CICA
 
-**Lehi, Utah**  
-[linkedin.com/in/colby-k](https://www.linkedin.com/in/colby-k)  
-[colby-k.github.io](https://colby-k.github.io)
+**Lehi, Utah**  | [linkedin.com/in/colby-k](https://www.linkedin.com/in/colby-k) | [colby-k.github.io](https://colby-k.github.io)
 
 ---
 
