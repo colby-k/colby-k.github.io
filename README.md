@@ -4,7 +4,7 @@ Internal audit professional bridging compliance and analytics — using SQL, Pyt
 
 ---
 
-### 💼 Contact & Resume
+#### Contact & Resume
 
 - [LinkedIn Profile](https://www.linkedin.com/in/colby-k)
 - [Email Me](mailto:colby.keller@gmail.com)
@@ -14,7 +14,7 @@ Internal audit professional bridging compliance and analytics — using SQL, Pyt
 
 ---
 
-## 💻 Tech Stack
+#### Tech Stack
 
 | <img src="assets/img/New_Power_BI_Logo.svg" alt="Power BI" width="50"/> | <img src="assets/img/SQL.png" alt="SQL" width="50"/> | <img src="assets/img/Excel.png" alt="Excel" width="50"/> | <img src="assets/img/Python-logo-notext.svg" alt="Python" width="50"/> |
 |:--:|:--:|:--:|:--:|
@@ -58,7 +58,7 @@ Upload → Filter → Sample → Export.
 
 ---
 
-## 🔧 Coming Soon
+#### 🔧 Coming Soon
 
 - 📦 Installer version of GUI app  
 - 🛠️ New dashboards & automated testing templates  
