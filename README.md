@@ -1,14 +1,6 @@
-# Colby Kellersberger, MAcc, CIA, CFE, CICA
-### Data & Analytics Professional | Internal Auditor | Python-Powered Storyteller  
-🔍 Building tools that drive insights, compliance, and decisions.
+## 🧭 About Me
 
----
-
-## Connect with Me
-
-| <a href="https://www.linkedin.com/in/colby-k" target="_blank"><img src="assets/img/LinkedIn.png" alt="LinkedIn" width="40"/></a> | <a href="mailto:colby.keller@gmail.com"><img src="assets/img/email.svg" alt="Email" width="40"/></a> | <a href="resume.md" target="_blank"><img src="assets/img/resume-md.png" alt="View Resume" width="40"/></a> | <a href="assets/docs/Resume.pdf" download><img src="assets/img/resume-pdf.png" alt="Download Resume" width="40"/></a> |
-|:--:|:--:|:--:|:--:|
-| [**LinkedIn**](https://www.linkedin.com/in/colby-k) | [**Email**](mailto:colby.keller@gmail.com) | [**View Resume**](resume.md) | [**Download Resume**](assets/docs/Resume.pdf) |
+I'm a internal audit professional with a background in compliance testing and data analytics. I bridge the gap between regulatory insight and technical implementation — using code to automate judgment, and visualizations to drive decisions.
 
 ---
 
@@ -56,15 +48,17 @@ Upload → Filter → Sample → Export.
 
 ---
 
-## 🧭 About Me
 
-I'm a data professional with a background in internal audit, compliance testing, and analytics. I bridge the gap between regulatory insight and technical implementation — using code to automate judgment, and visualizations to drive decisions.
+## Connect with Me
+
+| <a href="https://www.linkedin.com/in/colby-k" target="_blank"><img src="assets/img/LinkedIn.png" alt="LinkedIn" width="40"/></a> | <a href="mailto:colby.keller@gmail.com"><img src="assets/img/email.svg" alt="Email" width="40"/></a> | <a href="resume.md" target="_blank"><img src="assets/img/resume-md.png" alt="View Resume" width="40"/></a> | <a href="assets/docs/Resume.pdf" download><img src="assets/img/resume-pdf.png" alt="Download Resume" width="40"/></a> |
+|:--:|:--:|:--:|:--:|
+| [**LinkedIn**](https://www.linkedin.com/in/colby-k) | [**Email**](mailto:colby.keller@gmail.com) | [**View Resume**](resume.md) | [**Download Resume**](assets/docs/Resume.pdf) |
 
 ---
 
 ## 🔧 Coming Soon
 
-- 🌐 Deployed audit tool on Streamlit Cloud  
 - 📦 Installer version of GUI app  
 - 🛠️ New dashboards & automated testing templates  
 
