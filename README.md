@@ -9,6 +9,7 @@ Internal audit professional bridging compliance and analytics — using SQL, Pyt
 - [Email Me](mailto:colby.keller@gmail.com)
 - [Resume – Web View](resume.md)
 - [Resume – PDF Download](assets/docs/Resume.pdf)
+
 ---
 
 ## 💻 Tech Stack
