@@ -1,10 +1,3 @@
----
-layout: page
-permalink: /Home/
-title: ""
----
-
-
 
 Internal audit professional bridging compliance and analytics — using SQL, Python, and Power BI to automate controls, surface risk, and drive decision-making.
 
