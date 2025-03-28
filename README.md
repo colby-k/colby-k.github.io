@@ -1,6 +1,15 @@
+# Colby Kellersberger, MAcc, CIA, CFE, CICA
 
-I'm a internal audit professional with a background in compliance testing and data analytics. I bridge the gap between regulatory insight and technical implementation — using code to automate judgment, and visualizations to drive decisions.
+Internal audit professional bridging compliance and analytics — using SQL, Python, and Power BI to automate controls, surface risk, and drive decision-making.
 
+---
+
+### 💼 Contact & Resume
+
+- [LinkedIn Profile](https://www.linkedin.com/in/colby-k)
+- [Email Me](mailto:colby.keller@gmail.com)
+- [Resume – Web View](resume.md)
+- [Resume – PDF Download](assets/docs/Resume.pdf)
 ---
 
 ## 💻 Tech Stack
@@ -44,15 +53,6 @@ Upload → Filter → Sample → Export.
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://audit-sampling-tool.streamlit.app/)
 
 ![Audit Sampling Tool](assets/img/sampling_tool.png)
-
----
-
-
-## Connect with Me
-
-| <a href="https://www.linkedin.com/in/colby-k" target="_blank"><img src="assets/img/LinkedIn.png" alt="LinkedIn" width="40"/></a> | <a href="mailto:colby.keller@gmail.com"><img src="assets/img/email.svg" alt="Email" width="40"/></a> | <a href="resume.md" target="_blank"><img src="assets/img/resume-md.png" alt="View Resume" width="40"/></a> | <a href="assets/docs/Resume.pdf" download><img src="assets/img/resume-pdf.png" alt="Download Resume" width="40"/></a> |
-|:--:|:--:|:--:|:--:|
-| [**LinkedIn**](https://www.linkedin.com/in/colby-k) | [**Email**](mailto:colby.keller@gmail.com) | [**View Resume**](resume.md) | [**Download Resume**](assets/docs/Resume.pdf) |
 
 ---
 
