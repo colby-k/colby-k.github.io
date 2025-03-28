@@ -1,6 +1,7 @@
 ---
-layout: none
+layout: page
 permalink: /resume/
+title: ""
 ---
 # Colby Kellersberger, MAcc, CIA, CFE, CICA
 
