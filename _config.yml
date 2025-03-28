@@ -11,6 +11,9 @@ plugins:
 
 markdown: kramdown
 
+head:
+  favicon: "favicon.png"
+
 # 🚫 Disable extra page links
 # (Commented out or deleted)
 # header_pages:
