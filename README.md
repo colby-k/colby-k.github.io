@@ -1,5 +1,4 @@
-# Hi, I'm Colby Kellersberger
-
+# Colby Kellersberger, MAcc, CIA, CFE, CICA
 ### Data & Analytics Professional | Internal Auditor | Python-Powered Storyteller  
 🔍 Building tools that drive insights, compliance, and decisions.
 
