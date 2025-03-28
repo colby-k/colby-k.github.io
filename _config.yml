@@ -1,13 +1,18 @@
-title: "Data Analytics Portfolio"         # ✅ What shows in browser tab & Minima header
-description: "Analytics, Audit, Python & Power BI"  # ✅ SEO + tagline
-url: "https://colby-k.github.io"          # ✅ Your GitHub Pages site URL
-baseurl: ""                               # ✅ Leave blank for root GitHub Pages domain
+title: "Data Analytics Portfolio"
+description: "Colby Kellersberger, MAcc, CIA, CFE, CICA"
+url: "https://colby-k.github.io"
+baseurl: ""
 
-theme: minima                             # ✅ ✔️ You’ve switched from Cayman to Minima
+theme: minima
 
-plugins:                                  # ✅ SEO, Atom feed (good to keep)
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-markdown: kramdown                        # ✅ GitHub default markdown renderer
+markdown: kramdown
 
+# 🚫 Disable extra page links
+# (Commented out or deleted)
+# header_pages:
+#   - about.md
+#   - projects.md
