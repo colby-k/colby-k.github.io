@@ -5,17 +5,17 @@ title: ""
 ---
 # Colby Kellersberger, MAcc, CIA, CFE, CICA
 
-#### **Lehi, Utah  | [linkedin.com/in/colby-k](https://www.linkedin.com/in/colby-k) | [colby-k.github.io](https://colby-k.github.io)**
+#### Lehi, Utah | [linkedin.com/in/colby-k](https://www.linkedin.com/in/colby-k) | [colby-k.github.io](https://colby-k.github.io)
 
 ---
 
-## 🧭 Professional Summary
+## Professional Summary
 
 Internal audit and risk leader with a Big 4 foundation and 10+ years driving audit transformation, regulatory compliance, and governance enhancements across highly regulated industries. Skilled in leveraging analytics (Power BI, SQL, Python) to modernize audit processes, surface risks faster, and provide executive-level insights. Known for leading cross-functional teams, implementing data-driven controls, and building scalable risk and compliance frameworks. Certified CIA, CFE, and CICA, with a passion for innovation in audit and risk.
 
 ---
 
-## 🧩 Areas of Expertise
+## Areas of Expertise
 
 - Internal Audit Leadership  
 - Risk Management  
@@ -23,7 +23,8 @@ Internal audit and risk leader with a Big 4 foundation and 10+ years driving aud
 - Financial Controls  
 - Regulatory Compliance  
 - Power BI & Dashboarding  
-- SOX / CSA  
+- SOX Testing
+- Control Self-Assessments  
 - SQL / Python Automation  
 - Governance Strategy  
 - Fraud Investigations  
@@ -31,7 +32,7 @@ Internal audit and risk leader with a Big 4 foundation and 10+ years driving aud
 
 ---
 
-## ✨ Career Highlights
+## Career Highlights
 
 - **Audit Innovation**: Led transition to full-population, data-driven auditing using SQL and Python—cutting compliance errors by 15%.  
 - **Risk Intelligence**: Developed KRIs and visual dashboards (Power BI, Tableau) to detect emerging global risks, reducing manual hours and improving oversight.  
@@ -40,7 +41,7 @@ Internal audit and risk leader with a Big 4 foundation and 10+ years driving aud
 
 ---
 
-## 💼 Professional Experience
+## Professional Experience
 
 ### **Senior Manager, Internal Audit**  
 **Academy Mortgage – Draper, UT** | *2019 – 2024*  
@@ -72,7 +73,7 @@ Internal audit and risk leader with a Big 4 foundation and 10+ years driving aud
 
 ---
 
-## 🎓 Education & Certifications
+## Education & Certifications
 
 **Southern Utah University**  
 *Master of Accountancy (MAcc), Financial Accounting & Taxation*
@@ -88,7 +89,7 @@ Internal audit and risk leader with a Big 4 foundation and 10+ years driving aud
 
 ---
 
-## 🛠️ Technical Proficiencies
+## Technical Proficiencies
 
 Power BI • SQL • Python • Tableau • Excel  
 Internal Controls • SOX / CSA • Data Automation  
