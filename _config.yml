@@ -20,9 +20,10 @@ minima:
 
 markdown: kramdown
 
-sass:
-  style: compressed  # Optional: keeps your CSS small and fast
 
 # Optional: if you have a favicon in your root or assets
 head:
    favicon: "/favicon.png"
+
+force_refresh: true
+
