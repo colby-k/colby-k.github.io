@@ -3,23 +3,10 @@ description: "Colby Kellersberger, MAcc, CIA, CFE, CICA"
 url: "https://colby-k.github.io"
 baseurl: ""  # Do not add a trailing slash
 
-theme: minima
+theme: jekyll-theme-cayman
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-minima:
-  social_links:
-    github: colby-k
-    linkedin: colby-kellersberger
-
 markdown: kramdown
-
-
-# Optional: if you have a favicon in your root or assets
-head:
-   favicon: "/favicon.png"
-
-force_refresh: true
-
