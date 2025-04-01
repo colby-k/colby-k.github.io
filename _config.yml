@@ -11,12 +11,8 @@ plugins:
 
 minima:
   social_links:
-    - title: GitHub
-      icon: github
-      url: https://github.com/colby-k
-    - title: LinkedIn
-      icon: linkedin
-      url: https://www.linkedin.com/in/colby-kellersberger
+    github: colby-k
+    linkedin: colby-kellersberger
 
 markdown: kramdown
 
