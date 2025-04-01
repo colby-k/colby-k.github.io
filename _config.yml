@@ -5,6 +5,7 @@ baseurl: ""  # Do not add a trailing slash
 
 theme: jekyll-theme-cayman
 
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
