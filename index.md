@@ -2,8 +2,11 @@
 layout: default
 title: "Data Analytics Portfolio"
 ---
+Hi, I’m **Colby**—an **Internal Audit and Compliance Leader turned Data Analyst** with a passion for turning data into decisions. I bring **15+ years of experience** in internal audit, risk management, and fraud investigations, with a strong foundation in financial services and regulatory environments.  
 
-Internal audit professional bridging compliance and analytics — using SQL, Python, and Power BI to automate controls, surface risk, and drive decision-making.
+Today, I apply tools like **Power BI, SQL, and Python** to build dashboards, perform full-population analysis, and uncover meaningful insights. While many of my projects support **audit and compliance** use cases, this portfolio also includes **exploratory work across industries**—ranging from sales to property management—as I continue expanding my data analytics skill set.  
+
+Whether it's **improving governance through data** or **building dashboards from scratch**, I enjoy solving real problems and making data accessible to stakeholders.
 
 ---
 
