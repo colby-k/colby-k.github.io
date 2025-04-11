@@ -76,7 +76,60 @@ img {
   margin-top: 10px;
 }
 
+/* View My Work Button */
+.view-work-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+.view-work-button:hover {
+  background-color: #005fa3;
+}
+
+/* Bouncing Arrow */
+.bounce-arrow {
+  font-size: 24px;
+  margin-top: 10px;
+  animation: bounce 2s infinite;
+  transition: opacity 0.5s;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(8px);
+  }
+  60% {
+    transform: translateY(4px);
+  }
+}
+
+/* Hide arrow when user scrolls */
+.bounce-arrow.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
 </style>
+
+<script>
+  window.addEventListener('scroll', function() {
+    var arrow = document.querySelector('.bounce-arrow');
+    if (window.scrollY > 100) {
+      arrow.classList.add('hide');
+    } else {
+      arrow.classList.remove('hide');
+    }
+  });
+</script>
+
 ---
 
 Hi, I’m **Colby**—an **Internal Audit and Compliance Leader turned Data Analyst** with a passion for turning data into decisions.  
@@ -86,6 +139,13 @@ Today, I apply tools like **Power BI, SQL, and Python** to build dashboards, per
 While many of my projects support **audit and compliance** use cases, this portfolio also includes **exploratory work across industries**—ranging from sales to property management—as I continue expanding my data analytics skill set.
 
 Whether it's **improving governance through data** or **building dashboards from scratch**, I enjoy solving real problems and making data accessible to stakeholders.
+
+<div style="text-align: center; margin-top: 30px;">
+  <a href="#featured-projects" class="view-work-button">
+    ↓ View My Work
+  </a>
+  <div class="bounce-arrow">⬇️</div>
+</div>
 
 ---
 
@@ -134,7 +194,7 @@ Whether it's **improving governance through data** or **building dashboards from
 
 ---
 
-## 📊 Featured Projects
+## 📊 Featured Projects <a name="featured-projects"></a>
 
 ### 📈 Power BI Dashboards <a name="power-bi-dashboards"></a>
 
