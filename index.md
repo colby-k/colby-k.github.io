@@ -21,6 +21,12 @@ h1, h2, h3 {
   color: #2c3e50;
 }
 
+/* Header Text (Top Banner) */
+header h1, header h2 {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
 /* Link Styling */
 a {
   color: #0077cc;
@@ -71,7 +77,6 @@ img {
 }
 
 </style>
-
 ---
 
 Hi, I’m **Colby**—an **Internal Audit and Compliance Leader turned Data Analyst** with a passion for turning data into decisions.  
