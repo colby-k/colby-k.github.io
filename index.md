@@ -170,7 +170,7 @@ Whether it's **improving governance through data** or **building dashboards from
   </div>
 
   <div class="tech-card">
-    <a href="#python-sql-projects" title="See SQL Projects">
+    <a href="#sql-projects" title="See SQL Projects">
       <img src="assets/img/SQL.png" alt="SQL" width="60">
       <div class="tech-label">SQL</div>
     </a>
@@ -184,7 +184,7 @@ Whether it's **improving governance through data** or **building dashboards from
   </div>
 
   <div class="tech-card">
-    <a href="#python-sql-projects" title="See Python Projects">
+    <a href="#python-projects" title="See Python Projects">
       <img src="assets/img/Python-logo-notext.svg" alt="Python" width="60">
       <div class="tech-label">Python</div>
     </a>
@@ -204,18 +204,25 @@ Whether it's **improving governance through data** or **building dashboards from
 - 🔗 [Property Management Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)  
   [![Property Management](assets/img/property_management.png)](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
-- 🔗 [Sales Analysis (SQL + Power BI)](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)  
-  [![Sales Dashboard](assets/img/Sales_Report.png)](https://app.powerbi.com/view?r=eyJrIjoiODBmZTYzMzAtYzZlMi00ODRlLWE2ZWItMmJkNDgwODhlNTc2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
+---
+
+### 🐍 Python Projects <a name="python-projects"></a>
+
+- 📁 [Fair Lending Analysis (Python)](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis)  
+  Fair pricing audit simulator using synthetic borrower data, statistical analysis, and ipywidgets UI.
+
+- 📁 [Audit Sampling Tool (Python + Streamlit)](https://audit-sampling-tool.streamlit.app/)  
+  Internal audit sampling utility for filtering, random sampling, and file export.
 
 ---
 
-### 🐍 Python & SQL Projects <a name="python-sql-projects"></a>
+### 🛢️ SQL Projects <a name="sql-projects"></a>
 
 - 📁 [SQL Project – Data Job Analysis](https://github.com/colby-k/SQL_Project_Data_Job_Analysis)  
-  Job market insight project using PostgreSQL, VS Code, Python, and Pandas.
+  SQL-based job market analysis using PostgreSQL, VS Code, Python, and Pandas.
 
-- 📁 [Fair Lending Analysis (Python)](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis)  
-  Fair pricing audit simulator using synthetic borrower data, statistical analysis, ipywidgets UI.
+- 📁 [Sales Analysis (SQL + Power BI)](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)  
+  SQL ETL pipeline for sales data feeding into Power BI dashboard visualizations.
 
 ---
 
@@ -246,17 +253,6 @@ A customizable Excel-based risk assessment template designed for internal audit 
 - Risk & Control Matrix (RCM) Template
 
 Stay tuned — more Excel tools are in development!
-
----
-
-### 🧰 Audit Sampling Tool (Preview)
-
-An internal audit sampling utility built with Python and Streamlit.  
-Upload → Filter → Sample → Export.
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://audit-sampling-tool.streamlit.app/)
-
-![Audit Sampling Tool](assets/img/sampling_tool.png)
 
 ---
 
