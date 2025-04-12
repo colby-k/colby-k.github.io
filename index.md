@@ -237,15 +237,16 @@ Practical Excel tools for audit, compliance, and risk management.
 
 #### 🛡️ Risk Assessment Template (Excel)
 
-A customizable Excel-based risk assessment template designed for internal audit and compliance teams.
+A customizable Excel-based risk assessment matrix designed for internal audit and compliance teams.
 
 - Risk scoring matrix
 - Inherent vs. residual risk evaluations
 - Auto-calculations and prioritization
 
-📂 [View Risk Assessment Template Repository](https://github.com/colby-k/Excel_Risk_Assessment_Template)
+📂 [Download Risk Assessment Template (Excel)](assets/files/risk_assessment_template.xlsx)
 
-![Risk Assessment Template Screenshot](assets/img/risk_assessment_template.png)
+![Risk Assessment Template Screenshot](assets/img/Risk Assessment.png)
+
 
 ---
 
