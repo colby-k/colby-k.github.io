@@ -245,7 +245,7 @@ A customizable Excel-based risk assessment matrix designed for internal audit an
 
 📂 [Download Risk Assessment Template (Excel)](assets/files/risk_assessment_template.xlsx)
 
-![Risk Assessment Template Screenshot](assets/img/Risk Assessment.png)
+![Risk Assessment Template Screenshot](assets/img/Risk_Assessment.png)
 
 
 ---
