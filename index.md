@@ -243,7 +243,7 @@ A customizable Excel-based risk assessment matrix designed for internal audit an
 - Inherent vs. residual risk evaluations
 - Auto-calculations and prioritization
 
-📂 [Download Risk Assessment Template (Excel)](assets/files/risk_assessment_template.xlsx)
+📂 [Download Risk Assessment Template (Excel)](assets/files/Risk_Assessment_Template.xlsx)
 
 ![Risk Assessment Template Screenshot](assets/img/Risk_Assessment.png)
 
