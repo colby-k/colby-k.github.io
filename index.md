@@ -198,7 +198,7 @@ Whether it's **improving governance through data** or **building dashboards from
 
 ### 📈 Power BI Dashboards <a name="power-bi-dashboards"></a>
 
-- 🔗 [Internal Audit Issue Tracker](https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&embedImagePlaceholder=true&pageName=9692a08028aa212019c1)  
+- 🔗 [Internal Audit Issue Tracker](https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)  
   [![Complaint Case Tracker](assets/img/internal_audit_issue_tracker.png)](https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&embedImagePlaceholder=true&pageName=9692a08028aa212019c1)
 
 
