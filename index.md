@@ -129,7 +129,7 @@ img {
 }
 .main-content {
   margin: 0 auto !important;
-  text-align: left;
+  text-align: center;
   padding: 30px;
   max-width: 1100px;
 }
@@ -147,7 +147,6 @@ img {
 </script>
 
 <!-- Your main content remains unchanged below -->
-
 
 # Hi, I’m **Colby** — an **Internal Audit and Compliance Leader turned Data Analyst** with a passion for turning data into decisions.
 
