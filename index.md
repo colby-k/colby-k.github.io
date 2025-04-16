@@ -221,6 +221,11 @@ Whether it's **improving governance through data** or **building dashboards from
 - 📁 [Audit Sampling Tool (Python + Streamlit)](https://audit-sampling-tool.streamlit.app/)  
   Internal audit sampling utility for filtering, random sampling, and file export.
 
+- 📁 [Benford's Law Audit Tool (Python + Streamlit)](https://benfords-law-audit-tool-colby-k.streamlit.app)  
+  Statistical fraud detection tool using Benford’s Law to flag anomalies in financial data. Users upload transaction files, select numeric fields, and analyze distribution vs. expected norms.
+
+  💻 [View on GitHub](https://github.com/colby-k/benfords-law-audit-tool)
+
 ---
 
 ### 🛢️ SQL Projects <a name="sql-projects"></a>
