@@ -132,7 +132,7 @@ img {
 
 ---
 
-Hi, I’m **Colby**—an **Internal Audit and Compliance Leader turned Data Analyst** with a passion for turning data into decisions.  
+Hi, I’m **Colby**—an **Internal Audit and Compliance Leader** with a passion for turning data into decisions.  
 I bring **15+ years of experience** in internal audit, risk management, and fraud investigations, with a strong foundation in financial services and regulatory environments.
 
 Today, I apply tools like **Power BI, SQL, and Python** to build dashboards, perform full-population analysis, and uncover meaningful insights.  
