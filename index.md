@@ -134,4 +134,97 @@ img {
   });
 </script>
 
-<!-- rest of your index content remains unchanged -->
+# Hi, I’m **Colby** — an **Internal Audit and Compliance Leader turned Data Analyst** with a passion for turning data into decisions.
+
+I bring **15+ years of experience** in internal audit, risk management, and fraud investigations, with a strong foundation in financial services and regulatory environments.
+
+Today, I apply tools like **Power BI, SQL, and Python** to build dashboards, perform full-population analysis, and uncover meaningful insights. While many of my projects support **audit and compliance** use cases, this portfolio also includes **exploratory work across industries**—ranging from sales to property management—as I continue expanding my data analytics skill set.
+
+Whether it's **improving governance through data** or **building dashboards from scratch**, I enjoy solving real problems and making data accessible to stakeholders.
+
+<div style="text-align: center; margin-top: 30px;">
+  <a href="#featured-projects" class="view-work-button">↓ View My Work</a>
+  <div class="bounce-arrow">⬇️</div>
+</div>
+
+---
+
+### 📇 Contact & Resume
+- [LinkedIn Profile](https://www.linkedin.com/in/colby-k)
+- [Email Me](mailto:colby.keller@gmail.com)
+- [Resume – Web View](resume.md)
+- [Resume – PDF Download](assets/docs/Resume.pdf)
+
+---
+
+### 🛠️ Tech Stack
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; text-align: center;">
+  <div class="tech-card">
+    <a href="#power-bi-dashboards" title="See Power BI Projects">
+      <img src="assets/img/New_Power_BI_Logo.svg" alt="Power BI" width="60">
+      <div class="tech-label">Power BI</div>
+    </a>
+  </div>
+  <div class="tech-card">
+    <a href="#sql-projects" title="See SQL Projects">
+      <img src="assets/img/SQL.png" alt="SQL" width="60">
+      <div class="tech-label">SQL</div>
+    </a>
+  </div>
+  <div class="tech-card">
+    <a href="#excel-templates" title="See Excel Templates">
+      <img src="assets/img/Excel.png" alt="Excel" width="60">
+      <div class="tech-label">Excel</div>
+    </a>
+  </div>
+  <div class="tech-card">
+    <a href="#python-projects" title="See Python Projects">
+      <img src="assets/img/Python-logo-notext.svg" alt="Python" width="60">
+      <div class="tech-label">Python</div>
+    </a>
+  </div>
+</div>
+
+---
+
+## 📊 Featured Projects <a name="featured-projects"></a>
+
+### 📈 Power BI Dashboards <a name="power-bi-dashboards"></a>
+- 🔗 [Internal Audit Issue Tracker](https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+  ![Complaint Case Tracker](assets/img/internal_audit_issue_tracker.png)
+- 🔗 [Adventure Works Report](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+  ![Adventure Works](assets/img/AdventureWorks.png)
+- 🔗 [Property Management Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+  ![Property Management](assets/img/property_management.png)
+- 🔗 [Sales Analysis (SQL + Power BI)](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)
+  ![Sales Dashboard](assets/img/Sales_Report.png)
+
+---
+
+### 🐍 Python Projects <a name="python-projects"></a>
+- 📁 [Fair Lending Analysis (Python)](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis) – Fair pricing audit simulator using synthetic borrower data, statistical analysis, and ipywidgets UI.
+- 📁 [Audit Sampling Tool (Python + Streamlit)](https://audit-sampling-tool.streamlit.app/) – Internal audit sampling utility for filtering, random sampling, and file export.
+
+---
+
+### 🛢️ SQL Projects <a name="sql-projects"></a>
+- 📁 [SQL Project – Data Job Analysis](https://github.com/colby-k/SQL_Project_Data_Job_Analysis)
+- 📁 [Sales Analysis (SQL + Power BI)](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)
+
+---
+
+### 📄 Excel Templates <a name="excel-templates"></a>
+#### 🛡️ Risk Assessment Template (Excel)
+A customizable Excel-based risk assessment matrix designed for internal audit and compliance teams.
+- Risk scoring matrix
+- Inherent vs. residual risk evaluations
+- Auto-calculations and prioritization
+📂 [Download Risk Assessment Template (Excel)](assets/files/Risk_Assessment_Template.xlsx)
+![Risk Assessment Template Screenshot](assets/img/Risk_Assessment.png)
+
+---
+
+#### 🛠️ More Templates Coming Soon
+- Annual Audit Planning Template
+- Issue Tracking Log
+- Risk & Control Matrix (RCM) Template
