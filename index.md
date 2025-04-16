@@ -17,11 +17,17 @@ body {
 .page-header {
   background-color: #ffffff !important;
   color: #1d1d1f !important;
+  text-align: center;
+  padding: 40px 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .page-header h1 {
   color: #000000 !important;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -133,6 +139,8 @@ img {
     }
   });
 </script>
+
+<!-- Your main content remains unchanged below -->
 
 # Hi, I’m **Colby** — an **Internal Audit and Compliance Leader turned Data Analyst** with a passion for turning data into decisions.
 
