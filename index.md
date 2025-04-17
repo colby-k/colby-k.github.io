@@ -3,18 +3,6 @@ title: "Data Analytics Portfolio"
 layout: default
 ---
 
-With 15+ years of experience in internal audit, compliance, fraud investigations, and data analytics, I combine subject-matter expertise with tools like **Power BI**, **SQL**, and **Python** to turn data into insight and action.
-
----
-
-## 🧰 Skills
-
-- Power BI | Python | SQL | Excel
-- Internal Audit | Risk Assessment | Issue Tracking
-- Fraud Detection | Data Visualization | Compliance Analytics
-
----
-
 ## <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
 
 #### Internal Audit Issue Tracker  
@@ -51,8 +39,6 @@ Statistical fraud detection tool using Benford’s Law to flag anomalies in fina
 <a href="https://benfords-law-audit-tool.streamlit.app">
   <img src="assets/img/benfords_law.png" alt="Benford’s Law Screenshot" width="700">
 </a>
-
-
 
 ## <img src="assets/icons/sql.svg" width="22" style="vertical-align: text-bottom;"> SQL Projects
 
