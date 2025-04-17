@@ -1,14 +1,22 @@
-title: "Data Analytics Portfolio"
-# description: "Colby Kellersberger, MAcc, CIA, CFE, CICA"
-description: "Colby Kellersberger, MAcc, CIA, CFE, CICA | Ex-Big 4"
-url: "https://colby-k.github.io"
-baseurl: ""  # Do not add a trailing slash
+title: "Colby Kellersberger"
+logo: "/images/colby-headshot.png?raw=true"  # Replace with your actual image path
+description: >
+  MAcc · CIA · CFE · CICA | Ex-Big 4 Auditor & Analyst  
+  <br><br>
+  Internal Audit · Compliance · Data Analytics  
+  <br><br>
+  <a href="https://www.linkedin.com/in/colby-k/">LinkedIn</a> | 
+  <a href="https://github.com/colby-k">GitHub</a> | 
+  <a href="mailto:colby.keller@gmail.com">Email</a>
 
-theme: jekyll-theme-cayman
-
+remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
 markdown: kramdown
+
+url: "https://colby-k.github.io"
+baseurl: ""
