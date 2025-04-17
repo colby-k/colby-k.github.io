@@ -15,8 +15,6 @@ With 15+ years of experience in internal audit, compliance, fraud investigations
 
 ---
 
-## 📁 Featured Projects
-
 ## <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
 
 #### Internal Audit Issue Tracker  
