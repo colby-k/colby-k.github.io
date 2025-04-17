@@ -1,5 +1,7 @@
 ---
-
+title: "Data Analytics Portfolio:
+layout: default
+---
 
 With 15+ years of experience in internal audit, compliance, fraud investigations, and data analytics, I combine subject-matter expertise with tools like **Power BI**, **SQL**, and **Python** to turn data into insight and action.
 
