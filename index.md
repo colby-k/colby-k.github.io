@@ -55,8 +55,13 @@ SQL analysis of job postings using PostgreSQL and Python to surface skill trends
   <img src="assets/img/top_paying_roles.png" alt="SQL Job Analysis Screenshot" width="600">
 </a>
 
+#### Sales ETL & Dashboard  
+[GitHub Repo](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)  
+SQL-based ETL pipeline to clean and aggregate sales data, paired with a Power BI dashboard for business insights.
 
-- [Sales ETL & Dashboard](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)
+<a href="https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis">
+  <img src="assets/img/adventure-works.png" alt="Adventure Works Screenshot" width="800">
+</a>
 
 ## <img src="assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Templates
 
@@ -65,7 +70,7 @@ Download a customizable Excel-based risk matrix for internal audit and complianc
 📂 [Download Template](assets/files/Risk_Assessment_Template.xlsx)
 
 <a href="assets/files/Risk_Assessment_Template.xlsx">
-  <img src="assets/img/Risk_Assessment.png" alt="Risk Assessment Screenshot" width="600">
+  <img src="assets/img/Risk_Assessment.png" alt="Risk Assessment Screenshot" width="700">
 </a>
 
 ---
