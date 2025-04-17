@@ -29,7 +29,7 @@ With 15+ years of experience in internal audit, compliance, fraud investigations
 #### Sales Dashboard  
 [![Sales Dashboard Screenshot](assets/img/Sales_Report.png)](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)
 
-### <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> Python Projects
+## <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> Python Projects
 
 #### Fair Lending Analysis
 [GitHub Repo](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis)  
@@ -45,14 +45,28 @@ Statistical fraud detection tool using Benford’s Law to flag anomalies in fina
 [GitHub Repo](https://github.com/colby-k/benfords-law-audit-tool)
 
 
-### <img src="assets/icons/sql.svg" width="22" style="vertical-align: text-bottom;"> SQL Projects
+## <img src="assets/icons/sql.svg" width="22" style="vertical-align: text-bottom;"> SQL Projects
 
-- [Data Job Analysis](https://github.com/colby-k/SQL_Project_Data_Job_Analysis)
+#### Data Job Market Analysis  
+[GitHub Repo](https://github.com/colby-k/SQL_Project_Data_Job_Analysis)  
+SQL analysis of job postings using PostgreSQL and Python to surface skill trends.
+
+<a href="https://github.com/colby-k/SQL_Project_Data_Job_Analysis">
+  <img src="assets/img/top_paying_roles.png" alt="SQL Job Analysis Screenshot" width="600">
+</a>
+
+
 - [Sales ETL & Dashboard](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)
 
-### <img src="assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Templates
+## <img src="assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Templates
 
-- [Risk Assessment Matrix (Download)](assets/files/Risk_Assessment_Template.xlsx)
+#### Risk Assessment Matrix  
+Download a customizable Excel-based risk matrix for internal audit and compliance teams.  
+📂 [Download Template](assets/files/Risk_Assessment_Template.xlsx)
+
+<a href="assets/files/Risk_Assessment_Template.xlsx">
+  <img src="assets/img/Risk_Assessment.png" alt="Risk Assessment Screenshot" width="600">
+</a>
 
 ---
 
