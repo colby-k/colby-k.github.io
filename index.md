@@ -35,14 +35,23 @@ With 15+ years of experience in internal audit, compliance, fraud investigations
 [GitHub Repo](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis)  
 Fair pricing audit simulator using synthetic borrower data, statistical testing, and ipywidgets UI.
 
-#### Audit Sampling Tool
+#### Audit Sampling Tool  
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://audit-sampling-tool.streamlit.app/)  
 Internal audit sampling utility for filtering, random sampling, and file export.
 
-#### Benford's Law Audit Tool
+<a href="https://audit-sampling-tool.streamlit.app/">
+  <img src="assets/img/audit_sampling_tool.png" alt="Audit Sampling Screenshot" width="700">
+</a>
+
+#### Benford's Law Audit Tool  
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://benfords-law-audit-tool.streamlit.app)  
 Statistical fraud detection tool using Benford’s Law to flag anomalies in financial data.  
 [GitHub Repo](https://github.com/colby-k/benfords-law-audit-tool)
+
+<a href="https://benfords-law-audit-tool.streamlit.app">
+  <img src="assets/img/benfords_law.png" alt="Benford’s Law Screenshot" width="700">
+</a>
+
 
 
 ## <img src="assets/icons/sql.svg" width="22" style="vertical-align: text-bottom;"> SQL Projects
