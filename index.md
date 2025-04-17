@@ -17,21 +17,21 @@ With 15+ years of experience in internal audit, compliance, fraud investigations
 
 ## 📁 Featured Projects
 
-### 📊 Power BI Dashboards
+## <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
 
-#### [Internal Audit Issue Tracker](https://app.powerbi.com/view?r=...)
-![Internal Audit Screenshot](assets/img/internal_audit_issue_tracker.png)
+#### Internal Audit Issue Tracker  
+[![Internal Audit Screenshot](assets/img/internal_audit_issue_tracker.png)](https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYt...)
 
-#### [Adventure Works Report](https://app.powerbi.com/view?r=...)
-![Adventure Works Screenshot](assets/img/AdventureWorks.png)
+#### Adventure Works Report  
+[![Adventure Works Screenshot](assets/img/AdventureWorks.png)](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYt...)
 
-#### [Property Management Dashboard](https://app.powerbi.com/view?r=...)
-![Property Management Screenshot](assets/img/property_management.png)
+#### Property Management Dashboard  
+[![Property Management Screenshot](assets/img/property_management.png)](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYt...)
 
-#### [Sales Analysis (SQL + Power BI)](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)
-![Sales Dashboard Screenshot](assets/img/Sales_Report.png)
+#### Sales Dashboard  
+[![Sales Dashboard Screenshot](assets/img/Sales_Report.png)](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)
 
-### 🐍 Python Projects
+### <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> Python Projects
 
 #### Fair Lending Analysis
 [GitHub Repo](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis)  
@@ -47,11 +47,13 @@ Statistical fraud detection tool using Benford’s Law to flag anomalies in fina
 [GitHub Repo](https://github.com/colby-k/benfords-law-audit-tool)
 
 
-### 🛢️ SQL Projects
+### <img src="assets/icons/sql.svg" width="22" style="vertical-align: text-bottom;"> SQL Projects
+
 - [Data Job Analysis](https://github.com/colby-k/SQL_Project_Data_Job_Analysis)
 - [Sales ETL & Dashboard](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)
 
-### 📄 Excel Templates
+### <img src="assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Templates
+
 - [Risk Assessment Matrix (Download)](assets/files/Risk_Assessment_Template.xlsx)
 
 ---
