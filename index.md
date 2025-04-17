@@ -3,10 +3,6 @@ title: "Data Analytics Portfolio"
 layout: default
 ---
 
-## 👋 Hi, I'm Colby
-
-Internal Audit & Compliance Leader | CIA · CFE · MAcc | Ex-Big 4
-
 With 15+ years of experience in internal audit, compliance, fraud investigations, and data analytics, I combine subject-matter expertise with tools like **Power BI**, **SQL**, and **Python** to turn data into insight and action.
 
 ---
