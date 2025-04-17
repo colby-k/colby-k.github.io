@@ -1,5 +1,5 @@
 ---
-title: "Data Analytics Portfolio:
+title: "Data Analytics Portfolio"
 layout: default
 ---
 
