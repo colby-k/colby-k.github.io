@@ -1,5 +1,5 @@
 title: "Colby Kellersberger"
-logo: "/images/colby-headshot.png?raw=true"  # Replace with your actual image path
+logo: "/assets/img/profile_circle.png?raw=true"  # Replace with your actual image path
 description: >
   MAcc · CIA · CFE · CICA | Ex-Big 4 Auditor & Analyst  
   <br><br>
@@ -8,6 +8,8 @@ description: >
   <a href="https://www.linkedin.com/in/colby-k/">LinkedIn</a> | 
   <a href="https://github.com/colby-k">GitHub</a> | 
   <a href="mailto:colby.keller@gmail.com">Email</a>
+
+favicon: "/favicon.ico"
 
 remote_theme: pages-themes/minimal@v0.2.0
 
