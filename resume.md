@@ -78,9 +78,12 @@ Internal Audit Manager with a Big 4 background, skilled in financial, operationa
 
 ## Skills
 
-- Internal Audit | SOX Compliance | ERM | Fraud Investigation  
-- Audit Automation | Risk Reporting | GRC Analytics | CAATs (IDEA, ACL)  
-- Power BI | SQL | Python | Team Mentoring | Risk-Based Auditing
+<div style="line-height: 1.8; font-size: 16px;">
+  Internal Audit &nbsp;|&nbsp; SOX Compliance &nbsp;|&nbsp; ERM &nbsp;|&nbsp; Fraud Investigation<br>
+  Audit Automation &nbsp;|&nbsp; Risk Reporting &nbsp;|&nbsp; GRC Analytics &nbsp;|&nbsp; CAATs (IDEA, ACL)<br>
+  Power BI &nbsp;|&nbsp; SQL &nbsp;|&nbsp; Python &nbsp;|&nbsp; Team Mentoring &nbsp;|&nbsp; Risk-Based Auditing
+</div>
+
 
 ---
 
