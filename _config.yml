@@ -18,7 +18,7 @@ description: >
   <img src="/assets/icons/jupyter.svg" width="20" title="Jupyter" style="margin-right: 6px;">
   <img src="/assets/icons/vs_code.svg" width="20" title="VS Code">
 
-favicon: "/assets/favicon/pbi.ico"
+favicon: "/favicon.ico"
 
 remote_theme: pages-themes/minimal
 
