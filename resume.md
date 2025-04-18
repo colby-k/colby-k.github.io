@@ -76,11 +76,20 @@ Internal Audit Manager with a Big 4 background, skilled in financial, operationa
 
 ---
 
-## Core Competencies
+## Skills
 
-Internal Audit | SOX Compliance | ERM | Fraud Investigation  
-Audit Automation | Risk Reporting | GRC Analytics | CAATs (IDEA, ACL)  
-Power BI | SQL | Python | Team Mentoring | Risk-Based Auditing
+- Internal Audit | SOX Compliance | ERM | Fraud Investigation  
+- Audit Automation | Risk Reporting | GRC Analytics | CAATs (IDEA, ACL)  
+- Power BI | SQL | Python | Team Mentoring | Risk-Based Auditing
+
+---
+
+## Certifications
+
+- Certified Internal Auditor (CIA)  
+- Certified Fraud Examiner (CFE)  
+- Certified Internal Controls Auditor (CICA)  
+- Financial Services for Internal Auditors Certificate (IIA)
 
 ---
 
@@ -91,12 +100,3 @@ Southern Utah University – Cedar City, UT
 
 **Bachelor of Science in Accounting**  
 University of Utah – Salt Lake City, UT
-
----
-
-## Certifications
-
-- Certified Internal Auditor (CIA)  
-- Certified Fraud Examiner (CFE)  
-- Certified Internal Controls Auditor (CICA)  
-- Financial Services for Internal Auditors Certificate (IIA)
