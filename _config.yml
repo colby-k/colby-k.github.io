@@ -10,11 +10,6 @@ description: >
     <img src="/assets/icons/github.svg" width="25" title="GitHub">
   </a>
   <br><br>
-  <strong>Resume</strong><br>
-  <img src="/assets/icons/cv.svg" width="25" style="vertical-align: text-bottom; margin-right: 4px;">
-  <a href="/resume" target="_blank" style="margin-right: 8px;">(Web)</a>
-  <a href="/assets/docs/Resume.pdf" target="_blank">(PDF)</a>
-  <br><br>
   <strong>Tools I Use:</strong><br><br>
   <img src="/assets/icons/python.svg" width="20" title="Python" style="margin-right: 6px;">
   <img src="/assets/icons/power_bi.svg" width="20" title="Power BI" style="margin-right: 6px;">
