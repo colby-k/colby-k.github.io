@@ -70,7 +70,7 @@ Download a customizable Excel-based risk matrix for internal audit and complianc
 
 ---
 
-## <img src="assets/icons/coding.svg" width="22" style="vertical-align: text-bottom;"> More Coming Soon
+## <img src="assets/icons/coding.svg" width="25" style="vertical-align: text-bottom;"> More Coming Soon
 
 - Audit Planning Template  
 - Risk & Control Matrix (RCM)  
