@@ -1,5 +1,6 @@
 title: "Data Analytics Portfolio"
-logo: "/assets/img/analysis.png?raw=true"
+#logo: "/assets/img/analysis.png?raw=true"
+logo: "/portfolio.ico?raw=true"
 description: >
   <strong>Colby Kellersberger</strong>
   <br><br>
@@ -18,7 +19,7 @@ description: >
   <img src="/assets/icons/jupyter.svg" width="20" title="Jupyter" style="margin-right: 6px;">
   <img src="/assets/icons/vs_code.svg" width="20" title="VS Code">
 
-favicon: "/portfolio.ico"
+favicon: "/favicon.ico"
 
 remote_theme: pages-themes/minimal
 
