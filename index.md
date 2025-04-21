@@ -20,8 +20,8 @@ layout: default
 ## <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> Python Projects
 
 #### Fair Lending Analysis
-[GitHub Repo](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis)  
-Fair pricing audit simulator using synthetic borrower data, statistical testing, and ipywidgets UI.
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fair-lending-app-app.streamlit.app/)   
+Fair Lending pricing and underwriting simulator using synthetic borrower data, statistical testing, and ipywidgets UI.
 
 #### Audit Sampling Tool  
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://audit-sampling-tool.streamlit.app/)  
