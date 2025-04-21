@@ -2,7 +2,9 @@ title: "Data Analytics Portfolio"
 
 description: >
   <div style="text-align: center;">
-    <img src="/assets/img/profile_circle.png" style="width: 120px; margin-bottom: 10px;">
+    <a href="https://linkedin.com/in/colby-k" target="_blank">
+      <img src="/assets/img/profile_circle.png" style="width: 120px; margin-bottom: 10px;" title="View my LinkedIn profile">
+    </a>
   </div>
   <strong>Colby Kellersberger</strong><br><br>
 
