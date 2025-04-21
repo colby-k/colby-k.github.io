@@ -1,27 +1,26 @@
 title: "Data Analytics Portfolio"
 
-# Remove or comment out the logo line, since we're putting it in the description now
-# logo: "/assets/img/analysis.png?raw=true"
-
 description: >
-  <img src="/assets/img/profile_circle.png" style="width: 120px; margin-bottom: 10px;"><br><br>
-  <strong>Colby Kellersberger</strong><br><br>
+  <div style="text-align: center;">
+    <img src="/assets/img/analysis.png" style="width: 80px; margin-bottom: 10px;"><br><br>
+    <strong>Colby Kellersberger</strong><br><br>
 
-  <a href="https://linkedin.com/in/colby-k" target="_blank" style="text-decoration: none;">
-    <img src="/assets/icons/LinkedIn.svg" width="25" title="LinkedIn" style="margin-right: 6px;">
-  </a>
-  <a href="https://github.com/colby-k" target="_blank" style="text-decoration: none;">
-    <img src="/assets/icons/github.svg" width="25" title="GitHub">
-  </a>
-  <br><br>
+    <a href="https://linkedin.com/in/colby-k" target="_blank" style="text-decoration: none;">
+      <img src="/assets/icons/LinkedIn.svg" width="25" title="LinkedIn" style="margin-right: 6px;">
+    </a>
+    <a href="https://github.com/colby-k" target="_blank" style="text-decoration: none;">
+      <img src="/assets/icons/github.svg" width="25" title="GitHub">
+    </a>
+    <br><br>
 
-  <strong>Tools I Use:</strong><br><br>
-  <img src="/assets/icons/power_bi.svg" width="20" title="Power BI" style="margin-right: 6px;">
-  <img src="/assets/icons/sql.svg" width="20" title="SQL" style="margin-right: 6px;">
-  <img src="/assets/icons/excel.svg" width="20" title="Excel" style="margin-right: 6px;">
-  <img src="/assets/icons/python.svg" width="20" title="Python" style="margin-right: 6px;">
-  <img src="/assets/icons/jupyter.svg" width="20" title="Jupyter" style="margin-right: 6px;">
-  <img src="/assets/icons/vs_code.svg" width="20" title="VS Code">
+    <strong>Tools I Use:</strong><br><br>
+    <img src="/assets/icons/power_bi.svg" width="20" title="Power BI" style="margin-right: 6px;">
+    <img src="/assets/icons/sql.svg" width="20" title="SQL" style="margin-right: 6px;">
+    <img src="/assets/icons/excel.svg" width="20" title="Excel" style="margin-right: 6px;">
+    <img src="/assets/icons/python.svg" width="20" title="Python" style="margin-right: 6px;">
+    <img src="/assets/icons/jupyter.svg" width="20" title="Jupyter" style="margin-right: 6px;">
+    <img src="/assets/icons/vs_code.svg" width="20" title="VS Code">
+  </div>
 
 favicon: "/favicon.ico"
 
