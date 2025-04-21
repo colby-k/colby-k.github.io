@@ -1,9 +1,12 @@
 title: "Data Analytics Portfolio"
-logo: "/assets/img/analysis.png?raw=true"
-#logo: "/portfolio.ico?raw=true"
+
+# Remove or comment out the logo line, since we're putting it in the description now
+# logo: "/assets/img/analysis.png?raw=true"
+
 description: >
-  <strong>Colby Kellersberger</strong>
-  <br><br>
+  <img src="/assets/img/analysis.png" style="width: 80px; margin-bottom: 10px;"><br><br>
+  <strong>Colby Kellersberger</strong><br><br>
+
   <a href="https://linkedin.com/in/colby-k" target="_blank" style="text-decoration: none;">
     <img src="/assets/icons/LinkedIn.svg" width="25" title="LinkedIn" style="margin-right: 6px;">
   </a>
@@ -11,6 +14,7 @@ description: >
     <img src="/assets/icons/github.svg" width="25" title="GitHub">
   </a>
   <br><br>
+
   <strong>Tools I Use:</strong><br><br>
   <img src="/assets/icons/power_bi.svg" width="20" title="Power BI" style="margin-right: 6px;">
   <img src="/assets/icons/sql.svg" width="20" title="SQL" style="margin-right: 6px;">
@@ -32,4 +36,3 @@ markdown: kramdown
 
 url: "https://colby-k.github.io"
 baseurl: ""
-
