@@ -15,13 +15,30 @@ description: >
   <br><br>
 
   <strong>Tools I Use:</strong><br><br>
-  <img src="/assets/icons/power_bi.svg" width="20" title="Power BI" style="margin-right: 6px;">
-  <img src="/assets/icons/sql.svg" width="20" title="SQL" style="margin-right: 6px;">
-  <img src="/assets/icons/excel.svg" width="20" title="Excel" style="margin-right: 6px;">
-  <img src="/assets/icons/python.svg" width="20" title="Python" style="margin-right: 6px;">
-  <img src="/assets/icons/jupyter.svg" width="20" title="Jupyter" style="margin-right: 6px;">
-  <img src="/assets/icons/vs_code.svg" width="20" title="VS Code">
-  </div>
+
+  <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi" target="_blank">
+    <img src="/assets/icons/power_bi.svg" width="22" title="Power BI" style="margin-right: 6px;">
+  </a>
+
+  <a href="https://learn.microsoft.com/en-us/sql/sql-server" target="_blank">
+    <img src="/assets/icons/sql.svg" width="22" title="SQL" style="margin-right: 6px;">
+  </a>
+
+  <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank">
+    <img src="/assets/icons/excel.svg" width="22" title="Excel" style="margin-right: 6px;">
+  </a>
+
+  <a href="https://www.python.org" target="_blank">
+    <img src="/assets/icons/python.svg" width="22" title="Python" style="margin-right: 6px;">
+  </a>
+
+  <a href="https://jupyter.org" target="_blank">
+    <img src="/assets/icons/jupyter.svg" width="22" title="Jupyter" style="margin-right: 6px;">
+  </a>
+
+  <a href="https://code.visualstudio.com" target="_blank">
+    <img src="/assets/icons/vs_code.svg" width="22" title="VS Code">
+  </a>
 
 favicon: "/favicon.ico"
 
