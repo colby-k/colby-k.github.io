@@ -3,6 +3,8 @@ title: "Data Analytics Portfolio"
 layout: default
 ---
 
+{% include analytics.html %}
+
 ## <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
 
 #### Internal Audit Issue Tracker  
