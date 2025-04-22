@@ -17,11 +17,16 @@ layout: default
 #### Sales Dashboard  
 [![Sales Dashboard Screenshot](assets/img/Sales_Report.png)](https://app.powerbi.com/view?r=eyJrIjoiODBmZTYzMzAtYzZlMi00ODRlLWE2ZWItMmJkNDgwODhlNTc2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 
-## <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> Python Projects
+## <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> <img src="assets/icons/streamlit.svg" width="22" style="vertical-align: middle; margin-left: 6px;"> Python Projects
+
 
 #### Fair Lending Analysis
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fair-lending-app-app.streamlit.app/)   
 Fair Lending pricing and underwriting simulator using synthetic borrower data, statistical testing, and ipywidgets UI.
+
+<a href="https://fair-lending-app-app.streamlit.app/">
+  <img src="assets/img/fair_lending_app.png" alt="Fair Lending App Screenshot" width="700">
+</a>
 
 #### Audit Sampling Tool  
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://audit-sampling-tool.streamlit.app/)  
