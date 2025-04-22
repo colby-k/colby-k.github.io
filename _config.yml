@@ -43,7 +43,7 @@ description: >
   </a>
 
   <a href="https://streamlit.io" target="_blank">
-    <img src="/assets/icons/streamlit.svg" width="25" title="Streamlit">
+    <img src="/assets/icons/streamlit.svg" width="25" title="Streamlit" style="vertical-align: middle;">
   </a>
 
 favicon: "/portfolio.ico"
