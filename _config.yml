@@ -42,6 +42,10 @@ description: >
     <img src="/assets/icons/vs_code.svg" width="25" title="VS Code">
   </a>
 
+  <a href="https://streamlit.io" target="_blank">
+    <img src="/assets/icons/streamlit.svg" width="25" title="Streamlit" style="margin-right: 6px;">
+  </a>
+
 favicon: "/portfolio.ico"
 
 remote_theme: pages-themes/minimal
