@@ -21,15 +21,6 @@ layout: default
 
 ## <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> <img src="assets/icons/streamlit.svg" width="22" style="vertical-align: middle; margin-left: 6px;"> Python Projects
 
-
-#### Fair Lending Analysis
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fair-lending-app-app.streamlit.app/)   
-Fair Lending pricing and underwriting simulator using synthetic borrower data, statistical testing, and ipywidgets UI.
-
-<a href="https://fair-lending-app-app.streamlit.app/">
-  <img src="assets/img/fair_lending_app.png" alt="Fair Lending App Screenshot" width="700">
-</a>
-
 #### Audit Sampling Tool  
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://audit-sampling-tool.streamlit.app/)  
 Internal audit sampling utility for filtering, random sampling, and file export.
@@ -45,6 +36,14 @@ Statistical fraud detection tool using Benford’s Law to flag anomalies in fina
 
 <a href="https://benfords-law-audit-tool.streamlit.app">
   <img src="assets/img/benfords_law.png" alt="Benford’s Law Screenshot" width="700">
+</a>
+
+#### Fair Lending Analysis
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fair-lending-app-app.streamlit.app/)   
+Fair Lending pricing and underwriting simulator using synthetic borrower data, statistical testing, and ipywidgets UI.
+
+<a href="https://fair-lending-app-app.streamlit.app/">
+  <img src="assets/img/fair_lending_app.png" alt="Fair Lending App Screenshot" width="700">
 </a>
 
 ## <img src="assets/icons/sql.svg" width="22" style="vertical-align: text-bottom;"> SQL Projects
