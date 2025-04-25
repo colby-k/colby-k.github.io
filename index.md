@@ -77,7 +77,7 @@ Download a customizable Excel-based risk matrix for internal audit and complianc
 ---
 
 ## <img src="assets/icons/code.svg" width="24" style="vertical-align: text-bottom;"> More Coming Soon
-
+- FP&A Model
 - Audit Planning Template  
 - Risk & Control Matrix (RCM)  
-- Issue Tracking Log 
+- Issue Tracking Log
