@@ -11,7 +11,7 @@ layout: default
 [![Vendor Payments Screenshot](assets/img/vendor_pmts_solution1.png)](https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 #### Internal Audit Issue Tracker  
-[![Internal Audit Screenshot](assets/img/internal_audit_issue_tracker.png)](https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1)
+[![Internal Audit Screenshot](assets/img/issue_tracker.png)](https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1)
 
 #### Adventure Works Report  
 [![Adventure Works Screenshot](assets/img/AdventureWorks.png)](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
