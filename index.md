@@ -5,6 +5,21 @@ layout: default
 
 {% include analytics.html %}
 
+## <img src="assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Add-In: Internal Audit Tools
+
+Custom Excel `.xlam` add-in designed to streamline internal audit fieldwork and documentation.
+
+#### 🔧 Features:
+- One-click insertion of audit tickmarks (✔, Δ, ≠, etc.) — cell-based or floating
+- Import templates directly from SharePoint (e.g., workpapers, checklists)
+- Insert tickmark legends, notes blocks, and directional arrows
+- Link to sampling guidance resources
+- Custom ribbon UI for easy navigation
+
+<a href="assets/img/excel_addin.png">
+  <img src="assets/img/excel_addin.png" alt="Audit Add-in Screenshot" width="700">
+</a>
+
 ## <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
 
 #### Vendor Payments Monitoring  
