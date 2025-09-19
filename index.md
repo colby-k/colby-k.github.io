@@ -9,6 +9,10 @@ layout: default
 
 Custom Excel `.xlam` add-in designed to streamline internal audit fieldwork and documentation.
 
+<a href="assets/img/excel_addin.png">
+  <img src="assets/img/excel_addin.png" alt="Audit Add-in Screenshot" width="1000">
+</a>
+
 #### 🔧 Features:
 - One-click insertion of audit tickmarks (✔, Δ, ≠, etc.) — cell-based or floating
 - Import templates directly from SharePoint (e.g., workpapers, checklists)
@@ -16,8 +20,11 @@ Custom Excel `.xlam` add-in designed to streamline internal audit fieldwork and 
 - Link to sampling guidance resources
 - Custom ribbon UI for easy navigation
 
-<a href="assets/img/excel_addin.png">
-  <img src="assets/img/excel_addin.png" alt="Audit Add-in Screenshot" width="700">
+<a href="assets/img/tickmark_menu.png">
+  <img src="assets/img/tickmark_menu.png" alt="Audit Add-in Screenshot" >
+</a>
+<a href="assets/img/template_menu.png">
+  <img src="assets/img/template_menu.png" alt="Audit Add-in Screenshot" >
 </a>
 
 ## <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
