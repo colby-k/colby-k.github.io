@@ -5,27 +5,31 @@ layout: default
 
 {% include analytics.html %}
 
-## <img src="assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Add-In: Internal Audit Tools
+## <img src="assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Add-In: Tickmark
 
-Custom Excel `.xlam` add-in designed to streamline internal audit fieldwork and documentation.
+Custom Excel **`.xlam`** add-in to streamline audit fieldwork and documentation with consistent, professional notation.
 
 <a href="assets/img/excel_addin.png">
   <img src="assets/img/excel_addin.png" alt="Audit Add-in Screenshot" width="1000">
 </a>
 
-#### 🔧 Features:
-- One-click insertion of audit tickmarks (✔, Δ, ≠, etc.) — cell-based or floating
-- Import templates directly from SharePoint (e.g., workpapers, checklists)
-- Insert tickmark legends, notes blocks, and directional arrows
-- Link to sampling guidance resources
-- Custom ribbon UI for easy navigation
+> **Status:** Not publicly available yet.  
+> **Interested?** I’m gauging demand—please reach out on **[LinkedIn](https://www.linkedin.com/in/colby-k/)**.
 
-<a href="assets/img/tickmark_menu.png">
-  <img src="assets/img/tickmark_menu.png" alt="Audit Add-in Screenshot" >
-</a>
-<a href="assets/img/template_menu.png">
-  <img src="assets/img/template_menu.png" alt="Audit Add-in Screenshot" >
-</a>
+### 🔧 Key features
+- **One-click tickmarks** (✔, ✘, Δ, ≠, ≈, ∅, ⚠, ⓘ, ∂, ∞) — insert **in-cell** or as **floating** shapes
+- **Indexing tools**: Roman numerals, **circled / filled-circled** numbers and letters, **page indicators** (`1/`)
+- **Append mode** (optional): append symbols to existing cell text without entering edit mode
+- **Color palette & formatting**: consistent symbol colors and quick layout helpers (grid, alignment)
+- **Tie-out abbreviations**: TB, GL, FS, BS, IS, CF, PY, PM, SF, CR, RC with directional variants
+- **Annotations**: red box, callout, post-it, arrows, and highlight fills
+- **Legends & references**: drop-in legend blocks, links to IIA standards, sampling guidance, and templates
+
+### 🛠 Tech notes
+- Built with **VBA**; targets modern Office with **Segoe UI Symbol** coverage.
+- Ships as a single `.xlam`; source includes modules for routing, UI callbacks, and symbol libraries.
+
+
 
 ## <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
 
