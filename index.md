@@ -16,6 +16,8 @@ Custom Excel **`.xlam`** add-in to streamline audit fieldwork and documentation 
 > **Status:** Not publicly available yet.  
 > **Interested?** I’m gauging demand—please reach out on **[LinkedIn](https://www.linkedin.com/in/colby-k/)**.
 
+[Open User Guide](assets/img/Tickmark%20User%20Guide.png)
+
 ### 🔧 Key features
 - **One-click tickmarks** (✔, ✘, Δ, ≠, ≈, ∅, ⚠, ⓘ, ∂, ∞) — insert **in-cell** or as **floating** shapes
 - **Indexing tools**: Roman numerals, **circled / filled-circled** numbers and letters, **page indicators** (`1/`)
