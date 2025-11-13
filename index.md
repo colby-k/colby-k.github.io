@@ -21,7 +21,6 @@ Custom Excel **`.xlam`** add-in to streamline audit fieldwork and documentation 
 ### 🔧 Key features
 - **One-click tickmarks** (✔, ✘, Δ, ≠, ≈, ∅, ⚠, ⓘ, ∂, ∞) — insert **in-cell** or as **floating** shapes
 - **Indexing tools**: Roman numerals, **circled / filled-circled** numbers and letters, **page indicators** (`1/`)
-- **Append mode** (optional): append symbols to existing cell text without entering edit mode
 - **Color palette & formatting**: consistent symbol colors and quick layout helpers (grid, alignment)
 - **Tie-out abbreviations**: TB, GL, FS, BS, IS, CF, PY, PM, SF, CR, RC with directional variants
 - **Annotations**: red box, callout, post-it, arrows, and highlight fills
