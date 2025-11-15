@@ -5,6 +5,12 @@ permalink: /portfolio-test/
 ---
 
 <style>
+  /* Make the main content area wider on this page */
+  main {
+    max-width: 1200px !important;  /* try 1100–1300 if you want to tweak */
+    margin: 0 auto;
+  }
+
   .portfolio-section {
     padding: 2rem 0;
     border-top: 1px solid #e0e0e0;
@@ -24,7 +30,8 @@ permalink: /portfolio-test/
 
   .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    /* Wider cards: bump min width from 260px → 340px */
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     gap: 1.5rem;
     margin-top: 1rem;
   }
@@ -52,6 +59,7 @@ permalink: /portfolio-test/
     display: block;
   }
 </style>
+
 
 {% include analytics.html %}
 
