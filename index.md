@@ -49,7 +49,7 @@ Custom Excel **`.xlam`** add-in to streamline audit fieldwork and documentation 
 
 ### <img src="assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Risk Assessment Matrix (Excel Template)
 
-Customizable Excel-based risk matrix for internal audit and compliance teams.
+**Purpose:** configurable Excel-based risk matrix for internal audit and compliance teams.
 
 📂 [Download Template](assets/files/Risk_Assessment_Template.xlsx)
 
@@ -57,15 +57,16 @@ Customizable Excel-based risk matrix for internal audit and compliance teams.
   <img src="assets/img/Risk_Assessment.png" alt="Risk Assessment Screenshot" width="700">
 </a>
 
-- Configurable risk factors and scoring.  
-- Visual heatmap to highlight high-risk areas.  
-- Can be used for annual planning or individual engagement scoping.  
+- Configurable risk factors and scoring  
+- Visual heatmap to highlight high-risk areas  
+- Use for annual planning or engagement-level scoping  
 
 ---
 
 ## 📊 Audit Analytics – Power BI Dashboards
 
 ### <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Vendor Payments Monitoring  
+
 Risk-focused dashboard for vendor payments and unusual transaction patterns.
 
 [![Vendor Payments Screenshot](assets/img/vendor_pmts_solution1.png)](https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
@@ -73,31 +74,30 @@ Risk-focused dashboard for vendor payments and unusual transaction patterns.
 ---
 
 ### Internal Audit Issue Tracker  
+
 Tracks open vs closed issues and management action plans.
 
 [![Internal Audit Screenshot](assets/img/issue_tracker.png)](https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1)
 
 ---
 
-### Adventure Works Report  
+<details>
+  <summary><strong>More Power BI dashboards</strong></summary>
+  <br>
 
-[![Adventure Works Screenshot](assets/img/AdventureWorks.png)](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
+  #### Adventure Works Report  
+  [![Adventure Works Screenshot](assets/img/AdventureWorks.png)](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 
----
+  #### Property Management Dashboard  
+  [![Property Management Screenshot](assets/img/property_management.png)](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection7465a50eeae2e708cb4d)
 
-### Property Management Dashboard  
+  #### Sales Dashboard  
+  [![Sales Dashboard Screenshot](assets/img/Sales_Report.png)](https://app.powerbi.com/view?r=eyJrIjoiODBmZTYzMzAtYzZlMi00ODRlLWE2ZWItMmJkNDgwODhlNTc2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
+</details>
 
-[![Property Management Screenshot](assets/img/property_management.png)](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection7465a50eeae2e708cb4d)
-
----
-
-### Sales Dashboard  
-
-[![Sales Dashboard Screenshot](assets/img/Sales_Report.png)](https://app.powerbi.com/view?r=eyJrIjoiODBmZTYzMzAtYzZlMi00ODRlLWE2ZWItMmJkNDgwODhlNTc2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
-
----
 
 ## 🐍 Python Audit Apps (Streamlit)
+
 
 ### <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> <img src="assets/icons/streamlit.svg" width="22" style="vertical-align: middle; margin-left: 6px;"> Audit Sampling Tool  
 
@@ -165,4 +165,18 @@ SQL-based ETL pipeline to clean and aggregate sales data, paired with a Power BI
 - FP&A Model  
 - Audit Planning Template  
 - Risk & Control Matrix (RCM)  
-- Issue Tracking Log  
+- Issue Tracking Log
+
+
+---
+
+## 👤 About & Contact
+
+I’m an **Internal Audit Manager (CIA, CFE, CICA)** currently working in a diversified holding company environment, 
+focused on risk-based auditing and building tools that make testing more effective.
+
+- Interested in roles where **analytics and tooling are part of the audit strategy**
+- Comfortable owning **Excel/VBA**, **Power BI**, **SQL**, and **Python/Streamlit** solutions
+
+📫 Best way to reach me: [LinkedIn](https://www.linkedin.com/in/colby-k/)
+
