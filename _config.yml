@@ -1,7 +1,10 @@
-title: "Data Analytics Portfolio"
+title: "Internal Audit & Analytics Portfolio"
 logo: "/assets/img/profile_circle.png"
 description: >
-  <strong>Colby Kellersberger</strong><br><br>
+  <strong>Colby Kellersberger, CIA, CFE</strong><br><br>
+
+  Internal Audit Manager building Excel audit tools, Power BI dashboards,
+  and Python apps to make testing more efficient, risk-focused, and repeatable.<br><br>
 
   <a href="https://linkedin.com/in/colby-k" target="_blank" style="text-decoration: none;">
     <img src="/assets/icons/LinkedIn.svg" width="28" title="LinkedIn" style="margin-right: 6px;">
@@ -43,7 +46,7 @@ description: >
 
 favicon: "/portfolio.ico"
 
-remote_theme: pages-themes/minimal
+remote_theme: pages-themes/cayman@v0.2.0
 
 plugins:
   - jekyll-remote-theme
