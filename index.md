@@ -5,7 +5,7 @@ layout: default
 
 {% include analytics.html %}
 
-> Internal Audit Manager (CIA, CFE) who builds **Excel audit tools, Power BI dashboards, and Python apps**
+> Internal Audit Manager (CIA, CFE, CICA) who builds **Excel audit tools, Power BI dashboards, and Python apps**
 > to make audit testing more efficient, risk-focused, and repeatable.
 
 ---
