@@ -141,7 +141,7 @@ Fair lending pricing and underwriting simulator using synthetic borrower data, s
 
 ## 🔢 SQL & Data Projects
 
-### <img src="assets/icons/sql.svg" width="22" style="vertical-align: text-bottom;"> Data Job Market Analysis  
+### <img src="assets/icons/SQL_2025.svg" width="22" style="vertical-align: text-bottom;"> Data Job Market Analysis  
 
 [GitHub Repo](https://github.com/colby-k/SQL_Project_Data_Job_Analysis)  
 SQL analysis of job postings using PostgreSQL and Python to surface skill trends.
@@ -152,7 +152,7 @@ SQL analysis of job postings using PostgreSQL and Python to surface skill trends
 
 ---
 
-### Sales ETL & Dashboard  
+### <img src="assets/icons/SQL_2025.svg" width="22" style="vertical-align: text-bottom;"> Sales ETL & Dashboard  
 
 [GitHub Repo](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)  
 SQL-based ETL pipeline to clean and aggregate sales data, paired with a Power BI dashboard for business insights.
