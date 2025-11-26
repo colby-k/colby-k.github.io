@@ -99,6 +99,7 @@ Tracks open vs closed issues and management action plans.
 
 </details>
 
+---
 ## 🐍 Python Audit Apps (Streamlit)
 
 
