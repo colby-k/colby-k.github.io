@@ -73,7 +73,7 @@ Risk-focused dashboard for vendor payments and unusual transaction patterns.
 
 ---
 
-### Internal Audit Issue Tracker  
+### <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Internal Audit Issue Tracker  
 
 Tracks open vs closed issues and management action plans.
 
@@ -82,17 +82,19 @@ Tracks open vs closed issues and management action plans.
 ---
 
 <details markdown="1">
-<summary><strong>More Power BI dashboards</strong></summary>
+<summary style="margin-top:1rem; padding:0.6rem 0; font-size:1.0rem;">
+  <strong>📊 Click to expand: 3 more Power BI dashboards</strong>
+</summary>
 
 <br>
 
-#### Adventure Works Report  
+#### <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Adventure Works Report  
 [![Adventure Works Screenshot](assets/img/AdventureWorks.png)](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 
-#### Property Management Dashboard  
+#### <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Property Management Dashboard  
 [![Property Management Screenshot](assets/img/property_management.png)](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection7465a50eeae2e708cb4d)
 
-#### Sales Dashboard  
+#### <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Sales Dashboard  
 [![Sales Dashboard Screenshot](assets/img/Sales_Report.png)](https://app.powerbi.com/view?r=eyJrIjoiODBmZTYzMzAtYzZlMi00ODRlLWE2ZWItMmJkNDgwODhlNTc2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 
 </details>
