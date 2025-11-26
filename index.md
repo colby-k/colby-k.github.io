@@ -5,12 +5,18 @@ layout: default
 
 {% include analytics.html %}
 
-> Internal Audit Manager (CIA, CFE, CICA) who builds **Excel audit tools, Power BI dashboards, and Python apps**
-> to make audit testing more efficient, risk-focused, and repeatable.
+I’m an **Internal Audit Manager (CIA, CFE, CICA)** who builds:
+
+- **Excel audit tools** (tickmarks add-in, risk templates)
+- **Audit analytics** in **Power BI**
+- **Python apps** for sampling, Benford’s tests, and fair lending analysis
+
+> My goal: make audit testing **more efficient, risk-focused, and repeatable.**
 
 ---
 
-## 🔧 Featured Audit Tools
+## 🔧 Excel Audit Tools
+
 
 ### <img src="assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Add-In: Tickmark
 
