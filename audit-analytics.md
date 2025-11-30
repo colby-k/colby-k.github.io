@@ -41,22 +41,22 @@ Tracks open vs closed issues and management action plans.
 
 <br>
 
-#### Adventure Works Report  
+### Adventure Works Report  
 [![Adventure Works Screenshot](assets/img/AdventureWorks.png)](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 
-#### Property Management Dashboard  
+### Property Management Dashboard  
 [![Property Management Screenshot](assets/img/property_management.png)](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection7465a50eeae2e708cb4d)
 
-#### Sales Dashboard  
+### Sales Dashboard  
 [![Sales Dashboard Screenshot](assets/img/Sales_Report.png)](https://app.powerbi.com/view?r=eyJrIjoiODBmZTYzMzAtYzZlMi00ODRlLWE2ZWItMmJkNDgwODhlNTc2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 
 </details>
 
 ---
 
-## 🐍 Python Audit Apps (Streamlit)
+## <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> <img src="assets/icons/streamlit.svg" width="22" style="vertical-align: middle; margin-left: 6px;"> Python Audit Apps (Streamlit)
 
-### <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> <img src="assets/icons/streamlit.svg" width="22" style="vertical-align: middle; margin-left: 6px;"> Audit Sampling Tool  
+### Audit Sampling Tool  
 
 > **Objective:** generate statistically sound, reproducible samples for audit testing.
 
@@ -65,12 +65,12 @@ Tracks open vs closed issues and management action plans.
 Internal audit sampling utility for filtering, random sampling, and file export.
 
 <a href="https://audit-sampling-tool.streamlit.app/">
-  <img src="assets/img/audit_sampling_tool.png" alt="Audit Sampling Screenshot" width="700">
+  <img src="/assets/img/audit_sampling_tool.png" alt="Audit Sampling Screenshot" width="700">
 </a>
 
 ---
 
-### <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> <img src="assets/icons/streamlit.svg" width="22" style="vertical-align: middle; margin-left: 6px;"> Benford's Law Audit Tool  
+### Benford's Law Audit Tool  
 
 > **Objective:** quickly test numeric fields for Benford conformity and flag anomalies that may indicate fraud or error.
 
@@ -80,12 +80,12 @@ Statistical fraud detection tool using Benford’s Law to flag anomalies in fina
 [GitHub Repo](https://github.com/colby-k/benfords-law-audit-tool)
 
 <a href="https://benfords-law-audit-tool.streamlit.app">
-  <img src="assets/img/benfords_law.png" alt="Benford’s Law Screenshot" width="700">
+  <img src="/assets/img/benfords_law.png" alt="Benford’s Law Screenshot" width="700">
 </a>
 
 ---
 
-### <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> <img src="assets/icons/streamlit.svg" width="22" style="vertical-align: middle; margin-left: 6px;"> Fair Lending Analysis  
+### Fair Lending Analysis  
 
 > **Objective:** simulate pricing and underwriting outcomes and test for potential disparate impact across borrower groups.
 
@@ -94,5 +94,5 @@ Statistical fraud detection tool using Benford’s Law to flag anomalies in fina
 Fair lending pricing and underwriting simulator using synthetic borrower data, statistical testing, and interactive controls.
 
 <a href="https://fair-lending-app-app.streamlit.app/">
-  <img src="assets/img/fair_lending_app.png" alt="Fair Lending App Screenshot" width="700">
+  <img src="/assets/img/fair_lending_app.png" alt="Fair Lending App Screenshot" width="700">
 </a>
