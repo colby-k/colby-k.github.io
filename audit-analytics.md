@@ -54,7 +54,7 @@ Tracks open vs closed issues and management action plans.
 
 ---
 
-## <img src="assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> <img src="assets/icons/streamlit.svg" width="22" style="vertical-align: middle; margin-left: 6px;"> Python Audit Apps (Streamlit)
+## <img src="/assets/icons/python.svg" width="22" style="vertical-align: text-bottom;"> <img src="/assets/icons/streamlit.svg" width="22" style="vertical-align: middle; margin-left: 6px;"> Python Audit Apps (Streamlit)
 
 ### Audit Sampling Tool  
 
