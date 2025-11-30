@@ -20,8 +20,8 @@ permalink: /excel-tools/
 
 Custom Excel **`.xlam`** add-in to streamline audit fieldwork and documentation with consistent, professional notation.
 
-<a href="assets/img/excel_addin.png">
-  <img src="assets/img/excel_addin.png" alt="Audit Add-in Screenshot" width="1000">
+<a href="/assets/img/excel_addin.png">
+  <img src="/assets/img/excel_addin.png" alt="Audit Add-in Screenshot" width="1000">
 </a>
 
 > **Status:** Not publicly available yet.  
@@ -51,8 +51,8 @@ Customizable Excel-based risk matrix for internal audit and compliance teams.
 
 📂 [Download Template](assets/files/Risk_Assessment_Template.xlsx)
 
-<a href="assets/files/Risk_Assessment_Template.xlsx">
-  <img src="assets/img/Risk_Assessment.png" alt="Risk Assessment Screenshot" width="700">
+<a href="/assets/files/Risk_Assessment_Template.xlsx">
+  <img src="/assets/img/Risk_Assessment.png" alt="Risk Assessment Screenshot" width="700">
 </a>
 
 - Configurable risk factors and scoring  
