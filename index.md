@@ -23,7 +23,7 @@ I’m an **Internal Audit Manager (CIA, CFE, CICA)** who builds:
 
 ---
 
-## 🔧 Excel Audit Tools
+## <img src="/assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Audit Tools
 
 ### Tickmark Excel Add-In
 
@@ -86,7 +86,7 @@ Past projects using **SQL + Power BI** to analyze:
 
 ## 👤 About & Contact
 
-I’m an **Internal Audit Manager (CIA, CFE)** currently working in a diversified holding company environment,
+I’m an **Internal Audit Manager (CIA, CFE, CICA)** currently working in a diversified holding company environment,
 focused on risk-based auditing and building tools that make testing more effective.
 
 📫 Best way to reach me: [LinkedIn](https://www.linkedin.com/in/colby-k/)
