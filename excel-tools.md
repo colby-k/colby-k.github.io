@@ -14,7 +14,7 @@ permalink: /excel-tools/
   <a href="/about/">About</a>
 </p>
 
-# Excel Audit Tools
+# <img src="/assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Audit Tools
 
 ## Excel Add-In: Tickmark
 
