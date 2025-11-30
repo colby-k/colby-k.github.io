@@ -16,9 +16,9 @@ permalink: /audit-analytics/
 
 # Audit Analytics
 
-## <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
+## <img src="/assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
 
-### <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Vendor Payments Monitoring  
+### <img src="/assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Vendor Payments Monitoring  
 
 Risk-focused dashboard for vendor payments and unusual transaction patterns.
 
@@ -26,7 +26,7 @@ Risk-focused dashboard for vendor payments and unusual transaction patterns.
 
 ---
 
-### <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Internal Audit Issue Tracker  
+### <img src="/assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Internal Audit Issue Tracker  
 
 Tracks open vs closed issues and management action plans.
 
