@@ -14,7 +14,7 @@ permalink: /sql-projects/
   <a href="/about/">About</a>
 </p>
 
-# SQL & Data Projects
+# <img src="/assets/icons/SQL_2025.svg" width="22" style="vertical-align: text-bottom;"> SQL & Data Projects
 
 ### Data Job Market Analysis  
 
@@ -23,7 +23,7 @@ permalink: /sql-projects/
 [GitHub Repo](https://github.com/colby-k/SQL_Project_Data_Job_Analysis)
 
 <a href="https://github.com/colby-k/SQL_Project_Data_Job_Analysis">
-  <img src="assets/img/top_paying_roles.png" alt="SQL Job Analysis Screenshot" width="600">
+  <img src="/assets/img/top_paying_roles.png" alt="SQL Job Analysis Screenshot" width="600">
 </a>
 
 ---
@@ -35,5 +35,5 @@ permalink: /sql-projects/
 [GitHub Repo](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)
 
 <a href="https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis">
-  <img src="assets/img/adventure-works.png" alt="Adventure Works Screenshot" width="800">
+  <img src="/assets/img/adventure-works.png" alt="Adventure Works Screenshot" width="800">
 </a>
