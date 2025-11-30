@@ -16,7 +16,7 @@ permalink: /audit-analytics/
 
 # Audit Analytics
 
-## <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
+## <img src="/assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
 
 ### Vendor Payments Monitoring  
 
