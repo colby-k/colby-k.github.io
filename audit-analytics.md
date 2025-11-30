@@ -16,9 +16,9 @@ permalink: /audit-analytics/
 
 # Audit Analytics
 
-## <img src="/assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
+## <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Power BI Dashboards
 
-### <img src="/assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Vendor Payments Monitoring  
+### Vendor Payments Monitoring  
 
 Risk-focused dashboard for vendor payments and unusual transaction patterns.
 
@@ -26,7 +26,7 @@ Risk-focused dashboard for vendor payments and unusual transaction patterns.
 
 ---
 
-### <img src="/assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Internal Audit Issue Tracker  
+### Internal Audit Issue Tracker  
 
 Tracks open vs closed issues and management action plans.
 
@@ -41,13 +41,13 @@ Tracks open vs closed issues and management action plans.
 
 <br>
 
-#### <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Adventure Works Report  
+#### Adventure Works Report  
 [![Adventure Works Screenshot](assets/img/AdventureWorks.png)](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 
-#### <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Property Management Dashboard  
+#### Property Management Dashboard  
 [![Property Management Screenshot](assets/img/property_management.png)](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection7465a50eeae2e708cb4d)
 
-#### <img src="assets/icons/power_bi.svg" width="22" style="vertical-align: text-bottom;"> Sales Dashboard  
+#### Sales Dashboard  
 [![Sales Dashboard Screenshot](assets/img/Sales_Report.png)](https://app.powerbi.com/view?r=eyJrIjoiODBmZTYzMzAtYzZlMi00ODRlLWE2ZWItMmJkNDgwODhlNTc2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 
 </details>
