@@ -28,5 +28,5 @@ Hi, I’m **Colby Kellersberger (CIA, CFE)** — an Internal Audit Manager who e
 
 - LinkedIn: [https://www.linkedin.com/in/colby-k/](https://www.linkedin.com/in/colby-k/)  
 - GitHub: [https://github.com/colby-k](https://github.com/colby-k)  
-
+- Resume: 
 *(You can add a resume PDF link here later, e.g. `/assets/files/Colby_Kellersberger_Resume.pdf`.)*
