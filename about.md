@@ -16,7 +16,7 @@ permalink: /about/
 
 # About
 
-Hi, I’m **Colby Kellersberger (CIA, CFE)** — an Internal Audit Manager who enjoys using data and tools to make audits more effective and efficient.
+Hi, I’m **Colby Kellersberger (CIA, CFE, CICA)** — an Internal Audit Manager who enjoys using data and tools to make audits more effective and efficient.
 
 - Background in **internal audit, compliance, and BI/analytics**  
 - Experience with **Excel/VBA**, **Power BI**, **SQL**, and **Python/Streamlit**  
