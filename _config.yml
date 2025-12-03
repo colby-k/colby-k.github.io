@@ -57,11 +57,3 @@ markdown: kramdown
 
 url: "https://colby-k.github.io"
 baseurl: ""
-
-header_pages:
-  - index.md
-  - excel-tools.md
-  - audit-analytics.md
-  - sql-projects.md
-  - about.md
-
