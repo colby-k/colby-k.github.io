@@ -12,8 +12,10 @@ permalink: /about/
   /excel-tools/Excel Tools</a> ·
   /audit-analytics/Audit Analytics</a> ·
   /sql-projects/SQL Projects</a> ·
-  <a hrefAbout</a>
+  /about/About</a>
 </p>
+
+
 
 # About
 
