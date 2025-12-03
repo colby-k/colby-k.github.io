@@ -1,7 +1,7 @@
 title: "Internal Audit & Analytics Portfolio"
 logo: "/assets/img/profile_circle.png"
 description: >
-  <strong>Colby Kellersberger, CIA, CFE, CICA</strong><br>
+  <strong>Colby Kellersberger, CIA, CFE, CICA</strong><br><br>
 
   Internal Audit Manager building Excel audit tools, Power BI dashboards,
   and Python apps to make testing more efficient, risk-focused, and repeatable.<br>
@@ -12,9 +12,9 @@ description: >
   <a href="https://github.com/colby-k" target="_blank" style="text-decoration: none;">
     <img src="/assets/icons/github.svg" width="28" title="GitHub">
   </a>
-  <br>
+  <br><br>
 
-  <strong>Tools I Use:</strong><br>
+  <strong>Tools I Use:</strong><br><br>
 
   <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi" target="_blank">
     <img src="/assets/icons/power_bi.svg" width="25" title="Power BI" style="margin-right: 6px;">
