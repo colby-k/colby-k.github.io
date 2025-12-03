@@ -7,19 +7,15 @@ permalink: /about/
 {% include analytics.html %}
 
 
-!-- Navigation with active link highlighting -->
-<nav style="text-align:center; margin-bottom: 1.5rem;">
-  <ul style="list-style:none; padding:0; display:inline-flex; gap:1rem; margin:0;">
-    <li>
-      /
-        Home
-      </a>
-    </li>
-    <li>
-      <a href="/excel-tools/"
-         style="{% if page.url == '/excel-tools/' %}f="/audit-analytics/"
-         style="{% if page.url == '/audit-analytics/' %}fontsql-projects/"
-         style="{% if page.url == '/sql-projects/' %}font-weight:700; text-decoration:underline;== '/about/' %}font-weight:700; text-decoration:underlineE, CICA)** — an Internal Audit Manager who enjoys using data and tools to make audits more effective and efficient.
+<p style="text-align:center; margin-bottom: 1.5rem;">
+  /Home</a> ·
+  /excel-tools/Excel Tools</a> ·
+  /audit-analytics/Audit Analytics</a> ·
+  /sql-projects/SQL Projects</a> ·
+  <a hrefAbout</a>
+</p>
+
+# About
 
 Hi, I’m **Colby Kellersberger (CIA, CFE, CICA)** — an Internal Audit Manager who enjoys using data and tools to make audits more effective and efficient.
 
