@@ -6,14 +6,6 @@ permalink: /about/
 
 {% include analytics.html %}
 
-<p style="text-align:center; margin-bottom: 1.5rem;">
-  <a href="/">Home</a> ·
-  <a href="/excel-tools/">Excel Tools</a> ·
-  <a href="/audit-analytics/">Audit Analytics</a> ·
-  <a href="/sql-projects/">SQL Projects</a> ·
-  <a href="/about/">About</a>
-</p>
-
 # About
 
 Hi, I’m **Colby Kellersberger (CIA, CFE, CICA)** — an Internal Audit Manager who enjoys using data and tools to make audits more effective and efficient.
