@@ -6,16 +6,13 @@ permalink: /about/
 
 {% include analytics.html %}
 
-
 <p style="text-align:center; margin-bottom: 1.5rem;">
-  /Home</a> ·
-  /excel-tools/Excel Tools</a> ·
-  /audit-analytics/Audit Analytics</a> ·
-  /sql-projects/SQL Projects</a> ·
-  /about/About</a>
+  <a href="/">Home</a> |
+  <a href="/excel-tools/">Excel Tools</a> |
+  <a href="/audit-analytics/">Audit Analytics</a> |
+  <a href="/sql-projects/">SQL Projects</a> |
+  <a href="/about/">About</a>
 </p>
-
-
 
 # About
 
