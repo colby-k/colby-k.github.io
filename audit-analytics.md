@@ -36,15 +36,21 @@ Tracks open vs closed issues and management action plans.
 
 <details markdown="1">
 <summary style="margin-top:1rem; padding:0.6rem 0; font-size:1.0rem;">
-  <strong>📊 Click to expand: 3 more Power BI dashboards</strong>
+  <strong>📊 Click to expand: 2 additional Power BI dashboards</strong>
 </summary>
 
 <br>
 
 ### Adventure Works Sales & Operations Dashboard 
+
+Presents sales and operational data points commonly used for internal decision-making
+
 [![Adventure Works Screenshot](/assets/img/AdventureWorks.png)](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection)
 
 ### Property Management Dashboard  
+
+Use to identify properties based on criteria commonly used by property management companies
+
 [![Property Management Screenshot](/assets/img/property_management.png)](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection7465a50eeae2e708cb4d)
 
 </details>
