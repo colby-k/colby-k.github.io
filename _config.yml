@@ -9,9 +9,7 @@ description: >
   <a href="https://github.com/colby-k" target="_blank" style="text-decoration: none;">
     <img src="/assets/icons/github.svg" width="28" title="GitHub">
   </a>
-  <br><br>
-
-  
+    
 favicon: "/portfolio.ico"
 
 remote_theme: pages-themes/slate@v0.2.0
