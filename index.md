@@ -21,6 +21,36 @@ I’m an **Internal Audit Manager (CIA, CFE, CICA)** who builds:
 
 > My goal: make audit testing **more efficient, risk-focused, and repeatable.**
 
+Tools I Use:
+
+  <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi" target="_blank">
+    <img src="/assets/icons/power_bi.svg" width="25" title="Power BI" style="margin-right: 6px;">
+  </a>
+
+  <a href="https://learn.microsoft.com/en-us/sql/sql-server" target="_blank">
+    <img src="/assets/icons/SQL_2025.svg" width="25" title="SQL" style="margin-right: 6px;">
+  </a>
+
+  <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank">
+    <img src="/assets/icons/excel.svg" width="25" title="Excel" style="margin-right: 6px;">
+  </a>
+
+  <a href="https://www.python.org" target="_blank">
+    <img src="/assets/icons/python.svg" width="25" title="Python" style="margin-right: 6px;">
+  </a>
+
+  <a href="https://jupyter.org" target="_blank">
+    <img src="/assets/icons/jupyter.svg" width="25" title="Jupyter" style="margin-right: 6px;">
+  </a>
+
+  <a href="https://code.visualstudio.com" target="_blank">
+    <img src="/assets/icons/vs_code.svg" width="25" title="VS Code" style="margin-right: 6px;">
+  </a>
+
+  <a href="https://streamlit.io" target="_blank">
+    <img src="/assets/icons/streamlit.svg" width="25" title="Streamlit" style="margin-righ: 6px;">
+  </a>
+
 ---
 
 ## <img src="/assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Audit Tools
