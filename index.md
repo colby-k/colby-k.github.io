@@ -21,6 +21,7 @@ I’m an **Internal Audit Manager (CIA, CFE, CICA)** who builds:
 
 > My goal: make audit testing **more efficient, risk-focused, and repeatable.**
 
+<!--
 Tools I Use:
 
   <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi" target="_blank">
@@ -50,7 +51,7 @@ Tools I Use:
   <a href="https://streamlit.io" target="_blank">
     <img src="/assets/icons/streamlit.svg" width="25" title="Streamlit" style="margin-righ: 6px;">
   </a>
-
+-->
 ---
 
 ## <img src="/assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Audit Tools
