@@ -175,6 +175,17 @@ body { font-size: 1rem; }          /* keep consistent */
   opacity: 0.9;
 }
 
+/* ===== Header icon polish (theme header area) */
+header a img {
+  width: 28px;
+  height: 28px;
+  opacity: 0.95;
+}
+
+header a img:hover {
+  opacity: 1;
+}
+
 /* ===== Responsive ===== */
 
 @media (max-width: 860px) {
