@@ -7,12 +7,30 @@ layout: default
 
 <nav class="topnav topnav--header" aria-label="Primary">
   <a href="/">Home</a>
-  <a href="/excel-tools/">Excel Tools</a>
-  <a href="/audit-analytics/">Audit Analytics</a>
-  <a href="/sql-projects/">SQL Projects</a>
-  <a href="/ai-audit-assistant/">AI Assistant</a>
+
+  <a href="/excel-tools/">
+    <img class="navicon" src="/assets/icons/excel.svg" alt="" aria-hidden="true">
+    Excel Tools
+  </a>
+
+  <a href="/audit-analytics/">
+    <img class="navicon" src="/assets/icons/power_bi.svg" alt="" aria-hidden="true">
+    Audit Analytics
+  </a>
+
+  <a href="/sql-projects/">
+    <img class="navicon" src="/assets/icons/SQL_2025.svg" alt="" aria-hidden="true">
+    SQL Projects
+  </a>
+
+  <a href="/ai-audit-assistant/">
+    <img class="navicon" src="/assets/icons/copilot.svg" alt="" aria-hidden="true">
+    AI Assistant
+  </a>
+
   <a href="/about/">About</a>
 </nav>
+
 
 <section class="hero">
   <p class="kicker">Internal Audit Manager (CIA, CFE, CICA)</p>
