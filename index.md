@@ -50,7 +50,7 @@ layout: default
 
 ## Excel Audit Tools
 
-<div class="card">
+<div class="card card--wide-media">
   <div class="card__header">
     <h3 class="card__title">Tickmark Excel Add-In</h3>
     <div class="card__meta">Excel <code>.xlam</code> • VBA • Ribbon XML</div>
@@ -77,7 +77,7 @@ layout: default
   </div>
 </div>
 
-<div class="card">
+<div class="card card--wide-media">
   <div class="card__header">
     <h3 class="card__title">Risk Assessment Matrix (Excel Template)</h3>
     <div class="card__meta">Excel • Scoring model • Heatmap visualization</div>
