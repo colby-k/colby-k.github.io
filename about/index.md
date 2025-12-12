@@ -78,6 +78,15 @@ permalink: /about/
     <a href="https://streamlit.io" target="_blank" rel="noopener">
       <img src="/assets/icons/streamlit.svg" width="26" title="Streamlit" alt="Streamlit">
     </a>
+    
+    <a href="https://chatgpt.com/" target="_blank" rel="noopener">
+      <img src="/assets/icons/chatgpt.svg" width="26" title="ChatGPT" alt="ChatGPT">
+    </a>
+
+    <a href="https://github.com/features/copilot" target="_blank" rel="noopener">
+      <img src="/assets/icons/github_copilot.svg" width="26" title="GitHub Copilot" alt="GitHub Copilot">
+    </a>
+
   </div>
 </div>
 
