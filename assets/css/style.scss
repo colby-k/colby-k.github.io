@@ -62,6 +62,13 @@ body { font-size: 1rem; }          /* keep consistent */
   margin: 0.25rem 0 1rem 0;
 }
 
+.hero .sublede {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0.25rem 0 1rem 0;
+}
+
 .stack {
   display: flex;
   flex-wrap: wrap;
@@ -184,6 +191,34 @@ header a img {
 
 header a img:hover {
   opacity: 1;
+}
+
+/* ===== Tools icons (About page) ===== */
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.tools a {
+  display: inline-flex;
+  padding: 2px;
+  border-radius: 8px;
+}
+
+.tools a img {
+  width: 26px;
+  height: 26px;
+  opacity: 0.95;
+  transition: transform 120ms ease, opacity 120ms ease;
+}
+
+.tools a img:hover {
+  opacity: 1;
+  transform: translateY(-1px);
 }
 
 /* ===== Responsive ===== */
