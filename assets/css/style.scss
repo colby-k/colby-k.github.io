@@ -3,6 +3,34 @@
 
 @import "{{ site.theme }}";
 
+/* ===== Header branding (Slate theme) ===== */
+#header_wrap {
+  background-image: url("/favicon.ico");   /* change path if needed */
+  background-repeat: no-repeat;
+  background-position: 36px center;        /* left padding position */
+  background-size: 88px 88px;              /* logo size */
+}
+
+/* Push the header text right so it doesn't overlap the logo */
+#header_wrap .inner {
+  padding-left: 150px;
+}
+
+/* Mobile: center the logo above the text and reset padding */
+@media (max-width: 860px) {
+  #header_wrap {
+    background-position: center 22px;
+    background-size: 64px 64px;
+  }
+
+  #header_wrap .inner {
+    padding-left: 0;
+    padding-top: 80px;
+    text-align: center;
+  }
+}
+
+
 /* ===== Make everything larger + widen the content column ===== */
 
 html { font-size: 19px; }          /* global scale */
