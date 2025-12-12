@@ -6,55 +6,121 @@ permalink: /excel-tools/
 
 {% include analytics.html %}
 
-<p style="text-align:center; margin-bottom: 1.5rem;">
-  <a href="/">Home</a> |
-  <a href="/excel-tools/">Excel Tools</a> |
-  <a href="/audit-analytics/">Audit Analytics</a> |
-  <a href="/sql-projects/">SQL Projects</a> |
+<nav class="topnav" aria-label="Primary">
+  <a href="/">Home</a>
+  <a href="/excel-tools/">Excel Tools</a>
+  <a href="/audit-analytics/">Audit Analytics</a>
+  <a href="/sql-projects/">SQL Projects</a>
   <a href="/about/">About</a>
-</p>
+</nav>
 
-# <img src="/assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Audit Tools
+<section class="hero">
+  <p class="kicker">Excel Audit Tools</p>
 
-## Excel Add-In: Tickmark
+  <p class="lede">
+    Custom Excel-based tools designed to standardize audit documentation,
+    reduce manual fieldwork, and improve review clarity.
+  </p>
 
-Custom Excel **`.xlam`** add-in to streamline audit fieldwork and documentation with consistent, professional notation.
+  <div class="stack">
+    <span class="pill">Excel</span>
+    <span class="pill">VBA</span>
+    <span class="pill">Ribbon XML</span>
+    <span class="pill">Audit Documentation</span>
+    <span class="pill">Process Standardization</span>
+  </div>
+</section>
 
-<a href="/assets/img/excel_addin.png">
-  <img src="/assets/img/excel_addin.png" alt="Audit Add-in Screenshot" width="1000">
-</a>
+<hr class="sep" />
 
-> **Status:** Not publicly available yet.  
-> **Interested?** I’m gauging demand—please reach out on **[LinkedIn](https://www.linkedin.com/in/colby-k/)**.
+## Excel Add-In: Tickmark Tool
 
-[Open User Guide](assets/img/Tickmark%20User%20Guide.png)
+<div class="card">
+  <div class="card__header">
+    <h3 class="card__title">Audit Tickmark Excel Add-In</h3>
+    <div class="card__meta">Excel <code>.xlam</code> • VBA • Ribbon XML</div>
+  </div>
 
-### Key Features  
+  <p><strong>Problem</strong><br/>
+  Audit documentation is often inconsistent across workpapers, and inserting tickmarks,
+  legends, and annotations is repetitive and time-consuming.</p>
 
-- **One-click tickmarks** (✔, ✘, Δ, ≠, ≈, ∅, ⚠, ⓘ, ∂, ∞) — insert **in-cell** or as **floating** shapes  
-- **Indexing tools**: Roman numerals, **circled / filled-circled** numbers and letters, **page indicators** (`1/`)  
-- **Color palette & formatting**: consistent symbol colors and quick layout helpers (grid, alignment)  
-- **Tie-out abbreviations**: TB, GL, FS, BS, IS, CF, PY, PM, SF, CR, RC with directional variants  
-- **Annotations**: red box, callout, post-it, arrows, and highlight fills  
-- **Legends & references**: drop-in legend blocks, links to IIA standards, sampling guidance, and templates  
+  <p><strong>Approach</strong><br/>
+  Built a custom Excel add-in with a ribbon-based interface to insert standardized
+  tickmarks, annotations, legends, and references with one click.</p>
 
-### Tech Notes  
+  <p><strong>Audit value</strong><br/>
+  Faster fieldwork, consistent notation, and improved reviewer experience.</p>
 
-- Built with **VBA**; targets modern Office with **Segoe UI Symbol** coverage.  
-- Ships as a single `.xlam`; source includes modules for routing, UI callbacks, and symbol libraries.  
+  <p><strong>Status</strong><br/>
+  Not publicly available yet. I’m gauging demand — feel free to reach out via
+  <a href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>.</p>
 
----
+  <p class="cta-row">
+    <a class="btn btn--ghost" href="/assets/img/Tickmark%20User%20Guide.png" target="_blank" rel="noopener">
+      View user guide
+    </a>
+  </p>
+
+  <div class="media">
+    <img src="/assets/img/excel_addin.png" alt="Audit tickmark Excel add-in screenshot">
+    <p class="caption">Ribbon-based tickmarks, annotations, and audit documentation helpers.</p>
+  </div>
+</div>
+
+<div class="card">
+  <h3 class="card__title">Key Features</h3>
+
+  <ul class="bullets">
+    <li><strong>One-click tickmarks</strong> — ✔ ✘ Δ ≠ ≈ ∅ ⚠ ⓘ ∂ ∞ (in-cell or floating)</li>
+    <li><strong>Indexing tools</strong> — Roman numerals, circled/filled letters and numbers, page indicators</li>
+    <li><strong>Formatting helpers</strong> — consistent symbol colors, alignment, and grid tools</li>
+    <li><strong>Tie-out abbreviations</strong> — TB, GL, FS, BS, IS, CF, PY, PM, SF, CR, RC (with direction)</li>
+    <li><strong>Annotations</strong> — callouts, red boxes, arrows, highlights, post-it notes</li>
+    <li><strong>Legends & references</strong> — drop-in legends, IIA standards links, sampling guidance</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3 class="card__title">Technical Notes</h3>
+
+  <ul class="bullets">
+    <li>Built entirely in <strong>VBA</strong> with a modular architecture</li>
+    <li>Custom <strong>Ribbon XML</strong> for UI controls and callbacks</li>
+    <li>Ships as a single <code>.xlam</code> file</li>
+    <li>Targets modern Office builds with <strong>Segoe UI Symbol</strong> coverage</li>
+  </ul>
+</div>
+
+<hr class="sep" />
 
 ## Risk Assessment Matrix (Excel Template)
 
-Customizable Excel-based risk matrix for internal audit and compliance teams.
+<div class="card">
+  <div class="card__header">
+    <h3 class="card__title">Risk Assessment Matrix</h3>
+    <div class="card__meta">Excel • Risk scoring • Heatmap visualization</div>
+  </div>
 
-📂 [Download Template](assets/files/Risk_Assessment_Template.xlsx)
+  <p><strong>Problem</strong><br/>
+  Risk scoring can vary significantly between audits and is often difficult to
+  summarize clearly for planning and reporting.</p>
 
-<a href="/assets/files/Risk_Assessment_Template.xlsx">
-  <img src="/assets/img/Risk_Assessment.png" alt="Risk Assessment Screenshot" width="700">
-</a>
+  <p><strong>Approach</strong><br/>
+  Developed a configurable Excel template with customizable risk factors,
+  weighted scoring, and an automatic heatmap.</p>
 
-- Configurable risk factors and scoring  
-- Visual heatmap to highlight high-risk areas  
-- Use for annual planning or engagement-level scoping  
+  <p><strong>Audit value</strong><br/>
+  More consistent risk prioritization and clearer communication with stakeholders.</p>
+
+  <p class="cta-row">
+    <a class="btn" href="/assets/files/Risk_Assessment_Template.xlsx">
+      Download template
+    </a>
+  </p>
+
+  <div class="media">
+    <img src="/assets/img/Risk_Assessment.png" alt="Risk assessment matrix screenshot">
+    <p class="caption">Configurable risk factors with an at-a-glance heatmap.</p>
+  </div>
+</div>
