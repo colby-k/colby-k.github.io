@@ -107,6 +107,29 @@ layout: default
 
 <hr class="sep" />
 
+## AI-Enabled Audit Documentation
+
+<div class="card">
+  <p>
+    I designed a governed AI assistant to support internal auditors with
+    audit documentation while enforcing methodology, sampling rules,
+    and documentation discipline.
+  </p>
+
+  <p>
+    Unlike generic AI tools, this assistant operates within strict guardrails:
+    it requires explicit activity selection (Narrative, Walkthrough, Test Plan,
+    Testing Results, or Issue), prevents fabrication, and embeds approved
+    sampling guidance directly into its behavior.
+  </p>
+
+  <p class="cta-row">
+    <a class="btn" href="/ai-audit-assistant/">View AI assistant overview</a>
+  </p>
+</div>
+
+<hr class="sep" />
+
 ## Audit Analytics
 
 <div class="card">
