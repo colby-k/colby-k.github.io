@@ -5,7 +5,7 @@ layout: default
 
 {% include analytics.html %}
 
-<nav class="topnav" aria-label="Primary">
+<nav class="topnav topnav--header" aria-label="Primary">
   <a href="/">Home</a>
   <a href="/excel-tools/">Excel Tools</a>
   <a href="/audit-analytics/">Audit Analytics</a>
