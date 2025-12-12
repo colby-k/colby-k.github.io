@@ -10,6 +10,7 @@ layout: default
   <a href="/excel-tools/">Excel Tools</a>
   <a href="/audit-analytics/">Audit Analytics</a>
   <a href="/sql-projects/">SQL Projects</a>
+  <a href="/ai-audit-assistant/">AI Assistant</a>
   <a href="/about/">About</a>
 </nav>
 
