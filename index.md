@@ -5,119 +5,160 @@ layout: default
 
 {% include analytics.html %}
 
-<p style="text-align:center; margin-bottom: 1.5rem;">
-  <a href="/">Home</a> |
-  <a href="/excel-tools/">Excel Tools</a> |
-  <a href="/audit-analytics/">Audit Analytics</a> |
-  <a href="/sql-projects/">SQL Projects</a> |
+<nav class="topnav" aria-label="Primary">
+  <a href="/">Home</a>
+  <a href="/excel-tools/">Excel Tools</a>
+  <a href="/audit-analytics/">Audit Analytics</a>
+  <a href="/sql-projects/">SQL Projects</a>
   <a href="/about/">About</a>
-</p>
+</nav>
 
-I’m an **Internal Audit Manager (CIA, CFE, CICA)** who builds:
+<section class="hero">
+  <p class="kicker">Internal Audit Manager (CIA, CFE, CICA)</p>
 
-- **Excel audit tools** (tickmark add-in, risk templates)
-- **Audit analytics** in **Power BI**
-- **Python apps** for sampling, Benford’s tests, and fair lending analysis
+  <p class="lede">
+    I build practical audit tools and analytics that reduce manual testing,
+    standardize documentation, and surface risk faster.
+  </p>
 
-> My goal: make audit testing **more efficient, risk-focused, and repeatable.**
+  <div class="stack">
+    <span class="pill">Excel / VBA</span>
+    <span class="pill">Ribbon XML</span>
+    <span class="pill">Power BI (DAX / Modeling)</span>
+    <span class="pill">Python (pandas)</span>
+    <span class="pill">SQL</span>
+    <span class="pill">Streamlit</span>
+  </div>
 
-<!--
-Tools I Use:
+  <div class="metrics">
+    <div class="metric">
+      <div class="metric__value">Audit tooling</div>
+      <div class="metric__label">Repeatable templates + add-ins</div>
+    </div>
+    <div class="metric">
+      <div class="metric__value">Analytics</div>
+      <div class="metric__label">Risk-based testing + dashboards</div>
+    </div>
+    <div class="metric">
+      <div class="metric__value">Automation</div>
+      <div class="metric__label">Faster fieldwork + cleaner review</div>
+    </div>
+  </div>
+</section>
 
-  <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi" target="_blank">
-    <img src="/assets/icons/power_bi.svg" width="25" title="Power BI" style="margin-right: 6px;">
-  </a>
+<hr class="sep" />
 
-  <a href="https://learn.microsoft.com/en-us/sql/sql-server" target="_blank">
-    <img src="/assets/icons/SQL_2025.svg" width="25" title="SQL" style="margin-right: 6px;">
-  </a>
+## Excel Audit Tools
 
-  <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank">
-    <img src="/assets/icons/excel.svg" width="25" title="Excel" style="margin-right: 6px;">
-  </a>
+<div class="card">
+  <div class="card__header">
+    <h3 class="card__title">Tickmark Excel Add-In</h3>
+    <div class="card__meta">Excel <code>.xlam</code> • VBA • Ribbon XML</div>
+  </div>
 
-  <a href="https://www.python.org" target="_blank">
-    <img src="/assets/icons/python.svg" width="25" title="Python" style="margin-right: 6px;">
-  </a>
+  <div class="card__grid">
+    <div>
+      <p><strong>Problem</strong><br/>Inconsistent audit notation and time spent inserting tickmarks/legends across workpapers.</p>
+      <p><strong>Approach</strong><br/>Custom add-in with one-click tickmarks, legends, and reference templates for standardized documentation.</p>
+      <p><strong>Audit value</strong><br/>Faster workpaper prep, improved consistency, and smoother review.</p>
 
-  <a href="https://jupyter.org" target="_blank">
-    <img src="/assets/icons/jupyter.svg" width="25" title="Jupyter" style="margin-right: 6px;">
-  </a>
+      <p class="cta-row">
+        <a class="btn" href="/excel-tools/#excel-add-in-tickmark">View walkthrough</a>
+        <a class="btn btn--ghost" href="/excel-tools/">Excel tools page</a>
+      </p>
+    </div>
 
-  <a href="https://code.visualstudio.com" target="_blank">
-    <img src="/assets/icons/vs_code.svg" width="25" title="VS Code" style="margin-right: 6px;">
-  </a>
+    <div class="media">
+      <a href="/assets/img/excel_addin.png">
+        <img src="/assets/img/excel_addin.png" alt="Tickmark add-in screenshot">
+      </a>
+      <p class="caption">Ribbon-based tickmarks and audit documentation helpers.</p>
+    </div>
+  </div>
+</div>
 
-  <a href="https://streamlit.io" target="_blank">
-    <img src="/assets/icons/streamlit.svg" width="25" title="Streamlit" style="margin-righ: 6px;">
-  </a>
--->
----
+<div class="card">
+  <div class="card__header">
+    <h3 class="card__title">Risk Assessment Matrix (Excel Template)</h3>
+    <div class="card__meta">Excel • Scoring model • Heatmap visualization</div>
+  </div>
 
-## <img src="/assets/icons/excel.svg" width="22" style="vertical-align: text-bottom;"> Excel Audit Tools
+  <div class="card__grid">
+    <div>
+      <p><strong>Problem</strong><br/>Risk scoring is often inconsistent across audits and hard to communicate succinctly.</p>
+      <p><strong>Approach</strong><br/>Configurable risk factors and scoring with an at-a-glance heatmap to highlight high-risk areas.</p>
+      <p><strong>Audit value</strong><br/>More consistent prioritization and clearer risk communication.</p>
 
-### Tickmark Excel Add-In
+      <p class="cta-row">
+        <a class="btn" href="/excel-tools/#risk-assessment-matrix">View details + download</a>
+        <a class="btn btn--ghost" href="/excel-tools/">Excel tools page</a>
+      </p>
+    </div>
 
-Custom Excel **`.xlam`** add-in to streamline audit fieldwork and documentation with consistent, professional notation.
+    <div class="media">
+      <a href="/assets/img/Risk_Assessment.png">
+        <img src="/assets/img/Risk_Assessment.png" alt="Risk assessment matrix screenshot">
+      </a>
+      <p class="caption">Configurable factors with a heatmap summary.</p>
+    </div>
+  </div>
+</div>
 
-<a href="assets/img/excel_addin.png">
-  <img src="assets/img/excel_addin.png" alt="Audit Add-in Screenshot" width="900">
-</a>
+<hr class="sep" />
 
-Highlights:
+## Audit Analytics
 
-- One-click tickmarks (✔, ✘, Δ, ≠, ∅, etc.) in-cell or floating  
-- Roman numerals, circled numbers/letters, page indicators  
-- Built-in tickmark legend and reference templates  
+<div class="card">
+  <div class="card__header">
+    <h3 class="card__title">Dashboards, monitoring, and testing apps</h3>
+    <div class="card__meta">Power BI • Python • Streamlit</div>
+  </div>
 
-👉 **Full details:** [Excel Audit Tools](/excel-tools/#excel-add-in-tickmark)
+  <ul class="bullets">
+    <li>Vendor payments monitoring (duplicate/split payments, unusual vendors)</li>
+    <li>Issue tracking dashboards for audit follow-up</li>
+    <li>Sampling and Benford’s Law analysis apps</li>
+    <li>Fair lending pricing/underwriting simulator</li>
+  </ul>
 
----
+  <p class="cta-row">
+    <a class="btn" href="/audit-analytics/">Explore audit analytics</a>
+  </p>
+</div>
 
-### Risk Assessment Matrix (Excel Template)
+<hr class="sep" />
 
-Configurable Excel-based risk matrix for internal audit and compliance.
+## SQL & Data Projects
 
-<a href="assets/img/Risk_Assessment.png">
-  <img src="assets/img/Risk_Assessment.png" alt="Risk Assessment Screenshot" width="700">
-</a>
+<div class="card">
+  <div class="card__header">
+    <h3 class="card__title">SQL + BI case studies</h3>
+    <div class="card__meta">SQL • Power BI</div>
+  </div>
 
-Highlights:
+  <ul class="bullets">
+    <li>Data job market skills and pay</li>
+    <li>Sales performance and profitability</li>
+  </ul>
 
-- Customizable risk factors and scoring  
-- Visual heatmap to highlight high-risk areas  
+  <p class="cta-row">
+    <a class="btn" href="/sql-projects/">View SQL projects</a>
+  </p>
+</div>
 
-👉 **More info & download:** [Excel Audit Tools](/excel-tools/#risk-assessment-matrix)
+<hr class="sep" />
 
----
+## About & Contact
 
-## 📊 Audit Analytics
+<div class="card">
+  <p>
+    I’m an Internal Audit Manager focused on risk-based auditing and building tools that make testing
+    more efficient, consistent, and repeatable in complex environments.
+  </p>
 
-I use **Power BI** and **Python/Streamlit** to support risk-based audits:
-
-- Vendor payments monitoring (duplicate/split payments, unusual vendors)
-- Internal audit issue tracking dashboards
-- Sampling and Benford’s Law analysis apps
-- Fair lending pricing/underwriting simulator
-
-👉 **See dashboards and apps:** [Audit Analytics](/audit-analytics/)
-
----
-
-## 🔢 SQL & Data Projects
-
-Past projects using **SQL + Power BI** to analyze:
-
-- Data job market skills and pay  
-- Sales performance and profitability  
-
-👉 **Project details:** [SQL & Data Projects](/sql-projects/)
-
----
-
-## 👤 About & Contact
-
-I’m an **Internal Audit Manager (CIA, CFE, CICA)** currently working in a diversified holding company environment,
-focused on risk-based auditing and building tools that make testing more effective.
-
-📫 Best way to reach me: [LinkedIn](https://www.linkedin.com/in/colby-k/)
+  <p class="cta-row">
+    <a class="btn" href="/about/">About</a>
+    <a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn btn--ghost" href="https://github.com/colby-k" target="_blank" rel="noopener">GitHub</a>
+  </p>
+</div>
