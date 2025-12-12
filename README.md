@@ -1,42 +1,68 @@
+# Internal Audit & Analytics Portfolio
 
-## 🚀 Featured Projects
+This repository contains the source code for my GitHub Pages site, which serves as a professional portfolio showcasing audit-focused tools, analytics, and automation projects.
 
-### 📊 Power BI Dashboards
+The site highlights practical work developed in the context of internal audit, with an emphasis on improving efficiency, consistency, documentation quality, and risk coverage.
 
-**[Adventure Works Report](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)**  
-[![Adventure Works](assets/img/AdventureWorks.png)](https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
-
-**[Property Management Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)**  
-[![Property Management](assets/img/property_management.png)](https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
-
-**[Sales Analysis – SQL + Power BI](https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis)**  
-[![Sales Dashboard](assets/img/Sales_Report.png)](https://app.powerbi.com/view?r=eyJrIjoiODBmZTYzMzAtYzZlMi00ODRlLWE2ZWItMmJkNDgwODhlNTc2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+🔗 **Live site:** https://colby-k.github.io/
 
 ---
 
-### 🐍 Python + SQL Projects
+## Overview
 
-**[Fair Lending Analysis](https://github.com/colby-k/Python_Project_Fair_Lending_Analysis)**  
-Fair pricing audit simulator using synthetic borrower data, statistical testing, and ipywidgets UI.
+The portfolio includes examples across several areas:
 
-**[Data Job Market Analysis](https://github.com/colby-k/SQL_Project_Data_Job_Analysis)**  
-SQL + Python project analyzing job posting data and extracting trends using PostgreSQL and Pandas.
+### 🔹 Excel Audit Tools
+- Custom Excel-based tooling, including a VBA-driven audit tickmark add-in
+- Templates designed to standardize documentation and risk assessment
+- Focus on repeatability, usability, and audit review efficiency
+
+### 🔹 Audit Analytics
+- Power BI dashboards for audit monitoring and issue tracking
+- Python and Streamlit applications supporting sampling, anomaly detection, and compliance analysis
+- Analytics designed to support audit judgment, not replace it
+
+### 🔹 SQL & Data Projects
+- End-to-end SQL projects demonstrating data extraction, transformation, and analysis
+- BI dashboards built on modeled datasets to support analytical storytelling
+
+### 🔹 AI-Enabled Audit Assistant
+- A governed AI assistant designed to support audit documentation
+- Enforces audit methodology, sampling guidance, and documentation discipline
+- Built with explicit guardrails to prevent fabrication, scope creep, or misuse
+
+---
+
+## Design Principles
+
+Across all projects, the following principles guide development:
+
+- **Audit-first mindset** — tools support auditors; judgment remains with humans
+- **Governance and control** — methodology and standards are enforced, not optional
+- **Practical implementation** — solutions are designed for real audit environments
+- **Clarity and consistency** — outputs are review-ready and defensible
 
 ---
 
-### 🧪 Streamlit Tools
+## Technology Stack
 
-**Audit Sampling Tool**  
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://audit-sampling-tool.streamlit.app/)  
-Upload data → filter → sample → export — a lightweight utility for audit teams.
-
-![Audit Sampling Tool Screenshot](assets/img/sampling_tool.png)
-
-**Benford's Law Audit Tool**  
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://benfords-law-audit-tool.streamlit.app)  
-Digit distribution checker using Benford’s Law and chi-squared analysis.  
-[GitHub Repo](https://github.com/colby-k/benfords-law-audit-tool)
-
-![Benford's Law Screenshot](assets/img/benfords_law.png)
+- Excel / VBA / Ribbon XML  
+- Power BI (data modeling, DAX)  
+- SQL  
+- Python (pandas, Streamlit)  
+- GitHub Pages (Jekyll, Slate theme)  
 
 ---
+
+## Notes
+
+- This portfolio is intended for demonstration and discussion purposes only.
+- No proprietary company data, systems, or documentation are included.
+- All examples are generalized or use synthetic/public datasets.
+
+---
+
+## Contact
+
+- LinkedIn: https://www.linkedin.com/in/colby-k/
+- GitHub: https://github.com/colby-k
