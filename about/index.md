@@ -33,6 +33,8 @@ permalink: /about/
   </div>
 </section>
 
+<hr class="sep" />
+
 <div class="card">
   <h3 class="card__title">What I focus on</h3>
 
@@ -42,6 +44,45 @@ permalink: /about/
     <li>Reducing manual effort in fieldwork while improving review clarity</li>
   </ul>
 </div>
+
+<hr class="sep" />
+
+<div class="card">
+  <h3 class="card__title">Tools I Use</h3>
+
+  <div class="tools">
+    <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi" target="_blank" rel="noopener">
+      <img src="/assets/icons/power_bi.svg" width="26" title="Power BI" alt="Power BI">
+    </a>
+
+    <a href="https://learn.microsoft.com/en-us/sql/sql-server" target="_blank" rel="noopener">
+      <img src="/assets/icons/SQL_2025.svg" width="26" title="SQL" alt="SQL">
+    </a>
+
+    <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" rel="noopener">
+      <img src="/assets/icons/excel.svg" width="26" title="Excel" alt="Excel">
+    </a>
+
+    <a href="https://www.python.org" target="_blank" rel="noopener">
+      <img src="/assets/icons/python.svg" width="26" title="Python" alt="Python">
+    </a>
+
+    <a href="https://jupyter.org" target="_blank" rel="noopener">
+      <img src="/assets/icons/jupyter.svg" width="26" title="Jupyter" alt="Jupyter">
+    </a>
+
+    <a href="https://code.visualstudio.com" target="_blank" rel="noopener">
+      <img src="/assets/icons/vs_code.svg" width="26" title="VS Code" alt="VS Code">
+    </a>
+
+    <a href="https://streamlit.io" target="_blank" rel="noopener">
+      <img src="/assets/icons/streamlit.svg" width="26" title="Streamlit" alt="Streamlit">
+    </a>
+  </div>
+</div>
+
+<hr class="sep" />
+
 
 <div class="card">
   <h3 class="card__title">Resume & Links</h3>
