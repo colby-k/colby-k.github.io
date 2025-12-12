@@ -86,14 +86,42 @@ permalink: /audit-analytics/
 <br>
 
 <div class="card">
-  <h3 class="card__title">Adventure Works – Sales & Operations</h3>
+  <h3 class="card__title">Adventure Works – Sales & Operations Dashboard</h3>
+  <div class="card__meta">Power BI • Data modeling • Operational analytics</div>
+
+  <p><strong>Purpose</strong><br/>
+  Demonstrate end-to-end dashboard development using a multi-table operational dataset,
+  with a focus on metrics commonly reviewed by management and internal audit.</p>
+
+  <p><strong>Approach</strong><br/>
+  Modeled sales, product, and operational data into a star schema and built interactive visuals
+  to analyze revenue trends, product performance, and operational drivers.</p>
+
+  <p><strong>Analytical value</strong><br/>
+  Illustrates how transactional data can be transformed into decision-support insights and used to
+  identify unusual trends, margin pressure, or performance anomalies.</p>
+
   <div class="media">
-    <img src="/assets/img/AdventureWorks.png" alt="Adventure Works dashboard">
+    <img src="/assets/img/AdventureWorks.png" alt="Adventure Works sales and operations dashboard">
   </div>
 </div>
 
 <div class="card">
   <h3 class="card__title">Property Management Dashboard</h3>
+  <div class="card__meta">Power BI • Portfolio analysis • Management reporting</div>
+
+  <p><strong>Purpose</strong><br/>
+  Provide a consolidated view of property-level performance metrics commonly used by property management
+  and oversight teams.</p>
+
+  <p><strong>Approach</strong><br/>
+  Built a dashboard to filter and segment properties based on operational and financial criteria, enabling
+  targeted review of underperforming or higher-risk locations.</p>
+
+  <p><strong>Analytical value</strong><br/>
+  Supports portfolio oversight by highlighting outliers, trends, and performance variances that may warrant
+  further review or investigation.</p>
+
   <div class="media">
     <img src="/assets/img/property_management.png" alt="Property management dashboard">
   </div>
