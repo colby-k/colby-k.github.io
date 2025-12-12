@@ -84,7 +84,7 @@ permalink: /about/
     </a>
 
     <a href="https://github.com/features/copilot" target="_blank" rel="noopener">
-      <img src="/assets/icons/github_copilot.svg" width="26" title="GitHub Copilot" alt="GitHub Copilot">
+      <img src="/assets/icons/copilot.svg" width="26" title="GitHub Copilot" alt="GitHub Copilot">
     </a>
 
   </div>
