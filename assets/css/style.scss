@@ -3,11 +3,40 @@
 
 @import "{{ site.theme }}";
 
+/* ===== Make everything larger + widen the content column ===== */
+
+html { font-size: 19px; }          /* global scale */
+body { font-size: 1rem; }          /* keep consistent */
+
+/* Slate theme content wrapper(s) */
+.inner {
+  max-width: 1080px !important;    /* wider page */
+  width: 100% !important;
+}
+
+/* Some Slate builds use #main_content, widen it too */
+#main_content {
+  max-width: 1080px !important;
+  width: 100% !important;
+}
+
+/* Improve readability a bit */
+#main_content p,
+#main_content li {
+  line-height: 1.65;
+}
+
+/* Headings: a bit larger */
+#main_content h1 { font-size: 2.1rem; }
+#main_content h2 { font-size: 1.6rem; }
+#main_content h3 { font-size: 1.25rem; }
+
 /* ===== Header branding (Slate theme) ===== */
+/* Uses your favicon as a "logo" in the black header area */
 #header_wrap {
   background-image: url("/favicon.ico");   /* change path if needed */
   background-repeat: no-repeat;
-  background-position: 36px center;        /* left padding position */
+  background-position: 36px center;        /* left position */
   background-size: 88px 88px;              /* logo size */
 }
 
@@ -30,35 +59,6 @@
   }
 }
 
-
-/* ===== Make everything larger + widen the content column ===== */
-
-html { font-size: 19px; }          /* global scale */
-body { font-size: 1rem; }          /* keep consistent */
-
-/* Slate theme content wrapper(s) */
-.inner {
-  max-width: 1080px !important;    /* wider page */
-  width: 100% !important;
-}
-
-/* Some Slate builds use #main_content */
-#main_content {
-  max-width: 1080px !important;
-  width: 100% !important;
-}
-
-/* Improve readability a bit */
-#main_content p,
-#main_content li {
-  line-height: 1.65;
-}
-
-/* Headings: a bit larger */
-#main_content h1 { font-size: 2.1rem; }
-#main_content h2 { font-size: 1.6rem; }
-#main_content h3 { font-size: 1.25rem; }
-
 /* ===== Layout polish ===== */
 
 .topnav {
@@ -74,6 +74,41 @@ body { font-size: 1rem; }          /* keep consistent */
   text-decoration: none;
   padding: 0.35rem 0.55rem;
   border-radius: 0.5rem;
+}
+
+/* ===== Move topnav into the black header area (Slate) ===== */
+/* Add class "topnav--header" to your nav on each page to enable this */
+.topnav--header {
+  position: relative;
+  z-index: 5;
+
+  /* pull the nav upward into the header area */
+  margin-top: -90px;
+  margin-bottom: 2.0rem;
+
+  justify-content: flex-start;
+
+  /* aligns with header logo offset above */
+  padding-left: 150px;
+}
+
+.topnav--header a {
+  color: rgba(255,255,255,0.92);
+  border: 1px solid rgba(255,255,255,0.18);
+}
+
+.topnav--header a:hover {
+  color: #fff;
+  border-color: rgba(255,255,255,0.32);
+}
+
+/* Mobile: keep nav readable and avoid overlap */
+@media (max-width: 860px) {
+  .topnav--header {
+    margin-top: -10px;
+    padding-left: 0;
+    justify-content: center;
+  }
 }
 
 .hero .kicker {
@@ -210,7 +245,7 @@ body { font-size: 1rem; }          /* keep consistent */
   opacity: 0.9;
 }
 
-/* ===== Header icon polish (theme header area) */
+/* ===== Header icon polish (theme header area) ===== */
 header a img {
   width: 28px;
   height: 28px;
