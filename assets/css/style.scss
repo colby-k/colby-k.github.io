@@ -134,6 +134,11 @@ body { font-size: 1rem; }          /* keep consistent */
   align-items: start;
 }
 
+/* Home page: make the media column wider for selected cards */
+.card--wide-media .card__grid {
+  grid-template-columns: 0.9fr 1.3fr;
+}
+
 .media img {
   width: 100%;
   height: auto;
