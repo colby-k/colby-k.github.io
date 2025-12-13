@@ -4,7 +4,6 @@
 @import "{{ site.theme }}";
 
 /* ===== Global scale & width ===== */
-
 html { font-size: 19px; }
 body { font-size: 1rem; }
 
@@ -30,7 +29,6 @@ body { font-size: 1rem; }
 #main_content h3 { font-size: 1.25rem; }
 
 /* ===== Header branding (favicon as logo) ===== */
-
 #header_wrap {
   background-image: url("/favicon.ico");
   background-repeat: no-repeat;
@@ -40,10 +38,11 @@ body { font-size: 1rem; }
 
 #header_wrap .inner {
   padding-left: 150px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ===== Navigation ===== */
-
 .topnav {
   display: flex;
   flex-wrap: wrap;
@@ -69,13 +68,12 @@ body { font-size: 1rem; }
   opacity: 0.95;
 }
 
-/* ===== Move nav into black header ===== */
-
+/* ===== Nav inside black header ===== */
 .topnav--header {
   position: relative;
   z-index: 5;
-  margin-top: -90px;
-  margin-bottom: 2rem;
+  margin: 0;              /* removed negative margin hack */
+  margin-bottom: 1rem;
   justify-content: flex-start;
   padding-left: 150px;
 }
@@ -91,7 +89,6 @@ body { font-size: 1rem; }
 }
 
 /* ===== Hero ===== */
-
 .hero .kicker {
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -129,7 +126,6 @@ body { font-size: 1rem; }
 }
 
 /* ===== Metrics ===== */
-
 .metrics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -159,7 +155,6 @@ body { font-size: 1rem; }
 }
 
 /* ===== Cards ===== */
-
 .card {
   border: 1px solid rgba(255,255,255,0.12);
   border-radius: 1rem;
@@ -229,7 +224,6 @@ body { font-size: 1rem; }
 }
 
 /* ===== Tools icons (About page) ===== */
-
 .tools {
   display: flex;
   flex-wrap: wrap;
@@ -257,7 +251,6 @@ body { font-size: 1rem; }
 }
 
 /* ===== Responsive ===== */
-
 @media (max-width: 860px) {
   #header_wrap {
     background-position: center 22px;
@@ -271,9 +264,11 @@ body { font-size: 1rem; }
   }
 
   .topnav--header {
-    margin-top: -10px;
     padding-left: 0;
     justify-content: center;
+    flex-direction: column;   /* stack links vertically */
+    gap: 0.5rem;
+    margin-top: 1rem;
   }
 
   .metrics {
