@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="icon" href="{{ site.favicon }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {{ site.seo_tag }}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="branding">
+        <img src="{{ site.logo }}" alt="Logo" class="logo">
+        <h1 class="site-title">{{ site.title }}</h1>
+      </div>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
+  </footer>
+</body>
+</html>
