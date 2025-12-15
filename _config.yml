@@ -1,5 +1,5 @@
 title: "Internal Audit & Analytics Portfolio"
-logo: "/assets/img/profile_circle.png"
+logo: ""
 description: >
   <strong>Colby Kellersberger, CIA, CFE, CICA</strong><br><br>
 
@@ -10,7 +10,7 @@ description: >
     <img src="/assets/icons/github.svg" width="28" title="GitHub">
   </a>
     
-favicon: "/portfolio.ico"
+
 
 remote_theme: pages-themes/slate@v0.2.0
 
