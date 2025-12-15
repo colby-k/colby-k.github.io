@@ -68,9 +68,7 @@ body { font-size: 1rem; }
   opacity: 0.95;
 }
 
-/* ===== Nav styling intended for black header (desktop) ===== */
-/* Note: With Fix A, the nav may render in the body on small screens,
-   so mobile overrides below ensure readability. */
+/* ===== Nav positioning class (Fix A: nav is in body, so keep readable styles) ===== */
 .topnav--header {
   position: relative;
   z-index: 5;
@@ -80,14 +78,14 @@ body { font-size: 1rem; }
   padding-left: 150px;
 }
 
+/* Fix A: nav is on a light background (desktop + mobile), so use dark/readable styles */
 .topnav--header a {
-  color: rgba(255,255,255,0.92);
-  border: 1px solid rgba(255,255,255,0.18);
+  color: inherit;
+  border: 1px solid rgba(0,0,0,0.18);
 }
 
 .topnav--header a:hover {
-  color: #fff;
-  border-color: rgba(255,255,255,0.32);
+  border-color: rgba(0,0,0,0.32);
 }
 
 /* ===== Hero ===== */
@@ -252,7 +250,7 @@ body { font-size: 1rem; }
   transform: translateY(-1px);
 }
 
-/* ===== Responsive (Fix A: readable nav when it renders in body) ===== */
+/* ===== Responsive ===== */
 @media (max-width: 860px) {
   #header_wrap {
     background-position: center 22px;
@@ -268,19 +266,9 @@ body { font-size: 1rem; }
   .topnav--header {
     padding-left: 0;
     justify-content: center;
-    flex-direction: column;   /* stack links vertically */
+    flex-direction: column;
     gap: 0.5rem;
     margin-top: 1rem;
-  }
-
-  /* Fix A: nav is on a light body background on mobile, so use dark styles */
-  .topnav--header a {
-    color: inherit !important;
-    border: 1px solid rgba(0,0,0,0.18) !important;
-  }
-
-  .topnav--header a:hover {
-    border-color: rgba(0,0,0,0.32) !important;
   }
 
   .metrics {
