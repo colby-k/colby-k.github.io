@@ -7,7 +7,10 @@ permalink: /ai-audit-assistant/
 {% include analytics.html %}
 
 <nav class="topnav topnav--header" aria-label="Primary">
-  <a href="/">Home</a>
+  <a href="/">
+    <img class="navicon" src="/assets/icons/home.svg" alt="" aria-hidden="true">
+    Home
+  </a>
 
   <a href="/excel-tools/">
     <img class="navicon" src="/assets/icons/excel.svg" alt="" aria-hidden="true">
@@ -29,9 +32,11 @@ permalink: /ai-audit-assistant/
     AI Assistant
   </a>
 
-  <a href="/about/">About</a>
+  <a href="/about/">
+    <img class="navicon" src="/assets/icons/info.svg" alt="" aria-hidden="true">
+    About
+  </a>
 </nav>
-
 
 <section class="hero">
   <p class="kicker">AI-Enabled Audit Tooling</p>
