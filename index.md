@@ -27,7 +27,7 @@ layout: default
   </a>
 
   <a href="/ai-audit-assistant/">
-    <img class="navicon" src="/assets/icons/copilot.svg" alt="" aria-hidden="true">
+    <img class="navicon" src="/assets/icons/chatgpt.svg" alt="" aria-hidden="true">
     AI Assistant
   </a>
 
