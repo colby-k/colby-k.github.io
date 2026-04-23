@@ -28,7 +28,7 @@ permalink: /audit-analytics/
   </a>
 
   <a href="/ai-audit-assistant/">
-    <img class="navicon" src="/assets/icons/copilot.svg" alt="" aria-hidden="true">
+    <img class="navicon" src="/assets/icons/chatgpt.svg" alt="" aria-hidden="true">
     AI Assistant
   </a>
 
@@ -72,12 +72,13 @@ permalink: /audit-analytics/
   <p><strong>Audit value</strong><br/>
   Enables focused audit testing and continuous monitoring of high-risk transactions.</p>
 
-  <p class="cta-row">
-    <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">Open dashboard</a>
-  </p>
-
   <div class="media">
-    <img src="/assets/img/vendor_pmts_solution1.png" alt="Vendor payments dashboard screenshot">
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
+      <img src="/assets/img/vendor_pmts_solution1.png" alt="Vendor payments dashboard screenshot">
+    </a>
+    <p class="media__caption">
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">View dashboard</a>
+    </p>
   </div>
 </div>
 
@@ -94,19 +95,15 @@ permalink: /audit-analytics/
   <p><strong>Audit value</strong><br/>
   Improves follow-up discipline and management reporting.</p>
 
-  <p class="cta-row">
-    <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">Open dashboard</a>
-  </p>
-
   <div class="media">
-    <img src="/assets/img/issue_tracker.png" alt="Audit issue tracker dashboard screenshot">
+    <a href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">
+      <img src="/assets/img/issue_tracker.png" alt="Audit issue tracker dashboard screenshot">
+    </a>
+    <p class="media__caption">
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">View dashboard</a>
+    </p>
   </div>
 </div>
-
-<details>
-<summary><strong>View additional Power BI dashboards</strong></summary>
-
-<br>
 
 <div class="card">
   <h3 class="card__title">Adventure Works – Sales & Operations Dashboard</h3>
@@ -125,7 +122,12 @@ permalink: /audit-analytics/
   identify unusual trends, margin pressure, or performance anomalies.</p>
 
   <div class="media">
-    <img src="/assets/img/AdventureWorks.png" alt="Adventure Works sales and operations dashboard">
+    <a href="REPLACE_WITH_ADVENTURE_WORKS_POWER_BI_URL" target="_blank" rel="noopener">
+      <img src="/assets/img/AdventureWorks.png" alt="Adventure Works sales and operations dashboard">
+    </a>
+    <p class="media__caption">
+      <a href="REPLACE_WITH_ADVENTURE_WORKS_POWER_BI_URL" target="_blank" rel="noopener">View dashboard</a>
+    </p>
   </div>
 </div>
 
@@ -146,11 +148,14 @@ permalink: /audit-analytics/
   further review or investigation.</p>
 
   <div class="media">
-    <img src="/assets/img/property_management.png" alt="Property management dashboard">
+    <a href="REPLACE_WITH_PROPERTY_MANAGEMENT_POWER_BI_URL" target="_blank" rel="noopener">
+      <img src="/assets/img/property_management.png" alt="Property management dashboard">
+    </a>
+    <p class="media__caption">
+      <a href="REPLACE_WITH_PROPERTY_MANAGEMENT_POWER_BI_URL" target="_blank" rel="noopener">View dashboard</a>
+    </p>
   </div>
 </div>
-
-</details>
 
 <hr class="sep" />
 
