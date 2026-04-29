@@ -61,46 +61,52 @@ permalink: /excel-tools/
 
 <div class="card">
 
-  <div style="display:flex;align-items:center;gap:18px;margin-bottom:18px;">
-    <img src="/assets/img/AuditTicksPro_Icon.png" alt="AuditTicks Pro icon" style="width:76px;height:76px;object-fit:contain;">
-    <div>
-      <h3 class="card__title" style="margin-bottom:4px;">AuditTicks Pro</h3>
-      <div class="card__meta">Excel <code>.xlam</code> • VBA • Ribbon XML • Audit Documentation</div>
-    </div>
+<div style="display:flex;align-items:center;gap:18px;margin-bottom:18px;">
+  <img src="/assets/img/AuditTicksPro_Icon.PNG" alt="AuditTicks Pro icon" style="width:76px;height:76px;object-fit:contain;">
+  <div>
+    <h3 class="card__title" style="margin-bottom:4px;">AuditTicks Pro</h3>
+    <div class="card__meta">Excel <code>.xlam</code> • VBA • Ribbon XML • Audit Documentation</div>
   </div>
+</div>
 
-  <p><strong>Purpose</strong><br>
-  AuditTicks Pro is a custom Excel add-in designed to make audit workpapers faster,
-  cleaner, and more consistent by standardizing tickmarks, references, annotations,
-  review notes, and workpaper formatting from a dedicated Excel ribbon.</p>
+<p><strong>Custom Excel audit add-in for standardized tickmarks, workpaper formatting, references, review tools, and audit documentation support.</strong></p>
 
-  <p><strong>Problem</strong><br>
-  Audit documentation often becomes inconsistent across workpapers because tickmarks,
-  legends, references, formatting, annotations, and review notes are inserted manually
-  or recreated from file to file. This creates avoidable rework and makes review less efficient.</p>
+<div class="media" style="margin-top:18px;margin-bottom:24px;">
+  <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon screenshot">
+  <p class="caption">AuditTicks Pro adds a custom Excel ribbon for tickmarks, annotations, references, templates, review tools, and formatting utilities.</p>
+</div>
 
-  <p><strong>Approach</strong><br>
-  Built a ribbon-based Excel add-in using VBA and custom Ribbon XML. The add-in provides
-  one-click access to standardized audit tickmarks, tie-out references, workpaper templates,
-  review tools, gridline utilities, annotations, and formatting helpers.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:20px;">
 
-  <p><strong>Audit value</strong><br>
-  AuditTicks Pro helps reduce manual formatting, improve workpaper consistency,
-  accelerate fieldwork documentation, and make reviewer navigation clearer.</p>
+<div>
+<p><strong>Purpose</strong><br>
+AuditTicks Pro is designed to make audit workpapers faster, cleaner, and more consistent by standardizing common documentation actions from a dedicated Excel ribbon.</p>
+</div>
 
-  <p><strong>Status</strong><br>
-  In active development. The add-in is not publicly available yet, but this page will be
-  used to share updates, screenshots, documentation, and future availability information.</p>
+<div>
+<p><strong>Problem</strong><br>
+Audit documentation often becomes inconsistent when tickmarks, legends, references, formatting, annotations, and review notes are recreated manually across workpapers.</p>
+</div>
 
-  <p class="cta-row">
-    <a class="btn btn--ghost" href="/assets/img/Tickmark%20User%20Guide.png" target="_blank" rel="noopener">View user guide</a>
-    <a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Contact on LinkedIn</a>
-  </p>
+<div>
+<p><strong>Approach</strong><br>
+Built a ribbon-based Excel add-in using VBA and custom Ribbon XML. The add-in provides one-click access to standardized audit tools and documentation helpers.</p>
+</div>
 
-  <div class="media">
-    <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon screenshot">
-    <p class="caption">Ribbon-based tickmarks, annotations, references, review tools, and workpaper formatting helpers.</p>
-  </div>
+<div>
+<p><strong>Audit value</strong><br>
+AuditTicks Pro helps reduce manual formatting, improve workpaper consistency, accelerate documentation, and make reviewer navigation clearer.</p>
+</div>
+
+</div>
+
+<p><strong>Status</strong><br>
+In active development. The add-in is not publicly available yet, but this page will be used to share updates, screenshots, documentation, and future availability information.</p>
+
+<p class="cta-row">
+  <a class="btn btn--ghost" href="/assets/img/Tickmark%20User%20Guide.png" target="_blank" rel="noopener">View user guide</a>
+  <a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Contact on LinkedIn</a>
+</p>
 
 </div>
 <hr class="sep" />
