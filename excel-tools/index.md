@@ -60,85 +60,48 @@ permalink: /excel-tools/
 ## Excel Add-In: AuditTicks Pro
 
 <div class="card">
-  <div class="card__header">
+
+  <div style="display:flex;align-items:center;gap:18px;margin-bottom:18px;">
+    <img src="/assets/img/AuditTicksPro_Icon.png" alt="AuditTicks Pro icon" style="width:76px;height:76px;object-fit:contain;">
     <div>
-      <h3 class="card__title">AuditTicks Pro</h3>
+      <h3 class="card__title" style="margin-bottom:4px;">AuditTicks Pro</h3>
       <div class="card__meta">Excel <code>.xlam</code> • VBA • Ribbon XML • Audit Documentation</div>
     </div>
-
-    <img
-      src="/assets/img/AuditTicksPro_Icon.PNG"
-      alt="AuditTicks Pro icon"
-      style="width:72px;height:72px;object-fit:contain;margin-left:16px;"
-    />
   </div>
 
-  <p><strong>Purpose</strong><br/>
+  <p><strong>Purpose</strong><br>
   AuditTicks Pro is a custom Excel add-in designed to make audit workpapers faster,
   cleaner, and more consistent by standardizing tickmarks, references, annotations,
   review notes, and workpaper formatting from a dedicated Excel ribbon.</p>
 
-  <p><strong>Problem</strong><br/>
+  <p><strong>Problem</strong><br>
   Audit documentation often becomes inconsistent across workpapers because tickmarks,
   legends, references, formatting, annotations, and review notes are inserted manually
   or recreated from file to file. This creates avoidable rework and makes review less efficient.</p>
 
-  <p><strong>Approach</strong><br/>
+  <p><strong>Approach</strong><br>
   Built a ribbon-based Excel add-in using VBA and custom Ribbon XML. The add-in provides
   one-click access to standardized audit tickmarks, tie-out references, workpaper templates,
   review tools, gridline utilities, annotations, and formatting helpers.</p>
 
-  <p><strong>Audit value</strong><br/>
+  <p><strong>Audit value</strong><br>
   AuditTicks Pro helps reduce manual formatting, improve workpaper consistency,
   accelerate fieldwork documentation, and make reviewer navigation clearer.</p>
 
-  <p><strong>Status</strong><br/>
+  <p><strong>Status</strong><br>
   In active development. The add-in is not publicly available yet, but this page will be
   used to share updates, screenshots, documentation, and future availability information.</p>
 
   <p class="cta-row">
-    <a class="btn btn--ghost" href="/assets/img/Tickmark%20User%20Guide.png" target="_blank" rel="noopener">
-      View user guide
-    </a>
-
-    <a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">
-      Contact on LinkedIn
-    </a>
+    <a class="btn btn--ghost" href="/assets/img/Tickmark%20User%20Guide.png" target="_blank" rel="noopener">View user guide</a>
+    <a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Contact on LinkedIn</a>
   </p>
 
   <div class="media">
     <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon screenshot">
     <p class="caption">Ribbon-based tickmarks, annotations, references, review tools, and workpaper formatting helpers.</p>
   </div>
-</div>
 
-<div class="card">
-  <h3 class="card__title">Key Features</h3>
-
-  <ul class="bullets">
-    <li><strong>Standardized tickmarks</strong> — insert common audit symbols in-cell or as floating worksheet objects</li>
-    <li><strong>Symbol catalog</strong> — checkmarks, exceptions, recalculation marks, references, flags, warnings, notes, and miscellaneous audit symbols</li>
-    <li><strong>Tie-out abbreviations</strong> — TB, GL, FS, BS, IS, CF, PY, PM, SF, CR, RC, and directional reference variants</li>
-    <li><strong>Reference tools</strong> — Roman numerals, circled letters, circled numbers, filled references, and page indicators</li>
-    <li><strong>Annotation tools</strong> — callouts, red boxes, arrows, highlights, post-it notes, and explanation markers</li>
-    <li><strong>Review tools</strong> — checklist support, review note structures, and workpaper review formatting helpers</li>
-    <li><strong>Template tools</strong> — prebuilt workpaper sections for summary, support, notes, and audit documentation layouts</li>
-    <li><strong>Formatting utilities</strong> — gridline tools, slashed cells, row/column insertion helpers, color controls, and alignment utilities</li>
-    <li><strong>Guide links</strong> — quick access to selected audit guidance and reference materials</li>
-  </ul>
-</div>
-
-<div class="card">
-  <h3 class="card__title">Technical Notes</h3>
-
-  <ul class="bullets">
-    <li>Built as an Excel <code>.xlam</code> add-in</li>
-    <li>Developed primarily in <strong>VBA</strong> with modularized procedures and reusable helper functions</li>
-    <li>Uses custom <strong>Ribbon XML</strong> for the add-in interface, buttons, dropdowns, split buttons, icons, screentips, and callbacks</li>
-    <li>Includes custom icon assets designed for Excel ribbon use</li>
-    <li>Designed around audit documentation workflows, workpaper consistency, and reviewer usability</li>
-    <li>Targets modern Microsoft Excel desktop builds</li>
-  </ul>
 </div>
 <hr class="sep" />
 
