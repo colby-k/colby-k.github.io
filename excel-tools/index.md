@@ -57,7 +57,7 @@ permalink: /excel-tools/
 
 <hr class="sep" />
 
-## Excel Add-In: Tickmark Tool
+## Excel Add-In: AuditTicks Pro
 
 <div class="card">
   <div class="card__header">
@@ -87,7 +87,7 @@ permalink: /excel-tools/
   </p>
 
   <div class="media">
-    <img src="/assets/img/excel_addin.png" alt="Audit tickmark Excel add-in screenshot">
+    <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="Audit tickmark Excel add-in screenshot">
     <p class="caption">Ribbon-based tickmarks, annotations, and audit documentation helpers.</p>
   </div>
 </div>
