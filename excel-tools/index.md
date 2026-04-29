@@ -114,30 +114,49 @@ In active development. The add-in is not publicly available yet, but this page w
 ## Risk Assessment Matrix (Excel Template)
 
 <div class="card">
-  <div class="card__header">
+
+<div class="card__header">
+  <div>
     <h3 class="card__title">Risk Assessment Matrix</h3>
-    <div class="card__meta">Excel • Risk scoring • Heatmap visualization</div>
+    <div class="card__meta">Excel • Risk scoring • Heatmap visualization • Audit planning</div>
   </div>
+</div>
 
-  <p><strong>Problem</strong><br/>
-  Risk scoring can vary significantly between audits and is often difficult to
-  summarize clearly for planning and reporting.</p>
+<p><strong>Configurable Excel template for scoring risks, prioritizing audit areas, and visualizing results through an automatic heatmap.</strong></p>
 
-  <p><strong>Approach</strong><br/>
-  Developed a configurable Excel template with customizable risk factors,
-  weighted scoring, and an automatic heatmap.</p>
+<div class="media" style="margin-top:18px;margin-bottom:24px;">
+  <img src="/assets/img/Risk_Assessment.png" alt="Risk assessment matrix Excel template screenshot">
+  <p class="caption">Configurable risk factors with weighted scoring and an at-a-glance risk heatmap.</p>
+</div>
 
-  <p><strong>Audit value</strong><br/>
-  More consistent risk prioritization and clearer communication with stakeholders.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:20px;">
 
-  <p class="cta-row">
-    <a class="btn" href="/assets/files/Risk_Assessment_Template.xlsx">
-      Download template
-    </a>
-  </p>
+<div>
+<p><strong>Purpose</strong><br>
+The Risk Assessment Matrix is designed to help auditors evaluate, compare, and prioritize risks using a structured scoring model in Excel.</p>
+</div>
 
-  <div class="media">
-    <img src="/assets/img/Risk_Assessment.png" alt="Risk assessment matrix screenshot">
-    <p class="caption">Configurable risk factors with an at-a-glance heatmap.</p>
-  </div>
+<div>
+<p><strong>Problem</strong><br>
+Risk scoring can vary significantly between audits when criteria, weighting, and rating logic are not applied consistently.</p>
+</div>
+
+<div>
+<p><strong>Approach</strong><br>
+Developed a configurable Excel template with customizable risk factors, weighted scoring, rating logic, and automatic heatmap visualization.</p>
+</div>
+
+<div>
+<p><strong>Audit value</strong><br>
+The template supports more consistent risk prioritization, clearer planning documentation, and easier communication with stakeholders.</p>
+</div>
+
+</div>
+
+<p class="cta-row">
+  <a class="btn" href="/assets/files/Risk_Assessment_Template.xlsx">
+    Download template
+  </a>
+</p>
+
 </div>
