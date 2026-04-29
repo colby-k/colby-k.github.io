@@ -28,12 +28,12 @@ body { font-size: 1rem; }
 #main_content h2 { font-size: 1.6rem; }
 #main_content h3 { font-size: 1.25rem; }
 
-/* ===== Header branding (favicon as logo) ===== */
+/* ===== Header branding ===== */
 #header_wrap {
-  background-image: url("/favicon.ico");
+  background-image: url("/assets/img/AuditTicksPro_Icon.PNG");
   background-repeat: no-repeat;
   background-position: 36px center;
-  background-size: 88px 88px;
+  background-size: 100px 100px;
 }
 
 #header_wrap .inner {
@@ -254,7 +254,7 @@ body { font-size: 1rem; }
 @media (max-width: 860px) {
   #header_wrap {
     background-position: center 22px;
-    background-size: 64px 64px;
+    background-size: 76px 76px;
   }
 
   #header_wrap .inner {
