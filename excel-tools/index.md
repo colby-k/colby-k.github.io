@@ -7,73 +7,75 @@ permalink: /excel-tools/
 {% include analytics.html %}
 
 <nav class="topnav topnav--header" aria-label="Primary">
-  <a href="/">
-    <img class="navicon" src="/assets/icons/home.svg" alt="" aria-hidden="true">
-    Home
-  </a>
+<a href="/">
+<img class="navicon" src="/assets/icons/home.svg" alt="" aria-hidden="true">
+Home
+</a>
 
-  <a href="/excel-tools/">
-    <img class="navicon" src="/assets/icons/excel.svg" alt="" aria-hidden="true">
-    Excel Tools
-  </a>
+<a href="/excel-tools/">
+<img class="navicon" src="/assets/icons/excel.svg" alt="" aria-hidden="true">
+Excel Tools
+</a>
 
-  <a href="/audit-analytics/">
-    <img class="navicon" src="/assets/icons/power_bi.svg" alt="" aria-hidden="true">
-    Audit Analytics
-  </a>
+<a href="/audit-analytics/">
+<img class="navicon" src="/assets/icons/power_bi.svg" alt="" aria-hidden="true">
+Audit Analytics
+</a>
 
-  <a href="/sql-projects/">
-    <img class="navicon" src="/assets/icons/SQL_2025.svg" alt="" aria-hidden="true">
-    SQL Projects
-  </a>
+<a href="/sql-projects/">
+<img class="navicon" src="/assets/icons/SQL_2025.svg" alt="" aria-hidden="true">
+SQL Projects
+</a>
 
-  <a href="/ai-audit-assistant/">
-    <img class="navicon" src="/assets/icons/chatgpt.svg" alt="" aria-hidden="true">
-    AI Assistant
-  </a>
+<a href="/ai-audit-assistant/">
+<img class="navicon" src="/assets/icons/chatgpt.svg" alt="" aria-hidden="true">
+AI Assistant
+</a>
 
-  <a href="/about/">
-    <img class="navicon" src="/assets/icons/info.svg" alt="" aria-hidden="true">
-    About
-  </a>
+<a href="/about/">
+<img class="navicon" src="/assets/icons/info.svg" alt="" aria-hidden="true">
+About
+</a>
 </nav>
 
 <section class="hero">
-  <p class="kicker">Excel Audit Tools</p>
+<p class="kicker">Excel Audit Tools</p>
 
-  <p class="lede">
-    Custom Excel-based tools designed to standardize audit documentation,
-    reduce manual fieldwork, and improve review clarity.
-  </p>
+<p class="lede">
+Custom Excel-based tools designed to standardize audit documentation,
+reduce manual fieldwork, and improve review clarity.
+</p>
 
-  <div class="stack">
-    <span class="pill">Excel</span>
-    <span class="pill">VBA</span>
-    <span class="pill">Ribbon XML</span>
-    <span class="pill">Audit Documentation</span>
-    <span class="pill">Process Standardization</span>
-  </div>
+<div class="stack">
+<span class="pill">Excel</span>
+<span class="pill">VBA</span>
+<span class="pill">Ribbon XML</span>
+<span class="pill">Audit Documentation</span>
+<span class="pill">Process Standardization</span>
+</div>
 </section>
 
 <hr class="sep" />
 
-## Excel Add-In
+<a id="auditticks-pro"></a>
+
+## Excel Add-In: AuditTicks Pro
 
 <div class="card">
 
 <div style="display:flex;align-items:center;gap:18px;margin-bottom:18px;">
-  <img src="/assets/img/AuditTicksPro_Icon.png" alt="AuditTicks Pro icon" style="width:76px;height:76px;object-fit:contain;">
-  <div>
-    <h3 class="card__title" style="margin-bottom:4px;">AuditTicks Pro</h3>
-    <div class="card__meta">Excel <code>.xlam</code> • VBA • Ribbon XML • Audit Documentation</div>
-  </div>
+<img src="/assets/img/AuditTicksPro_Icon.png" alt="AuditTicks Pro icon" style="width:76px;height:76px;object-fit:contain;">
+<div>
+<h3 class="card__title" style="margin-bottom:4px;">AuditTicks Pro</h3>
+<div class="card__meta">Excel <code>.xlam</code> • VBA • Ribbon XML • Audit Documentation</div>
+</div>
 </div>
 
 <p><strong>Custom Excel audit add-in for standardized tickmarks, workpaper formatting, references, review tools, and audit documentation support.</strong></p>
 
 <div class="media" style="margin-top:18px;margin-bottom:24px;">
-  <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon screenshot">
-  <p class="caption">AuditTicks Pro adds a custom Excel ribbon for tickmarks, annotations, references, templates, review tools, and formatting utilities.</p>
+<img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon screenshot">
+<p class="caption">AuditTicks Pro adds a custom Excel ribbon for tickmarks, annotations, references, templates, review tools, and formatting utilities.</p>
 </div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:20px;">
@@ -104,29 +106,32 @@ AuditTicks Pro helps reduce manual formatting, improve workpaper consistency, ac
 In active development. The add-in is not publicly available yet, but this page will be used to share updates, screenshots, documentation, and future availability information.</p>
 
 <p class="cta-row">
-  <a class="btn btn--ghost" href="/assets/img/Tickmark%20User%20Guide.png" target="_blank" rel="noopener">View user guide</a>
-  <a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Contact on LinkedIn</a>
+<a class="btn btn--ghost" href="/assets/img/Tickmark%20User%20Guide.png" target="_blank" rel="noopener">View user guide</a>
+<a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Contact on LinkedIn</a>
 </p>
 
 </div>
+
 <hr class="sep" />
+
+<a id="risk-assessment-matrix"></a>
 
 ## Risk Assessment Matrix (Excel Template)
 
 <div class="card">
 
 <div class="card__header">
-  <div>
-    <h3 class="card__title">Risk Assessment Matrix</h3>
-    <div class="card__meta">Excel • Risk scoring • Heatmap visualization • Audit planning</div>
-  </div>
+<div>
+<h3 class="card__title">Risk Assessment Matrix</h3>
+<div class="card__meta">Excel • Risk scoring • Heatmap visualization • Audit planning</div>
+</div>
 </div>
 
 <p><strong>Configurable Excel template for scoring risks, prioritizing audit areas, and visualizing results through an automatic heatmap.</strong></p>
 
 <div class="media" style="margin-top:18px;margin-bottom:24px;">
-  <img src="/assets/img/Risk_Assessment.png" alt="Risk assessment matrix Excel template screenshot">
-  <p class="caption">Configurable risk factors with weighted scoring and an at-a-glance risk heatmap.</p>
+<img src="/assets/img/Risk_Assessment.png" alt="Risk assessment matrix Excel template screenshot">
+<p class="caption">Configurable risk factors with weighted scoring and an at-a-glance risk heatmap.</p>
 </div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:20px;">
@@ -154,9 +159,8 @@ The template supports more consistent risk prioritization, clearer planning docu
 </div>
 
 <p class="cta-row">
-  <a class="btn" href="/assets/files/Risk_Assessment_Template.xlsx">
-    Download template
-  </a>
+<a class="btn" href="/assets/files/Risk_Assessment_Template.xlsx">Download template</a>
+<a class="btn btn--ghost" href="/">Back to portfolio</a>
 </p>
 
 </div>
