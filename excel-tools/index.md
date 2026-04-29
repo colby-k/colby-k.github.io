@@ -57,12 +57,12 @@ permalink: /excel-tools/
 
 <hr class="sep" />
 
-## Excel Add-In: AuditTicks Pro
+## Excel Add-In
 
 <div class="card">
 
 <div style="display:flex;align-items:center;gap:18px;margin-bottom:18px;">
-  <img src="/assets/img/AuditTicksPro_Icon.PNG" alt="AuditTicks Pro icon" style="width:76px;height:76px;object-fit:contain;">
+  <img src="/assets/img/AuditTicksPro_Icon.png" alt="AuditTicks Pro icon" style="width:76px;height:76px;object-fit:contain;">
   <div>
     <h3 class="card__title" style="margin-bottom:4px;">AuditTicks Pro</h3>
     <div class="card__meta">Excel <code>.xlam</code> • VBA • Ribbon XML • Audit Documentation</div>
