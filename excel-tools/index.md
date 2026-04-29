@@ -67,7 +67,7 @@ permalink: /excel-tools/
     </div>
 
     <img
-      src="/assets/img/AuditTicksPro_Icon.png"
+      src="/assets/img/AuditTicksPro_Icon.PNG"
       alt="AuditTicks Pro icon"
       style="width:72px;height:72px;object-fit:contain;margin-left:16px;"
     />
