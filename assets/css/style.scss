@@ -4,8 +4,31 @@
 @import "{{ site.theme }}";
 
 /* ===== Global scale & width ===== */
-html { font-size: 19px; }
-body { font-size: 1rem; }
+html {
+  font-size: 19px;
+}
+
+body {
+  font-size: 1rem;
+}
+
+/* Prevent mobile horizontal overflow */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* Slate content wrapper */
 .inner {
@@ -24,9 +47,17 @@ body { font-size: 1rem; }
   line-height: 1.65;
 }
 
-#main_content h1 { font-size: 2.1rem; }
-#main_content h2 { font-size: 1.6rem; }
-#main_content h3 { font-size: 1.25rem; }
+#main_content h1 {
+  font-size: 2.1rem;
+}
+
+#main_content h2 {
+  font-size: 1.6rem;
+}
+
+#main_content h3 {
+  font-size: 1.25rem;
+}
 
 /* ===== Header branding ===== */
 #header_wrap {
@@ -40,6 +71,14 @@ body { font-size: 1rem; }
   padding-left: 150px;
   display: flex;
   flex-direction: column;
+}
+
+/* Keep long generated theme titles from overflowing */
+#project_title,
+#project_tagline {
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* ===== Navigation ===== */
@@ -66,9 +105,10 @@ body { font-size: 1rem; }
   width: 16px;
   height: 16px;
   opacity: 0.95;
+  flex: 0 0 auto;
 }
 
-/* ===== Nav positioning class (Fix A: nav is in body, so keep readable styles) ===== */
+/* ===== Nav positioning class ===== */
 .topnav--header {
   position: relative;
   z-index: 5;
@@ -78,17 +118,21 @@ body { font-size: 1rem; }
   padding-left: 150px;
 }
 
-/* Fix A: nav is on a light background (desktop + mobile), so use dark/readable styles */
+/* Nav is on light background, so use dark/readable styles */
 .topnav--header a {
   color: inherit;
-  border: 1px solid rgba(0,0,0,0.18);
+  border: 1px solid rgba(0, 0, 0, 0.18);
 }
 
 .topnav--header a:hover {
-  border-color: rgba(0,0,0,0.32);
+  border-color: rgba(0, 0, 0, 0.32);
 }
 
 /* ===== Hero ===== */
+.hero {
+  max-width: 100%;
+}
+
 .hero .kicker {
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -115,14 +159,17 @@ body { font-size: 1rem; }
   flex-wrap: wrap;
   gap: 0.5rem;
   margin: 0.75rem 0 1.25rem 0;
+  max-width: 100%;
 }
 
 .pill {
-  border: 1px solid rgba(255,255,255,0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 0.25rem 0.55rem;
   border-radius: 999px;
   font-size: 0.85rem;
   opacity: 0.95;
+  max-width: 100%;
+  white-space: normal;
 }
 
 /* ===== Metrics ===== */
@@ -131,12 +178,14 @@ body { font-size: 1rem; }
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.75rem;
   margin-top: 1rem;
+  max-width: 100%;
 }
 
 .metric {
-  border: 1px solid rgba(255,255,255,0.12);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 0.75rem;
   padding: 0.75rem;
+  min-width: 0;
 }
 
 .metric__value {
@@ -156,10 +205,11 @@ body { font-size: 1rem; }
 
 /* ===== Cards ===== */
 .card {
-  border: 1px solid rgba(255,255,255,0.12);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 1rem;
   padding: 1rem;
   margin: 1rem 0;
+  max-width: 100%;
 }
 
 .card__header {
@@ -191,7 +241,7 @@ body { font-size: 1rem; }
   width: 100%;
   height: auto;
   border-radius: 0.75rem;
-  border: 1px solid rgba(255,255,255,0.12);
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .caption {
@@ -216,14 +266,14 @@ body { font-size: 1rem; }
   text-decoration: none;
   border-radius: 0.75rem;
   padding: 0.5rem 0.8rem;
-  border: 1px solid rgba(255,255,255,0.22);
+  border: 1px solid rgba(255, 255, 255, 0.22);
 }
 
 .btn--ghost {
   opacity: 0.9;
 }
 
-/* ===== Tools icons (About page) ===== */
+/* ===== Tools icons - About page ===== */
 .tools {
   display: flex;
   flex-wrap: wrap;
@@ -252,30 +302,177 @@ body { font-size: 1rem; }
 
 /* ===== Responsive ===== */
 @media (max-width: 860px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
+
   #header_wrap {
-    background-position: center 22px;
-    background-size: 76px 76px;
+    background-position: center 18px;
+    background-size: 72px 72px;
   }
 
   #header_wrap .inner {
-    padding-left: 0;
-    padding-top: 80px;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 96px;
     text-align: center;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  #project_title {
+    font-size: 1.75rem;
+    line-height: 1.2;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  #project_tagline {
+    font-size: 1rem;
+    line-height: 1.45;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  #main_content {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .topnav {
+    width: 100%;
+    max-width: 100%;
   }
 
   .topnav--header {
-    padding-left: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     justify-content: center;
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .topnav--header a {
+    width: 100%;
+    max-width: 340px;
+    justify-content: center;
+  }
+
+  .hero {
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .hero .kicker {
+    font-size: 0.78rem;
+    line-height: 1.4;
+  }
+
+  .hero .lede {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .hero .sublede {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .stack {
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .pill {
+    max-width: 100%;
+    white-space: normal;
+    font-size: 0.78rem;
   }
 
   .metrics {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .metric {
+    min-width: 0;
   }
 
   .card__grid {
     grid-template-columns: 1fr;
+  }
+
+  .cta-row {
+    align-items: stretch;
+  }
+}
+
+/* Smaller phones */
+@media (max-width: 480px) {
+  #header_wrap {
+    background-size: 64px 64px;
+  }
+
+  #header_wrap .inner {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    padding-top: 88px;
+  }
+
+  #project_title {
+    font-size: 1.45rem;
+    line-height: 1.2;
+  }
+
+  #project_tagline {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  #main_content {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+  .topnav {
+    font-size: 0.9rem;
+  }
+
+  .topnav--header a {
+    max-width: 100%;
+  }
+
+  .hero .lede {
+    font-size: 0.98rem;
+  }
+
+  .metric {
+    padding: 0.7rem;
+  }
+
+  .card {
+    padding: 0.9rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
   }
 }
