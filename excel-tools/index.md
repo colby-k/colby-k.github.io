@@ -74,8 +74,17 @@ reduce manual fieldwork, and improve review clarity.
 <p><strong>Custom Excel audit add-in for standardized tickmarks, workpaper formatting, references, review tools, and audit documentation support.</strong></p>
 
 <div class="media" style="margin-top:18px;margin-bottom:24px;">
+<a href="/assets/img/AuditTicksPro_Tms.png" target="_blank" rel="noopener">
+<img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro Excel add-in screenshot showing ribbon tools, worksheet tickmarks, callouts, and note elements">
+</a>
+<p class="caption">AuditTicks Pro in action: ribbon-based tickmarks, references, callouts, note boxes, review elements, and audit documentation helpers displayed directly in Excel.</p>
+</div>
+
+<div class="media" style="margin-top:18px;margin-bottom:24px;">
+<a href="/assets/img/AuditTicksPro_Ribbon.png" target="_blank" rel="noopener">
 <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon screenshot">
-<p class="caption">AuditTicks Pro adds a custom Excel ribbon for tickmarks, annotations, references, templates, review tools, and formatting utilities.</p>
+</a>
+<p class="caption">Ribbon layout showing tickmarks, tie-out references, logic symbols, callouts, templates, guide links, utilities, and review tools.</p>
 </div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:20px;">
