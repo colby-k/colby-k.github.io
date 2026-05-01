@@ -90,9 +90,9 @@ standardize documentation, and surface risk faster.
 
 <div class="media" style="margin-top:18px;margin-bottom:20px;">
 <a href="/excel-tools/#auditticks-pro">
-<img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon screenshot">
+<img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro Excel add-in screenshot showing ribbon tools, worksheet tickmarks, callouts, and note elements">
 </a>
-<p class="caption">AuditTicks Pro adds a custom Excel ribbon for audit tickmarks, annotations, references, templates, review tools, and formatting utilities.</p>
+<p class="caption">AuditTicks Pro in action: ribbon-based tickmarks, references, callouts, note boxes, review elements, and audit documentation helpers displayed directly in Excel.</p>
 </div>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:16px;">
