@@ -102,8 +102,10 @@ img {
 
 /* Icons inside nav buttons */
 .navicon {
-  width: 16px;
-  height: 16px;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  object-fit: contain;
   opacity: 0.95;
   flex: 0 0 auto;
 }
@@ -366,10 +368,10 @@ img {
   }
 
   .topnav--header a {
-    width: 100%;
-    max-width: 340px;
-    justify-content: center;
-  }
+  width: auto;
+  max-width: 100%;
+  justify-content: center;
+}
 
   .hero {
     width: 100%;
@@ -457,6 +459,12 @@ img {
 
   .topnav--header a {
     max-width: 100%;
+  }
+
+  .navicon {
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
   }
 
   .hero .lede {
