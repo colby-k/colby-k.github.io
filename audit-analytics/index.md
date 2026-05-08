@@ -61,7 +61,7 @@ permalink: /audit-analytics/
 
 <div class="card">
   <h3 class="card__title">Vendor Payments Monitoring</h3>
-  <div class="card__meta">Power BI • Risk analytics</div>
+  <div class="card__meta">Power BI • Risk analytics • Interactive dashboard • Demo data</div>
 
   <p><strong>Problem</strong><br/>
   High-volume vendor payments make it difficult to identify duplicate, split, or unusual transactions.</p>
@@ -72,19 +72,29 @@ permalink: /audit-analytics/
   <p><strong>Audit value</strong><br/>
   Enables focused audit testing and continuous monitoring of high-risk transactions.</p>
 
-  <div class="media">
-    <a href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
-      <img src="/assets/img/vendor_pmts_solution1.png" alt="Vendor payments dashboard screenshot">
-    </a>
-    <p class="media__caption">
-      <a href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">View dashboard</a>
-    </p>
+  <div class="powerbi-embed">
+    <iframe
+      title="Vendor Payments Monitoring Dashboard"
+      src="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
+      frameborder="0"
+      allowfullscreen="true">
+    </iframe>
   </div>
+
+  <p class="caption">
+    Embedded interactive Power BI report using demo data.
+  </p>
+
+  <p class="cta-row">
+    <a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
+      Open full report
+    </a>
+  </p>
 </div>
 
 <div class="card">
   <h3 class="card__title">Internal Audit Issue Tracker</h3>
-  <div class="card__meta">Power BI • Issue management</div>
+  <div class="card__meta">Power BI • Issue management • Interactive dashboard • Demo data</div>
 
   <p><strong>Problem</strong><br/>
   Tracking open issues and management action plans across audits can be fragmented and manual.</p>
@@ -95,19 +105,29 @@ permalink: /audit-analytics/
   <p><strong>Audit value</strong><br/>
   Improves follow-up discipline and management reporting.</p>
 
-  <div class="media">
-    <a href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">
-      <img src="/assets/img/issue_tracker.png" alt="Audit issue tracker dashboard screenshot">
-    </a>
-    <p class="media__caption">
-      <a href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">View dashboard</a>
-    </p>
+  <div class="powerbi-embed">
+    <iframe
+      title="Internal Audit Issue Tracker Dashboard"
+      src="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1"
+      frameborder="0"
+      allowfullscreen="true">
+    </iframe>
   </div>
+
+  <p class="caption">
+    Embedded interactive Power BI report using demo data.
+  </p>
+
+  <p class="cta-row">
+    <a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">
+      Open full report
+    </a>
+  </p>
 </div>
 
 <div class="card">
   <h3 class="card__title">Adventure Works – Sales & Operations Dashboard</h3>
-  <div class="card__meta">Power BI • Data modeling • Operational analytics</div>
+  <div class="card__meta">Power BI • Data modeling • Operational analytics • Interactive dashboard • Demo data</div>
 
   <p><strong>Purpose</strong><br/>
   Demonstrate end-to-end dashboard development using a multi-table operational dataset,
@@ -121,19 +141,29 @@ permalink: /audit-analytics/
   Illustrates how transactional data can be transformed into decision-support insights and used to
   identify unusual trends, margin pressure, or performance anomalies.</p>
 
-  <div class="media">
-    <a href="REPLACE_WITH_ADVENTURE_WORKS_POWER_BI_URL" target="_blank" rel="noopener">
-      <img src="/assets/img/AdventureWorks.png" alt="Adventure Works sales and operations dashboard">
-    </a>
-    <p class="media__caption">
-      <a href="REPLACE_WITH_ADVENTURE_WORKS_POWER_BI_URL" target="_blank" rel="noopener">View dashboard</a>
-    </p>
+  <div class="powerbi-embed">
+    <iframe
+      title="Adventure Works Sales and Operations Dashboard"
+      src="https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
+      frameborder="0"
+      allowfullscreen="true">
+    </iframe>
   </div>
+
+  <p class="caption">
+    Embedded interactive Power BI report using demo data.
+  </p>
+
+  <p class="cta-row">
+    <a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
+      Open full report
+    </a>
+  </p>
 </div>
 
 <div class="card">
   <h3 class="card__title">Property Management Dashboard</h3>
-  <div class="card__meta">Power BI • Portfolio analysis • Management reporting</div>
+  <div class="card__meta">Power BI • Portfolio analysis • Management reporting • Interactive dashboard • Demo data</div>
 
   <p><strong>Purpose</strong><br/>
   Provide a consolidated view of property-level performance metrics commonly used by property management
@@ -147,14 +177,24 @@ permalink: /audit-analytics/
   Supports portfolio oversight by highlighting outliers, trends, and performance variances that may warrant
   further review or investigation.</p>
 
-  <div class="media">
-    <a href="REPLACE_WITH_PROPERTY_MANAGEMENT_POWER_BI_URL" target="_blank" rel="noopener">
-      <img src="/assets/img/property_management.png" alt="Property management dashboard">
-    </a>
-    <p class="media__caption">
-      <a href="REPLACE_WITH_PROPERTY_MANAGEMENT_POWER_BI_URL" target="_blank" rel="noopener">View dashboard</a>
-    </p>
+  <div class="powerbi-embed">
+    <iframe
+      title="Property Management Dashboard"
+      src="https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
+      frameborder="0"
+      allowfullscreen="true">
+    </iframe>
   </div>
+
+  <p class="caption">
+    Embedded interactive Power BI report using demo data.
+  </p>
+
+  <p class="cta-row">
+    <a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
+      Open full report
+    </a>
+  </p>
 </div>
 
 <hr class="sep" />
