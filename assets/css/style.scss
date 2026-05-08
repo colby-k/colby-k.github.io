@@ -246,7 +246,8 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-.caption {
+.caption,
+.media__caption {
   opacity: 0.8;
   font-size: 0.85rem;
   margin-top: 0.5rem;
@@ -300,6 +301,23 @@ img {
 .tools a img:hover {
   opacity: 1;
   transform: translateY(-1px);
+}
+
+/* ===== Power BI embedded reports ===== */
+.powerbi-embed {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: #fff;
+  margin-top: 1rem;
+}
+
+.powerbi-embed iframe {
+  display: block;
+  width: 100%;
+  height: 720px;
+  border: 0;
 }
 
 /* ===== Responsive ===== */
@@ -427,6 +445,10 @@ img {
   .cta-row {
     align-items: stretch;
   }
+
+  .powerbi-embed iframe {
+    height: 560px;
+  }
 }
 
 /* Smaller phones */
@@ -493,5 +515,9 @@ img {
   .btn {
     width: 100%;
     text-align: center;
+  }
+
+  .powerbi-embed iframe {
+    height: 460px;
   }
 }
