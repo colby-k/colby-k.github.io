@@ -1,48 +1,16 @@
 ---
-title: "Internal Audit & Analytics Portfolio"
+title: "Internal Audit Tools, Analytics & Governance Portfolio"
 layout: default
+description: "Practical internal audit tools, analytics, automation, and AI governance projects by Colby Kellersberger, CIA, CFE, CICA."
 ---
 
-{% include analytics.html %}
-
-<nav class="topnav topnav--header" aria-label="Primary">
-<a href="/">
-<img class="navicon" src="/assets/icons/home.svg" alt="" aria-hidden="true">
-Home
-</a>
-
-<a href="/excel-tools/">
-<img class="navicon" src="/assets/icons/excel.svg" alt="" aria-hidden="true">
-Excel Tools
-</a>
-
-<a href="/audit-analytics/">
-<img class="navicon" src="/assets/icons/power_bi.svg" alt="" aria-hidden="true">
-Audit Analytics
-</a>
-
-<a href="/sql-projects/">
-<img class="navicon" src="/assets/icons/SQL_2025.svg" alt="" aria-hidden="true">
-SQL Projects
-</a>
-
-<a href="/ai-audit-assistant/">
-<img class="navicon" src="/assets/icons/chatgpt.svg" alt="" aria-hidden="true">
-AI Assistant
-</a>
-
-<a href="/about/">
-<img class="navicon" src="/assets/icons/info.svg" alt="" aria-hidden="true">
-About
-</a>
-</nav>
+{% include nav.html %}
 
 <section class="hero">
 <p class="kicker">Internal Audit Manager (CIA, CFE, CICA)</p>
 
 <p class="lede">
-I build practical audit tools and analytics that reduce manual testing,
-standardize documentation, and surface risk faster.
+I build internal audit tools, analytics, and documentation workflows that help audit teams improve coverage, reduce manual effort, standardize workpapers, and identify risk faster.
 </p>
 
 <div class="stack">
@@ -71,6 +39,14 @@ standardize documentation, and surface risk faster.
 </div>
 </div>
 </section>
+
+<div class="card">
+  <p>
+    This portfolio highlights audit-focused tools and analytics built around practical internal audit needs:
+    risk assessment, audit planning, workpaper documentation, issue tracking, sampling, anomaly detection,
+    AI governance, and review-ready reporting.
+  </p>
+</div>
 
 <hr class="sep" />
 
@@ -111,14 +87,14 @@ standardize documentation, and surface risk faster.
 
 <p class="cta-row">
 <a class="btn" href="/excel-tools/#auditticks-pro">View AuditTicks Pro</a>
-<a class="btn btn--ghost" href="/excel-tools/">Excel tools page</a>
+<a class="btn btn--ghost" href="/excel-tools/">Audit tools page</a>
 </p>
 
 </div>
 
 <hr class="sep" />
 
-## Excel Templates
+## Audit Planning Template
 
 <div class="card" style="padding:1.25rem;">
 
@@ -152,14 +128,14 @@ standardize documentation, and surface risk faster.
 
 <p class="cta-row">
 <a class="btn" href="/excel-tools/#risk-assessment-matrix">View details + download</a>
-<a class="btn btn--ghost" href="/excel-tools/">Excel tools page</a>
+<a class="btn btn--ghost" href="/excel-tools/">Audit tools page</a>
 </p>
 
 </div>
 
 <hr class="sep" />
 
-## Other Portfolio Areas
+## Additional Audit-Focused Work
 
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;align-items:stretch;">
 
@@ -204,19 +180,19 @@ standardize documentation, and surface risk faster.
 
 <div class="card" style="margin:0;">
 <div class="card__header">
-<h3 class="card__title">SQL & Data Projects</h3>
-<div class="card__meta">SQL • Power BI • Data analysis</div>
+<h3 class="card__title">Data Projects for Audit & Business Risk</h3>
+<div class="card__meta">SQL • Power BI • Business risk analysis</div>
 </div>
 
-<p>Data projects demonstrating SQL analysis, business intelligence development, and practical reporting use cases.</p>
+<p>Data projects demonstrating SQL analysis, transformation, dashboard development, and audit-style review of business activity.</p>
 
 <ul class="bullets">
-<li>Data job market skills and pay</li>
-<li>Sales performance and profitability</li>
+<li>Structured SQL analysis of large datasets</li>
+<li>Sales performance, profitability, and trend review</li>
 </ul>
 
 <p class="cta-row">
-<a class="btn" href="/sql-projects/">View SQL projects</a>
+<a class="btn" href="/sql-projects/">View data projects</a>
 </p>
 </div>
 
@@ -229,7 +205,7 @@ standardize documentation, and surface risk faster.
 <div class="card">
 <p>
 I’m an Internal Audit Manager focused on risk-based auditing and building tools that make testing
-more efficient, consistent, and repeatable in complex environments.
+more efficient, consistent, repeatable, and review-ready in complex environments.
 </p>
 
 <p class="cta-row">
