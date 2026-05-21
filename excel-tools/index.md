@@ -1,16 +1,17 @@
 ---
-title: "Excel Audit Tools"
+title: "Audit Tools"
 layout: default
 permalink: /excel-tools/
+description: "Practical audit tools for documentation, risk assessment, workpaper consistency, and review-ready internal audit workflows."
 ---
 
 {% include nav.html %}
 
 <section class="hero">
-<p class="kicker">Excel Audit Tools</p>
+<p class="kicker">Audit Tools</p>
 
 <p class="lede">
-Custom Excel-based tools designed to standardize audit documentation,
+Practical audit tools designed to standardize documentation, support risk assessment,
 reduce manual fieldwork, and improve review clarity.
 </p>
 
@@ -23,11 +24,13 @@ reduce manual fieldwork, and improve review clarity.
 </div>
 </section>
 
+{% include demo-disclaimer.html %}
+
 <hr class="sep" />
 
 <a id="auditticks-pro"></a>
 
-## Excel Add-In: AuditTicks Pro
+## Audit Documentation Add-In: AuditTicks Pro
 
 <div class="card">
 
@@ -93,7 +96,7 @@ In active development. The add-in is not publicly available yet, but this page w
 
 <a id="risk-assessment-matrix"></a>
 
-## Risk Assessment Matrix (Excel Template)
+## Audit Planning Template: Risk Assessment Matrix
 
 <div class="card">
 
@@ -134,6 +137,11 @@ The template supports more consistent risk prioritization, clearer planning docu
 </div>
 
 </div>
+
+<p>
+The template is provided as a demonstration file and should be reviewed and adapted
+before use in any formal audit environment.
+</p>
 
 <p class="cta-row">
 <a class="btn" href="/assets/files/Risk_Assessment_Template.xlsx">Download template</a>
