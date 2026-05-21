@@ -1,8 +1,8 @@
-# Internal Audit & Analytics Portfolio
+# Internal Audit Tools, Analytics & Governance Portfolio
 
-This repository contains the source code for my GitHub Pages site, which serves as a professional portfolio showcasing audit-focused tools, analytics, and automation projects.
+This repository contains the source code for my GitHub Pages site, which serves as a professional portfolio showcasing audit-focused tools, analytics, automation, prompt engineering, and governance-oriented projects.
 
-The site highlights practical work developed in the context of internal audit, with an emphasis on improving efficiency, consistency, documentation quality, and risk coverage.
+The site highlights practical work developed in the context of internal audit, with an emphasis on improving efficiency, consistency, documentation quality, risk coverage, reviewability, and audit judgment.
 
 🔗 **Live site:** https://colby-k.github.io/
 
@@ -12,24 +12,29 @@ The site highlights practical work developed in the context of internal audit, w
 
 The portfolio includes examples across several areas:
 
-### 🔹 Excel Audit Tools
+### 🔹 Audit Tools
+
 - Custom Excel-based tooling, including a VBA-driven audit tickmark add-in
-- Templates designed to standardize documentation and risk assessment
-- Focus on repeatability, usability, and audit review efficiency
+- Templates designed to standardize audit documentation, risk assessment, and planning
+- Focus on repeatability, usability, review clarity, and workpaper consistency
 
 ### 🔹 Audit Analytics
-- Power BI dashboards for audit monitoring and issue tracking
-- Python and Streamlit applications supporting sampling, anomaly detection, and compliance analysis
+
+- Power BI dashboards for audit monitoring, issue tracking, and risk-based reporting
+- Python and Streamlit applications supporting sampling, anomaly detection, fraud screening, and compliance analysis
 - Analytics designed to support audit judgment, not replace it
 
-### 🔹 SQL & Data Projects
-- End-to-end SQL projects demonstrating data extraction, transformation, and analysis
-- BI dashboards built on modeled datasets to support analytical storytelling
+### 🔹 Data Projects for Audit & Business Risk
 
-### 🔹 AI-Enabled Audit Assistant
-- A governed AI assistant designed to support audit documentation
-- Enforces audit methodology, sampling guidance, and documentation discipline
-- Built with explicit guardrails to prevent fabrication, scope creep, or misuse
+- SQL and Power BI projects demonstrating data extraction, transformation, analysis, and dashboard development
+- Examples framed around audit-style review, business risk analysis, trend identification, and management reporting
+- Focus on translating raw data into structured, supportable insights
+
+### 🔹 Prompt Engineering for Internal Audit
+
+- Structured prompt engineering framework for internal audit documentation
+- Designed around audit methodology, sampling discipline, non-fabrication rules, and review-ready outputs
+- Demonstrates how AI-supported workflows can be governed through prompt design and auditor oversight
 
 ---
 
@@ -38,31 +43,36 @@ The portfolio includes examples across several areas:
 Across all projects, the following principles guide development:
 
 - **Audit-first mindset** — tools support auditors; judgment remains with humans
-- **Governance and control** — methodology and standards are enforced, not optional
-- **Practical implementation** — solutions are designed for real audit environments
-- **Clarity and consistency** — outputs are review-ready and defensible
+- **Governance and control** — methodology, documentation standards, and guardrails are built into the workflow
+- **Practical implementation** — solutions are designed around real internal audit needs
+- **Clarity and consistency** — outputs are intended to be review-ready, defensible, and easy to follow
+- **Responsible use of data and AI** — examples avoid proprietary data and emphasize transparency, limitations, and review
 
 ---
 
 ## Technology Stack
 
-- Excel / VBA / Ribbon XML  
-- Power BI (data modeling, DAX)  
-- SQL  
-- Python (pandas, Streamlit)  
-- GitHub Pages (Jekyll, Slate theme)  
+- Excel / VBA / Ribbon XML
+- Power BI / DAX / Data Modeling
+- SQL
+- Python / pandas / Streamlit
+- Prompt Engineering / AI Governance
+- GitHub Pages / Jekyll / Markdown / HTML / CSS
 
 ---
 
-## Notes
+## Repository Structure
 
-- This portfolio is intended for demonstration and discussion purposes only.
-- No proprietary company data, systems, or documentation are included.
-- All examples are generalized or use synthetic/public datasets.
-
----
-
-## Contact
-
-- LinkedIn: https://www.linkedin.com/in/colby-k/
-- GitHub: https://github.com/colby-k
+```text
+.
+├── _includes/              # Reusable Jekyll includes such as nav, analytics, and disclaimers
+├── _layouts/               # Page layout templates
+├── about/                  # About page
+├── ai-audit-assistant/     # Prompt engineering for internal audit page
+├── audit-analytics/        # Audit analytics dashboards and applications
+├── excel-tools/            # Audit tools, Excel add-ins, and templates
+├── sql-projects/           # Data projects for audit and business risk
+├── assets/                 # CSS, images, icons, documents, and downloadable files
+├── index.md                # Homepage
+├── _config.yml             # GitHub Pages / Jekyll configuration
+└── README.md               # Repository documentation
