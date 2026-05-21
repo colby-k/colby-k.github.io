@@ -1,32 +1,32 @@
 ---
-title: "AI-Enabled Audit Documentation Assistant"
+title: "Prompt Engineering for Internal Audit"
 layout: default
 permalink: /ai-audit-assistant/
-description: "Governed AI assistant concept for internal audit documentation, methodology enforcement, sampling discipline, and audit-quality guardrails."
+description: "Prompt engineering framework for internal audit documentation, methodology enforcement, sampling discipline, and AI governance guardrails."
 ---
 
 {% include nav.html %}
 
 <section class="hero">
-  <p class="kicker">AI-Enabled Audit Tooling</p>
+  <p class="kicker">Prompt Engineering for Internal Audit</p>
 
   <p class="lede">
-    A governed AI assistant concept designed to support internal auditors with
-    audit documentation while enforcing methodology, sampling rules,
-    and documentation discipline.
+    A governed prompt engineering framework designed to support internal audit documentation
+    through structured inputs, audit methodology guardrails, sampling discipline, and
+    review-ready outputs.
   </p>
 
   <p class="sublede">
-    Built to reduce drafting time and rework while preserving auditor judgment,
-    documentation integrity, and audit quality.
+    Built to demonstrate how prompt design can reduce drafting time and rework while preserving
+    auditor judgment, documentation integrity, and audit quality.
   </p>
 
   <div class="stack">
-    <span class="pill">AI / LLM</span>
+    <span class="pill">Prompt Engineering</span>
+    <span class="pill">AI Governance</span>
     <span class="pill">Audit Methodology</span>
     <span class="pill">Documentation Standards</span>
-    <span class="pill">Sampling Governance</span>
-    <span class="pill">Risk Controls</span>
+    <span class="pill">Sampling Controls</span>
   </div>
 </section>
 
@@ -38,15 +38,16 @@ description: "Governed AI assistant concept for internal audit documentation, me
 
 <div class="card">
   <p>
-    Internal audit teams are likely to encounter AI-enabled drafting, summarization,
-    and documentation support. The risk is not AI usage itself; the risk is uncontrolled
-    drafting, unsupported assumptions, inconsistent workpaper language, and unclear
-    accountability.
+    Internal audit teams are increasingly likely to encounter AI-enabled drafting,
+    summarization, and documentation support. The risk is not AI usage itself; the risk is
+    uncontrolled prompting, unsupported assumptions, inconsistent workpaper language,
+    and unclear accountability.
   </p>
 
   <p>
-    This concept demonstrates how AI can be constrained with audit-specific guardrails
-    so that it supports documentation quality without replacing auditor judgment.
+    This project demonstrates how prompt engineering can be used to structure AI interactions
+    around audit-specific rules, documentation expectations, methodology constraints, and
+    governance controls.
   </p>
 </div>
 
@@ -56,22 +57,21 @@ description: "Governed AI assistant concept for internal audit documentation, me
 
 <div class="card">
   <p>
-    Internal audit documentation is often time-consuming, inconsistent across auditors,
-    and prone to late-stage rework during review. While AI tools can accelerate drafting,
-    uncontrolled use introduces significant risks:
+    Generic AI prompts can produce inconsistent, unsupported, or overly confident outputs.
+    In an internal audit environment, that creates several risks:
   </p>
 
   <ul class="bullets">
-    <li>Inconsistent formats and documentation quality</li>
-    <li>Hallucinated controls, populations, systems, or conclusions</li>
-    <li>Blurring of boundaries between narratives, walkthroughs, test plans, testing results, and issues</li>
-    <li>Misapplication of sampling guidance</li>
-    <li>Over-reliance on AI outputs without sufficient auditor oversight</li>
+    <li>Inconsistent documentation formats, tone, and terminology</li>
+    <li>Invented controls, populations, systems, evidence, exceptions, or conclusions</li>
+    <li>Blending of separate audit artifacts such as narratives, walkthroughs, test plans, testing results, and issues</li>
+    <li>Misapplication of sampling guidance or unsupported testing rationale</li>
+    <li>Over-reliance on AI-generated language without sufficient auditor review</li>
   </ul>
 
   <p>
-    These risks make generic AI tools unsuitable for audit environments without
-    strong governance, clear scope, and embedded documentation controls.
+    These risks make unstructured prompting unsuitable for audit documentation without
+    clear prompt rules, constraints, and review expectations.
   </p>
 </div>
 
@@ -81,52 +81,70 @@ description: "Governed AI assistant concept for internal audit documentation, me
 
 <div class="card">
   <p>
-    I designed a rule-driven AI assistant concept specifically for internal audit use.
-    The assistant does not replace auditor judgment or make audit decisions. Instead,
-    it operates as a constrained drafting and guidance tool that enforces
-    audit methodology and documentation discipline.
+    I designed a structured prompt engineering framework for internal audit use cases.
+    The framework does not replace auditor judgment or make audit decisions. Instead,
+    it demonstrates how prompts can be designed to guide drafting, enforce methodology,
+    request clarification, and prevent unsupported outputs.
   </p>
 
   <p><strong>Core design principles:</strong></p>
 
   <ul class="bullets">
-    <li>Auditors remain fully responsible for scope, conclusions, and judgments</li>
-    <li>AI outputs are limited to text suitable for controlled audit systems</li>
-    <li>Methodology and reference guidance are treated as authoritative</li>
+    <li>Auditors remain responsible for scope, evidence, conclusions, and final judgment</li>
+    <li>Prompts require the user to define the audit artifact before drafting begins</li>
+    <li>Methodology, sampling rules, and documentation standards are embedded into prompt instructions</li>
     <li>Ambiguity triggers clarification instead of assumptions</li>
-    <li>Outputs are designed for review, validation, and final auditor approval</li>
+    <li>Outputs are designed to be reviewed, validated, and finalized by an auditor</li>
   </ul>
 </div>
 
 <hr class="sep" />
 
-## Controls & Guardrails
+## Prompt Engineering Controls
 
 <div class="card">
   <p>
-    The assistant is governed by a detailed instruction framework that embeds
-    audit quality controls directly into its behavior.
+    The framework uses prompt-level controls to constrain AI behavior and improve
+    consistency across audit documentation activities.
   </p>
 
   <ul class="bullets">
-    <li><strong>Mandatory activity classification</strong> — the assistant will not draft content
-        until the user explicitly selects the audit artifact type
-        such as Narrative, Walkthrough, Test Plan, Testing Results, or Issue.</li>
+    <li><strong>Role definition</strong> — prompts define the AI role as documentation support, not an auditor, decision-maker, or evidence evaluator.</li>
 
-    <li><strong>Strict artifact separation</strong> — prevents blending documentation types
-        or producing multiple formats at once.</li>
+    <li><strong>Artifact classification</strong> — prompts require the user to identify the output type before drafting, such as Narrative, Walkthrough, Test Plan, Testing Results, or Issue.</li>
 
-    <li><strong>Authoritative reference hierarchy</strong> — internal audit guidance and
-        reference documents override general drafting behavior.</li>
+    <li><strong>Scope control</strong> — prompts limit outputs to the selected activity and prevent combining multiple audit artifacts into one response.</li>
 
-    <li><strong>Sampling enforcement</strong> — sample sizes and selection methods are constrained
-        to approved guidance and cannot be inflated or invented.</li>
+    <li><strong>Reference hierarchy</strong> — prompts prioritize audit methodology and user-provided facts over general AI-generated assumptions.</li>
 
-    <li><strong>Non-fabrication rules</strong> — the assistant is prohibited from inventing
-        controls, populations, sample sizes, systems, evidence, exceptions, or conclusions.</li>
+    <li><strong>Sampling discipline</strong> — prompts prevent invented sample sizes, unsupported population assumptions, or inflated testing rationale.</li>
 
-    <li><strong>Text-only outputs</strong> — prevents file generation, attachments, or claims
-        of system interaction, helping maintain compatibility with controlled audit platforms.</li>
+    <li><strong>Non-fabrication rules</strong> — prompts prohibit invented controls, systems, evidence, populations, exceptions, conclusions, or management responses.</li>
+
+    <li><strong>Clarification triggers</strong> — prompts require follow-up questions when necessary information is missing, unclear, or inconsistent.</li>
+  </ul>
+</div>
+
+<hr class="sep" />
+
+## Prompt Patterns Demonstrated
+
+<div class="card">
+  <p>
+    The framework is organized around reusable prompt patterns that can be adapted
+    to different internal audit documentation needs.
+  </p>
+
+  <ul class="bullets">
+    <li><strong>Process narrative prompts</strong> — structure end-to-end process descriptions using auditor-provided facts.</li>
+
+    <li><strong>Walkthrough prompts</strong> — document control design understanding without inventing missing control details.</li>
+
+    <li><strong>Test plan prompts</strong> — organize population, sample, attributes, evidence, and testing rationale.</li>
+
+    <li><strong>Testing result prompts</strong> — summarize procedures performed, exceptions identified, and operating effectiveness conclusions based only on provided results.</li>
+
+    <li><strong>Issue drafting prompts</strong> — support consistent finding language, including condition, criteria, cause, effect, recommendation, and management response structure.</li>
   </ul>
 </div>
 
@@ -137,37 +155,10 @@ description: "Governed AI assistant concept for internal audit documentation, me
 <div class="card">
   <ul class="bullets">
     <li>Required activity selection before drafting</li>
-    <li>No invented controls, systems, samples, populations, evidence, or conclusions</li>
+    <li>No invented controls, systems, samples, populations, evidence, exceptions, or conclusions</li>
     <li>Clear separation between narratives, walkthroughs, test plans, testing results, and issues</li>
-    <li>Sampling logic constrained to approved guidance</li>
+    <li>Sampling logic constrained to approved guidance or user-provided methodology</li>
     <li>Auditor remains responsible for final review, validation, and judgment</li>
-  </ul>
-</div>
-
-<hr class="sep" />
-
-## Supported Audit Activities
-
-<div class="card">
-  <p>
-    The assistant is designed to support — not replace — experienced auditors
-    across the audit lifecycle, including:
-  </p>
-
-  <ul class="bullets">
-    <li><strong>Process narratives</strong> — structured descriptions of end-to-end processes</li>
-
-    <li><strong>Walkthrough documentation</strong> — design understanding for individual controls
-        based solely on auditor-provided information</li>
-
-    <li><strong>Test plans</strong> — population definition, sample size selection,
-        testing attributes, and rationale</li>
-
-    <li><strong>Testing results</strong> — clear summaries of what was tested,
-        exceptions identified, and operating effectiveness conclusions</li>
-
-    <li><strong>Issues / findings</strong> — standardized issue documentation aligned
-        to severity classification frameworks</li>
   </ul>
 </div>
 
@@ -177,16 +168,17 @@ description: "Governed AI assistant concept for internal audit documentation, me
 
 <div class="card">
   <ul class="bullets">
-    <li>Reduced documentation drafting time</li>
-    <li>Improved consistency across auditors and engagements</li>
-    <li>Stronger adherence to audit methodology and sampling guidance</li>
-    <li>Lower risk of unsupported assumptions or fabricated content</li>
-    <li>Clearer, more review-ready audit documentation</li>
+    <li>Improves consistency in AI-supported audit documentation</li>
+    <li>Reduces drafting time while maintaining review discipline</li>
+    <li>Strengthens adherence to audit methodology and sampling expectations</li>
+    <li>Reduces risk of unsupported assumptions or fabricated content</li>
+    <li>Demonstrates practical AI governance at the prompt-design level</li>
   </ul>
 
   <p>
-    By embedding methodology and controls into the assistant concept, the tool supports
-    efficiency without compromising audit quality, documentation integrity, or auditor accountability.
+    By embedding audit methodology and controls into prompt design, this framework
+    shows how AI can support audit efficiency without compromising documentation quality,
+    independence, or auditor accountability.
   </p>
 </div>
 
@@ -196,13 +188,13 @@ description: "Governed AI assistant concept for internal audit documentation, me
 
 <div class="card">
   <p>
-    This AI assistant concept was developed to support internal audit activities
-    within a private-company environment. It does not make management decisions,
-    approve controls, perform audit testing, or override auditor judgment.
+    This project demonstrates prompt engineering concepts for internal audit documentation.
+    It does not make audit decisions, approve controls, perform testing, evaluate evidence,
+    or override auditor judgment.
   </p>
 
   <p>
-    All outputs are intended to be reviewed, validated, and finalized by
-    qualified audit professionals before use in any formal audit documentation.
+    Any AI-supported output should be reviewed, validated, and finalized by qualified audit
+    professionals before use in formal audit documentation.
   </p>
 </div>
