@@ -4,8 +4,6 @@ layout: default
 permalink: /about/
 ---
 
-{% include analytics.html %}
-
 {% include nav.html %}
 
 <section class="hero">
