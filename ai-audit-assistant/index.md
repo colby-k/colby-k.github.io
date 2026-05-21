@@ -4,39 +4,7 @@ layout: default
 permalink: /ai-audit-assistant/
 ---
 
-{% include analytics.html %}
-
-<nav class="topnav topnav--header" aria-label="Primary">
-  <a href="/">
-    <img class="navicon" src="/assets/icons/home.svg" alt="" aria-hidden="true">
-    Home
-  </a>
-
-  <a href="/excel-tools/">
-    <img class="navicon" src="/assets/icons/excel.svg" alt="" aria-hidden="true">
-    Excel Tools
-  </a>
-
-  <a href="/audit-analytics/">
-    <img class="navicon" src="/assets/icons/power_bi.svg" alt="" aria-hidden="true">
-    Audit Analytics
-  </a>
-
-  <a href="/sql-projects/">
-    <img class="navicon" src="/assets/icons/SQL_2025.svg" alt="" aria-hidden="true">
-    SQL Projects
-  </a>
-
-  <a href="/ai-audit-assistant/">
-    <img class="navicon" src="/assets/icons/chatgpt.svg" alt="" aria-hidden="true">
-    AI Assistant
-  </a>
-
-  <a href="/about/">
-    <img class="navicon" src="/assets/icons/info.svg" alt="" aria-hidden="true">
-    About
-  </a>
-</nav>
+{% include nav.html %}
 
 <section class="hero">
   <p class="kicker">AI-Enabled Audit Tooling</p>
