@@ -51,6 +51,48 @@ I build internal audit tools, analytics, and documentation workflows that help a
 
 <hr class="sep" />
 
+## Interactive Audit Dashboard Demo
+
+<div class="card" style="padding:1.25rem;">
+
+<div class="card__header">
+<h3 class="card__title">Internal Audit Issue Tracker</h3>
+<div class="card__meta">Power BI • Audit findings • Issue management • Demo data</div>
+</div>
+
+<p>
+<strong>Interactive Power BI dashboard for tracking audit findings, management action plans,
+issue aging, ownership, and follow-up status.</strong>
+</p>
+
+<p>
+This dashboard demonstrates how audit issue data can be centralized and visualized to improve
+follow-up discipline, management reporting, and visibility into overdue or high-priority items.
+</p>
+
+<div class="powerbi-embed">
+  <iframe
+    title="Internal Audit Issue Tracker Dashboard"
+    src="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1"
+    frameborder="0"
+    allowfullscreen="true"
+    loading="lazy">
+  </iframe>
+</div>
+
+<p class="caption">
+Embedded interactive Power BI report using demo data.
+</p>
+
+<p class="cta-row">
+<a class="btn" href="/audit-analytics/">View all audit analytics</a>
+<a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">Open full report</a>
+</p>
+
+</div>
+
+<hr class="sep" />
+
 ## Featured Work
 
 <div class="card" style="padding:1.25rem;">
