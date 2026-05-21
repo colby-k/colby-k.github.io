@@ -1,17 +1,15 @@
-title: "Internal Audit & Analytics Portfolio"
+title: "Internal Audit Tools, Analytics & Governance Portfolio"
 logo: ""
 description: >
   <strong>Colby Kellersberger, CIA, CFE, CICA</strong><br><br>
 
   <a href="https://linkedin.com/in/colby-k" target="_blank" style="text-decoration: none;">
-    <img src="/assets/icons/LinkedIn.svg" width="28" title="LinkedIn" style="margin-right: 6px;">
+    <img src="/assets/icons/LinkedIn.svg" width="36" title="LinkedIn" style="margin-right: 10px;">
   </a>
   <a href="https://github.com/colby-k" target="_blank" style="text-decoration: none;">
-    <img src="/assets/icons/github.svg" width="28" title="GitHub">
+    <img src="/assets/icons/github.svg" width="36" title="GitHub">
   </a>
     
-
-
 remote_theme: pages-themes/slate@v0.2.0
 
 lang: "en"
