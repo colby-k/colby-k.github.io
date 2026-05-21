@@ -1,7 +1,7 @@
 ---
 title: "Internal Audit Tools, Analytics & Governance Portfolio"
 layout: default
-description: "Practical internal audit tools, analytics, automation, and AI governance projects by Colby Kellersberger, CIA, CFE, CICA."
+description: "Practical internal audit tools, analytics, automation, prompt engineering, and AI governance projects by Colby Kellersberger, CIA, CFE, CICA."
 ---
 
 {% include nav.html %}
@@ -20,6 +20,7 @@ I build internal audit tools, analytics, and documentation workflows that help a
 <span class="pill">Python (pandas)</span>
 <span class="pill">SQL</span>
 <span class="pill">Streamlit</span>
+<span class="pill">Prompt Engineering</span>
 </div>
 
 <div class="metrics">
@@ -44,7 +45,7 @@ I build internal audit tools, analytics, and documentation workflows that help a
   <p>
     This portfolio highlights audit-focused tools and analytics built around practical internal audit needs:
     risk assessment, audit planning, workpaper documentation, issue tracking, sampling, anomaly detection,
-    AI governance, and review-ready reporting.
+    prompt engineering, AI governance, and review-ready reporting.
   </p>
 </div>
 
@@ -141,20 +142,20 @@ I build internal audit tools, analytics, and documentation workflows that help a
 
 <div class="card" style="margin:0;">
 <div class="card__header">
-<h3 class="card__title">AI-Enabled Audit Documentation</h3>
-<div class="card__meta">AI guardrails • Audit methodology • Documentation support</div>
+<h3 class="card__title">Prompt Engineering for Internal Audit</h3>
+<div class="card__meta">Prompt design • AI governance • Audit methodology</div>
 </div>
 
-<p>Governed AI assistant concept designed to support internal audit documentation while enforcing structure, sampling rules, methodology, and documentation discipline.</p>
+<p>Prompt engineering framework for internal audit documentation, designed around structured inputs, methodology guardrails, sampling discipline, non-fabrication rules, and review-ready outputs.</p>
 
 <ul class="bullets">
-<li>Narratives, walkthroughs, test plans, testing results, and issues</li>
-<li>Structured activity selection</li>
-<li>Controls to reduce unsupported or fabricated content</li>
+<li>Reusable prompt patterns for narratives, walkthroughs, test plans, results, and issues</li>
+<li>Guardrails to prevent unsupported assumptions or fabricated audit content</li>
+<li>Controls that preserve auditor judgment, reviewability, and documentation discipline</li>
 </ul>
 
 <p class="cta-row">
-<a class="btn" href="/ai-audit-assistant/">View AI assistant overview</a>
+<a class="btn" href="/ai-audit-assistant/">View prompt engineering framework</a>
 </p>
 </div>
 
