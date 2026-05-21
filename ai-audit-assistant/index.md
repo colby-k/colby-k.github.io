@@ -2,6 +2,7 @@
 title: "AI-Enabled Audit Documentation Assistant"
 layout: default
 permalink: /ai-audit-assistant/
+description: "Governed AI assistant concept for internal audit documentation, methodology enforcement, sampling discipline, and audit-quality guardrails."
 ---
 
 {% include nav.html %}
@@ -10,7 +11,7 @@ permalink: /ai-audit-assistant/
   <p class="kicker">AI-Enabled Audit Tooling</p>
 
   <p class="lede">
-    A governed AI assistant designed to support internal auditors with
+    A governed AI assistant concept designed to support internal auditors with
     audit documentation while enforcing methodology, sampling rules,
     and documentation discipline.
   </p>
@@ -29,6 +30,26 @@ permalink: /ai-audit-assistant/
   </div>
 </section>
 
+{% include demo-disclaimer.html %}
+
+<hr class="sep" />
+
+## Why This Matters
+
+<div class="card">
+  <p>
+    Internal audit teams are likely to encounter AI-enabled drafting, summarization,
+    and documentation support. The risk is not AI usage itself; the risk is uncontrolled
+    drafting, unsupported assumptions, inconsistent workpaper language, and unclear
+    accountability.
+  </p>
+
+  <p>
+    This concept demonstrates how AI can be constrained with audit-specific guardrails
+    so that it supports documentation quality without replacing auditor judgment.
+  </p>
+</div>
+
 <hr class="sep" />
 
 ## Problem
@@ -42,15 +63,15 @@ permalink: /ai-audit-assistant/
 
   <ul class="bullets">
     <li>Inconsistent formats and documentation quality</li>
-    <li>Hallucinated controls, populations, or conclusions</li>
-    <li>Blurring of boundaries between Narratives, Walkthroughs, Test Plans, and Results</li>
+    <li>Hallucinated controls, populations, systems, or conclusions</li>
+    <li>Blurring of boundaries between narratives, walkthroughs, test plans, testing results, and issues</li>
     <li>Misapplication of sampling guidance</li>
     <li>Over-reliance on AI outputs without sufficient auditor oversight</li>
   </ul>
 
   <p>
     These risks make generic AI tools unsuitable for audit environments without
-    strong governance and controls.
+    strong governance, clear scope, and embedded documentation controls.
   </p>
 </div>
 
@@ -60,8 +81,8 @@ permalink: /ai-audit-assistant/
 
 <div class="card">
   <p>
-    I designed a rule-driven AI assistant specifically for internal audit use.
-    The assistant does not replace auditor judgment or make decisions. Instead,
+    I designed a rule-driven AI assistant concept specifically for internal audit use.
+    The assistant does not replace auditor judgment or make audit decisions. Instead,
     it operates as a constrained drafting and guidance tool that enforces
     audit methodology and documentation discipline.
   </p>
@@ -72,7 +93,8 @@ permalink: /ai-audit-assistant/
     <li>Auditors remain fully responsible for scope, conclusions, and judgments</li>
     <li>AI outputs are limited to text suitable for controlled audit systems</li>
     <li>Methodology and reference guidance are treated as authoritative</li>
-    <li>Ambiguity triggers clarification, not assumptions</li>
+    <li>Ambiguity triggers clarification instead of assumptions</li>
+    <li>Outputs are designed for review, validation, and final auditor approval</li>
   </ul>
 </div>
 
@@ -89,22 +111,36 @@ permalink: /ai-audit-assistant/
   <ul class="bullets">
     <li><strong>Mandatory activity classification</strong> — the assistant will not draft content
         until the user explicitly selects the audit artifact type
-        (Narrative, Walkthrough, Test Plan, Testing Results, or Issue).</li>
+        such as Narrative, Walkthrough, Test Plan, Testing Results, or Issue.</li>
 
     <li><strong>Strict artifact separation</strong> — prevents blending documentation types
         or producing multiple formats at once.</li>
 
     <li><strong>Authoritative reference hierarchy</strong> — internal audit guidance and
-        reference documents override all other instructions.</li>
+        reference documents override general drafting behavior.</li>
 
     <li><strong>Sampling enforcement</strong> — sample sizes and selection methods are constrained
-        to approved simplified guidance and cannot be risk-tiered or inflated.</li>
+        to approved guidance and cannot be inflated or invented.</li>
 
     <li><strong>Non-fabrication rules</strong> — the assistant is prohibited from inventing
-        controls, populations, sample sizes, systems, or evidence.</li>
+        controls, populations, sample sizes, systems, evidence, exceptions, or conclusions.</li>
 
     <li><strong>Text-only outputs</strong> — prevents file generation, attachments, or claims
-        of system interaction, ensuring compatibility with controlled audit platforms.</li>
+        of system interaction, helping maintain compatibility with controlled audit platforms.</li>
+  </ul>
+</div>
+
+<hr class="sep" />
+
+## Governance Controls Demonstrated
+
+<div class="card">
+  <ul class="bullets">
+    <li>Required activity selection before drafting</li>
+    <li>No invented controls, systems, samples, populations, evidence, or conclusions</li>
+    <li>Clear separation between narratives, walkthroughs, test plans, testing results, and issues</li>
+    <li>Sampling logic constrained to approved guidance</li>
+    <li>Auditor remains responsible for final review, validation, and judgment</li>
   </ul>
 </div>
 
@@ -119,19 +155,18 @@ permalink: /ai-audit-assistant/
   </p>
 
   <ul class="bullets">
-    <li><strong>Process Narratives</strong> — structured, paragraph-based descriptions
-        of end-to-end processes</li>
+    <li><strong>Process narratives</strong> — structured descriptions of end-to-end processes</li>
 
-    <li><strong>Walkthrough Documentation</strong> — design understanding for individual controls
+    <li><strong>Walkthrough documentation</strong> — design understanding for individual controls
         based solely on auditor-provided information</li>
 
-    <li><strong>Test Plans</strong> — population definition, sample size selection,
+    <li><strong>Test plans</strong> — population definition, sample size selection,
         testing attributes, and rationale</li>
 
-    <li><strong>Testing Results</strong> — clear summaries of what was tested,
+    <li><strong>Testing results</strong> — clear summaries of what was tested,
         exceptions identified, and operating effectiveness conclusions</li>
 
-    <li><strong>Issues / Findings</strong> — standardized issue documentation aligned
+    <li><strong>Issues / findings</strong> — standardized issue documentation aligned
         to severity classification frameworks</li>
   </ul>
 </div>
@@ -145,13 +180,13 @@ permalink: /ai-audit-assistant/
     <li>Reduced documentation drafting time</li>
     <li>Improved consistency across auditors and engagements</li>
     <li>Stronger adherence to audit methodology and sampling guidance</li>
-    <li>Lower risk of AI misuse or undocumented assumptions</li>
+    <li>Lower risk of unsupported assumptions or fabricated content</li>
     <li>Clearer, more review-ready audit documentation</li>
   </ul>
 
   <p>
-    By embedding methodology and controls into the AI itself, the tool enhances
-    efficiency without compromising audit quality or independence.
+    By embedding methodology and controls into the assistant concept, the tool supports
+    efficiency without compromising audit quality, documentation integrity, or auditor accountability.
   </p>
 </div>
 
@@ -161,13 +196,13 @@ permalink: /ai-audit-assistant/
 
 <div class="card">
   <p>
-    This AI assistant was developed to support internal audit activities
+    This AI assistant concept was developed to support internal audit activities
     within a private-company environment. It does not make management decisions,
-    approve controls, or override auditor judgment.
+    approve controls, perform audit testing, or override auditor judgment.
   </p>
 
   <p>
     All outputs are intended to be reviewed, validated, and finalized by
-    qualified audit professionals.
+    qualified audit professionals before use in any formal audit documentation.
   </p>
 </div>
