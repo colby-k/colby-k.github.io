@@ -2,6 +2,7 @@
 title: "About"
 layout: default
 permalink: /about/
+description: "About Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manager focused on risk-based auditing, audit analytics, documentation quality, and practical audit tooling."
 ---
 
 {% include nav.html %}
@@ -10,29 +11,46 @@ permalink: /about/
   <p class="kicker">About</p>
 
   <p class="lede">
-    Hi, I’m <strong>Colby Kellersberger (CIA, CFE, CICA)</strong> — an Internal Audit Manager who enjoys using data and tools to make audits more effective and efficient.
+    Hi, I’m <strong>Colby Kellersberger (CIA, CFE, CICA)</strong> — an Internal Audit Manager focused on risk-based auditing, audit analytics, and practical tooling that improves audit coverage, documentation quality, and review efficiency.
   </p>
 
   <div class="stack">
     <span class="pill">Internal Audit</span>
+    <span class="pill">Risk-Based Auditing</span>
     <span class="pill">Compliance</span>
-    <span class="pill">BI / Analytics</span>
+    <span class="pill">Audit Analytics</span>
     <span class="pill">Excel / VBA</span>
     <span class="pill">Power BI</span>
     <span class="pill">SQL</span>
     <span class="pill">Python / Streamlit</span>
+    <span class="pill">Prompt Engineering</span>
   </div>
 </section>
 
 <hr class="sep" />
 
 <div class="card">
-  <h3 class="card__title">What I focus on</h3>
+  <h3 class="card__title">What I Focus On</h3>
 
   <ul class="bullets">
-    <li>Building tools that improve <strong>coverage</strong>, <strong>consistency</strong>, and <strong>documentation quality</strong></li>
-    <li>Developing repeatable analytics for audit testing and monitoring</li>
-    <li>Reducing manual effort in fieldwork while improving review clarity</li>
+    <li>Building tools that improve <strong>audit coverage</strong>, <strong>consistency</strong>, and <strong>documentation quality</strong></li>
+    <li>Developing repeatable analytics for audit testing, monitoring, exception identification, and issue follow-up</li>
+    <li>Reducing manual effort in fieldwork while improving review clarity and workpaper consistency</li>
+    <li>Designing practical workflows that help audit teams produce more defensible, review-ready documentation</li>
+  </ul>
+</div>
+
+<hr class="sep" />
+
+<div class="card">
+  <h3 class="card__title">What I Bring to Audit Teams</h3>
+
+  <ul class="bullets">
+    <li>Internal audit experience with hands-on technical execution</li>
+    <li>Ability to translate audit methodology into repeatable tools, templates, analytics, and workflows</li>
+    <li>Practical analytics for testing, monitoring, risk assessment, anomaly detection, and management reporting</li>
+    <li>Strong focus on documentation quality, reviewability, governance, and defensibility</li>
+    <li>Comfort bridging traditional audit work with data, automation, and AI-enabled process improvement</li>
   </ul>
 </div>
 
@@ -69,7 +87,7 @@ permalink: /about/
     <a href="https://streamlit.io" target="_blank" rel="noopener">
       <img src="/assets/icons/streamlit.svg" width="26" title="Streamlit" alt="Streamlit">
     </a>
-    
+
     <a href="https://chatgpt.com/" target="_blank" rel="noopener">
       <img src="/assets/icons/chatgpt.svg" width="26" title="ChatGPT" alt="ChatGPT">
     </a>
@@ -77,15 +95,30 @@ permalink: /about/
     <a href="https://github.com/features/copilot" target="_blank" rel="noopener">
       <img src="/assets/icons/copilot.svg" width="26" title="GitHub Copilot" alt="GitHub Copilot">
     </a>
-
   </div>
 </div>
 
 <hr class="sep" />
 
+<div class="card">
+  <h3 class="card__title">Portfolio Themes</h3>
+
+  <ul class="bullets">
+    <li><strong>Audit tools:</strong> Excel/VBA add-ins, templates, and repeatable workpaper support</li>
+    <li><strong>Audit analytics:</strong> dashboards, exception analysis, sampling support, and anomaly detection</li>
+    <li><strong>Data projects:</strong> SQL, transformation, modeling, and dashboard development for business review</li>
+    <li><strong>Prompt engineering:</strong> structured AI workflows with audit-specific guardrails and documentation controls</li>
+  </ul>
+</div>
+
+<hr class="sep" />
 
 <div class="card">
   <h3 class="card__title">Resume & Links</h3>
+
+  <p>
+    Connect with me or view more of my work through the links below.
+  </p>
 
   <p class="cta-row">
     <a class="btn" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
