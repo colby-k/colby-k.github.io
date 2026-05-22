@@ -1,3 +1,16 @@
+{% assign page_description = page.description | default: site.meta_description | default: site.description | strip_html | normalize_whitespace | truncate: 160 %}
+
+<meta name="description" content="{{ page_description | escape }}">
+<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+<meta property="og:description" content="{{ page_description | escape }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/assets/img/AuditTicksPro_Tms.png' | absolute_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+<meta name="twitter:description" content="{{ page_description | escape }}">
+<meta name="twitter:image" content="{{ '/assets/img/AuditTicksPro_Tms.png' | absolute_url }}">
+
 <link
   rel="stylesheet"
   href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
@@ -19,4 +32,5 @@
   rel="apple-touch-icon"
   href="{{ '/assets/img/AuditTicksPro_Icon.png?v=' | append: site.github.build_revision | relative_url }}"
 >
+
 {% include analytics.html %}
