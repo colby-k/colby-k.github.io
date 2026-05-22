@@ -121,8 +121,8 @@ description: "About Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manag
   </p>
 
   <p class="cta-row">
-    <a class="btn" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
-    <a class="btn btn--ghost" href="https://github.com/colby-k" target="_blank" rel="noopener">GitHub</a>
-    <a class="btn btn--ghost" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">Download resume (PDF)</a>
+    <a class="btn social-btn" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn btn--ghost social-btn" href="https://github.com/colby-k" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn btn--ghost resume-btn" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">Download resume (PDF)</a>
   </p>
 </div>
