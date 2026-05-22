@@ -1,15 +1,19 @@
 title: "Internal Audit Tools, Analytics & Governance Portfolio"
 logo: ""
+
 description: >
   <strong>Colby Kellersberger, CIA, CFE, CICA</strong><br><br>
 
-  <a href="https://linkedin.com/in/colby-k" target="_blank" style="text-decoration: none;">
-    <img src="/assets/icons/LinkedIn.svg" width="36" title="LinkedIn" style="margin-right: 10px;">
+  <a href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+    <img src="/assets/icons/LinkedIn.svg" width="36" alt="LinkedIn" title="LinkedIn" style="margin-right: 10px;">
   </a>
-  <a href="https://github.com/colby-k" target="_blank" style="text-decoration: none;">
-    <img src="/assets/icons/github.svg" width="36" title="GitHub">
+
+  <a href="https://github.com/colby-k" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+    <img src="/assets/icons/github.svg" width="36" alt="GitHub" title="GitHub">
   </a>
-    
+
+meta_description: "Practical internal audit tools, analytics, automation, prompt engineering, and AI governance projects by Colby Kellersberger, CIA, CFE, CICA."
+
 remote_theme: pages-themes/slate@v0.2.0
 
 lang: "en"
@@ -26,3 +30,10 @@ url: "https://colby-k.github.io"
 baseurl: ""
 
 google_analytics: G-QQ7MYYPFFW
+
+exclude:
+  - _old
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
