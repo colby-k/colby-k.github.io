@@ -48,7 +48,8 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
       title="Vendor Payments Monitoring Dashboard"
       src="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
       frameborder="0"
-      allowfullscreen="true">
+      allowfullscreen="true"
+      loading="lazy">
     </iframe>
   </div>
 
@@ -81,7 +82,8 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
       title="Internal Audit Issue Tracker Dashboard"
       src="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1"
       frameborder="0"
-      allowfullscreen="true">
+      allowfullscreen="true"
+      loading="lazy">
     </iframe>
   </div>
 
@@ -195,7 +197,8 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
       title="Adventure Works Sales and Operations Dashboard"
       src="https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
       frameborder="0"
-      allowfullscreen="true">
+      allowfullscreen="true"
+      loading="lazy">
     </iframe>
   </div>
 
@@ -231,7 +234,8 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
       title="Property Management Dashboard"
       src="https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
       frameborder="0"
-      allowfullscreen="true">
+      allowfullscreen="true"
+      loading="lazy">
     </iframe>
   </div>
 
