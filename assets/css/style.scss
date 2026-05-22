@@ -521,18 +521,16 @@ img {
     height: 460px;
   }
 }
-.notice {
+.demo-disclaimer {
   margin: 1.25rem 0;
-  padding: 1rem 1.1rem;
-  border-radius: 12px;
-  border: 1px solid rgba(148, 163, 184, 0.35);
-  background: rgba(15, 23, 42, 0.35);
+  border-left: 4px solid #f2c94c;
+  background: rgba(242, 201, 76, 0.08);
 }
 
-.notice--demo {
-  font-size: 0.95rem;
+.demo-disclaimer p {
+  margin-bottom: 0;
 }
 
-.notice strong {
-  color: #ffffff;
+.demo-disclaimer strong {
+  color: #4a3500;
 }
