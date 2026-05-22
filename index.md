@@ -39,6 +39,12 @@ I build internal audit tools, analytics, and documentation workflows that help a
 <div class="metric__label">Faster fieldwork + cleaner review</div>
 </div>
 </div>
+
+<p class="cta-row hero-cta">
+<a class="btn" href="#dashboard-demo">View dashboard demo</a>
+<a class="btn btn--ghost" href="/excel-tools/">Explore audit tools</a>
+<a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
+</p>
 </section>
 
 <div class="card">
@@ -51,9 +57,17 @@ I build internal audit tools, analytics, and documentation workflows that help a
 
 <hr class="sep" />
 
+<a id="dashboard-demo"></a>
+
 ## Interactive Audit Dashboard Demo
 
-<div class="card" style="padding:1.25rem;">
+<div class="card card--feature">
+
+<div class="badge-row">
+  <span class="badge">Interactive demo</span>
+  <span class="badge">Audit findings</span>
+  <span class="badge">Power BI</span>
+</div>
 
 <div class="card__header">
 <h3 class="card__title">Internal Audit Issue Tracker</h3>
@@ -95,7 +109,13 @@ Embedded interactive Power BI report using demo data.
 
 ## Featured Work
 
-<div class="card" style="padding:1.25rem;">
+<div class="card card--feature">
+
+<div class="badge-row">
+  <span class="badge">Flagship project</span>
+  <span class="badge">Audit documentation</span>
+  <span class="badge">Excel add-in</span>
+</div>
 
 <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;">
 <img src="/assets/img/AuditTicksPro_Icon.png" alt="AuditTicks Pro icon" style="width:68px;height:68px;object-fit:contain;">
@@ -114,7 +134,7 @@ Embedded interactive Power BI report using demo data.
 <p class="caption">AuditTicks Pro in action: ribbon-based tickmarks, references, callouts, note boxes, review elements, and audit documentation helpers displayed directly in Excel.</p>
 </div>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:16px;">
+<div class="audit-grid">
 <div>
 <p><strong>Problem</strong><br>Audit documentation can become inconsistent when tickmarks, legends, references, review notes, and formatting are recreated manually across workpapers.</p>
 </div>
@@ -139,7 +159,13 @@ Embedded interactive Power BI report using demo data.
 
 ## Audit Planning Template
 
-<div class="card" style="padding:1.25rem;">
+<div class="card card--feature">
+
+<div class="badge-row">
+  <span class="badge">Audit planning</span>
+  <span class="badge">Risk assessment</span>
+  <span class="badge">Excel template</span>
+</div>
 
 <div class="card__header">
 <h3 class="card__title">Risk Assessment Matrix</h3>
@@ -155,7 +181,7 @@ Embedded interactive Power BI report using demo data.
 <p class="caption">Configurable risk factors with weighted scoring and an at-a-glance heatmap summary.</p>
 </div>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:16px;">
+<div class="audit-grid">
 <div>
 <p><strong>Problem</strong><br>Risk scoring can vary significantly between audits when criteria, weighting, and rating logic are not applied consistently.</p>
 </div>
@@ -180,9 +206,15 @@ Embedded interactive Power BI report using demo data.
 
 ## Additional Audit-Focused Work
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;align-items:stretch;">
+<div class="portfolio-grid">
 
 <div class="card" style="margin:0;">
+
+<div class="badge-row">
+  <span class="badge">AI governance</span>
+  <span class="badge">Prompt engineering</span>
+</div>
+
 <div class="card__header">
 <h3 class="card__title">Prompt Engineering for Internal Audit</h3>
 <div class="card__meta">Prompt design • AI governance • Audit methodology</div>
@@ -202,6 +234,12 @@ Embedded interactive Power BI report using demo data.
 </div>
 
 <div class="card" style="margin:0;">
+
+<div class="badge-row">
+  <span class="badge">Audit analytics</span>
+  <span class="badge">Risk-based testing</span>
+</div>
+
 <div class="card__header">
 <h3 class="card__title">Audit Analytics</h3>
 <div class="card__meta">Power BI • Python • Streamlit</div>
@@ -222,6 +260,12 @@ Embedded interactive Power BI report using demo data.
 </div>
 
 <div class="card" style="margin:0;">
+
+<div class="badge-row">
+  <span class="badge">SQL</span>
+  <span class="badge">Business risk</span>
+</div>
+
 <div class="card__header">
 <h3 class="card__title">Data Projects for Audit & Business Risk</h3>
 <div class="card__meta">SQL • Power BI • Business risk analysis</div>
@@ -253,7 +297,7 @@ more efficient, consistent, repeatable, and review-ready in complex environments
 
 <p class="cta-row">
 <a class="btn" href="/about/">About</a>
-<a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
-<a class="btn btn--ghost" href="https://github.com/colby-k" target="_blank" rel="noopener">GitHub</a>
+<a class="btn btn--ghost social-btn" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn btn--ghost social-btn" href="https://github.com/colby-k" target="_blank" rel="noopener">GitHub</a>
 </p>
 </div>
