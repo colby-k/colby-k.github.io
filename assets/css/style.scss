@@ -439,6 +439,159 @@ img {
   scroll-margin-top: 1rem;
 }
 
+/* ===== Prompt Engineering page visuals ===== */
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.demo-card {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 1rem;
+  padding: 1.15rem;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+.demo-card.generic {
+  border-top: 5px solid #9ca3af;
+}
+
+.demo-card.controlled {
+  border-top: 5px solid #2563eb;
+}
+
+.demo-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b7280;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.prompt-box {
+  background: rgba(248, 250, 252, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  border-radius: 0.75rem;
+  padding: 0.9rem;
+  margin: 0.75rem 0 1rem 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.prompt-box strong {
+  color: #111827;
+}
+
+.risk-list,
+.benefit-list {
+  margin-bottom: 0;
+}
+
+.takeaway-box {
+  background: rgba(248, 250, 252, 0.95);
+  border-left: 5px solid #2563eb;
+  border-radius: 0.85rem;
+  padding: 1rem 1.15rem;
+  margin-top: 1.25rem;
+}
+
+.takeaway-box p:last-child {
+  margin-bottom: 0;
+}
+
+.flow-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.flow-step {
+  position: relative;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+}
+
+.flow-step:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  right: -0.75rem;
+  top: 42%;
+  color: #6b7280;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.flow-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.65rem;
+  height: 1.65rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.10);
+  color: #1d4ed8;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.flow-step h3 {
+  font-size: 0.95rem;
+  margin: 0.25rem 0 0.4rem 0;
+}
+
+.flow-step p {
+  font-size: 0.88rem;
+  margin-bottom: 0;
+}
+
+.control-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.control-item {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0.85rem;
+  padding: 1rem;
+}
+
+.control-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  font-size: 0.98rem;
+}
+
+.control-item p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.mini-case {
+  background: rgba(242, 201, 76, 0.08);
+  border: 1px solid rgba(242, 201, 76, 0.45);
+  border-left: 5px solid #f2c94c;
+  border-radius: 0.85rem;
+  padding: 1.15rem 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.mini-case p:last-child {
+  margin-bottom: 0;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 860px) {
   html {
@@ -559,6 +712,20 @@ img {
 
   .card__grid {
     grid-template-columns: 1fr;
+  }
+
+  .demo-grid,
+  .control-grid,
+  .flow-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .flow-step:not(:last-child)::after {
+    content: "↓";
+    right: 50%;
+    top: auto;
+    bottom: -1rem;
+    transform: translateX(50%);
   }
 
   .cta-row {
