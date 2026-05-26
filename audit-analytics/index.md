@@ -21,7 +21,14 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
     <span class="pill">Python</span>
     <span class="pill">Streamlit</span>
     <span class="pill">Statistical Testing</span>
+    <span class="pill">Exception Analysis</span>
   </div>
+
+  <p class="cta-row hero-cta">
+    <a class="btn" href="#issue-tracker">View issue tracker</a>
+    <a class="btn btn--ghost" href="#vendor-payments">View vendor monitoring</a>
+    <a class="btn btn--ghost" href="#audit-testing-apps">Explore testing apps</a>
+  </p>
 </section>
 
 {% include demo-disclaimer.html %}
@@ -30,52 +37,41 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
 
 ## Audit Monitoring Dashboards
 
-<div class="card">
-  <h3 class="card__title">Vendor Payments Monitoring</h3>
-  <div class="card__meta">Power BI • Risk analytics • Interactive dashboard • Demo data</div>
+<a id="issue-tracker"></a>
 
-  <p><strong>Problem</strong><br/>
-  High-volume vendor payments make it difficult to identify duplicate, split, or unusual transactions.</p>
+<div class="card card--feature">
 
-  <p><strong>Approach</strong><br/>
-  Built a risk-focused dashboard highlighting payment patterns, vendor behavior, and anomalies for targeted testing.</p>
-
-  <p><strong>Audit value</strong><br/>
-  Enables focused audit testing and continuous monitoring of high-risk transactions.</p>
-
-  <div class="powerbi-embed">
-    <iframe
-      title="Vendor Payments Monitoring Dashboard"
-      src="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
-      frameborder="0"
-      allowfullscreen="true"
-      loading="lazy">
-    </iframe>
+  <div class="badge-row">
+    <span class="badge">Audit findings</span>
+    <span class="badge">Issue tracking</span>
+    <span class="badge">Power BI</span>
   </div>
 
-  <p class="caption">
-    Embedded interactive Power BI report using demo data.
+  <div class="card__header">
+    <h3 class="card__title">Internal Audit Issue Tracker</h3>
+    <div class="card__meta">Power BI • Issue management • Interactive dashboard • Demo data</div>
+  </div>
+
+  <p>
+    <strong>Interactive dashboard for tracking audit findings, management action plans, issue aging, ownership, and follow-up status.</strong>
   </p>
 
-  <p class="cta-row">
-    <a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
-      Open full report
-    </a>
-  </p>
-</div>
+  <div class="audit-grid">
+    <div>
+      <p><strong>Problem</strong><br/>
+      Tracking open issues and management action plans across audits can be fragmented and manual.</p>
+    </div>
 
-<div class="card">
-  <h3 class="card__title">Internal Audit Issue Tracker</h3>
-  <div class="card__meta">Power BI • Issue management • Interactive dashboard • Demo data</div>
+    <div>
+      <p><strong>Approach</strong><br/>
+      Centralized issue tracking with status, aging, ownership, and follow-up views.</p>
+    </div>
 
-  <p><strong>Problem</strong><br/>
-  Tracking open issues and management action plans across audits can be fragmented and manual.</p>
-
-  <p><strong>Approach</strong><br/>
-  Centralized issue tracking with status, aging, ownership, and follow-up views.</p>
-
-  <p><strong>Audit value</strong><br/>
-  Improves follow-up discipline, management reporting, and visibility into overdue or high-priority issues.</p>
+    <div>
+      <p><strong>Audit value</strong><br/>
+      Improves follow-up discipline, management reporting, and visibility into overdue or high-priority issues.</p>
+    </div>
+  </div>
 
   <div class="powerbi-embed">
     <iframe
@@ -92,19 +88,95 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
   </p>
 
   <p class="cta-row">
-    <a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">
+    <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">
       Open full report
     </a>
+    <a class="btn btn--ghost" href="#audit-testing-apps">View testing apps</a>
   </p>
+
 </div>
 
 <hr class="sep" />
 
+<a id="vendor-payments"></a>
+
+<div class="card card--feature">
+
+  <div class="badge-row">
+    <span class="badge">Vendor payments</span>
+    <span class="badge">Risk monitoring</span>
+    <span class="badge">Power BI</span>
+  </div>
+
+  <div class="card__header">
+    <h3 class="card__title">Vendor Payments Monitoring</h3>
+    <div class="card__meta">Power BI • Risk analytics • Interactive dashboard • Demo data</div>
+  </div>
+
+  <p>
+    <strong>Risk-focused dashboard for identifying duplicate, split, unusual, or high-risk vendor payment activity.</strong>
+  </p>
+
+  <div class="audit-grid">
+    <div>
+      <p><strong>Problem</strong><br/>
+      High-volume vendor payments make it difficult to identify duplicate, split, or unusual transactions.</p>
+    </div>
+
+    <div>
+      <p><strong>Approach</strong><br/>
+      Built a risk-focused dashboard highlighting payment patterns, vendor behavior, and anomalies for targeted testing.</p>
+    </div>
+
+    <div>
+      <p><strong>Audit value</strong><br/>
+      Enables focused audit testing and continuous monitoring of high-risk transactions.</p>
+    </div>
+  </div>
+
+  <div class="powerbi-embed">
+    <iframe
+      title="Vendor Payments Monitoring Dashboard"
+      src="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
+      frameborder="0"
+      allowfullscreen="true"
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <p class="caption">
+    Embedded interactive Power BI report using demo data.
+  </p>
+
+  <p class="cta-row">
+    <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
+      Open full report
+    </a>
+    <a class="btn btn--ghost" href="#audit-testing-apps">View testing apps</a>
+  </p>
+
+</div>
+
+<hr class="sep" />
+
+<a id="audit-testing-apps"></a>
+
 ## Audit Testing Applications
 
-<div class="card">
-  <h3 class="card__title">Audit Sampling Tool</h3>
-  <div class="card__meta">Python • Streamlit • Statistical sampling</div>
+<div class="portfolio-grid">
+
+<div class="card" style="margin:0;">
+
+  <div class="badge-row">
+    <span class="badge">Sampling</span>
+    <span class="badge">Streamlit</span>
+    <span class="badge">Python</span>
+  </div>
+
+  <div class="card__header">
+    <h3 class="card__title">Audit Sampling Tool</h3>
+    <div class="card__meta">Python • Streamlit • Statistical sampling</div>
+  </div>
 
   <p><strong>Problem</strong><br/>
   Manual sampling is time-consuming and difficult to reproduce consistently.</p>
@@ -115,18 +187,28 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
   <p><strong>Audit value</strong><br/>
   Supports reproducible, defensible sample selection for audit testing.</p>
 
+  <div class="media">
+    <img src="/assets/img/audit_sampling_tool.png" alt="Audit sampling app screenshot">
+  </div>
+
   <p class="cta-row">
     <a class="btn" href="https://audit-sampling-tool.streamlit.app/" target="_blank" rel="noopener">Open app</a>
   </p>
 
-  <div class="media">
-    <img src="/assets/img/audit_sampling_tool.png" alt="Audit sampling app screenshot">
-  </div>
 </div>
 
-<div class="card">
-  <h3 class="card__title">Benford’s Law Audit Tool</h3>
-  <div class="card__meta">Python • Streamlit • Fraud analytics • Anomaly screening</div>
+<div class="card" style="margin:0;">
+
+  <div class="badge-row">
+    <span class="badge">Anomaly screening</span>
+    <span class="badge">Benford’s Law</span>
+    <span class="badge">Python</span>
+  </div>
+
+  <div class="card__header">
+    <h3 class="card__title">Benford’s Law Audit Tool</h3>
+    <div class="card__meta">Python • Streamlit • Fraud analytics • Anomaly screening</div>
+  </div>
 
   <p><strong>Problem</strong><br/>
   Large numeric datasets make it difficult to identify potential manipulation, unusual patterns, or populations that may warrant additional review.</p>
@@ -137,22 +219,33 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
   <p><strong>Audit value</strong><br/>
   Supports rapid triage of high-risk datasets for further investigation and targeted audit procedures.</p>
 
-  <p><strong>Important limitation</strong><br/>
-  Benford’s Law is a screening technique, not proof of fraud. Results should be used to identify transactions or populations that may warrant additional audit procedures.</p>
+  <div class="mini-case">
+    <p><strong>Important limitation:</strong> Benford’s Law is a screening technique, not proof of fraud. Results should be used to identify transactions or populations that may warrant additional audit procedures.</p>
+  </div>
+
+  <div class="media">
+    <img src="/assets/img/benfords_law.png" alt="Benford’s Law app screenshot">
+  </div>
 
   <p class="cta-row">
     <a class="btn" href="https://benfords-law-audit-tool.streamlit.app" target="_blank" rel="noopener">Open app</a>
     <a class="btn btn--ghost" href="https://github.com/colby-k/benfords-law-audit-tool" target="_blank" rel="noopener">GitHub repo</a>
   </p>
 
-  <div class="media">
-    <img src="/assets/img/benfords_law.png" alt="Benford’s Law app screenshot">
-  </div>
 </div>
 
-<div class="card">
-  <h3 class="card__title">Fair Lending Analysis</h3>
-  <div class="card__meta">Python • Streamlit • Statistical testing • Compliance analytics</div>
+<div class="card" style="margin:0;">
+
+  <div class="badge-row">
+    <span class="badge">Compliance analytics</span>
+    <span class="badge">Fair lending</span>
+    <span class="badge">Statistical testing</span>
+  </div>
+
+  <div class="card__header">
+    <h3 class="card__title">Fair Lending Analysis</h3>
+    <div class="card__meta">Python • Streamlit • Statistical testing • Compliance analytics</div>
+  </div>
 
   <p><strong>Problem</strong><br/>
   Fair lending risk requires testing pricing and underwriting outcomes across borrower groups.</p>
@@ -163,13 +256,16 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
   <p><strong>Audit value</strong><br/>
   Demonstrates how analytics can support compliance testing, disparate impact analysis, and risk-based review of lending outcomes.</p>
 
+  <div class="media">
+    <img src="/assets/img/fair_lending_app.png" alt="Fair lending app screenshot">
+  </div>
+
   <p class="cta-row">
     <a class="btn" href="https://fair-lending-app-app.streamlit.app/" target="_blank" rel="noopener">Open app</a>
   </p>
 
-  <div class="media">
-    <img src="/assets/img/fair_lending_app.png" alt="Fair lending app screenshot">
-  </div>
+</div>
+
 </div>
 
 <hr class="sep" />
@@ -177,8 +273,17 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
 ## Additional BI Examples
 
 <div class="card">
-  <h3 class="card__title">Adventure Works – Sales & Operations Dashboard</h3>
-  <div class="card__meta">Power BI • Data modeling • Operational analytics • Interactive dashboard • Demo data</div>
+
+  <div class="badge-row">
+    <span class="badge">Data modeling</span>
+    <span class="badge">Operational analytics</span>
+    <span class="badge">Power BI</span>
+  </div>
+
+  <div class="card__header">
+    <h3 class="card__title">Adventure Works – Sales & Operations Dashboard</h3>
+    <div class="card__meta">Power BI • Data modeling • Operational analytics • Interactive dashboard • Demo data</div>
+  </div>
 
   <p><strong>Purpose</strong><br/>
   Demonstrate end-to-end dashboard development using a multi-table operational dataset,
@@ -211,11 +316,21 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
       Open full report
     </a>
   </p>
+
 </div>
 
 <div class="card">
-  <h3 class="card__title">Property Management Dashboard</h3>
-  <div class="card__meta">Power BI • Portfolio analysis • Management reporting • Interactive dashboard • Demo data</div>
+
+  <div class="badge-row">
+    <span class="badge">Portfolio review</span>
+    <span class="badge">Management reporting</span>
+    <span class="badge">Power BI</span>
+  </div>
+
+  <div class="card__header">
+    <h3 class="card__title">Property Management Dashboard</h3>
+    <div class="card__meta">Power BI • Portfolio analysis • Management reporting • Interactive dashboard • Demo data</div>
+  </div>
 
   <p><strong>Purpose</strong><br/>
   Provide a consolidated view of property-level performance metrics commonly used by property management,
@@ -248,4 +363,5 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
       Open full report
     </a>
   </p>
+
 </div>
