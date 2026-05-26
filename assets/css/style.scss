@@ -252,6 +252,12 @@ hr {
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
 }
 
+/* Make active nav icons visible on black active button */
+.topnav a[aria-current="page"] img.navicon {
+  filter: brightness(0) invert(1);
+  opacity: 1;
+}
+
 /* Icons inside nav buttons */
 .topnav img.navicon {
   width: 24px;
