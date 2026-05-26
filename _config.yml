@@ -14,6 +14,17 @@ description: >
 
 meta_description: "Practical internal audit tools, analytics, automation, prompt engineering, and AI governance projects by Colby Kellersberger, CIA, CFE, CICA."
 
+image: /assets/img/AuditTicksPro_Tms.png
+
+twitter:
+  card: summary_large_image
+
+social:
+  name: "Colby Kellersberger"
+  links:
+    - "https://www.linkedin.com/in/colby-k/"
+    - "https://github.com/colby-k"
+
 remote_theme: pages-themes/slate@v0.2.0
 
 lang: "en"
