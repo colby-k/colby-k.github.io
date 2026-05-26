@@ -253,13 +253,21 @@ hr {
 }
 
 /* Icons inside nav buttons */
-.navicon {
+.topnav img.navicon {
   width: 24px;
   height: 24px;
   min-width: 24px;
   object-fit: contain;
   opacity: 1;
   flex: 0 0 auto;
+
+  /* Remove Slate theme image styling around nav icons */
+  border: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
 }
 
 /* ===== Nav positioning class ===== */
@@ -861,7 +869,7 @@ hr {
     padding: 0.48rem 0.7rem;
   }
 
-  .navicon {
+  .topnav img.navicon {
     width: 21px;
     height: 21px;
     min-width: 21px;
@@ -985,7 +993,7 @@ hr {
     padding: 0.42rem 0.62rem;
   }
 
-  .navicon {
+  .topnav img.navicon {
     width: 20px;
     height: 20px;
     min-width: 20px;
