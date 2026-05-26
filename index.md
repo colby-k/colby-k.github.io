@@ -16,8 +16,9 @@ I build internal audit tools, analytics, and documentation workflows that help a
 <div class="stack">
 <span class="pill">Excel / VBA</span>
 <span class="pill">Ribbon XML</span>
-<span class="pill">Power BI (DAX / Modeling)</span>
-<span class="pill">Python (pandas)</span>
+<span class="pill">Power BI</span>
+<span class="pill">DAX / Data Modeling</span>
+<span class="pill">Python / pandas</span>
 <span class="pill">SQL</span>
 <span class="pill">Streamlit</span>
 <span class="pill">Prompt Engineering</span>
@@ -26,17 +27,17 @@ I build internal audit tools, analytics, and documentation workflows that help a
 <div class="metrics">
 <div class="metric">
 <div class="metric__value">Audit tooling</div>
-<div class="metric__label">Repeatable templates + add-ins</div>
+<div class="metric__label">Repeatable templates, add-ins, and workpaper support</div>
 </div>
 
 <div class="metric">
 <div class="metric__value">Analytics</div>
-<div class="metric__label">Risk-based testing + dashboards</div>
+<div class="metric__label">Risk-based testing, dashboards, and monitoring</div>
 </div>
 
 <div class="metric">
-<div class="metric__value">Automation</div>
-<div class="metric__label">Faster fieldwork + cleaner review</div>
+<div class="metric__value">Governance</div>
+<div class="metric__label">Review-ready outputs, controls, and documentation discipline</div>
 </div>
 </div>
 
@@ -117,17 +118,19 @@ Embedded interactive Power BI report using demo data.
   <span class="badge">Excel add-in</span>
 </div>
 
-<div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;">
-<img src="/assets/img/AuditTicksPro_Icon.png" alt="AuditTicks Pro icon" style="width:68px;height:68px;object-fit:contain;">
-<div>
-<h3 class="card__title" style="margin-bottom:0.25rem;">AuditTicks Pro</h3>
+<div class="card__header">
+<h3 class="card__title">
+<img src="/assets/img/AuditTicksPro_Icon.png" alt="" aria-hidden="true" class="section-icon">
+AuditTicks Pro
+</h3>
 <div class="card__meta">Excel <code>.xlam</code> • VBA • Ribbon XML • Audit Documentation</div>
 </div>
-</div>
 
-<p><strong>Custom Excel audit add-in for standardized tickmarks, references, annotations, templates, review tools, and workpaper formatting.</strong></p>
+<p>
+<strong>Custom Excel audit add-in for standardized tickmarks, references, annotations, templates, review tools, and workpaper formatting.</strong>
+</p>
 
-<div class="media" style="margin-top:18px;margin-bottom:20px;">
+<div class="media">
 <a href="/excel-tools/#auditticks-pro">
 <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro Excel add-in screenshot showing ribbon tools, worksheet tickmarks, callouts, and note elements">
 </a>
@@ -172,9 +175,11 @@ Embedded interactive Power BI report using demo data.
 <div class="card__meta">Excel • Risk scoring • Heatmap visualization • Audit planning</div>
 </div>
 
-<p><strong>Configurable Excel template for scoring risks, prioritizing audit areas, and visualizing results through an automatic heatmap.</strong></p>
+<p>
+<strong>Configurable Excel template for scoring risks, prioritizing audit areas, and visualizing results through an automatic heatmap.</strong>
+</p>
 
-<div class="media" style="margin-top:18px;margin-bottom:20px;">
+<div class="media">
 <a href="/excel-tools/#risk-assessment-matrix">
 <img src="/assets/img/Risk_Assessment.png" alt="Risk assessment matrix Excel template screenshot">
 </a>
@@ -220,7 +225,9 @@ Embedded interactive Power BI report using demo data.
 <div class="card__meta">Prompt design • AI governance • Audit methodology</div>
 </div>
 
-<p>Prompt engineering framework for internal audit documentation, designed around structured inputs, methodology guardrails, sampling discipline, non-fabrication rules, and review-ready outputs.</p>
+<p>
+Prompt engineering framework for internal audit documentation, designed around structured inputs, methodology guardrails, sampling discipline, non-fabrication rules, and review-ready outputs.
+</p>
 
 <ul class="bullets">
 <li>Reusable prompt patterns for narratives, walkthroughs, test plans, results, and issues</li>
@@ -229,7 +236,7 @@ Embedded interactive Power BI report using demo data.
 </ul>
 
 <p class="cta-row">
-<a class="btn" href="/ai-audit-assistant/">View prompt engineering framework</a>
+<a class="btn" href="/ai-audit-assistant/">View framework</a>
 </p>
 </div>
 
@@ -245,7 +252,9 @@ Embedded interactive Power BI report using demo data.
 <div class="card__meta">Power BI • Python • Streamlit</div>
 </div>
 
-<p>Analytics projects focused on risk-based testing, exception identification, dashboard reporting, and repeatable audit analysis.</p>
+<p>
+Analytics projects focused on risk-based testing, exception identification, dashboard reporting, and repeatable audit analysis.
+</p>
 
 <ul class="bullets">
 <li>Vendor payment monitoring</li>
@@ -255,7 +264,7 @@ Embedded interactive Power BI report using demo data.
 </ul>
 
 <p class="cta-row">
-<a class="btn" href="/audit-analytics/">Explore audit analytics</a>
+<a class="btn" href="/audit-analytics/">Explore analytics</a>
 </p>
 </div>
 
@@ -271,7 +280,9 @@ Embedded interactive Power BI report using demo data.
 <div class="card__meta">SQL • Power BI • Business risk analysis</div>
 </div>
 
-<p>Data projects demonstrating SQL analysis, transformation, dashboard development, and audit-style review of business activity.</p>
+<p>
+Data projects demonstrating SQL analysis, transformation, dashboard development, and audit-style review of business activity.
+</p>
 
 <ul class="bullets">
 <li>Structured SQL analysis of large datasets</li>
@@ -299,5 +310,6 @@ more efficient, consistent, repeatable, and review-ready in complex environments
 <a class="btn" href="/about/">About</a>
 <a class="btn btn--ghost social-btn" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
 <a class="btn btn--ghost social-btn" href="https://github.com/colby-k" target="_blank" rel="noopener">GitHub</a>
+<a class="btn btn--ghost resume-btn" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">Resume</a>
 </p>
 </div>
