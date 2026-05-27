@@ -105,7 +105,7 @@ AuditTicks Pro helps reduce manual formatting, improve workpaper consistency, ac
 </div>
 
 <p class="cta-row">
-<a class="btn" href="/assets/img/Tickmark%20User%20Guide.png" target="_blank" rel="noopener">View user guide</a>
+<a class="btn" href="/assets/img/User%20Guide.png" target="_blank" rel="noopener">View user guide</a>
 <a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Contact on LinkedIn</a>
 <a class="btn btn--ghost" href="/">Back to portfolio</a>
 </p>
