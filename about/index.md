@@ -195,6 +195,10 @@ These are the primary tools I use across audit analytics, automation, reporting,
     <img src="/assets/icons/excel.svg" width="26" title="Excel" alt="Excel">
   </a>
 
+  <a href="https://learn.microsoft.com/en-us/office/vba/api/overview/" target="_blank" rel="noopener">
+    <img src="/assets/icons/VBA-grey.svg" width="26" title="VBA" alt="VBA">
+  </a>
+
   <a href="https://www.python.org" target="_blank" rel="noopener">
     <img src="/assets/icons/python.svg" width="26" title="Python" alt="Python">
   </a>
