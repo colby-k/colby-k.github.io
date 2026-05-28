@@ -137,11 +137,52 @@ AuditTicks Pro helps reduce manual formatting, improve workpaper consistency, ac
 <strong>Structured Excel audit workpaper template designed for documenting control testing, testing attributes, sample results, tickmarks, exceptions, and review notes.</strong>
 </p>
 
-<div class="media">
-<a href="/assets/img/workpaper_template.png" target="_blank" rel="noopener">
-<img src="/assets/img/workpaper_template.png" alt="Audit workpaper template screenshot showing engagement details, testing attributes, sample rows, tickmark references, notes, exceptions, and tickmark count summary">
-</a>
-<p class="caption">Structured control testing workpaper with engagement details, testing attributes, sample rows, tickmark references, notes/exceptions, and tickmark count summary.</p>
+<div class="media media--carousel">
+
+<div class="image-carousel" aria-label="Audit workpaper template screenshots">
+
+  <input type="radio" name="workpaper-carousel" id="wp-slide-1" checked>
+  <input type="radio" name="workpaper-carousel" id="wp-slide-2">
+
+  <div class="carousel__viewport">
+    <div class="carousel__track">
+
+      <figure class="carousel__slide">
+        <a href="/assets/img/workpaper_template.png" target="_blank" rel="noopener">
+          <img src="/assets/img/workpaper_template.png" alt="Audit workpaper template screenshot showing sample testing rows, tickmark references, notes, exceptions, and tickmark count summary">
+        </a>
+        <figcaption class="caption">
+          Detailed control testing workpaper with sample rows, tickmark references, notes/exceptions, and tickmark count summary.
+        </figcaption>
+      </figure>
+
+      <figure class="carousel__slide">
+        <a href="/assets/img/workpaper_template_procedures.png" target="_blank" rel="noopener">
+          <img src="/assets/img/workpaper_template_procedures.png" alt="Audit workpaper template screenshot showing control description, testing attributes, tickmark legend, and screenshot placeholder section">
+        </a>
+        <figcaption class="caption">
+          Workpaper setup view with control details, testing attributes/procedures performed, tickmark legend, and supporting evidence placeholder.
+        </figcaption>
+      </figure>
+
+    </div>
+  </div>
+
+  <div class="carousel__controls" aria-hidden="true">
+    <label class="carousel__arrow carousel__arrow--prev carousel__to-slide-2" for="wp-slide-2">‹</label>
+    <label class="carousel__arrow carousel__arrow--next carousel__to-slide-2" for="wp-slide-2">›</label>
+
+    <label class="carousel__arrow carousel__arrow--prev carousel__to-slide-1" for="wp-slide-1">‹</label>
+    <label class="carousel__arrow carousel__arrow--next carousel__to-slide-1" for="wp-slide-1">›</label>
+  </div>
+
+  <div class="carousel__dots" aria-label="Carousel slide controls">
+    <label for="wp-slide-1" aria-label="Show workpaper testing results screenshot"></label>
+    <label for="wp-slide-2" aria-label="Show workpaper setup screenshot"></label>
+  </div>
+
+</div>
+
 </div>
 
 <div class="audit-grid">
