@@ -20,14 +20,15 @@ reduce manual fieldwork, and improve review clarity.
 <span class="pill">VBA</span>
 <span class="pill">Ribbon XML</span>
 <span class="pill">Audit Documentation</span>
+<span class="pill">Workpaper Templates</span>
 <span class="pill">Risk Assessment</span>
 <span class="pill">Process Standardization</span>
 </div>
 
 <p class="cta-row hero-cta">
 <a class="btn" href="#auditticks-pro">View AuditTicks Pro</a>
-<a class="btn btn--ghost" href="#risk-assessment-matrix">View Risk Assessment Matrix</a>
-<a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Contact on LinkedIn</a>
+<a class="btn btn--ghost" href="#audit-workpaper-template">View workpaper template</a>
+<a class="btn btn--ghost" href="#risk-assessment-matrix">View risk matrix</a>
 </p>
 </section>
 
@@ -106,8 +107,77 @@ AuditTicks Pro helps reduce manual formatting, improve workpaper consistency, ac
 
 <p class="cta-row">
 <a class="btn" href="/assets/img/User%20Guide.png" target="_blank" rel="noopener">View user guide</a>
+<a class="btn btn--ghost" href="#audit-workpaper-template">View workpaper template</a>
 <a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Contact on LinkedIn</a>
-<a class="btn btn--ghost" href="/">Back to portfolio</a>
+</p>
+
+</div>
+
+<hr class="sep" />
+
+<a id="audit-workpaper-template"></a>
+
+## Audit Workpaper Template Pack
+
+<div class="card card--feature">
+
+<div class="badge-row">
+  <span class="badge">Workpaper template</span>
+  <span class="badge">Control testing</span>
+  <span class="badge">Tickmark support</span>
+  <span class="badge">Excel</span>
+</div>
+
+<div class="card__header">
+<h3 class="card__title">Audit Workpaper Template Pack</h3>
+<div class="card__meta">Excel • Control testing • Tickmark documentation • Review-ready workpapers</div>
+</div>
+
+<p>
+<strong>Structured Excel audit workpaper template designed for documenting control testing, testing attributes, sample results, tickmarks, exceptions, and review notes.</strong>
+</p>
+
+<div class="media">
+<a href="/assets/img/workpaper_template.png" target="_blank" rel="noopener">
+<img src="/assets/img/workpaper_template.png" alt="Audit workpaper template screenshot showing engagement details, testing attributes, sample rows, tickmark references, notes, exceptions, and tickmark count summary">
+</a>
+<p class="caption">Structured control testing workpaper with engagement details, testing attributes, sample rows, tickmark references, notes/exceptions, and tickmark count summary.</p>
+</div>
+
+<div class="audit-grid">
+
+<div>
+<p><strong>Purpose</strong><br>
+The workpaper template provides a consistent structure for documenting control testing, including test attributes, sample selections, tickmarks, exceptions, and supporting notes.</p>
+</div>
+
+<div>
+<p><strong>Problem</strong><br>
+Audit workpapers can become inconsistent when testing attributes, sample documentation, tickmark legends, and exception notes are recreated manually across engagements.</p>
+</div>
+
+<div>
+<p><strong>Approach</strong><br>
+Created a reusable Excel workpaper format that supports common audit testing activities and aligns with AuditTicks Pro’s tickmark, reference, and annotation workflow.</p>
+</div>
+
+<div>
+<p><strong>Audit value</strong><br>
+Improves workpaper consistency, supports clearer review, reduces setup time, and gives auditors a repeatable structure for documenting testing results.</p>
+</div>
+
+</div>
+
+<div class="mini-case">
+<p>
+<strong>Companion workflow:</strong> This template is designed to work alongside AuditTicks Pro. The template provides the documentation structure, while the add-in supports tickmarks, references, annotations, review elements, and formatting actions.
+</p>
+</div>
+
+<p class="cta-row">
+<a class="btn" href="/assets/files/Audit_Workpaper_Template.xlsx">Download template</a>
+<a class="btn btn--ghost" href="#auditticks-pro">View AuditTicks Pro</a>
+<a class="btn btn--ghost" href="/assets/img/workpaper_template.png" target="_blank" rel="noopener">Open screenshot</a>
 </p>
 
 </div>
