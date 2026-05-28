@@ -2280,3 +2280,8 @@ hr {
     margin-bottom: 0.2rem;
   }
 }
+/* ===== Remove teal side rail from hero cards ===== */
+.landing-hero::after,
+.subpage-hero::after {
+  display: none;
+}
