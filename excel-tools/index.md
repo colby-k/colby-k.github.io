@@ -143,6 +143,7 @@ AuditTicks Pro helps reduce manual formatting, improve workpaper consistency, ac
 
   <input type="radio" name="workpaper-carousel" id="wp-slide-1" checked>
   <input type="radio" name="workpaper-carousel" id="wp-slide-2">
+  <input type="radio" name="workpaper-carousel" id="wp-slide-3">
 
   <div class="carousel__viewport">
     <div class="carousel__track">
@@ -165,20 +166,33 @@ AuditTicks Pro helps reduce manual formatting, improve workpaper consistency, ac
         </figcaption>
       </figure>
 
+      <figure class="carousel__slide">
+        <a href="/assets/img/workpaper_template_example.png" target="_blank" rel="noopener">
+          <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper example showing sample selections, testing attributes, tickmarks, exceptions, tickmark legend, and tickmark count summary">
+        </a>
+        <figcaption class="caption">
+          Completed example workpaper using synthetic accounts payable testing data, documented attributes, tickmarks, exceptions, and tickmark summary counts.
+        </figcaption>
+      </figure>
+
     </div>
   </div>
 
   <div class="carousel__controls" aria-hidden="true">
-    <label class="carousel__arrow carousel__arrow--prev carousel__to-slide-2" for="wp-slide-2">‹</label>
-    <label class="carousel__arrow carousel__arrow--next carousel__to-slide-2" for="wp-slide-2">›</label>
+    <label class="carousel__arrow carousel__arrow--prev carousel__from-1" for="wp-slide-3">‹</label>
+    <label class="carousel__arrow carousel__arrow--next carousel__from-1" for="wp-slide-2">›</label>
 
-    <label class="carousel__arrow carousel__arrow--prev carousel__to-slide-1" for="wp-slide-1">‹</label>
-    <label class="carousel__arrow carousel__arrow--next carousel__to-slide-1" for="wp-slide-1">›</label>
+    <label class="carousel__arrow carousel__arrow--prev carousel__from-2" for="wp-slide-1">‹</label>
+    <label class="carousel__arrow carousel__arrow--next carousel__from-2" for="wp-slide-3">›</label>
+
+    <label class="carousel__arrow carousel__arrow--prev carousel__from-3" for="wp-slide-2">‹</label>
+    <label class="carousel__arrow carousel__arrow--next carousel__from-3" for="wp-slide-1">›</label>
   </div>
 
   <div class="carousel__dots" aria-label="Carousel slide controls">
-    <label for="wp-slide-1" aria-label="Show workpaper testing results screenshot"></label>
+    <label for="wp-slide-1" aria-label="Show detailed testing workpaper screenshot"></label>
     <label for="wp-slide-2" aria-label="Show workpaper setup screenshot"></label>
+    <label for="wp-slide-3" aria-label="Show completed example workpaper screenshot"></label>
   </div>
 
 </div>
@@ -218,7 +232,7 @@ Improves workpaper consistency, supports clearer review, reduces setup time, and
 <p class="cta-row">
 <a class="btn" href="/assets/files/Audit_Workpaper_Template.xlsx">Download template</a>
 <a class="btn btn--ghost" href="#auditticks-pro">View AuditTicks Pro</a>
-<a class="btn btn--ghost" href="/assets/img/workpaper_template.png" target="_blank" rel="noopener">Open screenshot</a>
+<a class="btn btn--ghost" href="/assets/img/workpaper_template_example.png" target="_blank" rel="noopener">Open completed example</a>
 </p>
 
 </div>
