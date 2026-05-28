@@ -2,19 +2,23 @@ title: "Internal Audit Tools, Analytics & Governance Portfolio"
 logo: ""
 
 description: >
-  <strong>Colby Kellersberger, CIA, CFE, CICA</strong><br>
+  <span class="site-tagline-inline">
+    <strong>Colby Kellersberger, CIA, CFE, CICA</strong>
 
-  <a href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-    <img src="/assets/icons/LinkedIn.svg" width="36" alt="LinkedIn" title="LinkedIn" style="margin-right: 10px;">
-  </a>
+    <span class="site-tagline-socials">
+      <a href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <img src="/assets/icons/linkedin-teal.png" alt="LinkedIn" title="LinkedIn">
+      </a>
 
-  <a href="https://github.com/colby-k" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-    <img src="/assets/icons/github.svg" width="36" alt="GitHub" title="GitHub">
-  </a>
+      <a href="https://github.com/colby-k" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <img src="/assets/icons/github-teal.png" alt="GitHub" title="GitHub">
+      </a>
+    </span>
+  </span>
 
 meta_description: "Practical internal audit tools, analytics, automation, prompt engineering, and AI governance projects by Colby Kellersberger, CIA, CFE, CICA."
 
-image: /assets/img/AuditTicksPro_Tms.png
+image: /assets/img/portfolio-preview.png
 
 twitter:
   card: summary_large_image
