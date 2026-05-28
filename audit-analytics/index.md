@@ -7,72 +7,134 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
 
 {% include nav.html %}
 
-<section class="hero">
-  <p class="kicker">Audit Analytics</p>
+<div class="subpage subpage--analytics">
 
-  <p class="lede">
-    Risk-focused analytics and applications designed to improve audit coverage,
-    identify anomalies, support exception analysis, and strengthen data-driven audit decisions.
+<section class="subpage-hero subpage-hero--dark">
+
+<div class="subpage-hero__content">
+  <p class="landing-kicker">Audit Analytics</p>
+
+  <h1 class="subpage-title">
+    Audit analytics for monitoring, testing, issue follow-up, and risk-based review.
+  </h1>
+
+  <p class="subpage-subtitle">
+    Interactive dashboards and audit testing applications designed to improve coverage,
+    identify exceptions, support targeted testing, and make audit results easier to review.
   </p>
 
-  <div class="stack">
-    <span class="pill">Power BI</span>
-    <span class="pill">DAX</span>
-    <span class="pill">Python</span>
-    <span class="pill">Streamlit</span>
-    <span class="pill">Statistical Testing</span>
-    <span class="pill">Exception Analysis</span>
+  <div class="landing-tags landing-tags--dark">
+    <span>Power BI</span>
+    <span>DAX</span>
+    <span>Python</span>
+    <span>Streamlit</span>
+    <span>Statistical testing</span>
   </div>
 
-  <p class="cta-row hero-cta">
-    <a class="btn" href="#issue-tracker">View issue tracker</a>
-    <a class="btn btn--ghost" href="#vendor-payments">View vendor monitoring</a>
-    <a class="btn btn--ghost" href="#audit-testing-apps">Explore testing apps</a>
-  </p>
+  <div class="landing-actions">
+    <a class="btn landing-btn--light" href="#issue-tracker">View issue tracker</a>
+    <a class="btn landing-btn--outline" href="#vendor-payments">View vendor monitoring</a>
+    <a class="btn landing-btn--outline" href="#testing-apps">View testing apps</a>
+  </div>
+</div>
+
+<div class="subpage-hero__visual">
+  <div class="subpage-visual-card subpage-visual-card--large">
+    <img src="/assets/img/audit_sampling_tool.png" alt="Audit sampling tool screenshot">
+  </div>
+
+  <div class="subpage-visual-card subpage-visual-card--small">
+    <img src="/assets/img/benfords_law.png" alt="Benford's Law audit analytics app screenshot">
+  </div>
+</div>
+
 </section>
 
 {% include demo-disclaimer.html %}
 
-<hr class="sep" />
+<section class="subpage-section subpage-section--light">
 
-## Audit Monitoring Dashboards
+<p class="landing-kicker landing-kicker--dark">Analytics overview</p>
 
-<a id="issue-tracker"></a>
+<h2 class="subpage-section-title">
+  Designed around practical audit monitoring and testing needs.
+</h2>
 
-<div class="card card--feature">
+<div class="subpage-feature-grid">
 
-  <div class="badge-row">
-    <span class="badge">Audit findings</span>
-    <span class="badge">Issue tracking</span>
-    <span class="badge">Power BI</span>
-  </div>
+<div class="subpage-feature-card">
+  <span>01</span>
+  <h3>Monitor risk</h3>
+  <p>Use dashboards to identify overdue issues, high-risk transactions, unusual patterns, and follow-up priorities.</p>
+</div>
 
-  <div class="card__header">
-    <h3 class="card__title">Internal Audit Issue Tracker</h3>
-    <div class="card__meta">Power BI • Issue management • Interactive dashboard • Demo data</div>
-  </div>
+<div class="subpage-feature-card">
+  <span>02</span>
+  <h3>Target testing</h3>
+  <p>Support risk-based testing through exception analysis, sampling, anomaly screening, and population review.</p>
+</div>
 
-  <p>
-    <strong>Interactive dashboard for tracking audit findings, management action plans, issue aging, ownership, and follow-up status.</strong>
+<div class="subpage-feature-card">
+  <span>03</span>
+  <h3>Communicate results</h3>
+  <p>Translate audit data into clear visuals that improve management reporting, review, and decision-making.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="issue-tracker" class="subpage-section subpage-section--light">
+
+<div class="subpage-split">
+
+<div>
+  <p class="landing-kicker landing-kicker--dark">Interactive dashboard</p>
+
+  <h2 class="subpage-section-title">
+    Internal Audit Issue Tracker
+  </h2>
+
+  <p class="subpage-copy">
+    Interactive Power BI dashboard for tracking audit findings, management action plans,
+    issue aging, ownership, and follow-up status.
   </p>
 
-  <div class="audit-grid">
-    <div>
-      <p><strong>Problem</strong><br/>
-      Tracking open issues and management action plans across audits can be fragmented and manual.</p>
-    </div>
-
-    <div>
-      <p><strong>Approach</strong><br/>
-      Centralized issue tracking with status, aging, ownership, and follow-up views.</p>
-    </div>
-
-    <div>
-      <p><strong>Audit value</strong><br/>
-      Improves follow-up discipline, management reporting, and visibility into overdue or high-priority issues.</p>
-    </div>
+  <div class="landing-tags">
+    <span>Power BI</span>
+    <span>Audit findings</span>
+    <span>Issue aging</span>
+    <span>Demo data</span>
   </div>
 
+  <div class="subpage-value-grid subpage-value-grid--compact">
+
+    <div>
+      <strong>Problem</strong>
+      <p>Tracking open issues and management action plans across audits can become fragmented, manual, and difficult to summarize.</p>
+    </div>
+
+    <div>
+      <strong>Approach</strong>
+      <p>Centralized issue tracking with status, aging, ownership, follow-up views, and management reporting visuals.</p>
+    </div>
+
+    <div>
+      <strong>Audit value</strong>
+      <p>Improves follow-up discipline, management reporting, and visibility into overdue or high-priority issues.</p>
+    </div>
+
+  </div>
+
+  <p class="cta-row">
+    <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">
+      Open full report
+    </a>
+    <a class="btn btn--ghost" href="#vendor-payments">Next dashboard</a>
+  </p>
+</div>
+
+<div class="subpage-media-card">
   <div class="powerbi-embed">
     <iframe
       title="Internal Audit Issue Tracker Dashboard"
@@ -83,57 +145,64 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
     </iframe>
   </div>
 
-  <p class="caption">
-    Embedded interactive Power BI report using demo data.
-  </p>
-
-  <p class="cta-row">
-    <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">
-      Open full report
-    </a>
-    <a class="btn btn--ghost" href="#audit-testing-apps">View testing apps</a>
-  </p>
+  <p class="caption">Embedded interactive Power BI report using demo data.</p>
+</div>
 
 </div>
 
-<hr class="sep" />
+</section>
 
-<a id="vendor-payments"></a>
+<section id="vendor-payments" class="subpage-section subpage-section--dark">
 
-<div class="card card--feature">
+<div class="subpage-split">
 
-  <div class="badge-row">
-    <span class="badge">Vendor payments</span>
-    <span class="badge">Risk monitoring</span>
-    <span class="badge">Power BI</span>
-  </div>
+<div>
+  <p class="landing-kicker">Audit monitoring dashboard</p>
 
-  <div class="card__header">
-    <h3 class="card__title">Vendor Payments Monitoring</h3>
-    <div class="card__meta">Power BI • Risk analytics • Interactive dashboard • Demo data</div>
-  </div>
+  <h2 class="subpage-section-title subpage-section-title--light">
+    Vendor Payments Monitoring
+  </h2>
 
-  <p>
-    <strong>Risk-focused dashboard for identifying duplicate, split, unusual, or high-risk vendor payment activity.</strong>
+  <p class="subpage-copy subpage-copy--light">
+    Risk-focused Power BI dashboard for analyzing payment patterns, vendor behavior,
+    duplicate indicators, split payments, and unusual transaction activity.
   </p>
 
-  <div class="audit-grid">
-    <div>
-      <p><strong>Problem</strong><br/>
-      High-volume vendor payments make it difficult to identify duplicate, split, or unusual transactions.</p>
-    </div>
-
-    <div>
-      <p><strong>Approach</strong><br/>
-      Built a risk-focused dashboard highlighting payment patterns, vendor behavior, and anomalies for targeted testing.</p>
-    </div>
-
-    <div>
-      <p><strong>Audit value</strong><br/>
-      Enables focused audit testing and continuous monitoring of high-risk transactions.</p>
-    </div>
+  <div class="landing-tags landing-tags--dark">
+    <span>Power BI</span>
+    <span>Vendor payments</span>
+    <span>Risk analytics</span>
+    <span>Demo data</span>
   </div>
 
+  <div class="subpage-value-grid subpage-value-grid--dark subpage-value-grid--compact">
+
+    <div>
+      <strong>Problem</strong>
+      <p>High-volume vendor payments make it difficult to identify duplicate, split, unusual, or higher-risk transactions through manual review alone.</p>
+    </div>
+
+    <div>
+      <strong>Approach</strong>
+      <p>Built a risk-focused dashboard highlighting payment patterns, vendor behavior, and anomalies for targeted audit testing.</p>
+    </div>
+
+    <div>
+      <strong>Audit value</strong>
+      <p>Enables focused audit testing and continuous monitoring of transactions that may warrant additional review.</p>
+    </div>
+
+  </div>
+
+  <p class="cta-row">
+    <a class="btn landing-btn--light" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
+      Open full report
+    </a>
+    <a class="btn landing-btn--outline" href="#testing-apps">View testing apps</a>
+  </p>
+</div>
+
+<div class="subpage-media-card">
   <div class="powerbi-embed">
     <iframe
       title="Vendor Payments Monitoring Dashboard"
@@ -144,158 +213,109 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
     </iframe>
   </div>
 
-  <p class="caption">
-    Embedded interactive Power BI report using demo data.
-  </p>
-
-  <p class="cta-row">
-    <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
-      Open full report
-    </a>
-    <a class="btn btn--ghost" href="#audit-testing-apps">View testing apps</a>
-  </p>
+  <p class="caption">Embedded interactive Power BI report using demo data.</p>
+</div>
 
 </div>
 
-<hr class="sep" />
+</section>
 
-<a id="audit-testing-apps"></a>
+<section id="testing-apps" class="subpage-section subpage-section--light">
 
-## Audit Testing Applications
+<p class="landing-kicker landing-kicker--dark">Audit testing applications</p>
 
-<div class="portfolio-grid">
+<h2 class="subpage-section-title">
+  Streamlit apps for sampling, anomaly screening, and compliance analytics.
+</h2>
 
-<div class="card" style="margin:0;">
+<p class="subpage-copy">
+  These applications demonstrate how Python and Streamlit can support repeatable audit procedures,
+  sample selection, anomaly analysis, and risk-based review.
+</p>
 
-  <div class="badge-row">
-    <span class="badge">Sampling</span>
-    <span class="badge">Streamlit</span>
-    <span class="badge">Python</span>
-  </div>
+<div class="subpage-feature-grid">
 
-  <div class="card__header">
-    <h3 class="card__title">Audit Sampling Tool</h3>
-    <div class="card__meta">Python • Streamlit • Statistical sampling</div>
-  </div>
-
-  <p><strong>Problem</strong><br/>
-  Manual sampling is time-consuming and difficult to reproduce consistently.</p>
-
-  <p><strong>Approach</strong><br/>
-  Built an interactive sampling app with filtering, random selection, and exportable results.</p>
-
-  <p><strong>Audit value</strong><br/>
-  Supports reproducible, defensible sample selection for audit testing.</p>
-
-  <div class="media">
-    <img src="/assets/img/audit_sampling_tool.png" alt="Audit sampling app screenshot">
-  </div>
+<div class="subpage-feature-card">
+  <span>Sampling</span>
+  <h3>Audit Sampling Tool</h3>
+  <p>Interactive sampling app with filtering, random selection, and exportable results for reproducible audit testing.</p>
 
   <p class="cta-row">
     <a class="btn" href="https://audit-sampling-tool.streamlit.app/" target="_blank" rel="noopener">Open app</a>
   </p>
-
 </div>
 
-<div class="card" style="margin:0;">
-
-  <div class="badge-row">
-    <span class="badge">Anomaly screening</span>
-    <span class="badge">Benford’s Law</span>
-    <span class="badge">Python</span>
-  </div>
-
-  <div class="card__header">
-    <h3 class="card__title">Benford’s Law Audit Tool</h3>
-    <div class="card__meta">Python • Streamlit • Fraud analytics • Anomaly screening</div>
-  </div>
-
-  <p><strong>Problem</strong><br/>
-  Large numeric datasets make it difficult to identify potential manipulation, unusual patterns, or populations that may warrant additional review.</p>
-
-  <p><strong>Approach</strong><br/>
-  Implemented Benford’s Law analysis with visual diagnostics and anomaly flagging.</p>
-
-  <p><strong>Audit value</strong><br/>
-  Supports rapid triage of high-risk datasets for further investigation and targeted audit procedures.</p>
-
-  <div class="mini-case">
-    <p><strong>Important limitation:</strong> Benford’s Law is a screening technique, not proof of fraud. Results should be used to identify transactions or populations that may warrant additional audit procedures.</p>
-  </div>
-
-  <div class="media">
-    <img src="/assets/img/benfords_law.png" alt="Benford’s Law app screenshot">
-  </div>
+<div class="subpage-feature-card">
+  <span>Anomaly screening</span>
+  <h3>Benford’s Law Audit Tool</h3>
+  <p>Benford’s Law analysis with visual diagnostics and anomaly flagging to support rapid triage of high-risk datasets.</p>
 
   <p class="cta-row">
     <a class="btn" href="https://benfords-law-audit-tool.streamlit.app" target="_blank" rel="noopener">Open app</a>
-    <a class="btn btn--ghost" href="https://github.com/colby-k/benfords-law-audit-tool" target="_blank" rel="noopener">GitHub repo</a>
+    <a class="btn btn--ghost" href="https://github.com/colby-k/benfords-law-audit-tool" target="_blank" rel="noopener">GitHub</a>
   </p>
-
 </div>
 
-<div class="card" style="margin:0;">
-
-  <div class="badge-row">
-    <span class="badge">Compliance analytics</span>
-    <span class="badge">Fair lending</span>
-    <span class="badge">Statistical testing</span>
-  </div>
-
-  <div class="card__header">
-    <h3 class="card__title">Fair Lending Analysis</h3>
-    <div class="card__meta">Python • Streamlit • Statistical testing • Compliance analytics</div>
-  </div>
-
-  <p><strong>Problem</strong><br/>
-  Fair lending risk requires testing pricing and underwriting outcomes across borrower groups.</p>
-
-  <p><strong>Approach</strong><br/>
-  Built a simulator using synthetic data, interactive controls, and statistical analysis.</p>
-
-  <p><strong>Audit value</strong><br/>
-  Demonstrates how analytics can support compliance testing, disparate impact analysis, and risk-based review of lending outcomes.</p>
-
-  <div class="media">
-    <img src="/assets/img/fair_lending_app.png" alt="Fair lending app screenshot">
-  </div>
+<div class="subpage-feature-card">
+  <span>Compliance analytics</span>
+  <h3>Fair Lending Analysis</h3>
+  <p>Simulator using synthetic data, interactive controls, and statistical analysis to demonstrate fair lending review concepts.</p>
 
   <p class="cta-row">
     <a class="btn" href="https://fair-lending-app-app.streamlit.app/" target="_blank" rel="noopener">Open app</a>
   </p>
-
 </div>
 
 </div>
 
-<hr class="sep" />
+<div class="subpage-media-stack" style="margin-top:1.5rem;">
 
-## Additional BI Examples
+<div class="subpage-media-card">
+  <img src="/assets/img/audit_sampling_tool.png" alt="Audit sampling app screenshot" loading="lazy">
+  <p class="caption">Audit Sampling Tool interface for filtering populations and generating sample selections.</p>
+</div>
 
-<div class="card">
+<div class="subpage-media-card">
+  <img src="/assets/img/benfords_law.png" alt="Benford’s Law app screenshot" loading="lazy">
+  <p class="caption">Benford’s Law tool showing visual diagnostics and anomaly screening results.</p>
+</div>
 
-  <div class="badge-row">
-    <span class="badge">Data modeling</span>
-    <span class="badge">Operational analytics</span>
-    <span class="badge">Power BI</span>
-  </div>
+<div class="subpage-media-card">
+  <img src="/assets/img/fair_lending_app.png" alt="Fair lending app screenshot" loading="lazy">
+  <p class="caption">Fair lending simulator using synthetic data and statistical testing concepts.</p>
+</div>
 
-  <div class="card__header">
-    <h3 class="card__title">Adventure Works – Sales & Operations Dashboard</h3>
-    <div class="card__meta">Power BI • Data modeling • Operational analytics • Interactive dashboard • Demo data</div>
-  </div>
+</div>
 
-  <p><strong>Purpose</strong><br/>
-  Demonstrate end-to-end dashboard development using a multi-table operational dataset,
-  with a focus on metrics commonly reviewed by management, finance, operations, and internal audit.</p>
+<div class="mini-case">
+<p>
+<strong>Important limitation:</strong> Benford’s Law and similar analytics are screening techniques, not proof of fraud or noncompliance. Results should be used to identify transactions or populations that may warrant additional audit procedures.
+</p>
+</div>
 
-  <p><strong>Approach</strong><br/>
-  Modeled sales, product, and operational data into a star schema and built interactive visuals
-  to analyze revenue trends, product performance, and operational drivers.</p>
+</section>
 
-  <p><strong>Audit and analytical value</strong><br/>
-  Illustrates how transactional data can be transformed into decision-support insights and used to
-  identify unusual trends, margin pressure, or performance anomalies.</p>
+<section class="subpage-section subpage-section--gradient">
+
+<p class="landing-kicker landing-kicker--dark">Additional BI examples</p>
+
+<h2 class="subpage-section-title">
+  Business intelligence examples with audit-style analytical value.
+</h2>
+
+<p class="subpage-copy">
+  These examples are not formal audit datasets, but they demonstrate the same techniques used in audit analytics:
+  data modeling, trend review, outlier identification, segmentation, and management reporting.
+</p>
+
+<div class="subpage-split" style="margin-top:1.5rem;">
+
+<div class="subpage-media-card">
+  <h3>Adventure Works – Sales & Operations Dashboard</h3>
+  <p class="subpage-copy">
+    End-to-end dashboard development using a multi-table operational dataset with revenue trends,
+    product performance, and operational drivers.
+  </p>
 
   <div class="powerbi-embed">
     <iframe
@@ -307,42 +327,21 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
     </iframe>
   </div>
 
-  <p class="caption">
-    Embedded interactive Power BI report using demo data.
-  </p>
+  <p class="caption">Embedded interactive Power BI report using demo data.</p>
 
   <p class="cta-row">
     <a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
       Open full report
     </a>
   </p>
-
 </div>
 
-<div class="card">
-
-  <div class="badge-row">
-    <span class="badge">Portfolio review</span>
-    <span class="badge">Management reporting</span>
-    <span class="badge">Power BI</span>
-  </div>
-
-  <div class="card__header">
-    <h3 class="card__title">Property Management Dashboard</h3>
-    <div class="card__meta">Power BI • Portfolio analysis • Management reporting • Interactive dashboard • Demo data</div>
-  </div>
-
-  <p><strong>Purpose</strong><br/>
-  Provide a consolidated view of property-level performance metrics commonly used by property management,
-  operations, and oversight teams.</p>
-
-  <p><strong>Approach</strong><br/>
-  Built a dashboard to filter and segment properties based on operational and financial criteria, enabling
-  targeted review of underperforming or higher-risk locations.</p>
-
-  <p><strong>Audit and analytical value</strong><br/>
-  Supports portfolio oversight by highlighting outliers, trends, and performance variances that may warrant
-  further review or investigation.</p>
+<div class="subpage-media-card">
+  <h3>Property Management Dashboard</h3>
+  <p class="subpage-copy">
+    Portfolio-level dashboard for reviewing property performance, filtering locations,
+    and identifying outliers or underperforming assets.
+  </p>
 
   <div class="powerbi-embed">
     <iframe
@@ -354,14 +353,37 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
     </iframe>
   </div>
 
-  <p class="caption">
-    Embedded interactive Power BI report using demo data.
-  </p>
+  <p class="caption">Embedded interactive Power BI report using demo data.</p>
 
   <p class="cta-row">
     <a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
       Open full report
     </a>
   </p>
+</div>
+
+</div>
+
+</section>
+
+<section class="subpage-final-cta">
+
+<p class="landing-kicker">Audit analytics</p>
+
+<h2>
+Analytics that support better audit coverage, clearer testing, and more focused follow-up.
+</h2>
+
+<p>
+Explore the audit tools page, view data projects, or connect with me on LinkedIn.
+</p>
+
+<div class="landing-actions landing-actions--center">
+  <a class="btn landing-btn--light" href="/excel-tools/">View audit tools</a>
+  <a class="btn landing-btn--outline" href="/sql-projects/">View data projects</a>
+  <a class="btn landing-btn--outline" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+
+</section>
 
 </div>
