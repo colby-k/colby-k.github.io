@@ -471,13 +471,13 @@ hr {
 
 .carousel__track {
   display: flex;
-  width: 200%;
+  width: 300%;
   transition: transform 260ms ease;
 }
 
 .carousel__slide {
-  width: 50%;
-  flex: 0 0 50%;
+  width: 33.333333%;
+  flex: 0 0 33.333333%;
   margin: 0;
   padding: 0;
 }
@@ -497,7 +497,11 @@ hr {
 }
 
 #wp-slide-2:checked ~ .carousel__viewport .carousel__track {
-  transform: translateX(-50%);
+  transform: translateX(-33.333333%);
+}
+
+#wp-slide-3:checked ~ .carousel__viewport .carousel__track {
+  transform: translateX(-66.666666%);
 }
 
 .carousel__controls {
@@ -537,11 +541,9 @@ hr {
   right: 16px;
 }
 
-#wp-slide-1:checked ~ .carousel__controls .carousel__to-slide-2 {
-  display: flex;
-}
-
-#wp-slide-2:checked ~ .carousel__controls .carousel__to-slide-1 {
+#wp-slide-1:checked ~ .carousel__controls .carousel__from-1,
+#wp-slide-2:checked ~ .carousel__controls .carousel__from-2,
+#wp-slide-3:checked ~ .carousel__controls .carousel__from-3 {
   display: flex;
 }
 
@@ -566,7 +568,8 @@ hr {
 }
 
 #wp-slide-1:checked ~ .carousel__dots label[for="wp-slide-1"],
-#wp-slide-2:checked ~ .carousel__dots label[for="wp-slide-2"] {
+#wp-slide-2:checked ~ .carousel__dots label[for="wp-slide-2"],
+#wp-slide-3:checked ~ .carousel__dots label[for="wp-slide-3"] {
   background: var(--black);
 }
 
