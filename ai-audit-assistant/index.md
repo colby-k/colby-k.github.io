@@ -39,25 +39,38 @@ description: "Prompt engineering framework for internal audit documentation, met
   </div>
 </div>
 
-<div class="subpage-hero__visual">
-  <div class="landing-control-panel">
-    <div>
+<div class="subpage-hero__visual prompt-hero-visual">
+  <div class="prompt-framework-card">
+
+    <div class="prompt-framework-card__header">
+      <span>Governed prompt workflow</span>
+      <strong>Audit documentation support</strong>
+    </div>
+
+    <div class="prompt-framework-step">
       <span>01</span>
-      <strong>Auditor-provided facts</strong>
-      <p>Scope, process details, control descriptions, evidence, samples, exceptions, and known limitations.</p>
+      <div>
+        <strong>Auditor-provided facts</strong>
+        <p>Scope, evidence, samples, exceptions, and known limitations.</p>
+      </div>
     </div>
 
-    <div>
+    <div class="prompt-framework-step">
       <span>02</span>
-      <strong>Prompt controls</strong>
-      <p>Role limits, output type, methodology boundaries, non-fabrication rules, and clarification triggers.</p>
+      <div>
+        <strong>Prompt controls applied</strong>
+        <p>Role limits, artifact type, non-fabrication rules, and clarification triggers.</p>
+      </div>
     </div>
 
-    <div>
+    <div class="prompt-framework-step">
       <span>03</span>
-      <strong>Review-ready draft</strong>
-      <p>Structured output that remains subject to auditor validation, support, revision, and judgment.</p>
+      <div>
+        <strong>Review-ready draft</strong>
+        <p>Structured output remains subject to auditor review, validation, and judgment.</p>
+      </div>
     </div>
+
   </div>
 </div>
 
