@@ -7,89 +7,114 @@ description: "Prompt engineering framework for internal audit documentation, met
 
 {% include nav.html %}
 
-<section class="hero">
-  <p class="kicker">Prompt Engineering for Internal Audit</p>
+<div class="subpage subpage--prompt-engineering">
 
-  <p class="lede">
-    A governed prompt engineering framework for producing more structured, supportable,
-    and review-ready internal audit documentation with AI.
-  </p>
+<section class="subpage-hero subpage-hero--dark">
 
-  <p class="sublede">
-    Built around prompt controls, methodology guardrails, non-fabrication rules,
+<div class="subpage-hero__content">
+  <p class="landing-kicker">Prompt Engineering + AI Governance</p>
+
+  <h1 class="subpage-title">
+    Prompt engineering for review-ready internal audit documentation.
+  </h1>
+
+  <p class="subpage-subtitle">
+    A governed prompt engineering framework designed around structured inputs,
+    audit methodology guardrails, sampling discipline, non-fabrication rules,
     clarification triggers, and auditor review.
   </p>
 
-  <div class="stack">
-    <span class="pill">Prompt Engineering</span>
-    <span class="pill">AI Governance</span>
-    <span class="pill">Audit Methodology</span>
-    <span class="pill">Documentation Standards</span>
-    <span class="pill">Sampling Controls</span>
-    <span class="pill">Human Review</span>
+  <div class="landing-tags landing-tags--dark">
+    <span>Prompt Engineering</span>
+    <span>AI Governance</span>
+    <span>Audit Methodology</span>
+    <span>Documentation Standards</span>
+    <span>Human Review</span>
   </div>
 
-  <p class="cta-row hero-cta">
-    <a class="btn" href="#prompt-demo">View prompt demo</a>
-    <a class="btn btn--ghost" href="#framework-flow">How it works</a>
-    <a class="btn btn--ghost" href="#control-matrix">Control matrix</a>
-  </p>
+  <div class="landing-actions">
+    <a class="btn landing-btn--light" href="#prompt-quality">View prompt demo</a>
+    <a class="btn landing-btn--outline" href="#control-matrix">View controls</a>
+    <a class="btn landing-btn--outline" href="#prompt-patterns">View prompt patterns</a>
+  </div>
+</div>
+
+<div class="subpage-hero__visual">
+  <div class="landing-control-panel">
+    <div>
+      <span>01</span>
+      <strong>Auditor-provided facts</strong>
+      <p>Scope, process details, control descriptions, evidence, samples, exceptions, and known limitations.</p>
+    </div>
+
+    <div>
+      <span>02</span>
+      <strong>Prompt controls</strong>
+      <p>Role limits, output type, methodology boundaries, non-fabrication rules, and clarification triggers.</p>
+    </div>
+
+    <div>
+      <span>03</span>
+      <strong>Review-ready draft</strong>
+      <p>Structured output that remains subject to auditor validation, support, revision, and judgment.</p>
+    </div>
+  </div>
+</div>
+
 </section>
 
 {% include demo-disclaimer.html %}
 
-<hr class="sep" />
+<section class="subpage-section subpage-section--light">
 
-## Why This Matters
+<p class="landing-kicker landing-kicker--dark">Why this matters</p>
 
-<div class="card">
+<h2 class="subpage-section-title">
+  AI-supported audit documentation needs controls, not just better writing.
+</h2>
 
-<div class="badge-row">
-  <span class="badge">AI governance</span>
-  <span class="badge">Audit documentation</span>
-  <span class="badge">Prompt controls</span>
-</div>
-
-<p>
-Internal audit teams are increasingly likely to encounter AI-enabled drafting,
-summarization, and documentation support. The risk is not AI usage itself; the risk is
-uncontrolled prompting, unsupported assumptions, inconsistent workpaper language,
-and unclear accountability.
+<p class="subpage-copy">
+  Internal audit teams are increasingly likely to encounter AI-enabled drafting,
+  summarization, and documentation support. The risk is not AI usage itself; the risk is
+  uncontrolled prompting, unsupported assumptions, inconsistent workpaper language,
+  and unclear accountability.
 </p>
 
-<p>
-This project demonstrates how prompt engineering can structure AI interactions around
-audit-specific rules, documentation expectations, methodology constraints, and governance controls.
-</p>
+<div class="subpage-feature-grid">
 
-<div class="takeaway-box">
-  <p>
-    <strong>Core idea:</strong> prompt design can function as a control layer.
-    The prompt defines the role, evidence boundary, output structure, clarification rules,
-    and auditor review expectation before drafting begins.
-  </p>
+<div class="subpage-feature-card">
+  <span>01</span>
+  <h3>Reduce unsupported assumptions</h3>
+  <p>Prompts should prevent invented controls, systems, populations, exceptions, conclusions, or management responses.</p>
+</div>
+
+<div class="subpage-feature-card">
+  <span>02</span>
+  <h3>Improve documentation consistency</h3>
+  <p>Reusable prompt patterns can standardize narratives, walkthroughs, test plans, testing results, and issue drafts.</p>
+</div>
+
+<div class="subpage-feature-card">
+  <span>03</span>
+  <h3>Preserve auditor judgment</h3>
+  <p>AI output should support drafting and structure, not replace evidence evaluation, conclusions, or final review.</p>
 </div>
 
 </div>
 
-<hr class="sep" />
+</section>
 
-<a id="prompt-demo"></a>
+<section id="prompt-quality" class="subpage-section subpage-section--dark">
 
-## Prompt Quality Demonstration
+<p class="landing-kicker">Prompt quality demonstration</p>
 
-<div class="card card--feature">
+<h2 class="subpage-section-title subpage-section-title--light">
+  Generic prompts sound polished. Controlled prompts are more reviewable.
+</h2>
 
-<div class="badge-row">
-  <span class="badge">Before / after</span>
-  <span class="badge">Audit issue drafting</span>
-  <span class="badge">Non-fabrication</span>
-</div>
-
-<p>
-Generic AI prompts often produce polished but unreliable audit documentation. The issue is not
-whether the output sounds professional; the issue is whether the output is supported, scoped,
-reviewable, and aligned with audit methodology.
+<p class="subpage-copy subpage-copy--light">
+  The issue is not whether AI output sounds professional. The issue is whether the output
+  is supported, scoped, reviewable, and aligned with audit methodology.
 </p>
 
 <div class="demo-grid">
@@ -137,30 +162,24 @@ reviewable, and aligned with audit methodology.
 
 <div class="takeaway-box">
   <p>
-    <strong>Key takeaway:</strong> better prompts do not just create cleaner writing.
+    <strong>Key takeaway:</strong> Better prompts do not just create cleaner writing.
     They create more controlled, supportable, and review-ready audit documentation.
   </p>
 </div>
 
-</div>
+</section>
 
-<hr class="sep" />
+<section class="subpage-section subpage-section--light">
 
-<a id="framework-flow"></a>
+<p class="landing-kicker landing-kicker--dark">Framework workflow</p>
 
-## How the Framework Works
+<h2 class="subpage-section-title">
+  Prompt design becomes a control point before drafting begins.
+</h2>
 
-<div class="card card--feature">
-
-<div class="badge-row">
-  <span class="badge">Workflow</span>
-  <span class="badge">Human-in-the-loop</span>
-  <span class="badge">Review-ready output</span>
-</div>
-
-<p>
-The framework treats prompt design as a control point. Inputs, constraints, output format,
-and review expectations are defined before drafting begins.
+<p class="subpage-copy">
+  The framework defines inputs, constraints, output format, and review expectations
+  before an AI-supported draft is generated.
 </p>
 
 <div class="flow-wrapper">
@@ -191,86 +210,19 @@ and review expectations are defined before drafting begins.
 
 </div>
 
-</div>
+</section>
 
-<hr class="sep" />
+<section id="control-matrix" class="subpage-section subpage-section--gradient">
 
-## Problem
+<p class="landing-kicker landing-kicker--dark">Prompt control matrix</p>
 
-<div class="card">
+<h2 class="subpage-section-title">
+  Controls that reduce unsupported or fabricated audit content.
+</h2>
 
-<div class="badge-row">
-  <span class="badge">Risk area</span>
-  <span class="badge">Uncontrolled AI use</span>
-</div>
-
-<p>
-Generic AI prompts can produce inconsistent, unsupported, or overly confident outputs.
-In an internal audit environment, that creates several risks:
-</p>
-
-<ul class="bullets">
-  <li>Inconsistent documentation formats, tone, and terminology</li>
-  <li>Invented controls, populations, systems, evidence, exceptions, or conclusions</li>
-  <li>Blending of separate audit artifacts such as narratives, walkthroughs, test plans, testing results, and issues</li>
-  <li>Misapplication of sampling guidance or unsupported testing rationale</li>
-  <li>Over-reliance on AI-generated language without sufficient auditor review</li>
-</ul>
-
-<p>
-These risks make unstructured prompting unsuitable for audit documentation without
-clear prompt rules, constraints, and review expectations.
-</p>
-
-</div>
-
-<hr class="sep" />
-
-## Approach
-
-<div class="card">
-
-<div class="badge-row">
-  <span class="badge">Methodology</span>
-  <span class="badge">Prompt design</span>
-  <span class="badge">Audit judgment</span>
-</div>
-
-<p>
-I designed a structured prompt engineering framework for internal audit use cases.
-The framework does not replace auditor judgment or make audit decisions. Instead,
-it demonstrates how prompts can be designed to guide drafting, enforce methodology,
-request clarification, and prevent unsupported outputs.
-</p>
-
-<p><strong>Core design principles:</strong></p>
-
-<ul class="bullets">
-  <li>Auditors remain responsible for scope, evidence, conclusions, and final judgment</li>
-  <li>Prompts require the user to define the audit artifact before drafting begins</li>
-  <li>Methodology, sampling rules, and documentation standards are embedded into prompt instructions</li>
-  <li>Ambiguity triggers clarification instead of assumptions</li>
-  <li>Outputs are designed to be reviewed, validated, and finalized by an auditor</li>
-</ul>
-
-</div>
-
-<hr class="sep" />
-
-<a id="control-matrix"></a>
-
-## Prompt Control Matrix
-
-<div class="card card--feature">
-
-<div class="badge-row">
-  <span class="badge">Control framework</span>
-  <span class="badge">Prompt-level safeguards</span>
-</div>
-
-<p>
-The framework uses prompt-level controls to constrain AI behavior and improve consistency
-across audit documentation activities.
+<p class="subpage-copy">
+  The framework uses prompt-level controls to constrain AI behavior and improve consistency
+  across audit documentation activities.
 </p>
 
 <div class="control-grid">
@@ -317,134 +269,191 @@ across audit documentation activities.
 
 </div>
 
+</section>
+
+<section class="subpage-section subpage-section--dark">
+
+<div class="subpage-split">
+
+<div>
+  <p class="landing-kicker">Example use case</p>
+
+  <h2 class="subpage-section-title subpage-section-title--light">
+    Issue drafting from auditor-provided testing results.
+  </h2>
+
+  <p class="subpage-copy subpage-copy--light">
+    A practical application of this framework is converting auditor-provided facts and testing results
+    into a structured issue draft while preventing unsupported conclusions.
+  </p>
+
+  <div class="landing-tags landing-tags--dark">
+    <span>Issue drafting</span>
+    <span>Testing results</span>
+    <span>Clarification triggers</span>
+    <span>Review-ready output</span>
+  </div>
 </div>
 
-<hr class="sep" />
+<div class="subpage-value-grid subpage-value-grid--dark subpage-value-grid--compact">
 
-## Example Use Case
-
-<div class="card">
-
-<div class="badge-row">
-  <span class="badge">Mini case</span>
-  <span class="badge">Issue drafting</span>
+<div>
+  <strong>Scenario</strong>
+  <p>An access review identified four exceptions from a sample of twenty-five users where documented manager approval was not retained.</p>
 </div>
 
-<p>
-A practical application of this framework is issue drafting from auditor-provided testing results.
+<div>
+  <strong>Controlled drafting approach</strong>
+  <p>The prompt requires the auditor to provide policy criteria, testing period, population, sample basis, evidence reviewed, exception details, and known limitations before drafting.</p>
+</div>
+
+<div>
+  <strong>Governance result</strong>
+  <p>If criteria, cause, impact, or management response details are missing, the prompt asks clarification questions instead of inventing conclusions.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="prompt-patterns" class="subpage-section subpage-section--light">
+
+<p class="landing-kicker landing-kicker--dark">Prompt patterns demonstrated</p>
+
+<h2 class="subpage-section-title">
+  Reusable prompt patterns for common internal audit documentation needs.
+</h2>
+
+<div class="subpage-feature-grid">
+
+<div class="subpage-feature-card">
+  <span>Narratives</span>
+  <h3>Process narrative prompts</h3>
+  <p>Structure end-to-end process descriptions using auditor-provided facts and defined scope boundaries.</p>
+</div>
+
+<div class="subpage-feature-card">
+  <span>Walkthroughs</span>
+  <h3>Walkthrough prompts</h3>
+  <p>Document control design understanding without inventing missing control details or unsupported observations.</p>
+</div>
+
+<div class="subpage-feature-card">
+  <span>Testing</span>
+  <h3>Test plan prompts</h3>
+  <p>Organize population, sample, attributes, evidence, and testing rationale into a repeatable structure.</p>
+</div>
+
+<div class="subpage-feature-card">
+  <span>Results</span>
+  <h3>Testing result prompts</h3>
+  <p>Summarize procedures performed, exceptions identified, and conclusions based only on provided results.</p>
+</div>
+
+<div class="subpage-feature-card">
+  <span>Issues</span>
+  <h3>Issue drafting prompts</h3>
+  <p>Support consistent finding language using condition, criteria, cause, effect, recommendation, and response structure.</p>
+</div>
+
+<div class="subpage-feature-card">
+  <span>Review</span>
+  <h3>Clarification prompts</h3>
+  <p>Ask targeted follow-up questions when facts are missing, unclear, inconsistent, or not supportable.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="subpage-section subpage-section--gradient">
+
+<div class="subpage-split">
+
+<div>
+  <p class="landing-kicker landing-kicker--dark">Audit value</p>
+
+  <h2 class="subpage-section-title">
+    Efficiency without compromising documentation discipline.
+  </h2>
+
+  <p class="subpage-copy">
+    By embedding audit methodology and controls into prompt design, this framework shows how AI can
+    support audit efficiency without compromising documentation quality, independence, or auditor accountability.
+  </p>
+</div>
+
+<div class="subpage-value-grid subpage-value-grid--compact">
+
+<div>
+  <strong>Consistency</strong>
+  <p>Improves consistency in AI-supported audit documentation across narratives, walkthroughs, test plans, results, and issues.</p>
+</div>
+
+<div>
+  <strong>Efficiency</strong>
+  <p>Reduces drafting time while maintaining review discipline and supportability.</p>
+</div>
+
+<div>
+  <strong>Governance</strong>
+  <p>Demonstrates practical AI governance at the prompt-design level through defined constraints and human review.</p>
+</div>
+
+<div>
+  <strong>Methodology alignment</strong>
+  <p>Strengthens adherence to audit methodology, sampling expectations, documentation standards, and review requirements.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="subpage-section subpage-section--light">
+
+<p class="landing-kicker landing-kicker--dark">Important scope note</p>
+
+<h2 class="subpage-section-title">
+  AI output supports drafting. It does not make audit decisions.
+</h2>
+
+<p class="subpage-copy">
+  This project demonstrates prompt engineering concepts for internal audit documentation.
+  It does not make audit decisions, approve controls, perform testing, evaluate evidence,
+  or override auditor judgment.
 </p>
 
 <div class="mini-case">
-  <p><strong>Scenario:</strong> An access review identified four exceptions from a sample of twenty-five users where documented manager approval was not retained.</p>
-
-  <p><strong>Controlled drafting approach:</strong> The prompt would require the auditor to provide the policy criteria, testing period, population, sample basis, evidence reviewed, exception details, and known limitations before drafting an issue.</p>
-
-  <p><strong>Governance result:</strong> If criteria, cause, impact, or management response details are missing, the prompt asks clarification questions instead of inventing conclusions.</p>
+  <p>
+    <strong>Review requirement:</strong> Any AI-supported output should be reviewed, validated,
+    and finalized by qualified audit professionals before use in formal audit documentation.
+  </p>
 </div>
 
-</div>
+</section>
 
-<hr class="sep" />
+<section class="subpage-final-cta">
 
-## Prompt Patterns Demonstrated
+<p class="landing-kicker">Prompt engineering</p>
 
-<div class="card">
-
-<div class="badge-row">
-  <span class="badge">Reusable patterns</span>
-  <span class="badge">Audit lifecycle</span>
-</div>
+<h2>
+Structured prompts can make AI-supported audit documentation more controlled and review-ready.
+</h2>
 
 <p>
-The framework is organized around reusable prompt patterns that can be adapted
-to different internal audit documentation needs.
+Explore audit analytics, audit tools, or connect with me on LinkedIn.
 </p>
 
-<ul class="bullets">
-  <li><strong>Process narrative prompts</strong> — structure end-to-end process descriptions using auditor-provided facts.</li>
-  <li><strong>Walkthrough prompts</strong> — document control design understanding without inventing missing control details.</li>
-  <li><strong>Test plan prompts</strong> — organize population, sample, attributes, evidence, and testing rationale.</li>
-  <li><strong>Testing result prompts</strong> — summarize procedures performed, exceptions identified, and operating effectiveness conclusions based only on provided results.</li>
-  <li><strong>Issue drafting prompts</strong> — support consistent finding language, including condition, criteria, cause, effect, recommendation, and management response structure.</li>
-</ul>
-
+<div class="landing-actions landing-actions--center">
+  <a class="btn landing-btn--light" href="/audit-analytics/">View audit analytics</a>
+  <a class="btn landing-btn--outline" href="/excel-tools/">View audit tools</a>
+  <a class="btn landing-btn--outline" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
 </div>
 
-<hr class="sep" />
-
-## Governance Controls Demonstrated
-
-<div class="card">
-
-<div class="badge-row">
-  <span class="badge">Governance</span>
-  <span class="badge">Audit quality</span>
-</div>
-
-<ul class="bullets">
-  <li>Required activity selection before drafting</li>
-  <li>No invented controls, systems, samples, populations, evidence, exceptions, or conclusions</li>
-  <li>Clear separation between narratives, walkthroughs, test plans, testing results, and issues</li>
-  <li>Sampling logic constrained to approved guidance or user-provided methodology</li>
-  <li>Auditor remains responsible for final review, validation, and judgment</li>
-</ul>
-
-</div>
-
-<hr class="sep" />
-
-## Audit Value
-
-<div class="card">
-
-<div class="badge-row">
-  <span class="badge">Efficiency</span>
-  <span class="badge">Consistency</span>
-  <span class="badge">Review discipline</span>
-</div>
-
-<ul class="bullets">
-  <li>Improves consistency in AI-supported audit documentation</li>
-  <li>Reduces drafting time while maintaining review discipline</li>
-  <li>Strengthens adherence to audit methodology and sampling expectations</li>
-  <li>Reduces risk of unsupported assumptions or fabricated content</li>
-  <li>Demonstrates practical AI governance at the prompt-design level</li>
-</ul>
-
-<p>
-By embedding audit methodology and controls into prompt design, this framework
-shows how AI can support audit efficiency without compromising documentation quality,
-independence, or auditor accountability.
-</p>
-
-</div>
-
-<hr class="sep" />
-
-## Important Note on Scope
-
-<div class="card">
-
-<div class="badge-row">
-  <span class="badge">Scope limitation</span>
-  <span class="badge">Human review required</span>
-</div>
-
-<p>
-This project demonstrates prompt engineering concepts for internal audit documentation.
-It does not make audit decisions, approve controls, perform testing, evaluate evidence,
-or override auditor judgment.
-</p>
-
-<p>
-Any AI-supported output should be reviewed, validated, and finalized by qualified audit
-professionals before use in formal audit documentation.
-</p>
-
-<p class="cta-row">
-  <a class="btn" href="/">Back to portfolio</a>
-  <a class="btn btn--ghost" href="/audit-analytics/">View audit analytics</a>
-  <a class="btn btn--ghost" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Contact on LinkedIn</a>
-</p>
+</section>
 
 </div>
