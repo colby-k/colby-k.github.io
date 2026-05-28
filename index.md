@@ -14,19 +14,18 @@ description: "Practical internal audit tools, analytics, automation, prompt engi
   <p class="landing-kicker">Internal Audit Manager • CIA, CFE, CICA</p>
 
   <h1 class="landing-title">
-    Internal audit tools, analytics, and governance workflows built for practical audit execution.
+    Internal audit tools and analytics built for practical audit execution.
   </h1>
 
   <p class="landing-subtitle">
-    I build audit-focused Excel tools, Power BI dashboards, workpaper templates, analytics apps,
-    and prompt engineering frameworks that help improve coverage, reduce manual effort,
+    I build audit-focused Excel tools, Power BI dashboards, workpaper templates,
+    analytics apps, and governance workflows that help improve coverage, reduce manual effort,
     and make audit work more review-ready.
   </p>
 
   <div class="landing-actions">
     <a class="btn landing-btn--light" href="#featured-dashboard">View dashboard demo</a>
     <a class="btn landing-btn--outline" href="/excel-tools/">Explore audit tools</a>
-    <a class="btn landing-btn--outline" href="/about/">About / Resume</a>
   </div>
 
   <div class="landing-stats">
@@ -50,12 +49,8 @@ description: "Practical internal audit tools, analytics, automation, prompt engi
     <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro screenshot showing Excel audit documentation tools">
   </div>
 
-  <div class="visual-card visual-card--small visual-card--top">
-    <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper template example">
-  </div>
-
   <div class="visual-card visual-card--small visual-card--bottom">
-    <img src="/assets/img/Risk_Assessment.png" alt="Risk assessment matrix screenshot">
+    <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper template example">
   </div>
 </div>
 
