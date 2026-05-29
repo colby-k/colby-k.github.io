@@ -2324,15 +2324,40 @@ hr {
 }
 /* ===== Larger media and dashboard presentation ===== */
 
-/* Makes selected dashboard/media sections use full-width visuals */
+/* Give wide dashboard sections more horizontal room without forcing bad height ratios */
+.subpage-section--wide-media {
+  width: min(1320px, calc(100vw - 48px));
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Stack text above the report so the report gets full width */
 .subpage-section--wide-media .subpage-split {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr !important;
   gap: 1.5rem;
 }
 
-/* Give embedded dashboards more room on desktop */
-.subpage-section--wide-media .powerbi-embed {
-  min-height: 640px;
+/* Power BI reports should stay 16:9 to avoid clipping */
+.subpage-section--wide-media .powerbi-embed,
+.landing-dashboard-frame .powerbi-embed {
+  aspect-ratio: 16 / 9;
+  min-height: 0 !important;
+  height: auto !important;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Remove extra squeeze around embedded reports */
+.subpage-section--wide-media .subpage-media-card {
+  padding: 0.75rem;
+}
+
+/* Keep iframe filling the corrected 16:9 container */
+.subpage-section--wide-media .powerbi-embed iframe,
+.landing-dashboard-frame .powerbi-embed iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 /* Slightly larger general media cards */
@@ -2344,27 +2369,21 @@ hr {
   border-radius: 24px;
 }
 
-/* Make stacked screenshots feel more substantial */
 .subpage-media-stack {
   gap: 1.25rem;
 }
 
-/* Larger dashboard frame on homepage */
-.landing-dashboard-frame .powerbi-embed {
-  min-height: 620px;
-}
-
-/* Responsive dashboard sizing */
-@media (max-width: 980px) {
-  .subpage-section--wide-media .powerbi-embed,
-  .landing-dashboard-frame .powerbi-embed {
-    min-height: 520px;
-  }
-}
-
+/* Mobile: keep reports responsive instead of forcing tall cropped embeds */
 @media (max-width: 640px) {
+  .subpage-section--wide-media {
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+  }
+
   .subpage-section--wide-media .powerbi-embed,
   .landing-dashboard-frame .powerbi-embed {
-    min-height: 420px;
+    aspect-ratio: 16 / 9;
+    min-height: 0 !important;
   }
 }
