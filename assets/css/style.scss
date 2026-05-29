@@ -2285,3 +2285,40 @@ hr {
 .subpage-hero::after {
   display: none;
 }
+/* ===== Hide top hero-card kicker labels ===== */
+.landing-hero > .landing-hero__content > .landing-kicker,
+.subpage-hero > .subpage-hero__content > .landing-kicker {
+  display: none !important;
+}
+
+/* ===== Dark section text contrast cleanup ===== */
+.landing-section--dark .landing-kicker,
+.subpage-section--dark .landing-kicker {
+  color: var(--teal) !important;
+  background: transparent !important;
+}
+
+.landing-section--dark h1,
+.landing-section--dark h2,
+.landing-section--dark h3,
+.landing-section--dark h4,
+.subpage-section--dark h1,
+.subpage-section--dark h2,
+.subpage-section--dark h3,
+.subpage-section--dark h4 {
+  color: #ffffff !important;
+}
+
+.landing-section--dark .card__title,
+.subpage-section--dark .card__title,
+.landing-section--dark .subpage-section-title,
+.subpage-section--dark .subpage-section-title {
+  color: #ffffff !important;
+}
+
+.landing-section--dark p,
+.landing-section--dark li,
+.subpage-section--dark p,
+.subpage-section--dark li {
+  color: rgba(255, 255, 255, 0.76) !important;
+}
