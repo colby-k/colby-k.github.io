@@ -84,7 +84,7 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
 
 </section>
 
-<section id="issue-tracker" class="subpage-section subpage-section--light subpage-section--wide-media">
+<section id="issue-tracker" class="subpage-section subpage-section--light">
 
 <div class="subpage-split">
 
@@ -152,7 +152,7 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
 
 </section>
 
-<section id="vendor-payments" class="subpage-section subpage-section--dark subpage-section--wide-media">
+<section id="vendor-payments" class="subpage-section subpage-section--dark">
 
 <div class="subpage-split">
 
