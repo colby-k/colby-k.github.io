@@ -2452,47 +2452,74 @@ hr {
     height: 17px !important;
   }
 }
-/* ===== Sticky header and navigation ===== */
+/* ===== Fixed header and navigation ===== */
 
-/* Adjust this if the nav overlaps the header */
+/* Adjust these two values if the nav overlaps or has too much gap */
 :root {
-  --sticky-header-height: 92px;
+  --fixed-header-height: 118px;
+  --fixed-nav-height: 66px;
 }
 
+/* Keep the site title/name fixed at the top */
 #header_wrap {
-  position: sticky;
+  position: fixed !important;
   top: 0;
-  z-index: 1000;
-  background: rgba(255, 255, 255, 0.92) !important;
+  left: 0;
+  right: 0;
+  z-index: 1100;
+  background: rgba(255, 255, 255, 0.94) !important;
+  border-bottom: 1px solid var(--line-soft);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
 }
 
+/* Keep the nav fixed directly under the header */
 .topnav {
-  position: sticky;
-  top: var(--sticky-header-height);
-  z-index: 999;
-  padding: 0.55rem 0;
-  margin-bottom: 1rem !important;
-  background: rgba(245, 245, 247, 0.88);
+  position: fixed !important;
+  top: var(--fixed-header-height);
+  left: 0;
+  right: 0;
+  z-index: 1090;
+  margin: 0 !important;
+  padding: 0.55rem 1rem;
+  justify-content: center;
+  background: rgba(245, 245, 247, 0.9);
+  border-bottom: 1px solid var(--line-soft);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.04);
 }
 
-/* Keep anchor links from hiding underneath sticky header/nav */
+/* Push page content below the fixed header + fixed nav */
+#main_content {
+  padding-top: calc(var(--fixed-header-height) + var(--fixed-nav-height) + 1rem) !important;
+}
+
+/* Prevent anchor links from hiding under the fixed header/nav */
 :target {
-  scroll-margin-top: 170px;
+  scroll-margin-top: calc(var(--fixed-header-height) + var(--fixed-nav-height) + 24px);
 }
 
-/* Mobile: keep only the nav sticky, because full header + nav can take too much space */
+/* Mobile: fixed header + nav takes too much space, so let it scroll normally */
 @media (max-width: 860px) {
   #header_wrap {
-    position: relative;
+    position: relative !important;
     top: auto;
+    left: auto;
+    right: auto;
   }
 
   .topnav {
-    top: 0;
+    position: relative !important;
+    top: auto;
+    left: auto;
+    right: auto;
+    margin-bottom: 1rem !important;
+    box-shadow: none;
+  }
+
+  #main_content {
+    padding-top: 0.95rem !important;
   }
 
   :target {
