@@ -2322,3 +2322,36 @@ hr {
 .subpage-section--dark li {
   color: rgba(255, 255, 255, 0.76) !important;
 }
+/* ===== Wider responsive layout on large screens ===== */
+@media (min-width: 1200px) {
+  .inner,
+  #main_content,
+  #header_wrap .inner,
+  #footer_wrap .inner {
+    max-width: 1480px !important;
+  }
+
+  #main_content {
+    padding-left: 36px !important;
+    padding-right: 36px !important;
+  }
+
+  .landing-hero,
+  .landing-section,
+  .landing-final-cta,
+  .subpage-hero,
+  .subpage-section,
+  .subpage-final-cta {
+    width: 100%;
+  }
+}
+
+/* Extra-wide monitors */
+@media (min-width: 1700px) {
+  .inner,
+  #main_content,
+  #header_wrap .inner,
+  #footer_wrap .inner {
+    max-width: 1580px !important;
+  }
+}
