@@ -2452,3 +2452,50 @@ hr {
     height: 17px !important;
   }
 }
+/* ===== Sticky header and navigation ===== */
+
+/* Adjust this if the nav overlaps the header */
+:root {
+  --sticky-header-height: 92px;
+}
+
+#header_wrap {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.topnav {
+  position: sticky;
+  top: var(--sticky-header-height);
+  z-index: 999;
+  padding: 0.55rem 0;
+  margin-bottom: 1rem !important;
+  background: rgba(245, 245, 247, 0.88);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+/* Keep anchor links from hiding underneath sticky header/nav */
+:target {
+  scroll-margin-top: 170px;
+}
+
+/* Mobile: keep only the nav sticky, because full header + nav can take too much space */
+@media (max-width: 860px) {
+  #header_wrap {
+    position: relative;
+    top: auto;
+  }
+
+  .topnav {
+    top: 0;
+  }
+
+  :target {
+    scroll-margin-top: 90px;
+  }
+}
