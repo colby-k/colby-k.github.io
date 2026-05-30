@@ -2529,13 +2529,14 @@ hr {
 /* ===== Fixed header/nav spacing adjustment ===== */
 :root {
   --fixed-header-height: 92px;
-  --fixed-nav-height: 62px;
+  --fixed-nav-height: 70px;
 }
 
 .topnav {
   top: var(--fixed-header-height) !important;
-  padding-top: 0.45rem !important;
+  padding-top: 0.75rem !important;
   padding-bottom: 0.45rem !important;
+  overflow: visible;
 }
 
 #main_content {
