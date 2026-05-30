@@ -2546,3 +2546,24 @@ hr {
 :target {
   scroll-margin-top: calc(var(--fixed-header-height) + var(--fixed-nav-height) + 20px);
 }
+/* ===== Active nav button teal tint ===== */
+.topnav a[aria-current="page"] {
+  color: var(--text) !important;
+  border-color: rgba(66, 214, 176, 0.45) !important;
+  background: rgba(66, 214, 176, 0.12) !important;
+  font-weight: 700;
+  box-shadow: 0 6px 18px rgba(66, 214, 176, 0.18) !important;
+}
+
+/* Keep active nav icon in its original colors */
+.topnav a[aria-current="page"] img.navicon {
+  filter: none !important;
+  opacity: 1;
+}
+
+/* Slightly stronger teal on hover */
+.topnav a[aria-current="page"]:hover {
+  background: rgba(66, 214, 176, 0.18) !important;
+  border-color: rgba(66, 214, 176, 0.65) !important;
+  box-shadow: 0 8px 22px rgba(66, 214, 176, 0.24) !important;
+}
