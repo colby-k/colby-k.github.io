@@ -2572,3 +2572,30 @@ hr {
   max-width: 900px;
   margin: 1.5rem auto 1.75rem auto;
 }
+/* ===== Mobile fixed-header/nav correction ===== */
+@media (max-width: 860px) {
+  #header_wrap {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+  }
+
+  .topnav {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    margin: 0 0 0.85rem 0 !important;
+    padding: 0.45rem 0.75rem !important;
+    box-shadow: none !important;
+  }
+
+  #main_content {
+    padding-top: 0.75rem !important;
+  }
+
+  :target {
+    scroll-margin-top: 90px;
+  }
+}
