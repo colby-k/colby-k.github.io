@@ -2567,3 +2567,8 @@ hr {
   border-color: rgba(66, 214, 176, 0.65) !important;
   box-shadow: 0 8px 22px rgba(66, 214, 176, 0.24) !important;
 }
+/* ===== Scale down Audit Workpaper Template carousel ===== */
+#audit-workpaper-template .subpage-carousel-wrap {
+  max-width: 900px;
+  margin: 1.5rem auto 1.75rem auto;
+}
