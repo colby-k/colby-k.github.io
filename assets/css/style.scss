@@ -2599,3 +2599,63 @@ hr {
     scroll-margin-top: 90px;
   }
 }
+/* ===== Audit Analytics mobile Power BI fix ===== */
+
+/* Keep Power BI embeds wide/proportional on the Audit Analytics page */
+.subpage--analytics .powerbi-embed {
+  aspect-ratio: 16 / 9 !important;
+  min-height: 0 !important;
+  height: auto !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow: hidden;
+}
+
+/* Prevent the card wrapper from squeezing or clipping the iframe */
+.subpage--analytics .subpage-media-card {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Make sure the iframe fills the corrected container */
+.subpage--analytics .powerbi-embed iframe {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+/* Mobile-specific cleanup */
+@media (max-width: 860px) {
+  .subpage--analytics .subpage-split {
+    grid-template-columns: 1fr !important;
+  }
+
+  .subpage--analytics .subpage-media-card {
+    padding: 0.45rem;
+    border-radius: 18px;
+  }
+
+  .subpage--analytics .powerbi-embed {
+    aspect-ratio: 16 / 9 !important;
+    min-height: 0 !important;
+    border-radius: 14px;
+    margin-top: 0.25rem;
+  }
+
+  .subpage--analytics .caption {
+    font-size: 0.78rem;
+    line-height: 1.4;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  .subpage--analytics .subpage-media-card {
+    padding: 0.35rem;
+  }
+
+  .subpage--analytics .powerbi-embed {
+    aspect-ratio: 16 / 9 !important;
+    min-height: 0 !important;
+  }
+}
