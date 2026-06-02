@@ -2659,3 +2659,39 @@ hr {
     min-height: 0 !important;
   }
 }
+/* ===== Prompt quality demo contrast fix ===== */
+#prompt-quality .demo-card {
+  background: #ffffff !important;
+  color: var(--text) !important;
+}
+
+#prompt-quality .demo-card p,
+#prompt-quality .demo-card li,
+#prompt-quality .demo-card strong,
+#prompt-quality .demo-card .demo-label {
+  color: var(--text) !important;
+}
+
+#prompt-quality .demo-card .demo-label {
+  color: var(--text-muted) !important;
+}
+
+#prompt-quality .prompt-box {
+  background: var(--surface-soft) !important;
+  color: var(--text) !important;
+  border-color: var(--line-soft) !important;
+}
+
+#prompt-quality .prompt-box strong {
+  color: var(--text) !important;
+}
+
+#prompt-quality .takeaway-box {
+  background: #f5f9ff !important;
+  color: var(--text) !important;
+}
+
+#prompt-quality .takeaway-box p,
+#prompt-quality .takeaway-box strong {
+  color: var(--text) !important;
+}
