@@ -134,7 +134,7 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
   </p>
 </div>
 
-<div class="subpage-media-card">
+<div class="subpage-media-card analytics-dashboard-card">
   <div class="powerbi-embed">
     <iframe
       title="Internal Audit Issue Tracker Dashboard"
@@ -202,7 +202,7 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
   </p>
 </div>
 
-<div class="subpage-media-card">
+<div class="subpage-media-card analytics-dashboard-card">
   <div class="powerbi-embed">
     <iframe
       title="Vendor Payments Monitoring Dashboard"
@@ -310,7 +310,7 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
 
 <div class="subpage-split" style="margin-top:1.5rem;">
 
-<div class="subpage-media-card">
+<div class="subpage-media-card analytics-dashboard-card">
   <h3>Adventure Works – Sales & Operations Dashboard</h3>
   <p class="subpage-copy">
     End-to-end dashboard development using a multi-table operational dataset with revenue trends,
@@ -336,7 +336,7 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
   </p>
 </div>
 
-<div class="subpage-media-card">
+<div class="subpage-media-card analytics-dashboard-card">
   <h3>Property Management Dashboard</h3>
   <p class="subpage-copy">
     Portfolio-level dashboard for reviewing property performance, filtering locations,
