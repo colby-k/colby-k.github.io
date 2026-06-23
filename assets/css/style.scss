@@ -2375,3 +2375,48 @@ hr {
   font-size: 0.78rem;
   margin-top: 0.45rem;
 }
+/* =========================================================
+   Audit Analytics dashboard card refinement
+   ========================================================= */
+
+.analytics-dashboard-card {
+  padding: 0.55rem;
+  border-radius: 24px;
+}
+
+.analytics-dashboard-card .powerbi-embed {
+  margin-top: 0;
+  border-radius: 18px;
+}
+
+#main_content .analytics-dashboard-card .caption {
+  margin: 0.55rem 0 0 0;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+/* Keep captions readable when dashboard cards appear inside dark sections */
+#main_content .subpage-section--dark .analytics-dashboard-card .caption {
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+/* Keep captions readable in light/gradient sections */
+#main_content .subpage-section--light .analytics-dashboard-card .caption,
+#main_content .subpage-section--gradient .analytics-dashboard-card .caption {
+  color: var(--text-muted) !important;
+}
+
+@media (max-width: 640px) {
+  .analytics-dashboard-card {
+    padding: 0.4rem;
+    border-radius: 20px;
+  }
+
+  .analytics-dashboard-card .powerbi-embed {
+    border-radius: 14px;
+  }
+
+  #main_content .analytics-dashboard-card .caption {
+    font-size: 0.78rem;
+  }
+}
