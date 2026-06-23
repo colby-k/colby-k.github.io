@@ -2343,3 +2343,35 @@ hr {
     padding: 0.35rem;
   }
 }
+/* =========================================================
+   Audit Tools screenshot card refinement
+   ========================================================= */
+
+.subpage-media-stack--tools {
+  gap: 1rem;
+}
+
+.tool-screenshot-card {
+  padding: 0.55rem;
+  border-radius: 24px;
+}
+
+.tool-screenshot-card img {
+  border-radius: 18px;
+}
+
+.tool-screenshot-card .caption {
+  margin: 0.55rem 0 0 0;
+  color: rgba(255, 255, 255, 0.72) !important;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.tool-screenshot-card--compact {
+  padding: 0.45rem;
+}
+
+.tool-screenshot-card--compact .caption {
+  font-size: 0.78rem;
+  margin-top: 0.45rem;
+}
