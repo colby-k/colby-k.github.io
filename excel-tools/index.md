@@ -144,20 +144,26 @@ description: "Practical audit tools for documentation, risk assessment, workpape
   </p>
 </div>
 
-<div class="subpage-media-stack">
-  <div class="subpage-media-card">
+<div class="subpage-media-stack subpage-media-stack--tools">
+
+  <div class="subpage-media-card tool-screenshot-card">
     <a href="/assets/img/AuditTicksPro_Tms.png" target="_blank" rel="noopener">
       <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro Excel add-in screenshot showing ribbon tools, worksheet tickmarks, callouts, and note elements">
     </a>
-    <p class="caption">AuditTicks Pro in action: ribbon-based tickmarks, references, callouts, note boxes, review elements, and documentation helpers displayed directly in Excel.</p>
+    <p class="caption">
+      AuditTicks Pro in action: ribbon-based tickmarks, references, callouts, notes, review elements, and documentation helpers.
+    </p>
   </div>
 
-  <div class="subpage-media-card">
+  <div class="subpage-media-card tool-screenshot-card tool-screenshot-card--compact">
     <a href="/assets/img/AuditTicksPro_Ribbon.png" target="_blank" rel="noopener">
       <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon screenshot showing audit documentation tools">
     </a>
-    <p class="caption">Ribbon layout showing tickmarks, tie-out references, logic symbols, callouts, templates, guide links, utilities, and review tools.</p>
+    <p class="caption">
+      Ribbon layout showing tickmarks, references, callouts, templates, utilities, and review tools.
+    </p>
   </div>
+
 </div>
 
 </div>
@@ -378,4 +384,4 @@ Explore the full portfolio, view audit analytics, or connect with me on LinkedIn
 
 </section>
 
-</div>
+</div>    
