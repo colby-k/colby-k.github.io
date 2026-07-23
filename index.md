@@ -1,7 +1,7 @@
 ---
 title: "Internal Audit Tools, Analytics & Governance Portfolio"
 layout: default
-description: "Practical internal audit tools, analytics, automation, prompt engineering, and AI governance projects by Colby Kellersberger, CIA, CFE, CICA."
+description: "Internal audit leadership, practical audit tools, analytics, automation, and AI governance projects by Colby Kellersberger, CIA, CFE, CICA."
 ---
 
 <div class="landing-page">
@@ -243,25 +243,41 @@ Explore the portfolio by audit need.
 <a class="landing-project-card" href="/excel-tools/">
   <span>Audit Tools</span>
   <h3>Excel add-ins, workpaper templates, and risk assessment tools</h3>
-  <p>AuditTicks Pro, workpaper templates, and planning tools designed for practical internal audit execution.</p>
+  <dl class="project-card__summary">
+    <div><dt>Challenge</dt><dd>Manual setup and inconsistent audit documentation.</dd></div>
+    <div><dt>Solution</dt><dd>Excel add-ins and reusable workpaper templates.</dd></div>
+    <div><dt>Impact</dt><dd>Faster preparation and clearer review.</dd></div>
+  </dl>
 </a>
 
 <a class="landing-project-card" href="/audit-analytics/">
   <span>Audit Analytics</span>
   <h3>Dashboards, monitoring, sampling, and exception analysis</h3>
-  <p>Power BI dashboards and Streamlit apps for audit testing, issue follow-up, and risk-based analysis.</p>
+  <dl class="project-card__summary">
+    <div><dt>Challenge</dt><dd>Large populations and fragmented follow-up data.</dd></div>
+    <div><dt>Solution</dt><dd>Power BI dashboards and focused testing applications.</dd></div>
+    <div><dt>Impact</dt><dd>Broader coverage and more targeted review.</dd></div>
+  </dl>
 </a>
 
 <a class="landing-project-card" href="/sql-projects/">
   <span>Data Projects</span>
   <h3>SQL, transformation, modeling, and business risk review</h3>
-  <p>Data projects framed around audit-style review, trend analysis, and management reporting.</p>
+  <dl class="project-card__summary">
+    <div><dt>Challenge</dt><dd>Raw data that is not ready for reliable analysis.</dd></div>
+    <div><dt>Solution</dt><dd>SQL transformation, modeling, and reporting workflows.</dd></div>
+    <div><dt>Impact</dt><dd>Supportable trends, segments, and management views.</dd></div>
+  </dl>
 </a>
 
 <a class="landing-project-card" href="/ai-audit-assistant/">
-  <span>Governance</span>
+  <span>Prompt Engineering</span>
   <h3>Prompt engineering for internal audit documentation</h3>
-  <p>Reusable prompt patterns and control concepts for review-ready AI-supported audit documentation.</p>
+  <dl class="project-card__summary">
+    <div><dt>Challenge</dt><dd>Unsupported assumptions in AI-assisted drafting.</dd></div>
+    <div><dt>Solution</dt><dd>Audit-specific prompt controls and clarification triggers.</dd></div>
+    <div><dt>Impact</dt><dd>More controlled and review-ready drafts.</dd></div>
+  </dl>
 </a>
 
 </div>
@@ -282,8 +298,8 @@ View my background, connect on LinkedIn, or explore the full project portfolio.
 
 <div class="landing-actions landing-actions--center">
   <a class="btn landing-btn--light" href="/about/">About / Resume</a>
-  <a class="btn landing-btn--outline" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
-  <a class="btn landing-btn--outline" href="https://github.com/colby-k" target="_blank" rel="noopener">GitHub</a>
+  <a class="cta-link cta-link--dark" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Connect on LinkedIn →</a>
+  <a class="cta-link cta-link--dark" href="https://github.com/colby-k" target="_blank" rel="noopener">View GitHub →</a>
 </div>
 
 </section>
