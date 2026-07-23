@@ -111,6 +111,13 @@ description: "SQL, Power BI, and data analysis projects framed around audit-styl
     <span>Market trends</span>
   </div>
 
+  <dl class="project-facts project-facts--dark">
+    <div><dt>Status</dt><dd>Repository available</dd></div>
+    <div><dt>Role</dt><dd>Analysis and development</dd></div>
+    <div><dt>Deliverable</dt><dd>SQL analysis</dd></div>
+    <div><dt>Data</dt><dd>External job postings</dd></div>
+  </dl>
+
   <div class="subpage-value-grid subpage-value-grid--dark">
 
     <div>
@@ -171,6 +178,13 @@ description: "SQL, Power BI, and data analysis projects framed around audit-styl
     <span>Power BI</span>
     <span>Transactional analysis</span>
   </div>
+
+  <dl class="project-facts">
+    <div><dt>Status</dt><dd>Repository available</dd></div>
+    <div><dt>Role</dt><dd>Analysis and development</dd></div>
+    <div><dt>Deliverable</dt><dd>SQL + Power BI</dd></div>
+    <div><dt>Data</dt><dd>Demonstration transactions</dd></div>
+  </dl>
 
   <div class="subpage-value-grid subpage-value-grid--compact">
 

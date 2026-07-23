@@ -76,6 +76,15 @@ description: "Prompt engineering framework for internal audit documentation, met
 
 {% include demo-disclaimer.html %}
 
+<section class="project-facts-wrap" aria-label="Prompt engineering framework project information">
+  <dl class="project-facts">
+    <div><dt>Status</dt><dd>Portfolio framework</dd></div>
+    <div><dt>Role</dt><dd>Framework design</dd></div>
+    <div><dt>Deliverable</dt><dd>Governed prompt workflow</dd></div>
+    <div><dt>Data</dt><dd>No client data</dd></div>
+  </dl>
+</section>
+
 <section class="subpage-section subpage-section--light">
 
 <p class="landing-kicker landing-kicker--dark">Why this matters</p>

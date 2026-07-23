@@ -105,6 +105,13 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
     <span>Demo data</span>
   </div>
 
+  <dl class="project-facts">
+    <div><dt>Status</dt><dd>Live demo</dd></div>
+    <div><dt>Role</dt><dd>Design and development</dd></div>
+    <div><dt>Deliverable</dt><dd>Power BI dashboard</dd></div>
+    <div><dt>Data</dt><dd>Demonstration data</dd></div>
+  </dl>
+
   <div class="subpage-value-grid subpage-value-grid--compact">
 
     <div>
@@ -172,6 +179,13 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
     <span>Demo data</span>
   </div>
 
+  <dl class="project-facts project-facts--dark">
+    <div><dt>Status</dt><dd>Live demo</dd></div>
+    <div><dt>Role</dt><dd>Design and development</dd></div>
+    <div><dt>Deliverable</dt><dd>Power BI dashboard</dd></div>
+    <div><dt>Data</dt><dd>Demonstration data</dd></div>
+  </dl>
+
   <div class="subpage-value-grid subpage-value-grid--dark subpage-value-grid--compact">
 
     <div>
@@ -228,6 +242,13 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
   These applications demonstrate how Python and Streamlit can support repeatable audit procedures,
   sample selection, anomaly analysis, and risk-based review.
 </p>
+
+<dl class="project-facts">
+  <div><dt>Status</dt><dd>Live applications</dd></div>
+  <div><dt>Role</dt><dd>Design and development</dd></div>
+  <div><dt>Deliverable</dt><dd>Streamlit apps</dd></div>
+  <div><dt>Data</dt><dd>User-provided or synthetic</dd></div>
+</dl>
 
 <div class="subpage-feature-grid">
 
