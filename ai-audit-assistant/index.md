@@ -175,9 +175,9 @@ description: "Governed AI workflows for internal audit documentation, evidence a
   </div>
 
   <dl class="project-facts project-facts--dark">
-    <div><dt>Status</dt><dd>Demonstrated workflow</dd></div>
+    <div><dt>Status</dt><dd>Downloadable demonstration</dd></div>
     <div><dt>Role</dt><dd>Workflow and control design</dd></div>
-    <div><dt>Deliverable</dt><dd>Annotated evidence PDF</dd></div>
+    <div><dt>Deliverable</dt><dd>PDFs + Excel review</dd></div>
     <div><dt>Data</dt><dd>Synthetic examples</dd></div>
   </dl>
 
@@ -195,19 +195,32 @@ description: "Governed AI workflows for internal audit documentation, evidence a
       <p>Produces one reviewable derivative per artifact with visible annotations while leaving the original source unchanged.</p>
     </div>
   </div>
+
+  <p class="cta-row">
+    <a class="btn landing-btn--light" href="/assets/files/Annotated_Vendor_Payment_Evidence.pdf" target="_blank" rel="noopener">View annotated PDF</a>
+    <a class="btn landing-btn--outline" href="/assets/files/Synthetic_Vendor_Payment_Evidence.pdf" target="_blank" rel="noopener">View source PDF</a>
+    <a class="cta-link cta-link--dark" href="/assets/files/Evidence_Annotation_Review_Workbook.xlsx">Download Excel review →</a>
+  </p>
 </div>
 
-<div class="ai-output-card ai-output-card--dark">
-  <p class="ai-output-card__eyebrow">Output controls</p>
-  <h3>Evidence remains the source of truth.</h3>
-  <ul class="ai-checklist">
-    <li>One source artifact per annotated derivative</li>
-    <li>Flattened annotations visible in ordinary PDF viewers</li>
-    <li>Evidence reference and retention purpose</li>
-    <li>Attribute-specific tickmarks placed near support</li>
-    <li>Exceptions only when explicit criteria are provided</li>
-    <li>Complete tickmark legend for reviewer navigation</li>
-  </ul>
+<div class="subpage-media-stack">
+  <div class="subpage-media-card ai-evidence-preview">
+    <a href="/assets/files/Annotated_Vendor_Payment_Evidence.pdf" target="_blank" rel="noopener">
+      <img src="/assets/img/ai-evidence-annotation-preview.png" alt="Annotated synthetic vendor invoice showing audit tickmarks and a complete legend" loading="lazy">
+    </a>
+    <p class="caption">Page 1 of the downloadable annotated derivative PDF.</p>
+  </div>
+
+  <div class="ai-output-card ai-output-card--dark">
+    <p class="ai-output-card__eyebrow">Output controls</p>
+    <h3>Evidence remains the source of truth.</h3>
+    <ul class="ai-checklist">
+      <li>One source artifact per annotated derivative</li>
+      <li>Flattened annotations visible in ordinary PDF viewers</li>
+      <li>Attribute-specific tickmarks placed near support</li>
+      <li>Complete tickmark legend for reviewer navigation</li>
+    </ul>
+  </div>
 </div>
 
 </div>
