@@ -38,11 +38,11 @@ description: "Practical audit tools for documentation, risk assessment, workpape
 
 <div class="subpage-hero__visual">
   <div class="subpage-visual-card subpage-visual-card--large">
-    <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro screenshot showing Excel audit documentation tools">
+    <img src="/assets/img/hero-auditticks-focus.png" alt="Focused AuditTicks Pro screenshot showing the Excel ribbon and audit documentation tools">
   </div>
 
   <div class="subpage-visual-card subpage-visual-card--small">
-    <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper template example">
+    <img src="/assets/img/hero-workpaper-focus.png" alt="Focused completed audit workpaper screenshot showing sample testing results and attributes">
   </div>
 </div>
 
@@ -108,23 +108,18 @@ description: "Practical audit tools for documentation, risk assessment, workpape
   <div class="subpage-value-grid subpage-value-grid--dark">
 
     <div>
-      <strong>Purpose</strong>
-      <p>Make audit workpapers faster, cleaner, and more consistent by standardizing common documentation actions from a dedicated Excel ribbon.</p>
-    </div>
-
-    <div>
-      <strong>Problem</strong>
+      <strong>Challenge</strong>
       <p>Audit documentation often becomes inconsistent when tickmarks, legends, references, formatting, annotations, and review notes are recreated manually.</p>
     </div>
 
     <div>
-      <strong>Approach</strong>
-      <p>Built a ribbon-based Excel add-in using VBA and custom Ribbon XML with one-click access to standardized audit documentation helpers.</p>
+      <strong>Solution</strong>
+      <p>A ribbon-based Excel add-in using VBA and custom Ribbon XML gives auditors one-click access to standardized documentation helpers.</p>
     </div>
 
     <div>
       <strong>Audit value</strong>
-      <p>Reduces manual formatting, improves workpaper consistency, accelerates documentation, and gives reviewers clearer navigation.</p>
+      <p>Reduces manual formatting, improves consistency, and gives reviewers clearer workpaper navigation.</p>
     </div>
 
   </div>
@@ -138,7 +133,7 @@ description: "Practical audit tools for documentation, risk assessment, workpape
   <p class="cta-row">
     <a class="btn landing-btn--light" href="/assets/img/User%20Guide.png" target="_blank" rel="noopener">View user guide</a>
     <a class="btn landing-btn--outline" href="#audit-workpaper-template">View template pack</a>
-    <a class="btn landing-btn--outline" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Contact on LinkedIn</a>
+    <a class="cta-link cta-link--dark" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Ask about the project →</a>
   </p>
 </div>
 
@@ -194,9 +189,9 @@ description: "Practical audit tools for documentation, risk assessment, workpape
 
 <section class="image-carousel" aria-label="Audit workpaper template screenshots">
 
-  <input type="radio" name="workpaper-carousel" id="wp-slide-1" checked>
-  <input type="radio" name="workpaper-carousel" id="wp-slide-2">
-  <input type="radio" name="workpaper-carousel" id="wp-slide-3">
+  <input type="radio" name="workpaper-carousel" id="wp-slide-1" checked tabindex="-1" aria-hidden="true">
+  <input type="radio" name="workpaper-carousel" id="wp-slide-2" tabindex="-1" aria-hidden="true">
+  <input type="radio" name="workpaper-carousel" id="wp-slide-3" tabindex="-1" aria-hidden="true">
 
   <div class="carousel__viewport">
     <div class="carousel__track">
@@ -231,21 +226,21 @@ description: "Practical audit tools for documentation, risk assessment, workpape
     </div>
   </div>
 
-  <div class="carousel__controls" aria-hidden="true">
-    <label class="carousel__arrow carousel__arrow--prev carousel__from-1" for="wp-slide-3">‹</label>
-    <label class="carousel__arrow carousel__arrow--next carousel__from-1" for="wp-slide-2">›</label>
+  <div class="carousel__controls">
+    <button type="button" class="carousel__arrow carousel__arrow--prev carousel__from-1" data-carousel-target="wp-slide-3" aria-label="Show previous screenshot">‹</button>
+    <button type="button" class="carousel__arrow carousel__arrow--next carousel__from-1" data-carousel-target="wp-slide-2" aria-label="Show next screenshot">›</button>
 
-    <label class="carousel__arrow carousel__arrow--prev carousel__from-2" for="wp-slide-1">‹</label>
-    <label class="carousel__arrow carousel__arrow--next carousel__from-2" for="wp-slide-3">›</label>
+    <button type="button" class="carousel__arrow carousel__arrow--prev carousel__from-2" data-carousel-target="wp-slide-1" aria-label="Show previous screenshot">‹</button>
+    <button type="button" class="carousel__arrow carousel__arrow--next carousel__from-2" data-carousel-target="wp-slide-3" aria-label="Show next screenshot">›</button>
 
-    <label class="carousel__arrow carousel__arrow--prev carousel__from-3" for="wp-slide-2">‹</label>
-    <label class="carousel__arrow carousel__arrow--next carousel__from-3" for="wp-slide-1">›</label>
+    <button type="button" class="carousel__arrow carousel__arrow--prev carousel__from-3" data-carousel-target="wp-slide-2" aria-label="Show previous screenshot">‹</button>
+    <button type="button" class="carousel__arrow carousel__arrow--next carousel__from-3" data-carousel-target="wp-slide-1" aria-label="Show next screenshot">›</button>
   </div>
 
   <div class="carousel__dots" role="group" aria-label="Carousel slide controls">
-    <label for="wp-slide-1" aria-label="Show detailed testing workpaper screenshot"></label>
-    <label for="wp-slide-2" aria-label="Show workpaper setup screenshot"></label>
-    <label for="wp-slide-3" aria-label="Show completed example workpaper screenshot"></label>
+    <button type="button" data-carousel-target="wp-slide-1" aria-label="Show detailed testing workpaper screenshot"></button>
+    <button type="button" data-carousel-target="wp-slide-2" aria-label="Show workpaper setup screenshot"></button>
+    <button type="button" data-carousel-target="wp-slide-3" aria-label="Show completed example workpaper screenshot"></button>
   </div>
 
 </section>
@@ -257,23 +252,18 @@ description: "Practical audit tools for documentation, risk assessment, workpape
 <div class="subpage-value-grid">
 
 <div>
-  <strong>Purpose</strong>
-  <p>The workpaper template provides a consistent structure for documenting control testing, including test attributes, sample selections, tickmarks, exceptions, and supporting notes.</p>
-</div>
-
-<div>
-  <strong>Problem</strong>
+  <strong>Challenge</strong>
   <p>Audit workpapers can become inconsistent when testing attributes, sample documentation, tickmark legends, and exception notes are recreated manually across engagements.</p>
 </div>
 
 <div>
-  <strong>Approach</strong>
-  <p>Created a reusable Excel workpaper format that supports common audit testing activities and aligns with AuditTicks Pro’s tickmark, reference, and annotation workflow.</p>
+  <strong>Solution</strong>
+  <p>A reusable Excel format supports common testing activities and aligns with AuditTicks Pro’s tickmark, reference, and annotation workflow.</p>
 </div>
 
 <div>
   <strong>Audit value</strong>
-  <p>Improves workpaper consistency, supports clearer review, reduces setup time, and gives auditors a repeatable structure for documenting testing results.</p>
+  <p>Improves consistency, reduces setup time, and gives auditors a repeatable structure for review-ready testing results.</p>
 </div>
 
 </div>
@@ -287,7 +277,7 @@ description: "Practical audit tools for documentation, risk assessment, workpape
 <p class="cta-row">
 <a class="btn" href="/assets/files/Audit_Workpaper_Template.xlsx">Download template</a>
 <a class="btn btn--ghost" href="#auditticks-pro">View AuditTicks Pro</a>
-<a class="btn btn--ghost" href="/assets/img/workpaper_template_example.png" target="_blank" rel="noopener">Open completed example</a>
+<a class="cta-link" href="/assets/img/workpaper_template_example.png" target="_blank" rel="noopener">Open completed example →</a>
 </p>
 
 </section>
@@ -318,18 +308,13 @@ description: "Practical audit tools for documentation, risk assessment, workpape
   <div class="subpage-value-grid subpage-value-grid--compact">
 
     <div>
-      <strong>Purpose</strong>
-      <p>Help auditors evaluate, compare, and prioritize risks using a structured scoring model in Excel.</p>
-    </div>
-
-    <div>
-      <strong>Problem</strong>
+      <strong>Challenge</strong>
       <p>Risk scoring can vary significantly when criteria, weighting, and rating logic are not applied consistently.</p>
     </div>
 
     <div>
-      <strong>Approach</strong>
-      <p>Developed a configurable Excel template with customizable risk factors, weighted scoring, rating logic, and automatic heatmap visualization.</p>
+      <strong>Solution</strong>
+      <p>A configurable Excel template combines customizable risk factors, weighted scoring, rating logic, and an automatic heatmap.</p>
     </div>
 
     <div>
@@ -347,7 +332,7 @@ description: "Practical audit tools for documentation, risk assessment, workpape
 
   <p class="cta-row">
     <a class="btn" href="/assets/files/Risk_Assessment_Template.xlsx">Download template</a>
-    <a class="btn btn--ghost" href="/">Back to portfolio</a>
+    <a class="cta-link" href="/">Back to portfolio →</a>
   </p>
 </div>
 

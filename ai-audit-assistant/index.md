@@ -85,10 +85,8 @@ description: "Prompt engineering framework for internal audit documentation, met
 </h2>
 
 <p class="subpage-copy">
-  Internal audit teams are increasingly likely to encounter AI-enabled drafting,
-  summarization, and documentation support. The risk is not AI usage itself; the risk is
-  uncontrolled prompting, unsupported assumptions, inconsistent workpaper language,
-  and unclear accountability.
+  AI can accelerate drafting and summarization, but uncontrolled prompts can introduce
+  unsupported assumptions, inconsistent workpaper language, and unclear accountability.
 </p>
 
 <div class="subpage-feature-grid">
@@ -124,8 +122,8 @@ description: "Prompt engineering framework for internal audit documentation, met
 </h2>
 
 <p class="subpage-copy subpage-copy--light">
-  The issue is not whether AI output sounds professional. The issue is whether the output
-  is supported, scoped, reviewable, and aligned with audit methodology.
+  Professional-sounding output is not enough. It must also be supported, scoped,
+  reviewable, and aligned with audit methodology.
 </p>
 
 <div class="demo-grid">
@@ -173,8 +171,8 @@ description: "Prompt engineering framework for internal audit documentation, met
 
 <div class="takeaway-box">
   <p>
-    <strong>Key takeaway:</strong> Better prompts do not just create cleaner writing.
-    They create more controlled, supportable, and review-ready audit documentation.
+    <strong>Key takeaway:</strong> Better prompts produce more controlled, supportable,
+    and review-ready documentation—not merely cleaner writing.
   </p>
 </div>
 
@@ -232,8 +230,7 @@ description: "Prompt engineering framework for internal audit documentation, met
 </h2>
 
 <p class="subpage-copy">
-  The framework uses prompt-level controls to constrain AI behavior and improve consistency
-  across audit documentation activities.
+  Prompt-level controls constrain AI behavior and improve consistency across audit activities.
 </p>
 
 <div class="control-grid">
@@ -294,8 +291,8 @@ description: "Prompt engineering framework for internal audit documentation, met
   </h2>
 
   <p class="subpage-copy subpage-copy--light">
-    A practical application of this framework is converting auditor-provided facts and testing results
-    into a structured issue draft while preventing unsupported conclusions.
+    The framework converts auditor-provided facts and testing results into a structured
+    issue draft while preventing unsupported conclusions.
   </p>
 
   <div class="landing-tags landing-tags--dark">
@@ -379,51 +376,6 @@ description: "Prompt engineering framework for internal audit documentation, met
 
 </section>
 
-<section class="subpage-section subpage-section--gradient">
-
-<div class="subpage-split">
-
-<div>
-  <p class="landing-kicker landing-kicker--dark">Audit value</p>
-
-  <h2 class="subpage-section-title">
-    Efficiency without compromising documentation discipline.
-  </h2>
-
-  <p class="subpage-copy">
-    By embedding audit methodology and controls into prompt design, this framework shows how AI can
-    support audit efficiency without compromising documentation quality, independence, or auditor accountability.
-  </p>
-</div>
-
-<div class="subpage-value-grid subpage-value-grid--compact">
-
-<div>
-  <strong>Consistency</strong>
-  <p>Improves consistency in AI-supported audit documentation across narratives, walkthroughs, test plans, results, and issues.</p>
-</div>
-
-<div>
-  <strong>Efficiency</strong>
-  <p>Reduces drafting time while maintaining review discipline and supportability.</p>
-</div>
-
-<div>
-  <strong>Governance</strong>
-  <p>Demonstrates practical AI governance at the prompt-design level through defined constraints and human review.</p>
-</div>
-
-<div>
-  <strong>Methodology alignment</strong>
-  <p>Strengthens adherence to audit methodology, sampling expectations, documentation standards, and review requirements.</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
 <section class="subpage-section subpage-section--light">
 
 <p class="landing-kicker landing-kicker--dark">Important scope note</p>
@@ -456,13 +408,13 @@ Structured prompts can make AI-supported audit documentation more controlled and
 </h2>
 
 <p>
-Explore audit analytics, audit tools, or connect with me on LinkedIn.
+Explore a related project or connect with me.
 </p>
 
 <div class="landing-actions landing-actions--center">
   <a class="btn landing-btn--light" href="/audit-analytics/">View audit analytics</a>
-  <a class="btn landing-btn--outline" href="/excel-tools/">View audit tools</a>
-  <a class="btn landing-btn--outline" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
+  <a class="cta-link cta-link--dark" href="/excel-tools/">View audit tools →</a>
+  <a class="cta-link cta-link--dark" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Connect on LinkedIn →</a>
 </div>
 
 </section>

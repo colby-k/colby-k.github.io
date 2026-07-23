@@ -38,11 +38,11 @@ description: "SQL, Power BI, and data analysis projects framed around audit-styl
 
 <div class="subpage-hero__visual">
   <div class="subpage-visual-card subpage-visual-card--large">
-    <img src="/assets/img/adventure-works.png" alt="Sales performance dashboard screenshot">
+    <img src="/assets/img/hero-sales-dashboard-focus.png" alt="Focused sales performance dashboard showing results against budget, customers, products, and geography">
   </div>
 
   <div class="subpage-visual-card subpage-visual-card--small">
-    <img src="/assets/img/top_paying_roles.png" alt="Top paying data roles analysis screenshot">
+    <img src="/assets/img/hero-job-market-focus.png" alt="Focused data job market analysis showing average salary by role">
   </div>
 </div>
 
@@ -114,22 +114,17 @@ description: "SQL, Power BI, and data analysis projects framed around audit-styl
   <div class="subpage-value-grid subpage-value-grid--dark">
 
     <div>
-      <strong>Purpose</strong>
-      <p>Demonstrate structured SQL analysis of a large dataset using repeatable queries, ranking, segmentation, and interpretation.</p>
-    </div>
-
-    <div>
-      <strong>Problem</strong>
+      <strong>Challenge</strong>
       <p>Understanding which data skills are in highest demand and command higher compensation requires analyzing job postings across roles, skills, locations, and salary ranges.</p>
     </div>
 
     <div>
-      <strong>Approach</strong>
+      <strong>Solution</strong>
       <p>Queried job posting data using SQL to identify trends in required skills, job titles, compensation ranges, and market demand patterns.</p>
     </div>
 
     <div>
-      <strong>Audit and analytical value</strong>
+      <strong>Analytical value</strong>
       <p>Demonstrates analysis techniques used in audit analytics: population review, segmentation, ranking, outlier identification, trend analysis, and supportable conclusions.</p>
     </div>
 
@@ -139,7 +134,7 @@ description: "SQL, Power BI, and data analysis projects framed around audit-styl
     <a class="btn landing-btn--light" href="https://github.com/colby-k/SQL_Project_Data_Job_Analysis" target="_blank" rel="noopener">
       View GitHub repository
     </a>
-    <a class="btn landing-btn--outline" href="#sales-etl-dashboard">Next project</a>
+    <a class="cta-link cta-link--dark" href="#sales-etl-dashboard">Next project →</a>
   </p>
 </div>
 
@@ -180,22 +175,17 @@ description: "SQL, Power BI, and data analysis projects framed around audit-styl
   <div class="subpage-value-grid subpage-value-grid--compact">
 
     <div>
-      <strong>Purpose</strong>
-      <p>Demonstrate how raw transactional data can be transformed into structured reporting that supports performance review and risk analysis.</p>
-    </div>
-
-    <div>
-      <strong>Problem</strong>
+      <strong>Challenge</strong>
       <p>Raw sales data often requires significant transformation before it can support meaningful analysis of revenue trends, profitability, product performance, customer behavior, and operational drivers.</p>
     </div>
 
     <div>
-      <strong>Approach</strong>
+      <strong>Solution</strong>
       <p>Designed an end-to-end pipeline using SQL to clean, transform, and model sales data, followed by a Power BI dashboard for reporting and analysis.</p>
     </div>
 
     <div>
-      <strong>Audit and analytical value</strong>
+      <strong>Analytical value</strong>
       <p>Supports trend analysis, variance review, margin analysis, outlier identification, and targeted follow-up.</p>
     </div>
 
@@ -205,13 +195,13 @@ description: "SQL, Power BI, and data analysis projects framed around audit-styl
     <a class="btn" href="https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis" target="_blank" rel="noopener">
       View GitHub repository
     </a>
-    <a class="btn btn--ghost" href="/audit-analytics/">View audit analytics</a>
+    <a class="cta-link" href="/audit-analytics/">View audit analytics →</a>
   </p>
 </div>
 
 <div class="subpage-media-card">
-  <a href="/assets/img/adventure-works.png" target="_blank" rel="noopener">
-    <img src="/assets/img/adventure-works.png" alt="Sales performance dashboard">
+  <a href="/assets/img/Sales_Report.png" target="_blank" rel="noopener">
+    <img src="/assets/img/Sales_Report.png" alt="Sales performance dashboard">
   </a>
   <p class="caption">Sales performance dashboard showing transformed transactional data in a management reporting format.</p>
 </div>

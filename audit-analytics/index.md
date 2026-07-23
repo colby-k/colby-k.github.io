@@ -38,11 +38,11 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
 
 <div class="subpage-hero__visual">
   <div class="subpage-visual-card subpage-visual-card--large">
-    <img src="/assets/img/audit_sampling_tool.png" alt="Audit sampling tool screenshot">
+    <img src="/assets/img/hero-audit-sampling-focus.png" alt="Focused audit sampling application screenshot showing a filtered population">
   </div>
 
   <div class="subpage-visual-card subpage-visual-card--small">
-    <img src="/assets/img/benfords_law.png" alt="Benford's Law audit analytics app screenshot">
+    <img src="/assets/img/hero-benfords-focus.png" alt="Focused Benford's Law analysis showing digit frequency results">
   </div>
 </div>
 
@@ -108,12 +108,12 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
   <div class="subpage-value-grid subpage-value-grid--compact">
 
     <div>
-      <strong>Problem</strong>
+      <strong>Challenge</strong>
       <p>Tracking open issues and management action plans across audits can become fragmented, manual, and difficult to summarize.</p>
     </div>
 
     <div>
-      <strong>Approach</strong>
+      <strong>Solution</strong>
       <p>Centralized issue tracking with status, aging, ownership, follow-up views, and management reporting visuals.</p>
     </div>
 
@@ -128,7 +128,7 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
     <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">
       Open full report
     </a>
-    <a class="btn btn--ghost" href="#vendor-payments">Next dashboard</a>
+    <a class="cta-link" href="#vendor-payments">Next dashboard →</a>
   </p>
 </div>
 
@@ -175,12 +175,12 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
   <div class="subpage-value-grid subpage-value-grid--dark subpage-value-grid--compact">
 
     <div>
-      <strong>Problem</strong>
+      <strong>Challenge</strong>
       <p>High-volume vendor payments make it difficult to identify duplicate, split, unusual, or higher-risk transactions through manual review alone.</p>
     </div>
 
     <div>
-      <strong>Approach</strong>
+      <strong>Solution</strong>
       <p>Built a risk-focused dashboard highlighting payment patterns, vendor behavior, and anomalies for targeted audit testing.</p>
     </div>
 
@@ -195,7 +195,7 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
     <a class="btn landing-btn--light" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
       Open full report
     </a>
-    <a class="btn landing-btn--outline" href="#testing-apps">View testing apps</a>
+    <a class="cta-link cta-link--dark" href="#testing-apps">View testing apps →</a>
   </p>
 </div>
 
@@ -248,7 +248,7 @@ description: "Audit analytics projects using Power BI, Python, Streamlit, and st
 
   <p class="cta-row">
     <a class="btn" href="https://benfords-law-audit-tool.streamlit.app" target="_blank" rel="noopener">Open app</a>
-    <a class="btn btn--ghost" href="https://github.com/colby-k/benfords-law-audit-tool" target="_blank" rel="noopener">GitHub</a>
+    <a class="cta-link" href="https://github.com/colby-k/benfords-law-audit-tool" target="_blank" rel="noopener">View code →</a>
   </p>
 </div>
 

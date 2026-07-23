@@ -582,6 +582,25 @@ hr {
   margin-top: 1.5rem;
 }
 
+.cta-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.25rem 0.15rem;
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cta-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.cta-link--dark {
+  color: #ffffff;
+}
+
 .landing-actions--center {
   justify-content: center;
 }
@@ -748,6 +767,7 @@ hr {
   align-items: center;
   justify-content: center;
   border-radius: 999px;
+  border: 0;
   background: rgba(17, 17, 17, 0.86);
   color: #ffffff;
   font-size: 2rem;
@@ -784,23 +804,30 @@ hr {
   margin-top: 0.85rem;
 }
 
-.carousel__dots label {
+.carousel__dots button {
   width: 10px;
   height: 10px;
+  padding: 0;
+  border: 0;
   border-radius: 999px;
   background: var(--line);
   cursor: pointer;
   transition: background 160ms ease, transform 160ms ease;
 }
 
-.carousel__dots label:hover {
+.carousel__dots button:hover {
   transform: scale(1.15);
 }
 
-#wp-slide-1:checked ~ .carousel__dots label[for="wp-slide-1"],
-#wp-slide-2:checked ~ .carousel__dots label[for="wp-slide-2"],
-#wp-slide-3:checked ~ .carousel__dots label[for="wp-slide-3"] {
+.carousel__dots button[aria-current="true"] {
   background: var(--black);
+}
+
+.carousel__arrow:focus-visible,
+.carousel__dots button:focus-visible,
+.cta-link:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
 }
 
 .powerbi-embed {
