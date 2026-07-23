@@ -2420,3 +2420,432 @@ hr {
     font-size: 0.78rem;
   }
 }
+
+/* =========================================================
+   2026 compact shell, responsive navigation, and accessibility
+   ========================================================= */
+
+:root {
+  --compact-header-height: 76px;
+  --focus-ring: #0071e3;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 2000;
+  padding: 0.65rem 0.9rem;
+  border-radius: 10px;
+  background: #ffffff;
+  color: var(--text) !important;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+  transform: translateY(-150%);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+#header_wrap.site-header {
+  position: fixed !important;
+  min-height: var(--compact-header-height);
+  background: rgba(255, 255, 255, 0.92) !important;
+}
+
+#header_wrap .site-header__inner {
+  min-height: var(--compact-header-height);
+  padding: 0.55rem 36px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  text-align: left;
+}
+
+.site-brand {
+  display: inline-flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  min-width: 180px;
+  color: var(--text) !important;
+  text-decoration: none !important;
+  line-height: 1.1;
+}
+
+.site-brand__name {
+  color: var(--text);
+  font-size: 0.94rem;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+}
+
+.site-brand__descriptor {
+  margin-top: 0.18rem;
+  color: var(--text-muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+}
+
+.site-header .topnav {
+  position: static !important;
+  inset: auto !important;
+  flex: 1 1 auto;
+  flex-wrap: nowrap;
+  gap: 0.35rem;
+  justify-content: center;
+  min-width: 0;
+  padding: 0 !important;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  font-size: 0.78rem;
+}
+
+.site-header .topnav a {
+  gap: 0.32rem;
+  padding: 0.42rem 0.58rem;
+  white-space: nowrap;
+  box-shadow: none;
+}
+
+.site-header .topnav a:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.055);
+}
+
+.site-header .topnav img.navicon {
+  width: 19px;
+  height: 19px;
+  min-width: 19px;
+}
+
+.site-header__socials {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex: 0 0 auto;
+}
+
+.site-header__socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1px solid rgba(66, 214, 176, 0.32);
+  background: rgba(66, 214, 176, 0.09);
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.site-header__socials a:hover {
+  transform: translateY(-1px);
+  background: rgba(66, 214, 176, 0.16);
+  border-color: rgba(66, 214, 176, 0.62);
+}
+
+.site-header__socials img {
+  width: 19px !important;
+  height: 19px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+#main_content {
+  padding-top: calc(var(--compact-header-height) + 1.25rem) !important;
+}
+
+:target {
+  scroll-margin-top: calc(var(--compact-header-height) + 20px);
+}
+
+.landing-section-title,
+.subpage-section-title,
+.landing-final-cta h2,
+.subpage-final-cta h2 {
+  background: none !important;
+  padding-bottom: 0 !important;
+}
+
+.subpage-hero {
+  min-height: 640px;
+  padding: 2.65rem;
+}
+
+.subpage-title {
+  font-size: clamp(2.45rem, 4.35vw, 4.35rem) !important;
+  line-height: 0.99 !important;
+}
+
+.subpage-hero__visual {
+  min-height: 370px;
+}
+
+.subpage-visual-card--large {
+  top: 52px;
+}
+
+.site-footer {
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 0.82rem;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+label:focus-visible,
+input:focus-visible,
+iframe:focus-visible {
+  outline: 3px solid var(--focus-ring) !important;
+  outline-offset: 3px;
+}
+
+@media (max-width: 1180px) {
+  :root {
+    --compact-header-height: 70px;
+  }
+
+  #header_wrap .site-header__inner {
+    position: relative;
+    min-height: var(--compact-header-height);
+    padding: 0.5rem 22px !important;
+  }
+
+  .topnav--desktop,
+  .site-header__socials {
+    display: none !important;
+  }
+
+  .mobile-nav {
+    position: relative;
+    display: block;
+    flex: 0 0 auto;
+  }
+
+  .mobile-nav > summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    min-height: 42px;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid var(--line-soft);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.88);
+    color: var(--text);
+    font-size: 0.86rem;
+    font-weight: 800;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+
+  .mobile-nav > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .mobile-nav__icon {
+    position: relative;
+    width: 18px;
+    height: 12px;
+    border-top: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+  }
+
+  .mobile-nav__icon::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 18px;
+    border-top: 2px solid currentColor;
+  }
+
+  .mobile-nav[open] .mobile-nav__icon {
+    height: 18px;
+    border: 0;
+  }
+
+  .mobile-nav[open] .mobile-nav__icon::before,
+  .mobile-nav[open] .mobile-nav__icon::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 18px;
+    border-top: 2px solid currentColor;
+  }
+
+  .mobile-nav[open] .mobile-nav__icon::before {
+    transform: rotate(45deg);
+  }
+
+  .mobile-nav[open] .mobile-nav__icon::after {
+    transform: rotate(-45deg);
+  }
+
+  .mobile-nav__panel {
+    position: absolute;
+    top: calc(100% + 0.65rem);
+    right: 0;
+    width: min(360px, calc(100vw - 32px));
+    padding: 0.75rem;
+    border: 1px solid var(--line-soft);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 20px 56px rgba(0, 0, 0, 0.16);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  .site-header .topnav--mobile {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.45rem;
+  }
+
+  .site-header .topnav--mobile a {
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0.62rem 0.72rem;
+    border-radius: 14px;
+    white-space: normal;
+  }
+
+  .mobile-nav__socials {
+    display: flex;
+    gap: 0.45rem;
+    margin-top: 0.7rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid var(--line-soft);
+  }
+
+  .mobile-nav__socials a {
+    flex: 1 1 0;
+    padding: 0.5rem;
+    border-radius: 12px;
+    color: var(--text) !important;
+    background: var(--surface-soft);
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 860px) {
+  #header_wrap.site-header {
+    position: fixed !important;
+  }
+
+  #main_content {
+    padding-top: calc(var(--compact-header-height) + 0.85rem) !important;
+  }
+
+  .subpage-hero {
+    min-height: auto;
+    padding: 2.35rem 1.45rem;
+  }
+
+  .subpage-title {
+    font-size: clamp(2.25rem, 8vw, 3.35rem) !important;
+  }
+}
+
+@media (max-width: 720px) {
+  #main_content table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #featured-dashboard .powerbi-embed,
+  #issue-tracker .powerbi-embed,
+  #vendor-payments .powerbi-embed {
+    aspect-ratio: 16 / 9 !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #featured-dashboard .powerbi-embed,
+  #issue-tracker .powerbi-embed {
+    background-image: url("/assets/img/internal_audit_issue_tracker.png");
+  }
+
+  #vendor-payments .powerbi-embed {
+    background-image: url("/assets/img/vendor_pmts_solution.png");
+  }
+
+  #featured-dashboard .powerbi-embed iframe,
+  #issue-tracker .powerbi-embed iframe,
+  #vendor-payments .powerbi-embed iframe {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  #header_wrap .site-header__inner {
+    padding-right: 14px !important;
+    padding-left: 14px !important;
+  }
+
+  .site-brand {
+    min-width: 0;
+  }
+
+  .site-brand__name {
+    font-size: 0.88rem;
+  }
+
+  .site-brand__descriptor {
+    font-size: 0.62rem;
+  }
+
+  .site-header .topnav--mobile {
+    grid-template-columns: 1fr;
+  }
+
+  .mobile-nav__panel {
+    width: min(330px, calc(100vw - 28px));
+  }
+
+  .landing-hero,
+  .subpage-hero {
+    padding-top: 2.1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

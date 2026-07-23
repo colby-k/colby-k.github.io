@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="UTF-8">
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <a class="skip-link" href="#main_content">Skip to main content</a>
+
+    {% include site-header.html %}
+
+    <div id="main_content_wrap" class="outer">
+      <main id="main_content" class="inner" tabindex="-1">
+        {{ content }}
+      </main>
+    </div>
+
+    <div id="footer_wrap" class="outer">
+      <footer class="inner site-footer">
+        <p>© {{ site.time | date: '%Y' }} {{ site.author }}. Built with GitHub Pages.</p>
+      </footer>
+    </div>
+  </body>
+</html>
