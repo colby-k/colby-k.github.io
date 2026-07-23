@@ -36,6 +36,22 @@
   --fixed-nav-height: 70px;
 }
 
+@media print {
+  .subpage-section-title,
+  .landing-section-title,
+  .landing-kicker {
+    break-after: avoid-page;
+  }
+
+  .ai-roadmap-card,
+  .demo-card,
+  .project-facts,
+  .ai-output-card,
+  .subpage-media-card {
+    break-inside: avoid-page;
+  }
+}
+
 /* =========================================================
    Global reset / base layout
    ========================================================= */
@@ -1273,6 +1289,20 @@ hr {
   object-position: top center;
 }
 
+.ai-evidence-preview--focused > a {
+  max-height: 390px;
+}
+
+.ai-evidence-preview--focused img {
+  min-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.subpage-section--dark .ai-evidence-preview .caption {
+  color: rgba(255, 255, 255, 0.76) !important;
+}
+
 .ai-checklist {
   display: grid;
   gap: 0.65rem;
@@ -1286,8 +1316,107 @@ hr {
   padding: 0.7rem 0.75rem 0.7rem 2.2rem;
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.07);
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(255, 255, 255, 0.82) !important;
   font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.ai-roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.ai-roadmap-card {
+  padding: 1.25rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid var(--line-soft);
+  box-shadow: var(--shadow-soft);
+}
+
+.ai-roadmap-card__status {
+  display: inline-flex;
+  margin-bottom: 0.75rem;
+  padding: 0.35rem 0.55rem;
+  border-radius: 999px;
+  background: #E8F2FF;
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.ai-roadmap-card h3 {
+  margin: 0 0 0.65rem;
+  color: var(--text) !important;
+  font-size: 1.15rem !important;
+  line-height: 1.25 !important;
+}
+
+.ai-roadmap-card > p {
+  margin: 0 0 1rem;
+  color: var(--text-muted) !important;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.ai-roadmap-card dl {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+}
+
+.ai-roadmap-card dl div {
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--line-soft);
+}
+
+.ai-roadmap-card dt {
+  margin-bottom: 0.15rem;
+  color: var(--text-soft);
+  font-size: 0.66rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.ai-roadmap-card dd {
+  margin: 0;
+  color: var(--text);
+  font-size: 0.82rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ai-governance-summary {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.ai-governance-summary div {
+  padding: 0.9rem 1rem;
+  border-radius: 18px;
+  background: #F5F5F7;
+  border: 1px solid var(--line-soft);
+}
+
+.ai-governance-summary strong,
+.ai-governance-summary span {
+  display: block;
+}
+
+.ai-governance-summary strong {
+  margin-bottom: 0.2rem;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.ai-governance-summary span {
+  color: var(--text-muted);
+  font-size: 0.82rem;
   line-height: 1.4;
 }
 
@@ -2109,6 +2238,7 @@ hr {
   color: var(--text);
   font-size: 0.84rem;
   font-weight: 700;
+  font-style: normal;
   line-height: 1.35;
 }
 
@@ -2285,6 +2415,10 @@ hr {
 
   .ai-project-index {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ai-roadmap-grid {
+    grid-template-columns: 1fr;
   }
 
   .ai-portfolio-visual {
