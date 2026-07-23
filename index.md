@@ -4,8 +4,6 @@ layout: default
 description: "Practical internal audit tools, analytics, automation, prompt engineering, and AI governance projects by Colby Kellersberger, CIA, CFE, CICA."
 ---
 
-{% include nav.html %}
-
 <div class="landing-page">
 
 <section class="landing-hero">
@@ -44,7 +42,7 @@ description: "Practical internal audit tools, analytics, automation, prompt engi
   </div>
 </div>
 
-<div class="landing-hero__visual" aria-label="Portfolio project preview images">
+<div class="landing-hero__visual" role="group" aria-label="Portfolio project preview images">
   <div class="visual-card visual-card--main">
     <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro screenshot showing Excel audit documentation tools">
   </div>
@@ -128,7 +126,6 @@ From planning to testing, monitoring, reporting, and AI governance.
     <iframe
       title="Internal Audit Issue Tracker Dashboard"
       src="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1"
-      frameborder="0"
       allowfullscreen="true"
       loading="lazy">
     </iframe>
