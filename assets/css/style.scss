@@ -1258,6 +1258,21 @@ hr {
   font-size: 1.5rem !important;
 }
 
+.ai-evidence-preview > a {
+  display: block;
+  max-height: 430px;
+  overflow: hidden;
+  border-radius: 22px;
+  background: #ffffff;
+}
+
+.ai-evidence-preview img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top center;
+}
+
 .ai-checklist {
   display: grid;
   gap: 0.65rem;
