@@ -30,7 +30,7 @@ description: "About Colby Kellersberger, CIA, CFE, CICA — an Internal Audit Ma
     <span>Power BI</span>
     <span>SQL</span>
     <span>Python</span>
-    <span>Prompt Engineering</span>
+    <span>AI Workflow Design</span>
   </div>
 
   <div class="landing-actions">
@@ -50,7 +50,7 @@ description: "About Colby Kellersberger, CIA, CFE, CICA — an Internal Audit Ma
 
     <div>
       <strong>Technical execution</strong>
-      <p>Hands-on development across Excel/VBA, Power BI, SQL, Python, Streamlit, and prompt engineering workflows.</p>
+      <p>Hands-on development across Excel/VBA, Power BI, SQL, Python, Streamlit, and governed AI workflows.</p>
     </div>
 
     <div>
@@ -130,9 +130,9 @@ description: "About Colby Kellersberger, CIA, CFE, CICA — an Internal Audit Ma
 </a>
 
 <a class="landing-project-card" href="/ai-audit-assistant/">
-  <span>Prompt Engineering</span>
-  <h3>Prompt engineering for internal audit documentation</h3>
-  <p>Structured AI workflows with audit-specific guardrails, non-fabrication rules, clarification triggers, and review controls.</p>
+  <span>AI for Audit</span>
+  <h3>Governed AI workflows for internal audit</h3>
+  <p>Applied workflows for evidence annotation, control identification, documentation, and quality review.</p>
 </a>
 
 </div>

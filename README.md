@@ -1,6 +1,6 @@
 # Internal Audit Tools, Analytics & Governance Portfolio
 
-This repository contains the source code for my GitHub Pages site, which serves as a professional portfolio showcasing audit-focused tools, analytics, automation, prompt engineering, and governance-oriented projects.
+This repository contains the source code for my GitHub Pages site, which serves as a professional portfolio showcasing audit-focused tools, analytics, automation, and governed AI workflows.
 
 The site highlights practical work developed in the context of internal audit, with an emphasis on improving efficiency, consistency, documentation quality, risk coverage, reviewability, and audit judgment.
 
@@ -30,9 +30,9 @@ The portfolio includes examples across several areas:
 - Examples framed around audit-style review, business risk analysis, trend identification, and management reporting
 - Focus on translating raw data into structured, supportable insights
 
-### 🔹 Prompt Engineering for Internal Audit
+### 🔹 AI Workflows for Internal Audit
 
-- Structured prompt engineering framework for internal audit documentation
+- Governed AI workflows for audit documentation, evidence annotation, control identification, and quality review
 - Designed around audit methodology, sampling discipline, non-fabrication rules, and review-ready outputs
 - Demonstrates how AI-supported workflows can be governed through prompt design and auditor oversight
 
@@ -56,7 +56,7 @@ Across all projects, the following principles guide development:
 - Power BI / DAX / Data Modeling
 - SQL
 - Python / pandas / Streamlit
-- Prompt Engineering / AI Governance
+- Applied AI / AI Governance
 - GitHub Pages / Jekyll / Markdown / HTML / CSS
 
 ---
@@ -68,7 +68,7 @@ Across all projects, the following principles guide development:
 ├── _includes/              # Reusable Jekyll includes such as nav, analytics, and disclaimers
 ├── _layouts/               # Page layout templates
 ├── about/                  # About page
-├── ai-audit-assistant/     # Prompt engineering for internal audit page
+├── ai-audit-assistant/     # AI workflows for internal audit page
 ├── audit-analytics/        # Audit analytics dashboards and applications
 ├── excel-tools/            # Audit tools, Excel add-ins, and templates
 ├── sql-projects/           # Data projects for audit and business risk

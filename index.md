@@ -85,7 +85,7 @@ From planning to testing, monitoring, reporting, and AI governance.
 <div class="landing-mini-card">
   <span class="landing-mini-card__num">04</span>
   <h3>Govern</h3>
-  <p>Prompt engineering frameworks that add guardrails, clarification triggers, and human review discipline.</p>
+  <p>Governed AI workflows for documentation, evidence annotation, control analysis, and quality review.</p>
 </div>
 
 </div>
@@ -181,27 +181,27 @@ From planning to testing, monitoring, reporting, and AI governance.
 <div class="landing-split">
 
 <div>
-  <p class="landing-kicker landing-kicker--dark">Prompt engineering + AI governance</p>
+  <p class="landing-kicker landing-kicker--dark">AI workflows + governance</p>
 
   <h2 class="landing-section-title">
-    AI-supported audit documentation needs controls, not just better writing.
+    Applied AI for documentation, analysis, evidence, and review.
   </h2>
 
   <p class="landing-copy">
-    My prompt engineering framework demonstrates how internal audit teams can structure AI-supported
-    documentation around defined inputs, non-fabrication rules, clarification triggers, sampling discipline,
-    and human review expectations.
+    My AI workflow portfolio demonstrates how internal audit teams can use structured inputs,
+    source boundaries, non-fabrication rules, clarification triggers, methodology guardrails,
+    and human review across practical audit activities.
   </p>
 
   <div class="landing-tags">
-    <span>Prompt design</span>
+    <span>Applied AI</span>
     <span>AI governance</span>
     <span>Audit methodology</span>
     <span>Human review</span>
   </div>
 
   <p class="cta-row">
-    <a class="btn" href="/ai-audit-assistant/">View framework</a>
+    <a class="btn" href="/ai-audit-assistant/">Explore AI workflows</a>
     <a class="btn btn--ghost" href="/about/">About my approach</a>
   </p>
 </div>
@@ -271,12 +271,12 @@ Explore the portfolio by audit need.
 </a>
 
 <a class="landing-project-card" href="/ai-audit-assistant/">
-  <span>Prompt Engineering</span>
-  <h3>Prompt engineering for internal audit documentation</h3>
+  <span>AI for Audit</span>
+  <h3>Governed AI workflows for documentation, analysis, and review</h3>
   <dl class="project-card__summary">
-    <div><dt>Challenge</dt><dd>Unsupported assumptions in AI-assisted drafting.</dd></div>
-    <div><dt>Solution</dt><dd>Audit-specific prompt controls and clarification triggers.</dd></div>
-    <div><dt>Impact</dt><dd>More controlled and review-ready drafts.</dd></div>
+    <div><dt>Challenge</dt><dd>AI outputs that lack source discipline and review controls.</dd></div>
+    <div><dt>Solution</dt><dd>Governed workflows for evidence, controls, documentation, and quality review.</dd></div>
+    <div><dt>Impact</dt><dd>More consistent and reviewable audit support.</dd></div>
   </dl>
 </a>
 
