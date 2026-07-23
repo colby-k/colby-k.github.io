@@ -995,7 +995,7 @@ hr {
 }
 
 /* =========================================================
-   Prompt engineering visuals
+   AI for Audit visuals
    ========================================================= */
 
 .demo-grid {
@@ -1131,7 +1131,220 @@ hr {
   color: var(--text-muted);
 }
 
-/* Prompt Engineering hero card */
+/* AI portfolio hero */
+.ai-portfolio-visual {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  align-content: center;
+  min-height: 420px;
+}
+
+.ai-portfolio-visual__center {
+  grid-column: 1 / -1;
+  padding: 1.25rem;
+  border-radius: 28px;
+  background: rgba(66, 214, 176, 0.12);
+  border: 1px solid rgba(66, 214, 176, 0.26);
+}
+
+.ai-portfolio-visual__center span,
+.ai-portfolio-visual__item > span {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--teal);
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ai-portfolio-visual__center strong,
+.ai-portfolio-visual__item strong {
+  display: block;
+  color: #ffffff;
+}
+
+.ai-portfolio-visual__center strong {
+  font-size: 1.2rem;
+}
+
+.ai-portfolio-visual__center p,
+.ai-portfolio-visual__item p {
+  margin: 0.35rem 0 0;
+  color: rgba(255, 255, 255, 0.68) !important;
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.ai-portfolio-visual__item {
+  padding: 1rem;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.075);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.ai-project-index {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+}
+
+.ai-project-index a {
+  display: block;
+  padding: 1.1rem;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--line-soft);
+  color: var(--text);
+  text-decoration: none;
+  box-shadow: var(--shadow-soft);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.ai-project-index a:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+}
+
+.ai-project-index span {
+  display: block;
+  margin-bottom: 0.55rem;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.ai-project-index strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.94rem;
+}
+
+.ai-project-index p {
+  margin: 0;
+  color: var(--text-muted) !important;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.ai-output-card {
+  padding: 1.35rem;
+  border-radius: 28px;
+  background: #ffffff;
+  border: 1px solid var(--line-soft);
+  box-shadow: var(--shadow-soft);
+}
+
+.ai-output-card--dark {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.24);
+}
+
+.ai-output-card__eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--teal) !important;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ai-output-card h3 {
+  margin: 0 0 1rem;
+  color: #ffffff !important;
+  font-size: 1.5rem !important;
+}
+
+.ai-checklist {
+  display: grid;
+  gap: 0.65rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ai-checklist li {
+  position: relative;
+  padding: 0.7rem 0.75rem 0.7rem 2.2rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.07);
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.ai-checklist li::before {
+  content: "✓";
+  position: absolute;
+  left: 0.8rem;
+  color: var(--teal);
+  font-weight: 900;
+}
+
+.ai-pipeline,
+.ai-review-matrix,
+.ai-metrics {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.ai-pipeline div,
+.ai-review-matrix div,
+.ai-metrics div {
+  padding: 0.95rem 1rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--line-soft);
+  box-shadow: var(--shadow-soft);
+}
+
+.ai-pipeline span {
+  display: inline-flex;
+  margin-bottom: 0.35rem;
+  color: var(--accent);
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+.ai-pipeline strong,
+.ai-review-matrix strong,
+.ai-metrics strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--text);
+  font-size: 0.92rem;
+}
+
+.ai-pipeline p,
+.ai-review-matrix span,
+.ai-metrics span {
+  display: block;
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.ai-review-matrix {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ai-review-matrix div:last-child {
+  grid-column: 1 / -1;
+}
+
+.ai-metrics {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ai-metrics div:last-child {
+  grid-column: 1 / -1;
+}
+
+/* Legacy prompt framework card */
 .prompt-hero-visual {
   display: flex;
   align-items: center;
@@ -1214,7 +1427,8 @@ hr {
 }
 
 /* Prompt quality demo contrast fix */
-#prompt-quality .demo-card {
+#prompt-quality .demo-card,
+#documentation-assistant .demo-card {
   background: #ffffff !important;
   color: var(--text) !important;
 }
@@ -1222,21 +1436,28 @@ hr {
 #prompt-quality .demo-card p,
 #prompt-quality .demo-card li,
 #prompt-quality .demo-card strong,
-#prompt-quality .demo-card .demo-label {
+#prompt-quality .demo-card .demo-label,
+#documentation-assistant .demo-card p,
+#documentation-assistant .demo-card li,
+#documentation-assistant .demo-card strong,
+#documentation-assistant .demo-card .demo-label {
   color: var(--text) !important;
 }
 
-#prompt-quality .demo-card .demo-label {
+#prompt-quality .demo-card .demo-label,
+#documentation-assistant .demo-card .demo-label {
   color: var(--text-muted) !important;
 }
 
-#prompt-quality .prompt-box {
+#prompt-quality .prompt-box,
+#documentation-assistant .prompt-box {
   background: var(--surface-soft) !important;
   color: var(--text) !important;
   border-color: var(--line-soft) !important;
 }
 
-#prompt-quality .prompt-box strong {
+#prompt-quality .prompt-box strong,
+#documentation-assistant .prompt-box strong {
   color: var(--text) !important;
 }
 
@@ -2047,6 +2268,14 @@ hr {
     border-top-color: rgba(255, 255, 255, 0.14);
   }
 
+  .ai-project-index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ai-portfolio-visual {
+    min-height: auto;
+  }
+
   .demo-grid,
   .control-grid,
   .flow-wrapper {
@@ -2280,6 +2509,19 @@ hr {
 
   .landing-title {
     font-size: 2.45rem !important;
+  }
+
+  .ai-portfolio-visual,
+  .ai-project-index,
+  .ai-review-matrix,
+  .ai-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-portfolio-visual__center,
+  .ai-review-matrix div:last-child,
+  .ai-metrics div:last-child {
+    grid-column: auto;
   }
 
   .subpage-title {

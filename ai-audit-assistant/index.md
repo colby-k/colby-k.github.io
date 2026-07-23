@@ -1,74 +1,64 @@
 ---
-title: "Prompt Engineering for Internal Audit"
+title: "AI Workflows for Internal Audit"
 layout: default
 permalink: /ai-audit-assistant/
-description: "Prompt engineering framework for internal audit documentation, methodology enforcement, sampling discipline, and AI governance guardrails."
+description: "Governed AI workflows for internal audit documentation, evidence annotation, control identification, risk mapping, and workpaper quality review."
 ---
 
-<div class="subpage subpage--prompt-engineering">
+<div class="subpage subpage--ai-audit">
 
 <section class="subpage-hero subpage-hero--dark">
 
 <div class="subpage-hero__content">
-  <p class="landing-kicker">Prompt Engineering + AI Governance</p>
+  <p class="landing-kicker">AI for Internal Audit</p>
 
   <h1 class="subpage-title">
-    Prompt engineering for review-ready internal audit documentation.
+    Governed AI workflows for practical internal audit execution.
   </h1>
 
   <p class="subpage-subtitle">
-    A governed prompt engineering framework designed around structured inputs,
-    audit methodology guardrails, sampling discipline, non-fabrication rules,
-    clarification triggers, and auditor review.
+    Applied workflow concepts for audit documentation, evidence annotation, control identification,
+    risk mapping, and independent quality review—designed to improve consistency without replacing
+    auditor judgment.
   </p>
 
   <div class="landing-tags landing-tags--dark">
-    <span>Prompt Engineering</span>
     <span>AI Governance</span>
-    <span>Audit Methodology</span>
-    <span>Documentation Standards</span>
-    <span>Human Review</span>
+    <span>Evidence Annotation</span>
+    <span>Control Identification</span>
+    <span>Quality Review</span>
+    <span>Prompt Engineering</span>
   </div>
 
   <div class="landing-actions">
-    <a class="btn landing-btn--light" href="#prompt-quality">View prompt demo</a>
-    <a class="btn landing-btn--outline" href="#control-matrix">View controls</a>
-    <a class="btn landing-btn--outline" href="#prompt-patterns">View prompt patterns</a>
+    <a class="btn landing-btn--light" href="#ai-workflows">Explore workflows</a>
+    <a class="btn landing-btn--outline" href="#governance-foundation">View governance controls</a>
   </div>
 </div>
 
-<div class="subpage-hero__visual prompt-hero-visual">
-  <div class="prompt-framework-card">
+<div class="subpage-hero__visual ai-portfolio-visual" role="group" aria-label="AI for internal audit workflow overview">
+  <div class="ai-portfolio-visual__center">
+    <span>Auditor judgment</span>
+    <strong>Human-led workflow</strong>
+    <p>AI supports structure, analysis, and drafting. The auditor remains accountable.</p>
+  </div>
 
-    <div class="prompt-framework-card__header">
-      <span>Governed prompt workflow</span>
-      <strong>Audit documentation support</strong>
-    </div>
+  <div class="ai-portfolio-visual__item">
+    <span>01</span>
+    <strong>Document</strong>
+    <p>Structure facts and draft audit artifacts.</p>
+  </div>
 
-    <div class="prompt-framework-step">
-      <span>01</span>
-      <div>
-        <strong>Auditor-provided facts</strong>
-        <p>Scope, evidence, samples, exceptions, and known limitations.</p>
-      </div>
-    </div>
+  <div class="ai-portfolio-visual__item">
+    <span>02</span>
+    <strong>Analyze</strong>
+    <p>Identify controls, risks, and open questions.</p>
+  </div>
 
-    <div class="prompt-framework-step">
-      <span>02</span>
-      <div>
-        <strong>Prompt controls applied</strong>
-        <p>Role limits, artifact type, non-fabrication rules, and clarification triggers.</p>
-      </div>
-    </div>
-
-    <div class="prompt-framework-step">
-      <span>03</span>
-      <div>
-        <strong>Review-ready draft</strong>
-        <p>Structured output remains subject to auditor review, validation, and judgment.</p>
-      </div>
-    </div>
-
+  <div class="ai-portfolio-visual__item">
+    <span>03</span>
+    <strong>Review</strong>
+    <p>Evaluate support, logic, and methodology.</p>
   </div>
 </div>
 
@@ -76,309 +66,377 @@ description: "Prompt engineering framework for internal audit documentation, met
 
 {% include demo-disclaimer.html %}
 
-<section class="project-facts-wrap" aria-label="Prompt engineering framework project information">
+<section class="project-facts-wrap" aria-label="AI workflow portfolio information">
   <dl class="project-facts">
-    <div><dt>Status</dt><dd>Portfolio framework</dd></div>
-    <div><dt>Role</dt><dd>Framework design</dd></div>
-    <div><dt>Deliverable</dt><dd>Governed prompt workflow</dd></div>
-    <div><dt>Data</dt><dd>No client data</dd></div>
+    <div><dt>Status</dt><dd>Portfolio workflows</dd></div>
+    <div><dt>Role</dt><dd>Workflow and control design</dd></div>
+    <div><dt>Deliverables</dt><dd>Prompts, outputs, and review gates</dd></div>
+    <div><dt>Data</dt><dd>Synthetic examples only</dd></div>
   </dl>
 </section>
 
 <section class="subpage-section subpage-section--light">
 
-<p class="landing-kicker landing-kicker--dark">Why this matters</p>
+<p class="landing-kicker landing-kicker--dark">Applied AI approach</p>
 
 <h2 class="subpage-section-title">
-  AI-supported audit documentation needs controls, not just better writing.
+  The portfolio focuses on controlled workflows, not isolated prompts.
 </h2>
 
 <p class="subpage-copy">
-  AI can accelerate drafting and summarization, but uncontrolled prompts can introduce
-  unsupported assumptions, inconsistent workpaper language, and unclear accountability.
+  Each project starts with a defined audit activity, required inputs, explicit limitations,
+  a structured output, and a human-review gate. Prompt engineering is part of the architecture,
+  but the larger objective is a repeatable and reviewable audit workflow.
 </p>
 
 <div class="subpage-feature-grid">
 
 <div class="subpage-feature-card">
-  <span>01</span>
-  <h3>Reduce unsupported assumptions</h3>
-  <p>Prompts should prevent invented controls, systems, populations, exceptions, conclusions, or management responses.</p>
+  <span>Document</span>
+  <h3>Structure audit artifacts</h3>
+  <p>Convert supplied facts into consistent narratives, testing documentation, annotations, or issue drafts.</p>
 </div>
 
 <div class="subpage-feature-card">
-  <span>02</span>
-  <h3>Improve documentation consistency</h3>
-  <p>Reusable prompt patterns can standardize narratives, walkthroughs, test plans, testing results, and issue drafts.</p>
+  <span>Analyze</span>
+  <h3>Surface gaps and relationships</h3>
+  <p>Identify potential controls, risk relationships, missing information, and statements requiring validation.</p>
 </div>
 
 <div class="subpage-feature-card">
-  <span>03</span>
-  <h3>Preserve auditor judgment</h3>
-  <p>AI output should support drafting and structure, not replace evidence evaluation, conclusions, or final review.</p>
+  <span>Review</span>
+  <h3>Strengthen quality assurance</h3>
+  <p>Evaluate evidence support, testing logic, methodology alignment, and the clarity of conclusions.</p>
 </div>
 
 </div>
 
 </section>
 
-<section id="prompt-quality" class="subpage-section subpage-section--dark">
+<section id="ai-workflows" class="subpage-section subpage-section--gradient">
 
-<p class="landing-kicker">Prompt quality demonstration</p>
+<p class="landing-kicker landing-kicker--dark">AI workflow portfolio</p>
+
+<h2 class="subpage-section-title">
+  Four applied projects across documentation, analysis, and review.
+</h2>
+
+<div class="ai-project-index">
+
+<a href="#evidence-annotation">
+  <span>01</span>
+  <strong>Evidence Annotation</strong>
+  <p>Reviewer-ready evidence references and tickmarks.</p>
+</a>
+
+<a href="#control-identification">
+  <span>02</span>
+  <strong>Control Identification</strong>
+  <p>Controls, risks, and validation needs.</p>
+</a>
+
+<a href="#workpaper-review">
+  <span>03</span>
+  <strong>Workpaper Review</strong>
+  <p>CAE-level quality checks and revision guidance.</p>
+</a>
+
+<a href="#documentation-assistant">
+  <span>04</span>
+  <strong>Documentation Assistant</strong>
+  <p>Governed drafting across common audit artifacts.</p>
+</a>
+
+</div>
+
+</section>
+
+<section id="evidence-annotation" class="subpage-section subpage-section--dark">
+
+<div class="subpage-split">
+
+<div>
+  <p class="landing-kicker">Workflow 01</p>
+
+  <h2 class="subpage-section-title subpage-section-title--light">
+    AI Evidence Annotation Workflow
+  </h2>
+
+  <p class="subpage-copy subpage-copy--light">
+    A controlled workflow for producing a separate annotated PDF from each source artifact
+    while preserving source integrity and improving reviewer navigation.
+  </p>
+
+  <div class="landing-tags landing-tags--dark">
+    <span>PDF annotation</span>
+    <span>Tickmarks</span>
+    <span>Evidence traceability</span>
+    <span>Test of one</span>
+  </div>
+
+  <dl class="project-facts project-facts--dark">
+    <div><dt>Status</dt><dd>Demonstrated workflow</dd></div>
+    <div><dt>Role</dt><dd>Workflow and control design</dd></div>
+    <div><dt>Deliverable</dt><dd>Annotated evidence PDF</dd></div>
+    <div><dt>Data</dt><dd>Synthetic examples</dd></div>
+  </dl>
+
+  <div class="subpage-value-grid subpage-value-grid--dark subpage-value-grid--compact">
+    <div>
+      <strong>Challenge</strong>
+      <p>Evidence can be difficult to review when the relevant support, purpose, testing attributes, and conclusions are not clearly connected.</p>
+    </div>
+    <div>
+      <strong>Solution</strong>
+      <p>The workflow adds proximity-based annotations, evidence references, purpose statements, testing attributes, and a complete tickmark legend to a derivative PDF.</p>
+    </div>
+    <div>
+      <strong>Demonstrated result</strong>
+      <p>Produces one reviewable derivative per artifact with visible annotations while leaving the original source unchanged.</p>
+    </div>
+  </div>
+</div>
+
+<div class="ai-output-card ai-output-card--dark">
+  <p class="ai-output-card__eyebrow">Output controls</p>
+  <h3>Evidence remains the source of truth.</h3>
+  <ul class="ai-checklist">
+    <li>One source artifact per annotated derivative</li>
+    <li>Flattened annotations visible in ordinary PDF viewers</li>
+    <li>Evidence reference and retention purpose</li>
+    <li>Attribute-specific tickmarks placed near support</li>
+    <li>Exceptions only when explicit criteria are provided</li>
+    <li>Complete tickmark legend for reviewer navigation</li>
+  </ul>
+</div>
+
+</div>
+
+</section>
+
+<section id="control-identification" class="subpage-section subpage-section--light">
+
+<div class="subpage-split">
+
+<div>
+  <p class="landing-kicker landing-kicker--dark">Workflow 02</p>
+
+  <h2 class="subpage-section-title">
+    Control Identification and Risk Mapping
+  </h2>
+
+  <p class="subpage-copy">
+    A source-disciplined workflow for analyzing transcripts, procedures, and narratives;
+    distinguishing controls from process activities; and identifying where additional validation is required.
+  </p>
+
+  <dl class="project-facts">
+    <div><dt>Status</dt><dd>Workflow design</dd></div>
+    <div><dt>Role</dt><dd>Methodology and output design</dd></div>
+    <div><dt>Deliverable</dt><dd>Control inventory + risk map</dd></div>
+    <div><dt>Data</dt><dd>Synthetic or sanitized inputs</dd></div>
+  </dl>
+
+  <div class="subpage-value-grid subpage-value-grid--compact">
+    <div>
+      <strong>Challenge</strong>
+      <p>Walkthrough sources often mix process steps, controls, expected practices, and unsupported assumptions.</p>
+    </div>
+    <div>
+      <strong>Solution</strong>
+      <p>The workflow classifies source-supported controls, potential controls requiring validation, and non-control activities before mapping relevant controls to audit risks.</p>
+    </div>
+    <div>
+      <strong>Current result</strong>
+      <p>Creates a repeatable review structure with traceable source support, key-control rationale, and targeted follow-up questions.</p>
+    </div>
+  </div>
+</div>
+
+<div class="ai-pipeline" role="group" aria-label="Control identification workflow">
+  <div><span>01</span><strong>Source review</strong><p>Transcripts, procedures, and narratives</p></div>
+  <div><span>02</span><strong>Classification</strong><p>Control, process, or validation candidate</p></div>
+  <div><span>03</span><strong>Risk mapping</strong><p>Coverage and key-control assessment</p></div>
+  <div><span>04</span><strong>Follow-up</strong><p>Missing evidence and validation steps</p></div>
+</div>
+
+</div>
+
+</section>
+
+<section id="workpaper-review" class="subpage-section subpage-section--gradient">
+
+<div class="subpage-split">
+
+<div>
+  <p class="landing-kicker landing-kicker--dark">Workflow 03</p>
+
+  <h2 class="subpage-section-title">
+    CAE-Level Workpaper Quality Review
+  </h2>
+
+  <p class="subpage-copy">
+    An independent review workflow designed to identify documentation gaps, unsupported statements,
+    unclear logic, missing evidence, testing weaknesses, and impractical conclusions.
+  </p>
+
+  <dl class="project-facts">
+    <div><dt>Status</dt><dd>Workflow design</dd></div>
+    <div><dt>Role</dt><dd>Review criteria and workflow design</dd></div>
+    <div><dt>Deliverable</dt><dd>Structured review memo</dd></div>
+    <div><dt>Data</dt><dd>Synthetic workpapers</dd></div>
+  </dl>
+
+  <div class="subpage-value-grid subpage-value-grid--compact">
+    <div>
+      <strong>Challenge</strong>
+      <p>Professional-sounding workpapers may still contain unsupported assertions, incomplete procedures, weak sampling logic, or conclusions that exceed the evidence.</p>
+    </div>
+    <div>
+      <strong>Solution</strong>
+      <p>The workflow applies defined review criteria, separates material issues from editorial preferences, and provides practical revision recommendations.</p>
+    </div>
+    <div>
+      <strong>Current result</strong>
+      <p>Creates a consistent pre-review structure while recognizing that a well-supported workpaper may require few or no comments.</p>
+    </div>
+  </div>
+</div>
+
+<div class="ai-review-matrix">
+  <div><strong>Evidence</strong><span>Are statements traceable to support?</span></div>
+  <div><strong>Methodology</strong><span>Do procedures address the objective?</span></div>
+  <div><strong>Logic</strong><span>Do results support the conclusion?</span></div>
+  <div><strong>Clarity</strong><span>Can a reviewer follow the work efficiently?</span></div>
+  <div><strong>Calibration</strong><span>Are comments proportionate and material?</span></div>
+</div>
+
+</div>
+
+</section>
+
+<section id="documentation-assistant" class="subpage-section subpage-section--dark">
+
+<p class="landing-kicker">Workflow 04</p>
 
 <h2 class="subpage-section-title subpage-section-title--light">
-  Generic prompts sound polished. Controlled prompts are more reviewable.
+  Governed Audit Documentation Assistant
 </h2>
 
 <p class="subpage-copy subpage-copy--light">
-  Professional-sounding output is not enough. It must also be supported, scoped,
-  reviewable, and aligned with audit methodology.
+  The original prompt-engineering project now serves as the governance foundation for the broader
+  AI workflow portfolio. It defines inputs, constraints, output structures, and review expectations
+  before drafting begins.
 </p>
+
+<dl class="project-facts project-facts--dark">
+  <div><dt>Status</dt><dd>Framework demonstrated</dd></div>
+  <div><dt>Role</dt><dd>Framework and prompt design</dd></div>
+  <div><dt>Deliverable</dt><dd>Governed drafting workflow</dd></div>
+  <div><dt>Data</dt><dd>No client data</dd></div>
+</dl>
 
 <div class="demo-grid">
 
 <div class="demo-card generic">
   <div class="demo-label">Generic Prompt</div>
-
-  <div class="prompt-box">
-    “Write an audit issue for missing approvals.”
-  </div>
-
+  <div class="prompt-box">“Write an audit issue for missing approvals.”</div>
   <p><strong>Output risks:</strong></p>
-
   <ul class="bullets risk-list">
-    <li>May invent policy criteria or control requirements</li>
-    <li>May assume root cause without support</li>
-    <li>May exaggerate impact or risk</li>
-    <li>May omit standard audit issue structure</li>
+    <li>May invent criteria or control requirements</li>
+    <li>May assume cause or impact without support</li>
+    <li>May omit required issue components</li>
     <li>May present unsupported conclusions confidently</li>
   </ul>
 </div>
 
 <div class="demo-card controlled">
   <div class="demo-label">Audit-Controlled Prompt</div>
-
   <div class="prompt-box">
-    “Using only the facts provided, draft an internal audit issue using the structure:
-    <strong>condition, criteria, cause, effect, risk, recommendation, and management response placeholder</strong>.
-    Do not invent policy requirements, sample sizes, exceptions, root causes, monetary impact,
-    or management intent. If required facts are missing, list clarification questions before drafting.”
+    Use only supplied facts. Apply the required audit artifact structure. Do not invent criteria,
+    samples, exceptions, cause, impact, or management intent. Ask clarification questions when
+    information required for a supportable draft is missing.
   </div>
-
   <p><strong>Control benefits:</strong></p>
-
   <ul class="bullets benefit-list">
-    <li>Uses a consistent audit issue format</li>
     <li>Separates facts from assumptions</li>
-    <li>Prevents unsupported conclusions</li>
+    <li>Applies a consistent artifact structure</li>
     <li>Identifies missing information before drafting</li>
-    <li>Improves reviewer readiness</li>
+    <li>Preserves human validation and judgment</li>
   </ul>
 </div>
 
 </div>
 
-<div class="takeaway-box">
-  <p>
-    <strong>Key takeaway:</strong> Better prompts produce more controlled, supportable,
-    and review-ready documentation—not merely cleaner writing.
-  </p>
-</div>
-
 </section>
 
-<section class="subpage-section subpage-section--light">
+<section id="governance-foundation" class="subpage-section subpage-section--light">
 
-<p class="landing-kicker landing-kicker--dark">Framework workflow</p>
-
-<h2 class="subpage-section-title">
-  Prompt design becomes a control point before drafting begins.
-</h2>
-
-<p class="subpage-copy">
-  The framework defines inputs, constraints, output format, and review expectations
-  before an AI-supported draft is generated.
-</p>
-
-<div class="flow-wrapper">
-
-<div class="flow-step">
-  <span class="flow-num">1</span>
-  <h3>Auditor-Provided Facts</h3>
-  <p>Scope, process details, control descriptions, evidence, sample results, and known exceptions.</p>
-</div>
-
-<div class="flow-step">
-  <span class="flow-num">2</span>
-  <h3>Prompt Controls Applied</h3>
-  <p>Role limits, artifact type, scope boundaries, non-fabrication rules, and clarification triggers.</p>
-</div>
-
-<div class="flow-step">
-  <span class="flow-num">3</span>
-  <h3>AI-Supported Draft</h3>
-  <p>Structured narrative, walkthrough, test plan, testing summary, or issue draft.</p>
-</div>
-
-<div class="flow-step">
-  <span class="flow-num">4</span>
-  <h3>Auditor Review</h3>
-  <p>Auditor validates facts, revises language, evaluates support, and finalizes judgment.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="control-matrix" class="subpage-section subpage-section--gradient">
-
-<p class="landing-kicker landing-kicker--dark">Prompt control matrix</p>
+<p class="landing-kicker landing-kicker--dark">Governance foundation</p>
 
 <h2 class="subpage-section-title">
-  Controls that reduce unsupported or fabricated audit content.
+  Shared controls across every AI-assisted audit workflow.
 </h2>
-
-<p class="subpage-copy">
-  Prompt-level controls constrain AI behavior and improve consistency across audit activities.
-</p>
 
 <div class="control-grid">
 
 <div class="control-item">
-  <h3>Role Definition</h3>
-  <p>Defines AI as documentation support, not an auditor, decision-maker, or evidence evaluator.</p>
+  <h3>Source Boundary</h3>
+  <p>Limits analysis and drafting to identified source materials and user-provided facts.</p>
 </div>
 
 <div class="control-item">
   <h3>Artifact Classification</h3>
-  <p>Requires the user to identify the output type before drafting begins.</p>
-</div>
-
-<div class="control-item">
-  <h3>Scope Control</h3>
-  <p>Limits outputs to the selected activity and prevents combining multiple audit artifacts.</p>
-</div>
-
-<div class="control-item">
-  <h3>Reference Hierarchy</h3>
-  <p>Prioritizes audit methodology and user-provided facts over general AI assumptions.</p>
-</div>
-
-<div class="control-item">
-  <h3>Sampling Discipline</h3>
-  <p>Prevents invented sample sizes, unsupported population assumptions, or inflated testing rationale.</p>
+  <p>Defines the requested audit activity and output before work begins.</p>
 </div>
 
 <div class="control-item">
   <h3>Non-Fabrication Rules</h3>
-  <p>Prohibits invented controls, systems, evidence, populations, exceptions, conclusions, or management responses.</p>
+  <p>Prohibits invented controls, evidence, samples, exceptions, criteria, or conclusions.</p>
 </div>
 
 <div class="control-item">
   <h3>Clarification Triggers</h3>
-  <p>Requires follow-up questions when necessary information is missing, unclear, or inconsistent.</p>
+  <p>Requires follow-up when information needed for a supportable output is missing or inconsistent.</p>
 </div>
 
 <div class="control-item">
-  <h3>Human Review Requirement</h3>
-  <p>Positions AI output as a draft that must be reviewed, validated, and finalized by an auditor.</p>
+  <h3>Methodology Guardrails</h3>
+  <p>Applies defined audit structures, sampling expectations, and documentation requirements.</p>
+</div>
+
+<div class="control-item">
+  <h3>Human Review</h3>
+  <p>Positions AI output as a draft or analytical aid subject to auditor validation and judgment.</p>
 </div>
 
 </div>
 
 </section>
 
-<section class="subpage-section subpage-section--dark">
+<section class="subpage-section subpage-section--gradient">
 
 <div class="subpage-split">
 
 <div>
-  <p class="landing-kicker">Example use case</p>
+  <p class="landing-kicker landing-kicker--dark">Evaluation roadmap</p>
 
-  <h2 class="subpage-section-title subpage-section-title--light">
-    Issue drafting from auditor-provided testing results.
+  <h2 class="subpage-section-title">
+    Results should be measured, not assumed.
   </h2>
 
-  <p class="subpage-copy subpage-copy--light">
-    The framework converts auditor-provided facts and testing results into a structured
-    issue draft while preventing unsupported conclusions.
+  <p class="subpage-copy">
+    These portfolio workflows demonstrate structure and control design. Formal performance claims
+    will require a repeatable synthetic benchmark comparing controlled outputs against defined criteria.
   </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>Issue drafting</span>
-    <span>Testing results</span>
-    <span>Clarification triggers</span>
-    <span>Review-ready output</span>
-  </div>
 </div>
 
-<div class="subpage-value-grid subpage-value-grid--dark subpage-value-grid--compact">
-
-<div>
-  <strong>Scenario</strong>
-  <p>An access review identified four exceptions from a sample of twenty-five users where documented manager approval was not retained.</p>
-</div>
-
-<div>
-  <strong>Controlled drafting approach</strong>
-  <p>The prompt requires the auditor to provide policy criteria, testing period, population, sample basis, evidence reviewed, exception details, and known limitations before drafting.</p>
-</div>
-
-<div>
-  <strong>Governance result</strong>
-  <p>If criteria, cause, impact, or management response details are missing, the prompt asks clarification questions instead of inventing conclusions.</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="prompt-patterns" class="subpage-section subpage-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Prompt patterns demonstrated</p>
-
-<h2 class="subpage-section-title">
-  Reusable prompt patterns for common internal audit documentation needs.
-</h2>
-
-<div class="subpage-feature-grid">
-
-<div class="subpage-feature-card">
-  <span>Narratives</span>
-  <h3>Process narrative prompts</h3>
-  <p>Structure end-to-end process descriptions using auditor-provided facts and defined scope boundaries.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Walkthroughs</span>
-  <h3>Walkthrough prompts</h3>
-  <p>Document control design understanding without inventing missing control details or unsupported observations.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Testing</span>
-  <h3>Test plan prompts</h3>
-  <p>Organize population, sample, attributes, evidence, and testing rationale into a repeatable structure.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Results</span>
-  <h3>Testing result prompts</h3>
-  <p>Summarize procedures performed, exceptions identified, and conclusions based only on provided results.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Issues</span>
-  <h3>Issue drafting prompts</h3>
-  <p>Support consistent finding language using condition, criteria, cause, effect, recommendation, and response structure.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Review</span>
-  <h3>Clarification prompts</h3>
-  <p>Ask targeted follow-up questions when facts are missing, unclear, inconsistent, or not supportable.</p>
+<div class="ai-metrics">
+  <div><strong>Required-field completeness</strong><span>Were all required artifact components addressed?</span></div>
+  <div><strong>Unsupported assertions</strong><span>How many statements lacked traceable source support?</span></div>
+  <div><strong>Clarification performance</strong><span>Were intentionally missing facts identified before drafting?</span></div>
+  <div><strong>Reviewer revisions</strong><span>How many substantive changes were required?</span></div>
+  <div><strong>Evidence traceability</strong><span>Could conclusions be connected to identified support?</span></div>
 </div>
 
 </div>
@@ -390,18 +448,18 @@ description: "Prompt engineering framework for internal audit documentation, met
 <p class="landing-kicker landing-kicker--dark">Important scope note</p>
 
 <h2 class="subpage-section-title">
-  AI output supports drafting. It does not make audit decisions.
+  AI supports audit work. It does not perform the audit.
 </h2>
 
 <p class="subpage-copy">
-  This project demonstrates prompt engineering concepts for internal audit documentation.
-  It does not make audit decisions, approve controls, perform testing, evaluate evidence,
-  or override auditor judgment.
+  These projects demonstrate workflow and governance concepts using synthetic examples.
+  They do not approve controls, evaluate evidence independently, make audit decisions,
+  or override professional judgment.
 </p>
 
 <div class="mini-case">
   <p>
-    <strong>Review requirement:</strong> Any AI-supported output should be reviewed, validated,
+    <strong>Review requirement:</strong> Any AI-assisted output must be reviewed, validated,
     and finalized by qualified audit professionals before use in formal audit documentation.
   </p>
 </div>
@@ -410,19 +468,19 @@ description: "Prompt engineering framework for internal audit documentation, met
 
 <section class="subpage-final-cta">
 
-<p class="landing-kicker">Prompt engineering</p>
+<p class="landing-kicker">AI for Internal Audit</p>
 
 <h2>
-Structured prompts can make AI-supported audit documentation more controlled and review-ready.
+Applied AI is most useful when the workflow, controls, and reviewer responsibilities are explicit.
 </h2>
 
 <p>
-Explore a related project or connect with me.
+Explore related audit tools and analytics or connect with me.
 </p>
 
 <div class="landing-actions landing-actions--center">
-  <a class="btn landing-btn--light" href="/audit-analytics/">View audit analytics</a>
-  <a class="cta-link cta-link--dark" href="/excel-tools/">View audit tools →</a>
+  <a class="btn landing-btn--light" href="/excel-tools/">View audit tools</a>
+  <a class="cta-link cta-link--dark" href="/audit-analytics/">View audit analytics →</a>
   <a class="cta-link cta-link--dark" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Connect on LinkedIn →</a>
 </div>
 
