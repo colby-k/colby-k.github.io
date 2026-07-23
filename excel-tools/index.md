@@ -105,6 +105,13 @@ description: "Practical audit tools for documentation, risk assessment, workpape
     <span>Audit documentation</span>
   </div>
 
+  <dl class="project-facts project-facts--dark">
+    <div><dt>Status</dt><dd>Active development</dd></div>
+    <div><dt>Role</dt><dd>Design and development</dd></div>
+    <div><dt>Deliverable</dt><dd>Excel add-in</dd></div>
+    <div><dt>Data</dt><dd>No client data</dd></div>
+  </dl>
+
   <div class="subpage-value-grid subpage-value-grid--dark">
 
     <div>
@@ -122,12 +129,6 @@ description: "Practical audit tools for documentation, risk assessment, workpape
       <p>Reduces manual formatting, improves consistency, and gives reviewers clearer workpaper navigation.</p>
     </div>
 
-  </div>
-
-  <div class="mini-case mini-case--dark">
-    <p>
-      <strong>Status:</strong> In active development. The add-in is not publicly available yet, but this page shares screenshots, documentation, and future availability information.
-    </p>
   </div>
 
   <p class="cta-row">
@@ -182,6 +183,13 @@ description: "Practical audit tools for documentation, risk assessment, workpape
   <span>Excel template</span>
   <span>Review-ready workpapers</span>
 </div>
+
+<dl class="project-facts">
+  <div><dt>Status</dt><dd>Downloadable demo</dd></div>
+  <div><dt>Role</dt><dd>Design and development</dd></div>
+  <div><dt>Deliverable</dt><dd>Excel template pack</dd></div>
+  <div><dt>Data</dt><dd>Synthetic example</dd></div>
+</dl>
 
 <div class="subpage-carousel-wrap">
 
@@ -304,6 +312,13 @@ description: "Practical audit tools for documentation, risk assessment, workpape
     <span>Heatmap</span>
     <span>Excel template</span>
   </div>
+
+  <dl class="project-facts">
+    <div><dt>Status</dt><dd>Downloadable demo</dd></div>
+    <div><dt>Role</dt><dd>Design and development</dd></div>
+    <div><dt>Deliverable</dt><dd>Excel template</dd></div>
+    <div><dt>Data</dt><dd>Demonstration inputs</dd></div>
+  </dl>
 
   <div class="subpage-value-grid subpage-value-grid--compact">
 

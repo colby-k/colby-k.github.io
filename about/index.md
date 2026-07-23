@@ -2,7 +2,7 @@
 title: "About"
 layout: default
 permalink: /about/
-description: "About Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manager focused on risk-based auditing, audit analytics, documentation quality, and practical audit tooling."
+description: "About Colby Kellersberger, CIA, CFE, CICA — an Internal Audit Manager with a Big Four foundation and 10+ years of audit leadership, analytics, and practical tooling experience."
 ---
 
 <div class="subpage subpage--about">
@@ -17,9 +17,9 @@ description: "About Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manag
   </h1>
 
   <p class="subpage-subtitle">
-    I’m <strong>Colby Kellersberger, CIA, CFE, CICA</strong> — an Internal Audit Manager focused on
-    risk-based auditing, audit analytics, documentation quality, and practical tools that make audit work
-    more consistent, efficient, and review-ready.
+    I’m <strong>Colby Kellersberger, CIA, CFE, CICA</strong> — an Internal Audit Manager with a
+    Big Four foundation and more than 10 years of experience across financial, operational,
+    compliance, and control-focused auditing.
   </p>
 
   <div class="landing-tags landing-tags--dark">
@@ -44,8 +44,8 @@ description: "About Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manag
   <div class="subpage-value-grid subpage-value-grid--dark subpage-value-grid--compact">
 
     <div>
-      <strong>Audit judgment</strong>
-      <p>Risk-based audit perspective with a focus on supportable conclusions, clear documentation, and practical execution.</p>
+      <strong>Audit leadership</strong>
+      <p>Engagement leadership from risk assessment and walkthroughs through testing, reporting, and remediation follow-up.</p>
     </div>
 
     <div>
@@ -54,8 +54,8 @@ description: "About Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manag
     </div>
 
     <div>
-      <strong>Review-ready outputs</strong>
-      <p>Tools and analytics designed to improve consistency, documentation quality, review clarity, and repeatability.</p>
+      <strong>Review discipline</strong>
+      <p>Emphasis on supportable conclusions, documentation quality, evidence, and reviewer clarity.</p>
     </div>
 
   </div>
@@ -72,8 +72,9 @@ description: "About Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manag
 </h2>
 
 <p class="subpage-copy">
-  I focus on building audit tools and analytics that support real internal audit needs:
-  planning, documentation, testing, monitoring, exception analysis, issue follow-up, and governance.
+  I combine audit leadership with hands-on analytics and workflow development. My focus is
+  practical execution: planning, documentation, testing, monitoring, exception analysis,
+  issue follow-up, and governance.
 </p>
 
 <div class="subpage-feature-grid">
@@ -94,58 +95,6 @@ description: "About Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manag
   <span>03</span>
   <h3>Governance and reviewability</h3>
   <p>Designing outputs that are easier to review, support, explain, and adapt for formal audit environments.</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="subpage-section subpage-section--dark">
-
-<div class="subpage-split">
-
-<div>
-  <p class="landing-kicker">What I bring to audit teams</p>
-
-  <h2 class="subpage-section-title subpage-section-title--light">
-    A bridge between traditional audit execution and modern analytics-enabled workflows.
-  </h2>
-
-  <p class="subpage-copy subpage-copy--light">
-    I like building tools that are practical enough for real audit work — not just dashboards or scripts,
-    but solutions that improve fieldwork execution, review clarity, documentation consistency, and repeatability.
-  </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>Audit methodology</span>
-    <span>Technical buildout</span>
-    <span>Documentation quality</span>
-    <span>Risk analysis</span>
-  </div>
-</div>
-
-<div class="subpage-value-grid subpage-value-grid--dark subpage-value-grid--compact">
-
-<div>
-  <strong>Internal audit experience</strong>
-  <p>Hands-on audit execution and management experience with a practical understanding of audit quality, review, evidence, and supportability.</p>
-</div>
-
-<div>
-  <strong>Technical implementation</strong>
-  <p>Ability to translate audit methodology into repeatable tools, templates, analytics, dashboards, and workflows.</p>
-</div>
-
-<div>
-  <strong>Analytics mindset</strong>
-  <p>Practical analytics for testing, monitoring, risk assessment, anomaly detection, issue follow-up, and management reporting.</p>
-</div>
-
-<div>
-  <strong>Governance focus</strong>
-  <p>Strong emphasis on documentation quality, reviewability, defensibility, and responsible use of AI-enabled process improvement.</p>
-</div>
-
 </div>
 
 </div>
@@ -257,46 +206,6 @@ description: "About Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manag
   </p>
 </div>
 
-</div>
-
-</section>
-
-<section class="subpage-section subpage-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Working style</p>
-
-<h2 class="subpage-section-title">
-  Practical solutions designed for real audit constraints.
-</h2>
-
-<div class="subpage-feature-grid">
-
-<div class="subpage-feature-card">
-  <span>Practical</span>
-  <h3>Built for audit execution</h3>
-  <p>I focus on tools that support actual audit fieldwork, testing, review, monitoring, and documentation needs.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Repeatable</span>
-  <h3>Reusable workflows</h3>
-  <p>I prefer repeatable templates, dashboards, scripts, and prompt patterns that can be adapted across audit activities.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Reviewable</span>
-  <h3>Clear and supportable outputs</h3>
-  <p>I design outputs with review clarity, evidence support, documentation quality, and defensibility in mind.</p>
-</div>
-
-</div>
-
-<div class="mini-case">
-  <p>
-    <strong>Working style:</strong> I like building tools that are practical enough for real audit work —
-    not just dashboards or scripts, but solutions that improve fieldwork execution, review clarity,
-    and repeatability.
-  </p>
 </div>
 
 </section>
