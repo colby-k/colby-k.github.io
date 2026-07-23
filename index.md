@@ -44,11 +44,11 @@ description: "Practical internal audit tools, analytics, automation, prompt engi
 
 <div class="landing-hero__visual" role="group" aria-label="Portfolio project preview images">
   <div class="visual-card visual-card--main">
-    <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro screenshot showing Excel audit documentation tools">
+    <img src="/assets/img/hero-auditticks-focus.png" alt="Focused AuditTicks Pro screenshot showing the Excel ribbon and audit documentation tools">
   </div>
 
   <div class="visual-card visual-card--small visual-card--bottom">
-    <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper template example">
+    <img src="/assets/img/hero-workpaper-focus.png" alt="Focused completed audit workpaper screenshot showing sample testing results and attributes">
   </div>
 </div>
 
