@@ -33,6 +33,7 @@ The portfolio includes examples across several areas:
 ### 🔹 AI Workflows for Internal Audit
 
 - Governed AI workflows for audit documentation, evidence annotation, control identification, and quality review
+- Downloadable synthetic evidence-annotation demonstration with source PDF, annotated derivative, and Excel review workbook
 - Designed around audit methodology, sampling discipline, non-fabrication rules, and review-ready outputs
 - Demonstrates how AI-supported workflows can be governed through prompt design and auditor oversight
 
