@@ -5,8 +5,6 @@ permalink: /excel-tools/
 description: "Practical audit tools for documentation, risk assessment, workpaper consistency, and review-ready internal audit workflows."
 ---
 
-{% include nav.html %}
-
 <div class="subpage subpage--tools">
 
 <section class="subpage-hero subpage-hero--dark">
@@ -194,7 +192,7 @@ description: "Practical audit tools for documentation, risk assessment, workpape
 
 <div class="media media--carousel">
 
-<div class="image-carousel" aria-label="Audit workpaper template screenshots">
+<section class="image-carousel" aria-label="Audit workpaper template screenshots">
 
   <input type="radio" name="workpaper-carousel" id="wp-slide-1" checked>
   <input type="radio" name="workpaper-carousel" id="wp-slide-2">
@@ -244,13 +242,13 @@ description: "Practical audit tools for documentation, risk assessment, workpape
     <label class="carousel__arrow carousel__arrow--next carousel__from-3" for="wp-slide-1">›</label>
   </div>
 
-  <div class="carousel__dots" aria-label="Carousel slide controls">
+  <div class="carousel__dots" role="group" aria-label="Carousel slide controls">
     <label for="wp-slide-1" aria-label="Show detailed testing workpaper screenshot"></label>
     <label for="wp-slide-2" aria-label="Show workpaper setup screenshot"></label>
     <label for="wp-slide-3" aria-label="Show completed example workpaper screenshot"></label>
   </div>
 
-</div>
+</section>
 
 </div>
 

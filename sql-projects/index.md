@@ -5,8 +5,6 @@ permalink: /sql-projects/
 description: "SQL, Power BI, and data analysis projects framed around audit-style review, business risk analysis, transformation, and management reporting."
 ---
 
-{% include nav.html %}
-
 <div class="subpage subpage--data-projects">
 
 <section class="subpage-hero subpage-hero--dark">

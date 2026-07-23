@@ -5,8 +5,6 @@ permalink: /ai-audit-assistant/
 description: "Prompt engineering framework for internal audit documentation, methodology enforcement, sampling discipline, and AI governance guardrails."
 ---
 
-{% include nav.html %}
-
 <div class="subpage subpage--prompt-engineering">
 
 <section class="subpage-hero subpage-hero--dark">

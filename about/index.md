@@ -5,8 +5,6 @@ permalink: /about/
 description: "About Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manager focused on risk-based auditing, audit analytics, documentation quality, and practical audit tooling."
 ---
 
-{% include nav.html %}
-
 <div class="subpage subpage--about">
 
 <section class="subpage-hero subpage-hero--dark">
