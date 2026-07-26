@@ -1,77 +1,64 @@
-<nav class="topnav topnav--desktop" aria-label="Primary">
-  <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>
-    <img class="navicon" src="{{ '/assets/icons/home.svg' | relative_url }}" alt="" aria-hidden="true">
-    Home
-  </a>
-
-  <a href="{{ '/excel-tools/' | relative_url }}"{% if page.url == '/excel-tools/' %} aria-current="page"{% endif %}>
-    <img class="navicon" src="{{ '/assets/icons/excel.svg' | relative_url }}" alt="" aria-hidden="true">
-    Audit Tools
-  </a>
-
-  <a href="{{ '/audit-analytics/' | relative_url }}"{% if page.url == '/audit-analytics/' %} aria-current="page"{% endif %}>
-    <img class="navicon" src="{{ '/assets/icons/power_bi.svg' | relative_url }}" alt="" aria-hidden="true">
-    Audit Analytics
-  </a>
-
-  <a href="{{ '/sql-projects/' | relative_url }}"{% if page.url == '/sql-projects/' %} aria-current="page"{% endif %}>
-    <img class="navicon" src="{{ '/assets/icons/SQL_2025.svg' | relative_url }}" alt="" aria-hidden="true">
-    Data Projects
-  </a>
-
-  <a href="{{ '/ai-audit-assistant/' | relative_url }}"{% if page.url == '/ai-audit-assistant/' %} aria-current="page"{% endif %}>
-    <img class="navicon" src="{{ '/assets/icons/chatgpt.svg' | relative_url }}" alt="" aria-hidden="true">
-    AI for Audit
-  </a>
-
-  <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>
-    <img class="navicon" src="{{ '/assets/icons/info.svg' | relative_url }}" alt="" aria-hidden="true">
-    About
-  </a>
+<nav class="topnav topnav--desktop nav-v2" aria-label="Primary">
+  <a class="nav-v2__link" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+  <a class="nav-v2__link" href="{{ '/excel-tools/' | relative_url }}"{% if page.url == '/excel-tools/' %} aria-current="page"{% endif %}>Audit Quality</a>
+  <a class="nav-v2__link" href="{{ '/audit-analytics/' | relative_url }}"{% if page.url == '/audit-analytics/' %} aria-current="page"{% endif %}>Audit Insight</a>
+  <a class="nav-v2__link" href="{{ '/ai-audit-assistant/' | relative_url }}"{% if page.url == '/ai-audit-assistant/' %} aria-current="page"{% endif %}>Responsible AI</a>
+  <a class="nav-v2__link" href="{{ '/sql-projects/' | relative_url }}"{% if page.url == '/sql-projects/' %} aria-current="page"{% endif %}>Data Systems</a>
+  <a class="nav-v2__link" href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
 </nav>
 
-<details class="mobile-nav">
-  <summary>
-    <span>Menu</span>
+<details class="mobile-nav mobile-nav--v2">
+  <summary aria-label="Open navigation menu">
+    <span class="mobile-nav__label mobile-nav__label--open">Menu</span>
+    <span class="mobile-nav__label mobile-nav__label--close">Close</span>
     <span class="mobile-nav__icon" aria-hidden="true"></span>
   </summary>
 
   <div class="mobile-nav__panel">
-    <nav class="topnav topnav--mobile" aria-label="Mobile primary">
-      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>
-        <img class="navicon" src="{{ '/assets/icons/home.svg' | relative_url }}" alt="" aria-hidden="true">
-        Home
-      </a>
+    <div class="mobile-nav__intro">
+      <span>Explore</span>
+      <strong>Better Audit Systems</strong>
+    </div>
 
-      <a href="{{ '/excel-tools/' | relative_url }}"{% if page.url == '/excel-tools/' %} aria-current="page"{% endif %}>
-        <img class="navicon" src="{{ '/assets/icons/excel.svg' | relative_url }}" alt="" aria-hidden="true">
-        Audit Tools
-      </a>
+    <section class="mobile-nav__group" aria-labelledby="mobile-capabilities">
+      <div class="mobile-nav__group-label" id="mobile-capabilities">
+        <span>Capabilities</span>
+        <span aria-hidden="true">—</span>
+      </div>
+      <nav class="mobile-nav__links" aria-label="Mobile capabilities">
+        <a href="{{ '/excel-tools/' | relative_url }}"{% if page.url == '/excel-tools/' %} aria-current="page"{% endif %}>
+          <span>Audit Quality</span><b aria-hidden="true">↗</b>
+        </a>
+        <a href="{{ '/audit-analytics/' | relative_url }}"{% if page.url == '/audit-analytics/' %} aria-current="page"{% endif %}>
+          <span>Audit Insight</span><b aria-hidden="true">↗</b>
+        </a>
+        <a href="{{ '/ai-audit-assistant/' | relative_url }}"{% if page.url == '/ai-audit-assistant/' %} aria-current="page"{% endif %}>
+          <span>Responsible AI</span><b aria-hidden="true">↗</b>
+        </a>
+        <a href="{{ '/sql-projects/' | relative_url }}"{% if page.url == '/sql-projects/' %} aria-current="page"{% endif %}>
+          <span>Data Systems</span><b aria-hidden="true">↗</b>
+        </a>
+      </nav>
+    </section>
 
-      <a href="{{ '/audit-analytics/' | relative_url }}"{% if page.url == '/audit-analytics/' %} aria-current="page"{% endif %}>
-        <img class="navicon" src="{{ '/assets/icons/power_bi.svg' | relative_url }}" alt="" aria-hidden="true">
-        Audit Analytics
-      </a>
+    <section class="mobile-nav__group mobile-nav__group--secondary" aria-labelledby="mobile-more">
+      <div class="mobile-nav__group-label" id="mobile-more">
+        <span>More</span>
+        <span aria-hidden="true">—</span>
+      </div>
+      <nav class="mobile-nav__links" aria-label="Mobile secondary">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>
+          <span>Home</span><b aria-hidden="true">↗</b>
+        </a>
+        <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>
+          <span>About</span><b aria-hidden="true">↗</b>
+        </a>
+      </nav>
+    </section>
 
-      <a href="{{ '/sql-projects/' | relative_url }}"{% if page.url == '/sql-projects/' %} aria-current="page"{% endif %}>
-        <img class="navicon" src="{{ '/assets/icons/SQL_2025.svg' | relative_url }}" alt="" aria-hidden="true">
-        Data Projects
-      </a>
-
-      <a href="{{ '/ai-audit-assistant/' | relative_url }}"{% if page.url == '/ai-audit-assistant/' %} aria-current="page"{% endif %}>
-        <img class="navicon" src="{{ '/assets/icons/chatgpt.svg' | relative_url }}" alt="" aria-hidden="true">
-        AI for Audit
-      </a>
-
-      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>
-        <img class="navicon" src="{{ '/assets/icons/info.svg' | relative_url }}" alt="" aria-hidden="true">
-        About
-      </a>
-    </nav>
-
-    <nav class="mobile-nav__socials" aria-label="Professional profile links in menu">
-      <a href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://github.com/colby-k" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <nav class="mobile-nav__socials mobile-nav__socials--v2" aria-label="Professional profile links in menu">
+      <a href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      <a href="https://github.com/colby-k" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
     </nav>
   </div>
 </details>
