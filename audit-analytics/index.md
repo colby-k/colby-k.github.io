@@ -1,404 +1,164 @@
 ---
-title: "Audit Analytics"
+title: "Vendor Payment Monitoring Case Study"
 layout: default
 permalink: /audit-analytics/
-description: "Audit analytics projects using Power BI, Python, Streamlit, and statistical testing to support risk-based auditing, exception analysis, monitoring, and audit testing."
+description: "How audit analytics can turn a high-volume vendor payment population into visible risk signals and focused audit attention."
 ---
 
-<div class="subpage subpage--analytics">
+<link rel="stylesheet" href="/assets/css/audit-analytics-case-study.css">
 
-<section class="subpage-hero subpage-hero--dark">
+<article class="analytics-case">
 
-<div class="subpage-hero__content">
-  <p class="landing-kicker">Audit Analytics</p>
-
-  <h1 class="subpage-title">
-    Audit analytics for monitoring, testing, issue follow-up, and risk-based review.
-  </h1>
-
-  <p class="subpage-subtitle">
-    Interactive dashboards and audit testing applications designed to improve coverage,
-    identify exceptions, support targeted testing, and make audit results easier to review.
-  </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>Power BI</span>
-    <span>DAX</span>
-    <span>Python</span>
-    <span>Streamlit</span>
-    <span>Statistical testing</span>
-  </div>
-
-  <div class="landing-actions">
-    <a class="btn landing-btn--light" href="#issue-tracker">View issue tracker</a>
-    <a class="btn landing-btn--outline" href="#vendor-payments">View vendor monitoring</a>
-    <a class="btn landing-btn--outline" href="#testing-apps">View testing apps</a>
-  </div>
-</div>
-
-<div class="subpage-hero__visual">
-  <div class="subpage-visual-card subpage-visual-card--large">
-    <img src="/assets/img/hero-audit-sampling-focus.png" alt="Focused audit sampling application screenshot showing a filtered population">
-  </div>
-
-  <div class="subpage-visual-card subpage-visual-card--small">
-    <img src="/assets/img/hero-benfords-focus.png" alt="Focused Benford's Law analysis showing digit frequency results">
-  </div>
-</div>
-
-</section>
-
-{% include demo-disclaimer.html %}
-
-<section class="subpage-section subpage-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Analytics overview</p>
-
-<h2 class="subpage-section-title">
-  Designed around practical audit monitoring and testing needs.
-</h2>
-
-<div class="subpage-feature-grid">
-
-<div class="subpage-feature-card">
-  <span>01</span>
-  <h3>Monitor risk</h3>
-  <p>Use dashboards to identify overdue issues, high-risk transactions, unusual patterns, and follow-up priorities.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>02</span>
-  <h3>Target testing</h3>
-  <p>Support risk-based testing through exception analysis, sampling, anomaly screening, and population review.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>03</span>
-  <h3>Communicate results</h3>
-  <p>Translate audit data into clear visuals that improve management reporting, review, and decision-making.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="issue-tracker" class="subpage-section subpage-section--light">
-
-<div class="subpage-split">
-
-<div>
-  <p class="landing-kicker landing-kicker--dark">Interactive dashboard</p>
-
-  <h2 class="subpage-section-title">
-    Internal Audit Issue Tracker
-  </h2>
-
-  <p class="subpage-copy">
-    Interactive Power BI dashboard for tracking audit findings, management action plans,
-    issue aging, ownership, and follow-up status.
-  </p>
-
-  <div class="landing-tags">
-    <span>Power BI</span>
-    <span>Audit findings</span>
-    <span>Issue aging</span>
-    <span>Demo data</span>
-  </div>
-
-  <dl class="project-facts">
-    <div><dt>Status</dt><dd>Live demo</dd></div>
-    <div><dt>Role</dt><dd>Design and development</dd></div>
-    <div><dt>Deliverable</dt><dd>Power BI dashboard</dd></div>
-    <div><dt>Data</dt><dd>Demonstration data</dd></div>
-  </dl>
-
-  <div class="subpage-value-grid subpage-value-grid--compact">
-
-    <div>
-      <strong>Challenge</strong>
-      <p>Tracking open issues and management action plans across audits can become fragmented, manual, and difficult to summarize.</p>
+<section class="analytics-hero">
+  <div class="analytics-hero__copy">
+    <p class="analytics-kicker">Featured case study · Audit insight</p>
+    <h1>Turn transaction volume into <em>visible risk.</em></h1>
+    <p class="analytics-hero__lede">Vendor Payment Monitoring uses analytics to surface unusual patterns, guide investigation, and help auditors focus testing where it can add the most value.</p>
+    <div class="analytics-actions">
+      <a class="analytics-link analytics-link--light" href="#story">Read the story <span>↓</span></a>
+      <a class="analytics-link analytics-link--light" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">Open live dashboard <span>↗</span></a>
     </div>
-
-    <div>
-      <strong>Solution</strong>
-      <p>Centralized issue tracking with status, aging, ownership, follow-up views, and management reporting visuals.</p>
-    </div>
-
-    <div>
-      <strong>Audit value</strong>
-      <p>Improves follow-up discipline, management reporting, and visibility into overdue or high-priority issues.</p>
-    </div>
-
   </div>
 
-  <p class="cta-row">
-    <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">
-      Open full report
-    </a>
-    <a class="cta-link" href="#vendor-payments">Next dashboard →</a>
-  </p>
-</div>
-
-<div class="subpage-media-card analytics-dashboard-card">
-  <div class="powerbi-embed">
-    <iframe
-      title="Internal Audit Issue Tracker Dashboard"
-      src="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1"
-      allowfullscreen="true"
-      loading="lazy">
-    </iframe>
+  <div class="analytics-hero__visual">
+    <div class="analytics-screen">
+      <div class="analytics-screen__bar"><span></span><span></span><span></span><small>Vendor Payments Monitoring · Power BI</small></div>
+      <img src="/assets/img/vendor_pmts_solution.png" alt="Vendor Payments Monitoring Power BI dashboard">
+    </div>
+    <div class="signal-tag signal-tag--one"><small>Signal 01</small><strong>Duplicate indicators</strong></div>
+    <div class="signal-tag signal-tag--two"><small>Signal 02</small><strong>Split payments</strong></div>
+    <div class="signal-tag signal-tag--three"><small>Signal 03</small><strong>Unusual activity</strong></div>
   </div>
-
-  <p class="caption">Embedded interactive Power BI report using demo data.</p>
-</div>
-
-</div>
-
 </section>
 
-<section id="vendor-payments" class="subpage-section subpage-section--dark">
+<section class="analytics-facts" aria-label="Project facts">
+  <div><small>Role</small><strong>Analytics design + development</strong></div>
+  <div><small>Platform</small><strong>Power BI</strong></div>
+  <div><small>Focus</small><strong>Vendor payments</strong></div>
+  <div><small>Data</small><strong>Demonstration dataset</strong></div>
+</section>
 
-<div class="subpage-split">
+<section id="story" class="analytics-statement">
+  <p class="analytics-kicker analytics-kicker--dark">The challenge</p>
+  <h2>A transaction population can contain the answer—and still hide the risk.</h2>
+  <p>Manual review sees only a fraction of activity. The audit challenge is not simply obtaining more data; it is converting the population into signals that help auditors decide where to look first.</p>
+</section>
 
-<div>
-  <p class="landing-kicker">Audit monitoring dashboard</p>
-
-  <h2 class="subpage-section-title subpage-section-title--light">
-    Vendor Payments Monitoring
-  </h2>
-
-  <p class="subpage-copy subpage-copy--light">
-    Risk-focused Power BI dashboard for analyzing payment patterns, vendor behavior,
-    duplicate indicators, split payments, and unusual transaction activity.
-  </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>Power BI</span>
-    <span>Vendor payments</span>
-    <span>Risk analytics</span>
-    <span>Demo data</span>
+<section class="population-section">
+  <div class="analytics-section-heading">
+    <p class="analytics-kicker">From population to attention</p>
+    <h2>Analytics changes the starting point of audit testing.</h2>
   </div>
+  <div class="population-flow" aria-label="Analytics workflow from transaction population to audit attention">
+    <div><small>01</small><strong>Population</strong><span>Vendor, invoice, payment, date, and amount data</span></div>
+    <b>→</b>
+    <div><small>02</small><strong>Patterns</strong><span>Frequency, timing, thresholds, and relationships</span></div>
+    <b>→</b>
+    <div><small>03</small><strong>Signals</strong><span>Transactions that warrant additional attention</span></div>
+    <b>→</b>
+    <div><small>04</small><strong>Testing</strong><span>Auditor-led investigation and evidence evaluation</span></div>
+  </div>
+</section>
 
-  <dl class="project-facts project-facts--dark">
-    <div><dt>Status</dt><dd>Live demo</dd></div>
-    <div><dt>Role</dt><dd>Design and development</dd></div>
-    <div><dt>Deliverable</dt><dd>Power BI dashboard</dd></div>
-    <div><dt>Data</dt><dd>Demonstration data</dd></div>
-  </dl>
+<section class="analytics-solution">
+  <div class="analytics-solution__copy">
+    <p class="analytics-kicker analytics-kicker--dark">The solution</p>
+    <h2>Make risk patterns explorable.</h2>
+    <p>The dashboard organizes vendor and payment activity into interactive views that allow an auditor to move from an overall population to a specific transaction, vendor, or pattern.</p>
+    <a class="analytics-link" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">Explore the interactive report <span>↗</span></a>
+  </div>
+  <div class="analytics-solution__visual">
+    <img src="/assets/img/vendor_pmts_solution.png" alt="Risk-focused vendor payment dashboard" loading="lazy">
+    <span>Filter · compare · investigate</span>
+  </div>
+</section>
 
-  <div class="subpage-value-grid subpage-value-grid--dark subpage-value-grid--compact">
+<section class="signals-section">
+  <div class="analytics-section-heading analytics-section-heading--split">
+    <div><p class="analytics-kicker analytics-kicker--dark">The signal system</p><h2>Four lenses for directing audit attention.</h2></div>
+    <p>A signal is not a finding. It is a reason to ask a better question and perform additional audit work.</p>
+  </div>
+  <div class="signals-grid">
+    <div class="signal-card signal-card--cyan"><span>01</span><h3>Duplicate indicators</h3><p>Compare vendors, invoice references, dates, and amounts for potentially repeated activity.</p></div>
+    <div class="signal-card"><span>02</span><h3>Split-payment patterns</h3><p>Look for related transactions that may sit near approval or review thresholds.</p></div>
+    <div class="signal-card"><span>03</span><h3>Vendor concentration</h3><p>Identify vendors, categories, or locations carrying disproportionate activity.</p></div>
+    <div class="signal-card signal-card--blue"><span>04</span><h3>Unusual timing</h3><p>Surface transaction timing and frequency that differ from expected patterns.</p></div>
+  </div>
+</section>
 
-    <div>
-      <strong>Challenge</strong>
-      <p>High-volume vendor payments make it difficult to identify duplicate, split, unusual, or higher-risk transactions through manual review alone.</p>
+<section class="investigation-section">
+  <div class="investigation-section__intro">
+    <p class="analytics-kicker">The audit experience</p>
+    <h2>Move from overview to evidence without losing context.</h2>
+  </div>
+  <div class="investigation-track">
+    <div><small>01</small><strong>Scan</strong><span>Understand the population.</span></div>
+    <div><small>02</small><strong>Filter</strong><span>Narrow to relevant patterns.</span></div>
+    <div><small>03</small><strong>Investigate</strong><span>Trace the underlying activity.</span></div>
+    <div><small>04</small><strong>Validate</strong><span>Obtain and evaluate evidence.</span></div>
+  </div>
+  <div class="dashboard-frame">
+    <div class="powerbi-embed">
+      <iframe title="Vendor Payments Monitoring Dashboard" src="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" allowfullscreen="true" loading="lazy"></iframe>
     </div>
-
-    <div>
-      <strong>Solution</strong>
-      <p>Built a risk-focused dashboard highlighting payment patterns, vendor behavior, and anomalies for targeted audit testing.</p>
-    </div>
-
-    <div>
-      <strong>Audit value</strong>
-      <p>Enables focused audit testing and continuous monitoring of transactions that may warrant additional review.</p>
-    </div>
-
+    <p>Interactive Power BI report using demonstration data.</p>
   </div>
-
-  <p class="cta-row">
-    <a class="btn landing-btn--light" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
-      Open full report
-    </a>
-    <a class="cta-link cta-link--dark" href="#testing-apps">View testing apps →</a>
-  </p>
-</div>
-
-<div class="subpage-media-card analytics-dashboard-card">
-  <div class="powerbi-embed">
-    <iframe
-      title="Vendor Payments Monitoring Dashboard"
-      src="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
-      allowfullscreen="true"
-      loading="lazy">
-    </iframe>
-  </div>
-
-  <p class="caption">Embedded interactive Power BI report using demo data.</p>
-</div>
-
-</div>
-
 </section>
 
-<section id="testing-apps" class="subpage-section subpage-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Audit testing applications</p>
-
-<h2 class="subpage-section-title">
-  Streamlit apps for sampling, anomaly screening, and compliance analytics.
-</h2>
-
-<p class="subpage-copy">
-  These applications demonstrate how Python and Streamlit can support repeatable audit procedures,
-  sample selection, anomaly analysis, and risk-based review.
-</p>
-
-<dl class="project-facts">
-  <div><dt>Status</dt><dd>Live applications</dd></div>
-  <div><dt>Role</dt><dd>Design and development</dd></div>
-  <div><dt>Deliverable</dt><dd>Streamlit apps</dd></div>
-  <div><dt>Data</dt><dd>User-provided or synthetic</dd></div>
-</dl>
-
-<div class="subpage-feature-grid">
-
-<div class="subpage-feature-card">
-  <span>Sampling</span>
-  <h3>Audit Sampling Tool</h3>
-  <p>Interactive sampling app with filtering, random selection, and exportable results for reproducible audit testing.</p>
-
-  <p class="cta-row">
-    <a class="btn" href="https://audit-sampling-tool.streamlit.app/" target="_blank" rel="noopener">Open app</a>
-  </p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Anomaly screening</span>
-  <h3>Benford’s Law Audit Tool</h3>
-  <p>Benford’s Law analysis with visual diagnostics and anomaly flagging to support rapid triage of high-risk datasets.</p>
-
-  <p class="cta-row">
-    <a class="btn" href="https://benfords-law-audit-tool.streamlit.app" target="_blank" rel="noopener">Open app</a>
-    <a class="cta-link" href="https://github.com/colby-k/benfords-law-audit-tool" target="_blank" rel="noopener">View code →</a>
-  </p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Compliance analytics</span>
-  <h3>Fair Lending Analysis</h3>
-  <p>Simulator using synthetic data, interactive controls, and statistical analysis to demonstrate fair lending review concepts.</p>
-
-  <p class="cta-row">
-    <a class="btn" href="https://fair-lending-app-app.streamlit.app/" target="_blank" rel="noopener">Open app</a>
-  </p>
-</div>
-
-</div>
-
-<div class="subpage-media-stack" style="margin-top:1.5rem;">
-
-<div class="subpage-media-card">
-  <img src="/assets/img/audit_sampling_tool.png" alt="Audit sampling app screenshot" loading="lazy">
-  <p class="caption">Audit Sampling Tool interface for filtering populations and generating sample selections.</p>
-</div>
-
-<div class="subpage-media-card">
-  <img src="/assets/img/benfords_law.png" alt="Benford’s Law app screenshot" loading="lazy">
-  <p class="caption">Benford’s Law tool showing visual diagnostics and anomaly screening results.</p>
-</div>
-
-<div class="subpage-media-card">
-  <img src="/assets/img/fair_lending_app.png" alt="Fair lending app screenshot" loading="lazy">
-  <p class="caption">Fair lending simulator using synthetic data and statistical testing concepts.</p>
-</div>
-
-</div>
-
-<div class="mini-case">
-<p>
-<strong>Important limitation:</strong> Benford’s Law and similar analytics are screening techniques, not proof of fraud or noncompliance. Results should be used to identify transactions or populations that may warrant additional audit procedures.
-</p>
-</div>
-
-</section>
-
-<section class="subpage-section subpage-section--gradient">
-
-<p class="landing-kicker landing-kicker--dark">Additional BI examples</p>
-
-<h2 class="subpage-section-title">
-  Business intelligence examples with audit-style analytical value.
-</h2>
-
-<p class="subpage-copy">
-  These examples are not formal audit datasets, but they demonstrate the same techniques used in audit analytics:
-  data modeling, trend review, outlier identification, segmentation, and management reporting.
-</p>
-
-<div class="subpage-split" style="margin-top:1.5rem;">
-
-<div class="subpage-media-card analytics-dashboard-card">
-  <h3>Adventure Works – Sales & Operations Dashboard</h3>
-  <p class="subpage-copy">
-    End-to-end dashboard development using a multi-table operational dataset with revenue trends,
-    product performance, and operational drivers.
-  </p>
-
-  <div class="powerbi-embed">
-    <iframe
-      title="Adventure Works Sales and Operations Dashboard"
-      src="https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
-      allowfullscreen="true"
-      loading="lazy">
-    </iframe>
+<section class="analytics-impact">
+  <div class="analytics-impact__statement"><span>The result</span><strong>Broader view.<br>Sharper focus.</strong></div>
+  <div class="analytics-impact__list">
+    <div><span>01</span><p>Review the full population before selecting transactions.</p></div>
+    <div><span>02</span><p>Direct testing toward defined risk indicators.</p></div>
+    <div><span>03</span><p>Make patterns and exceptions easier to communicate.</p></div>
+    <div><span>04</span><p>Support repeatable monitoring as data is refreshed.</p></div>
   </div>
+</section>
 
-  <p class="caption">Embedded interactive Power BI report using demo data.</p>
-
-  <p class="cta-row">
-    <a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiODhkYWI5ZmYtZTk0Yy00NjUwLTg0YjItNjI3ODA3MDk1N2U5IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
-      Open full report
-    </a>
-  </p>
-</div>
-
-<div class="subpage-media-card analytics-dashboard-card">
-  <h3>Property Management Dashboard</h3>
-  <p class="subpage-copy">
-    Portfolio-level dashboard for reviewing property performance, filtering locations,
-    and identifying outliers or underperforming assets.
-  </p>
-
-  <div class="powerbi-embed">
-    <iframe
-      title="Property Management Dashboard"
-      src="https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9"
-      allowfullscreen="true"
-      loading="lazy">
-    </iframe>
+<section class="analytics-decisions">
+  <div class="analytics-section-heading analytics-section-heading--split">
+    <div><p class="analytics-kicker analytics-kicker--dark">Design decisions</p><h2>Attention before automation.</h2></div>
+    <p>The dashboard is designed to support auditor decisions—not label transactions as improper.</p>
   </div>
-
-  <p class="caption">Embedded interactive Power BI report using demo data.</p>
-
-  <p class="cta-row">
-    <a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiZjc0MTliNDYtNjZmYy00MWY1LTlmNTEtMmFiNGI2Y2FmOGY2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">
-      Open full report
-    </a>
-  </p>
-</div>
-
-</div>
-
+  <div class="analytics-decision-list">
+    <details open><summary><span>01</span>Why start with the full population?</summary><p>Population-level review provides context for sampling, identifies concentrations, and makes unusual activity easier to compare against normal behavior.</p></details>
+    <details><summary><span>02</span>Why interactive filters?</summary><p>Risk questions evolve during analysis. Filters allow auditors to test hypotheses without rebuilding a static report for every question.</p></details>
+    <details><summary><span>03</span>Why call them signals?</summary><p>An analytical exception is not proof of a control failure, error, or fraud. It identifies activity that may justify additional procedures.</p></details>
+    <details><summary><span>04</span>Where does judgment remain?</summary><p>Auditors define the risk logic, assess relevance, obtain source evidence, understand explanations, and determine whether an exception exists.</p></details>
+  </div>
 </section>
 
-<section class="subpage-final-cta">
-
-<p class="landing-kicker">Audit analytics</p>
-
-<h2>
-Analytics that support better audit coverage, clearer testing, and more focused follow-up.
-</h2>
-
-<p>
-Explore the audit tools page, view data projects, or connect with me on LinkedIn.
-</p>
-
-<div class="landing-actions landing-actions--center">
-  <a class="btn landing-btn--light" href="/excel-tools/">View audit tools</a>
-  <a class="btn landing-btn--outline" href="/sql-projects/">View data projects</a>
-  <a class="btn landing-btn--outline" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
-</div>
-
+<section class="analytics-note">
+  <strong>Portfolio demonstration</strong>
+  <p>This dashboard uses demonstration data and is provided for portfolio and discussion purposes. Risk indicators require validation, calibration, and governance before use in a formal audit environment.</p>
 </section>
 
-</div>
+<section class="related-analytics">
+  <div class="analytics-section-heading analytics-section-heading--split">
+    <div><p class="analytics-kicker analytics-kicker--dark">Related analytics</p><h2>Other ways to focus audit work.</h2></div>
+    <p>Supporting dashboards and applications address issue follow-up, sampling, anomaly screening, and compliance analysis.</p>
+  </div>
+  <div class="analytics-project-grid">
+    <article class="analytics-project analytics-project--wide">
+      <div class="analytics-project__image"><img src="/assets/img/internal_audit_issue_tracker.png" alt="Internal Audit Issue Tracker dashboard" loading="lazy"></div>
+      <p class="analytics-kicker analytics-kicker--dark">Power BI · Follow-up</p><h3>Internal Audit Issue Tracker</h3><p>Centralize findings, ownership, action plans, aging, and follow-up priorities.</p>
+      <a class="analytics-link" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">Open report <span>↗</span></a>
+    </article>
+    <article class="analytics-project"><div class="analytics-project__image"><img src="/assets/img/audit_sampling_tool.png" alt="Audit Sampling Tool" loading="lazy"></div><p class="analytics-kicker analytics-kicker--dark">Python · Sampling</p><h3>Audit Sampling Tool</h3><p>Filter populations, generate random selections, and export reproducible results.</p><a class="analytics-link" href="https://audit-sampling-tool.streamlit.app/" target="_blank" rel="noopener">Open app <span>↗</span></a></article>
+    <article class="analytics-project"><div class="analytics-project__image"><img src="/assets/img/benfords_law.png" alt="Benford's Law Audit Tool" loading="lazy"></div><p class="analytics-kicker analytics-kicker--dark">Python · Screening</p><h3>Benford’s Law Tool</h3><p>Use digit-frequency analysis as a screening technique for unusual datasets.</p><a class="analytics-link" href="https://benfords-law-audit-tool.streamlit.app" target="_blank" rel="noopener">Open app <span>↗</span></a></article>
+    <article class="analytics-project"><div class="analytics-project__image"><img src="/assets/img/fair_lending_app.png" alt="Fair Lending Analysis application" loading="lazy"></div><p class="analytics-kicker analytics-kicker--dark">Python · Compliance</p><h3>Fair Lending Analysis</h3><p>Explore statistical review concepts with interactive controls and synthetic data.</p><a class="analytics-link" href="https://fair-lending-app-app.streamlit.app/" target="_blank" rel="noopener">Open app <span>↗</span></a></article>
+  </div>
+</section>
+
+<section class="analytics-limitation">
+  <strong>Analytics informs attention—not conclusions.</strong>
+  <p>Benford’s Law, duplicate indicators, threshold patterns, and other techniques are screening methods. Results should be validated and followed with appropriate audit procedures.</p>
+</section>
+
+<section class="analytics-final">
+  <p class="analytics-kicker">Better audit systems</p>
+  <h2>See more.<br>Test smarter.</h2>
+  <div><a class="analytics-link analytics-link--light" href="/">Return home <span>↗</span></a><a class="analytics-link analytics-link--light" href="/ai-audit-assistant/">Next: Responsible AI <span>↗</span></a></div>
+</section>
+
+</article>
