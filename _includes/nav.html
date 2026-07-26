@@ -9,48 +9,52 @@
 
 <details class="mobile-nav mobile-nav--v2">
   <summary aria-label="Open navigation menu">
-    <span>Menu</span>
+    <span class="mobile-nav__label mobile-nav__label--open">Menu</span>
+    <span class="mobile-nav__label mobile-nav__label--close">Close</span>
     <span class="mobile-nav__icon" aria-hidden="true"></span>
   </summary>
 
   <div class="mobile-nav__panel">
-    <div class="mobile-nav__heading">
+    <div class="mobile-nav__intro">
       <span>Explore</span>
       <strong>Better Audit Systems</strong>
     </div>
 
-    <nav class="mobile-nav__links" aria-label="Mobile primary">
-      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>
-        <span class="mobile-nav__number">01</span>
-        <span><strong>Home</strong><small>Portfolio overview</small></span>
-        <b>↗</b>
-      </a>
-      <a href="{{ '/excel-tools/' | relative_url }}"{% if page.url == '/excel-tools/' %} aria-current="page"{% endif %}>
-        <span class="mobile-nav__number">02</span>
-        <span><strong>Audit Quality</strong><small>Workflow + documentation</small></span>
-        <b>↗</b>
-      </a>
-      <a href="{{ '/audit-analytics/' | relative_url }}"{% if page.url == '/audit-analytics/' %} aria-current="page"{% endif %}>
-        <span class="mobile-nav__number">03</span>
-        <span><strong>Audit Insight</strong><small>Analytics + monitoring</small></span>
-        <b>↗</b>
-      </a>
-      <a href="{{ '/ai-audit-assistant/' | relative_url }}"{% if page.url == '/ai-audit-assistant/' %} aria-current="page"{% endif %}>
-        <span class="mobile-nav__number">04</span>
-        <span><strong>Responsible AI</strong><small>Governed AI workflows</small></span>
-        <b>↗</b>
-      </a>
-      <a href="{{ '/sql-projects/' | relative_url }}"{% if page.url == '/sql-projects/' %} aria-current="page"{% endif %}>
-        <span class="mobile-nav__number">05</span>
-        <span><strong>Data Systems</strong><small>SQL + data modeling</small></span>
-        <b>↗</b>
-      </a>
-      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>
-        <span class="mobile-nav__number">06</span>
-        <span><strong>About</strong><small>Experience + approach</small></span>
-        <b>↗</b>
-      </a>
-    </nav>
+    <section class="mobile-nav__group" aria-labelledby="mobile-capabilities">
+      <div class="mobile-nav__group-label" id="mobile-capabilities">
+        <span>Capabilities</span>
+        <span aria-hidden="true">—</span>
+      </div>
+      <nav class="mobile-nav__links" aria-label="Mobile capabilities">
+        <a href="{{ '/excel-tools/' | relative_url }}"{% if page.url == '/excel-tools/' %} aria-current="page"{% endif %}>
+          <span>Audit Quality</span><b aria-hidden="true">↗</b>
+        </a>
+        <a href="{{ '/audit-analytics/' | relative_url }}"{% if page.url == '/audit-analytics/' %} aria-current="page"{% endif %}>
+          <span>Audit Insight</span><b aria-hidden="true">↗</b>
+        </a>
+        <a href="{{ '/ai-audit-assistant/' | relative_url }}"{% if page.url == '/ai-audit-assistant/' %} aria-current="page"{% endif %}>
+          <span>Responsible AI</span><b aria-hidden="true">↗</b>
+        </a>
+        <a href="{{ '/sql-projects/' | relative_url }}"{% if page.url == '/sql-projects/' %} aria-current="page"{% endif %}>
+          <span>Data Systems</span><b aria-hidden="true">↗</b>
+        </a>
+      </nav>
+    </section>
+
+    <section class="mobile-nav__group mobile-nav__group--secondary" aria-labelledby="mobile-more">
+      <div class="mobile-nav__group-label" id="mobile-more">
+        <span>More</span>
+        <span aria-hidden="true">—</span>
+      </div>
+      <nav class="mobile-nav__links" aria-label="Mobile secondary">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>
+          <span>Home</span><b aria-hidden="true">↗</b>
+        </a>
+        <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>
+          <span>About</span><b aria-hidden="true">↗</b>
+        </a>
+      </nav>
+    </section>
 
     <nav class="mobile-nav__socials mobile-nav__socials--v2" aria-label="Professional profile links in menu">
       <a href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
