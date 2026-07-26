@@ -1,331 +1,221 @@
 ---
-title: "AI Workflows for Internal Audit"
+title: "Effective AI Use Cases for Internal Audit"
 layout: default
 permalink: /ai-audit-assistant/
-description: "Governed AI workflows for internal audit evidence annotation, documentation, control identification, risk mapping, and workpaper quality review."
+description: "Practical, governed AI use cases for internal audit evidence, documentation, analysis, review, and methodology support."
 ---
 
-<div class="subpage subpage--ai-audit">
+<link rel="stylesheet" href="/assets/css/responsible-ai-case-study.css">
 
-<section class="subpage-hero subpage-hero--dark">
+<article class="ai-case">
 
-<div class="subpage-hero__content">
-  <p class="landing-kicker">AI for Internal Audit</p>
-
-  <h1 class="subpage-title">
-    Governed AI workflows for practical internal audit execution.
-  </h1>
-
-  <p class="subpage-subtitle">
-    Applied workflow concepts for audit documentation, evidence annotation, control identification,
-    risk mapping, and independent quality review—designed to improve consistency without replacing
-    auditor judgment.
-  </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>AI Governance</span>
-    <span>Evidence Annotation</span>
-    <span>Control Identification</span>
-    <span>Quality Review</span>
-  </div>
-
-  <div class="landing-actions">
-    <a class="btn landing-btn--light" href="#evidence-annotation">View demonstrated workflow</a>
-    <a class="btn landing-btn--outline" href="#workflow-roadmap">View workflow roadmap</a>
-  </div>
-</div>
-
-<div class="subpage-hero__visual ai-portfolio-visual" role="group" aria-label="AI for internal audit workflow overview">
-  <div class="ai-portfolio-visual__center">
-    <span>Auditor judgment</span>
-    <strong>Human-led workflow</strong>
-    <p>AI supports structure, analysis, and drafting. The auditor remains accountable.</p>
-  </div>
-
-  <div class="ai-portfolio-visual__item">
-    <span>01</span>
-    <strong>Document</strong>
-    <p>Structure facts and audit artifacts.</p>
-  </div>
-
-  <div class="ai-portfolio-visual__item">
-    <span>02</span>
-    <strong>Analyze</strong>
-    <p>Identify controls, risks, and open questions.</p>
-  </div>
-
-  <div class="ai-portfolio-visual__item">
-    <span>03</span>
-    <strong>Review</strong>
-    <p>Evaluate support, logic, and methodology.</p>
-  </div>
-</div>
-
-</section>
-
-{% include demo-disclaimer.html %}
-
-<section class="subpage-section subpage-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Applied AI approach</p>
-
-<h2 class="subpage-section-title">
-  Controlled workflows, not isolated prompts.
-</h2>
-
-<p class="subpage-copy">
-  Each project begins with a defined audit activity, required inputs, explicit limitations,
-  a structured output, and a human-review gate. Prompt engineering supports the workflow,
-  but the objective is repeatable and reviewable audit execution.
-</p>
-
-<div class="subpage-feature-grid">
-
-<div class="subpage-feature-card">
-  <span>Document</span>
-  <h3>Structure audit artifacts</h3>
-  <p>Convert supplied facts into consistent documentation, annotations, or issue drafts.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Analyze</span>
-  <h3>Surface gaps and relationships</h3>
-  <p>Identify potential controls, risk relationships, missing information, and validation needs.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Review</span>
-  <h3>Strengthen quality assurance</h3>
-  <p>Evaluate evidence support, testing logic, methodology alignment, and conclusions.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="evidence-annotation" class="subpage-section subpage-section--dark">
-
-<div class="subpage-split">
-
-<div>
-  <p class="landing-kicker">Featured demonstrated workflow</p>
-
-  <h2 class="subpage-section-title subpage-section-title--light">
-    AI Evidence Annotation
-  </h2>
-
-  <p class="subpage-copy subpage-copy--light">
-    A controlled workflow that produces a separate annotated PDF from each source artifact
-    while preserving source integrity and improving reviewer navigation.
-  </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>PDF annotation</span>
-    <span>Tickmarks</span>
-    <span>Evidence traceability</span>
-    <span>Test of one</span>
-  </div>
-
-  <dl class="project-facts project-facts--dark">
-    <div><dt>Status</dt><dd>Downloadable demonstration</dd></div>
-    <div><dt>Role</dt><dd>Workflow and control design</dd></div>
-    <div><dt>Deliverable</dt><dd>PDFs + Excel review</dd></div>
-    <div><dt>Data</dt><dd>Synthetic examples</dd></div>
-  </dl>
-
-  <div class="subpage-value-grid subpage-value-grid--dark subpage-value-grid--compact">
-    <div>
-      <strong>Challenge</strong>
-      <p>Relevant support, testing attributes, and conclusions may not be clearly connected within retained evidence.</p>
-    </div>
-    <div>
-      <strong>Solution</strong>
-      <p>The workflow adds proximity-based annotations, evidence references, testing attributes, and a complete tickmark legend to a derivative PDF.</p>
-    </div>
-    <div>
-      <strong>Demonstrated result</strong>
-      <p>One reviewable derivative with visible annotations while the original source remains unchanged.</p>
+<section class="ai-case-hero">
+  <div class="ai-case-hero__copy">
+    <p class="ai-kicker">Responsible AI · Practical use cases</p>
+    <h1>Where AI actually helps <em>Internal Audit.</em></h1>
+    <p class="ai-case-hero__lede">The strongest use cases begin with a real audit activity, use defined sources, produce a reviewable output, and leave the professional decision with the auditor.</p>
+    <div class="ai-case-hero__actions">
+      <a class="ai-link ai-link--light" href="#use-cases">Explore the use cases <span>↓</span></a>
+      <a class="ai-link ai-link--light" href="/assets/files/Annotated_Vendor_Payment_Evidence.pdf" target="_blank" rel="noopener">View working example <span>↗</span></a>
     </div>
   </div>
 
-  <p class="cta-row">
-    <a class="btn landing-btn--light" href="/assets/files/Annotated_Vendor_Payment_Evidence.pdf" target="_blank" rel="noopener">View annotated PDF</a>
-    <a class="btn landing-btn--outline" href="/assets/files/Synthetic_Vendor_Payment_Evidence.pdf" target="_blank" rel="noopener">View source PDF</a>
-    <a class="cta-link cta-link--dark" href="/assets/files/Evidence_Annotation_Review_Workbook.xlsx">Download Excel review →</a>
-  </p>
-</div>
-
-<div class="subpage-media-stack">
-  <div class="subpage-media-card ai-evidence-preview ai-evidence-preview--focused">
-    <a href="/assets/files/Annotated_Vendor_Payment_Evidence.pdf" target="_blank" rel="noopener">
-      <img src="/assets/img/ai-evidence-annotation-focus.png" alt="Focused crop showing red evidence annotations and the complete tickmark legend" loading="lazy">
-    </a>
-    <p class="caption">Focused preview of the annotations and tickmark legend.</p>
+  <div class="ai-case-hero__visual">
+    <div class="ai-usecase-map" aria-label="Five effective AI use cases for Internal Audit">
+      <div class="ai-usecase-map__header"><small>Effective AI use cases</small><span>05</span></div>
+      <div class="ai-usecase-map__row ai-usecase-map__row--featured"><span>01</span><strong>Evidence</strong><small>Annotate + trace support</small></div>
+      <div class="ai-usecase-map__row"><span>02</span><strong>Documentation</strong><small>Structure audit facts</small></div>
+      <div class="ai-usecase-map__row"><span>03</span><strong>Analysis</strong><small>Surface risks + gaps</small></div>
+      <div class="ai-usecase-map__row"><span>04</span><strong>Review</strong><small>Challenge logic + support</small></div>
+      <div class="ai-usecase-map__row"><span>05</span><strong>Knowledge</strong><small>Retrieve approved guidance</small></div>
+      <div class="ai-usecase-map__footer"><span>Auditor judgment</span> remains accountable</div>
+    </div>
   </div>
-
-  <div class="ai-output-card ai-output-card--dark">
-    <p class="ai-output-card__eyebrow">Output controls</p>
-    <h3>Evidence remains the source of truth.</h3>
-    <ul class="ai-checklist">
-      <li>One source artifact per annotated derivative</li>
-      <li>Flattened annotations visible in ordinary PDF viewers</li>
-      <li>Attribute-specific tickmarks placed near support</li>
-      <li>Complete tickmark legend for reviewer navigation</li>
-    </ul>
-  </div>
-</div>
-
-</div>
-
 </section>
 
-<section id="workflow-roadmap" class="subpage-section subpage-section--gradient">
+<section class="ai-facts" aria-label="Responsible AI principles">
+  <div><small>Starting point</small><strong>A real audit activity</strong></div>
+  <div><small>Boundary</small><strong>Defined sources</strong></div>
+  <div><small>Output</small><strong>Reviewable work</strong></div>
+  <div><small>Decision</small><strong>Human accountability</strong></div>
+</section>
 
-<p class="landing-kicker landing-kicker--dark">Additional workflows in development</p>
+<section id="story" class="ai-statement">
+  <p class="ai-kicker ai-kicker--dark">The point of view</p>
+  <h2>Start with the audit problem—not the model.</h2>
+  <p>AI is most useful when it improves a repeatable part of audit work. The objective is not more generated content. It is clearer evidence, stronger documentation, better questions, and more focused review.</p>
+</section>
 
-<h2 class="subpage-section-title">
-  The next projects will use the same source-disciplined model.
-</h2>
+<section class="ai-guardrails">
+  <div class="ai-section-heading ai-section-heading--split">
+    <div><p class="ai-kicker ai-kicker--dark">The effectiveness test</p><h2>Four conditions make a use case worth pursuing.</h2></div>
+    <p>A compelling demonstration is not enough. The workflow must be bounded, repeatable, reviewable, and appropriately human-led.</p>
+  </div>
 
-<p class="subpage-copy">
-  These workflows remain in design and are presented as a development roadmap—not as completed or deployed solutions.
-</p>
+  <div class="ai-guardrail-grid">
+    <div class="ai-guardrail-card ai-guardrail-card--violet">
+      <span>01 · Source-bounded</span>
+      <h3>We know what the AI may use.</h3>
+      <p>Inputs and authoritative sources are identified before the task begins.</p>
+    </div>
+    <div class="ai-guardrail-card">
+      <span>02 · Repeatable</span>
+      <h3>The workflow solves a recurring need.</h3>
+      <p>Defined inputs and outputs make the process reusable across similar work.</p>
+    </div>
+    <div class="ai-guardrail-card">
+      <span>03 · Reviewable</span>
+      <h3>A reviewer can inspect the work.</h3>
+      <p>Evidence, interpretation, limitations, and open questions remain visible.</p>
+    </div>
+    <div class="ai-guardrail-card ai-guardrail-card--teal">
+      <span>04 · Human-led</span>
+      <h3>The auditor retains the decision.</h3>
+      <p>AI supports mechanics and analysis; auditors determine sufficiency and conclusions.</p>
+    </div>
+  </div>
+</section>
 
-<div class="ai-roadmap-grid">
+<section id="use-cases" class="ai-usecases">
+  <div class="ai-section-heading ai-section-heading--split">
+    <div><p class="ai-kicker ai-kicker--dark">The use-case portfolio</p><h2>Five places AI can create practical audit value.</h2></div>
+    <p>Each use case defines the contribution AI can make and the responsibility that must remain with the auditor.</p>
+  </div>
 
-<article class="ai-roadmap-card">
-  <span class="ai-roadmap-card__status">Workflow design</span>
-  <h3>Control Identification and Risk Mapping</h3>
-  <p>Classify source-supported controls, process activities, and potential controls requiring validation before mapping relevant controls to risks.</p>
-  <dl>
-    <div><dt>Planned output</dt><dd>Control inventory + risk map</dd></div>
-    <div><dt>Primary inputs</dt><dd>Transcripts, procedures, narratives</dd></div>
-  </dl>
+  <article class="ai-usecase-featured">
+    <div class="ai-usecase-featured__copy">
+      <span class="ai-usecase-status">Demonstrated workflow</span>
+      <h3>Evidence annotation + traceability</h3>
+      <p>Add proximity-based annotations, testing attributes, and a complete tickmark legend to a separate derivative PDF while preserving the original source.</p>
+      <div class="ai-demo__actions">
+        <a class="ai-link" href="/assets/files/Annotated_Vendor_Payment_Evidence.pdf" target="_blank" rel="noopener">Annotated PDF <span>↗</span></a>
+        <a class="ai-link" href="/assets/files/Synthetic_Vendor_Payment_Evidence.pdf" target="_blank" rel="noopener">Source PDF <span>↗</span></a>
+        <a class="ai-link" href="/assets/files/Evidence_Annotation_Review_Workbook.xlsx">Review workbook <span>↓</span></a>
+      </div>
+    </div>
+    <div class="ai-usecase-featured__visual">
+      <img src="/assets/img/ai-evidence-annotation-focus.png" alt="Focused view of audit evidence annotations and a complete tickmark legend" loading="lazy">
+      <span>Evidence remains the source of truth</span>
+    </div>
+  </article>
+
+  <div class="ai-usecase-grid">
+    <article class="ai-usecase-card">
+      <div class="ai-usecase-card__top"><span>02</span><span class="ai-usecase-status">Framework demonstrated</span></div>
+      <h3>Audit documentation</h3>
+      <p>Structure walkthroughs, testing narratives, and issue drafts from supplied facts without inventing missing criteria, cause, or impact.</p>
+      <div class="ai-usecase-responsibility"><strong>Auditor responsibility</strong><span>Validate facts, methodology, tone, and conclusions.</span></div>
+    </article>
+
+    <article class="ai-usecase-card">
+      <div class="ai-usecase-card__top"><span>03</span><span class="ai-usecase-status">Workflow design</span></div>
+      <h3>Control + risk analysis</h3>
+      <p>Organize source-supported controls, surface potential gaps, and generate validation questions before risk mapping is finalized.</p>
+      <div class="ai-usecase-responsibility"><strong>Auditor responsibility</strong><span>Confirm control design, relevance, and risk relationships.</span></div>
+    </article>
+
+    <article class="ai-usecase-card">
+      <div class="ai-usecase-card__top"><span>04</span><span class="ai-usecase-status">Workflow design</span></div>
+      <h3>Workpaper quality review</h3>
+      <p>Flag unsupported statements, missing evidence, weak testing logic, unclear reasoning, and conclusions that exceed available support.</p>
+      <div class="ai-usecase-responsibility"><strong>Auditor responsibility</strong><span>Assess significance, resolve comments, and approve the work.</span></div>
+    </article>
+
+    <article class="ai-usecase-card">
+      <div class="ai-usecase-card__top"><span>05</span><span class="ai-usecase-status">Concept</span></div>
+      <h3>Methodology knowledge</h3>
+      <p>Retrieve and summarize approved audit guidance so teams can find relevant requirements and examples more efficiently.</p>
+      <div class="ai-usecase-responsibility"><strong>Auditor responsibility</strong><span>Confirm applicability and follow authoritative methodology.</span></div>
+    </article>
+  </div>
+</section>
+
+<section class="ai-workflow-section">
+  <div class="ai-workflow-section__intro">
+    <p class="ai-kicker">One operating standard</p>
+    <h2>Different use cases. The same visible chain of responsibility.</h2>
+  </div>
+
+  <div class="ai-workflow-track" aria-label="Governed AI workflow">
+    <div><small>01</small><strong>Supply</strong><span>Auditor-selected facts, evidence, scope, and limitations.</span></div>
+    <div><small>02</small><strong>Constrain</strong><span>Source rules, non-fabrication instructions, and output structure.</span></div>
+    <div><small>03</small><strong>Assist</strong><span>Annotation, organization, analysis, retrieval, or drafting support.</span></div>
+    <div><small>04</small><strong>Validate</strong><span>Auditor checks support, logic, methodology, and conclusion.</span></div>
+  </div>
+
+  <div class="ai-review-gate">
+    <div><strong>The final gate is human.</strong><p>AI may accelerate a task. It does not approve evidence, determine sufficiency, or make the audit decision.</p></div>
+    <span aria-hidden="true">✓</span>
+  </div>
+</section>
+
+<section class="ai-comparison-section">
+  <div class="ai-section-heading">
+    <p class="ai-kicker">Documentation example</p>
+    <h2>Prompting becomes governance when boundaries are explicit.</h2>
+  </div>
+
+  <div class="ai-prompt-grid">
+    <article class="ai-prompt-card">
+      <span>Uncontrolled request</span>
+      <h3>“Write an audit issue for missing approvals.”</h3>
+      <blockquote>The criteria, population, exceptions, cause, and impact are undefined.</blockquote>
+      <ul>
+        <li>May fill gaps with plausible assumptions</li>
+        <li>May overstate the available support</li>
+        <li>May hide what still requires auditor work</li>
+      </ul>
+    </article>
+
+    <article class="ai-prompt-card ai-prompt-card--controlled">
+      <span>Audit-controlled request</span>
+      <h3>Use supplied facts. Identify what is missing.</h3>
+      <blockquote>Do not invent criteria, exceptions, cause, impact, or management intent. Ask for clarification when required facts are absent.</blockquote>
+      <ul>
+        <li>Separates known facts from open questions</li>
+        <li>Creates a more reviewable draft</li>
+        <li>Preserves auditor validation and judgment</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section class="ai-impact">
+  <div class="ai-impact__statement"><span>The opportunity</span><strong>More leverage.<br>Same accountability.</strong></div>
+  <div class="ai-impact__list">
+    <div><span>01</span><p>Reduce repetitive organization and drafting effort.</p></div>
+    <div><span>02</span><p>Make missing information visible earlier.</p></div>
+    <div><span>03</span><p>Give reviewers a more consistent structure to inspect.</p></div>
+    <div><span>04</span><p>Keep professional judgment with the auditor.</p></div>
+  </div>
+</section>
+
+<section class="ai-decisions">
+  <div class="ai-section-heading ai-section-heading--split">
+    <div><p class="ai-kicker ai-kicker--dark">Selecting use cases</p><h2>Useful before impressive.</h2></div>
+    <p>The right question is not whether AI can perform a task. It is whether the workflow creates audit value without hiding risk or accountability.</p>
+  </div>
+
+  <div class="ai-decision-list">
+    <details open><summary><span>01</span>Does it solve a recurring audit problem?</summary><p>Prioritize activities where structure, retrieval, comparison, or drafting consumes meaningful time across engagements.</p></details>
+    <details><summary><span>02</span>Can the output be verified?</summary><p>Strong use cases produce work that an auditor can trace to evidence, methodology, or another authoritative source.</p></details>
+    <details><summary><span>03</span>Are the consequences of error manageable?</summary><p>Use tighter controls—or avoid the workflow—when errors could expose confidential data, misstate conclusions, or bypass required approval.</p></details>
+    <details><summary><span>04</span>Is accountability still clear?</summary><p>A reviewer should always know what the AI did, what evidence supported it, and who validated the final work.</p></details>
+  </div>
+</section>
+
+<section class="ai-note">
+  <strong>Portfolio demonstration</strong>
+  <p>These use cases use synthetic examples and independent portfolio materials. They do not contain employer, client, or confidential data. Development-stage concepts are labeled accordingly and are not presented as deployed audit solutions.</p>
+</section>
+
+<section class="ai-final">
+  <p class="ai-kicker">Better audit systems</p>
+  <h2>Use AI.<br>Keep the audit trail.</h2>
+  <div>
+    <a class="ai-link ai-link--light" href="/">Return home <span>↗</span></a>
+    <a class="ai-link ai-link--light" href="/sql-projects/">Next: Data systems <span>↗</span></a>
+  </div>
+</section>
+
 </article>
-
-<article class="ai-roadmap-card">
-  <span class="ai-roadmap-card__status">Workflow design</span>
-  <h3>CAE-Level Workpaper Review</h3>
-  <p>Identify unsupported statements, missing evidence, testing weaknesses, unclear logic, and conclusions that exceed the available support.</p>
-  <dl>
-    <div><dt>Planned output</dt><dd>Structured review memo</dd></div>
-    <div><dt>Primary inputs</dt><dd>Synthetic audit workpapers</dd></div>
-  </dl>
-</article>
-
-<article class="ai-roadmap-card">
-  <span class="ai-roadmap-card__status">Framework demonstrated</span>
-  <h3>Governed Documentation Assistant</h3>
-  <p>Apply source boundaries, non-fabrication rules, clarification triggers, and defined structures across common audit documentation activities.</p>
-  <dl>
-    <div><dt>Current output</dt><dd>Governed drafting framework</dd></div>
-    <div><dt>Data boundary</dt><dd>No client data</dd></div>
-  </dl>
-</article>
-
-</div>
-
-</section>
-
-<section id="documentation-assistant" class="subpage-section subpage-section--dark">
-
-<p class="landing-kicker">Governed drafting foundation</p>
-
-<h2 class="subpage-section-title subpage-section-title--light">
-  Better writing is not enough.
-</h2>
-
-<p class="subpage-copy subpage-copy--light">
-  The documentation framework demonstrates why professional-sounding output must still be
-  supported, scoped, reviewable, and aligned with audit methodology.
-</p>
-
-<div class="demo-grid">
-
-<div class="demo-card generic">
-  <div class="demo-label">Generic Prompt</div>
-  <div class="prompt-box">“Write an audit issue for missing approvals.”</div>
-  <p><strong>Output risks:</strong></p>
-  <ul class="bullets risk-list">
-    <li>May invent criteria or control requirements</li>
-    <li>May assume cause or impact without support</li>
-    <li>May present unsupported conclusions confidently</li>
-  </ul>
-</div>
-
-<div class="demo-card controlled">
-  <div class="demo-label">Audit-Controlled Prompt</div>
-  <div class="prompt-box">
-    Use only supplied facts. Do not invent criteria, samples, exceptions, cause,
-    impact, or management intent. Ask clarification questions when required facts are missing.
-  </div>
-  <p><strong>Control benefits:</strong></p>
-  <ul class="bullets benefit-list">
-    <li>Separates facts from assumptions</li>
-    <li>Identifies missing information before drafting</li>
-    <li>Preserves human validation and judgment</li>
-  </ul>
-</div>
-
-</div>
-
-</section>
-
-<section class="subpage-section subpage-section--light">
-
-<div class="subpage-split">
-
-<div>
-  <p class="landing-kicker landing-kicker--dark">Governance and evaluation</p>
-
-  <h2 class="subpage-section-title">
-    Shared controls and measurable expectations.
-  </h2>
-
-  <p class="subpage-copy">
-    Every workflow uses source boundaries, non-fabrication rules, clarification triggers,
-    methodology guardrails, and human review. Results will be measured only when a repeatable
-    synthetic benchmark is available.
-  </p>
-
-  <div class="mini-case">
-    <p>
-      <strong>Scope boundary:</strong> These projects support audit work; they do not approve controls,
-      evaluate evidence independently, make audit decisions, or replace professional judgment.
-    </p>
-  </div>
-</div>
-
-<div class="ai-governance-summary">
-  <div><strong>Source discipline</strong><span>Use identified sources and supplied facts only.</span></div>
-  <div><strong>Clarification</strong><span>Pause when required information is missing or inconsistent.</span></div>
-  <div><strong>Methodology</strong><span>Apply defined audit structures and documentation requirements.</span></div>
-  <div><strong>Human review</strong><span>Validate and finalize every AI-assisted output.</span></div>
-  <div><strong>Future evaluation</strong><span>Measure completeness, unsupported assertions, and reviewer revisions.</span></div>
-</div>
-
-</div>
-
-</section>
-
-<section class="subpage-final-cta">
-
-<p class="landing-kicker">AI for Internal Audit</p>
-
-<h2>
-Applied AI is most useful when the workflow, controls, and reviewer responsibilities are explicit.
-</h2>
-
-<p>
-Explore related audit tools and analytics or connect with me.
-</p>
-
-<div class="landing-actions landing-actions--center">
-  <a class="btn landing-btn--light" href="/excel-tools/">View audit tools</a>
-  <a class="cta-link cta-link--dark" href="/audit-analytics/">View audit analytics →</a>
-  <a class="cta-link cta-link--dark" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Connect on LinkedIn →</a>
-</div>
-
-</section>
-
-</div>
