@@ -1020,3 +1020,301 @@
     transition: none;
   }
 }
+
+
+/* Responsible AI use-case portfolio */
+
+.ai-usecase-map {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #131920;
+  box-shadow: 0 35px 90px rgba(0, 0, 0, 0.38);
+  transform: rotate(0.6deg);
+}
+
+.ai-usecase-map__header,
+.ai-usecase-map__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 1.25rem;
+}
+
+.ai-usecase-map__header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.ai-usecase-map__header small,
+.ai-usecase-map__header span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.58rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ai-usecase-map__row {
+  display: grid;
+  grid-template-columns: 42px minmax(120px, 0.75fr) minmax(0, 1.25fr);
+  gap: 1rem;
+  align-items: center;
+  min-height: 76px;
+  padding: 0.8rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  color: #fff;
+}
+
+.ai-usecase-map__row > span {
+  color: var(--ai-violet);
+  font-size: 0.58rem;
+  font-weight: 900;
+}
+
+.ai-usecase-map__row strong {
+  color: #fff;
+  font-size: clamp(1.05rem, 1.8vw, 1.55rem);
+  letter-spacing: -0.03em;
+}
+
+.ai-usecase-map__row small {
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
+.ai-usecase-map__row--featured {
+  background: var(--ai-violet);
+  color: var(--ai-ink);
+}
+
+.ai-usecase-map__row--featured > span,
+.ai-usecase-map__row--featured strong,
+.ai-usecase-map__row--featured small {
+  color: inherit;
+}
+
+.ai-usecase-map__footer {
+  background: rgba(87, 227, 189, 0.08);
+  color: var(--ai-teal);
+  font-size: 0.66rem;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.ai-usecase-map__footer span {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.ai-usecases {
+  padding: clamp(4rem, 7vw, 7rem);
+  background: var(--ai-paper);
+}
+
+.ai-usecase-featured {
+  display: grid;
+  grid-template-columns: minmax(340px, 0.72fr) minmax(0, 1.28fr);
+  gap: 1px;
+  margin-bottom: 1px;
+  background: #26212f;
+  border: 1px solid #26212f;
+}
+
+.ai-usecase-featured__copy {
+  padding: clamp(2rem, 4vw, 4rem);
+  background: var(--ai-violet);
+}
+
+.ai-usecase-status {
+  display: inline-block;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid currentColor;
+  color: inherit;
+  font-size: 0.54rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+#main_content .ai-usecase-featured h3 {
+  margin: 3rem 0 1rem;
+  font-size: clamp(2.2rem, 4vw, 4.6rem);
+  letter-spacing: -0.06em;
+  line-height: 0.94;
+}
+
+#main_content .ai-usecase-featured__copy > p {
+  max-width: 520px;
+  margin: 0 0 1.5rem;
+  color: rgba(11, 17, 23, 0.72);
+  font-size: 0.9rem;
+}
+
+.ai-usecase-featured__visual {
+  position: relative;
+  min-height: 440px;
+  overflow: hidden;
+  background: #dfe3e4;
+}
+
+.ai-usecase-featured__visual img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  object-fit: cover;
+  box-shadow: none;
+}
+
+.ai-usecase-featured__visual span {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 0.8rem 0.95rem;
+  background: var(--ai-teal);
+  color: var(--ai-ink);
+  font-size: 0.66rem;
+  font-weight: 900;
+}
+
+.ai-usecase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: #bfc5c9;
+  border: 1px solid #bfc5c9;
+}
+
+.ai-usecase-card {
+  min-height: 345px;
+  padding: clamp(1.7rem, 3vw, 3rem);
+  background: #fff;
+}
+
+.ai-usecase-card:nth-child(3) {
+  background: var(--ai-ink-soft);
+  color: #fff;
+}
+
+.ai-usecase-card:nth-child(4) {
+  background: var(--ai-teal);
+}
+
+.ai-usecase-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.ai-usecase-card__top > span:first-child {
+  color: var(--ai-violet-deep);
+  font-size: 0.6rem;
+  font-weight: 900;
+}
+
+.ai-usecase-card:nth-child(3) .ai-usecase-card__top > span:first-child {
+  color: var(--ai-violet);
+}
+
+#main_content .ai-usecase-card h3 {
+  max-width: 520px;
+  margin: 3.1rem 0 0.8rem;
+  color: inherit;
+  font-size: clamp(1.9rem, 3vw, 3.3rem);
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+#main_content .ai-usecase-card > p {
+  max-width: 500px;
+  margin: 0;
+  color: var(--ai-muted);
+  font-size: 0.84rem;
+}
+
+.ai-usecase-card:nth-child(3) > p {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.ai-usecase-card:nth-child(4) > p {
+  color: rgba(11, 17, 23, 0.72) !important;
+}
+
+.ai-usecase-responsibility {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 0.75rem;
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(11, 17, 23, 0.16);
+  font-size: 0.7rem;
+}
+
+.ai-usecase-card:nth-child(3) .ai-usecase-responsibility {
+  border-top-color: rgba(255, 255, 255, 0.18);
+}
+
+.ai-usecase-responsibility strong {
+  color: inherit;
+}
+
+.ai-usecase-responsibility span {
+  color: var(--ai-muted);
+}
+
+.ai-usecase-card:nth-child(3) .ai-usecase-responsibility span {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.ai-usecase-card:nth-child(4) .ai-usecase-responsibility span {
+  color: rgba(11, 17, 23, 0.68);
+}
+
+@media (max-width: 1050px) {
+  .ai-usecase-featured {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-usecase-featured__visual {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 720px) {
+  .ai-usecases {
+    padding: 3.2rem 1.2rem;
+  }
+
+  .ai-usecase-map__row {
+    grid-template-columns: 32px 1fr;
+    min-height: 72px;
+  }
+
+  .ai-usecase-map__row small {
+    grid-column: 2;
+    margin-top: -0.55rem;
+  }
+
+  .ai-usecase-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-usecase-featured__visual {
+    min-height: 280px;
+  }
+
+  .ai-usecase-card {
+    min-height: 300px;
+  }
+
+  .ai-usecase-responsibility {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
