@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navigation v2 Preview — Colby Kellersberger</title>
+  <style>
+    :root {
+      --compact-header-height: 76px;
+      --text: #0c1c26;
+      --line-soft: rgba(12, 28, 38, 0.12);
+      --surface-soft: #f2f5f4;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { margin: 0; min-height: 100%; }
+
+    body {
+      color: var(--text);
+      background: #f4f6f5;
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    a { color: inherit; }
+
+    .outer { width: 100%; }
+
+    .inner {
+      width: min(1440px, 100%);
+      margin: 0 auto;
+    }
+
+    #header_wrap.site-header {
+      position: fixed;
+      z-index: 1100;
+      inset: 0 0 auto;
+      min-height: var(--compact-header-height);
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(18px);
+    }
+
+    #header_wrap .site-header__inner {
+      min-height: var(--compact-header-height);
+      padding: 0.55rem 36px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .site-brand {
+      display: inline-flex;
+      flex-direction: column;
+      flex: 0 0 auto;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .site-brand__name {
+      font-size: 0.96rem;
+      font-weight: 850;
+      letter-spacing: -0.015em;
+    }
+
+    .site-brand__descriptor {
+      margin-top: 0.12rem;
+      color: #607079;
+      font-size: 0.64rem;
+      font-weight: 700;
+      letter-spacing: 0.085em;
+      text-transform: uppercase;
+    }
+
+    .topnav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1 1 auto;
+      min-width: 0;
+    }
+
+    .topnav a { text-decoration: none; }
+
+    .site-header__socials {
+      display: inline-flex;
+      align-items: center;
+      flex: 0 0 auto;
+    }
+
+    .mobile-nav { display: none; }
+
+    main {
+      min-height: 100vh;
+      padding-top: var(--compact-header-height);
+    }
+
+    .preview-hero {
+      min-height: 74vh;
+      padding: clamp(5rem, 10vw, 9rem) max(7vw, 24px);
+      display: flex;
+      align-items: flex-end;
+      background:
+        radial-gradient(circle at 80% 20%, rgba(66, 214, 176, 0.2), transparent 28%),
+        linear-gradient(145deg, #0b1b24, #17323d 62%, #10232b);
+      color: white;
+    }
+
+    .preview-hero__inner {
+      width: min(1180px, 100%);
+      margin: 0 auto;
+    }
+
+    .preview-kicker {
+      display: block;
+      margin-bottom: 1.4rem;
+      color: #42d6b0;
+      font-size: 0.78rem;
+      font-weight: 850;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .preview-hero h1 {
+      max-width: 10ch;
+      margin: 0;
+      font-size: clamp(3.3rem, 8.5vw, 8.2rem);
+      letter-spacing: -0.065em;
+      line-height: 0.88;
+    }
+
+    .preview-note {
+      width: min(1180px, calc(100% - 48px));
+      margin: 0 auto;
+      padding: 2.2rem 0 4rem;
+      color: #617078;
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 1180px) {
+      :root { --compact-header-height: 70px; }
+
+      #header_wrap .site-header__inner {
+        position: relative;
+        min-height: var(--compact-header-height);
+        padding: 0.5rem 22px;
+      }
+
+      .topnav--desktop,
+      .site-header__socials {
+        display: none !important;
+      }
+
+      .mobile-nav {
+        position: relative;
+        display: block;
+        flex: 0 0 auto;
+      }
+
+      .mobile-nav > summary {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.55rem;
+        min-height: 42px;
+        padding: 0.5rem 0.8rem;
+        cursor: pointer;
+        list-style: none;
+        user-select: none;
+      }
+
+      .mobile-nav > summary::-webkit-details-marker { display: none; }
+
+      .mobile-nav__icon {
+        position: relative;
+        width: 18px;
+        height: 12px;
+        border-top: 2px solid currentColor;
+        border-bottom: 2px solid currentColor;
+      }
+
+      .mobile-nav__icon::after {
+        content: "";
+        position: absolute;
+        top: 4px;
+        left: 0;
+        width: 18px;
+        border-top: 2px solid currentColor;
+      }
+
+      .mobile-nav[open] .mobile-nav__icon {
+        height: 18px;
+        border: 0;
+      }
+
+      .mobile-nav[open] .mobile-nav__icon::before,
+      .mobile-nav[open] .mobile-nav__icon::after {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: 0;
+        width: 18px;
+        border-top: 2px solid currentColor;
+      }
+
+      .mobile-nav[open] .mobile-nav__icon::before { transform: rotate(45deg); }
+      .mobile-nav[open] .mobile-nav__icon::after { transform: rotate(-45deg); }
+
+      .mobile-nav__socials {
+        display: flex;
+        gap: 1.4rem;
+      }
+
+      .preview-hero { min-height: calc(100vh - 70px); }
+    }
+
+    @media (max-width: 560px) {
+      #header_wrap .site-header__inner {
+        padding-right: 14px;
+        padding-left: 14px;
+      }
+
+      .preview-note { width: calc(100% - 28px); }
+    }
+  </style>
+  <link rel="stylesheet" href="assets/css/navigation-v2.css?v=1">
+</head>
+<body>
+  <header id="header_wrap" class="outer site-header">
+    <div class="inner site-header__inner">
+      <a class="site-brand" href="#" aria-label="Colby Kellersberger — Better Audit Systems home">
+        <span class="site-brand__name">Colby Kellersberger</span>
+        <span class="site-brand__descriptor">Better Audit Systems</span>
+      </a>
+
+      <nav class="topnav topnav--desktop nav-v2" aria-label="Primary">
+        <a class="nav-v2__link" href="#" aria-current="page">Home</a>
+        <a class="nav-v2__link" href="#">Audit Quality</a>
+        <a class="nav-v2__link" href="#">Audit Insight</a>
+        <a class="nav-v2__link" href="#">Responsible AI</a>
+        <a class="nav-v2__link" href="#">Data Systems</a>
+        <a class="nav-v2__link" href="#">About</a>
+      </nav>
+
+      <details class="mobile-nav mobile-nav--v2">
+        <summary aria-label="Open navigation menu">
+          <span class="mobile-nav__label mobile-nav__label--open">Menu</span>
+          <span class="mobile-nav__label mobile-nav__label--close">Close</span>
+          <span class="mobile-nav__icon" aria-hidden="true"></span>
+        </summary>
+
+        <div class="mobile-nav__panel">
+          <div class="mobile-nav__intro">
+            <span>Explore</span>
+            <strong>Better Audit Systems</strong>
+          </div>
+
+          <section class="mobile-nav__group" aria-labelledby="preview-capabilities">
+            <div class="mobile-nav__group-label" id="preview-capabilities">
+              <span>Capabilities</span><span aria-hidden="true">—</span>
+            </div>
+            <nav class="mobile-nav__links" aria-label="Mobile capabilities">
+              <a href="#"><span>Audit Quality</span><b aria-hidden="true">↗</b></a>
+              <a href="#"><span>Audit Insight</span><b aria-hidden="true">↗</b></a>
+              <a href="#"><span>Responsible AI</span><b aria-hidden="true">↗</b></a>
+              <a href="#"><span>Data Systems</span><b aria-hidden="true">↗</b></a>
+            </nav>
+          </section>
+
+          <section class="mobile-nav__group mobile-nav__group--secondary" aria-labelledby="preview-more">
+            <div class="mobile-nav__group-label" id="preview-more">
+              <span>More</span><span aria-hidden="true">—</span>
+            </div>
+            <nav class="mobile-nav__links" aria-label="Mobile secondary">
+              <a href="#" aria-current="page"><span>Home</span><b aria-hidden="true">↗</b></a>
+              <a href="#"><span>About</span><b aria-hidden="true">↗</b></a>
+            </nav>
+          </section>
+
+          <nav class="mobile-nav__socials mobile-nav__socials--v2" aria-label="Professional profiles">
+            <a href="#">LinkedIn ↗</a>
+            <a href="#">GitHub ↗</a>
+          </nav>
+        </div>
+      </details>
+
+      <nav class="site-header__socials site-header__socials--text" aria-label="Professional profile links">
+        <a href="#">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="#">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="preview-hero">
+      <div class="preview-hero__inner">
+        <span class="preview-kicker">Navigation preview</span>
+        <h1>Better systems make better audit possible.</h1>
+      </div>
+    </section>
+    <p class="preview-note">Desktop: review the editorial link treatment above. Mobile: narrow this window or open it on your phone, then tap Menu.</p>
+  </main>
+</body>
+</html>
