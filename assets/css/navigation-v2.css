@@ -346,3 +346,26 @@
     transform: translateY(0);
   }
 }
+
+
+/* iOS Safari: keep the full-screen menu outside fixed-header size constraints. */
+@media (max-width: 1180px) {
+  #header_wrap.site-header {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+  .mobile-nav--v2 .mobile-nav__panel {
+    top: var(--compact-header-height) !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: calc(100vh - var(--compact-header-height)) !important;
+    height: calc(100dvh - var(--compact-header-height)) !important;
+    min-height: calc(100vh - var(--compact-header-height)) !important;
+    min-height: calc(100dvh - var(--compact-header-height)) !important;
+    max-height: none !important;
+    -webkit-overflow-scrolling: touch;
+  }
+}
