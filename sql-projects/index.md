@@ -1,279 +1,221 @@
 ---
-title: "Data Projects for Audit & Business Risk"
+title: "Data Systems for Trustworthy Audit Analytics"
 layout: default
 permalink: /sql-projects/
-description: "SQL, Power BI, and data analysis projects framed around audit-style review, business risk analysis, transformation, and management reporting."
+description: "How SQL, validation, transformation, and data modeling turn raw operational data into reliable analysis and decision-ready audit insight."
 ---
 
-<div class="subpage subpage--data-projects">
+<link rel="stylesheet" href="/assets/css/data-systems-case-study.css">
 
-<section class="subpage-hero subpage-hero--dark">
+<article class="data-case">
 
-<div class="subpage-hero__content">
-  <p class="landing-kicker">Data Projects</p>
-
-  <h1 class="subpage-title">
-    SQL, transformation, and dashboard projects framed around audit-style review.
-  </h1>
-
-  <p class="subpage-subtitle">
-    Data projects demonstrating structured analysis, transformation, modeling, and reporting
-    through examples that support trend review, segmentation, outlier identification,
-    and business risk analysis.
-  </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>SQL</span>
-    <span>ETL</span>
-    <span>Data Modeling</span>
-    <span>Power BI</span>
-    <span>Business Risk Analysis</span>
+<section class="data-hero">
+  <div class="data-hero__copy">
+    <p class="data-kicker">Data Systems · Analytics foundation</p>
+    <h1>Trustworthy analysis starts <em>before the dashboard.</em></h1>
+    <p class="data-hero__lede">Reliable audit insight depends on the work beneath the visual: understood sources, validated fields, controlled transformations, and a model that preserves meaning.</p>
+    <div class="data-hero__actions">
+      <a class="data-link data-link--light" href="#story">Read the story <span>↓</span></a>
+      <a class="data-link data-link--light" href="#sales-system">View the working system <span>↓</span></a>
+    </div>
   </div>
 
-  <div class="landing-actions">
-    <a class="btn landing-btn--light" href="#job-market-analysis">View SQL analysis</a>
-    <a class="btn landing-btn--outline" href="#sales-etl-dashboard">View sales dashboard</a>
+  <div class="data-hero__visual">
+    <div class="data-model" aria-label="Data pipeline from source records to decision-ready analysis">
+      <div class="data-model__header"><small>Data reliability model</small><span>05 stages</span></div>
+      <div class="data-model__stage"><span>01</span><strong>Source</strong><small>Understand origin + scope</small></div>
+      <div class="data-model__stage"><span>02</span><strong>Validate</strong><small>Test completeness + quality</small></div>
+      <div class="data-model__stage data-model__stage--focus"><span>03</span><strong>Transform</strong><small>Clean + standardize logic</small></div>
+      <div class="data-model__stage"><span>04</span><strong>Model</strong><small>Preserve relationships</small></div>
+      <div class="data-model__stage"><span>05</span><strong>Analyze</strong><small>Make risk visible</small></div>
+      <div class="data-model__footer"><strong>Traceable logic</strong> supports defensible insight</div>
+    </div>
   </div>
-</div>
-
-<div class="subpage-hero__visual">
-  <div class="subpage-visual-card subpage-visual-card--large">
-    <img src="/assets/img/hero-sales-dashboard-focus.png" alt="Focused sales performance dashboard showing results against budget, customers, products, and geography">
-  </div>
-
-  <div class="subpage-visual-card subpage-visual-card--small">
-    <img src="/assets/img/hero-job-market-focus.png" alt="Focused data job market analysis showing average salary by role">
-  </div>
-</div>
-
 </section>
 
-{% include demo-disclaimer.html %}
-
-<section class="subpage-section subpage-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Analytical approach</p>
-
-<h2 class="subpage-section-title">
-  The same data skills used in audit analytics apply across business datasets.
-</h2>
-
-<p class="subpage-copy">
-  These projects are not formal audit datasets, but they demonstrate core techniques used in audit analytics:
-  population review, segmentation, ranking, trend analysis, transformation, dashboard development,
-  and supportable interpretation.
-</p>
-
-<div class="subpage-feature-grid">
-
-<div class="subpage-feature-card">
-  <span>01</span>
-  <h3>Structure the data</h3>
-  <p>Clean, transform, and model raw data so it can support reliable analysis and reporting.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>02</span>
-  <h3>Analyze patterns</h3>
-  <p>Use SQL and BI tools to identify trends, rankings, segments, variances, and potential outliers.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>03</span>
-  <h3>Communicate findings</h3>
-  <p>Translate analytical results into visuals and summaries that support management review and decision-making.</p>
-</div>
-
-</div>
-
+<section class="data-facts" aria-label="Data system principles">
+  <div><small>Starting point</small><strong>Raw operational data</strong></div>
+  <div><small>Core work</small><strong>SQL + transformation</strong></div>
+  <div><small>Control</small><strong>Validation + lineage</strong></div>
+  <div><small>Outcome</small><strong>Decision-ready insight</strong></div>
 </section>
 
-<section id="job-market-analysis" class="subpage-section subpage-section--dark">
+<section id="story" class="data-statement">
+  <p class="data-kicker data-kicker--dark">The challenge</p>
+  <h2>A polished dashboard can still rest on unreliable data.</h2>
+  <p>Analysis becomes difficult to defend when the population is incomplete, fields are inconsistent, transformation logic is hidden, or relationships are misunderstood. Data reliability is part of the audit work—not merely a technical prerequisite.</p>
+</section>
 
-<div class="subpage-split">
+<section class="data-risk">
+  <div class="data-section-heading">
+    <p class="data-kicker">Where reliability breaks</p>
+    <h2>Small data problems can become confident analytical conclusions.</h2>
+  </div>
+  <div class="data-risk-grid">
+    <div><span>01</span><strong>Incomplete</strong><p>Missing records or fields distort the population being reviewed.</p></div>
+    <div><span>02</span><strong>Inconsistent</strong><p>Dates, identifiers, categories, and amounts do not follow one standard.</p></div>
+    <div><span>03</span><strong>Duplicated</strong><p>Repeated records inflate totals and create misleading patterns.</p></div>
+    <div><span>04</span><strong>Untraceable</strong><p>Hidden transformation logic makes results difficult to reproduce or challenge.</p></div>
+  </div>
+</section>
 
-<div>
-  <p class="landing-kicker">SQL analysis example</p>
-
-  <h2 class="subpage-section-title subpage-section-title--light">
-    Data Job Market Analysis
-  </h2>
-
-  <p class="subpage-copy subpage-copy--light">
-    Structured SQL analysis of a large external job posting dataset, including segmentation,
-    ranking, trend identification, and evidence-based interpretation.
-  </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>SQL</span>
-    <span>Exploratory analysis</span>
-    <span>Large dataset review</span>
-    <span>Market trends</span>
+<section class="data-architecture">
+  <div class="data-section-heading data-section-heading--split">
+    <div><p class="data-kicker data-kicker--dark">The system</p><h2>Build reliability into the analytical foundation.</h2></div>
+    <p>The system does more than move data. It creates a visible chain from original records to the measures, segments, and trends used for review.</p>
   </div>
 
-  <dl class="project-facts project-facts--dark">
-    <div><dt>Status</dt><dd>Repository available</dd></div>
-    <div><dt>Role</dt><dd>Analysis and development</dd></div>
-    <div><dt>Deliverable</dt><dd>SQL analysis</dd></div>
-    <div><dt>Data</dt><dd>External job postings</dd></div>
-  </dl>
-
-  <div class="subpage-value-grid subpage-value-grid--dark">
-
-    <div>
-      <strong>Challenge</strong>
-      <p>Understanding which data skills are in highest demand and command higher compensation requires analyzing job postings across roles, skills, locations, and salary ranges.</p>
+  <div class="data-architecture-grid">
+    <div class="data-architecture-card data-architecture-card--amber">
+      <span>01 · Understand</span>
+      <h3>Define the population.</h3>
+      <p>Identify source systems, owners, relevant fields, time periods, and known limitations.</p>
     </div>
-
-    <div>
-      <strong>Solution</strong>
-      <p>Queried job posting data using SQL to identify trends in required skills, job titles, compensation ranges, and market demand patterns.</p>
+    <div class="data-architecture-card">
+      <span>02 · Validate</span>
+      <h3>Test before transforming.</h3>
+      <p>Reconcile counts and totals, profile fields, and investigate missing or unexpected values.</p>
     </div>
-
-    <div>
-      <strong>Analytical value</strong>
-      <p>Demonstrates analysis techniques used in audit analytics: population review, segmentation, ranking, outlier identification, trend analysis, and supportable conclusions.</p>
+    <div class="data-architecture-card">
+      <span>03 · Transform</span>
+      <h3>Make logic explicit.</h3>
+      <p>Clean, standardize, join, classify, and calculate through repeatable SQL steps.</p>
     </div>
+    <div class="data-architecture-card data-architecture-card--blue">
+      <span>04 · Model</span>
+      <h3>Preserve business meaning.</h3>
+      <p>Structure relationships and measures so users can explore the data without changing the logic.</p>
+    </div>
+  </div>
+</section>
 
+<section class="data-pipeline">
+  <div class="data-pipeline__intro">
+    <p class="data-kicker">The operating flow</p>
+    <h2>From raw records to a result an auditor can trace.</h2>
   </div>
 
-  <p class="cta-row">
-    <a class="btn landing-btn--light" href="https://github.com/colby-k/SQL_Project_Data_Job_Analysis" target="_blank" rel="noopener">
-      View GitHub repository
+  <div class="data-pipeline-track" aria-label="Data system operating flow">
+    <div><small>01</small><strong>Extract</strong><span>Bring source records into a controlled analytical environment.</span></div>
+    <div><small>02</small><strong>Profile</strong><span>Understand completeness, formats, distributions, and anomalies.</span></div>
+    <div><small>03</small><strong>Transform</strong><span>Apply documented cleaning, joins, classifications, and calculations.</span></div>
+    <div><small>04</small><strong>Reconcile</strong><span>Compare transformed output back to known counts and totals.</span></div>
+    <div><small>05</small><strong>Publish</strong><span>Expose approved measures and views for analysis.</span></div>
+  </div>
+
+  <div class="data-lineage">
+    <div><strong>Traceability is the control.</strong><p>A reviewer should be able to follow a result back through the model, transformation logic, and original source population.</p></div>
+    <span aria-hidden="true">↺</span>
+  </div>
+</section>
+
+<section id="sales-system" class="data-feature">
+  <div class="data-feature__copy">
+    <p class="data-kicker data-kicker--dark">Featured working system</p>
+    <h2>Sales ETL + performance dashboard</h2>
+    <p>An end-to-end example showing how raw transactional data is cleaned, transformed, modeled, and presented for trend, variance, margin, customer, product, and geographic review.</p>
+    <div class="data-feature__actions">
+      <a class="data-link" href="https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis" target="_blank" rel="noopener">View GitHub repository <span>↗</span></a>
+      <a class="data-link" href="/assets/img/Sales_Report.png" target="_blank" rel="noopener">Open dashboard image <span>↗</span></a>
+    </div>
+  </div>
+
+  <div class="data-feature__visual">
+    <a href="/assets/img/Sales_Report.png" target="_blank" rel="noopener">
+      <img src="/assets/img/Sales_Report.png" alt="Sales performance dashboard built from transformed transactional data" loading="lazy">
     </a>
-    <a class="cta-link cta-link--dark" href="#sales-etl-dashboard">Next project →</a>
-  </p>
-</div>
-
-<div class="subpage-media-card">
-  <a href="/assets/img/top_paying_roles.png" target="_blank" rel="noopener">
-    <img src="/assets/img/top_paying_roles.png" alt="Top paying data roles analysis">
-  </a>
-  <p class="caption">Example output from SQL analysis of data job market compensation and role trends.</p>
-</div>
-
-</div>
-
+    <span>Raw transactions → governed measures</span>
+  </div>
 </section>
 
-<section id="sales-etl-dashboard" class="subpage-section subpage-section--gradient">
+<section class="data-output-strip" aria-label="Sales data system components">
+  <div><small>Source</small><strong>Transactional records</strong></div>
+  <div><small>Logic</small><strong>SQL transformation</strong></div>
+  <div><small>Model</small><strong>Reusable measures</strong></div>
+  <div><small>View</small><strong>Power BI reporting</strong></div>
+</section>
 
-<div class="subpage-split">
+<section class="data-impact">
+  <div class="data-impact__statement"><span>The result</span><strong>Reliable in.<br>Defensible out.</strong></div>
+  <div class="data-impact__list">
+    <div><span>01</span><p>Clearer understanding of the analytical population.</p></div>
+    <div><span>02</span><p>Repeatable transformation instead of manual reshaping.</p></div>
+    <div><span>03</span><p>Consistent measures across users and views.</p></div>
+    <div><span>04</span><p>Stronger traceability from insight back to source.</p></div>
+  </div>
+</section>
 
-<div>
-  <p class="landing-kicker landing-kicker--dark">Transactional data example</p>
-
-  <h2 class="subpage-section-title">
-    Sales ETL & Performance Dashboard
-  </h2>
-
-  <p class="subpage-copy">
-    End-to-end project showing how raw transactional data can be cleaned, transformed,
-    modeled, and visualized to support performance review and business risk analysis.
-  </p>
-
-  <div class="landing-tags">
-    <span>SQL</span>
-    <span>ETL</span>
-    <span>Power BI</span>
-    <span>Transactional analysis</span>
+<section class="data-capabilities">
+  <div class="data-section-heading data-section-heading--split">
+    <div><p class="data-kicker data-kicker--dark">System capabilities</p><h2>The technical work serves the assurance objective.</h2></div>
+    <p>SQL, ETL, modeling, and visualization matter because they make analysis more consistent, explainable, and reusable.</p>
   </div>
 
-  <dl class="project-facts">
-    <div><dt>Status</dt><dd>Repository available</dd></div>
-    <div><dt>Role</dt><dd>Analysis and development</dd></div>
-    <div><dt>Deliverable</dt><dd>SQL + Power BI</dd></div>
-    <div><dt>Data</dt><dd>Demonstration transactions</dd></div>
-  </dl>
-
-  <div class="subpage-value-grid subpage-value-grid--compact">
-
-    <div>
-      <strong>Challenge</strong>
-      <p>Raw sales data often requires significant transformation before it can support meaningful analysis of revenue trends, profitability, product performance, customer behavior, and operational drivers.</p>
-    </div>
-
-    <div>
-      <strong>Solution</strong>
-      <p>Designed an end-to-end pipeline using SQL to clean, transform, and model sales data, followed by a Power BI dashboard for reporting and analysis.</p>
-    </div>
-
-    <div>
-      <strong>Analytical value</strong>
-      <p>Supports trend analysis, variance review, margin analysis, outlier identification, and targeted follow-up.</p>
-    </div>
-
+  <div class="data-capability-grid">
+    <article class="data-capability-card">
+      <span>01 · Query</span>
+      <h3>Interrogate the population</h3>
+      <p>Filter, join, aggregate, rank, segment, and compare structured records.</p>
+    </article>
+    <article class="data-capability-card">
+      <span>02 · Transform</span>
+      <h3>Create repeatable logic</h3>
+      <p>Standardize fields and calculations through documented, reusable steps.</p>
+    </article>
+    <article class="data-capability-card">
+      <span>03 · Model</span>
+      <h3>Protect analytical meaning</h3>
+      <p>Organize relationships and measures so exploration does not change the underlying rules.</p>
+    </article>
+    <article class="data-capability-card">
+      <span>04 · Communicate</span>
+      <h3>Turn records into attention</h3>
+      <p>Present trends, variances, and outliers in a format that supports focused review.</p>
+    </article>
   </div>
+</section>
 
-  <p class="cta-row">
-    <a class="btn" href="https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis" target="_blank" rel="noopener">
-      View GitHub repository
+<section class="data-secondary">
+  <div class="data-secondary__visual">
+    <a href="/assets/img/top_paying_roles.png" target="_blank" rel="noopener">
+      <img src="/assets/img/top_paying_roles.png" alt="SQL analysis of compensation by data role" loading="lazy">
     </a>
-    <a class="cta-link" href="/audit-analytics/">View audit analytics →</a>
-  </p>
-</div>
+  </div>
 
-<div class="subpage-media-card">
-  <a href="/assets/img/Sales_Report.png" target="_blank" rel="noopener">
-    <img src="/assets/img/Sales_Report.png" alt="Sales performance dashboard">
-  </a>
-  <p class="caption">Sales performance dashboard showing transformed transactional data in a management reporting format.</p>
-</div>
-
-</div>
-
+  <div class="data-secondary__copy">
+    <p class="data-kicker data-kicker--dark">Supporting analysis</p>
+    <h2>Data job-market analysis</h2>
+    <p>SQL analysis of a large external job-posting dataset demonstrates population review, segmentation, ranking, trend identification, and evidence-based interpretation across roles, skills, locations, and compensation.</p>
+    <a class="data-link" href="https://github.com/colby-k/SQL_Project_Data_Job_Analysis" target="_blank" rel="noopener">View GitHub repository <span>↗</span></a>
+  </div>
 </section>
 
-<section class="subpage-section subpage-section--light">
+<section class="data-decisions">
+  <div class="data-section-heading data-section-heading--split">
+    <div><p class="data-kicker data-kicker--dark">Design decisions</p><h2>Reliability before visualization.</h2></div>
+    <p>The strongest dashboard cannot compensate for an undefined population, incorrect joins, or calculations no one can reproduce.</p>
+  </div>
 
-<p class="landing-kicker landing-kicker--dark">Skills demonstrated</p>
-
-<h2 class="subpage-section-title">
-  Technical execution with an audit and business-risk mindset.
-</h2>
-
-<div class="subpage-feature-grid">
-
-<div class="subpage-feature-card">
-  <span>SQL</span>
-  <h3>Querying and analysis</h3>
-  <p>Filtering, joining, grouping, ranking, aggregating, and interpreting structured datasets.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>ETL</span>
-  <h3>Data transformation</h3>
-  <p>Cleaning and reshaping raw transactional data into a usable analytical model.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>Power BI</span>
-  <h3>Dashboard reporting</h3>
-  <p>Building visuals that communicate trends, performance drivers, and areas that may warrant review.</p>
-</div>
-
-</div>
-
+  <div class="data-decision-list">
+    <details open><summary><span>01</span>Why validate before transforming?</summary><p>Profiling the original data creates a baseline for detecting missing records, unexpected formats, and transformation errors later in the process.</p></details>
+    <details><summary><span>02</span>Why use SQL for transformation?</summary><p>SQL makes filtering, joining, aggregation, and classification logic explicit, repeatable, and easier to review than manual spreadsheet steps.</p></details>
+    <details><summary><span>03</span>Why separate the model from the dashboard?</summary><p>A governed model creates consistent relationships and measures that can support multiple views without redefining the logic each time.</p></details>
+    <details><summary><span>04</span>Where does auditor judgment remain?</summary><p>Auditors determine the relevant population, assess data reliability, define risk logic, investigate exceptions, and decide what the analysis means.</p></details>
+  </div>
 </section>
 
-<section class="subpage-final-cta">
-
-<p class="landing-kicker">Data projects</p>
-
-<h2>
-Data analysis becomes more valuable when it supports review, risk identification, and action.
-</h2>
-
-<p>
-Explore audit analytics, audit tools, or connect with me on LinkedIn.
-</p>
-
-<div class="landing-actions landing-actions--center">
-  <a class="btn landing-btn--light" href="/audit-analytics/">View audit analytics</a>
-  <a class="btn landing-btn--outline" href="/excel-tools/">View audit tools</a>
-  <a class="btn landing-btn--outline" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
-</div>
-
+<section class="data-note">
+  <strong>Portfolio demonstration</strong>
+  <p>These projects use external or demonstration datasets and independent portfolio materials. They do not contain employer, client, or confidential information. Analytical results require validation before use in a formal audit environment.</p>
 </section>
 
-</div>
+<section class="data-final">
+  <p class="data-kicker">Better audit systems</p>
+  <h2>Build the foundation.<br>Trust the insight.</h2>
+  <div>
+    <a class="data-link data-link--light" href="/">Return home <span>↗</span></a>
+    <a class="data-link data-link--light" href="/about/">Next: About <span>↗</span></a>
+  </div>
+</section>
+
+</article>
