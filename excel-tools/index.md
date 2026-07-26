@@ -1,385 +1,166 @@
 ---
-title: "Audit Tools"
+title: "AuditTicks Pro Case Study"
 layout: default
 permalink: /excel-tools/
-description: "Practical audit tools for documentation, risk assessment, workpaper consistency, and review-ready internal audit workflows."
+description: "How AuditTicks Pro turns repetitive Excel documentation tasks into a consistent, review-ready internal audit workflow."
 ---
 
-<div class="subpage subpage--tools">
+<link rel="stylesheet" href="/assets/css/auditticks-case-study.css">
 
-<section class="subpage-hero subpage-hero--dark">
+<article class="case-study">
 
-<div class="subpage-hero__content">
-  <p class="landing-kicker">Audit Tools</p>
-
-  <h1 class="subpage-title">
-    Excel-based audit tools for cleaner workpapers, faster fieldwork, and clearer review.
-  </h1>
-
-  <p class="subpage-subtitle">
-    Practical audit tools designed to standardize documentation, support control testing,
-    improve workpaper consistency, and reduce manual setup across internal audit workflows.
-  </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>Excel</span>
-    <span>VBA</span>
-    <span>Ribbon XML</span>
-    <span>Workpaper templates</span>
-    <span>Risk assessment</span>
-  </div>
-
-  <div class="landing-actions">
-    <a class="btn landing-btn--light" href="#auditticks-pro">View AuditTicks Pro</a>
-    <a class="btn landing-btn--outline" href="#audit-workpaper-template">View template pack</a>
-    <a class="btn landing-btn--outline" href="#risk-assessment-matrix">View risk matrix</a>
-  </div>
-</div>
-
-<div class="subpage-hero__visual">
-  <div class="subpage-visual-card subpage-visual-card--large">
-    <img src="/assets/img/hero-auditticks-focus.png" alt="Focused AuditTicks Pro screenshot showing the Excel ribbon and audit documentation tools">
-  </div>
-
-  <div class="subpage-visual-card subpage-visual-card--small">
-    <img src="/assets/img/hero-workpaper-focus.png" alt="Focused completed audit workpaper screenshot showing sample testing results and attributes">
-  </div>
-</div>
-
-</section>
-
-{% include demo-disclaimer.html %}
-
-<section class="subpage-section subpage-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Tooling overview</p>
-
-<h2 class="subpage-section-title">
-  Built around practical audit documentation needs.
-</h2>
-
-<div class="subpage-feature-grid">
-
-<div class="subpage-feature-card">
-  <span>01</span>
-  <h3>Standardize documentation</h3>
-  <p>Use repeatable templates, tickmarks, references, callouts, notes, and review elements to keep workpapers consistent.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>02</span>
-  <h3>Reduce manual setup</h3>
-  <p>Replace repeated formatting and workpaper preparation steps with reusable Excel-based tools and templates.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>03</span>
-  <h3>Improve review clarity</h3>
-  <p>Create documentation that is easier to navigate, review, support, and explain during audit supervision.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="auditticks-pro" class="subpage-section subpage-section--dark">
-
-<div class="subpage-split">
-
-<div>
-  <p class="landing-kicker">Flagship project</p>
-
-  <h2 class="subpage-section-title subpage-section-title--light">
-    AuditTicks Pro
-  </h2>
-
-  <p class="subpage-copy subpage-copy--light">
-    Custom Excel audit add-in for standardized tickmarks, workpaper formatting, references,
-    annotations, templates, review tools, and audit documentation support.
-  </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>Excel add-in</span>
-    <span>VBA</span>
-    <span>Ribbon XML</span>
-    <span>Audit documentation</span>
-  </div>
-
-  <dl class="project-facts project-facts--dark">
-    <div><dt>Status</dt><dd>Active development</dd></div>
-    <div><dt>Role</dt><dd>Design and development</dd></div>
-    <div><dt>Deliverable</dt><dd>Excel add-in</dd></div>
-    <div><dt>Data</dt><dd>No client data</dd></div>
-  </dl>
-
-  <div class="subpage-value-grid subpage-value-grid--dark">
-
-    <div>
-      <strong>Challenge</strong>
-      <p>Audit documentation often becomes inconsistent when tickmarks, legends, references, formatting, annotations, and review notes are recreated manually.</p>
-    </div>
-
-    <div>
-      <strong>Solution</strong>
-      <p>A ribbon-based Excel add-in using VBA and custom Ribbon XML gives auditors one-click access to standardized documentation helpers.</p>
-    </div>
-
-    <div>
-      <strong>Audit value</strong>
-      <p>Reduces manual formatting, improves consistency, and gives reviewers clearer workpaper navigation.</p>
-    </div>
-
-  </div>
-
-  <p class="cta-row">
-    <a class="btn landing-btn--light" href="/assets/img/User%20Guide.png" target="_blank" rel="noopener">View user guide</a>
-    <a class="btn landing-btn--outline" href="#audit-workpaper-template">View template pack</a>
-    <a class="cta-link cta-link--dark" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Ask about the project →</a>
-  </p>
-</div>
-
-<div class="subpage-media-stack subpage-media-stack--tools">
-
-  <div class="subpage-media-card tool-screenshot-card">
-    <a href="/assets/img/AuditTicksPro_Tms.png" target="_blank" rel="noopener">
-      <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro Excel add-in screenshot showing ribbon tools, worksheet tickmarks, callouts, and note elements">
-    </a>
-    <p class="caption">
-      AuditTicks Pro in action: ribbon-based tickmarks, references, callouts, notes, review elements, and documentation helpers.
-    </p>
-  </div>
-
-  <div class="subpage-media-card tool-screenshot-card tool-screenshot-card--compact">
-    <a href="/assets/img/AuditTicksPro_Ribbon.png" target="_blank" rel="noopener">
-      <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon screenshot showing audit documentation tools">
-    </a>
-    <p class="caption">
-      Ribbon layout showing tickmarks, references, callouts, templates, utilities, and review tools.
-    </p>
-  </div>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="audit-workpaper-template" class="subpage-section subpage-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Workpaper template</p>
-
-<h2 class="subpage-section-title">
-  Audit Workpaper Template Pack
-</h2>
-
-<p class="subpage-copy">
-  Structured Excel audit workpaper template designed for documenting control testing,
-  testing attributes, sample results, tickmarks, exceptions, and review notes.
-</p>
-
-<div class="landing-tags">
-  <span>Control testing</span>
-  <span>Tickmark support</span>
-  <span>Excel template</span>
-  <span>Review-ready workpapers</span>
-</div>
-
-<dl class="project-facts">
-  <div><dt>Status</dt><dd>Downloadable demo</dd></div>
-  <div><dt>Role</dt><dd>Design and development</dd></div>
-  <div><dt>Deliverable</dt><dd>Excel template pack</dd></div>
-  <div><dt>Data</dt><dd>Synthetic example</dd></div>
-</dl>
-
-<div class="subpage-carousel-wrap">
-
-<div class="media media--carousel">
-
-<section class="image-carousel" aria-label="Audit workpaper template screenshots">
-
-  <input type="radio" name="workpaper-carousel" id="wp-slide-1" checked tabindex="-1" aria-hidden="true">
-  <input type="radio" name="workpaper-carousel" id="wp-slide-2" tabindex="-1" aria-hidden="true">
-  <input type="radio" name="workpaper-carousel" id="wp-slide-3" tabindex="-1" aria-hidden="true">
-
-  <div class="carousel__viewport">
-    <div class="carousel__track">
-
-      <figure class="carousel__slide">
-        <a href="/assets/img/workpaper_template.png" target="_blank" rel="noopener">
-          <img src="/assets/img/workpaper_template.png" alt="Audit workpaper template screenshot showing sample testing rows, tickmark references, notes, exceptions, and tickmark count summary">
-        </a>
-        <figcaption class="caption">
-          Detailed control testing workpaper with sample rows, tickmark references, notes/exceptions, and tickmark count summary.
-        </figcaption>
-      </figure>
-
-      <figure class="carousel__slide">
-        <a href="/assets/img/workpaper_template_procedures.png" target="_blank" rel="noopener">
-          <img src="/assets/img/workpaper_template_procedures.png" alt="Audit workpaper template screenshot showing control description, testing attributes, tickmark legend, and screenshot placeholder section">
-        </a>
-        <figcaption class="caption">
-          Workpaper setup view with control details, testing attributes/procedures performed, tickmark legend, and supporting evidence placeholder.
-        </figcaption>
-      </figure>
-
-      <figure class="carousel__slide">
-        <a href="/assets/img/workpaper_template_example.png" target="_blank" rel="noopener">
-          <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper example showing sample selections, testing attributes, tickmarks, exceptions, tickmark legend, and tickmark count summary">
-        </a>
-        <figcaption class="caption">
-          Completed example workpaper using synthetic accounts payable testing data, documented attributes, tickmarks, exceptions, and tickmark summary counts.
-        </figcaption>
-      </figure>
-
+<section class="case-hero">
+  <div class="case-hero__copy">
+    <p class="case-kicker">Featured case study · Audit quality + efficiency</p>
+    <h1>Designing a better audit workflow inside Excel.</h1>
+    <p class="case-hero__lede">AuditTicks Pro transforms repetitive workpaper mechanics into a consistent documentation system—without asking auditors to leave the tool they already use.</p>
+    <div class="case-hero__actions">
+      <a class="case-link case-link--light" href="#story">Read the story <span>↓</span></a>
+      <a class="case-link case-link--light" href="/assets/img/User%20Guide.png" target="_blank" rel="noopener">View user guide <span>↗</span></a>
     </div>
   </div>
 
-  <div class="carousel__controls">
-    <button type="button" class="carousel__arrow carousel__arrow--prev carousel__from-1" data-carousel-target="wp-slide-3" aria-label="Show previous screenshot">‹</button>
-    <button type="button" class="carousel__arrow carousel__arrow--next carousel__from-1" data-carousel-target="wp-slide-2" aria-label="Show next screenshot">›</button>
-
-    <button type="button" class="carousel__arrow carousel__arrow--prev carousel__from-2" data-carousel-target="wp-slide-1" aria-label="Show previous screenshot">‹</button>
-    <button type="button" class="carousel__arrow carousel__arrow--next carousel__from-2" data-carousel-target="wp-slide-3" aria-label="Show next screenshot">›</button>
-
-    <button type="button" class="carousel__arrow carousel__arrow--prev carousel__from-3" data-carousel-target="wp-slide-2" aria-label="Show previous screenshot">‹</button>
-    <button type="button" class="carousel__arrow carousel__arrow--next carousel__from-3" data-carousel-target="wp-slide-1" aria-label="Show next screenshot">›</button>
-  </div>
-
-  <div class="carousel__dots" role="group" aria-label="Carousel slide controls">
-    <button type="button" data-carousel-target="wp-slide-1" aria-label="Show detailed testing workpaper screenshot"></button>
-    <button type="button" data-carousel-target="wp-slide-2" aria-label="Show workpaper setup screenshot"></button>
-    <button type="button" data-carousel-target="wp-slide-3" aria-label="Show completed example workpaper screenshot"></button>
-  </div>
-
-</section>
-
-</div>
-
-</div>
-
-<div class="subpage-value-grid">
-
-<div>
-  <strong>Challenge</strong>
-  <p>Audit workpapers can become inconsistent when testing attributes, sample documentation, tickmark legends, and exception notes are recreated manually across engagements.</p>
-</div>
-
-<div>
-  <strong>Solution</strong>
-  <p>A reusable Excel format supports common testing activities and aligns with AuditTicks Pro’s tickmark, reference, and annotation workflow.</p>
-</div>
-
-<div>
-  <strong>Audit value</strong>
-  <p>Improves consistency, reduces setup time, and gives auditors a repeatable structure for review-ready testing results.</p>
-</div>
-
-</div>
-
-<div class="mini-case">
-<p>
-<strong>Companion workflow:</strong> This template is designed to work alongside AuditTicks Pro. The template provides the documentation structure, while the add-in supports tickmarks, references, annotations, review elements, and formatting actions.
-</p>
-</div>
-
-<p class="cta-row">
-<a class="btn" href="/assets/files/Audit_Workpaper_Template.xlsx">Download template</a>
-<a class="btn btn--ghost" href="#auditticks-pro">View AuditTicks Pro</a>
-<a class="cta-link" href="/assets/img/workpaper_template_example.png" target="_blank" rel="noopener">Open completed example →</a>
-</p>
-
-</section>
-
-<section id="risk-assessment-matrix" class="subpage-section subpage-section--gradient">
-
-<div class="subpage-split">
-
-<div>
-  <p class="landing-kicker landing-kicker--dark">Audit planning template</p>
-
-  <h2 class="subpage-section-title">
-    Risk Assessment Matrix
-  </h2>
-
-  <p class="subpage-copy">
-    Configurable Excel template for scoring risks, prioritizing audit areas,
-    and visualizing results through an automatic heatmap.
-  </p>
-
-  <div class="landing-tags">
-    <span>Audit planning</span>
-    <span>Risk scoring</span>
-    <span>Heatmap</span>
-    <span>Excel template</span>
-  </div>
-
-  <dl class="project-facts">
-    <div><dt>Status</dt><dd>Downloadable demo</dd></div>
-    <div><dt>Role</dt><dd>Design and development</dd></div>
-    <div><dt>Deliverable</dt><dd>Excel template</dd></div>
-    <div><dt>Data</dt><dd>Demonstration inputs</dd></div>
-  </dl>
-
-  <div class="subpage-value-grid subpage-value-grid--compact">
-
-    <div>
-      <strong>Challenge</strong>
-      <p>Risk scoring can vary significantly when criteria, weighting, and rating logic are not applied consistently.</p>
+  <div class="case-hero__visual">
+    <div class="case-window">
+      <div class="case-window__bar"><span></span><span></span><span></span><small>AuditTicks Pro · Microsoft Excel</small></div>
+      <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro running inside an Excel audit workpaper">
     </div>
-
-    <div>
-      <strong>Solution</strong>
-      <p>A configurable Excel template combines customizable risk factors, weighted scoring, rating logic, and an automatic heatmap.</p>
-    </div>
-
-    <div>
-      <strong>Audit value</strong>
-      <p>Supports more consistent prioritization, clearer planning documentation, and easier communication with stakeholders.</p>
-    </div>
-
+    <div class="case-hero__note">Built around real audit documentation tasks</div>
   </div>
-
-  <div class="mini-case">
-    <p>
-      <strong>Use note:</strong> The template is provided as a demonstration file and should be reviewed and adapted before use in any formal audit environment.
-    </p>
-  </div>
-
-  <p class="cta-row">
-    <a class="btn" href="/assets/files/Risk_Assessment_Template.xlsx">Download template</a>
-    <a class="cta-link" href="/">Back to portfolio →</a>
-  </p>
-</div>
-
-<div class="subpage-media-card">
-  <a href="/assets/img/Risk_Assessment.png" target="_blank" rel="noopener">
-    <img src="/assets/img/Risk_Assessment.png" alt="Risk assessment matrix Excel template screenshot">
-  </a>
-  <p class="caption">Configurable risk factors with weighted scoring and an at-a-glance risk heatmap.</p>
-</div>
-
-</div>
-
 </section>
 
-<section class="subpage-final-cta">
-
-<p class="landing-kicker">Audit tools</p>
-
-<h2>
-Built to support practical audit execution, not just portfolio screenshots.
-</h2>
-
-<p>
-Explore the full portfolio, view audit analytics, or connect with me on LinkedIn.
-</p>
-
-<div class="landing-actions landing-actions--center">
-  <a class="btn landing-btn--light" href="/">Back to home</a>
-  <a class="btn landing-btn--outline" href="/audit-analytics/">View audit analytics</a>
-  <a class="btn landing-btn--outline" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
-</div>
-
+<section class="case-facts" aria-label="Project facts">
+  <div><small>Role</small><strong>Product design + development</strong></div>
+  <div><small>Platform</small><strong>Microsoft Excel</strong></div>
+  <div><small>Build</small><strong>VBA + Ribbon XML</strong></div>
+  <div><small>Status</small><strong>Active development</strong></div>
 </section>
 
-</div>    
+<section id="story" class="case-statement">
+  <p class="case-kicker case-kicker--dark">The challenge</p>
+  <h2>Auditors should spend time evaluating evidence—not rebuilding the same documentation mechanics.</h2>
+  <p>Tickmarks, legends, references, annotations, workpaper formatting, and review notes are small tasks individually. Repeated across samples and engagements, they create friction and inconsistency that distract from audit judgment.</p>
+</section>
+
+<section class="friction-section">
+  <div class="case-section-heading">
+    <p class="case-kicker">Where friction accumulates</p>
+    <h2>Small manual steps compound across every workpaper.</h2>
+  </div>
+  <div class="friction-grid">
+    <div><span>01</span><strong>Recreate</strong><p>Auditors rebuild common formatting and documentation elements.</p></div>
+    <div><span>02</span><strong>Interpret</strong><p>Different conventions make workpapers harder to navigate.</p></div>
+    <div><span>03</span><strong>Correct</strong><p>Review time shifts from substance toward presentation.</p></div>
+    <div><span>04</span><strong>Repeat</strong><p>The same setup begins again on the next engagement.</p></div>
+  </div>
+</section>
+
+<section class="solution-showcase">
+  <div class="solution-showcase__copy">
+    <p class="case-kicker case-kicker--dark">The solution</p>
+    <h2>Put the audit workflow where the work happens.</h2>
+    <p>A custom Excel ribbon gives auditors one-click access to standardized documentation tools while preserving the flexibility of the underlying workpaper.</p>
+  </div>
+  <div class="solution-showcase__image">
+    <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro custom Excel ribbon with standardized audit tools" loading="lazy">
+    <span>One ribbon · one documentation language</span>
+  </div>
+</section>
+
+<section class="system-section">
+  <div class="case-section-heading case-section-heading--split">
+    <div><p class="case-kicker case-kicker--dark">The system</p><h2>Designed around recurring audit actions.</h2></div>
+    <p>Each group removes a specific point of friction while reinforcing a common workpaper standard.</p>
+  </div>
+  <div class="system-grid">
+    <div class="system-card system-card--teal"><span>Document</span><h3>Tickmarks + legends</h3><p>Apply consistent symbols and generate the explanation reviewers need.</p></div>
+    <div class="system-card"><span>Connect</span><h3>References + tie-outs</h3><p>Make relationships between evidence, schedules, and conclusions visible.</p></div>
+    <div class="system-card"><span>Explain</span><h3>Notes + callouts</h3><p>Place concise context next to the work without losing the audit trail.</p></div>
+    <div class="system-card system-card--blue"><span>Standardize</span><h3>Templates + utilities</h3><p>Start from a repeatable structure instead of an empty spreadsheet.</p></div>
+  </div>
+</section>
+
+<section class="workflow-section">
+  <div class="workflow-section__intro">
+    <p class="case-kicker">The experience</p>
+    <h2>From blank worksheet to review-ready documentation.</h2>
+  </div>
+  <div class="workflow-track">
+    <div><small>01</small><strong>Start</strong><span>Select a workpaper structure.</span></div>
+    <div><small>02</small><strong>Test</strong><span>Document attributes and evidence.</span></div>
+    <div><small>03</small><strong>Explain</strong><span>Add tickmarks, notes, and references.</span></div>
+    <div><small>04</small><strong>Review</strong><span>Navigate a consistent audit record.</span></div>
+  </div>
+  <div class="workflow-visual">
+    <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper using standardized tickmarks, testing attributes, and exception notes" loading="lazy">
+  </div>
+</section>
+
+<section class="impact-section">
+  <div class="impact-section__statement"><span>The result</span><strong>Less friction.<br>Clearer work.</strong></div>
+  <div class="impact-list">
+    <div><span>01</span><p>More consistent documentation across workpapers.</p></div>
+    <div><span>02</span><p>Less repeated setup and manual formatting.</p></div>
+    <div><span>03</span><p>Clearer navigation for preparers and reviewers.</p></div>
+    <div><span>04</span><p>A reusable workflow that can improve over time.</p></div>
+  </div>
+</section>
+
+<section class="decisions-section">
+  <div class="case-section-heading case-section-heading--split">
+    <div><p class="case-kicker case-kicker--dark">Design decisions</p><h2>Practical before clever.</h2></div>
+    <p>Adoption matters more than technical novelty. The system succeeds only if it fits naturally into audit execution.</p>
+  </div>
+  <div class="decision-list">
+    <details open><summary><span>01</span>Why Excel?</summary><p>Excel remains central to audit testing. Extending the existing environment reduces context switching and makes the workflow immediately familiar.</p></details>
+    <details><summary><span>02</span>Why a custom ribbon?</summary><p>A ribbon organizes many small actions into a visible, repeatable sequence without crowding the worksheet itself.</p></details>
+    <details><summary><span>03</span>Why standardization?</summary><p>Common conventions reduce interpretation, make supervision easier, and allow review attention to remain on evidence and conclusions.</p></details>
+    <details><summary><span>04</span>Where does judgment remain?</summary><p>The tool supports documentation mechanics. Auditors still determine the procedure, evaluate the evidence, identify exceptions, and reach the conclusion.</p></details>
+  </div>
+</section>
+
+<section class="case-gallery">
+  <p class="case-kicker case-kicker--dark">Product views</p>
+  <h2>One system across setup, testing, and review.</h2>
+  <div class="case-gallery__grid">
+    <a class="case-gallery__large" href="/assets/img/AuditTicksPro_Tms.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro tools and annotations in a workpaper" loading="lazy"><span>Documentation in context</span></a>
+    <a href="/assets/img/AuditTicksPro_Ribbon.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon" loading="lazy"><span>Ribbon system</span></a>
+    <a href="/assets/img/workpaper_template_procedures.png" target="_blank" rel="noopener"><img src="/assets/img/workpaper_template_procedures.png" alt="Audit workpaper setup and procedures" loading="lazy"><span>Workpaper structure</span></a>
+  </div>
+</section>
+
+<section class="case-note">
+  <strong>Portfolio demonstration</strong>
+  <p>AuditTicks Pro and the related examples are independent portfolio projects built with demonstration data. They do not contain employer, client, or confidential information.</p>
+</section>
+
+<section class="related-tools">
+  <div class="case-section-heading case-section-heading--split">
+    <div><p class="case-kicker case-kicker--dark">Related tools</p><h2>Extend the workflow.</h2></div>
+    <p>Companion templates support consistent testing and audit planning.</p>
+  </div>
+  <div class="related-grid">
+    <article>
+      <div class="related-grid__image"><img src="/assets/img/workpaper_template.png" alt="Audit Workpaper Template Pack" loading="lazy"></div>
+      <p class="case-kicker case-kicker--dark">Documentation</p>
+      <h3>Audit Workpaper Template Pack</h3>
+      <p>Structured control testing, attributes, samples, exceptions, and review notes.</p>
+      <div><a class="case-link" href="/assets/files/Audit_Workpaper_Template.xlsx">Download template <span>↓</span></a><a class="case-link" href="/assets/img/workpaper_template_example.png" target="_blank" rel="noopener">View example <span>↗</span></a></div>
+    </article>
+    <article>
+      <div class="related-grid__image"><img src="/assets/img/Risk_Assessment.png" alt="Risk Assessment Matrix" loading="lazy"></div>
+      <p class="case-kicker case-kicker--dark">Planning</p>
+      <h3>Risk Assessment Matrix</h3>
+      <p>Configurable criteria, weighted scoring, prioritization, and an automatic heatmap.</p>
+      <div><a class="case-link" href="/assets/files/Risk_Assessment_Template.xlsx">Download template <span>↓</span></a><a class="case-link" href="/assets/img/Risk_Assessment.png" target="_blank" rel="noopener">View example <span>↗</span></a></div>
+    </article>
+  </div>
+</section>
+
+<section class="case-final">
+  <p class="case-kicker">Better audit systems</p>
+  <h2>Build once.<br>Improve every engagement.</h2>
+  <div><a class="case-link case-link--light" href="/">Return home <span>↗</span></a><a class="case-link case-link--light" href="/audit-analytics/">Next: Audit analytics <span>↗</span></a></div>
+</section>
+
+</article>
