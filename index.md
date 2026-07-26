@@ -1,307 +1,132 @@
 ---
-title: "Internal Audit Tools, Analytics & Governance Portfolio"
+title: "Better Systems. Better Audit."
 layout: default
-description: "Internal audit leadership, practical audit tools, analytics, automation, and AI governance projects by Colby Kellersberger, CIA, CFE, CICA."
+description: "Internal audit leadership, practical systems, analytics, and responsible AI designed to strengthen assurance."
 ---
 
-<div class="landing-page">
+<link rel="stylesheet" href="/assets/css/homepage-v2.css">
 
-<section class="landing-hero">
+<div class="consulting-home">
 
-<div class="landing-hero__content">
-  <p class="landing-kicker">Internal Audit Manager • CIA, CFE, CICA</p>
-
-  <h1 class="landing-title">
-    Internal audit tools and analytics built for practical audit execution.
-  </h1>
-
-  <p class="landing-subtitle">
-    I build audit-focused Excel tools, Power BI dashboards, workpaper templates,
-    analytics apps, and governance workflows that help improve coverage, reduce manual effort,
-    and make audit work more review-ready.
-  </p>
-
-  <div class="landing-actions">
-    <a class="btn landing-btn--light" href="#featured-dashboard">View dashboard demo</a>
-    <a class="btn landing-btn--outline" href="/excel-tools/">Explore audit tools</a>
+<section class="consulting-hero">
+  <div class="consulting-hero__copy">
+    <p class="consulting-eyebrow">Colby Kellersberger · Internal Audit Leader</p>
+    <h1>Better systems make <em>better audit</em> possible.</h1>
+    <p class="consulting-hero__lede">I combine audit leadership, analytics, and practical technology to help assurance teams work with greater clarity, consistency, and focus.</p>
+    <a class="consulting-arrow-link consulting-arrow-link--light" href="#work">Explore the work <span>↗</span></a>
   </div>
 
-  <div class="landing-stats">
-    <div>
-      <strong>Audit tools</strong>
-      <span>Excel, VBA, templates</span>
+  <div class="assurance-visual" aria-label="A visual representation of audit signals becoming better assurance">
+    <div class="assurance-orbit assurance-orbit--one"></div>
+    <div class="assurance-orbit assurance-orbit--two"></div>
+    <div class="assurance-orbit assurance-orbit--three"></div>
+    <div class="assurance-signal assurance-signal--risk"><small>01</small><strong>Risk</strong></div>
+    <div class="assurance-signal assurance-signal--evidence"><small>02</small><strong>Evidence</strong></div>
+    <div class="assurance-signal assurance-signal--judgment"><small>03</small><strong>Judgment</strong></div>
+    <div class="assurance-core"><span>Better</span><strong>Assurance</strong></div>
+  </div>
+
+  <div class="consulting-hero__index">
+    <span>Audit quality</span>
+    <span>Audit efficiency</span>
+    <span>Audit insight</span>
+  </div>
+</section>
+
+<section class="consulting-belief">
+  <p class="consulting-eyebrow consulting-eyebrow--dark">A point of view</p>
+  <h2>The future of Internal Audit is not more documentation. It is better judgment—supported by better systems.</h2>
+</section>
+
+<section class="consulting-capabilities" aria-labelledby="capabilities-title">
+  <div class="consulting-section-heading">
+    <p class="consulting-eyebrow consulting-eyebrow--dark">Where I focus</p>
+    <h2 id="capabilities-title">Three ways to strengthen assurance.</h2>
+  </div>
+
+  <div class="capability-list">
+    <a class="capability-row" href="/excel-tools/">
+      <span class="capability-row__number">01</span>
+      <div><h3>Improve audit quality</h3><p>Make methodology, documentation, and review more consistent.</p></div>
+      <span class="capability-row__arrow">↗</span>
+    </a>
+    <a class="capability-row" href="/excel-tools/">
+      <span class="capability-row__number">02</span>
+      <div><h3>Remove audit friction</h3><p>Turn repetitive work into practical, reusable workflows.</p></div>
+      <span class="capability-row__arrow">↗</span>
+    </a>
+    <a class="capability-row" href="/audit-analytics/">
+      <span class="capability-row__number">03</span>
+      <div><h3>See risk more clearly</h3><p>Use analytics to direct attention before testing begins.</p></div>
+      <span class="capability-row__arrow">↗</span>
+    </a>
+  </div>
+</section>
+
+<section id="work" class="impact-feature">
+  <div class="impact-feature__visual">
+    <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro tools integrated into the Excel ribbon" loading="lazy">
+    <div class="impact-feature__marker"><span>Built for the way auditors work</span></div>
+  </div>
+
+  <div class="impact-feature__copy">
+    <p class="consulting-eyebrow">Featured impact</p>
+    <h2>Standardizing audit work inside the tool auditors already use.</h2>
+    <p>AuditTicks Pro brings repeatable documentation, tickmarks, legends, and workpaper utilities directly into Excel—reducing setup work while making review clearer.</p>
+    <div class="impact-path" aria-label="Transformation from friction to impact">
+      <span><small>Challenge</small>Repeated manual setup</span>
+      <span><small>System</small>Integrated audit workflow</span>
+      <span><small>Impact</small>Greater consistency</span>
     </div>
+    <a class="consulting-arrow-link consulting-arrow-link--light" href="/excel-tools/#auditticks-pro">View the case story <span>↗</span></a>
+  </div>
+</section>
+
+<section class="consulting-work">
+  <div class="consulting-section-heading consulting-section-heading--split">
+    <div><p class="consulting-eyebrow consulting-eyebrow--dark">Selected work</p><h2>Ideas made practical.</h2></div>
+    <p>Each project begins with an audit problem—not a technology.</p>
+  </div>
+
+  <div class="editorial-grid">
+    <a class="editorial-story editorial-story--large" href="/audit-analytics/">
+      <div class="editorial-story__image"><img src="/assets/img/vendor_pmts_solution.png" alt="Vendor payment monitoring dashboard" loading="lazy"></div>
+      <p class="editorial-story__category">Audit analytics</p>
+      <h3>Turning transaction populations into visible risk signals.</h3>
+      <span class="editorial-story__link">Explore analytics ↗</span>
+    </a>
+
+    <a class="editorial-story" href="/ai-audit-assistant/">
+      <div class="editorial-story__image editorial-story__image--ai"><img src="/assets/img/ai-evidence-annotation-focus.png" alt="AI-assisted audit evidence annotations" loading="lazy"></div>
+      <p class="editorial-story__category">Responsible AI</p>
+      <h3>Keeping evidence and auditor judgment visible.</h3>
+      <span class="editorial-story__link">Explore governed AI ↗</span>
+    </a>
+
+    <a class="editorial-story" href="/audit-analytics/#testing-apps">
+      <div class="editorial-story__image editorial-story__image--testing"><img src="/assets/img/audit_sampling_tool.png" alt="Audit sampling application" loading="lazy"></div>
+      <p class="editorial-story__category">Audit testing</p>
+      <h3>Making defensible sampling easier to apply.</h3>
+      <span class="editorial-story__link">Explore testing tools ↗</span>
+    </a>
+  </div>
+</section>
+
+<section class="consulting-principle">
+  <div class="consulting-principle__statement"><span>Professional judgment</span><strong>stays at the center.</strong></div>
+  <p>Technology should reduce repetitive effort, improve consistency, and help auditors focus on the risks that matter. It should never make the judgment for them.</p>
+</section>
+
+<section class="consulting-about">
+  <p class="consulting-eyebrow consulting-eyebrow--dark">Leadership + building</p>
+  <h2>Audit experience with the ability to turn ideas into working systems.</h2>
+  <div class="consulting-about__footer">
+    <p>CIA · CFE · CICA<br>Internal audit leadership, analytics, automation, and AI governance.</p>
     <div>
-      <strong>Analytics</strong>
-      <span>Power BI, Python, SQL</span>
-    </div>
-    <div>
-      <strong>Governance</strong>
-      <span>Prompt controls + review discipline</span>
+      <a class="consulting-arrow-link" href="/about/">About Colby <span>↗</span></a>
+      <a class="consulting-arrow-link" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Connect on LinkedIn <span>↗</span></a>
     </div>
   </div>
-</div>
-
-<div class="landing-hero__visual" role="group" aria-label="Portfolio project preview images">
-  <div class="visual-card visual-card--main">
-    <img src="/assets/img/hero-auditticks-focus.png" alt="Focused AuditTicks Pro screenshot showing the Excel ribbon and audit documentation tools">
-  </div>
-
-  <div class="visual-card visual-card--small visual-card--bottom">
-    <img src="/assets/img/hero-workpaper-focus.png" alt="Focused completed audit workpaper screenshot showing sample testing results and attributes">
-  </div>
-</div>
-
-</section>
-
-<section class="landing-section landing-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Audit lifecycle coverage</p>
-
-<h2 class="landing-section-title">
-From planning to testing, monitoring, reporting, and AI governance.
-</h2>
-
-<div class="landing-lifecycle-grid">
-
-<div class="landing-mini-card">
-  <span class="landing-mini-card__num">01</span>
-  <h3>Plan</h3>
-  <p>Risk scoring, audit planning templates, prioritization, and structured documentation.</p>
-</div>
-
-<div class="landing-mini-card">
-  <span class="landing-mini-card__num">02</span>
-  <h3>Execute</h3>
-  <p>Workpaper templates, tickmarks, testing attributes, review notes, and repeatable fieldwork support.</p>
-</div>
-
-<div class="landing-mini-card">
-  <span class="landing-mini-card__num">03</span>
-  <h3>Monitor</h3>
-  <p>Power BI dashboards and analytics for issue tracking, vendor monitoring, and exception analysis.</p>
-</div>
-
-<div class="landing-mini-card">
-  <span class="landing-mini-card__num">04</span>
-  <h3>Govern</h3>
-  <p>Governed AI workflows for documentation, evidence annotation, control analysis, and quality review.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="featured-dashboard" class="landing-section landing-section--dashboard">
-
-<div class="landing-split landing-split--dashboard">
-
-<div>
-  <p class="landing-kicker landing-kicker--dark">Interactive dashboard demo</p>
-
-  <h2 class="landing-section-title">
-    Audit issue tracking that makes follow-up visible.
-  </h2>
-
-  <p class="landing-copy">
-    This Power BI dashboard demonstrates how audit finding data can be centralized and visualized
-    to support issue ownership, aging analysis, management action plan tracking, and follow-up discipline.
-  </p>
-
-  <div class="landing-tags">
-    <span>Power BI</span>
-    <span>Audit findings</span>
-    <span>Issue aging</span>
-    <span>Demo data</span>
-  </div>
-
-  <p class="cta-row">
-    <a class="btn" href="/audit-analytics/">View all audit analytics</a>
-    <a class="btn btn--ghost" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">Open full report</a>
-  </p>
-</div>
-
-<div class="landing-dashboard-frame">
-  <div class="powerbi-embed">
-    <iframe
-      title="Internal Audit Issue Tracker Dashboard"
-      src="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1"
-      allowfullscreen="true"
-      loading="lazy">
-    </iframe>
-  </div>
-
-  <p class="caption">Embedded interactive Power BI report using demo data.</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="landing-section landing-section--dark">
-
-<div class="landing-split">
-
-<div class="landing-image-stack">
-  <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon screenshot" loading="lazy">
-  <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper template example" loading="lazy">
-</div>
-
-<div>
-  <p class="landing-kicker">Audit documentation tools</p>
-
-  <h2 class="landing-section-title landing-section-title--light">
-    Standardized workpapers, tickmarks, references, and review-ready documentation.
-  </h2>
-
-  <p class="landing-copy landing-copy--light">
-    AuditTicks Pro and the Audit Workpaper Template Pack are designed to reduce manual formatting,
-    improve workpaper consistency, and give auditors a repeatable structure for documenting testing results.
-  </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>Excel add-in</span>
-    <span>VBA</span>
-    <span>Ribbon XML</span>
-    <span>Workpaper template</span>
-  </div>
-
-  <p class="cta-row">
-    <a class="btn landing-btn--light" href="/excel-tools/#auditticks-pro">View AuditTicks Pro</a>
-    <a class="btn landing-btn--outline" href="/excel-tools/#audit-workpaper-template">View template pack</a>
-  </p>
-</div>
-
-</div>
-
-</section>
-
-<section class="landing-section landing-section--gradient">
-
-<div class="landing-split">
-
-<div>
-  <p class="landing-kicker landing-kicker--dark">AI workflows + governance</p>
-
-  <h2 class="landing-section-title">
-    Applied AI for documentation, analysis, evidence, and review.
-  </h2>
-
-  <p class="landing-copy">
-    My AI workflow portfolio demonstrates how internal audit teams can use structured inputs,
-    source boundaries, non-fabrication rules, clarification triggers, methodology guardrails,
-    and human review across practical audit activities.
-  </p>
-
-  <div class="landing-tags">
-    <span>Applied AI</span>
-    <span>AI governance</span>
-    <span>Audit methodology</span>
-    <span>Human review</span>
-  </div>
-
-  <p class="cta-row">
-    <a class="btn" href="/ai-audit-assistant/">Explore AI workflows</a>
-    <a class="btn btn--ghost" href="/about/">About my approach</a>
-  </p>
-</div>
-
-<div class="landing-control-panel">
-  <div>
-    <span>01</span>
-    <strong>Auditor-provided facts</strong>
-    <p>Scope, evidence, samples, exceptions, and known limitations.</p>
-  </div>
-
-  <div>
-    <span>02</span>
-    <strong>Prompt controls</strong>
-    <p>Role limits, output type, non-fabrication rules, and clarification triggers.</p>
-  </div>
-
-  <div>
-    <span>03</span>
-    <strong>Review-ready draft</strong>
-    <p>Structured output that remains subject to auditor validation and judgment.</p>
-  </div>
-</div>
-
-</div>
-
-</section>
-
-<section class="landing-section landing-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Featured work</p>
-
-<h2 class="landing-section-title">
-Explore the portfolio by audit need.
-</h2>
-
-<div class="landing-project-grid">
-
-<a class="landing-project-card" href="/excel-tools/">
-  <span>Audit Tools</span>
-  <h3>Excel add-ins, workpaper templates, and risk assessment tools</h3>
-  <dl class="project-card__summary">
-    <div><dt>Challenge</dt><dd>Manual setup and inconsistent audit documentation.</dd></div>
-    <div><dt>Solution</dt><dd>Excel add-ins and reusable workpaper templates.</dd></div>
-    <div><dt>Impact</dt><dd>Faster preparation and clearer review.</dd></div>
-  </dl>
-</a>
-
-<a class="landing-project-card" href="/audit-analytics/">
-  <span>Audit Analytics</span>
-  <h3>Dashboards, monitoring, sampling, and exception analysis</h3>
-  <dl class="project-card__summary">
-    <div><dt>Challenge</dt><dd>Large populations and fragmented follow-up data.</dd></div>
-    <div><dt>Solution</dt><dd>Power BI dashboards and focused testing applications.</dd></div>
-    <div><dt>Impact</dt><dd>Broader coverage and more targeted review.</dd></div>
-  </dl>
-</a>
-
-<a class="landing-project-card" href="/sql-projects/">
-  <span>Data Projects</span>
-  <h3>SQL, transformation, modeling, and business risk review</h3>
-  <dl class="project-card__summary">
-    <div><dt>Challenge</dt><dd>Raw data that is not ready for reliable analysis.</dd></div>
-    <div><dt>Solution</dt><dd>SQL transformation, modeling, and reporting workflows.</dd></div>
-    <div><dt>Impact</dt><dd>Supportable trends, segments, and management views.</dd></div>
-  </dl>
-</a>
-
-<a class="landing-project-card" href="/ai-audit-assistant/">
-  <span>AI for Audit</span>
-  <h3>Governed AI workflows for documentation, analysis, and review</h3>
-  <dl class="project-card__summary">
-    <div><dt>Challenge</dt><dd>AI outputs that lack source discipline and review controls.</dd></div>
-    <div><dt>Solution</dt><dd>Governed workflows for evidence, controls, documentation, and quality review.</dd></div>
-    <div><dt>Impact</dt><dd>More consistent and reviewable audit support.</dd></div>
-  </dl>
-</a>
-
-</div>
-
-</section>
-
-<section class="landing-final-cta">
-
-<p class="landing-kicker">Connect</p>
-
-<h2>
-Interested in audit tools, analytics, automation, or AI governance for internal audit?
-</h2>
-
-<p>
-View my background, connect on LinkedIn, or explore the full project portfolio.
-</p>
-
-<div class="landing-actions landing-actions--center">
-  <a class="btn landing-btn--light" href="/about/">About / Resume</a>
-  <a class="cta-link cta-link--dark" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Connect on LinkedIn →</a>
-  <a class="cta-link cta-link--dark" href="https://github.com/colby-k" target="_blank" rel="noopener">View GitHub →</a>
-</div>
-
 </section>
 
 </div>
