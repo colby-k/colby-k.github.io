@@ -3374,12 +3374,3 @@ iframe:focus-visible {
     animation-iteration-count: 1 !important;
   }
 }
-
-/* Defer layout and paint work for long, off-screen case-study sections. */
-@supports (content-visibility: auto) {
-  #main_content article > section:nth-of-type(n + 3),
-  #main_content .consulting-home > section:nth-of-type(n + 3) {
-    content-visibility: auto;
-    contain-intrinsic-size: auto 800px;
-  }
-}
