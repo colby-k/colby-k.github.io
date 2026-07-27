@@ -1,8 +1,8 @@
 ---
-title: "Vendor Payment Monitoring Case Study"
+title: "Audit Analytics for Risk-Focused Review"
 layout: default
 permalink: /audit-analytics/
-description: "How audit analytics can turn a high-volume vendor payment population into visible risk signals and focused audit attention."
+description: "How audit analytics, monitoring, and visualization turn high-volume transaction populations into visible risk signals and focused audit attention."
 page_css: "/assets/css/audit-analytics-case-study.css"
 preload_image: "/assets/img/vendor_pmts_solution.webp"
 ---
@@ -11,9 +11,9 @@ preload_image: "/assets/img/vendor_pmts_solution.webp"
 
 <section class="analytics-hero">
   <div class="analytics-hero__copy">
-    <p class="analytics-kicker">Featured case study · Audit insight</p>
+    <p class="analytics-kicker">Featured case study · Audit analytics</p>
     <h1>Turn transaction volume into <em>visible risk.</em></h1>
-    <p class="analytics-hero__lede">Vendor Payment Monitoring uses analytics to surface unusual patterns, guide investigation, and help auditors focus testing where it can add the most value.</p>
+    <p class="analytics-hero__lede">Vendor Payment Monitoring uses analytics to surface unusual patterns, make risk explorable, and direct auditor attention toward transactions that may warrant additional procedures.</p>
     <div class="analytics-actions">
       <a class="analytics-link analytics-link--light" href="#story">Read the story <span>↓</span></a>
       <a class="analytics-link analytics-link--light" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">Open live dashboard <span>↗</span></a>
@@ -117,8 +117,8 @@ preload_image: "/assets/img/vendor_pmts_solution.webp"
 
 <section class="analytics-decisions">
   <div class="analytics-section-heading analytics-section-heading--split">
-    <div><p class="analytics-kicker analytics-kicker--dark">Design decisions</p><h2>Attention before automation.</h2></div>
-    <p>The dashboard is designed to support auditor decisions—not label transactions as improper.</p>
+    <div><p class="analytics-kicker analytics-kicker--dark">Design decisions</p><h2>Analytics directs attention. Testing evaluates evidence.</h2></div>
+    <p>The dashboard makes patterns visible and supports investigation. It does not determine whether a transaction is improper or replace the procedures needed to reach a conclusion.</p>
   </div>
   <div class="analytics-decision-list">
     <details open><summary><span>01</span>Why start with the full population?</summary><p>Population-level review provides context for sampling, identifies concentrations, and makes unusual activity easier to compare against normal behavior.</p></details>
