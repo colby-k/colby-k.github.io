@@ -3,9 +3,8 @@ title: "Data Systems for Trustworthy Audit Analytics"
 layout: default
 permalink: /sql-projects/
 description: "How SQL, validation, transformation, and data modeling turn raw operational data into reliable analysis and decision-ready audit insight."
+page_css: "/assets/css/data-systems-case-study.css"
 ---
-
-<link rel="stylesheet" href="/assets/css/data-systems-case-study.css">
 
 <article class="data-case">
 
@@ -122,7 +121,7 @@ description: "How SQL, validation, transformation, and data modeling turn raw op
 
   <div class="data-feature__visual">
     <a href="/assets/img/Sales_Report.png" target="_blank" rel="noopener">
-      <img src="/assets/img/Sales_Report.png" alt="Sales performance dashboard built from transformed transactional data" loading="lazy">
+      <img src="/assets/img/Sales_Report.webp" alt="Sales performance dashboard built from transformed transactional data" loading="lazy" width="1277" height="717" decoding="async">
     </a>
     <span>Raw transactions → governed measures</span>
   </div>
@@ -178,7 +177,7 @@ description: "How SQL, validation, transformation, and data modeling turn raw op
 <section class="data-secondary">
   <div class="data-secondary__visual">
     <a href="/assets/img/top_paying_roles.png" target="_blank" rel="noopener">
-      <img src="/assets/img/top_paying_roles.png" alt="SQL analysis of compensation by data role" loading="lazy">
+      <img src="/assets/img/top_paying_roles.webp" alt="SQL analysis of compensation by data role" loading="lazy" width="1450" height="777" decoding="async">
     </a>
   </div>
 

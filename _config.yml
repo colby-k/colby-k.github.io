@@ -34,6 +34,10 @@ plugins:
 
 markdown: kramdown
 
+# Compress the generated stylesheet in production.
+sass:
+  style: compressed
+
 url: "https://colby-k.github.io"
 baseurl: ""
 

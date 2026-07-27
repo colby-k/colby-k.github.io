@@ -3,9 +3,8 @@ title: "About Colby Kellersberger"
 layout: default
 permalink: /about/
 description: "Colby Kellersberger, CIA, CFE, CICA — an Internal Audit Manager combining audit leadership, systems thinking, analytics, and practical technology."
+page_css: "/assets/css/about-v2.css"
 ---
-
-<link rel="stylesheet" href="/assets/css/about-v2.css">
 
 <article class="about-case">
 
