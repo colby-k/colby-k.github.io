@@ -73,8 +73,8 @@ page_css: "/assets/css/homepage-v2.css"
 
 <section id="work" class="impact-feature">
   <div class="impact-feature__visual">
-    <img src="/assets/img/AuditTicksPro_Ribbon.webp" alt="AuditTicks Pro tools integrated into the Excel ribbon" loading="lazy" width="1970" height="164" decoding="async">
-    <div class="impact-feature__marker"><span>Built for the way auditors work</span></div>
+    <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper showing standardized testing, tickmarks, evidence references, and exception documentation" loading="lazy" width="1905" height="1461" decoding="async">
+    <div class="impact-feature__marker"><span>Standardized documentation in practice</span></div>
   </div>
 
   <div class="impact-feature__copy">
