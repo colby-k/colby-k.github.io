@@ -213,7 +213,7 @@ page_css: "/assets/css/responsible-ai-case-study.css"
   <h2>Use AI.<br>Keep the audit trail.</h2>
   <div>
     <a class="ai-link ai-link--light" href="/">Return home <span>↗</span></a>
-    <a class="ai-link ai-link--light" href="/sql-projects/">Next: Audit testing <span>↗</span></a>
+    <a class="ai-link ai-link--light" href="/about/">Next: About <span>↗</span></a>
   </div>
 </section>
 
