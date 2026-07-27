@@ -1,9 +1,18 @@
 {% if jekyll.environment == "production" and site.google_analytics %}
 <script>
   (function () {
+    var interactionEvents = ['pointerdown', 'keydown', 'touchstart', 'scroll'];
+
+    function removeInteractionListeners() {
+      interactionEvents.forEach(function (eventName) {
+        window.removeEventListener(eventName, loadAnalytics);
+      });
+    }
+
     function loadAnalytics() {
       if (window.__portfolioAnalyticsLoaded) return;
       window.__portfolioAnalyticsLoaded = true;
+      removeInteractionListeners();
 
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
@@ -16,12 +25,15 @@
       document.head.appendChild(script);
     }
 
+    interactionEvents.forEach(function (eventName) {
+      window.addEventListener(eventName, loadAnalytics, {
+        once: true,
+        passive: true
+      });
+    });
+
     window.addEventListener('load', function () {
-      if ('requestIdleCallback' in window) {
-        window.requestIdleCallback(loadAnalytics, { timeout: 2500 });
-      } else {
-        window.setTimeout(loadAnalytics, 1000);
-      }
+      window.setTimeout(loadAnalytics, 8000);
     }, { once: true });
   }());
 </script>
