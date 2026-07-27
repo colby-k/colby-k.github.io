@@ -5,6 +5,7 @@ description: "Internal Audit Manager with 10+ years of experience combining audi
 page_css: "/assets/css/homepage-v2.css"
 ---
 
+<!-- Deployment refresh: 2026-07-27 -->
 <div class="consulting-home">
 
 <section class="consulting-hero">
