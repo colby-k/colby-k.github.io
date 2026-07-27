@@ -15,7 +15,7 @@ page_css: "/assets/css/data-systems-case-study.css"
     <p class="data-hero__lede">Reliable audit insight depends on the work beneath the visual: understood sources, validated fields, controlled transformations, and a model that preserves meaning.</p>
     <div class="data-hero__actions">
       <a class="data-link data-link--light" href="#story">Read the story <span>↓</span></a>
-      <a class="data-link data-link--light" href="#sales-system">View the working system <span>↓</span></a>
+      <a class="data-link data-link--light" href="#population-testing">Explore population testing <span>↓</span></a>
     </div>
   </div>
 
@@ -108,9 +108,202 @@ page_css: "/assets/css/data-systems-case-study.css"
   </div>
 </section>
 
+<section id="population-testing" class="data-population">
+  <div class="data-section-heading data-section-heading--split">
+    <div>
+      <p class="data-kicker data-kicker--dark">Featured demonstration · Full-population testing</p>
+      <h2>Test the population. Investigate the exceptions.</h2>
+    </div>
+    <p>SQL can evaluate every transaction against documented risk criteria before detailed audit work begins. The result is broader coverage and a focused exception population—not automatic conclusions.</p>
+  </div>
+
+  <div class="population-flow" role="img" aria-label="Fifty thousand synthetic payments are validated, evaluated by six SQL tests, and reduced to 214 risk signals for auditor review">
+    <div class="population-flow__label"><span>Synthetic demonstration</span><small>Reconciled end to end</small></div>
+    <div class="population-flow__track">
+      <div class="population-flow__stage">
+        <small>01 · Source</small>
+        <strong>50,000</strong>
+        <span>vendor payments</span>
+      </div>
+      <div class="population-flow__arrow" aria-hidden="true">→</div>
+      <div class="population-flow__stage">
+        <small>02 · Validate</small>
+        <strong>50,000</strong>
+        <span>records reconciled</span>
+      </div>
+      <div class="population-flow__arrow" aria-hidden="true">→</div>
+      <div class="population-flow__stage population-flow__stage--tests">
+        <small>03 · Evaluate</small>
+        <strong>06</strong>
+        <span>documented SQL tests</span>
+      </div>
+      <div class="population-flow__arrow" aria-hidden="true">→</div>
+      <div class="population-flow__stage population-flow__stage--result">
+        <small>04 · Investigate</small>
+        <strong>214</strong>
+        <span>risk signals</span>
+      </div>
+    </div>
+    <div class="population-flow__footer"><strong>Auditor review remains the decision point.</strong><span>Evidence · Context · Conclusion</span></div>
+  </div>
+</section>
+
+<section class="data-coverage">
+  <div class="data-coverage__heading">
+    <p class="data-kicker">Coverage changes the starting point</p>
+    <h2>Sampling inspects evidence.<br>SQL directs attention.</h2>
+  </div>
+
+  <div class="data-coverage__comparison">
+    <article class="coverage-card">
+      <div class="coverage-card__top"><span>Illustrative sample</span><small>Detailed inspection</small></div>
+      <strong>60</strong>
+      <p>Selected records can support close review of documentation, approvals, and control performance.</p>
+      <div class="coverage-meter coverage-meter--sample"><span></span></div>
+      <small>0.12% of this demonstration population</small>
+    </article>
+
+    <div class="coverage-versus" aria-hidden="true"><span>+</span></div>
+
+    <article class="coverage-card coverage-card--population">
+      <div class="coverage-card__top"><span>SQL population testing</span><small>Defined risk criteria</small></div>
+      <strong>50,000</strong>
+      <p>Every payment is evaluated consistently so detailed work can begin with visible risk signals.</p>
+      <div class="coverage-meter"><span></span></div>
+      <small>100% evaluated against six tests</small>
+    </article>
+  </div>
+
+  <p class="data-coverage__note">These approaches are complementary. Full-population testing expands coverage; sampling and other procedures still provide the evidence needed to evaluate what an exception means.</p>
+</section>
+
+<section class="data-results">
+  <div class="data-section-heading data-section-heading--split">
+    <div>
+      <p class="data-kicker data-kicker--dark">Reconciled result board</p>
+      <h2>Six tests. One review population.</h2>
+    </div>
+    <p>Each count below is produced by the downloadable SQL demonstration. The seeded construction field validates the dataset, but the audit tests rely only on transactional, approval, vendor, and bank-change attributes.</p>
+  </div>
+
+  <div class="result-metrics" aria-label="Full-population demonstration metrics">
+    <div><small>Population</small><strong>50,000</strong><span>payments</span></div>
+    <div><small>Coverage</small><strong>100%</strong><span>evaluated</span></div>
+    <div><small>Test library</small><strong>06</strong><span>SQL tests</span></div>
+    <div class="result-metrics__accent"><small>Review population</small><strong>214</strong><span>risk signals</span></div>
+  </div>
+
+  <div class="result-board">
+    <div class="result-board__header"><span>Test</span><span>Risk evaluated</span><span>Signals</span><span>Relative volume</span></div>
+    <div class="result-row">
+      <span><b>T01</b> Duplicate invoice</span>
+      <span>Repeated vendor, invoice, and amount</span>
+      <strong>28</strong>
+      <i><b style="--signal-width: 43.75%"></b></i>
+    </div>
+    <div class="result-row">
+      <span><b>T02</b> Threshold split</span>
+      <span>Related payments immediately below approval authority</span>
+      <strong>34</strong>
+      <i><b style="--signal-width: 53.13%"></b></i>
+    </div>
+    <div class="result-row">
+      <span><b>T03</b> Approval timing</span>
+      <span>Payment recorded before documented approval</span>
+      <strong>42</strong>
+      <i><b style="--signal-width: 65.63%"></b></i>
+    </div>
+    <div class="result-row">
+      <span><b>T04</b> Vendor status</span>
+      <span>Payment associated with inactive master data</span>
+      <strong>19</strong>
+      <i><b style="--signal-width: 29.69%"></b></i>
+    </div>
+    <div class="result-row">
+      <span><b>T05</b> Bank change</span>
+      <span>Payment shortly after sensitive vendor-data change</span>
+      <strong>27</strong>
+      <i><b style="--signal-width: 42.19%"></b></i>
+    </div>
+    <div class="result-row result-row--largest">
+      <span><b>T06</b> Weekend manual</span>
+      <span>Manually initiated weekend disbursement</span>
+      <strong>64</strong>
+      <i><b style="--signal-width: 100%"></b></i>
+    </div>
+  </div>
+</section>
+
+<section class="data-trace">
+  <div class="data-section-heading">
+    <p class="data-kicker">Trace one signal</p>
+    <h2>From source records to a reviewable exception.</h2>
+  </div>
+
+  <div class="trace-layout">
+    <article class="trace-record">
+      <div class="trace-record__header"><span>T02 · Signal 001</span><small>Synthetic demonstration</small></div>
+      <div class="trace-record__vendor"><small>Vendor</small><strong>Northstar Component Supply</strong></div>
+      <div class="trace-record__payments">
+        <div>
+          <span>Payment 49781</span>
+          <strong>$9,801</strong>
+          <small>SPLIT-001-A · 2025-01-08</small>
+        </div>
+        <div>
+          <span>Payment 49782</span>
+          <strong>$9,701</strong>
+          <small>SPLIT-001-B · 2025-01-10</small>
+        </div>
+      </div>
+      <div class="trace-record__threshold"><span>Approval threshold</span><strong>$10,000</strong></div>
+      <div class="trace-record__signal"><small>SQL result</small><strong>Potential approval-threshold split</strong><p>Two related payments occurred within two days. Each was below the approval threshold; together they totaled $19,502.</p></div>
+    </article>
+
+    <article class="trace-code">
+      <div class="trace-code__bar"><span></span><span></span><span></span><small>T02_threshold_split.sql</small></div>
+      <pre><code>JOIN payments p2
+  ON p2.vendor_id = p1.vendor_id
+ AND p2.payment_date BETWEEN
+     p1.payment_date
+     AND DATEADD(day, 7, p1.payment_date)
+
+WHERE p1.amount &lt; p1.approval_limit
+  AND p2.amount &lt; p2.approval_limit
+  AND p1.amount + p2.amount
+      &gt;= p1.approval_limit;</code></pre>
+      <div class="trace-code__result"><span>Result</span><strong>1 paired signal</strong><small>Payment IDs retained for follow-up</small></div>
+    </article>
+  </div>
+
+  <div class="trace-steps" aria-label="Exception traceability process">
+    <div><small>01</small><strong>Source</strong><span>Payment and vendor records</span></div>
+    <div><small>02</small><strong>Rule</strong><span>Documented SQL criteria</span></div>
+    <div><small>03</small><strong>Signal</strong><span>Retained record identifiers</span></div>
+    <div><small>04</small><strong>Review</strong><span>Evidence and explanation</span></div>
+    <div><small>05</small><strong>Conclude</strong><span>Documented auditor judgment</span></div>
+  </div>
+</section>
+
+<section class="data-interpretation">
+  <div class="data-interpretation__statement">
+    <span>214 signals</span>
+    <strong>≠ 214 findings</strong>
+  </div>
+  <div class="data-interpretation__copy">
+    <h3>SQL identifies conditions. Auditors determine meaning.</h3>
+    <p>A signal may be expected, correctly approved, a data-quality issue, a control exception, or an indicator requiring expanded work. Source reliability, test design, supporting evidence, and business context remain essential.</p>
+    <div class="data-interpretation__actions">
+      <a class="data-link" href="/assets/files/full-population-testing/01_create_demo_data.sql" download>Download demonstration data SQL <span>↓</span></a>
+      <a class="data-link" href="/assets/files/full-population-testing/02_full_population_tests.sql" download>Download audit tests <span>↓</span></a>
+      <a class="data-link" href="/assets/files/full-population-testing/expected-results.csv" download>Download expected results <span>↓</span></a>
+    </div>
+  </div>
+</section>
+
 <section id="sales-system" class="data-feature">
   <div class="data-feature__copy">
-    <p class="data-kicker data-kicker--dark">Featured working system</p>
+    <p class="data-kicker data-kicker--dark">Additional working system</p>
     <h2>Sales ETL + performance dashboard</h2>
     <p>An end-to-end example showing how raw transactional data is cleaned, transformed, modeled, and presented for trend, variance, margin, customer, product, and geographic review.</p>
     <div class="data-feature__actions">
