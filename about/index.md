@@ -1,233 +1,180 @@
 ---
-title: "About"
+title: "About Colby Kellersberger"
 layout: default
 permalink: /about/
-description: "About Colby Kellersberger, CIA, CFE, CICA — an Internal Audit Manager with a Big Four foundation and 10+ years of audit leadership, analytics, and practical tooling experience."
+description: "Colby Kellersberger, CIA, CFE, CICA — an Internal Audit Manager combining audit leadership, systems thinking, analytics, and practical technology."
 ---
 
-<div class="subpage subpage--about">
+<link rel="stylesheet" href="/assets/css/about-v2.css">
 
-<section class="subpage-hero subpage-hero--dark">
+<article class="about-case">
 
-<div class="subpage-hero__content">
-  <p class="landing-kicker">About</p>
-
-  <h1 class="subpage-title">
-    Internal audit experience with hands-on analytics, tooling, and governance execution.
-  </h1>
-
-  <p class="subpage-subtitle">
-    I’m <strong>Colby Kellersberger, CIA, CFE, CICA</strong> — an Internal Audit Manager with a
-    Big Four foundation and more than 10 years of experience across financial, operational,
-    compliance, and control-focused auditing.
-  </p>
-
-  <div class="landing-tags landing-tags--dark">
-    <span>Internal Audit</span>
-    <span>Risk-Based Auditing</span>
-    <span>Audit Analytics</span>
-    <span>Excel / VBA</span>
-    <span>Power BI</span>
-    <span>SQL</span>
-    <span>Python</span>
-    <span>AI Workflow Design</span>
-  </div>
-
-  <div class="landing-actions">
-    <a class="btn landing-btn--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">Download resume</a>
-    <a class="btn landing-btn--outline" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
-    <a class="btn landing-btn--outline" href="https://github.com/colby-k" target="_blank" rel="noopener">GitHub</a>
-  </div>
-</div>
-
-<div class="subpage-hero__visual">
-  <div class="subpage-value-grid subpage-value-grid--dark subpage-value-grid--compact">
-
-    <div>
-      <strong>Audit leadership</strong>
-      <p>Engagement leadership from risk assessment and walkthroughs through testing, reporting, and remediation follow-up.</p>
+<section class="about-hero">
+  <div class="about-hero__copy">
+    <p class="about-kicker">About · Leadership + building</p>
+    <h1>I lead audit work. I also build the <em>systems that make it better.</em></h1>
+    <p class="about-hero__lede">I’m Colby Kellersberger, CIA, CFE, CICA—an Internal Audit Manager with a Big Four foundation and more than 10 years of experience across financial, operational, compliance, and control-focused auditing.</p>
+    <div class="about-hero__actions">
+      <a class="about-link about-link--light" href="#story">Read my approach <span>↓</span></a>
+      <a class="about-link about-link--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a>
     </div>
-
-    <div>
-      <strong>Technical execution</strong>
-      <p>Hands-on development across Excel/VBA, Power BI, SQL, Python, Streamlit, and governed AI workflows.</p>
-    </div>
-
-    <div>
-      <strong>Review discipline</strong>
-      <p>Emphasis on supportable conclusions, documentation quality, evidence, and reviewer clarity.</p>
-    </div>
-
-  </div>
-</div>
-
-</section>
-
-<section class="subpage-section subpage-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Professional focus</p>
-
-<h2 class="subpage-section-title">
-  Building practical audit workflows that improve coverage, consistency, and review clarity.
-</h2>
-
-<p class="subpage-copy">
-  I combine audit leadership with hands-on analytics and workflow development. My focus is
-  practical execution: planning, documentation, testing, monitoring, exception analysis,
-  issue follow-up, and governance.
-</p>
-
-<div class="subpage-feature-grid">
-
-<div class="subpage-feature-card">
-  <span>01</span>
-  <h3>Audit tooling</h3>
-  <p>Building Excel-based add-ins, templates, and workflow helpers that support repeatable audit documentation and fieldwork execution.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>02</span>
-  <h3>Audit analytics</h3>
-  <p>Developing dashboards and applications for monitoring, sampling, anomaly detection, issue tracking, and targeted audit testing.</p>
-</div>
-
-<div class="subpage-feature-card">
-  <span>03</span>
-  <h3>Governance and reviewability</h3>
-  <p>Designing outputs that are easier to review, support, explain, and adapt for formal audit environments.</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="subpage-section subpage-section--light">
-
-<p class="landing-kicker landing-kicker--dark">Portfolio themes</p>
-
-<h2 class="subpage-section-title">
-  Explore the portfolio by capability.
-</h2>
-
-<div class="landing-project-grid">
-
-<a class="landing-project-card" href="/excel-tools/">
-  <span>Audit Tools</span>
-  <h3>Excel add-ins, workpaper templates, and risk assessment tools</h3>
-  <p>AuditTicks Pro, workpaper templates, and planning tools designed for practical internal audit execution.</p>
-</a>
-
-<a class="landing-project-card" href="/audit-analytics/">
-  <span>Audit Analytics</span>
-  <h3>Dashboards, monitoring, sampling, and exception analysis</h3>
-  <p>Power BI dashboards and Streamlit apps for audit testing, issue follow-up, anomaly screening, and risk-based analysis.</p>
-</a>
-
-<a class="landing-project-card" href="/sql-projects/">
-  <span>Data Projects</span>
-  <h3>SQL, transformation, modeling, and business risk review</h3>
-  <p>Data projects framed around audit-style review, trend analysis, dashboard development, and management reporting.</p>
-</a>
-
-<a class="landing-project-card" href="/ai-audit-assistant/">
-  <span>AI for Audit</span>
-  <h3>Governed AI workflows for internal audit</h3>
-  <p>Applied workflows for evidence annotation, control identification, documentation, and quality review.</p>
-</a>
-
-</div>
-
-</section>
-
-<section class="subpage-section subpage-section--gradient">
-
-<div class="subpage-split">
-
-<div>
-  <p class="landing-kicker landing-kicker--dark">Tools I use</p>
-
-  <h2 class="subpage-section-title">
-    Tools for analytics, automation, reporting, documentation, and workflow development.
-  </h2>
-
-  <p class="subpage-copy">
-    These are the primary tools I use across audit analytics, automation, reporting,
-    documentation, dashboard development, and AI-supported audit workflow design.
-  </p>
-</div>
-
-<div class="subpage-media-card">
-  <div class="tools">
-
-    <a href="https://www.microsoft.com/en-us/power-platform/products/power-bi" target="_blank" rel="noopener">
-      <img src="/assets/icons/power_bi.svg" width="26" title="Power BI" alt="Power BI">
-    </a>
-
-    <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" rel="noopener">
-      <img src="/assets/icons/excel.svg" width="26" title="Excel" alt="Excel">
-    </a>
-
-    <a href="https://learn.microsoft.com/en-us/office/vba/api/overview/" target="_blank" rel="noopener">
-      <img src="/assets/icons/VBA-grey.svg" width="26" title="VBA" alt="VBA">
-    </a>
-
-    <a href="https://learn.microsoft.com/en-us/sql/sql-server" target="_blank" rel="noopener">
-      <img src="/assets/icons/SQL_2025.svg" width="26" title="SQL" alt="SQL">
-    </a>
-
-    <a href="https://www.python.org" target="_blank" rel="noopener">
-      <img src="/assets/icons/python.svg" width="26" title="Python" alt="Python">
-    </a>
-
-    <a href="https://jupyter.org" target="_blank" rel="noopener">
-      <img src="/assets/icons/jupyter.svg" width="26" title="Jupyter" alt="Jupyter">
-    </a>
-
-    <a href="https://code.visualstudio.com" target="_blank" rel="noopener">
-      <img src="/assets/icons/vs_code.svg" width="26" title="VS Code" alt="VS Code">
-    </a>
-
-    <a href="https://streamlit.io" target="_blank" rel="noopener">
-      <img src="/assets/icons/streamlit.svg" width="26" title="Streamlit" alt="Streamlit">
-    </a>
-
-    <a href="https://chatgpt.com/" target="_blank" rel="noopener">
-      <img src="/assets/icons/chatgpt.svg" width="26" title="ChatGPT" alt="ChatGPT">
-    </a>
-
-    <a href="https://github.com/features/copilot" target="_blank" rel="noopener">
-      <img src="/assets/icons/copilot.svg" width="26" title="GitHub Copilot" alt="GitHub Copilot">
-    </a>
-
   </div>
 
-  <p class="caption">
-    Tooling used across audit analytics, automation, workpaper support, dashboarding, and AI-enabled documentation workflows.
-  </p>
-</div>
-
-</div>
-
+  <div class="about-hero__visual">
+    <div class="about-model" aria-label="The combination of audit leadership, systems thinking, and technical execution">
+      <div class="about-model__header"><small>How the work connects</small><span>03 disciplines</span></div>
+      <div class="about-model__row"><span>01</span><strong>Audit leadership</strong><small>Risk · Evidence · Judgment</small></div>
+      <div class="about-model__row about-model__row--focus"><span>02</span><strong>Systems thinking</strong><small>Consistency · Clarity · Adoption</small></div>
+      <div class="about-model__row"><span>03</span><strong>Technical execution</strong><small>Analytics · Automation · AI</small></div>
+      <div class="about-model__footer"><strong>Better assurance</strong> through practical systems</div>
+    </div>
+  </div>
 </section>
 
-<section class="subpage-final-cta">
-
-<p class="landing-kicker">Contact</p>
-
-<h2>
-Interested in audit tools, analytics, automation, or AI governance for internal audit?
-</h2>
-
-<p>
-Connect with me, view my work, or download my resume through the links below.
-</p>
-
-<div class="landing-actions landing-actions--center">
-  <a class="btn landing-btn--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">Download resume</a>
-  <a class="btn landing-btn--outline" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn</a>
-  <a class="btn landing-btn--outline" href="https://github.com/colby-k" target="_blank" rel="noopener">GitHub</a>
-</div>
-
+<section class="about-facts" aria-label="Professional facts">
+  <div><small>Experience</small><strong>10+ years</strong></div>
+  <div><small>Credentials</small><strong>CIA · CFE · CICA</strong></div>
+  <div><small>Foundation</small><strong>Big Four audit</strong></div>
+  <div><small>Current focus</small><strong>Internal Audit leadership</strong></div>
 </section>
 
-</div>
+<section id="story" class="about-story">
+  <p class="about-kicker about-kicker--dark">The idea behind the work</p>
+  <h2>Recurring audit friction is usually a systems problem.</h2>
+  <p>When teams repeatedly rebuild documentation, reshape data, search for methodology, or correct inconsistent work, the answer is rarely to work harder. It is to design a clearer, more reusable way of working—while keeping professional judgment at the center.</p>
+</section>
+
+<section class="about-evolution">
+  <div class="about-section-heading">
+    <p class="about-kicker">The evolution</p>
+    <h2>Experience changed the questions I learned to ask.</h2>
+  </div>
+
+  <div class="about-evolution-track">
+    <div><span>01</span><strong>Discipline</strong><p>A Big Four foundation reinforced evidence, documentation, methodology, and review.</p></div>
+    <div><span>02</span><strong>Risk</strong><p>Engagement leadership connected audit procedures to business context and assurance needs.</p></div>
+    <div><span>03</span><strong>Insight</strong><p>Analytics showed how populations and patterns can direct attention before testing begins.</p></div>
+    <div><span>04</span><strong>Systems</strong><p>Building reusable workflows turned recurring friction into opportunities for lasting improvement.</p></div>
+  </div>
+</section>
+
+<section class="about-principles">
+  <div class="about-section-heading about-section-heading--split">
+    <div><p class="about-kicker about-kicker--dark">Working principles</p><h2>How I approach audit innovation.</h2></div>
+    <p>The goal is not technology for its own sake. It is better work: more consistent, more traceable, easier to review, and focused on the risks that matter.</p>
+  </div>
+
+  <div class="about-principle-grid">
+    <article class="about-principle-card about-principle-card--coral">
+      <span>01 · Judgment first</span>
+      <h3>Technology supports the decision.</h3>
+      <p>Automation and AI should improve the work around professional judgment—not make the judgment.</p>
+    </article>
+    <article class="about-principle-card">
+      <span>02 · Practical before clever</span>
+      <h3>Adoption is part of the design.</h3>
+      <p>A solution creates value only when it fits the way auditors actually work.</p>
+    </article>
+    <article class="about-principle-card">
+      <span>03 · Consistency compounds</span>
+      <h3>Standards improve every engagement.</h3>
+      <p>Reusable documentation, data logic, and review patterns reduce interpretation and rework.</p>
+    </article>
+    <article class="about-principle-card about-principle-card--teal">
+      <span>04 · Evidence stays visible</span>
+      <h3>Clarity creates trust.</h3>
+      <p>Reviewers should be able to trace an analysis, workflow, or conclusion back to its support.</p>
+    </article>
+  </div>
+</section>
+
+<section class="about-method">
+  <div class="about-method__intro">
+    <p class="about-kicker">How I work</p>
+    <h2>Move from recurring problem to reusable system.</h2>
+  </div>
+
+  <div class="about-method-track" aria-label="Process for turning an audit problem into a reusable system">
+    <div><small>01</small><strong>Understand</strong><span>Observe the audit activity, users, constraints, and actual source of friction.</span></div>
+    <div><small>02</small><strong>Define</strong><span>Clarify the risk, desired outcome, evidence, and control requirements.</span></div>
+    <div><small>03</small><strong>Build</strong><span>Create the smallest practical workflow that solves the recurring need.</span></div>
+    <div><small>04</small><strong>Govern</strong><span>Make limitations, review responsibilities, and decision rights explicit.</span></div>
+    <div><small>05</small><strong>Improve</strong><span>Use feedback and experience to strengthen the system over time.</span></div>
+  </div>
+
+  <div class="about-method-note">
+    <div><strong>Build once. Improve every engagement.</strong><p>The strongest solutions become part of the team’s operating rhythm rather than another isolated tool.</p></div>
+    <span aria-hidden="true">↗</span>
+  </div>
+</section>
+
+<section class="about-work">
+  <div class="about-section-heading about-section-heading--split">
+    <div><p class="about-kicker about-kicker--dark">The work</p><h2>Four capabilities. One point of view.</h2></div>
+    <p>Each portfolio area demonstrates a different way to strengthen audit quality, efficiency, insight, and governance.</p>
+  </div>
+
+  <div class="about-work-grid">
+    <a class="about-work-card" href="/excel-tools/">
+      <span>01 · Audit Quality</span>
+      <h3>Make good work easier to repeat.</h3>
+      <p>Documentation systems, workpaper tools, and templates designed around review-ready execution.</p>
+      <b>Explore Audit Quality ↗</b>
+    </a>
+    <a class="about-work-card" href="/audit-analytics/">
+      <span>02 · Audit Insight</span>
+      <h3>Use data to decide where to look.</h3>
+      <p>Analytics and monitoring that turn transaction populations into visible risk signals.</p>
+      <b>Explore Audit Insight ↗</b>
+    </a>
+    <a class="about-work-card" href="/ai-audit-assistant/">
+      <span>03 · Responsible AI</span>
+      <h3>Increase leverage without hiding judgment.</h3>
+      <p>Effective AI use cases with source boundaries, reviewable outputs, and human accountability.</p>
+      <b>Explore Responsible AI ↗</b>
+    </a>
+    <a class="about-work-card" href="/sql-projects/">
+      <span>04 · Data Systems</span>
+      <h3>Build the foundation behind trustworthy analysis.</h3>
+      <p>SQL, transformation, validation, and modeling that make insight more reliable and traceable.</p>
+      <b>Explore Data Systems ↗</b>
+    </a>
+  </div>
+</section>
+
+<section class="about-credentials">
+  <div class="about-credentials__copy">
+    <p class="about-kicker about-kicker--dark">Experience + credentials</p>
+    <h2>Audit depth with the ability to turn ideas into working systems.</h2>
+    <p>My background spans financial, operational, compliance, and control-focused auditing, with hands-on work across analytics, automation, data transformation, reporting, and governed AI workflows.</p>
+    <div class="about-credentials__actions">
+      <a class="about-link" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">Download résumé <span>↓</span></a>
+      <a class="about-link" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+      <a class="about-link" href="https://github.com/colby-k" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+    </div>
+  </div>
+
+  <div class="about-credential-stack" aria-label="Professional credentials">
+    <div><span>CIA</span><strong>Certified Internal Auditor</strong></div>
+    <div><span>CFE</span><strong>Certified Fraud Examiner</strong></div>
+    <div><span>CICA</span><strong>Certified Internal Controls Auditor</strong></div>
+  </div>
+</section>
+
+<section class="about-note">
+  <strong>Portfolio boundary</strong>
+  <p>The projects on this site are independent portfolio work built with synthetic, demonstration, external, or public data. They do not contain employer, client, confidential audit, or proprietary information.</p>
+</section>
+
+<section class="about-final">
+  <p class="about-kicker">Let’s connect</p>
+  <h2>Better systems.<br>Better audit.</h2>
+  <p>I’m interested in practical ways to strengthen Internal Audit through better workflows, analytics, data systems, and responsible AI.</p>
+  <div>
+    <a class="about-link about-link--light" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Connect on LinkedIn <span>↗</span></a>
+    <a class="about-link about-link--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a>
+    <a class="about-link about-link--light" href="/">Return home <span>↗</span></a>
+  </div>
+</section>
+
+</article>
