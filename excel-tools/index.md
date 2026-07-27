@@ -1,8 +1,8 @@
 ---
-title: "AuditTicks Pro Case Study"
+title: "Audit Quality Through Better Workflows"
 layout: default
 permalink: /excel-tools/
-description: "How AuditTicks Pro turns repetitive Excel documentation tasks into a consistent, review-ready internal audit workflow."
+description: "How consistent methodology, documentation, evidence traceability, and practical Excel workflows support audit quality and more efficient review."
 page_css: "/assets/css/auditticks-case-study.css"
 preload_image: "/assets/img/AuditTicksPro_Tms.webp"
 ---
@@ -11,9 +11,9 @@ preload_image: "/assets/img/AuditTicksPro_Tms.webp"
 
 <section class="case-hero">
   <div class="case-hero__copy">
-    <p class="case-kicker">Featured case study · Audit quality + efficiency</p>
+    <p class="case-kicker">Audit quality · Featured workflow case study</p>
     <h1>Designing a better audit workflow inside Excel.</h1>
-    <p class="case-hero__lede">AuditTicks Pro transforms repetitive workpaper mechanics into a consistent documentation system—without asking auditors to leave the tool they already use.</p>
+    <p class="case-hero__lede">AuditTicks Pro turns recurring workpaper tasks into a consistent, review-ready workflow that supports clearer documentation, visible evidence, and more efficient review.</p>
     <div class="case-hero__actions">
       <a class="case-link case-link--light" href="#story">Read the story <span>↓</span></a>
       <a class="case-link case-link--light" href="/assets/img/User%20Guide.png" target="_blank" rel="noopener">View user guide <span>↗</span></a>
