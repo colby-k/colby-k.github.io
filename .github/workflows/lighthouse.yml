@@ -17,7 +17,6 @@ jobs:
 
     steps:
       - name: Wait for optimized GitHub Pages deployment
-        if: github.event_name == 'push'
         shell: bash
         run: |
           for attempt in {1..40}; do
