@@ -1,0 +1,107 @@
+name: Lighthouse performance
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Wait for optimized GitHub Pages deployment
+        if: github.event_name == 'push'
+        shell: bash
+        run: |
+          for attempt in {1..40}; do
+            if curl --fail --silent --show-error https://colby-k.github.io/ | grep --quiet "AuditTicksPro_Ribbon.webp"; then
+              echo "Optimized deployment is live."
+              exit 0
+            fi
+            echo "Waiting for GitHub Pages deployment (attempt ${attempt}/40)..."
+            sleep 15
+          done
+
+          echo "Timed out waiting for the optimized deployment."
+          exit 1
+
+      - name: Run mobile Lighthouse
+        run: |
+          npx --yes lighthouse@12.8.2 https://colby-k.github.io/ \
+            --quiet \
+            --chrome-flags="--headless --no-sandbox" \
+            --only-categories=performance \
+            --output=json \
+            --output-path=./lighthouse-mobile.json
+
+      - name: Run desktop Lighthouse
+        run: |
+          npx --yes lighthouse@12.8.2 https://colby-k.github.io/ \
+            --quiet \
+            --chrome-flags="--headless --no-sandbox" \
+            --preset=desktop \
+            --only-categories=performance \
+            --output=json \
+            --output-path=./lighthouse-desktop.json
+
+      - name: Summarize Lighthouse results
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+
+          function read(path) {
+            const report = JSON.parse(fs.readFileSync(path, 'utf8'));
+            const audit = report.audits;
+            return {
+              score: Math.round(report.categories.performance.score * 100),
+              fcp: audit['first-contentful-paint'].numericValue,
+              lcp: audit['largest-contentful-paint'].numericValue,
+              speedIndex: audit['speed-index'].numericValue,
+              tbt: audit['total-blocking-time'].numericValue,
+              cls: audit['cumulative-layout-shift'].numericValue
+            };
+          }
+
+          const results = {
+            event: process.env.GITHUB_EVENT_NAME,
+            commit: process.env.GITHUB_SHA,
+            testedAt: new Date().toISOString(),
+            mobile: read('lighthouse-mobile.json'),
+            desktop: read('lighthouse-desktop.json')
+          };
+
+          fs.writeFileSync('lighthouse-summary.json', JSON.stringify(results, null, 2));
+
+          const ms = value => (value / 1000).toFixed(2) + ' s';
+          const rows = [
+            ['Mobile', results.mobile],
+            ['Desktop', results.desktop]
+          ];
+
+          let markdown = '## Lighthouse performance\n\n';
+          markdown += '| Profile | Score | FCP | LCP | Speed Index | TBT | CLS |\n';
+          markdown += '|---|---:|---:|---:|---:|---:|---:|\n';
+          for (const [name, value] of rows) {
+            markdown += `| ${name} | ${value.score} | ${ms(value.fcp)} | ${ms(value.lcp)} | ${ms(value.speedIndex)} | ${Math.round(value.tbt)} ms | ${value.cls.toFixed(3)} |\n`;
+          }
+
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, markdown);
+          console.log(markdown);
+          NODE
+
+      - name: Upload Lighthouse reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-${{ github.event_name }}-${{ github.sha }}
+          path: |
+            lighthouse-mobile.json
+            lighthouse-desktop.json
+            lighthouse-summary.json
+          retention-days: 14
