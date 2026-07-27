@@ -1,7 +1,7 @@
 ---
 title: "Better Systems. Better Audit."
 layout: default
-description: "Internal audit leadership, practical systems, analytics, and responsible AI designed to strengthen assurance."
+description: "Internal Audit Manager with 10+ years of experience combining audit leadership, analytics, full-population testing, and responsible AI to strengthen assurance."
 page_css: "/assets/css/homepage-v2.css"
 ---
 
@@ -11,8 +11,11 @@ page_css: "/assets/css/homepage-v2.css"
   <div class="consulting-hero__copy">
     <p class="consulting-eyebrow">Colby Kellersberger · Internal Audit Leader</p>
     <h1>Better systems make <em>better audit</em> possible.</h1>
-    <p class="consulting-hero__lede">I combine audit leadership, analytics, and practical technology to help assurance teams work with greater clarity, consistency, and focus.</p>
-    <a class="consulting-arrow-link consulting-arrow-link--light" href="#work">Explore the work <span>↗</span></a>
+    <p class="consulting-hero__lede">I’m an Internal Audit Manager with 10+ years of experience combining audit judgment, analytics, and practical technology to improve quality, expand testing coverage, and make assurance more efficient.</p>
+    <div class="consulting-hero__actions">
+      <a class="consulting-arrow-link consulting-arrow-link--light" href="#work">Explore the work <span>↗</span></a>
+      <a class="consulting-arrow-link consulting-arrow-link--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a>
+    </div>
   </div>
 
   <div class="assurance-visual" aria-label="A visual representation of audit signals becoming better assurance">
@@ -25,10 +28,11 @@ page_css: "/assets/css/homepage-v2.css"
     <div class="assurance-core"><span>Better</span><strong>Assurance</strong></div>
   </div>
 
-  <div class="consulting-hero__index">
-    <span>Audit quality</span>
-    <span>Audit efficiency</span>
-    <span>Audit insight</span>
+  <div class="consulting-hero__index" aria-label="Professional credentials">
+    <span>10+ years</span>
+    <span>Internal Audit Manager</span>
+    <span>CIA · CFE · CICA</span>
+    <span>Big Four foundation</span>
   </div>
 </section>
 
@@ -40,23 +44,28 @@ page_css: "/assets/css/homepage-v2.css"
 <section class="consulting-capabilities" aria-labelledby="capabilities-title">
   <div class="consulting-section-heading">
     <p class="consulting-eyebrow consulting-eyebrow--dark">Where I focus</p>
-    <h2 id="capabilities-title">Three ways to strengthen assurance.</h2>
+    <h2 id="capabilities-title">Four capabilities that strengthen assurance.</h2>
   </div>
 
   <div class="capability-list">
     <a class="capability-row" href="/excel-tools/">
       <span class="capability-row__number">01</span>
-      <div><h3>Improve audit quality</h3><p>Make methodology, documentation, and review more consistent.</p></div>
-      <span class="capability-row__arrow">↗</span>
-    </a>
-    <a class="capability-row" href="/excel-tools/">
-      <span class="capability-row__number">02</span>
-      <div><h3>Remove audit friction</h3><p>Turn repetitive work into practical, reusable workflows.</p></div>
+      <div><h3>Strengthen audit quality</h3><p>Make methodology, documentation, and review easier to apply consistently.</p></div>
       <span class="capability-row__arrow">↗</span>
     </a>
     <a class="capability-row" href="/audit-analytics/">
+      <span class="capability-row__number">02</span>
+      <div><h3>Make risk visible</h3><p>Use analytics and monitoring to direct attention toward the risks that matter.</p></div>
+      <span class="capability-row__arrow">↗</span>
+    </a>
+    <a class="capability-row" href="/sql-projects/">
       <span class="capability-row__number">03</span>
-      <div><h3>See risk more clearly</h3><p>Use analytics to direct attention before testing begins.</p></div>
+      <div><h3>Expand audit testing</h3><p>Evaluate complete populations with documented SQL tests and traceable exceptions.</p></div>
+      <span class="capability-row__arrow">↗</span>
+    </a>
+    <a class="capability-row" href="/ai-audit-assistant/">
+      <span class="capability-row__number">04</span>
+      <div><h3>Apply AI responsibly</h3><p>Increase audit leverage while keeping evidence, review, and accountability visible.</p></div>
       <span class="capability-row__arrow">↗</span>
     </a>
   </div>
@@ -64,8 +73,8 @@ page_css: "/assets/css/homepage-v2.css"
 
 <section id="work" class="impact-feature">
   <div class="impact-feature__visual">
-    <img src="/assets/img/AuditTicksPro_Ribbon.webp" alt="AuditTicks Pro tools integrated into the Excel ribbon" loading="lazy" width="1970" height="164" decoding="async">
-    <div class="impact-feature__marker"><span>Built for the way auditors work</span></div>
+    <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper showing standardized testing, tickmarks, evidence references, and exception documentation" loading="lazy" width="1905" height="1461" decoding="async">
+    <div class="impact-feature__marker"><span>Standardized documentation in practice</span></div>
   </div>
 
   <div class="impact-feature__copy">
@@ -88,11 +97,18 @@ page_css: "/assets/css/homepage-v2.css"
   </div>
 
   <div class="editorial-grid">
-    <a class="editorial-story editorial-story--large" href="/audit-analytics/">
-      <div class="editorial-story__image"><img src="/assets/img/vendor_pmts_solution.webp" alt="Vendor payment monitoring dashboard" loading="lazy" width="1319" height="745" decoding="async"></div>
-      <p class="editorial-story__category">Audit analytics</p>
-      <h3>Turning transaction populations into visible risk signals.</h3>
-      <span class="editorial-story__link">Explore analytics ↗</span>
+    <a class="editorial-story editorial-story--large" href="/sql-projects/#population-testing">
+      <div class="editorial-story__image editorial-story__image--population">
+        <div class="population-story-visual">
+          <small>Full population</small>
+          <strong>50,000</strong>
+          <span>payments evaluated</span>
+          <div><b>06 SQL tests</b><b>214 risk signals</b></div>
+        </div>
+      </div>
+      <p class="editorial-story__category">Audit testing</p>
+      <h3>Testing every transaction and tracing risk signals back to source.</h3>
+      <span class="editorial-story__link">Explore population testing ↗</span>
     </a>
 
     <a class="editorial-story" href="/ai-audit-assistant/">
@@ -102,11 +118,11 @@ page_css: "/assets/css/homepage-v2.css"
       <span class="editorial-story__link">Explore governed AI ↗</span>
     </a>
 
-    <a class="editorial-story" href="/audit-analytics/#testing-apps">
-      <div class="editorial-story__image editorial-story__image--testing"><img src="/assets/img/audit_sampling_tool.webp" alt="Audit sampling application" loading="lazy" width="1688" height="942" decoding="async"></div>
-      <p class="editorial-story__category">Audit testing</p>
-      <h3>Making defensible sampling easier to apply.</h3>
-      <span class="editorial-story__link">Explore testing tools ↗</span>
+    <a class="editorial-story" href="/audit-analytics/">
+      <div class="editorial-story__image"><img src="/assets/img/vendor_pmts_solution.webp" alt="Vendor payment monitoring dashboard" loading="lazy" width="1319" height="745" decoding="async"></div>
+      <p class="editorial-story__category">Audit analytics</p>
+      <h3>Turning transaction populations into visible risk signals.</h3>
+      <span class="editorial-story__link">Explore analytics ↗</span>
     </a>
   </div>
 </section>

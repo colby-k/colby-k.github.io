@@ -110,7 +110,7 @@ page_css: "/assets/css/about-v2.css"
 <section class="about-work">
   <div class="about-section-heading about-section-heading--split">
     <div><p class="about-kicker about-kicker--dark">The work</p><h2>Four capabilities. One point of view.</h2></div>
-    <p>Each portfolio area demonstrates a different way to strengthen audit quality, efficiency, insight, and governance.</p>
+    <p>Each portfolio area demonstrates a different way to strengthen audit quality, make risk visible, expand testing coverage, and apply AI responsibly.</p>
   </div>
 
   <div class="about-work-grid">
@@ -121,22 +121,22 @@ page_css: "/assets/css/about-v2.css"
       <b>Explore Audit Quality ↗</b>
     </a>
     <a class="about-work-card" href="/audit-analytics/">
-      <span>02 · Audit Insight</span>
+      <span>02 · Audit Analytics</span>
       <h3>Use data to decide where to look.</h3>
-      <p>Analytics and monitoring that turn transaction populations into visible risk signals.</p>
-      <b>Explore Audit Insight ↗</b>
+      <p>Monitoring and visualization that turn transaction populations into visible risk signals.</p>
+      <b>Explore Audit Analytics ↗</b>
+    </a>
+    <a class="about-work-card" href="/sql-projects/">
+      <span>03 · Audit Testing</span>
+      <h3>Test complete populations with traceable logic.</h3>
+      <p>SQL-based validation and exception testing that expand coverage while preserving auditor review.</p>
+      <b>Explore Audit Testing ↗</b>
     </a>
     <a class="about-work-card" href="/ai-audit-assistant/">
-      <span>03 · Responsible AI</span>
+      <span>04 · Responsible AI</span>
       <h3>Increase leverage without hiding judgment.</h3>
       <p>Effective AI use cases with source boundaries, reviewable outputs, and human accountability.</p>
       <b>Explore Responsible AI ↗</b>
-    </a>
-    <a class="about-work-card" href="/sql-projects/">
-      <span>04 · Data Systems</span>
-      <h3>Build the foundation behind trustworthy analysis.</h3>
-      <p>SQL, transformation, validation, and modeling that make insight more reliable and traceable.</p>
-      <b>Explore Data Systems ↗</b>
     </a>
   </div>
 </section>
@@ -145,7 +145,7 @@ page_css: "/assets/css/about-v2.css"
   <div class="about-credentials__copy">
     <p class="about-kicker about-kicker--dark">Experience + credentials</p>
     <h2>Audit depth with the ability to turn ideas into working systems.</h2>
-    <p>My background spans financial, operational, compliance, and control-focused auditing, with hands-on work across analytics, automation, data transformation, reporting, and governed AI workflows.</p>
+    <p>My background spans financial, operational, compliance, and control-focused auditing—including risk assessment, engagement leadership, workpaper review, business-partner communication, analytics, automation, and governed AI workflows.</p>
     <div class="about-credentials__actions">
       <a class="about-link" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">Download résumé <span>↓</span></a>
       <a class="about-link" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
@@ -168,7 +168,7 @@ page_css: "/assets/css/about-v2.css"
 <section class="about-final">
   <p class="about-kicker">Let’s connect</p>
   <h2>Better systems.<br>Better audit.</h2>
-  <p>I’m interested in practical ways to strengthen Internal Audit through better workflows, analytics, data systems, and responsible AI.</p>
+  <p>I’m interested in practical ways to strengthen Internal Audit through better workflows, audit analytics, full-population testing, and responsible AI.</p>
   <div>
     <a class="about-link about-link--light" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Connect on LinkedIn <span>↗</span></a>
     <a class="about-link about-link--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a>

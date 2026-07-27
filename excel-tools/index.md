@@ -1,19 +1,19 @@
 ---
-title: "AuditTicks Pro Case Study"
+title: "Audit Quality Through Better Workflows"
 layout: default
 permalink: /excel-tools/
-description: "How AuditTicks Pro turns repetitive Excel documentation tasks into a consistent, review-ready internal audit workflow."
+description: "How consistent methodology, documentation, evidence traceability, and practical Excel workflows support audit quality and more efficient review."
 page_css: "/assets/css/auditticks-case-study.css"
-preload_image: "/assets/img/AuditTicksPro_Tms.webp"
+preload_image: "/assets/img/AuditTicksPro_Tms.png"
 ---
 
 <article class="case-study">
 
 <section class="case-hero">
   <div class="case-hero__copy">
-    <p class="case-kicker">Featured case study · Audit quality + efficiency</p>
+    <p class="case-kicker">Audit quality · Featured workflow case study</p>
     <h1>Designing a better audit workflow inside Excel.</h1>
-    <p class="case-hero__lede">AuditTicks Pro transforms repetitive workpaper mechanics into a consistent documentation system—without asking auditors to leave the tool they already use.</p>
+    <p class="case-hero__lede">AuditTicks Pro turns recurring workpaper tasks into a consistent, review-ready workflow that supports clearer documentation, visible evidence, and more efficient review.</p>
     <div class="case-hero__actions">
       <a class="case-link case-link--light" href="#story">Read the story <span>↓</span></a>
       <a class="case-link case-link--light" href="/assets/img/User%20Guide.png" target="_blank" rel="noopener">View user guide <span>↗</span></a>
@@ -23,7 +23,7 @@ preload_image: "/assets/img/AuditTicksPro_Tms.webp"
   <div class="case-hero__visual">
     <div class="case-window">
       <div class="case-window__bar"><span></span><span></span><span></span><small>AuditTicks Pro · Microsoft Excel</small></div>
-      <img src="/assets/img/AuditTicksPro_Tms.webp" alt="AuditTicks Pro running inside an Excel audit workpaper" width="2434" height="893" loading="eager" fetchpriority="high">
+      <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro running inside an Excel audit workpaper" width="2434" height="893" loading="eager" fetchpriority="high">
     </div>
     <div class="case-hero__note">Built around real audit documentation tasks</div>
   </div>
@@ -123,7 +123,7 @@ preload_image: "/assets/img/AuditTicksPro_Tms.webp"
   <p class="case-kicker case-kicker--dark">Product views</p>
   <h2>One system across setup, testing, and review.</h2>
   <div class="case-gallery__grid">
-    <a class="case-gallery__large" href="/assets/img/AuditTicksPro_Tms.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Tms.webp" alt="AuditTicks Pro tools and annotations in a workpaper" loading="lazy" width="2434" height="893" decoding="async"><span>Documentation in context</span></a>
+    <a class="case-gallery__large" href="/assets/img/AuditTicksPro_Tms.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro tools and annotations in a workpaper" loading="lazy" width="2434" height="893" decoding="async"><span>Documentation in context</span></a>
     <a href="/assets/img/AuditTicksPro_Ribbon.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Ribbon.webp" alt="AuditTicks Pro Excel ribbon" loading="lazy" width="1970" height="164" decoding="async"><span>Ribbon system</span></a>
     <a href="/assets/img/workpaper_template_procedures.png" target="_blank" rel="noopener"><img src="/assets/img/workpaper_template_procedures.webp" alt="Audit workpaper setup and procedures" loading="lazy" width="1260" height="1317" decoding="async"><span>Workpaper structure</span></a>
   </div>
