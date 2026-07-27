@@ -1,8 +1,8 @@
 ---
-title: "Data Systems for Trustworthy Audit Analytics"
+title: "Full-Population Audit Testing with SQL"
 layout: default
 permalink: /sql-projects/
-description: "How SQL, validation, transformation, and data modeling turn raw operational data into reliable analysis and decision-ready audit insight."
+description: "How SQL can validate complete populations, apply documented audit tests, and create traceable exception populations for auditor review."
 page_css: "/assets/css/data-systems-case-study.css"
 ---
 
@@ -10,102 +10,33 @@ page_css: "/assets/css/data-systems-case-study.css"
 
 <section class="data-hero">
   <div class="data-hero__copy">
-    <p class="data-kicker">Data Systems · Analytics foundation</p>
-    <h1>Trustworthy analysis starts <em>before the dashboard.</em></h1>
-    <p class="data-hero__lede">Reliable audit insight depends on the work beneath the visual: understood sources, validated fields, controlled transformations, and a model that preserves meaning.</p>
+    <p class="data-kicker">Audit Testing · Full-population analytics</p>
+    <h1>Test every transaction. <em>Focus auditor attention.</em></h1>
+    <p class="data-hero__lede">Use SQL to validate complete populations, apply repeatable risk tests, and create traceable exception populations—while keeping evidence and auditor judgment at the center.</p>
     <div class="data-hero__actions">
-      <a class="data-link data-link--light" href="#story">Read the story <span>↓</span></a>
-      <a class="data-link data-link--light" href="#population-testing">Explore population testing <span>↓</span></a>
+      <a class="data-link data-link--light" href="#population-testing">Explore the demonstration <span>↓</span></a>
+      <a class="data-link data-link--light" href="/assets/files/full-population-testing/02_full_population_tests.sql" download>Download audit tests <span>↓</span></a>
     </div>
   </div>
 
   <div class="data-hero__visual">
     <div class="data-model" aria-label="Data pipeline from source records to decision-ready analysis">
-      <div class="data-model__header"><small>Data reliability model</small><span>05 stages</span></div>
-      <div class="data-model__stage"><span>01</span><strong>Source</strong><small>Understand origin + scope</small></div>
-      <div class="data-model__stage"><span>02</span><strong>Validate</strong><small>Test completeness + quality</small></div>
-      <div class="data-model__stage data-model__stage--focus"><span>03</span><strong>Transform</strong><small>Clean + standardize logic</small></div>
-      <div class="data-model__stage"><span>04</span><strong>Model</strong><small>Preserve relationships</small></div>
-      <div class="data-model__stage"><span>05</span><strong>Analyze</strong><small>Make risk visible</small></div>
-      <div class="data-model__footer"><strong>Traceable logic</strong> supports defensible insight</div>
+      <div class="data-model__header"><small>Full-population testing model</small><span>05 stages</span></div>
+      <div class="data-model__stage"><span>01</span><strong>Population</strong><small>Define scope + completeness</small></div>
+      <div class="data-model__stage"><span>02</span><strong>Reconcile</strong><small>Counts + totals + fields</small></div>
+      <div class="data-model__stage data-model__stage--focus"><span>03</span><strong>Test</strong><small>Apply documented SQL rules</small></div>
+      <div class="data-model__stage"><span>04</span><strong>Investigate</strong><small>Trace signals to source</small></div>
+      <div class="data-model__stage"><span>05</span><strong>Conclude</strong><small>Evidence + auditor judgment</small></div>
+      <div class="data-model__footer"><strong>50,000 payments</strong> become 214 reviewable signals</div>
     </div>
   </div>
 </section>
 
-<section class="data-facts" aria-label="Data system principles">
-  <div><small>Starting point</small><strong>Raw operational data</strong></div>
-  <div><small>Core work</small><strong>SQL + transformation</strong></div>
-  <div><small>Control</small><strong>Validation + lineage</strong></div>
-  <div><small>Outcome</small><strong>Decision-ready insight</strong></div>
-</section>
-
-<section id="story" class="data-statement">
-  <p class="data-kicker data-kicker--dark">The challenge</p>
-  <h2>A polished dashboard can still rest on unreliable data.</h2>
-  <p>Analysis becomes difficult to defend when the population is incomplete, fields are inconsistent, transformation logic is hidden, or relationships are misunderstood. Data reliability is part of the audit work—not merely a technical prerequisite.</p>
-</section>
-
-<section class="data-risk">
-  <div class="data-section-heading">
-    <p class="data-kicker">Where reliability breaks</p>
-    <h2>Small data problems can become confident analytical conclusions.</h2>
-  </div>
-  <div class="data-risk-grid">
-    <div><span>01</span><strong>Incomplete</strong><p>Missing records or fields distort the population being reviewed.</p></div>
-    <div><span>02</span><strong>Inconsistent</strong><p>Dates, identifiers, categories, and amounts do not follow one standard.</p></div>
-    <div><span>03</span><strong>Duplicated</strong><p>Repeated records inflate totals and create misleading patterns.</p></div>
-    <div><span>04</span><strong>Untraceable</strong><p>Hidden transformation logic makes results difficult to reproduce or challenge.</p></div>
-  </div>
-</section>
-
-<section class="data-architecture">
-  <div class="data-section-heading data-section-heading--split">
-    <div><p class="data-kicker data-kicker--dark">The system</p><h2>Build reliability into the analytical foundation.</h2></div>
-    <p>The system does more than move data. It creates a visible chain from original records to the measures, segments, and trends used for review.</p>
-  </div>
-
-  <div class="data-architecture-grid">
-    <div class="data-architecture-card data-architecture-card--amber">
-      <span>01 · Understand</span>
-      <h3>Define the population.</h3>
-      <p>Identify source systems, owners, relevant fields, time periods, and known limitations.</p>
-    </div>
-    <div class="data-architecture-card">
-      <span>02 · Validate</span>
-      <h3>Test before transforming.</h3>
-      <p>Reconcile counts and totals, profile fields, and investigate missing or unexpected values.</p>
-    </div>
-    <div class="data-architecture-card">
-      <span>03 · Transform</span>
-      <h3>Make logic explicit.</h3>
-      <p>Clean, standardize, join, classify, and calculate through repeatable SQL steps.</p>
-    </div>
-    <div class="data-architecture-card data-architecture-card--blue">
-      <span>04 · Model</span>
-      <h3>Preserve business meaning.</h3>
-      <p>Structure relationships and measures so users can explore the data without changing the logic.</p>
-    </div>
-  </div>
-</section>
-
-<section class="data-pipeline">
-  <div class="data-pipeline__intro">
-    <p class="data-kicker">The operating flow</p>
-    <h2>From raw records to a result an auditor can trace.</h2>
-  </div>
-
-  <div class="data-pipeline-track" aria-label="Data system operating flow">
-    <div><small>01</small><strong>Extract</strong><span>Bring source records into a controlled analytical environment.</span></div>
-    <div><small>02</small><strong>Profile</strong><span>Understand completeness, formats, distributions, and anomalies.</span></div>
-    <div><small>03</small><strong>Transform</strong><span>Apply documented cleaning, joins, classifications, and calculations.</span></div>
-    <div><small>04</small><strong>Reconcile</strong><span>Compare transformed output back to known counts and totals.</span></div>
-    <div><small>05</small><strong>Publish</strong><span>Expose approved measures and views for analysis.</span></div>
-  </div>
-
-  <div class="data-lineage">
-    <div><strong>Traceability is the control.</strong><p>A reviewer should be able to follow a result back through the model, transformation logic, and original source population.</p></div>
-    <span aria-hidden="true">↺</span>
-  </div>
+<section class="data-facts" aria-label="Full-population testing facts">
+  <div><small>Population</small><strong>50,000 payments</strong></div>
+  <div><small>Coverage</small><strong>100% evaluated</strong></div>
+  <div><small>Test library</small><strong>06 SQL tests</strong></div>
+  <div><small>Review population</small><strong>214 risk signals</strong></div>
 </section>
 
 <section id="population-testing" class="data-population">
@@ -301,46 +232,79 @@ WHERE p1.amount &lt; p1.approval_limit
   </div>
 </section>
 
-<section id="sales-system" class="data-feature">
-  <div class="data-feature__copy">
-    <p class="data-kicker data-kicker--dark">Additional working system</p>
-    <h2>Sales ETL + performance dashboard</h2>
-    <p>An end-to-end example showing how raw transactional data is cleaned, transformed, modeled, and presented for trend, variance, margin, customer, product, and geographic review.</p>
-    <div class="data-feature__actions">
-      <a class="data-link" href="https://github.com/colby-k/SQL_PowerBI_Project_Sales_Analysis" target="_blank" rel="noopener">View GitHub repository <span>↗</span></a>
-      <a class="data-link" href="/assets/img/Sales_Report.png" target="_blank" rel="noopener">Open dashboard image <span>↗</span></a>
+<section id="story" class="data-statement">
+  <p class="data-kicker data-kicker--dark">The method behind defensible testing</p>
+  <h2>Full-population coverage is only as reliable as the data and logic beneath it.</h2>
+  <p>Testing every record expands coverage, but it does not correct an incomplete population, misunderstood fields, incorrect joins, or poorly designed criteria. Data reliability and test validation remain part of the audit work.</p>
+</section>
+
+<section class="data-risk">
+  <div class="data-section-heading">
+    <p class="data-kicker">Where testing can fail</p>
+    <h2>More coverage does not correct weak data or weak logic.</h2>
+  </div>
+  <div class="data-risk-grid">
+    <div><span>01</span><strong>Incomplete</strong><p>Missing records or fields distort the population being reviewed.</p></div>
+    <div><span>02</span><strong>Inconsistent</strong><p>Dates, identifiers, categories, and amounts do not follow one standard.</p></div>
+    <div><span>03</span><strong>Duplicated</strong><p>Repeated records inflate totals and create misleading patterns.</p></div>
+    <div><span>04</span><strong>Untraceable</strong><p>Hidden transformation logic makes results difficult to reproduce or challenge.</p></div>
+  </div>
+</section>
+
+<section class="data-architecture">
+  <div class="data-section-heading data-section-heading--split">
+    <div><p class="data-kicker data-kicker--dark">The testing foundation</p><h2>Build reliability into every population test.</h2></div>
+    <p>A defensible testing process creates a visible chain from the original population through validation, SQL logic, exception output, supporting evidence, and the auditor’s conclusion.</p>
+  </div>
+
+  <div class="data-architecture-grid">
+    <div class="data-architecture-card data-architecture-card--amber">
+      <span>01 · Understand</span>
+      <h3>Define the population.</h3>
+      <p>Identify source systems, owners, relevant fields, time periods, and known limitations.</p>
+    </div>
+    <div class="data-architecture-card">
+      <span>02 · Validate</span>
+      <h3>Test before transforming.</h3>
+      <p>Reconcile counts and totals, profile fields, and investigate missing or unexpected values.</p>
+    </div>
+    <div class="data-architecture-card">
+      <span>03 · Transform</span>
+      <h3>Make logic explicit.</h3>
+      <p>Clean, standardize, join, classify, and calculate through repeatable SQL steps.</p>
+    </div>
+    <div class="data-architecture-card data-architecture-card--blue">
+      <span>04 · Model</span>
+      <h3>Preserve business meaning.</h3>
+      <p>Structure relationships and measures so users can explore the data without changing the logic.</p>
     </div>
   </div>
+</section>
 
-  <div class="data-feature__visual">
-    <a href="/assets/img/Sales_Report.png" target="_blank" rel="noopener">
-      <img src="/assets/img/Sales_Report.webp" alt="Sales performance dashboard built from transformed transactional data" loading="lazy" width="1277" height="717" decoding="async">
-    </a>
-    <span>Raw transactions → governed measures</span>
+<section class="data-pipeline">
+  <div class="data-pipeline__intro">
+    <p class="data-kicker">The control flow</p>
+    <h2>From source data to a result an auditor can reproduce.</h2>
   </div>
-</section>
 
-<section class="data-output-strip" aria-label="Sales data system components">
-  <div><small>Source</small><strong>Transactional records</strong></div>
-  <div><small>Logic</small><strong>SQL transformation</strong></div>
-  <div><small>Model</small><strong>Reusable measures</strong></div>
-  <div><small>View</small><strong>Power BI reporting</strong></div>
-</section>
+  <div class="data-pipeline-track" aria-label="Data system operating flow">
+    <div><small>01</small><strong>Extract</strong><span>Bring source records into a controlled analytical environment.</span></div>
+    <div><small>02</small><strong>Profile</strong><span>Understand completeness, formats, distributions, and anomalies.</span></div>
+    <div><small>03</small><strong>Transform</strong><span>Apply documented cleaning, joins, classifications, and calculations.</span></div>
+    <div><small>04</small><strong>Reconcile</strong><span>Compare transformed output back to known counts and totals.</span></div>
+    <div><small>05</small><strong>Publish</strong><span>Expose approved measures and views for analysis.</span></div>
+  </div>
 
-<section class="data-impact">
-  <div class="data-impact__statement"><span>The result</span><strong>Reliable in.<br>Defensible out.</strong></div>
-  <div class="data-impact__list">
-    <div><span>01</span><p>Clearer understanding of the analytical population.</p></div>
-    <div><span>02</span><p>Repeatable transformation instead of manual reshaping.</p></div>
-    <div><span>03</span><p>Consistent measures across users and views.</p></div>
-    <div><span>04</span><p>Stronger traceability from insight back to source.</p></div>
+  <div class="data-lineage">
+    <div><strong>Traceability is the control.</strong><p>A reviewer should be able to follow a result back through the model, transformation logic, and original source population.</p></div>
+    <span aria-hidden="true">↺</span>
   </div>
 </section>
 
 <section class="data-capabilities">
   <div class="data-section-heading data-section-heading--split">
-    <div><p class="data-kicker data-kicker--dark">System capabilities</p><h2>The technical work serves the assurance objective.</h2></div>
-    <p>SQL, ETL, modeling, and visualization matter because they make analysis more consistent, explainable, and reusable.</p>
+    <div><p class="data-kicker data-kicker--dark">Testing capabilities</p><h2>The technical work serves the audit objective.</h2></div>
+    <p>SQL, validation, transformation, and traceability matter because they make audit testing more consistent, reviewable, and reusable.</p>
   </div>
 
   <div class="data-capability-grid">
@@ -367,25 +331,10 @@ WHERE p1.amount &lt; p1.approval_limit
   </div>
 </section>
 
-<section class="data-secondary">
-  <div class="data-secondary__visual">
-    <a href="/assets/img/top_paying_roles.png" target="_blank" rel="noopener">
-      <img src="/assets/img/top_paying_roles.webp" alt="SQL analysis of compensation by data role" loading="lazy" width="1450" height="777" decoding="async">
-    </a>
-  </div>
-
-  <div class="data-secondary__copy">
-    <p class="data-kicker data-kicker--dark">Supporting analysis</p>
-    <h2>Data job-market analysis</h2>
-    <p>SQL analysis of a large external job-posting dataset demonstrates population review, segmentation, ranking, trend identification, and evidence-based interpretation across roles, skills, locations, and compensation.</p>
-    <a class="data-link" href="https://github.com/colby-k/SQL_Project_Data_Job_Analysis" target="_blank" rel="noopener">View GitHub repository <span>↗</span></a>
-  </div>
-</section>
-
 <section class="data-decisions">
   <div class="data-section-heading data-section-heading--split">
-    <div><p class="data-kicker data-kicker--dark">Design decisions</p><h2>Reliability before visualization.</h2></div>
-    <p>The strongest dashboard cannot compensate for an undefined population, incorrect joins, or calculations no one can reproduce.</p>
+    <div><p class="data-kicker data-kicker--dark">Design decisions</p><h2>Defensibility before automation.</h2></div>
+    <p>The broadest test cannot compensate for an undefined population, incorrect logic, or exceptions a reviewer cannot trace to source.</p>
   </div>
 
   <div class="data-decision-list">
@@ -403,7 +352,7 @@ WHERE p1.amount &lt; p1.approval_limit
 
 <section class="data-final">
   <p class="data-kicker">Better audit systems</p>
-  <h2>Build the foundation.<br>Trust the insight.</h2>
+  <h2>Test broadly.<br>Conclude carefully.</h2>
   <div>
     <a class="data-link data-link--light" href="/">Return home <span>↗</span></a>
     <a class="data-link data-link--light" href="/about/">Next: About <span>↗</span></a>
