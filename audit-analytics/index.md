@@ -158,7 +158,7 @@ preload_image: "/assets/img/vendor_pmts_solution.webp"
 <section class="analytics-final">
   <p class="analytics-kicker">Better audit systems</p>
   <h2>See more.<br>Test smarter.</h2>
-  <div><a class="analytics-link analytics-link--light" href="/">Return home <span>↗</span></a><a class="analytics-link analytics-link--light" href="/ai-audit-assistant/">Next: Responsible AI <span>↗</span></a></div>
+  <div><a class="analytics-link analytics-link--light" href="/">Return home <span>↗</span></a><a class="analytics-link analytics-link--light" href="/sql-projects/">Next: Audit testing <span>↗</span></a></div>
 </section>
 
 </article>
