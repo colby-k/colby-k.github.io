@@ -1662,12 +1662,14 @@
     display: none;
   }
 
-  .population-flow__stage:nth-of-type(n + 2) {
-    border-top: 1px solid rgba(255, 255, 255, 0.16);
+  .population-flow__stage:nth-child(3),
+  .population-flow__stage:nth-child(7) {
+    border-left: 1px solid rgba(255, 255, 255, 0.16);
   }
 
-  .population-flow__stage:nth-of-type(even) {
-    border-left: 1px solid rgba(255, 255, 255, 0.16);
+  .population-flow__stage:nth-child(5),
+  .population-flow__stage:nth-child(7) {
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
   }
 
   .result-metrics {
@@ -1720,7 +1722,10 @@
     min-height: 180px;
   }
 
-  .population-flow__stage:nth-of-type(even) {
+  .population-flow__stage:nth-child(3),
+  .population-flow__stage:nth-child(5),
+  .population-flow__stage:nth-child(7) {
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
     border-left: 0;
   }
 
