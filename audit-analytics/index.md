@@ -4,7 +4,7 @@ layout: default
 permalink: /audit-analytics/
 description: "How audit analytics, monitoring, and visualization turn high-volume transaction populations into visible risk signals and focused audit attention."
 page_css: "/assets/css/audit-analytics-case-study.css"
-preload_image: "/assets/img/vendor_pmts_solution.webp"
+preload_image: "/assets/img/vendor_pmts_solution.png"
 ---
 
 <article class="analytics-case">
@@ -23,7 +23,7 @@ preload_image: "/assets/img/vendor_pmts_solution.webp"
   <div class="analytics-hero__visual">
     <div class="analytics-screen">
       <div class="analytics-screen__bar"><span></span><span></span><span></span><small>Vendor Payments Monitoring · Power BI</small></div>
-      <img src="/assets/img/vendor_pmts_solution.webp" alt="Vendor Payments Monitoring Power BI dashboard" width="1319" height="745" loading="eager" fetchpriority="high">
+      <img src="/assets/img/vendor_pmts_solution.png" alt="Vendor Payments Monitoring Power BI dashboard" width="1319" height="745" loading="eager" fetchpriority="high">
     </div>
     <div class="signal-tag signal-tag--one"><small>Signal 01</small><strong>Duplicate indicators</strong></div>
     <div class="signal-tag signal-tag--two"><small>Signal 02</small><strong>Split payments</strong></div>
@@ -68,7 +68,7 @@ preload_image: "/assets/img/vendor_pmts_solution.webp"
     <a class="analytics-link" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">Explore the interactive report <span>↗</span></a>
   </div>
   <div class="analytics-solution__visual">
-    <img src="/assets/img/vendor_pmts_solution.webp" alt="Risk-focused vendor payment dashboard" loading="lazy" width="1319" height="745" decoding="async">
+    <img src="/assets/img/vendor_pmts_solution.png" alt="Risk-focused vendor payment dashboard" loading="lazy" width="1319" height="745" decoding="async">
     <span>Filter · compare · investigate</span>
   </div>
 </section>
