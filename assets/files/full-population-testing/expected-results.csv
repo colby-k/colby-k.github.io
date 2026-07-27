@@ -1,0 +1,8 @@
+test_id,test_name,risk_evaluated,population_tested,exception_signals,validation_status
+T01,Possible duplicate invoice,Duplicate or repeated payment,50000,28,Reconciled
+T02,Possible approval-threshold split,Transactions divided below approval authority,50000,34,Reconciled
+T03,Payment before approval,Payment processed without timely authorization,50000,42,Reconciled
+T04,Payment to inactive vendor,Disbursement to blocked or inactive master data,50000,19,Reconciled
+T05,Recent bank change before payment,Payment diverted after sensitive master-data change,50000,27,Reconciled
+T06,Weekend manual payment,Unusual manually initiated disbursement,50000,64,Reconciled
+TOTAL,All documented tests,Exception signals requiring auditor review,50000,214,Reconciled
