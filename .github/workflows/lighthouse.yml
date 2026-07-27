@@ -21,15 +21,15 @@ jobs:
         shell: bash
         run: |
           for attempt in {1..40}; do
-            if curl --fail --silent --show-error https://colby-k.github.io/ | grep --quiet "AuditTicksPro_Ribbon.webp"; then
-              echo "Optimized deployment is live."
+            if curl --fail --silent --show-error --header "Cache-Control: no-cache" "https://colby-k.github.io/?deploy=${GITHUB_SHA}" | grep --quiet "Four capabilities that strengthen assurance"; then
+              echo "Expected homepage deployment is live."
               exit 0
             fi
             echo "Waiting for GitHub Pages deployment (attempt ${attempt}/40)..."
             sleep 15
           done
 
-          echo "Timed out waiting for the optimized deployment."
+          echo "Timed out waiting for the expected homepage deployment."
           exit 1
 
       - name: Run mobile Lighthouse
