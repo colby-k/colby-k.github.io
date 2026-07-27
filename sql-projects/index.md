@@ -355,7 +355,7 @@ WHERE p1.amount &lt; p1.approval_limit
   <h2>Test broadly.<br>Conclude carefully.</h2>
   <div>
     <a class="data-link data-link--light" href="/">Return home <span>↗</span></a>
-    <a class="data-link data-link--light" href="/about/">Next: About <span>↗</span></a>
+    <a class="data-link data-link--light" href="/ai-audit-assistant/">Next: Responsible AI <span>↗</span></a>
   </div>
 </section>
 
