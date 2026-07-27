@@ -4,7 +4,7 @@ layout: default
 permalink: /excel-tools/
 description: "How consistent methodology, documentation, evidence traceability, and practical Excel workflows support audit quality and more efficient review."
 page_css: "/assets/css/auditticks-case-study.css"
-preload_image: "/assets/img/AuditTicksPro_Tms.webp"
+preload_image: "/assets/img/AuditTicksPro_Tms.png"
 ---
 
 <article class="case-study">
@@ -23,7 +23,7 @@ preload_image: "/assets/img/AuditTicksPro_Tms.webp"
   <div class="case-hero__visual">
     <div class="case-window">
       <div class="case-window__bar"><span></span><span></span><span></span><small>AuditTicks Pro · Microsoft Excel</small></div>
-      <img src="/assets/img/AuditTicksPro_Tms.webp" alt="AuditTicks Pro running inside an Excel audit workpaper" width="2434" height="893" loading="eager" fetchpriority="high">
+      <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro running inside an Excel audit workpaper" width="2434" height="893" loading="eager" fetchpriority="high">
     </div>
     <div class="case-hero__note">Built around real audit documentation tasks</div>
   </div>
@@ -123,7 +123,7 @@ preload_image: "/assets/img/AuditTicksPro_Tms.webp"
   <p class="case-kicker case-kicker--dark">Product views</p>
   <h2>One system across setup, testing, and review.</h2>
   <div class="case-gallery__grid">
-    <a class="case-gallery__large" href="/assets/img/AuditTicksPro_Tms.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Tms.webp" alt="AuditTicks Pro tools and annotations in a workpaper" loading="lazy" width="2434" height="893" decoding="async"><span>Documentation in context</span></a>
+    <a class="case-gallery__large" href="/assets/img/AuditTicksPro_Tms.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro tools and annotations in a workpaper" loading="lazy" width="2434" height="893" decoding="async"><span>Documentation in context</span></a>
     <a href="/assets/img/AuditTicksPro_Ribbon.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Ribbon.webp" alt="AuditTicks Pro Excel ribbon" loading="lazy" width="1970" height="164" decoding="async"><span>Ribbon system</span></a>
     <a href="/assets/img/workpaper_template_procedures.png" target="_blank" rel="noopener"><img src="/assets/img/workpaper_template_procedures.webp" alt="Audit workpaper setup and procedures" loading="lazy" width="1260" height="1317" decoding="async"><span>Workpaper structure</span></a>
   </div>
