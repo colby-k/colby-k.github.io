@@ -3,9 +3,8 @@ title: "Effective AI Use Cases for Internal Audit"
 layout: default
 permalink: /ai-audit-assistant/
 description: "Practical, governed AI use cases for internal audit evidence, documentation, analysis, review, and methodology support."
+page_css: "/assets/css/responsible-ai-case-study.css"
 ---
-
-<link rel="stylesheet" href="/assets/css/responsible-ai-case-study.css">
 
 <article class="ai-case">
 
@@ -94,7 +93,7 @@ description: "Practical, governed AI use cases for internal audit evidence, docu
       </div>
     </div>
     <div class="ai-usecase-featured__visual">
-      <img src="/assets/img/ai-evidence-annotation-focus.png" alt="Focused view of audit evidence annotations and a complete tickmark legend" loading="lazy">
+      <img src="/assets/img/ai-evidence-annotation-focus.webp" alt="Focused view of audit evidence annotations and a complete tickmark legend" loading="lazy" width="1200" height="765" decoding="async">
       <span>Evidence remains the source of truth</span>
     </div>
   </article>

@@ -3,9 +3,9 @@ title: "AuditTicks Pro Case Study"
 layout: default
 permalink: /excel-tools/
 description: "How AuditTicks Pro turns repetitive Excel documentation tasks into a consistent, review-ready internal audit workflow."
+page_css: "/assets/css/auditticks-case-study.css"
+preload_image: "/assets/img/AuditTicksPro_Tms.webp"
 ---
-
-<link rel="stylesheet" href="/assets/css/auditticks-case-study.css">
 
 <article class="case-study">
 
@@ -23,7 +23,7 @@ description: "How AuditTicks Pro turns repetitive Excel documentation tasks into
   <div class="case-hero__visual">
     <div class="case-window">
       <div class="case-window__bar"><span></span><span></span><span></span><small>AuditTicks Pro · Microsoft Excel</small></div>
-      <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro running inside an Excel audit workpaper">
+      <img src="/assets/img/AuditTicksPro_Tms.webp" alt="AuditTicks Pro running inside an Excel audit workpaper" width="2434" height="893" loading="eager" fetchpriority="high">
     </div>
     <div class="case-hero__note">Built around real audit documentation tasks</div>
   </div>
@@ -62,7 +62,7 @@ description: "How AuditTicks Pro turns repetitive Excel documentation tasks into
     <p>A custom Excel ribbon gives auditors one-click access to standardized documentation tools while preserving the flexibility of the underlying workpaper.</p>
   </div>
   <div class="solution-showcase__image">
-    <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro custom Excel ribbon with standardized audit tools" loading="lazy">
+    <img src="/assets/img/AuditTicksPro_Ribbon.webp" alt="AuditTicks Pro custom Excel ribbon with standardized audit tools" loading="lazy" width="1970" height="164" decoding="async">
     <span>One ribbon · one documentation language</span>
   </div>
 </section>
@@ -92,7 +92,7 @@ description: "How AuditTicks Pro turns repetitive Excel documentation tasks into
     <div><small>04</small><strong>Review</strong><span>Navigate a consistent audit record.</span></div>
   </div>
   <div class="workflow-visual">
-    <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper using standardized tickmarks, testing attributes, and exception notes" loading="lazy">
+    <img src="/assets/img/workpaper_template_example.png" alt="Completed audit workpaper using standardized tickmarks, testing attributes, and exception notes" loading="lazy" width="1905" height="1461" decoding="async">
   </div>
 </section>
 
@@ -123,9 +123,9 @@ description: "How AuditTicks Pro turns repetitive Excel documentation tasks into
   <p class="case-kicker case-kicker--dark">Product views</p>
   <h2>One system across setup, testing, and review.</h2>
   <div class="case-gallery__grid">
-    <a class="case-gallery__large" href="/assets/img/AuditTicksPro_Tms.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro tools and annotations in a workpaper" loading="lazy"><span>Documentation in context</span></a>
-    <a href="/assets/img/AuditTicksPro_Ribbon.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro Excel ribbon" loading="lazy"><span>Ribbon system</span></a>
-    <a href="/assets/img/workpaper_template_procedures.png" target="_blank" rel="noopener"><img src="/assets/img/workpaper_template_procedures.png" alt="Audit workpaper setup and procedures" loading="lazy"><span>Workpaper structure</span></a>
+    <a class="case-gallery__large" href="/assets/img/AuditTicksPro_Tms.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Tms.webp" alt="AuditTicks Pro tools and annotations in a workpaper" loading="lazy" width="2434" height="893" decoding="async"><span>Documentation in context</span></a>
+    <a href="/assets/img/AuditTicksPro_Ribbon.png" target="_blank" rel="noopener"><img src="/assets/img/AuditTicksPro_Ribbon.webp" alt="AuditTicks Pro Excel ribbon" loading="lazy" width="1970" height="164" decoding="async"><span>Ribbon system</span></a>
+    <a href="/assets/img/workpaper_template_procedures.png" target="_blank" rel="noopener"><img src="/assets/img/workpaper_template_procedures.webp" alt="Audit workpaper setup and procedures" loading="lazy" width="1260" height="1317" decoding="async"><span>Workpaper structure</span></a>
   </div>
 </section>
 
@@ -141,14 +141,14 @@ description: "How AuditTicks Pro turns repetitive Excel documentation tasks into
   </div>
   <div class="related-grid">
     <article>
-      <div class="related-grid__image"><img src="/assets/img/workpaper_template.png" alt="Audit Workpaper Template Pack" loading="lazy"></div>
+      <div class="related-grid__image"><img src="/assets/img/workpaper_template.webp" alt="Audit Workpaper Template Pack" loading="lazy" width="1723" height="1614" decoding="async"></div>
       <p class="case-kicker case-kicker--dark">Documentation</p>
       <h3>Audit Workpaper Template Pack</h3>
       <p>Structured control testing, attributes, samples, exceptions, and review notes.</p>
       <div><a class="case-link" href="/assets/files/Audit_Workpaper_Template.xlsx">Download template <span>↓</span></a><a class="case-link" href="/assets/img/workpaper_template_example.png" target="_blank" rel="noopener">View example <span>↗</span></a></div>
     </article>
     <article>
-      <div class="related-grid__image"><img src="/assets/img/Risk_Assessment.png" alt="Risk Assessment Matrix" loading="lazy"></div>
+      <div class="related-grid__image"><img src="/assets/img/Risk_Assessment.png" alt="Risk Assessment Matrix" loading="lazy" width="2191" height="1029" decoding="async"></div>
       <p class="case-kicker case-kicker--dark">Planning</p>
       <h3>Risk Assessment Matrix</h3>
       <p>Configurable criteria, weighted scoring, prioritization, and an automatic heatmap.</p>

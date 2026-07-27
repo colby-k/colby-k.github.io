@@ -2,9 +2,8 @@
 title: "Better Systems. Better Audit."
 layout: default
 description: "Internal audit leadership, practical systems, analytics, and responsible AI designed to strengthen assurance."
+page_css: "/assets/css/homepage-v2.css"
 ---
-
-<link rel="stylesheet" href="/assets/css/homepage-v2.css">
 
 <div class="consulting-home">
 
@@ -65,7 +64,7 @@ description: "Internal audit leadership, practical systems, analytics, and respo
 
 <section id="work" class="impact-feature">
   <div class="impact-feature__visual">
-    <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro tools integrated into the Excel ribbon" loading="lazy">
+    <img src="/assets/img/AuditTicksPro_Ribbon.webp" alt="AuditTicks Pro tools integrated into the Excel ribbon" loading="lazy" width="1970" height="164" decoding="async">
     <div class="impact-feature__marker"><span>Built for the way auditors work</span></div>
   </div>
 
@@ -90,21 +89,21 @@ description: "Internal audit leadership, practical systems, analytics, and respo
 
   <div class="editorial-grid">
     <a class="editorial-story editorial-story--large" href="/audit-analytics/">
-      <div class="editorial-story__image"><img src="/assets/img/vendor_pmts_solution.png" alt="Vendor payment monitoring dashboard" loading="lazy"></div>
+      <div class="editorial-story__image"><img src="/assets/img/vendor_pmts_solution.webp" alt="Vendor payment monitoring dashboard" loading="lazy" width="1319" height="745" decoding="async"></div>
       <p class="editorial-story__category">Audit analytics</p>
       <h3>Turning transaction populations into visible risk signals.</h3>
       <span class="editorial-story__link">Explore analytics ↗</span>
     </a>
 
     <a class="editorial-story" href="/ai-audit-assistant/">
-      <div class="editorial-story__image editorial-story__image--ai"><img src="/assets/img/ai-evidence-annotation-focus.png" alt="AI-assisted audit evidence annotations" loading="lazy"></div>
+      <div class="editorial-story__image editorial-story__image--ai"><img src="/assets/img/ai-evidence-annotation-focus.webp" alt="AI-assisted audit evidence annotations" loading="lazy" width="1200" height="765" decoding="async"></div>
       <p class="editorial-story__category">Responsible AI</p>
       <h3>Keeping evidence and auditor judgment visible.</h3>
       <span class="editorial-story__link">Explore governed AI ↗</span>
     </a>
 
     <a class="editorial-story" href="/audit-analytics/#testing-apps">
-      <div class="editorial-story__image editorial-story__image--testing"><img src="/assets/img/audit_sampling_tool.png" alt="Audit sampling application" loading="lazy"></div>
+      <div class="editorial-story__image editorial-story__image--testing"><img src="/assets/img/audit_sampling_tool.webp" alt="Audit sampling application" loading="lazy" width="1688" height="942" decoding="async"></div>
       <p class="editorial-story__category">Audit testing</p>
       <h3>Making defensible sampling easier to apply.</h3>
       <span class="editorial-story__link">Explore testing tools ↗</span>

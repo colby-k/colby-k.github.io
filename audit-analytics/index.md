@@ -3,9 +3,9 @@ title: "Vendor Payment Monitoring Case Study"
 layout: default
 permalink: /audit-analytics/
 description: "How audit analytics can turn a high-volume vendor payment population into visible risk signals and focused audit attention."
+page_css: "/assets/css/audit-analytics-case-study.css"
+preload_image: "/assets/img/vendor_pmts_solution.webp"
 ---
-
-<link rel="stylesheet" href="/assets/css/audit-analytics-case-study.css">
 
 <article class="analytics-case">
 
@@ -23,7 +23,7 @@ description: "How audit analytics can turn a high-volume vendor payment populati
   <div class="analytics-hero__visual">
     <div class="analytics-screen">
       <div class="analytics-screen__bar"><span></span><span></span><span></span><small>Vendor Payments Monitoring · Power BI</small></div>
-      <img src="/assets/img/vendor_pmts_solution.png" alt="Vendor Payments Monitoring Power BI dashboard">
+      <img src="/assets/img/vendor_pmts_solution.webp" alt="Vendor Payments Monitoring Power BI dashboard" width="1319" height="745" loading="eager" fetchpriority="high">
     </div>
     <div class="signal-tag signal-tag--one"><small>Signal 01</small><strong>Duplicate indicators</strong></div>
     <div class="signal-tag signal-tag--two"><small>Signal 02</small><strong>Split payments</strong></div>
@@ -68,7 +68,7 @@ description: "How audit analytics can turn a high-volume vendor payment populati
     <a class="analytics-link" href="https://app.powerbi.com/view?r=eyJrIjoiZjAwNDg2NmItOTRjYy00NmYxLWIyYmUtMDBiZmU0OTBmZGNiIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" target="_blank" rel="noopener">Explore the interactive report <span>↗</span></a>
   </div>
   <div class="analytics-solution__visual">
-    <img src="/assets/img/vendor_pmts_solution.png" alt="Risk-focused vendor payment dashboard" loading="lazy">
+    <img src="/assets/img/vendor_pmts_solution.webp" alt="Risk-focused vendor payment dashboard" loading="lazy" width="1319" height="745" decoding="async">
     <span>Filter · compare · investigate</span>
   </div>
 </section>
@@ -140,13 +140,13 @@ description: "How audit analytics can turn a high-volume vendor payment populati
   </div>
   <div class="analytics-project-grid">
     <article class="analytics-project analytics-project--wide">
-      <div class="analytics-project__image"><img src="/assets/img/internal_audit_issue_tracker.png" alt="Internal Audit Issue Tracker dashboard" loading="lazy"></div>
+      <div class="analytics-project__image"><img src="/assets/img/internal_audit_issue_tracker.webp" alt="Internal Audit Issue Tracker dashboard" loading="lazy" width="1278" height="718" decoding="async"></div>
       <p class="analytics-kicker analytics-kicker--dark">Power BI · Follow-up</p><h3>Internal Audit Issue Tracker</h3><p>Centralize findings, ownership, action plans, aging, and follow-up priorities.</p>
       <a class="analytics-link" href="https://app.powerbi.com/view?r=eyJrIjoiNjY0YjI4NmYtNWJlNy00YWY4LThjMTctZjZlNDQ0ZmYzNDRkIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=9692a08028aa212019c1" target="_blank" rel="noopener">Open report <span>↗</span></a>
     </article>
-    <article class="analytics-project"><div class="analytics-project__image"><img src="/assets/img/audit_sampling_tool.png" alt="Audit Sampling Tool" loading="lazy"></div><p class="analytics-kicker analytics-kicker--dark">Python · Sampling</p><h3>Audit Sampling Tool</h3><p>Filter populations, generate random selections, and export reproducible results.</p><a class="analytics-link" href="https://audit-sampling-tool.streamlit.app/" target="_blank" rel="noopener">Open app <span>↗</span></a></article>
-    <article class="analytics-project"><div class="analytics-project__image"><img src="/assets/img/benfords_law.png" alt="Benford's Law Audit Tool" loading="lazy"></div><p class="analytics-kicker analytics-kicker--dark">Python · Screening</p><h3>Benford’s Law Tool</h3><p>Use digit-frequency analysis as a screening technique for unusual datasets.</p><a class="analytics-link" href="https://benfords-law-audit-tool.streamlit.app" target="_blank" rel="noopener">Open app <span>↗</span></a></article>
-    <article class="analytics-project"><div class="analytics-project__image"><img src="/assets/img/fair_lending_app.png" alt="Fair Lending Analysis application" loading="lazy"></div><p class="analytics-kicker analytics-kicker--dark">Python · Compliance</p><h3>Fair Lending Analysis</h3><p>Explore statistical review concepts with interactive controls and synthetic data.</p><a class="analytics-link" href="https://fair-lending-app-app.streamlit.app/" target="_blank" rel="noopener">Open app <span>↗</span></a></article>
+    <article class="analytics-project"><div class="analytics-project__image"><img src="/assets/img/audit_sampling_tool.webp" alt="Audit Sampling Tool" loading="lazy" width="1688" height="942" decoding="async"></div><p class="analytics-kicker analytics-kicker--dark">Python · Sampling</p><h3>Audit Sampling Tool</h3><p>Filter populations, generate random selections, and export reproducible results.</p><a class="analytics-link" href="https://audit-sampling-tool.streamlit.app/" target="_blank" rel="noopener">Open app <span>↗</span></a></article>
+    <article class="analytics-project"><div class="analytics-project__image"><img src="/assets/img/benfords_law.webp" alt="Benford's Law Audit Tool" loading="lazy" width="1125" height="799" decoding="async"></div><p class="analytics-kicker analytics-kicker--dark">Python · Screening</p><h3>Benford’s Law Tool</h3><p>Use digit-frequency analysis as a screening technique for unusual datasets.</p><a class="analytics-link" href="https://benfords-law-audit-tool.streamlit.app" target="_blank" rel="noopener">Open app <span>↗</span></a></article>
+    <article class="analytics-project"><div class="analytics-project__image"><img src="/assets/img/fair_lending_app.webp" alt="Fair Lending Analysis application" loading="lazy" width="1002" height="709" decoding="async"></div><p class="analytics-kicker analytics-kicker--dark">Python · Compliance</p><h3>Fair Lending Analysis</h3><p>Explore statistical review concepts with interactive controls and synthetic data.</p><a class="analytics-link" href="https://fair-lending-app-app.streamlit.app/" target="_blank" rel="noopener">Open app <span>↗</span></a></article>
   </div>
 </section>
 

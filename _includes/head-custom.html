@@ -10,21 +10,25 @@
   href="{{ '/assets/css/navigation-v2.css?v=' | append: site.github.build_revision | relative_url }}"
 >
 
+{% if page.page_css %}
 <link
-  rel="icon"
-  type="image/png"
-  href="{{ '/assets/img/AuditTicksPro_Icon.png?v=' | append: site.github.build_revision | relative_url }}"
+  rel="stylesheet"
+  href="{{ page.page_css | append: '?v=' | append: site.github.build_revision | relative_url }}"
 >
+{% endif %}
 
+{% if page.preload_image %}
 <link
-  rel="shortcut icon"
-  type="image/png"
-  href="{{ '/assets/img/AuditTicksPro_Icon.png?v=' | append: site.github.build_revision | relative_url }}"
+  rel="preload"
+  as="image"
+  href="{{ page.preload_image | relative_url }}"
+  fetchpriority="high"
 >
+{% endif %}
 
-<link
-  rel="apple-touch-icon"
-  href="{{ '/assets/img/AuditTicksPro_Icon.png?v=' | append: site.github.build_revision | relative_url }}"
->
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon-32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="48x48" href="{{ '/assets/img/favicon-48.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/img/icon-192.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
 
 {% include analytics.html %}
