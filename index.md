@@ -98,18 +98,35 @@ page_css: "/assets/css/homepage-v2.css"
   </div>
 
   <div class="editorial-grid">
-    <a class="editorial-story editorial-story--large" href="/sql-projects/#population-testing">
-      <div class="editorial-story__image editorial-story__image--population">
-        <div class="population-story-visual">
-          <small>Full population</small>
-          <strong>50,000</strong>
-          <span>payments evaluated</span>
-          <div><b>06 SQL tests</b><b>214 risk signals</b></div>
-        </div>
+    <a class="editorial-story editorial-story--large" href="/access-conflict-explorer/">
+      <div class="editorial-story__image" style="background:#071525">
+        <svg viewBox="0 0 1200 680" role="img" aria-label="Access Conflict Explorer showing a user connected to roles and conflicting permissions" width="1200" height="680" style="display:block;width:100%;height:100%" xmlns="http://www.w3.org/2000/svg">
+          <rect width="1200" height="680" fill="#071525"/>
+          <rect x="30" y="28" width="1140" height="624" fill="#f2f5f4"/>
+          <rect x="30" y="28" width="1140" height="48" fill="#e6ecee"/>
+          <circle cx="56" cy="52" r="5" fill="#96a3aa"/><circle cx="74" cy="52" r="5" fill="#96a3aa"/><circle cx="92" cy="52" r="5" fill="#96a3aa"/>
+          <text x="1138" y="57" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#52616a">Northstar Holdings · Access Conflict Explorer</text>
+          <rect x="58" y="100" width="250" height="524" fill="#ffffff" stroke="#cbd5d8"/>
+          <text x="80" y="132" font-family="Arial, sans-serif" font-size="11" font-weight="800" fill="#087b78">USERS WITH CONFLICTS</text>
+          <g font-family="Arial, sans-serif">
+            <rect x="72" y="154" width="222" height="72" fill="#e4f8f4"/><rect x="72" y="154" width="5" height="72" fill="#4bd3aa"/><circle cx="101" cy="190" r="18" fill="#071525"/><text x="101" y="194" text-anchor="middle" font-size="10" font-weight="800" fill="#fff">JL</text><text x="132" y="183" font-size="13" font-weight="800" fill="#071525">Jordan Lee</text><text x="132" y="202" font-size="10" fill="#687983">Finance · 3 signals</text><rect x="235" y="177" width="47" height="22" fill="#ffe4e6"/><text x="258" y="192" text-anchor="middle" font-size="8" font-weight="900" fill="#9d1f28">CRITICAL</text>
+            <rect x="72" y="236" width="222" height="72" fill="#fff"/><circle cx="101" cy="272" r="18" fill="#071525"/><text x="101" y="276" text-anchor="middle" font-size="10" font-weight="800" fill="#fff">AM</text><text x="132" y="265" font-size="13" font-weight="800" fill="#071525">Avery Morgan</text><text x="132" y="284" font-size="10" fill="#687983">Technology · 1 signal</text>
+            <rect x="72" y="318" width="222" height="72" fill="#fff"/><circle cx="101" cy="354" r="18" fill="#071525"/><text x="101" y="358" text-anchor="middle" font-size="10" font-weight="800" fill="#fff">TC</text><text x="132" y="347" font-size="13" font-weight="800" fill="#071525">Taylor Chen</text><text x="132" y="366" font-size="10" fill="#687983">Finance · 1 signal</text>
+            <rect x="72" y="400" width="222" height="72" fill="#fff"/><circle cx="101" cy="436" r="18" fill="#071525"/><text x="101" y="440" text-anchor="middle" font-size="10" font-weight="800" fill="#fff">RB</text><text x="132" y="429" font-size="13" font-weight="800" fill="#071525">Riley Brooks</text><text x="132" y="448" font-size="10" fill="#687983">Technology · 2 signals</text>
+          </g>
+          <rect x="332" y="100" width="540" height="524" fill="#f6f9f9" stroke="#cbd5d8"/>
+          <text x="356" y="132" font-family="Arial, sans-serif" font-size="11" font-weight="800" fill="#087b78">EFFECTIVE ACCESS PATH</text>
+          <g stroke="#aebcc1" stroke-width="2"><line x1="596" y1="366" x2="455" y2="245"/><line x1="596" y1="366" x2="724" y2="231"/><line x1="596" y1="366" x2="740" y2="458"/><line x1="455" y1="245" x2="375" y2="165"/><line x1="455" y1="245" x2="372" y2="340"/><line x1="724" y1="231" x2="808" y2="153"/><line x1="724" y1="231" x2="814" y2="325"/><line x1="740" y1="458" x2="828" y2="424"/><line x1="740" y1="458" x2="804" y2="554"/></g>
+          <g stroke="#ff6b72" stroke-width="4" stroke-dasharray="8 6"><line x1="455" y1="245" x2="375" y2="165"/><line x1="724" y1="231" x2="808" y2="153"/></g>
+          <g font-family="Arial, sans-serif" text-anchor="middle"><circle cx="596" cy="366" r="64" fill="#55e7e0" stroke="#087b78" stroke-width="3"/><text x="596" y="355" font-size="10" font-weight="800" fill="#087b78">SELECTED USER</text><text x="596" y="381" font-size="18" font-weight="800" fill="#071525">Jordan Lee</text>
+          <g fill="#3478ff" stroke="#fff" stroke-width="4"><circle cx="455" cy="245" r="44"/><circle cx="724" cy="231" r="44"/><circle cx="740" cy="458" r="44"/></g><text x="455" y="241" font-size="10" font-weight="800" fill="#fff">Vendor</text><text x="455" y="256" font-size="10" font-weight="800" fill="#fff">Admin</text><text x="724" y="227" font-size="10" font-weight="800" fill="#fff">AP</text><text x="724" y="242" font-size="10" font-weight="800" fill="#fff">Approver</text><text x="740" y="454" font-size="10" font-weight="800" fill="#fff">Treasury</text><text x="740" y="469" font-size="10" font-weight="800" fill="#fff">Release</text>
+          <g fill="#123a59" stroke="#fff" stroke-width="3"><circle cx="375" cy="165" r="30" fill="#ff6b72"/><circle cx="372" cy="340" r="30"/><circle cx="808" cy="153" r="30" fill="#ff6b72"/><circle cx="814" cy="325" r="30"/><circle cx="828" cy="424" r="30"/><circle cx="804" cy="554" r="30"/></g><text x="375" y="161" font-size="8" font-weight="800" fill="#fff">Create</text><text x="375" y="173" font-size="8" font-weight="800" fill="#fff">vendor</text><text x="372" y="336" font-size="8" font-weight="800" fill="#fff">Change</text><text x="372" y="348" font-size="8" font-weight="800" fill="#fff">bank</text><text x="808" y="149" font-size="8" font-weight="800" fill="#fff">Approve</text><text x="808" y="161" font-size="8" font-weight="800" fill="#fff">payment</text><text x="814" y="321" font-size="8" font-weight="800" fill="#fff">Override</text><text x="814" y="333" font-size="8" font-weight="800" fill="#fff">hold</text><text x="828" y="420" font-size="8" font-weight="800" fill="#fff">Release</text><text x="828" y="432" font-size="8" font-weight="800" fill="#fff">payment</text><text x="804" y="550" font-size="8" font-weight="800" fill="#fff">Bank</text><text x="804" y="562" font-size="8" font-weight="800" fill="#fff">file</text></g>
+          <rect x="896" y="100" width="246" height="524" fill="#fff" stroke="#cbd5d8"/><text x="918" y="132" font-family="Arial, sans-serif" font-size="11" font-weight="800" fill="#087b78">AUDIT INTERPRETATION</text><text x="918" y="174" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#071525">Critical conflict</text><rect x="918" y="198" width="202" height="118" fill="#fff1f2"/><rect x="918" y="198" width="5" height="118" fill="#ff6b72"/><text x="934" y="226" font-family="Arial, sans-serif" font-size="11" font-weight="800" fill="#071525">Create vendor +</text><text x="934" y="244" font-family="Arial, sans-serif" font-size="11" font-weight="800" fill="#071525">approve payment</text><text x="934" y="274" font-family="Arial, sans-serif" font-size="9" fill="#687983">The same user can establish</text><text x="934" y="288" font-family="Arial, sans-serif" font-size="9" fill="#687983">a vendor and authorize payment.</text><text x="918" y="352" font-family="Arial, sans-serif" font-size="10" font-weight="800" fill="#087b78">REMEDIATION SIMULATOR</text><rect x="918" y="370" width="202" height="44" fill="#eef3f4"/><text x="932" y="397" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#071525">Vendor Administrator</text><rect x="1058" y="380" width="51" height="24" fill="#fff" stroke="#aebbc0"/><text x="1084" y="396" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="900" fill="#8a2630">REMOVE</text><rect x="918" y="424" width="202" height="44" fill="#eef3f4"/><text x="932" y="451" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#071525">AP Approver</text><rect x="1058" y="434" width="51" height="24" fill="#fff" stroke="#aebbc0"/><text x="1084" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="900" fill="#8a2630">REMOVE</text>
+        </svg>
       </div>
-      <p class="editorial-story__category">Audit testing</p>
-      <h3>Testing every transaction and tracing risk signals back to source.</h3>
-      <span class="editorial-story__link">Explore population testing ↗</span>
+      <p class="editorial-story__category">Audit Intelligence</p>
+      <h3>Tracing users through roles and permissions to expose hidden access conflicts.</h3>
+      <span class="editorial-story__link">Open the Access Conflict Explorer ↗</span>
     </a>
 
     <a class="editorial-story" href="/ai-audit-assistant/">
