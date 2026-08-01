@@ -43,9 +43,15 @@ baseurl: ""
 
 google_analytics: G-QQ7MYYPFFW
 
+# Explicitly include the interactive portfolio application directories.
+include:
+  - access-conflict-explorer
+  - audit-intelligence
+  - vendor-relationship-intelligence
+  - control-evidence-lab
+
 exclude:
   - _old
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor
