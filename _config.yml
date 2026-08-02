@@ -1,9 +1,9 @@
 title: "Colby Kellersberger | Internal Audit Leadership, Analytics & AI"
 logo: ""
 
-description: "Internal Audit Manager combining audit leadership, analytics, full-population testing, practical automation, and responsible AI to strengthen assurance."
+description: "Internal Audit Manager combining audit leadership, full-population testing, visualization, practical technology, and responsible AI to strengthen assurance."
 
-meta_description: "Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manager with 10+ years of experience across audit leadership, analytics, full-population testing, automation, and responsible AI."
+meta_description: "Colby Kellersberger, CIA, CFE, CICA — Internal Audit Manager with 10+ years of experience leading assurance work and using analytics, practical technology, and responsible AI to strengthen Internal Audit."
 
 image: /assets/img/portfolio-preview.png
 
@@ -43,8 +43,11 @@ baseurl: ""
 
 google_analytics: G-QQ7MYYPFFW
 
-# Explicitly include the interactive portfolio application directories.
+# Explicitly include portfolio application and positioning directories.
 include:
+  - leadership
+  - audit-impact
+  - auditticks-pro
   - access-conflict-explorer
   - audit-intelligence
   - vendor-relationship-intelligence
