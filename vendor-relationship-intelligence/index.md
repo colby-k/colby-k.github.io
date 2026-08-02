@@ -9,7 +9,7 @@ page_css: "/assets/css/vendor-relationship-intelligence.css"
 <article class="vri-page">
 <section class="vri-hero">
   <div class="vri-hero__copy">
-    <p class="vri-eyebrow">Audit Intelligence Lab · Relationship analytics</p>
+    <p class="vri-eyebrow">Audit Innovation Lab · Relationship analytics</p>
     <h1>Find the relationships hidden <em>between systems.</em></h1>
     <p class="vri-hero__lede">Vendor Relationship Intelligence combines vendor master data, employee records, bank accounts, addresses, change history, approvals, and payments to surface explainable audit signals across a complete synthetic population.</p>
     <div class="vri-hero__actions">
@@ -79,7 +79,7 @@ page_css: "/assets/css/vendor-relationship-intelligence.css"
         <div class="vri-vendor-list" data-vendor-list></div>
       </aside>
 
-      <main class="vri-workspace">
+      <section class="vri-workspace">
         <nav class="vri-tabs" aria-label="Investigation views">
           <button type="button" class="is-active" data-tab="relationships">Relationship map</button>
           <button type="button" data-tab="timeline">Change timeline</button>
@@ -117,7 +117,7 @@ page_css: "/assets/css/vendor-relationship-intelligence.css"
             <div class="vri-table-wrap"><table class="vri-table"><thead><tr><th>Vendor</th><th>Category</th><th>Total paid</th><th>Relationships</th><th>Signals</th><th>Risk score</th></tr></thead><tbody data-population></tbody></table></div>
           </article>
         </section>
-      </main>
+      </section>
     </div>
 
     <footer class="vri-app__footer"><strong>Audit boundary</strong><p>A match or pattern is a risk signal—not an audit conclusion. Validation requires source records, ownership inquiry, authorization evidence, business-purpose evaluation, and appropriate follow-up testing.</p></footer>
@@ -137,9 +137,9 @@ page_css: "/assets/css/vendor-relationship-intelligence.css"
 </section>
 
 <section class="vri-next">
-  <p class="vri-eyebrow">Audit Intelligence Lab</p>
+  <p class="vri-eyebrow">Audit Innovation Lab</p>
   <h2>Relationships create the lead.<br>Evidence determines the conclusion.</h2>
-  <div><a class="vri-link vri-link--light" href="/access-conflict-explorer/">Explore access analytics <span>↗</span></a><a class="vri-link vri-link--light" href="/audit-intelligence/">View the lab <span>↗</span></a></div>
+  <div><a class="vri-link vri-link--light" href="/access-conflict-explorer/">Explore access analytics <span>↗</span></a><a class="vri-link vri-link--light" href="/audit-intelligence/">View Innovation Lab <span>↗</span></a></div>
 </section>
 
 <script src="{{ '/assets/js/vendor-relationship-intelligence.js' | relative_url }}" defer></script>
