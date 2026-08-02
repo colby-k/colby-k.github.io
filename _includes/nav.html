@@ -1,10 +1,9 @@
 <nav class="topnav topnav--desktop nav-v2" aria-label="Primary">
   <a class="nav-v2__link" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
-  <a class="nav-v2__link" href="{{ '/excel-tools/' | relative_url }}"{% if page.url == '/excel-tools/' %} aria-current="page"{% endif %}>Audit Quality</a>
-  <a class="nav-v2__link" href="{{ '/audit-analytics/' | relative_url }}"{% if page.url == '/audit-analytics/' %} aria-current="page"{% endif %}>Audit Analytics</a>
-  <a class="nav-v2__link" href="{{ '/audit-intelligence/' | relative_url }}"{% if page.url == '/audit-intelligence/' or page.url == '/access-conflict-explorer/' or page.url == '/vendor-relationship-intelligence/' %} aria-current="page"{% endif %}>Audit Intelligence</a>
-  <a class="nav-v2__link" href="{{ '/sql-projects/' | relative_url }}"{% if page.url == '/sql-projects/' %} aria-current="page"{% endif %}>Audit Testing</a>
-  <a class="nav-v2__link" href="{{ '/ai-audit-assistant/' | relative_url }}"{% if page.url == '/ai-audit-assistant/' %} aria-current="page"{% endif %}>Responsible AI</a>
+  <a class="nav-v2__link" href="{{ '/leadership/' | relative_url }}"{% if page.url == '/leadership/' %} aria-current="page"{% endif %}>Leadership</a>
+  <a class="nav-v2__link" href="{{ '/audit-impact/' | relative_url }}"{% if page.url == '/audit-impact/' or page.url == '/audit-analytics/' or page.url == '/sql-projects/' or page.url == '/ai-audit-assistant/' %} aria-current="page"{% endif %}>Audit Impact</a>
+  <a class="nav-v2__link" href="{{ '/audit-intelligence/' | relative_url }}"{% if page.url == '/audit-intelligence/' or page.url == '/access-conflict-explorer/' or page.url == '/vendor-relationship-intelligence/' or page.url == '/control-evidence-lab/' %} aria-current="page"{% endif %}>Innovation Lab</a>
+  <a class="nav-v2__link" href="{{ '/auditticks-pro/' | relative_url }}"{% if page.url == '/auditticks-pro/' or page.url == '/excel-tools/' %} aria-current="page"{% endif %}>AuditTicks Pro</a>
   <a class="nav-v2__link" href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
 </nav>
 
@@ -18,29 +17,26 @@
   <div class="mobile-nav__panel">
     <div class="mobile-nav__intro">
       <span>Explore</span>
-      <strong>Better Audit Systems</strong>
+      <strong>Internal Audit Leadership</strong>
     </div>
 
-    <section class="mobile-nav__group" aria-labelledby="mobile-capabilities">
-      <div class="mobile-nav__group-label" id="mobile-capabilities">
-        <span>Capabilities</span>
+    <section class="mobile-nav__group" aria-labelledby="mobile-primary">
+      <div class="mobile-nav__group-label" id="mobile-primary">
+        <span>Portfolio</span>
         <span aria-hidden="true">—</span>
       </div>
-      <nav class="mobile-nav__links" aria-label="Mobile capabilities">
-        <a href="{{ '/excel-tools/' | relative_url }}"{% if page.url == '/excel-tools/' %} aria-current="page"{% endif %}>
-          <span>Audit Quality</span><b aria-hidden="true">↗</b>
+      <nav class="mobile-nav__links" aria-label="Mobile primary navigation">
+        <a href="{{ '/leadership/' | relative_url }}"{% if page.url == '/leadership/' %} aria-current="page"{% endif %}>
+          <span>Leadership</span><b aria-hidden="true">↗</b>
         </a>
-        <a href="{{ '/audit-analytics/' | relative_url }}"{% if page.url == '/audit-analytics/' %} aria-current="page"{% endif %}>
-          <span>Audit Analytics</span><b aria-hidden="true">↗</b>
+        <a href="{{ '/audit-impact/' | relative_url }}"{% if page.url == '/audit-impact/' or page.url == '/audit-analytics/' or page.url == '/sql-projects/' or page.url == '/ai-audit-assistant/' %} aria-current="page"{% endif %}>
+          <span>Audit Impact</span><b aria-hidden="true">↗</b>
         </a>
-        <a href="{{ '/audit-intelligence/' | relative_url }}"{% if page.url == '/audit-intelligence/' or page.url == '/access-conflict-explorer/' or page.url == '/vendor-relationship-intelligence/' %} aria-current="page"{% endif %}>
-          <span>Audit Intelligence</span><b aria-hidden="true">↗</b>
+        <a href="{{ '/audit-intelligence/' | relative_url }}"{% if page.url == '/audit-intelligence/' or page.url == '/access-conflict-explorer/' or page.url == '/vendor-relationship-intelligence/' or page.url == '/control-evidence-lab/' %} aria-current="page"{% endif %}>
+          <span>Innovation Lab</span><b aria-hidden="true">↗</b>
         </a>
-        <a href="{{ '/sql-projects/' | relative_url }}"{% if page.url == '/sql-projects/' %} aria-current="page"{% endif %}>
-          <span>Audit Testing</span><b aria-hidden="true">↗</b>
-        </a>
-        <a href="{{ '/ai-audit-assistant/' | relative_url }}"{% if page.url == '/ai-audit-assistant/' %} aria-current="page"{% endif %}>
-          <span>Responsible AI</span><b aria-hidden="true">↗</b>
+        <a href="{{ '/auditticks-pro/' | relative_url }}"{% if page.url == '/auditticks-pro/' or page.url == '/excel-tools/' %} aria-current="page"{% endif %}>
+          <span>AuditTicks Pro</span><b aria-hidden="true">↗</b>
         </a>
       </nav>
     </section>
@@ -50,7 +46,7 @@
         <span>More</span>
         <span aria-hidden="true">—</span>
       </div>
-      <nav class="mobile-nav__links" aria-label="Mobile secondary">
+      <nav class="mobile-nav__links" aria-label="Mobile secondary navigation">
         <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>
           <span>Home</span><b aria-hidden="true">↗</b>
         </a>
