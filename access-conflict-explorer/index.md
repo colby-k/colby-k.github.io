@@ -10,7 +10,7 @@ page_css: "/assets/css/access-conflict-explorer.css"
 
 <section class="ace-hero">
   <div class="ace-hero__copy">
-    <p class="ace-eyebrow">Audit Intelligence Lab · Access analytics</p>
+    <p class="ace-eyebrow">Audit Innovation Lab · Access analytics</p>
     <h1>See the access path behind <em>the conflict.</em></h1>
     <p class="ace-hero__lede">The Access Conflict Explorer evaluates a complete synthetic user-access population, identifies segregation-of-duties and privileged-access risks, and shows exactly which roles and permissions create each exception.</p>
     <div class="ace-hero__actions">
@@ -60,7 +60,7 @@ page_css: "/assets/css/access-conflict-explorer.css"
 </section>
 
 <section class="ace-facts" aria-label="Project facts">
-  <div><small>Population</small><strong>36 users · 18 roles</strong></div>
+  <div><small>Population</small><strong>36 users · 21 roles</strong></div>
   <div><small>Tests</small><strong>SoD + privileged access</strong></div>
   <div><small>Interaction</small><strong>Remediation simulation</strong></div>
   <div><small>Data</small><strong>Synthetic demonstration data</strong></div>
@@ -107,14 +107,14 @@ page_css: "/assets/css/access-conflict-explorer.css"
           <div class="ace-filter-stack">
             <label><span class="sr-only">Search users</span><input type="search" data-filter="search" placeholder="Search name, role, department"></label>
             <div class="ace-filter-row">
-              <label><span class="sr-only">Filter severity</span><select data-filter="severity"><option value="">All severity levels</option><option value="Critical">Critical</option><option value="High">High</option><option value="Moderate">Moderate</option><option value="Clear">No conflict</option></select></label>
+              <label><span class="sr-only">Filter severity</span><select data-filter="severity"><option value="">All severity levels</option><option value="Critical">Critical</option><option value="High">High</option><option value="Clear">No conflict</option></select></label>
               <label><span class="sr-only">Filter department</span><select data-filter="department"><option value="">All departments</option></select></label>
             </div>
           </div>
           <div class="ace-user-list" data-user-list></div>
         </aside>
 
-        <main class="ace-graph-panel">
+        <section class="ace-graph-panel">
           <div class="ace-panel-heading ace-panel-heading--split">
             <div><small>02 · Access path</small><h3 data-graph-title>Role and permission network</h3></div>
             <div class="ace-graph-legend"><span><i class="is-role"></i>Role</span><span><i class="is-permission"></i>Permission</span><span><i class="is-conflict"></i>Conflict path</span></div>
@@ -123,7 +123,7 @@ page_css: "/assets/css/access-conflict-explorer.css"
             <svg data-access-graph viewBox="0 0 900 620" role="img" aria-label="Interactive access relationship graph"></svg>
             <div class="ace-graph-empty" data-graph-empty hidden>Select a user to display assigned roles and permissions.</div>
           </div>
-        </main>
+        </section>
 
         <aside class="ace-insight-panel">
           <div class="ace-panel-heading"><div><small>03 · Audit interpretation</small><h3>Why this matters</h3></div></div>
@@ -179,20 +179,20 @@ page_css: "/assets/css/access-conflict-explorer.css"
 </section>
 
 <section class="ace-suite">
-  <div class="ace-section-heading ace-section-heading--split"><div><p class="ace-eyebrow ace-eyebrow--dark">Audit Intelligence Lab</p><h2>Three views of modern assurance.</h2></div><p>The Access Conflict Explorer is the first application in a planned set connecting systems analytics, fraud-oriented relationship analysis, and audit evidence judgment.</p></div>
+  <div class="ace-section-heading ace-section-heading--split"><div><p class="ace-eyebrow ace-eyebrow--dark">Audit Innovation Lab</p><h2>Three views of modern assurance.</h2></div><p>The lab now includes three completed synthetic applications spanning access analytics, fraud-oriented relationship analysis, and audit evidence judgment.</p></div>
   <div class="ace-suite-grid">
     <article class="is-current"><small>Available now</small><span>01</span><h3>Access Conflict Explorer</h3><p>Trace users through roles and permissions, explain segregation-of-duties conflicts, and test remediation.</p></article>
-    <article><small>In development</small><span>02</span><h3>Vendor Relationship Intelligence</h3><p>Connect vendors, employees, bank accounts, addresses, approvals, and payments into investigation-ready risk signals.</p></article>
-    <article><small>In development</small><span>03</span><h3>Control Evidence Lab</h3><p>Distinguish process steps from controls and evaluate whether retained evidence supports a defensible conclusion.</p></article>
+    <article><small>Available now</small><span>02</span><h3>Vendor Relationship Intelligence</h3><p>Connect vendors, employees, bank accounts, addresses, approvals, and payments into investigation-ready risk signals.</p></article>
+    <article><small>Available now</small><span>03</span><h3>Control Evidence Lab</h3><p>Distinguish process steps from controls and evaluate whether retained evidence supports a defensible conclusion.</p></article>
   </div>
 </section>
 
 <section class="ace-note"><strong>Portfolio demonstration</strong><p>All names, assignments, roles, permissions, conflicts, and account attributes are synthetic. The application illustrates an audit approach and is not connected to a production identity or ERP environment.</p></section>
 
 <section class="ace-final">
-  <p class="ace-eyebrow">Better audit systems</p>
+  <p class="ace-eyebrow">Audit Innovation Lab</p>
   <h2>Trace the access.<br>Explain the risk.</h2>
-  <div><a class="ace-link ace-link--light" href="/audit-analytics/">Explore audit analytics <span>↗</span></a><a class="ace-link ace-link--light" href="/sql-projects/">View full-population testing <span>↗</span></a></div>
+  <div><a class="ace-link ace-link--light" href="/audit-impact/">View applied audit impact <span>↗</span></a><a class="ace-link ace-link--light" href="/audit-intelligence/">View the full lab <span>↗</span></a></div>
 </section>
 
 </article>
