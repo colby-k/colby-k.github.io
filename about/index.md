@@ -2,7 +2,7 @@
 title: "About Colby Kellersberger"
 layout: default
 permalink: /about/
-description: "Colby Kellersberger, CIA, CFE, CICA — an Internal Audit Manager combining audit leadership, systems thinking, analytics, and practical technology."
+description: "Colby Kellersberger, CIA, CFE, CICA — an Internal Audit Manager combining audit leadership, analytics, practical technology, and responsible AI."
 page_css: "/assets/css/about-v2.css"
 ---
 
@@ -10,22 +10,22 @@ page_css: "/assets/css/about-v2.css"
 
 <section class="about-hero">
   <div class="about-hero__copy">
-    <p class="about-kicker">About · Leadership + building</p>
-    <h1>I lead audit work. I also build the <em>systems that make it better.</em></h1>
+    <p class="about-kicker">About · Internal Audit leadership</p>
+    <h1>I lead audit work—and use <em>better information and tools</em> to make it stronger.</h1>
     <p class="about-hero__lede">I’m Colby Kellersberger, CIA, CFE, CICA—an Internal Audit Manager with a Big Four foundation and more than 10 years of experience across financial, operational, compliance, and control-focused auditing.</p>
     <div class="about-hero__actions">
-      <a class="about-link about-link--light" href="#story">Read my approach <span>↓</span></a>
+      <a class="about-link about-link--light" href="/leadership/">View leadership profile <span>↗</span></a>
       <a class="about-link about-link--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a>
     </div>
   </div>
 
   <div class="about-hero__visual">
-    <div class="about-model" aria-label="The combination of audit leadership, systems thinking, and technical execution">
-      <div class="about-model__header"><small>How the work connects</small><span>03 disciplines</span></div>
-      <div class="about-model__row"><span>01</span><strong>Audit leadership</strong><small>Risk · Evidence · Judgment</small></div>
-      <div class="about-model__row about-model__row--focus"><span>02</span><strong>Systems thinking</strong><small>Consistency · Clarity · Adoption</small></div>
-      <div class="about-model__row"><span>03</span><strong>Technical execution</strong><small>Analytics · Automation · AI</small></div>
-      <div class="about-model__footer"><strong>Better assurance</strong> through practical systems</div>
+    <div class="about-model" aria-label="The combination of audit leadership, insight, and practical modernization">
+      <div class="about-model__header"><small>How the work connects</small><span>03 capabilities</span></div>
+      <div class="about-model__row about-model__row--focus"><span>01</span><strong>Audit leadership</strong><small>Risk · Evidence · Judgment</small></div>
+      <div class="about-model__row"><span>02</span><strong>Audit insight</strong><small>Populations · Trends · Focus</small></div>
+      <div class="about-model__row"><span>03</span><strong>Modern execution</strong><small>Workflows · Automation · AI</small></div>
+      <div class="about-model__footer"><strong>Stronger assurance</strong> through accountable leadership</div>
     </div>
   </div>
 </section>
@@ -39,104 +39,84 @@ page_css: "/assets/css/about-v2.css"
 
 <section id="story" class="about-story">
   <p class="about-kicker about-kicker--dark">The idea behind the work</p>
-  <h2>Recurring audit friction is usually a systems problem.</h2>
-  <p>When teams repeatedly rebuild documentation, reshape data, search for methodology, or correct inconsistent work, the answer is rarely to work harder. It is to design a clearer, more reusable way of working—while keeping professional judgment at the center.</p>
+  <h2>Good Internal Audit connects risk, evidence, people, and action.</h2>
+  <p>My career has included audit execution, function leadership, compliance management, data strategy, and current engagement management. That combination shapes how I approach the work: establish the risk, understand the process, define the evidence standard, develop the team, and use technology where it materially improves coverage or execution.</p>
 </section>
 
 <section class="about-evolution">
   <div class="about-section-heading">
-    <p class="about-kicker">The evolution</p>
-    <h2>Experience changed the questions I learned to ask.</h2>
+    <p class="about-kicker">Career perspective</p>
+    <h2>Each role added another layer to how I lead assurance.</h2>
   </div>
 
   <div class="about-evolution-track">
     <div><span>01</span><strong>Discipline</strong><p>A Big Four foundation reinforced evidence, documentation, methodology, and review.</p></div>
-    <div><span>02</span><strong>Risk</strong><p>Engagement leadership connected audit procedures to business context and assurance needs.</p></div>
-    <div><span>03</span><strong>Insight</strong><p>Analytics showed how populations and patterns can direct attention before testing begins.</p></div>
-    <div><span>04</span><strong>Systems</strong><p>Building reusable workflows turned recurring friction into opportunities for lasting improvement.</p></div>
+    <div><span>02</span><strong>Leadership</strong><p>Leading an Internal Audit function connected the audit plan to stakeholders, resources, and organizational priorities.</p></div>
+    <div><span>03</span><strong>Risk</strong><p>Compliance and fair-lending leadership strengthened my understanding of specialized regulatory and conduct risk.</p></div>
+    <div><span>04</span><strong>Insight</strong><p>Data strategy and analytics showed how complete populations and patterns can direct attention before testing begins.</p></div>
   </div>
 </section>
 
 <section class="about-principles">
   <div class="about-section-heading about-section-heading--split">
-    <div><p class="about-kicker about-kicker--dark">Working principles</p><h2>How I approach audit innovation.</h2></div>
-    <p>The goal is not technology for its own sake. It is better work: more consistent, more traceable, easier to review, and focused on the risks that matter.</p>
+    <div><p class="about-kicker about-kicker--dark">Working principles</p><h2>How I approach audit leadership and modernization.</h2></div>
+    <p>The goal is stronger assurance: focused on the risks that matter, supported by visible evidence, and delivered through a team that understands the reasoning behind the work.</p>
   </div>
 
   <div class="about-principle-grid">
     <article class="about-principle-card about-principle-card--coral">
-      <span>01 · Judgment first</span>
-      <h3>Technology supports the decision.</h3>
-      <p>Automation and AI should improve the work around professional judgment—not make the judgment.</p>
+      <span>01 · Risk first</span>
+      <h3>Start with the assurance need.</h3>
+      <p>Scope, controls, procedures, and documentation should remain connected to the risk the audit is intended to address.</p>
     </article>
     <article class="about-principle-card">
-      <span>02 · Practical before clever</span>
-      <h3>Adoption is part of the design.</h3>
-      <p>A solution creates value only when it fits the way auditors actually work.</p>
+      <span>02 · Evidence visible</span>
+      <h3>Make the conclusion traceable.</h3>
+      <p>Reviewers should be able to understand what was tested, what support was obtained, and why the conclusion follows.</p>
     </article>
     <article class="about-principle-card">
-      <span>03 · Consistency compounds</span>
-      <h3>Standards improve every engagement.</h3>
-      <p>Reusable documentation, data logic, and review patterns reduce interpretation and rework.</p>
+      <span>03 · People developed</span>
+      <h3>Use review to improve judgment.</h3>
+      <p>The best review notes explain the reasoning gap and help the auditor apply the lesson independently in the future.</p>
     </article>
     <article class="about-principle-card about-principle-card--teal">
-      <span>04 · Evidence stays visible</span>
-      <h3>Clarity creates trust.</h3>
-      <p>Reviewers should be able to trace an analysis, workflow, or conclusion back to its support.</p>
+      <span>04 · Technology accountable</span>
+      <h3>Increase leverage without hiding responsibility.</h3>
+      <p>Analytics, automation, and AI should support the work while the auditor retains source validation, review, and final judgment.</p>
     </article>
-  </div>
-</section>
-
-<section class="about-method">
-  <div class="about-method__intro">
-    <p class="about-kicker">How I work</p>
-    <h2>Move from recurring problem to reusable system.</h2>
-  </div>
-
-  <div class="about-method-track" aria-label="Process for turning an audit problem into a reusable system">
-    <div><small>01</small><strong>Understand</strong><span>Observe the audit activity, users, constraints, and actual source of friction.</span></div>
-    <div><small>02</small><strong>Define</strong><span>Clarify the risk, desired outcome, evidence, and control requirements.</span></div>
-    <div><small>03</small><strong>Build</strong><span>Create the smallest practical workflow that solves the recurring need.</span></div>
-    <div><small>04</small><strong>Govern</strong><span>Make limitations, review responsibilities, and decision rights explicit.</span></div>
-    <div><small>05</small><strong>Improve</strong><span>Use feedback and experience to strengthen the system over time.</span></div>
-  </div>
-
-  <div class="about-method-note">
-    <div><strong>Build once. Improve every engagement.</strong><p>The strongest solutions become part of the team’s operating rhythm rather than another isolated tool.</p></div>
-    <span aria-hidden="true">↗</span>
   </div>
 </section>
 
 <section class="about-work">
   <div class="about-section-heading about-section-heading--split">
-    <div><p class="about-kicker about-kicker--dark">The work</p><h2>Four capabilities. One point of view.</h2></div>
-    <p>Each portfolio area demonstrates a different way to strengthen audit quality, make risk visible, expand testing coverage, and apply AI responsibly.</p>
+    <div><p class="about-kicker about-kicker--dark">Explore the site</p><h2>Leadership, impact, innovation, and product design.</h2></div>
+    <p>The site is organized around my professional direction first, with technical work presented as supporting evidence and differentiated capability.</p>
   </div>
 
   <div class="about-work-grid">
-    <a class="about-work-card" href="/excel-tools/">
-      <span>01 · Audit Quality</span>
-      <h3>Make good work easier to repeat.</h3>
-      <p>Documentation systems, workpaper tools, and templates designed around review-ready execution.</p>
-      <b>Explore Audit Quality ↗</b>
+    <a class="about-work-card" href="/leadership/">
+      <span>01 · Leadership</span>
+      <h3>How I lead audit work and develop assurance.</h3>
+      <p>Career progression, engagement leadership, review responsibilities, stakeholder communication, and management principles.</p>
+      <b>View Leadership ↗</b>
     </a>
-    <a class="about-work-card" href="/audit-analytics/">
-      <span>02 · Audit Analytics</span>
-      <h3>Use data to decide where to look.</h3>
-      <p>Monitoring and visualization that turn transaction populations into visible risk signals.</p>
-      <b>Explore Audit Analytics ↗</b>
+    <a class="about-work-card" href="/audit-impact/">
+      <span>02 · Audit Impact</span>
+      <h3>How analytics and AI strengthen the audit decision.</h3>
+      <p>Full-population testing, risk visualization, workflow improvement, and responsible AI in professional practice.</p>
+      <b>View Audit Impact ↗</b>
     </a>
-    <a class="about-work-card" href="/sql-projects/">
-      <span>03 · Audit Testing</span>
-      <h3>Test complete populations with traceable logic.</h3>
-      <p>SQL-based validation and exception testing that expand coverage while preserving auditor review.</p>
-      <b>Explore Audit Testing ↗</b>
+    <a class="about-work-card" href="/audit-intelligence/">
+      <span>03 · Innovation Lab</span>
+      <h3>Interactive demonstrations of methods and judgment.</h3>
+      <p>Synthetic applications covering access conflicts, vendor relationships, control design, and evidence sufficiency.</p>
+      <b>Open Innovation Lab ↗</b>
     </a>
-    <a class="about-work-card" href="/ai-audit-assistant/">
-      <span>04 · Responsible AI</span>
-      <h3>Increase leverage without hiding judgment.</h3>
-      <p>Effective AI use cases with source boundaries, reviewable outputs, and human accountability.</p>
-      <b>Explore Responsible AI ↗</b>
+    <a class="about-work-card" href="/auditticks-pro/">
+      <span>04 · AuditTicks Pro</span>
+      <h3>A practical product for Excel-based audit teams.</h3>
+      <p>An add-in designed to reduce repetitive workpaper setup and make common documentation actions easier to apply consistently.</p>
+      <b>Explore AuditTicks Pro ↗</b>
     </a>
   </div>
 </section>
@@ -144,8 +124,8 @@ page_css: "/assets/css/about-v2.css"
 <section class="about-credentials">
   <div class="about-credentials__copy">
     <p class="about-kicker about-kicker--dark">Experience + credentials</p>
-    <h2>Audit depth with the ability to turn ideas into working systems.</h2>
-    <p>My background spans financial, operational, compliance, and control-focused auditing—including risk assessment, engagement leadership, workpaper review, business-partner communication, analytics, automation, and governed AI workflows.</p>
+    <h2>Audit depth with a forward-looking operating perspective.</h2>
+    <p>My background spans financial, operational, compliance, and control-focused auditing—including risk assessment, audit-plan leadership, engagement execution, workpaper review, business-partner communication, analytics, automation, and governed AI workflows.</p>
     <div class="about-credentials__actions">
       <a class="about-link" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">Download résumé <span>↓</span></a>
       <a class="about-link" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
@@ -162,15 +142,15 @@ page_css: "/assets/css/about-v2.css"
 
 <section class="about-note">
   <strong>Portfolio boundary</strong>
-  <p>The projects on this site are independent portfolio work built with synthetic, demonstration, external, or public data. They do not contain employer, client, confidential audit, or proprietary information.</p>
+  <p>Professional-practice content is generalized to protect employer and client information. Interactive applications and downloadable examples are independent portfolio work built with synthetic, demonstration, external, or public data.</p>
 </section>
 
 <section class="about-final">
-  <p class="about-kicker">Let’s connect</p>
-  <h2>Better systems.<br>Better audit.</h2>
-  <p>I’m interested in practical ways to strengthen Internal Audit through better workflows, audit analytics, full-population testing, and responsible AI.</p>
+  <p class="about-kicker">Professional direction</p>
+  <h2>Lead the work.<br>Improve the system.</h2>
+  <p>I am focused on Internal Audit Manager and Audit Director opportunities where disciplined assurance, analytics, team development, and responsible technology can strengthen the function.</p>
   <div>
-    <a class="about-link about-link--light" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener">Connect on LinkedIn <span>↗</span></a>
+    <a class="about-link about-link--light" href="/leadership/">Leadership profile <span>↗</span></a>
     <a class="about-link about-link--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a>
     <a class="about-link about-link--light" href="/">Return home <span>↗</span></a>
   </div>
