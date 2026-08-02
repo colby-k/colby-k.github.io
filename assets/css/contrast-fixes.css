@@ -1,0 +1,75 @@
+/* Shared contrast corrections loaded after every page-specific stylesheet.
+   The remote Slate theme assigns heading colors directly, so dark components
+   must set heading colors on the elements rather than relying on inheritance. */
+
+/* Leadership-first homepage */
+#main_content .lead-section-heading--light h2,
+#main_content .lead-career .lead-section-heading h2,
+#main_content .lead-innovation .lead-section-heading h2,
+#main_content .lead-pillar-card--dark h3,
+#main_content .lead-impact-card--wide h3,
+#main_content .lead-impact-card--blue h3 {
+  color: #fff !important;
+}
+
+#main_content .lead-pillar-card--dark b,
+#main_content .lead-impact-card--wide b,
+#main_content .lead-impact-card--blue b {
+  color: #55e7c0 !important;
+}
+
+/* Shared Leadership, Audit Impact, and AuditTicks Pro pages */
+#main_content .sp-section--dark .sp-heading h2,
+#main_content .sp-card--dark h3,
+#main_content .sp-card--blue h3 {
+  color: #fff !important;
+}
+
+#main_content .sp-card--dark b,
+#main_content .sp-card--blue b {
+  color: #55e7c0 !important;
+}
+
+/* About page dark sections */
+#main_content .about-evolution .about-section-heading h2,
+#main_content .about-method .about-section-heading h2,
+#main_content .about-method__intro h2,
+#main_content .about-final h2 {
+  color: #fff !important;
+}
+
+/* Innovation Lab and interactive application dark sections */
+#main_content .ail-hero h1,
+#main_content .ail-final h2,
+#main_content .ace-hero h1,
+#main_content .ace-lab-section .ace-section-heading h2,
+#main_content .ace-final h2,
+#main_content .vri-hero h1,
+#main_content .vri-next h2,
+#main_content .cel-hero h1,
+#main_content .cel-final h2 {
+  color: #fff !important;
+}
+
+/* Preserve readable body copy and links in the principal dark sections. */
+#main_content .lead-career p,
+#main_content .lead-innovation p,
+#main_content .lead-final p,
+#main_content .sp-section--dark p,
+#main_content .sp-final p,
+#main_content .about-evolution p,
+#main_content .about-method p,
+#main_content .about-final p {
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+#main_content .lead-career a,
+#main_content .lead-innovation a,
+#main_content .lead-final a,
+#main_content .sp-section--dark a,
+#main_content .sp-final a,
+#main_content .about-evolution a,
+#main_content .about-method a,
+#main_content .about-final a {
+  color: #fff !important;
+}

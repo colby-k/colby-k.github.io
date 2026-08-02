@@ -17,6 +17,11 @@
 >
 {% endif %}
 
+<link
+  rel="stylesheet"
+  href="{{ '/assets/css/contrast-fixes.css?v=' | append: site.github.build_revision | relative_url }}"
+>
+
 {% if page.preload_image %}
 <link
   rel="preload"
