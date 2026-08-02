@@ -10,7 +10,7 @@ page_css: "/assets/css/control-evidence-lab.css"
 
 <section class="cel-hero">
   <div class="cel-hero__copy">
-    <p class="cel-eyebrow">Audit Intelligence Lab · Evidence judgment</p>
+    <p class="cel-eyebrow">Audit Innovation Lab · Evidence judgment</p>
     <h1>Do the facts support <em>the conclusion?</em></h1>
     <p class="cel-hero__lede">The Control Evidence Lab separates process activity from control design, inquiry from retained evidence, and implementation from operating effectiveness—making the auditor’s reasoning visible.</p>
     <div class="cel-hero__actions">
@@ -84,10 +84,10 @@ page_css: "/assets/css/control-evidence-lab.css"
           <div class="cel-scenario-content" data-scenario-summary></div>
         </aside>
 
-        <main class="cel-design-panel">
+        <section class="cel-design-panel">
           <div class="cel-panel-heading cel-panel-heading--split"><div><small>Design criteria</small><h3>Is this a defined, repeatable control?</h3></div><p>Rate each element as missing, partial, or clear. The calculation is transparent and can be challenged.</p></div>
           <div class="cel-criteria-grid" data-criteria-grid></div>
-        </main>
+        </section>
 
         <aside class="cel-conclusion-panel">
           <div class="cel-panel-heading"><div><small>Current judgment</small><h3>Design conclusion</h3></div></div>
@@ -98,10 +98,10 @@ page_css: "/assets/css/control-evidence-lab.css"
 
     <section class="cel-view" data-view="evidence" hidden>
       <div class="cel-evidence-layout">
-        <main class="cel-evidence-panel">
+        <section class="cel-evidence-panel">
           <div class="cel-panel-heading cel-panel-heading--split"><div><small>Evidence inventory</small><h3>What is actually available?</h3></div><p>Select the artifacts available to the auditor. Stronger evidence is relevant, reliable, traceable, and sufficiently broad for the conclusion being made.</p></div>
           <div class="cel-evidence-grid" data-evidence-grid></div>
-        </main>
+        </section>
         <aside class="cel-evidence-score-panel">
           <div class="cel-panel-heading"><div><small>Evidence profile</small><h3>Sufficiency dimensions</h3></div></div>
           <div class="cel-evidence-score" data-evidence-score></div>
@@ -115,10 +115,10 @@ page_css: "/assets/css/control-evidence-lab.css"
 
     <section class="cel-view" data-view="trace" hidden>
       <div class="cel-trace-layout">
-        <main class="cel-trace-panel">
+        <section class="cel-trace-panel">
           <div class="cel-panel-heading cel-panel-heading--split"><div><small>Reasoning chain</small><h3>Trace the conclusion to its support.</h3></div><p>Every conclusion should connect back to the risk, control objective, control activity, retained evidence, and audit procedure.</p></div>
           <div class="cel-trace-canvas" data-trace-canvas></div>
-        </main>
+        </section>
         <aside class="cel-boundary-panel">
           <div class="cel-panel-heading"><div><small>Conclusion boundary</small><h3>What can be said?</h3></div></div>
           <div data-conclusion-boundary></div>
@@ -153,9 +153,9 @@ page_css: "/assets/css/control-evidence-lab.css"
 <section class="cel-note"><strong>Portfolio demonstration</strong><p>All scenarios, control descriptions, ratings, evidence artifacts, and conclusions are synthetic. The application illustrates an audit reasoning framework and does not replace engagement-specific criteria, sampling, supervision, or professional judgment.</p></section>
 
 <section class="cel-final">
-  <p class="cel-eyebrow">Audit Intelligence Lab</p>
+  <p class="cel-eyebrow">Audit Innovation Lab</p>
   <h2>See the risk.<br>Trace the evidence.</h2>
-  <div><a class="cel-link cel-link--light" href="/audit-intelligence/">Explore the full lab <span>↗</span></a><a class="cel-link cel-link--light" href="/excel-tools/">View audit quality systems <span>↗</span></a></div>
+  <div><a class="cel-link cel-link--light" href="/audit-intelligence/">Explore the full lab <span>↗</span></a><a class="cel-link cel-link--light" href="/audit-impact/">View applied audit impact <span>↗</span></a></div>
 </section>
 
 <dialog class="cel-dialog" data-review-dialog>
