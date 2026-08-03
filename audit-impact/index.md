@@ -3,7 +3,7 @@ title: "Audit Impact | Full-Population Testing, Visualization & Responsible AI"
 layout: default
 permalink: /audit-impact/
 description: "How Colby Kellersberger applies full-population testing, risk visualization, practical workflow improvement, and responsible AI to strengthen Internal Audit."
-page_css: "/assets/css/audit-impact-v3.css"
+page_css: "/assets/css/audit-impact-v4.css"
 ---
 
 <article class="sp-page impact-page">
@@ -175,15 +175,70 @@ page_css: "/assets/css/audit-impact-v3.css"
     <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/audit-analytics/">Explore audit analytics work <span>↗</span></a><a class="sp-link" href="/vendor-relationship-intelligence/">See visual investigation in practice <span>↗</span></a></div>
   </article>
 
-  <article id="workflow-improvement" class="sp-impact-story">
-    <div class="sp-impact-story__label"><span>03 · Workflow improvement</span><strong>×1</strong></div>
-    <div class="sp-impact-story__content">
-      <small>Reduce recurring friction without adding bureaucracy</small>
-      <h3>Standardize the mechanics so reviewers can focus on the substance.</h3>
-      <p>Audit teams repeatedly recreate workpaper structures, documentation conventions, review patterns, and evidence-request approaches. Practical templates and tools can reduce interpretation and setup work while preserving flexibility for the actual audit judgment.</p>
-      <dl><div><dt>Audit problem</dt><dd>Inconsistent execution shifts manager review toward presentation and away from evidence and conclusions.</dd></div><div><dt>My approach</dt><dd>Identify the recurring action, define a usable standard, build it into the auditor’s existing workflow, and improve it through feedback.</dd></div><div><dt>How it changes the work</dt><dd>Teams begin from a clearer structure, and review attention can remain on risk, evidence, and the supportable conclusion.</dd></div><div><dt>Leadership responsibility</dt><dd>Keep standardization proportional and avoid replacing judgment with a checklist.</dd></div></dl>
-      <a class="sp-link" href="/auditticks-pro/">See AuditTicks Pro <span>↗</span></a>
+  <article id="workflow-improvement" class="sp-workflow-feature">
+    <div class="sp-workflow-feature__header">
+      <div class="sp-workflow-feature__mark"><span>03 · Workflow improvement</span><strong>BUILD</strong></div>
+      <div class="sp-workflow-feature__copy">
+        <small>Representative professional application · generalized</small>
+        <h3>Remove recurring friction so the team can spend more time on risk, evidence, and judgment.</h3>
+        <p>Throughout my career, I have looked for audit work that is repeatedly rebuilt, interpreted differently, or corrected during review. I then translate that friction into a practical standard, template, workflow, or tool that fits the way auditors already work. The objective is not uniformity for its own sake—it is clearer execution and more useful manager review.</p>
+      </div>
     </div>
+
+    <div class="sp-workflow-cycle" aria-label="Audit workflow improvement cycle">
+      <article><span>01 · Observe</span><h4>Find the recurring friction.</h4><p>Look for repeated setup, inconsistent documentation, avoidable rework, unclear ownership, and review notes that recur across engagements.</p></article>
+      <article><span>02 · Define</span><h4>Set the minimum useful standard.</h4><p>Clarify what must be consistent, what should remain flexible, and what evidence or reasoning the workflow needs to preserve.</p></article>
+      <article><span>03 · Build</span><h4>Embed it in the existing work.</h4><p>Use templates, checklists, prompts, automation, Excel tools, or review structures that reduce context switching and adoption friction.</p></article>
+      <article><span>04 · Review</span><h4>Test whether it improves execution.</h4><p>Evaluate whether preparers understand the standard, reviewers receive clearer support, and the workflow solves the original problem.</p></article>
+      <article><span>05 · Refine</span><h4>Improve through real use.</h4><p>Use feedback, exceptions, review notes, and changing audit needs to simplify, clarify, or expand the solution.</p></article>
+    </div>
+
+    <div class="sp-workflow-grid">
+      <section class="sp-workflow-panel">
+        <span>Where friction accumulates</span>
+        <h4>Small inconsistencies become material when repeated across an audit plan.</h4>
+        <p>The strongest opportunities are usually not dramatic technology projects. They are recurring execution problems that consume preparation and review capacity.</p>
+        <ul>
+          <li>Rebuilding workpaper formats, legends, references, and testing structures.</li>
+          <li>Inconsistent walkthrough notes, evidence requests, and control descriptions.</li>
+          <li>Unclear links between risk, procedure, evidence, exception, and conclusion.</li>
+          <li>Review notes caused by presentation or missing context rather than difficult judgment.</li>
+          <li>Manual population preparation, selection logic, and repetitive analytical steps.</li>
+          <li>AI-assisted work that lacks a defined source, review, or documentation workflow.</li>
+        </ul>
+      </section>
+      <section class="sp-workflow-panel sp-workflow-panel--dark">
+        <span>Leadership controls</span>
+        <h4>Standardize the mechanics without standardizing away judgment.</h4>
+        <p>The manager is responsible for ensuring that a workflow remains proportional, understandable, maintainable, and connected to the assurance objective.</p>
+        <ul>
+          <li>Solve a documented problem rather than adding process because a tool is available.</li>
+          <li>Keep the required structure limited to what improves quality or reviewability.</li>
+          <li>Define ownership, version control, training, and maintenance expectations.</li>
+          <li>Preserve flexibility for different risks, evidence types, and engagement contexts.</li>
+          <li>Monitor whether the team adopts the workflow or works around it.</li>
+          <li>Retire or simplify tools that create more administration than value.</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="sp-workflow-proof" aria-label="Examples of practical workflow improvement">
+      <article><span>Product evidence</span><h4>AuditTicks Pro</h4><p>An Excel add-in I designed to make common workpaper actions—tickmarks, references, annotations, legends, and setup—faster and more consistent.</p></article>
+      <article><span>Reusable structure</span><h4>Workpaper and planning templates</h4><p>Practical starting points that organize procedures, testing attributes, evidence references, exceptions, conclusions, and risk assessment.</p></article>
+      <article><span>Review discipline</span><h4>Evidence and reasoning frameworks</h4><p>Structures that help preparers and reviewers trace the conclusion back to the risk, control, procedure, and retained support.</p></article>
+      <article><span>Modern execution</span><h4>AI-supported workflows</h4><p>Controlled uses of AI for preparation, synthesis, drafting, gap identification, and review while maintaining source and human-accountability boundaries.</p></article>
+    </div>
+
+    <div class="sp-workflow-outcomes" aria-label="Impact of workflow improvement on the audit">
+      <div><small>Consistency</small><strong>Common mechanics and expectations are easier for the team to apply</strong></div>
+      <div><small>Review focus</small><strong>Manager attention stays closer to risk, evidence, and conclusions</strong></div>
+      <div><small>Adoption</small><strong>Improvements fit the tools and environments auditors already use</strong></div>
+      <div><small>Scalability</small><strong>Useful practices can be repeated and refined across engagements</strong></div>
+    </div>
+
+    <div class="sp-workflow-boundary"><strong>Audit boundary</strong><p>A template, tool, automation, or prompt can improve execution, but it cannot determine whether the procedure is responsive, the evidence is sufficient, or the conclusion is supportable. Those remain professional judgments.</p></div>
+
+    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/auditticks-pro/">Explore AuditTicks Pro <span>↗</span></a><a class="sp-link" href="/excel-tools/">View practical audit resources <span>↗</span></a></div>
   </article>
 
   <article id="responsible-ai" class="sp-impact-story">
