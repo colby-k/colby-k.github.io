@@ -1,8 +1,8 @@
 ---
-title: "About Colby Kellersberger"
+title: "About Colby Kellersberger | Internal Audit Leader"
 layout: default
 permalink: /about/
-description: "Colby Kellersberger, CIA, CFE, CICA — an Internal Audit Manager combining audit leadership, analytics, practical technology, and responsible AI."
+description: "Colby Kellersberger, CIA, CFE, CICA, is an Internal Audit Manager and former audit function leader with experience across assurance, compliance, analytics, and responsible AI."
 page_css: "/assets/css/about-v2.css"
 ---
 
@@ -12,7 +12,7 @@ page_css: "/assets/css/about-v2.css"
   <div class="about-hero__copy">
     <p class="about-kicker">About · Internal Audit leadership</p>
     <h1>I lead audit work—and use <em>better information and tools</em> to make it stronger.</h1>
-    <p class="about-hero__lede">I’m Colby Kellersberger, CIA, CFE, CICA—an Internal Audit Manager with a Big Four foundation and more than 10 years of experience across financial, operational, compliance, and control-focused auditing.</p>
+    <p class="about-hero__lede">I’m Colby Kellersberger, CIA, CFE, CICA—an Internal Audit Manager and former audit function leader with a Big Four foundation and more than 10 years of experience across financial, operational, compliance, and control-focused auditing.</p>
     <div class="about-hero__actions">
       <a class="about-link about-link--light" href="/leadership/">View leadership profile <span>↗</span></a>
       <a class="about-link about-link--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a>
@@ -32,9 +32,9 @@ page_css: "/assets/css/about-v2.css"
 
 <section class="about-facts" aria-label="Professional facts">
   <div><small>Experience</small><strong>10+ years</strong></div>
-  <div><small>Credentials</small><strong>CIA · CFE · CICA</strong></div>
-  <div><small>Foundation</small><strong>Big Four audit</strong></div>
-  <div><small>Current focus</small><strong>Internal Audit leadership</strong></div>
+  <div><small>Current role</small><strong>Internal Audit Manager</strong></div>
+  <div><small>Prior leadership</small><strong>Audit function + compliance teams</strong></div>
+  <div><small>Governance</small><strong>Audit Committee reporting</strong></div>
 </section>
 
 <section id="story" class="about-story">
