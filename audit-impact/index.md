@@ -3,7 +3,7 @@ title: "Audit Impact | Full-Population Testing, Visualization & Responsible AI"
 layout: default
 permalink: /audit-impact/
 description: "How Colby Kellersberger applies full-population testing, risk visualization, practical workflow improvement, and responsible AI to strengthen Internal Audit."
-page_css: "/assets/css/audit-impact-v4.css"
+page_css: "/assets/css/audit-impact-v5.css"
 ---
 
 <article class="sp-page impact-page">
@@ -241,15 +241,86 @@ page_css: "/assets/css/audit-impact-v4.css"
     <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/auditticks-pro/">Explore AuditTicks Pro <span>↗</span></a><a class="sp-link" href="/excel-tools/">View practical audit resources <span>↗</span></a></div>
   </article>
 
-  <article id="responsible-ai" class="sp-impact-story">
-    <div class="sp-impact-story__label"><span>04 · Responsible AI</span><strong>AI</strong></div>
-    <div class="sp-impact-story__content">
-      <small>Increase leverage while retaining human accountability</small>
-      <h3>Use AI across the audit workflow without allowing it to become the evidence or the decision-maker.</h3>
-      <p>I use AI extensively to support current audit work—including preparation, research, risk analysis, walkthrough synthesis, drafting, review, and quality checks. The value comes from faster synthesis and stronger challenge, but the source evidence, review responsibility, and final judgment must remain visible.</p>
-      <dl><div><dt>Useful applications</dt><dd>Prepare questions, structure risk assessments, summarize transcripts, compare documentation, identify gaps, and challenge draft conclusions.</dd></div><div><dt>Required boundaries</dt><dd>Protect confidential information, define approved sources, verify outputs, retain evidence separately, and require responsible human review.</dd></div><div><dt>How it changes the work</dt><dd>Auditors can spend less time organizing information and more time evaluating risk, evidence, and implications.</dd></div><div><dt>Leadership responsibility</dt><dd>Establish acceptable use, review standards, documentation expectations, and clear accountability for AI-assisted work.</dd></div></dl>
-      <a class="sp-link" href="/ai-audit-assistant/">Review the Responsible AI framework <span>↗</span></a>
+  <article id="responsible-ai" class="sp-ai-feature">
+    <div class="sp-ai-feature__header">
+      <div class="sp-ai-feature__mark"><span>04 · Responsible AI</span><strong>AI</strong></div>
+      <div class="sp-ai-feature__copy">
+        <small>Current professional practice · generalized</small>
+        <h3>Increase audit leverage without obscuring the source, evidence, or accountable judgment.</h3>
+        <p>I use AI extensively in current audit work to support preparation, research, risk analysis, walkthrough synthesis, drafting, review, and quality checks. The value is faster organization, comparison, and challenge. The operating model must still keep approved sources, confidential information, verification, retained evidence, and responsible human review visible.</p>
+      </div>
     </div>
+
+    <div class="sp-ai-operating-model" aria-label="Responsible AI operating model">
+      <article><span>01 · Environment</span><h4>Use approved tools.</h4><p>Match the platform and configuration to organizational policy, confidentiality, data classification, retention, and access requirements.</p></article>
+      <article><span>02 · Sources</span><h4>Bound the information.</h4><p>Define which documents, transcripts, criteria, data, and prior work the model may use—and what it must not infer beyond them.</p></article>
+      <article><span>03 · Task</span><h4>Specify the purpose.</h4><p>State the audit objective, requested output, required structure, conclusion boundary, and how the result will be used.</p></article>
+      <article><span>04 · Verification</span><h4>Challenge the output.</h4><p>Trace factual statements to source material, test calculations, identify omissions, and evaluate whether the response overstates support.</p></article>
+      <article><span>05 · Accountability</span><h4>Retain human ownership.</h4><p>The preparer and reviewer remain responsible for the procedure, evidence, documentation, and final professional judgment.</p></article>
+    </div>
+
+    <div class="sp-ai-use-grid" aria-label="AI-supported audit workflow">
+      <article><span>Planning</span><h4>Prepare and challenge risk.</h4><p>Organize background information, identify potential risks, draft questions, compare scope alternatives, and challenge whether the planned work is responsive.</p></article>
+      <article><span>Walkthroughs</span><h4>Structure what was learned.</h4><p>Synthesize transcripts and notes into process narratives, control claims, open questions, evidence requests, and inconsistencies requiring validation.</p></article>
+      <article><span>Testing</span><h4>Clarify procedures and gaps.</h4><p>Develop testing attributes, compare expected and obtained evidence, identify missing support, and organize exceptions for auditor investigation.</p></article>
+      <article><span>Drafting</span><h4>Improve clarity and traceability.</h4><p>Convert supported analysis into concise workpaper narratives, issue elements, summaries, and communications without allowing the draft to exceed the evidence.</p></article>
+      <article><span>Manager review</span><h4>Apply a stronger challenge.</h4><p>Evaluate alignment among risk, procedure, evidence, exception, and conclusion; surface unsupported statements; and identify where additional work is required.</p></article>
+      <article><span>Quality assurance</span><h4>Check consistency and boundaries.</h4><p>Compare terminology, criteria, conclusions, cross-references, and documentation expectations across an engagement while preserving independent review.</p></article>
+    </div>
+
+    <div class="sp-ai-governance">
+      <section class="sp-ai-panel">
+        <span>Controls over AI-assisted work</span>
+        <h4>Make the workflow reviewable, repeatable, and appropriately governed.</h4>
+        <p>AI use should be visible enough that a reviewer can understand the source boundary, purpose, verification performed, and effect on the workpaper.</p>
+        <ul>
+          <li>Apply organizational rules for approved platforms, confidential data, access, and retention.</li>
+          <li>Limit inputs to relevant and authorized source material.</li>
+          <li>Separate source evidence from AI-generated summaries, interpretations, and drafts.</li>
+          <li>Verify quotations, facts, calculations, criteria, and document references.</li>
+          <li>Document material assumptions, unresolved uncertainty, and known source limitations.</li>
+          <li>Retain enough of the workflow to explain how a material AI-assisted output was reviewed and used.</li>
+        </ul>
+      </section>
+      <section class="sp-ai-panel sp-ai-panel--signal">
+        <span>Manager review</span>
+        <h4>Review the reasoning—not merely the writing.</h4>
+        <p>Polished language can make weak support appear stronger. Manager review must challenge the substance beneath the output.</p>
+        <ul>
+          <li>Confirm that the source set is complete enough for the requested task.</li>
+          <li>Trace material assertions back to retained evidence.</li>
+          <li>Identify where the model filled gaps, inferred causation, or collapsed uncertainty.</li>
+          <li>Evaluate whether the procedure and evidence support the scope of the conclusion.</li>
+          <li>Require the responsible auditor to resolve discrepancies rather than accept fluent output.</li>
+          <li>Keep approval and accountability with the assigned preparer and reviewer.</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="sp-ai-nondelegable">
+      <section class="sp-ai-nondelegable__intro">
+        <span>Nondelegable judgment</span>
+        <h4>AI can support the work. It cannot own the assurance conclusion.</h4>
+        <p>The most consequential audit decisions require context, evidence evaluation, skepticism, organizational understanding, and accountable professional judgment.</p>
+      </section>
+      <section class="sp-ai-nondelegable__grid">
+        <div><small>Risk and scope</small><strong>What matters enough to audit—and how far the work should extend.</strong><p>AI may identify possibilities, but leadership determines relevance, priority, timing, and proportionality.</p></div>
+        <div><small>Evidence sufficiency</small><strong>Whether the retained support is relevant, reliable, and sufficient.</strong><p>A model can organize evidence; it cannot assume that inquiry, a screenshot, or a single instance supports a broader conclusion.</p></div>
+        <div><small>Issue significance</small><strong>Whether an exception represents a control deficiency, error, systemic risk, or isolated condition.</strong><p>This requires business context, root-cause evaluation, impact, compensating controls, and management perspective.</p></div>
+        <div><small>Final conclusion</small><strong>What Internal Audit is prepared to state and defend.</strong><p>The accountable auditor must decide whether the work supports the conclusion and communicate uncertainty honestly.</p></div>
+      </section>
+    </div>
+
+    <div class="sp-ai-outcomes" aria-label="Impact of responsible AI on the audit">
+      <div><small>Capacity</small><strong>Less time spent organizing and reformatting information</strong></div>
+      <div><small>Consistency</small><strong>More structured preparation, drafting, and review across the engagement</strong></div>
+      <div><small>Challenge</small><strong>Additional scrutiny of gaps, contradictions, and unsupported conclusions</strong></div>
+      <div><small>Governance</small><strong>Clearer source, review, documentation, and accountability boundaries</strong></div>
+    </div>
+
+    <div class="sp-ai-boundary"><strong>Audit boundary</strong><p>An AI-generated summary, analysis, or draft is not audit evidence. It is an intermediate work product that must be verified against authorized sources and reviewed by the auditor responsible for the conclusion.</p></div>
+
+    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/ai-audit-assistant/">Review the Responsible AI framework <span>↗</span></a><a class="sp-link" href="/control-evidence-lab/">Explore evidence judgment <span>↗</span></a></div>
   </article>
 </section>
 
