@@ -1,7 +1,7 @@
 ---
-title: "Internal Audit Leadership | Analytics, Technology & AI"
+title: "Internal Audit Manager & Audit Leader | Colby Kellersberger"
 layout: default
-description: "Internal Audit Manager with 10+ years of experience leading assurance work and using analytics, practical technology, and responsible AI to strengthen audit quality and coverage."
+description: "Internal Audit Manager and former audit function leader with 10+ years of experience across assurance, compliance, analytics, and responsible AI."
 page_css: "/assets/css/homepage-v3.css"
 ---
 
@@ -9,11 +9,11 @@ page_css: "/assets/css/homepage-v3.css"
 
 <section class="lead-hero">
   <div class="lead-hero__copy">
-    <p class="lead-kicker">Colby Kellersberger · Internal Audit Manager</p>
+    <p class="lead-kicker">Colby Kellersberger · CIA · CFE · CICA</p>
     <h1>Internal Audit leadership for a <em>changing risk environment.</em></h1>
-    <p class="lead-hero__lede">I lead risk-based assurance work and use analytics, practical technology, and responsible AI to improve audit quality, expand coverage, and help teams focus on what matters.</p>
+    <p class="lead-hero__lede">Internal Audit Manager and former audit function leader with more than 10 years of experience. I have led assurance work, reported to an Audit Committee, managed specialized compliance teams, and used analytics and responsible AI to strengthen coverage, evidence, and execution.</p>
     <div class="lead-actions">
-      <a class="lead-link lead-link--light" href="/leadership/">Explore my leadership experience <span>↗</span></a>
+      <a class="lead-link lead-link--light" href="/leadership/">Review my leadership experience <span>↗</span></a>
       <a class="lead-link lead-link--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a>
     </div>
   </div>
@@ -32,16 +32,16 @@ page_css: "/assets/css/homepage-v3.css"
 </section>
 
 <section class="lead-facts" aria-label="Professional profile">
-  <div><small>Experience</small><strong>10+ years</strong></div>
   <div><small>Current role</small><strong>Internal Audit Manager</strong></div>
-  <div><small>Credentials</small><strong>CIA · CFE · CICA</strong></div>
-  <div><small>Foundation</small><strong>Big Four audit</strong></div>
+  <div><small>Prior leadership</small><strong>Led an Internal Audit function</strong></div>
+  <div><small>Governance</small><strong>Audit Committee reporting</strong></div>
+  <div><small>Differentiation</small><strong>Analytics · AI · product design</strong></div>
 </section>
 
 <section class="lead-positioning">
-  <p class="lead-kicker lead-kicker--dark">How I move Internal Audit forward</p>
-  <h2>Leadership first. Technology where it improves the work.</h2>
-  <p>I bring audit depth, management experience, and a builder’s mindset. The objective is not technology for its own sake—it is stronger assurance, clearer evidence, better review, and more informed decisions.</p>
+  <p class="lead-kicker lead-kicker--dark">Leadership range</p>
+  <h2>Experience across the responsibilities that matter at the next level.</h2>
+  <p>I have led engagements, managed an Internal Audit function, overseen compliance and fair-lending teams, supported Audit and Risk through analytics, and built practical systems that improve how assurance work is performed and reviewed.</p>
 </section>
 
 <section class="lead-pillars" aria-labelledby="lead-pillars-title">
