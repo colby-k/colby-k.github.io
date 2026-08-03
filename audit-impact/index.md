@@ -3,7 +3,7 @@ title: "Audit Impact | Full-Population Testing, Visualization & Responsible AI"
 layout: default
 permalink: /audit-impact/
 description: "How Colby Kellersberger applies full-population testing, risk visualization, practical workflow improvement, and responsible AI to strengthen Internal Audit."
-page_css: "/assets/css/strategic-pages.css"
+page_css: "/assets/css/audit-impact-v2.css"
 ---
 
 <article class="sp-page impact-page">
@@ -46,15 +46,62 @@ page_css: "/assets/css/strategic-pages.css"
     <p>These are generalized descriptions of approaches I have applied in audit, compliance, risk, and analytics environments. They are distinct from the synthetic portfolio applications shown later on this page.</p>
   </div>
 
-  <article id="population-testing" class="sp-impact-story">
-    <div class="sp-impact-story__label"><span>01 · Full-population testing</span><strong>100%</strong></div>
-    <div class="sp-impact-story__content">
-      <small>Expand coverage before selecting detailed tests</small>
-      <h3>Evaluate complete populations when the data and audit objective support it.</h3>
-      <p>Traditional sampling remains appropriate in many circumstances, but it should not be the automatic starting point. When reliable data is available, complete-population tests can identify unusual records, stratify risk, reveal patterns, and create a more informed basis for selecting items for investigation.</p>
-      <dl><div><dt>Audit problem</dt><dd>A sample can miss concentrated or infrequent risks that are visible only across the population.</dd></div><div><dt>My approach</dt><dd>Validate source data, define test logic, retain traceable queries, and produce a reviewable exception population.</dd></div><div><dt>How it changes the work</dt><dd>Detailed testing begins with better information about where risk exists and how significant the pattern may be.</dd></div><div><dt>Leadership responsibility</dt><dd>Ensure the test is responsive to risk and that exceptions are investigated rather than treated as automatic findings.</dd></div></dl>
-      <a class="sp-link" href="/sql-projects/">View full-population testing examples <span>↗</span></a>
+  <article id="population-testing" class="sp-population-feature">
+    <div class="sp-population-feature__header">
+      <div class="sp-population-feature__mark"><span>01 · Full-population testing</span><strong>100%</strong></div>
+      <div class="sp-population-feature__copy">
+        <small>Representative professional application · generalized</small>
+        <h3>Start with the population, then decide where detailed testing belongs.</h3>
+        <p>Across audit, compliance, and analytics work, I have used complete populations to identify patterns, concentrations, outliers, duplicate or related records, threshold behavior, and changes over time. The output becomes a risk-ranked population that directs walkthrough questions, sample selection, and follow-up procedures.</p>
+      </div>
     </div>
+
+    <div class="sp-population-flow" aria-label="Full-population testing workflow">
+      <article><span>01 · Define</span><h4>Connect the test to risk.</h4><p>Identify the population, period, unit of analysis, expected behavior, and decision the test must support.</p></article>
+      <article><span>02 · Validate</span><h4>Establish data reliability.</h4><p>Reconcile record counts and totals, understand exclusions, review key fields, and document source limitations.</p></article>
+      <article><span>03 · Analyze</span><h4>Apply explainable tests.</h4><p>Test defined conditions such as timing, thresholds, duplication, concentration, relationships, access, and sequence.</p></article>
+      <article><span>04 · Prioritize</span><h4>Stratify the results.</h4><p>Combine indicators, visualize the population, and distinguish isolated records from broader patterns.</p></article>
+      <article><span>05 · Respond</span><h4>Direct audit procedures.</h4><p>Select follow-up based on risk, obtain source evidence, investigate false positives, and support the conclusion.</p></article>
+    </div>
+
+    <div class="sp-population-grid">
+      <section class="sp-population-panel sp-population-panel--dark">
+        <span>Questions the analysis should answer</span>
+        <h4>What should change because the population was tested?</h4>
+        <p>The analytical result should influence the audit—not simply create another spreadsheet or dashboard.</p>
+        <div class="sp-population-questions">
+          <div><small>Concentration</small><strong>Where is activity disproportionately concentrated by user, vendor, location, account, or period?</strong></div>
+          <div><small>Pattern</small><strong>Which records show unusual timing, threshold behavior, duplication, relationships, or sequence?</strong></div>
+          <div><small>Scope</small><strong>Does the pattern indicate that walkthroughs, controls, locations, or periods require greater attention?</strong></div>
+          <div><small>Follow-up</small><strong>Which records require inspection, inquiry, reperformance, or additional population-level testing?</strong></div>
+        </div>
+      </section>
+
+      <section class="sp-population-panel">
+        <span>Controls over the analysis</span>
+        <h4>Make the test reviewable and defensible.</h4>
+        <p>Full-population testing increases coverage only when the population, logic, and result can be challenged and reproduced.</p>
+        <ul>
+          <li>Reconcile the source population to reliable system or financial totals.</li>
+          <li>Document the business rule, field definitions, assumptions, and exclusions.</li>
+          <li>Retain traceable SQL, calculations, or transformation logic.</li>
+          <li>Preserve record-level drill-through from each indicator to source evidence.</li>
+          <li>Evaluate false positives and legitimate business explanations before concluding.</li>
+          <li>Separate an analytical signal from a control exception, error, or finding.</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="sp-population-outcomes" aria-label="Impact on the audit">
+      <div><small>Coverage</small><strong>Broader visibility across the defined population</strong></div>
+      <div><small>Focus</small><strong>Detailed procedures directed to higher-risk records and patterns</strong></div>
+      <div><small>Reviewability</small><strong>Selection logic and exceptions that can be reproduced and challenged</strong></div>
+      <div><small>Communication</small><strong>Clearer discussion of magnitude, concentration, and business context</strong></div>
+    </div>
+
+    <div class="sp-population-boundary"><strong>Audit boundary</strong><p>Testing every record does not eliminate judgment or establish that every flagged item is an exception. It improves the information available for scoping, selection, investigation, and conclusion.</p></div>
+
+    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/sql-projects/">View full-population testing examples <span>↗</span></a><a class="sp-link" href="/access-conflict-explorer/">See an interactive population test <span>↗</span></a></div>
   </article>
 
   <article id="risk-visualization" class="sp-impact-story">
