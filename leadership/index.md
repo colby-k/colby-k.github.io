@@ -1,8 +1,8 @@
 ---
-title: "Internal Audit Leadership & Experience"
+title: "Internal Audit Manager & Former Function Leader"
 layout: default
 permalink: /leadership/
-description: "Colby Kellersberger's Internal Audit leadership profile, career progression, management approach, and experience across audit, compliance, controls, and analytics."
+description: "Colby Kellersberger is an Internal Audit Manager and former audit function leader with 10+ years of experience, Audit Committee reporting, team leadership, analytics, and responsible AI capability."
 page_css: "/assets/css/strategic-pages.css"
 ---
 
@@ -10,9 +10,9 @@ page_css: "/assets/css/strategic-pages.css"
 
 <section class="sp-hero">
   <div class="sp-hero__copy">
-    <p class="sp-kicker">Leadership & experience</p>
+    <p class="sp-kicker">Leadership & experience · CIA · CFE · CICA</p>
     <h1>Lead the work. Develop the judgment. <em>Improve the function.</em></h1>
-    <p class="sp-hero__lede">My leadership approach connects risk assessment, disciplined execution, evidence-based conclusions, staff development, and practical modernization. Technology is a differentiator—but accountable audit leadership remains the foundation.</p>
+    <p class="sp-hero__lede">I am an Internal Audit Manager and former Internal Audit function leader with more than 10 years of experience. My background includes Audit Committee reporting, engagement leadership, specialized compliance-team management, analytics, and practical modernization of audit execution.</p>
     <div class="sp-actions"><a class="sp-link sp-link--light" href="#profile">View the profile <span>↓</span></a><a class="sp-link sp-link--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a></div>
   </div>
   <div class="sp-hero-card" aria-label="Internal Audit leadership responsibilities">
@@ -28,10 +28,10 @@ page_css: "/assets/css/strategic-pages.css"
 </section>
 
 <section class="sp-facts" aria-label="Leadership profile facts">
+  <div><small>Experience</small><strong>10+ years</strong></div>
   <div><small>Current role</small><strong>Internal Audit Manager</strong></div>
-  <div><small>Leadership scope</small><strong>Engagements · review · remediation</strong></div>
-  <div><small>Prior scope</small><strong>Audit function + compliance teams</strong></div>
-  <div><small>Career goal</small><strong>Audit Manager · Audit Director</strong></div>
+  <div><small>Prior leadership</small><strong>Internal Audit function lead</strong></div>
+  <div><small>Governance</small><strong>Audit Committee reporting</strong></div>
 </section>
 
 <section id="profile" class="sp-statement">
