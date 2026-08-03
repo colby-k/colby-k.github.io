@@ -3,7 +3,7 @@ title: "Audit Impact | Full-Population Testing, Visualization & Responsible AI"
 layout: default
 permalink: /audit-impact/
 description: "How Colby Kellersberger applies full-population testing, risk visualization, practical workflow improvement, and responsible AI to strengthen Internal Audit."
-page_css: "/assets/css/audit-impact-v2.css"
+page_css: "/assets/css/audit-impact-v3.css"
 ---
 
 <article class="sp-page impact-page">
@@ -104,15 +104,75 @@ page_css: "/assets/css/audit-impact-v2.css"
     <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/sql-projects/">View full-population testing examples <span>↗</span></a><a class="sp-link" href="/access-conflict-explorer/">See an interactive population test <span>↗</span></a></div>
   </article>
 
-  <article id="risk-visualization" class="sp-impact-story">
-    <div class="sp-impact-story__label"><span>02 · Risk visualization</span><strong>↗</strong></div>
-    <div class="sp-impact-story__content">
-      <small>Make patterns understandable before testing begins</small>
-      <h3>Use visualization to identify trends, concentrations, and changes that deserve attention.</h3>
-      <p>Dashboards are most useful when they help auditors ask better questions. Comparative views, trend lines, geographic patterns, thresholds, aging, concentrations, and outliers can make risk visible in ways that transaction listings cannot.</p>
-      <dl><div><dt>Audit problem</dt><dd>Large transaction populations can obscure the relationships and changes that matter most.</dd></div><div><dt>My approach</dt><dd>Translate the audit question into a small set of decision-oriented views rather than maximizing the number of charts.</dd></div><div><dt>How it changes the work</dt><dd>The team can focus walkthrough questions and procedures on locations, periods, vendors, users, or activities with the strongest indicators.</dd></div><div><dt>Leadership responsibility</dt><dd>Prevent visual signals from being overstated and connect each view to a defined audit response.</dd></div></dl>
-      <a class="sp-link" href="/audit-analytics/">Explore audit analytics work <span>↗</span></a>
+  <article id="risk-visualization" class="sp-visual-feature">
+    <div class="sp-visual-feature__header">
+      <div class="sp-visual-feature__mark"><span>02 · Risk visualization</span><strong>FOCUS</strong></div>
+      <div class="sp-visual-feature__copy">
+        <small>Representative professional application · generalized</small>
+        <h3>Make the pattern visible, then decide what the audit should do differently.</h3>
+        <p>Across audit, compliance, and analytics work, I have used comparative and trend-based views to turn large transaction populations into a smaller set of decision-oriented signals. The objective is to identify where activity is changing, concentrated, inconsistent, or unusual so that the team can direct its questions and procedures accordingly.</p>
+      </div>
     </div>
+
+    <div class="sp-visual-lenses" aria-label="Risk visualization decision lenses">
+      <article><span>01 · Baseline</span><h4>What is normal?</h4><p>Establish expected volume, mix, timing, aging, and distribution before interpreting an apparent exception.</p></article>
+      <article><span>02 · Trend</span><h4>What changed?</h4><p>Compare periods and identify shifts that may reflect process, system, staffing, policy, or control changes.</p></article>
+      <article><span>03 · Concentration</span><h4>Where is exposure clustered?</h4><p>Show whether activity is disproportionately associated with a user, vendor, location, account, product, or time period.</p></article>
+      <article><span>04 · Exception</span><h4>What differs from peers?</h4><p>Identify outliers, threshold behavior, unusual timing, aging, reversals, and combinations that warrant follow-up.</p></article>
+    </div>
+
+    <div class="sp-visual-response">
+      <section class="sp-visual-response__intro">
+        <span>From signal to audit response</span>
+        <h4>A useful visualization creates a decision—not just an observation.</h4>
+        <p>Each view should be connected to a potential change in scope, walkthrough emphasis, sample selection, evidence request, or stakeholder discussion.</p>
+      </section>
+      <section class="sp-visual-response__grid">
+        <div><small>Concentration signal</small><strong>Activity is heavily associated with one person, vendor, or location.</strong><p>Assess business context, authority, workload, segregation of duties, and whether targeted testing should increase.</p></div>
+        <div><small>Trend signal</small><strong>Volume, value, aging, or exceptions change sharply between periods.</strong><p>Determine what changed in the process or environment and whether the control design and audit scope remain responsive.</p></div>
+        <div><small>Peer variance</small><strong>One business unit or population segment behaves differently from comparable groups.</strong><p>Compare procedures, local practices, system configuration, and control execution before treating the variance as an issue.</p></div>
+        <div><small>Timing signal</small><strong>Activity clusters near period end, approval thresholds, weekends, or other sensitive points.</strong><p>Inspect authorization, business purpose, supporting evidence, and whether the timing changes the risk assessment.</p></div>
+      </section>
+    </div>
+
+    <div class="sp-visual-grid">
+      <section class="sp-visual-panel">
+        <span>Controls over the view</span>
+        <h4>Make the visualization trustworthy and reviewable.</h4>
+        <p>A clear graphic can still mislead when its data, scale, definition, or comparison is weak.</p>
+        <ul>
+          <li>Reconcile the underlying population and preserve record-level drill-through.</li>
+          <li>Define measures, periods, groupings, exclusions, and thresholds consistently.</li>
+          <li>Use relevant comparators rather than arbitrary benchmarks.</li>
+          <li>Present magnitude and rate together when volume differences matter.</li>
+          <li>Avoid scales, categories, or filters that exaggerate the apparent pattern.</li>
+          <li>Document the audit response associated with each material signal.</li>
+        </ul>
+      </section>
+      <section class="sp-visual-panel sp-visual-panel--signal">
+        <span>Leadership use</span>
+        <h4>Keep the team focused on the assurance question.</h4>
+        <p>The manager’s role is to challenge whether the view is responsive to risk and whether the proposed follow-up is proportionate.</p>
+        <ul>
+          <li>Ask whether the pattern changes the risk assessment or only adds context.</li>
+          <li>Distinguish a meaningful change from noise, seasonality, or data quality.</li>
+          <li>Connect visualization to walkthrough questions and test objectives.</li>
+          <li>Prevent dashboards from becoming a substitute for evidence.</li>
+          <li>Use the view to communicate magnitude and context without overstating causation.</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="sp-visual-outcomes" aria-label="Impact of risk visualization on the audit">
+      <div><small>Scoping</small><strong>Greater attention directed to higher-risk segments, periods, and process areas</strong></div>
+      <div><small>Walkthroughs</small><strong>Questions informed by observed changes, concentrations, and peer differences</strong></div>
+      <div><small>Testing</small><strong>Samples and procedures selected from a more informed view of the population</strong></div>
+      <div><small>Communication</small><strong>Patterns explained through magnitude, trend, comparison, and business context</strong></div>
+    </div>
+
+    <div class="sp-visual-boundary"><strong>Audit boundary</strong><p>A visualization can show that records differ, cluster, or change. It does not establish why the pattern exists or whether it represents an error, control failure, or misconduct. Those conclusions require evidence and investigation.</p></div>
+
+    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/audit-analytics/">Explore audit analytics work <span>↗</span></a><a class="sp-link" href="/vendor-relationship-intelligence/">See visual investigation in practice <span>↗</span></a></div>
   </article>
 
   <article id="workflow-improvement" class="sp-impact-story">
