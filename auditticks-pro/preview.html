@@ -26,11 +26,13 @@
   (async function(){
     const root = document.getElementById('preview-root');
     try {
+      const branchBase = 'https://raw.githack.com/colby-k/colby-k.github.io/feature/auditticks-demand-validation';
       const url = 'https://raw.githubusercontent.com/colby-k/colby-k.github.io/feature/auditticks-demand-validation/auditticks-pro/index.md';
       const res = await fetch(url, {cache:'no-store'});
       if(!res.ok) throw new Error('Could not load branch page source (' + res.status + ')');
       let text = await res.text();
       text = text.replace(/^---[\s\S]*?---\s*/, '');
+      text = text.replaceAll('src="/assets/img/auditticks-', 'src="' + branchBase + '/assets/img/auditticks-');
       root.innerHTML = text;
     } catch (err) {
       root.innerHTML = '<div class="preview-error"><h1>Preview could not load</h1><p>' + String(err.message || err) + '</p></div>';
