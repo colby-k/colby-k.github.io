@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AuditTicks Pro — PR Preview</title>
+  <base href="https://colby-k.github.io/">
+  <link rel="stylesheet" href="https://colby-k.github.io/assets/css/style.css">
+  <link rel="stylesheet" href="https://colby-k.github.io/assets/css/navigation-v2.css">
+  <link rel="stylesheet" href="https://colby-k.github.io/assets/css/strategic-pages.css">
+  <link rel="stylesheet" href="https://raw.githack.com/colby-k/colby-k.github.io/feature/auditticks-demand-validation/assets/css/auditticks-product-v2.css">
+  <link rel="stylesheet" href="https://colby-k.github.io/assets/css/contrast-fixes.css">
+  <style>
+    .preview-banner{position:sticky;top:0;z-index:9999;padding:.65rem 1rem;background:#ffd15b;color:#071525;text-align:center;font:800 13px/1.25 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;box-shadow:0 1px 0 rgba(0,0,0,.12)}
+    .preview-banner strong{font-weight:900}.preview-error{max-width:900px;margin:4rem auto;padding:2rem;border:1px solid #d8dde0;background:#fff;font-family:system-ui,sans-serif}
+  </style>
+</head>
+<body>
+  <div class="preview-banner"><strong>PREVIEW ONLY</strong> · AuditTicks Pro demand-validation branch · nothing on the live site has been changed</div>
+  <div id="main_content_wrap" class="outer">
+    <main id="main_content" class="inner" tabindex="-1">
+      <div id="preview-root"></div>
+    </main>
+  </div>
+  <script>
+  (async function(){
+    const root = document.getElementById('preview-root');
+    try {
+      const url = 'https://raw.githubusercontent.com/colby-k/colby-k.github.io/feature/auditticks-demand-validation/auditticks-pro/index.md';
+      const res = await fetch(url, {cache:'no-store'});
+      if(!res.ok) throw new Error('Could not load branch page source (' + res.status + ')');
+      let text = await res.text();
+      text = text.replace(/^---[\s\S]*?---\s*/, '');
+      root.innerHTML = text;
+    } catch (err) {
+      root.innerHTML = '<div class="preview-error"><h1>Preview could not load</h1><p>' + String(err.message || err) + '</p></div>';
+    }
+  }());
+  </script>
+</body>
+</html>
