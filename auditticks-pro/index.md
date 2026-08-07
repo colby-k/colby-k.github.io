@@ -4,7 +4,7 @@ layout: default
 permalink: /auditticks-pro/
 description: "AuditTicks Pro is an Excel add-in that brings audit-focused workpaper, evidence, reference, and review tools directly into Excel."
 page_css: "/assets/css/auditticks-product-v2.css"
-preload_image: "/assets/img/AuditTicksPro_Tms.png"
+preload_image: "/assets/img/auditticks-overview.webp"
 ---
 
 <article class="sp-page auditticks-page">
@@ -23,14 +23,14 @@ preload_image: "/assets/img/AuditTicksPro_Tms.png"
   </div>
   <div class="sp-product-window" aria-label="AuditTicks Pro running in Microsoft Excel">
     <div class="sp-product-window__bar"><span></span><span></span><span></span><small>AuditTicks Pro · Microsoft Excel</small></div>
-    <img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro tools being used in an Excel audit workpaper" width="2434" height="893" loading="eager" fetchpriority="high">
+    <img src="/assets/img/auditticks-overview.webp" alt="AuditTicks Pro ribbon above a demonstration accounts-payable audit workpaper in Microsoft Excel" width="500" height="207" loading="eager" fetchpriority="high">
   </div>
 </section>
 
 <section class="atp-signal-strip" aria-label="AuditTicks Pro product facts">
   <div><small>Current phase</small><strong>Early access evaluation</strong></div>
   <div><small>Platform</small><strong>Microsoft Excel for Windows</strong></div>
-  <div><small>Current build</small><strong>V1.2.7</strong></div>
+  <div><small>Current build</small><strong>V1.2.13</strong></div>
   <div><small>Product idea</small><strong>Don't replace Excel. Make it better for audit.</strong></div>
 </section>
 
@@ -54,40 +54,40 @@ preload_image: "/assets/img/AuditTicksPro_Tms.png"
 
 <section class="sp-section" id="workflow">
   <div class="sp-heading">
-    <div><p class="sp-kicker sp-kicker--dark">See it in action</p><h2>A closer look at the product inside real Excel workpapers.</h2></div>
-    <p>This first visual pass uses screenshots already available in the portfolio. Each image opens full-size so the ribbon, workpaper structure, and documentation conventions are easier to inspect.</p>
+    <div><p class="sp-kicker sp-kicker--dark">See it in action</p><h2>Follow a demonstration workpaper from testing through supporting evidence and review.</h2></div>
+    <p>These purpose-built examples use fictional data to show AuditTicks Pro in a consistent accounts-payable audit workflow—from in-cell testing and floating marks to worksheet links, evidence annotations, and a review-ready workpaper.</p>
   </div>
 
   <div class="atp-visual-grid">
-    <a class="atp-visual-card atp-visual-card--wide" href="/assets/img/AuditTicksPro_Ribbon.png" target="_blank" rel="noopener">
-      <div class="atp-visual-media atp-visual-media--ribbon"><img src="/assets/img/AuditTicksPro_Ribbon.webp" alt="AuditTicks Pro custom Excel ribbon" loading="lazy" decoding="async"></div>
-      <div class="atp-visual-copy"><span>01 · Ribbon</span><h3>Audit-focused tools, organized where Excel users already work.</h3><p>Tickmarks, references, formatting, evidence, workpaper, review, and utility actions live in one purpose-built ribbon.</p></div>
-    </a>
+    <article class="atp-visual-card atp-visual-card--wide">
+      <div class="atp-visual-media atp-visual-media--ribbon"><img src="/assets/img/auditticks-overview.webp" alt="AuditTicks Pro ribbon and demonstration accounts-payable audit workpaper" loading="lazy" decoding="async"></div>
+      <div class="atp-visual-copy"><span>01 · Product overview</span><h3>Audit-focused tools, inside the Excel workpaper itself.</h3><p>The AuditTicks Pro ribbon keeps tickmarks, references, formatting, evidence, workpaper, review, and utility actions in one place.</p></div>
+    </article>
 
-    <a class="atp-visual-card" href="/assets/img/AuditTicksPro_Tms.png" target="_blank" rel="noopener">
-      <div class="atp-visual-media"><img src="/assets/img/AuditTicksPro_Tms.webp" alt="AuditTicks Pro tickmarks and annotations shown in an Excel workpaper" loading="lazy" decoding="async"></div>
-      <div class="atp-visual-copy"><span>02 · Documentation</span><h3>Tickmarks and annotations in workpaper context.</h3><p>See how standardized marks, references, and documentation cues can sit directly in the worksheet being tested.</p></div>
-    </a>
+    <article class="atp-visual-card">
+      <div class="atp-visual-media atp-visual-media--ribbon"><img src="/assets/img/auditticks-testing-matrix.webp" alt="Five-item audit testing matrix with pass, exception, and not-applicable tickmarks" loading="lazy" decoding="async"></div>
+      <div class="atp-visual-copy"><span>02 · In-cell testing</span><h3>Standardize testing results without losing workpaper context.</h3><p>Green passes, a documented exception, N/A treatment, and a concise legend make sample testing easier to scan and review.</p></div>
+    </article>
 
-    <a class="atp-visual-card" href="/assets/img/workpaper_template_example.png" target="_blank" rel="noopener">
-      <div class="atp-visual-media"><img src="/assets/img/workpaper_template_example.png" alt="Example audit workpaper created with reusable AuditTicks Pro structures" loading="lazy" decoding="async"></div>
-      <div class="atp-visual-copy"><span>03 · Workpaper example</span><h3>Reusable structure without forcing every audit into one template.</h3><p>Start from familiar audit workpaper conventions and then adapt the sheet to the procedure being performed.</p></div>
-    </a>
+    <article class="atp-visual-card">
+      <div class="atp-visual-media atp-visual-media--ribbon"><img src="/assets/img/auditticks-floating-invoice.webp" alt="Invoice evidence in Excel annotated with floating AuditTicks Pro marks and an exception callout" loading="lazy" decoding="async" style="width:auto;max-width:100%;max-height:520px;"></div>
+      <div class="atp-visual-copy"><span>03 · Floating tickmarks</span><h3>Annotate supporting evidence directly in Excel.</h3><p>Floating marks and a callout identify agreement points and a $100 line-extension exception without altering the source image.</p></div>
+    </article>
 
-    <a class="atp-visual-card" href="/assets/img/workpaper_template_procedures.png" target="_blank" rel="noopener">
-      <div class="atp-visual-media"><img src="/assets/img/workpaper_template_procedures.webp" alt="Audit procedures and testing structure in an Excel workpaper" loading="lazy" decoding="async"></div>
-      <div class="atp-visual-copy"><span>04 · Procedure structure</span><h3>Keep the procedure, attributes, and testing layout easy to follow.</h3><p>Reusable structures reduce setup work while preserving the auditor's control over the procedure and conclusion.</p></div>
-    </a>
+    <article class="atp-visual-card">
+      <div class="atp-visual-media atp-visual-media--ribbon"><img src="/assets/img/auditticks-link-to-sheet.webp" alt="Audit testing matrix with internal links to supporting Excel worksheets and matching sheet tabs" loading="lazy" decoding="async"></div>
+      <div class="atp-visual-copy"><span>04 · Workpaper navigation</span><h3>Connect testing to support with reviewer-friendly worksheet links.</h3><p>Link to Sheet creates bold internal hyperlinks so reviewers can move from the testing matrix to supporting invoice, population, reconciliation, or PO tabs.</p></div>
+    </article>
 
-    <a class="atp-visual-card" href="/assets/img/workpaper_template.png" target="_blank" rel="noopener">
-      <div class="atp-visual-media"><img src="/assets/img/workpaper_template.webp" alt="Reusable audit workpaper template for Excel" loading="lazy" decoding="async"></div>
-      <div class="atp-visual-copy"><span>05 · Starting structure</span><h3>Build a clean workpaper foundation faster.</h3><p>Use consistent workpaper elements and layouts as a starting point instead of recreating the same structure from scratch.</p></div>
-    </a>
+    <article class="atp-visual-card">
+      <div class="atp-visual-media atp-visual-media--ribbon"><img src="/assets/img/auditticks-evidence-annotations.webp" alt="Purchase-order evidence annotated with colored rectangles, arrows, and callout boxes in Excel" loading="lazy" decoding="async" style="width:auto;max-width:100%;max-height:520px;"></div>
+      <div class="atp-visual-copy"><span>05 · Evidence tools</span><h3>Use color-aware rectangles, arrows, and callouts to explain evidence.</h3><p>The same PO is tied back to Sample 4 while approval evidence is documented in a second color for a clean, readable review trail.</p></div>
+    </article>
 
-    <a class="atp-visual-card" href="/assets/img/hero-auditticks-focus.png" target="_blank" rel="noopener">
-      <div class="atp-visual-media"><img src="/assets/img/hero-auditticks-focus.png" alt="AuditTicks Pro workpaper workflow close-up" loading="lazy" decoding="async"></div>
-      <div class="atp-visual-copy"><span>06 · Excel-native workflow</span><h3>Keep documentation tools in the environment where the testing happens.</h3><p>No separate workpaper interface is required for the core documentation and productivity tools.</p></div>
-    </a>
+    <article class="atp-visual-card atp-visual-card--wide">
+      <div class="atp-visual-media atp-visual-media--ribbon"><img src="/assets/img/auditticks-review-ready.webp" alt="Completed review-ready accounts-payable audit workpaper with tickmarks, notes, supporting links, signoff, and worksheet status tabs" loading="lazy" decoding="async" style="width:auto;max-width:100%;max-height:620px;"></div>
+      <div class="atp-visual-copy"><span>06 · Review-ready workpaper</span><h3>Bring the workpaper together for review.</h3><p>Testing results, exception notes, legends, supporting links, preparer signoff, and tab-status cues sit together in one coherent Excel workpaper.</p></div>
+    </article>
   </div>
 </section>
 
