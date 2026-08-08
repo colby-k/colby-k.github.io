@@ -47,7 +47,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
     </article>
 
     <article class="atp-visual-card">
-      <div class="atp-visual-media atp-visual-media--ribbon"><img src="/assets/img/auditticks-floating-invoice.webp" alt="Invoice evidence in Excel annotated with floating AuditTicks Pro marks and an exception callout" loading="lazy" decoding="async" style="width:auto;max-width:100%;max-height:520px;"></div>
+      <div class="atp-visual-media atp-visual-media--ribbon"><img src="/assets/img/auditticks-floating-invoice.png?v=2" alt="Invoice evidence in Excel annotated with floating AuditTicks Pro marks and an exception callout" loading="lazy" decoding="async" style="width:auto;max-width:100%;max-height:520px;"></div>
       <div class="atp-visual-copy"><span>Floating annotations</span><h3>Mark supporting evidence directly in Excel.</h3><p>Floating tickmarks and callouts document agreement points and exceptions without altering the source image.</p></div>
     </article>
 
