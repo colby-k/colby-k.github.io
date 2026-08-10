@@ -11,7 +11,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
 
 <section class="sp-hero sp-product-hero atp-marketing-hero">
   <div class="sp-hero__copy">
-    <div class="atp-hero-badge">Early access · V1.2.13 · Excel for Windows</div>
+    <div class="atp-hero-badge">Early access · V1.2.19 · Excel for Windows</div>
     <p class="sp-kicker">AuditTicks Pro · Excel audit workflow</p>
     <h1>Audit workpapers are repetitive enough.<br><em>Make Excel work like it was built for auditors.</em></h1>
     <p class="sp-hero__lede">AuditTicks Pro adds audit-focused tickmarks, evidence tools, workpaper navigation, formatting, and review utilities directly to Excel.</p>
@@ -92,7 +92,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
     <p>AuditTicks Pro is being evaluated with Internal Audit, SOX, compliance, and assurance professionals. The goal is simple: determine whether it meaningfully saves time and is valuable enough to become a commercial product.</p>
     <div class="atp-actions">
       <a class="atp-button atp-button--primary" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer">Request early access <span>↗</span></a>
-      <a class="sp-link sp-link--light" href="/assets/img/User%20Guide.png" target="_blank" rel="noopener">View user guide <span>↗</span></a>
+      <a class="sp-link sp-link--light" href="/auditticks-pro/guide/">Explore the user guide <span>→</span></a>
     </div>
   </div>
   <div class="atp-early-access__panel">
@@ -100,7 +100,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
     <div class="atp-access-facts">
       <p><strong>Platform</strong> Excel desktop for Windows</p>
       <p><strong>Format</strong> VBA-based XLAM</p>
-      <p><strong>Version</strong> V1.2.13</p>
+      <p><strong>Version</strong> V1.2.19</p>
       <p><strong>Pricing</strong> Not yet finalized</p>
     </div>
     <small>Organizations should evaluate the add-in under their own software, macro, and information-security policies.</small>
