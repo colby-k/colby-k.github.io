@@ -118,10 +118,70 @@
     .atg-content>[data-guide-panel][hidden]{display:none!important}
     .atg-panel-enter{animation:atg-panel-in 180ms ease both}
     .atg-mobile-nav__links a.is-active{border-color:#b9dccf;background:#e8f5ef;color:#0b684c!important;font-weight:850}
+    .atg-ribbon-nav{border-right:1px solid #d9e2e8;border-left:1px solid #d9e2e8;border-bottom:1px solid #d9e2e8;background:#f7f9fa;padding:.55rem .75rem .65rem}
+    .atg-ribbon-nav__head{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin:0 0 .4rem;color:#667786;font-size:.56rem;line-height:1.3}
+    .atg-ribbon-nav__head strong{color:#213b52;font-size:.58rem;letter-spacing:.035em;text-transform:uppercase}
+    .atg-ribbon-nav__frame{position:relative;overflow:hidden;border:1px solid #cbd6dd;background:#fff;box-shadow:0 5px 14px rgba(9,36,63,.055)}
+    .atg-ribbon-nav__frame img{display:block;width:100%;height:auto;margin:0;border:0;border-radius:0;box-shadow:none}
+    .atg-ribbon-hit{position:absolute;top:0;bottom:0;display:block;border:0;border-left:1px solid transparent;border-right:1px solid transparent;background:transparent;cursor:pointer;transition:background 120ms ease,border-color 120ms ease}
+    .atg-ribbon-hit:hover,.atg-ribbon-hit:focus-visible{outline:none;border-color:rgba(17,133,95,.55);background:rgba(17,133,95,.10)}
+    .atg-ribbon-hit.is-active{border-color:rgba(17,133,95,.72);background:rgba(17,133,95,.075)}
+    .atg-ribbon-hit span{position:absolute;right:3px;bottom:3px;left:3px;padding:.12rem .18rem;border-radius:2px;background:rgba(9,36,63,.86);color:#fff;font-size:.47rem;font-weight:800;line-height:1.1;text-align:center;opacity:0;transform:translateY(2px);transition:opacity 120ms ease,transform 120ms ease;pointer-events:none}
+    .atg-ribbon-hit:hover span,.atg-ribbon-hit:focus-visible span,.atg-ribbon-hit.is-active span{opacity:1;transform:none}
     @keyframes atg-panel-in{from{opacity:.55;transform:translateY(4px)}to{opacity:1;transform:none}}
-    @media(prefers-reduced-motion:reduce){.atg-panel-enter{animation:none}}
+    @media(max-width:900px){.atg-ribbon-nav{display:none}}
+    @media(prefers-reduced-motion:reduce){.atg-panel-enter{animation:none}.atg-ribbon-hit,.atg-ribbon-hit span{transition:none}}
   `;
   document.head.appendChild(panelStyles);
+
+  const ribbonGroups = [
+    { label: 'Mode', key: 'modes-position', left: 0.0, width: 4.4 },
+    { label: 'Position', key: 'modes-position', left: 4.4, width: 4.4 },
+    { label: 'Color & Font', key: 'settings', left: 8.8, width: 8.8 },
+    { label: 'Tickmarks', key: 'tickmarks', left: 17.6, width: 12.2 },
+    { label: 'References', key: 'references', left: 29.8, width: 14.6 },
+    { label: 'Tie-Outs', key: 'tie-outs', left: 44.4, width: 12.2 },
+    { label: 'Format', key: 'formatting', left: 56.6, width: 12.2 },
+    { label: 'Evidence', key: 'evidence', left: 68.8, width: 8.8 },
+    { label: 'Workpapers', key: 'workpapers', left: 77.6, width: 6.3 },
+    { label: 'Review', key: 'review', left: 83.9, width: 5.9 },
+    { label: 'Tools', key: 'tools', left: 89.8, width: 5.9 },
+    { label: 'About', key: 'settings', left: 95.7, width: 4.3 }
+  ];
+
+  let ribbonNav = null;
+  let ribbonHits = [];
+
+  if (layout) {
+    ribbonNav = document.createElement('nav');
+    ribbonNav.className = 'atg-ribbon-nav';
+    ribbonNav.setAttribute('aria-label', 'Explore the guide by AuditTicks Pro ribbon group');
+    ribbonNav.innerHTML = `
+      <div class="atg-ribbon-nav__head">
+        <strong>Explore by ribbon group</strong>
+        <span>Click a ribbon group to open the related guide panel.</span>
+      </div>
+      <div class="atg-ribbon-nav__frame">
+        <img src="/assets/img/AuditTicksPro_Ribbon.png" alt="AuditTicks Pro ribbon; each group is clickable in this guide" loading="eager">
+      </div>`;
+
+    const frame = ribbonNav.querySelector('.atg-ribbon-nav__frame');
+    ribbonGroups.forEach((group) => {
+      const hit = document.createElement('a');
+      hit.className = 'atg-ribbon-hit';
+      hit.href = '#' + group.key;
+      hit.dataset.panelKey = group.key;
+      hit.setAttribute('aria-label', group.label + ' — open related guide section');
+      hit.title = group.label;
+      hit.style.left = group.left + '%';
+      hit.style.width = group.width + '%';
+      hit.innerHTML = '<span></span>';
+      hit.querySelector('span').textContent = group.label;
+      frame.appendChild(hit);
+    });
+    ribbonHits = Array.from(ribbonNav.querySelectorAll('.atg-ribbon-hit'));
+    layout.parentNode.insertBefore(ribbonNav, layout);
+  }
 
   function normalizePanel(hash) {
     const key = decodeURIComponent((hash || '').replace(/^#/, '')).trim();
@@ -134,6 +194,13 @@
       link.classList.toggle('is-active', isActive);
       if (isActive) link.setAttribute('aria-current', 'page');
       else link.removeAttribute('aria-current');
+    });
+
+    ribbonHits.forEach((hit) => {
+      const isActive = hit.dataset.panelKey === key;
+      hit.classList.toggle('is-active', isActive);
+      if (isActive) hit.setAttribute('aria-current', 'page');
+      else hit.removeAttribute('aria-current');
     });
   }
 
