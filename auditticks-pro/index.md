@@ -17,7 +17,8 @@ preload_image: "/assets/img/auditticks-overview.webp"
     <p class="sp-hero__lede">AuditTicks Pro adds audit-focused tickmarks, evidence tools, workpaper navigation, formatting, and review utilities directly to Excel.</p>
     <div class="atp-actions">
       <a class="atp-button atp-button--primary" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer">Request early access <span>↗</span></a>
-      <a class="atp-button atp-button--ghost" href="#workflow">See it in action <span>↓</span></a>
+      <a class="atp-button atp-button--ghost" href="/auditticks-pro/guide/">View User Guide <span>→</span></a>
+      <a class="sp-link sp-link--light" href="#workflow">See it in action <span>↓</span></a>
     </div>
   </div>
   <div class="sp-product-window" aria-label="AuditTicks Pro running in Microsoft Excel">
