@@ -131,14 +131,14 @@ page_css: "/assets/css/homepage-v3.css"
 
 <section class="lead-product">
   <div class="lead-product__visual">
-    <div class="lead-product__window"><div><span></span><span></span><span></span><small>AuditTicks Pro · Microsoft Excel</small></div><img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks Pro running in an Excel audit workpaper" loading="lazy" width="2434" height="893" decoding="async"></div>
+    <div class="lead-product__window"><div><span></span><span></span><span></span><small>AuditTicks · Microsoft Excel</small></div><img src="/assets/img/AuditTicksPro_Tms.png" alt="AuditTicks running in an Excel audit workpaper" loading="lazy" width="2434" height="893" decoding="async"></div>
   </div>
   <div class="lead-product__copy">
     <p class="lead-kicker lead-kicker--dark">Product I designed and developed</p>
-    <h2>AuditTicks Pro</h2>
+    <h2>AuditTicks</h2>
     <p>An Excel add-in built to make audit workpaper documentation faster, clearer, and more consistent. It reflects the same approach I bring to audit leadership: identify recurring friction, create a practical system, and preserve auditor judgment.</p>
     <ul><li>Tickmarks, references, tie-outs, notes, and callouts</li><li>Workpaper templates and repeatable documentation conventions</li><li>Designed for preparers, reviewers, and Excel-based audit teams</li></ul>
-    <a class="lead-link" href="/auditticks-pro/">Explore AuditTicks Pro <span>↗</span></a>
+    <a class="lead-link" href="/auditticks-pro/">Explore AuditTicks <span>↗</span></a>
   </div>
 </section>
 
