@@ -113,10 +113,10 @@ page_css: "/assets/css/about-v2.css"
       <b>Open Innovation Lab ↗</b>
     </a>
     <a class="about-work-card" href="/auditticks-pro/">
-      <span>04 · AuditTicks Pro</span>
+      <span>04 · AuditTicks</span>
       <h3>A practical product for Excel-based audit teams.</h3>
       <p>An add-in designed to reduce repetitive workpaper setup and make common documentation actions easier to apply consistently.</p>
-      <b>Explore AuditTicks Pro ↗</b>
+      <b>Explore AuditTicks ↗</b>
     </a>
   </div>
 </section>
