@@ -90,7 +90,7 @@ page_css: "/assets/css/strategic-pages.css"
   <div class="sp-card-grid">
     <a class="sp-card" href="/audit-impact/#population-testing"><span>Complete populations</span><h3>Use data to direct assurance.</h3><p>Apply defined tests across relevant records, then use exceptions and patterns to focus auditor judgment.</p><b>View audit impact ↗</b></a>
     <a class="sp-card sp-card--dark" href="/audit-impact/#responsible-ai"><span>Responsible AI</span><h3>Increase leverage with visible controls.</h3><p>Use AI for preparation, synthesis, analysis, and review while retaining source boundaries, human approval, and accountability.</p><b>Review the framework ↗</b></a>
-    <a class="sp-card sp-card--signal" href="/auditticks-pro/"><span>Practical product design</span><h3>Build around the auditor’s workflow.</h3><p>AuditTicks Pro demonstrates how recurring execution friction can be converted into a reusable, adoption-focused system.</p><b>Explore AuditTicks Pro ↗</b></a>
+    <a class="sp-card sp-card--signal" href="/auditticks-pro/"><span>Practical product design</span><h3>Build around the auditor’s workflow.</h3><p>AuditTicks demonstrates how recurring execution friction can be converted into a reusable, adoption-focused system.</p><b>Explore AuditTicks ↗</b></a>
   </div>
 </section>
 
