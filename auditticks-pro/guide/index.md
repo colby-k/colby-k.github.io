@@ -1,24 +1,24 @@
 ---
-title: "AuditTicks Pro User Guide"
+title: "AuditTicks User Guide"
 layout: default
 permalink: /auditticks-pro/guide/
-description: "User guide for AuditTicks Pro, an Excel add-in for audit tickmarks, evidence annotation, references, workpaper formatting, and review tools."
+description: "User guide for AuditTicks, an Excel add-in for audit tickmarks, evidence annotation, references, workpaper formatting, and review tools."
 page_css: "/assets/css/auditticks-guide.css"
 preload_image: "/assets/img/auditticks-overview.webp"
 ---
 
 <article class="atg-page">
   <div class="atg-productbar">
-    <a class="atg-productbar__brand" href="/auditticks-pro/" aria-label="AuditTicks Pro product page">
+    <a class="atg-productbar__brand" href="/auditticks-pro/" aria-label="AuditTicks product page">
       <img src="/assets/img/AuditTicksPro_Icon.png" alt="" width="34" height="34">
-      <span><strong>AuditTicks Pro</strong><small>User Guide</small></span>
+      <span><strong>AuditTicks</strong><small>User Guide</small></span>
     </a>
     <div class="atg-productbar__links">
       <a href="/auditticks-pro/">Product</a>
       <a class="is-active" href="/auditticks-pro/guide/">User Guide</a>
     </div>
     <div class="atg-search-wrap">
-      <label class="sr-only" for="atg-search">Search the AuditTicks Pro guide</label>
+      <label class="sr-only" for="atg-search">Search the AuditTicks guide</label>
       <input id="atg-search" type="search" placeholder="Search guide…" autocomplete="off" aria-autocomplete="list" aria-controls="atg-search-results">
       <span class="atg-search-key" aria-hidden="true">/</span>
       <div id="atg-search-results" class="atg-search-results" role="listbox" hidden></div>
@@ -74,20 +74,20 @@ preload_image: "/assets/img/auditticks-overview.webp"
       </nav>
       <div class="atg-sidebar__meta">
         <strong>Documentation baseline</strong>
-        <span>Commercial v1.2.19</span>
-        <span>Work v1.2.20</span>
-        <a href="/auditticks-pro/">AuditTicks Pro product page →</a>
+        <span>Commercial v1.2.21</span>
+        <span>Work v1.2.21</span>
+        <a href="/auditticks-pro/">AuditTicks product page →</a>
       </div>
     </aside>
 
     <main class="atg-content">
       <section id="overview" class="atg-hero atg-searchable" data-search-title="Overview" data-search-category="User Guide">
         <div class="atg-hero__copy">
-          <span class="atg-eyebrow">AuditTicks Pro · Excel for Windows</span>
-          <h1>AuditTicks Pro User Guide</h1>
+          <span class="atg-eyebrow">AuditTicks · Excel for Windows</span>
+          <h1>AuditTicks User Guide</h1>
           <p class="atg-lede">Audit-focused Excel tools for documenting testing, annotating evidence, creating references, formatting workpapers, and preparing files for review.</p>
           <div class="atg-version-row">
-            <span>Commercial v1.2.19</span><span>Work v1.2.20</span>
+            <span>Commercial v1.2.21</span><span>Work v1.2.21</span>
           </div>
           <div class="atg-hero-actions">
             <a class="atg-btn atg-btn--primary" href="#getting-started">Get started</a>
@@ -96,14 +96,14 @@ preload_image: "/assets/img/auditticks-overview.webp"
         </div>
         <div class="atg-hero__visual">
           <div class="atg-window">
-            <div class="atg-window__bar"><span></span><span></span><span></span><small>AuditTicks Pro · Microsoft Excel</small></div>
-            <img src="/assets/img/auditticks-overview.webp" alt="AuditTicks Pro ribbon and example audit workpaper in Microsoft Excel" width="500" height="207" loading="eager" fetchpriority="high">
+            <div class="atg-window__bar"><span></span><span></span><span></span><small>AuditTicks · Microsoft Excel</small></div>
+            <img src="/assets/img/auditticks-overview.webp" alt="AuditTicks ribbon and example audit workpaper in Microsoft Excel" width="500" height="207" loading="eager" fetchpriority="high">
           </div>
         </div>
       </section>
 
       <section class="atg-section atg-section--tight">
-        <div class="atg-callout atg-callout--judgment"><strong>AuditTicks Pro handles workpaper mechanics.</strong> The auditor remains responsible for the procedure, evidence, professional judgment, and conclusion.</div>
+        <div class="atg-callout atg-callout--judgment"><strong>AuditTicks handles workpaper mechanics.</strong> The auditor remains responsible for the procedure, evidence, professional judgment, and conclusion.</div>
         <div class="atg-card-grid atg-card-grid--3">
           <a class="atg-feature-card atg-searchable" data-search-title="Document testing" data-search-category="Workflow" href="#tickmarks"><span class="atg-feature-card__icon">✓</span><h3>Document testing</h3><p>Apply standard tickmarks, procedure-direction marks, references, and tie-outs.</p><b>Go to testing →</b></a>
           <a class="atg-feature-card atg-searchable" data-search-title="Annotate evidence" data-search-category="Workflow" href="#evidence"><span class="atg-feature-card__icon">□</span><h3>Annotate evidence</h3><p>Add figures, callouts, arrows, lines, and color-aware evidence markers.</p><b>Go to evidence →</b></a>
@@ -115,16 +115,16 @@ preload_image: "/assets/img/auditticks-overview.webp"
       </section>
 
       <section id="getting-started" class="atg-section atg-searchable" data-search-title="Getting Started" data-search-category="User Guide">
-        <div class="atg-section-heading"><span>Start here</span><h2>Getting started</h2><p>Set up the add-in once, then keep AuditTicks Pro available from the Excel ribbon.</p></div>
+        <div class="atg-section-heading"><span>Start here</span><h2>Getting started</h2><p>Set up the add-in once, then keep AuditTicks available from the Excel ribbon.</p></div>
         <div class="atg-steps">
-          <div class="atg-step"><i>1</i><div><h3>Install the add-in</h3><p>Save the <code>.xlam</code> file in a stable location. In Excel, go to <strong>File → Options → Add-ins</strong>, choose <strong>Excel Add-ins</strong>, select <strong>Go</strong>, then <strong>Browse</strong> to the AuditTicks Pro file.</p></div></div>
-          <div class="atg-step"><i>2</i><div><h3>Confirm the ribbon</h3><p>Make sure the <strong>AuditTicks Pro</strong> tab appears in Excel. If Windows marks a downloaded file as blocked, use the file's Properties dialog only if the file is trusted and your organization's policy permits it.</p></div></div>
+          <div class="atg-step"><i>1</i><div><h3>Install the add-in</h3><p>Save the <code>.xlam</code> file in a stable location. In Excel, go to <strong>File → Options → Add-ins</strong>, choose <strong>Excel Add-ins</strong>, select <strong>Go</strong>, then <strong>Browse</strong> to the AuditTicks file.</p></div></div>
+          <div class="atg-step"><i>2</i><div><h3>Confirm the ribbon</h3><p>Make sure the <strong>AuditTicks</strong> tab appears in Excel. If Windows marks a downloaded file as blocked, use the file's Properties dialog only if the file is trusted and your organization's policy permits it.</p></div></div>
           <div class="atg-step"><i>3</i><div><h3>Configure your defaults</h3><p>Open <strong>Settings</strong> to choose a reviewer-role preset, default mark color, startup color behavior, and template location.</p></div></div>
           <div class="atg-step"><i>4</i><div><h3>Choose a mode</h3><p>Use <strong>In-Cell</strong> for testing matrices and structured workpapers. Use <strong>Floating</strong> to place movable annotations over evidence or screenshots.</p></div></div>
           <div class="atg-step"><i>5</i><div><h3>Start documenting</h3><p>Select a cell or range and use the ribbon tool that matches the procedure you are performing. Most tools preserve the surrounding workpaper and apply only the selected action.</p></div></div>
         </div>
-        <figure class="atg-figure"><img src="/assets/img/AuditTicksPro_Ribbon.webp" alt="AuditTicks Pro ribbon in Microsoft Excel" loading="lazy"><figcaption>The AuditTicks Pro ribbon groups tools by mode, testing, references, formatting, evidence, workpapers, review, and utilities.</figcaption></figure>
-        <div class="atg-callout"><strong>Macro security:</strong> AuditTicks Pro is a VBA-based Excel add-in. Organizations should evaluate and enable it under their own software, macro, and information-security policies rather than reducing global Excel security settings.</div>
+        <figure class="atg-figure"><img src="/assets/img/AuditTicksPro_Ribbon.webp" alt="AuditTicks ribbon in Microsoft Excel" loading="lazy"><figcaption>The AuditTicks ribbon groups tools by mode, testing, references, formatting, evidence, workpapers, review, and utilities.</figcaption></figure>
+        <div class="atg-callout"><strong>Macro security:</strong> AuditTicks is a VBA-based Excel add-in. Organizations should evaluate and enable it under their own software, macro, and information-security policies rather than reducing global Excel security settings.</div>
       </section>
 
       <section id="ribbon-reference" class="atg-section atg-searchable" data-search-title="Ribbon Reference" data-search-category="User Guide">
@@ -144,19 +144,19 @@ preload_image: "/assets/img/auditticks-overview.webp"
               <tr><td><strong>Workpapers</strong></td><td>Reusable workpaper structures.</td><td>WP Header, legends, Testing Attributes Block, Testing Table, Templates</td></tr>
               <tr><td><strong>Review</strong></td><td>Reviewer identification and worksheet status.</td><td>Initials, Date, Tab Status</td></tr>
               <tr><td><strong>Tools</strong></td><td>Excel utilities used during audit work.</td><td>Gridlines, formula tracing, Unhide Tabs, Save XLSX Copy</td></tr>
-              <tr><td><strong>About</strong></td><td>User preferences and product information.</td><td>Settings, About AuditTicks Pro</td></tr>
+              <tr><td><strong>About</strong></td><td>User preferences and product information.</td><td>Settings, About AuditTicks</td></tr>
             </tbody>
           </table>
         </div>
       </section>
 
       <section id="modes-position" class="atg-section atg-searchable" data-search-title="In-Cell Floating Append modes and position" data-search-category="Document Testing">
-        <div class="atg-section-heading"><span>Document testing</span><h2>Modes and in-cell position</h2><p>Mode determines whether AuditTicks Pro writes into the selected cell or creates a movable annotation.</p></div>
+        <div class="atg-section-heading"><span>Document testing</span><h2>Modes and in-cell position</h2><p>Mode determines whether AuditTicks writes into the selected cell or creates a movable annotation.</p></div>
         <div class="atg-split-cards">
           <div class="atg-info-card"><span class="atg-chip">In-Cell</span><h3>Use the cell as the audit-mark container.</h3><p>Best for testing matrices, attribute columns, legends, schedules, and other structured workpapers.</p><h4>How to use</h4><ol><li>Select <strong>In-Cell</strong>.</li><li>Choose Left, Center, or Right position.</li><li>Select one or more worksheet cells.</li><li>Insert the desired tickmark or reference.</li></ol></div>
           <div class="atg-info-card"><span class="atg-chip">Floating</span><h3>Place a movable mark over evidence.</h3><p>Best for invoice images, reconciliations, screenshots, scanned documents, and visual evidence.</p><h4>How to use</h4><ol><li>Select <strong>Floating</strong>.</li><li>Click the cell near the evidence you want to mark.</li><li>Insert the desired symbol.</li><li>Reposition the resulting textbox as needed.</li></ol></div>
         </div>
-        <div class="atg-callout atg-callout--tip"><strong>Append mode:</strong> Append is available in In-Cell mode. When enabled, new symbols are added to existing cell content instead of replacing it. AuditTicks Pro starts with Append off when the add-in initializes, and switching to Floating mode does not use Append behavior.</div>
+        <div class="atg-callout atg-callout--tip"><strong>Append mode:</strong> Append is available in In-Cell mode. When enabled, new symbols are added to existing cell content instead of replacing it. AuditTicks starts with Append off when the add-in initializes, and switching to Floating mode does not use Append behavior.</div>
       </section>
 
       <section id="tickmarks" class="atg-section atg-searchable" data-search-title="Tickmarks Tested Without Exception Exception Not Applicable Caution Question" data-search-category="Document Testing">
@@ -170,7 +170,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
           <div class="atg-mark-card atg-searchable" data-search-title="Exception With Detail crossed box" data-search-category="Tickmarks"><b>☒</b><div><h3>Exception With Detail</h3><p>Highlights an exception that requires additional explanation or supporting detail.</p></div></div>
         </div>
         <p class="atg-muted">Additional ribbon marks include Check, Cube Root, Fourth Root, Underbar, Question, Attention, Information, flags, Star, Percent, Timing, Warning, Investigate, Summation, Equal, Change, Approximate, Not Equal, Empty Set, Partial, Infinity, Alpha, and Beta. Use these only when their meaning is defined by the workpaper context or tickmark legend.</p>
-        <figure class="atg-figure"><img src="/assets/img/auditticks-testing-matrix.webp" alt="Audit testing matrix using AuditTicks Pro pass, exception, and not-applicable marks" loading="lazy"><figcaption>In-cell tickmarks keep the testing result directly beside the procedure and supporting reference.</figcaption></figure>
+        <figure class="atg-figure"><img src="/assets/img/auditticks-testing-matrix.webp" alt="Audit testing matrix using AuditTicks pass, exception, and not-applicable marks" loading="lazy"><figcaption>In-cell tickmarks keep the testing result directly beside the procedure and supporting reference.</figcaption></figure>
       </section>
 
       <section id="vouched-traced" class="atg-section atg-searchable" data-search-title="Vouched Traced audit procedure direction" data-search-category="Document Testing">
@@ -179,7 +179,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
           <div class="atg-info-card"><span class="atg-chip">Vouched</span><h3>🗏🡄 Vouched</h3><p>Use when testing moves <strong>from the accounting record or population back to underlying source evidence</strong>.</p><p class="atg-example"><strong>Example:</strong> Select a recorded disbursement and inspect the invoice, approval, and purchase support.</p></div>
           <div class="atg-info-card"><span class="atg-chip">Traced</span><h3>🗏🡆 Traced</h3><p>Use when testing moves <strong>from source evidence forward into the accounting record, report, or population</strong>.</p><p class="atg-example"><strong>Example:</strong> Select source documentation and confirm it is captured in the applicable ledger or report.</p></div>
         </div>
-        <div class="atg-callout atg-callout--tip"><strong>Tip:</strong> Vouched and Traced use the active AuditTicks Pro mark color and can be inserted in the same workflow as other audit marks.</div>
+        <div class="atg-callout atg-callout--tip"><strong>Tip:</strong> Vouched and Traced use the active AuditTicks mark color and can be inserted in the same workflow as other audit marks.</div>
       </section>
 
       <section id="references" class="atg-section atg-searchable" data-search-title="References indexing circled numbers letters Roman numerals page reference custom reference" data-search-category="Create References">
@@ -227,16 +227,16 @@ preload_image: "/assets/img/auditticks-overview.webp"
           <div class="atg-workflow__copy">
             <span class="atg-chip">Add Figure</span>
             <h3>Paste evidence from the clipboard with a Figure heading.</h3>
-            <ol><li>Copy a screenshot or image from the source application.</li><li>Select the worksheet cell where the figure should begin.</li><li>Choose <strong>Add Figure</strong>.</li><li>AuditTicks Pro creates the Figure heading and pastes the clipboard image.</li></ol>
-            <p>If no image is available on the clipboard, AuditTicks Pro prompts you instead of inserting an empty object.</p>
+            <ol><li>Copy a screenshot or image from the source application.</li><li>Select the worksheet cell where the figure should begin.</li><li>Choose <strong>Add Figure</strong>.</li><li>AuditTicks creates the Figure heading and pastes the clipboard image.</li></ol>
+            <p>If no image is available on the clipboard, AuditTicks prompts you instead of inserting an empty object.</p>
           </div>
-          <div class="atg-workflow__media"><img src="/assets/img/auditticks-floating-invoice.png?v=2" alt="Invoice evidence annotated with floating AuditTicks Pro marks" loading="lazy"></div>
+          <div class="atg-workflow__media"><img src="/assets/img/auditticks-floating-invoice.png?v=2" alt="Invoice evidence annotated with floating AuditTicks marks" loading="lazy"></div>
         </div>
         <div class="atg-split-cards atg-split-cards--spaced">
           <div class="atg-info-card"><span class="atg-chip">Figure Placeholder</span><h3>Reserve an evidence location before the screenshot is available.</h3><p>Select the intended starting cell and insert a formatted Figure heading and placeholder area. Replace the placeholder when support is ready.</p></div>
-          <div class="atg-info-card atg-searchable" data-search-title="Link to Sheet worksheet hyperlink" data-search-category="Evidence"><span class="atg-chip">Link to Sheet</span><h3>Create a one-click internal worksheet reference.</h3><ol><li>Select one blank or text cell.</li><li>Click <strong>Link to Sheet</strong>.</li><li>Choose from the numbered list of other visible worksheets.</li><li>Enter the destination number.</li><li>AuditTicks Pro writes the destination worksheet name into the cell and makes it a bold hyperlink to cell A1.</li></ol><p>Formula cells are intentionally excluded.</p></div>
+          <div class="atg-info-card atg-searchable" data-search-title="Link to Sheet worksheet hyperlink" data-search-category="Evidence"><span class="atg-chip">Link to Sheet</span><h3>Create a one-click internal worksheet reference.</h3><ol><li>Select one blank or text cell.</li><li>Click <strong>Link to Sheet</strong>.</li><li>Choose from the numbered list of other visible worksheets.</li><li>Enter the destination number.</li><li>AuditTicks writes the destination worksheet name into the cell and makes it a bold hyperlink to cell A1.</li></ol><p>Formula cells are intentionally excluded.</p></div>
         </div>
-        <figure class="atg-figure"><img src="/assets/img/auditticks-link-to-sheet.webp" alt="Audit workpaper containing internal worksheet links created by AuditTicks Pro" loading="lazy"><figcaption>Link to Sheet creates a visible worksheet-name reference that reviewers can follow with one click.</figcaption></figure>
+        <figure class="atg-figure"><img src="/assets/img/auditticks-link-to-sheet.webp" alt="Audit workpaper containing internal worksheet links created by AuditTicks" loading="lazy"><figcaption>Link to Sheet creates a visible worksheet-name reference that reviewers can follow with one click.</figcaption></figure>
       </section>
 
       <section id="notes-callouts" class="atg-section atg-searchable" data-search-title="Notes Callouts Post-It Explanation Box Accounting Textbox" data-search-category="Annotate Evidence">
@@ -254,7 +254,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
         <div class="atg-table-wrap">
           <table class="atg-table atg-table--compact">
             <tbody>
-              <tr><td><strong>Border Rectangle</strong></td><td>Draws a bordered rectangle using the currently selected AuditTicks Pro color.</td></tr>
+              <tr><td><strong>Border Rectangle</strong></td><td>Draws a bordered rectangle using the currently selected AuditTicks color.</td></tr>
               <tr><td><strong>Dynamic Arrow</strong></td><td>Creates a right arrow for wider selections and a down arrow for taller selections.</td></tr>
               <tr><td><strong>Dynamic Line</strong></td><td>Creates a straight horizontal or vertical line based on the selected range.</td></tr>
               <tr><td><strong>Bracket</strong></td><td>Shows that one comment or conclusion applies to the full covered section.</td></tr>
@@ -268,7 +268,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
       <section id="formatting" class="atg-section atg-searchable" data-search-title="Formatting Financial Note Cell Heading AutoFit Borders Fills Align Insert Row Insert Column" data-search-category="Build Workpapers">
         <div class="atg-section-heading"><span>Build workpapers</span><h2>Formatting tools</h2><p>Apply consistent workpaper formatting without repeatedly rebuilding the same Excel styles.</p></div>
         <div class="atg-table-wrap"><table class="atg-table"><thead><tr><th>Tool</th><th>Behavior</th></tr></thead><tbody>
-          <tr><td><strong>Financial</strong></td><td>Applies AuditTicks Pro financial-number formatting to the selected cells.</td></tr>
+          <tr><td><strong>Financial</strong></td><td>Applies AuditTicks financial-number formatting to the selected cells.</td></tr>
           <tr><td><strong>Note Cell</strong></td><td>Applies wrapping and top-left alignment. A horizontal selection is merged only when doing so will not overwrite values, formulas, hyperlinks, or notes.</td></tr>
           <tr><td><strong>Heading / Heading 2</strong></td><td>Applies standard workpaper heading styles.</td></tr>
           <tr><td><strong>AutoFit</strong></td><td>Wraps text and adjusts selected row heights, including supported merged cells.</td></tr>
@@ -294,12 +294,12 @@ preload_image: "/assets/img/auditticks-overview.webp"
       </section>
 
       <section id="templates" class="atg-section atg-searchable" data-search-title="Templates Commercial Template Work Edition Summary WP Support Evidence WP" data-search-category="Build Workpapers">
-        <div class="atg-section-heading"><span>Build workpapers</span><h2>Templates</h2><p>Template behavior differs by edition while the core AuditTicks Pro workflow remains the same.</p></div>
+        <div class="atg-section-heading"><span>Build workpapers</span><h2>Templates</h2><p>Template behavior differs by edition while the core AuditTicks workflow remains the same.</p></div>
         <div class="atg-edition-grid">
           <div class="atg-edition-card"><span>Commercial</span><h3>Configured Template</h3><p>The Commercial edition exposes one <strong>Template</strong> button. It copies the first worksheet from the workbook configured in Settings into the active workbook.</p><p>The configured path can be a local, network, synced SharePoint, or direct HTTPS workbook path, subject to the user's access and Excel environment.</p></div>
           <div class="atg-edition-card atg-edition-card--work"><span>Work Edition</span><h3>Summary and Support / Evidence templates</h3><p>The Work edition provides <strong>Summary WP</strong> and <strong>Support / Evidence WP</strong> actions using the organization-configured template workbook.</p><p>Internal template locations are intentionally not published in this public guide.</p></div>
         </div>
-        <figure class="atg-figure"><img src="/assets/img/workpaper_template.webp" alt="Example AuditTicks Pro workpaper template" loading="lazy"><figcaption>Templates provide a repeatable starting structure while the auditor retains control of the procedure and documentation.</figcaption></figure>
+        <figure class="atg-figure"><img src="/assets/img/workpaper_template.webp" alt="Example AuditTicks workpaper template" loading="lazy"><figcaption>Templates provide a repeatable starting structure while the auditor retains control of the procedure and documentation.</figcaption></figure>
       </section>
 
       <section id="review" class="atg-section atg-searchable" data-search-title="Review Initials Date Tab Status Mark Pass Exception Needs Review" data-search-category="Prepare for Review">
@@ -327,7 +327,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
         <div class="atg-section-heading"><span>Configuration</span><h2>Settings</h2><p>Configure the add-in around your role and workpaper environment rather than resetting the same preferences each session.</p></div>
         <div class="atg-settings-grid">
           <div class="atg-settings-card"><h3>Reviewer role preset</h3><p>Choose Staff Auditor, Senior Auditor, Audit Manager, Director / Partner, or Custom. Presets populate a consistent default audit-mark color that can still be changed from the ribbon.</p></div>
-          <div class="atg-settings-card"><h3>Default mark color</h3><p>Set the RGB values used as your normal AuditTicks Pro mark color. The ribbon palette remains available for one-off changes.</p></div>
+          <div class="atg-settings-card"><h3>Default mark color</h3><p>Set the RGB values used as your normal AuditTicks mark color. The ribbon palette remains available for one-off changes.</p></div>
           <div class="atg-settings-card"><h3>When Excel starts</h3><p>Choose between <strong>Use my default mark color</strong> and <strong>Restore my last-used mark color</strong>.</p></div>
           <div class="atg-settings-card"><h3>Workpaper template</h3><p>Configure the workbook location used by the Template action. Test the path from Settings before relying on it in an engagement.</p></div>
           <div class="atg-settings-card"><h3>Import / Export</h3><p>Settings can be exported and imported, which is useful when moving the add-in between approved workstations or sharing a standardized configuration.</p></div>
@@ -337,15 +337,15 @@ preload_image: "/assets/img/auditticks-overview.webp"
       </section>
 
       <section id="work-edition" class="atg-section atg-searchable" data-search-title="Work Edition Guides IIA Standards Sample Size FJM Audit Guide User Guide templates" data-search-category="Configuration">
-        <div class="atg-section-heading"><span>Work Edition</span><h2>Organization-specific additions</h2><p>AuditTicks Pro Work includes the shared core feature set plus internal templates and resource links.</p></div>
-        <div class="atg-work-banner"><div><strong>Work v1.2.20</strong><h3>Same core workflow, additional internal resources.</h3><p>The Work edition adds Summary and Support / Evidence template actions and a Guides menu for organization-approved audit resources.</p></div><ul><li>Summary WP template</li><li>Support / Evidence WP template</li><li>IIA Standards link</li><li>Sample Size guidance</li><li>Department audit guide</li><li>User Guide link</li></ul></div>
+        <div class="atg-section-heading"><span>Work Edition</span><h2>Organization-specific additions</h2><p>AuditTicks Work includes the shared core feature set plus internal templates and resource links.</p></div>
+        <div class="atg-work-banner"><div><strong>Work v1.2.21</strong><h3>Same core workflow, additional internal resources.</h3><p>The Work edition adds Summary and Support / Evidence template actions and a Guides menu for organization-approved audit resources.</p></div><ul><li>Summary WP template</li><li>Support / Evidence WP template</li><li>IIA Standards link</li><li>Sample Size guidance</li><li>Department audit guide</li><li>User Guide link</li></ul></div>
         <p class="atg-muted">This public documentation intentionally describes the capability without publishing employer-specific SharePoint paths, internal documents, or proprietary content.</p>
       </section>
 
       <section id="troubleshooting" class="atg-section atg-searchable" data-search-title="Troubleshooting ribbon missing macros blocked link to sheet template clipboard protected sheet colors" data-search-category="Help">
         <div class="atg-section-heading"><span>Help</span><h2>Troubleshooting</h2><p>Start with the symptom below before changing Excel security or reinstalling the add-in.</p></div>
         <div class="atg-accordion">
-          <details open><summary>The AuditTicks Pro ribbon is missing.</summary><div><p>Confirm the XLAM is checked under <strong>File → Options → Add-ins → Manage: Excel Add-ins → Go</strong>. Also check Excel's Disabled Items if the add-in previously failed to load. Close and reopen Excel after re-enabling it.</p></div></details>
+          <details open><summary>The AuditTicks ribbon is missing.</summary><div><p>Confirm the XLAM is checked under <strong>File → Options → Add-ins → Manage: Excel Add-ins → Go</strong>. Also check Excel's Disabled Items if the add-in previously failed to load. Close and reopen Excel after re-enabling it.</p></div></details>
           <details><summary>Excel says macros are blocked.</summary><div><p>Follow your organization's macro-security policy. If a trusted XLAM downloaded from the internet is marked as blocked by Windows, the file's Properties dialog may include an Unblock option. Do not broadly lower Excel's macro-security settings to make the add-in run.</p></div></details>
           <details><summary>Link to Sheet does not show the worksheet I need.</summary><div><p>The feature lists <strong>other visible worksheets</strong>. Hidden sheets are not offered as destinations, and the selected source cell cannot contain a formula.</p></div></details>
           <details><summary>Add Figure says no image was detected.</summary><div><p>Copy a screenshot or image to the Windows clipboard first, then select the destination cell and run Add Figure again.</p></div></details>
@@ -359,8 +359,8 @@ preload_image: "/assets/img/auditticks-overview.webp"
       <section id="faq" class="atg-section atg-searchable" data-search-title="FAQ frequently asked questions platform Windows Mac audit methodology data" data-search-category="Help">
         <div class="atg-section-heading"><span>Help</span><h2>Frequently asked questions</h2></div>
         <div class="atg-faq-grid">
-          <div><h3>Does AuditTicks Pro work on Mac?</h3><p>The current add-in is designed for Excel desktop on Windows.</p></div>
-          <div><h3>Does AuditTicks Pro decide whether a control passed?</h3><p>No. It helps document the auditor's work; it does not replace evidence evaluation or professional judgment.</p></div>
+          <div><h3>Does AuditTicks work on Mac?</h3><p>The current add-in is designed for Excel desktop on Windows.</p></div>
+          <div><h3>Does AuditTicks decide whether a control passed?</h3><p>No. It helps document the auditor's work; it does not replace evidence evaluation or professional judgment.</p></div>
           <div><h3>Does it require one standard workpaper template?</h3><p>No. Most tools work in the active workbook. Templates and workpaper elements are optional accelerators.</p></div>
           <div><h3>Can I change mark colors?</h3><p>Yes. Use the ribbon palette for the active color and Settings for your default/startup behavior.</p></div>
           <div><h3>What is the difference between Commercial and Work?</h3><p>The shared audit workflow is substantially the same. Work adds organization-specific templates and internal guide links.</p></div>
@@ -369,8 +369,8 @@ preload_image: "/assets/img/auditticks-overview.webp"
       </section>
 
       <section class="atg-section atg-guide-footer">
-        <div><span class="atg-eyebrow">AuditTicks Pro</span><h2>Built for audit work that still happens in Excel.</h2><p>Return to the product page for evaluation information, screenshots, and product updates.</p></div>
-        <a class="atg-btn atg-btn--primary" href="/auditticks-pro/">AuditTicks Pro product page</a>
+        <div><span class="atg-eyebrow">AuditTicks</span><h2>Built for audit work that still happens in Excel.</h2><p>Return to the product page for evaluation information, screenshots, and product updates.</p></div>
+        <a class="atg-btn atg-btn--primary" href="/auditticks-pro/">AuditTicks product page</a>
       </section>
     </main>
   </div>

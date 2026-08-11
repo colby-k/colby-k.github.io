@@ -10,7 +10,7 @@
 
     const muted = panel.querySelector('.atg-muted');
     if (muted) {
-      muted.textContent = 'Some supplemental marks are intentionally general-purpose. When a symbol does not have a fixed AuditTicks Pro meaning, define its meaning in the workpaper context or tickmark legend so another auditor or reviewer can interpret it consistently.';
+      muted.textContent = 'Some supplemental marks are intentionally general-purpose. When a symbol does not have a fixed AuditTicks meaning, define its meaning in the workpaper context or tickmark legend so another auditor or reviewer can interpret it consistently.';
     }
 
     const figure = panel.querySelector('.atg-figure');
@@ -26,7 +26,7 @@
         <table class="atg-table atg-table--compact">
           <thead><tr><th>Ribbon mark</th><th>How to use it</th></tr></thead>
           <tbody>
-            <tr><td><strong>✓ Check Tickmark</strong></td><td>A general-purpose check mark. AuditTicks Pro does not impose a specific audit conclusion on this symbol; define its meaning in the workpaper or legend when it differs from Tested Without Exception.</td></tr>
+            <tr><td><strong>✓ Check Tickmark</strong></td><td>A general-purpose check mark. AuditTicks does not impose a specific audit conclusion on this symbol; define its meaning in the workpaper or legend when it differs from Tested Without Exception.</td></tr>
             <tr><td><strong>∛ Cube Root</strong></td><td>A specialized, user-defined tickmark. Use it only where the workpaper or tickmark legend defines the intended meaning.</td></tr>
             <tr><td><strong>∜ Fourth Root</strong></td><td>A specialized, user-defined tickmark. Use it only where the workpaper or tickmark legend defines the intended meaning.</td></tr>
             <tr><td><strong>Underbar</strong></td><td>Inserts the underbar tickmark. The symbol is intentionally general-purpose, so its meaning should be defined by the workpaper convention or legend.</td></tr>
@@ -156,14 +156,14 @@
   if (layout) {
     const ribbonNav = document.createElement('nav');
     ribbonNav.className = 'atg-ribbon-nav';
-    ribbonNav.setAttribute('aria-label', 'Explore the guide by AuditTicks Pro ribbon group');
+    ribbonNav.setAttribute('aria-label', 'Explore the guide by AuditTicks ribbon group');
     ribbonNav.innerHTML = `
       <div class="atg-ribbon-nav__head">
         <strong>Explore by ribbon group</strong>
         <span>Click a ribbon group to open the related guide panel.</span>
       </div>
       <div class="atg-ribbon-nav__frame">
-        <img src="${CURRENT_RIBBON}" alt="Current AuditTicks Pro ribbon; each group is clickable in this guide" width="1000" height="65" loading="eager">
+        <img src="${CURRENT_RIBBON}" alt="Current AuditTicks ribbon; each group is clickable in this guide" width="1000" height="65" loading="eager">
       </div>`;
 
     const frame = ribbonNav.querySelector('.atg-ribbon-nav__frame');
