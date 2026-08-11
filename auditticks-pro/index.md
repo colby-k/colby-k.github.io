@@ -1,8 +1,8 @@
 ---
-title: "AuditTicks Pro | Excel Workpaper Productivity for Auditors"
+title: "AuditTicks | Excel Workpaper Productivity for Auditors"
 layout: default
 permalink: /auditticks-pro/
-description: "AuditTicks Pro is an Excel add-in that brings audit-focused workpaper, evidence, reference, and review tools directly into Excel."
+description: "AuditTicks is an Excel add-in that brings audit-focused workpaper, evidence, reference, and review tools directly into Excel."
 page_css: "/assets/css/auditticks-product-v2.css"
 preload_image: "/assets/img/auditticks-overview.webp"
 ---
@@ -12,18 +12,18 @@ preload_image: "/assets/img/auditticks-overview.webp"
 <section class="sp-hero sp-product-hero atp-marketing-hero">
   <div class="sp-hero__copy">
     <div class="atp-hero-badge">Early access · V1.2.19 · Excel for Windows</div>
-    <p class="sp-kicker">AuditTicks Pro · Excel audit workflow</p>
+    <p class="sp-kicker">AuditTicks™ · Excel audit workflow</p>
     <h1>Audit workpapers are repetitive enough.<br><em>Make Excel work like it was built for auditors.</em></h1>
-    <p class="sp-hero__lede">AuditTicks Pro adds audit-focused tickmarks, evidence tools, workpaper navigation, formatting, and review utilities directly to Excel.</p>
+    <p class="sp-hero__lede">AuditTicks adds audit-focused tickmarks, evidence tools, workpaper navigation, formatting, and review utilities directly to Excel.</p>
     <div class="atp-actions">
       <a class="atp-button atp-button--primary" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer">Request early access <span>↗</span></a>
       <a class="atp-button atp-button--ghost" href="/auditticks-pro/guide/">View User Guide <span>→</span></a>
       <a class="sp-link sp-link--light" href="#workflow">See it in action <span>↓</span></a>
     </div>
   </div>
-  <div class="sp-product-window" aria-label="AuditTicks Pro running in Microsoft Excel">
-    <div class="sp-product-window__bar"><span></span><span></span><span></span><small>AuditTicks Pro · Microsoft Excel</small></div>
-    <img src="/assets/img/auditticks-overview.webp" alt="AuditTicks Pro ribbon above a demonstration accounts-payable audit workpaper in Microsoft Excel" width="500" height="207" loading="eager" fetchpriority="high">
+  <div class="sp-product-window" aria-label="AuditTicks running in Microsoft Excel">
+    <div class="sp-product-window__bar"><span></span><span></span><span></span><small>AuditTicks · Microsoft Excel</small></div>
+    <img src="/assets/img/auditticks-overview.webp" alt="AuditTicks ribbon above a demonstration accounts-payable audit workpaper in Microsoft Excel" width="500" height="207" loading="eager" fetchpriority="high">
   </div>
 </section>
 
@@ -48,7 +48,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
     </article>
 
     <article class="atp-visual-card">
-      <div class="atp-visual-media atp-visual-media--ribbon"><img src="/assets/img/auditticks-floating-invoice.png?v=2" alt="Invoice evidence in Excel annotated with floating AuditTicks Pro marks and an exception callout" loading="lazy" decoding="async" style="width:auto;max-width:100%;max-height:520px;"></div>
+      <div class="atp-visual-media atp-visual-media--ribbon"><img src="/assets/img/auditticks-floating-invoice.png?v=2" alt="Invoice evidence in Excel annotated with floating AuditTicks marks and an exception callout" loading="lazy" decoding="async" style="width:auto;max-width:100%;max-height:520px;"></div>
       <div class="atp-visual-copy"><span>Floating annotations</span><h3>Mark supporting evidence directly in Excel.</h3><p>Floating tickmarks and callouts document agreement points and exceptions without altering the source image.</p></div>
     </article>
 
@@ -73,7 +73,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
   <div class="sp-heading atp-heading-compact">
     <div><p class="sp-kicker sp-kicker--dark">What you get</p><h2>The audit mechanics you reach for repeatedly.</h2></div>
   </div>
-  <div class="atp-feature-list" aria-label="AuditTicks Pro feature summary">
+  <div class="atp-feature-list" aria-label="AuditTicks feature summary">
     <span>In-cell tickmarks</span>
     <span>Floating annotations</span>
     <span>References &amp; tie-outs</span>
@@ -83,14 +83,14 @@ preload_image: "/assets/img/auditticks-overview.webp"
     <span>Workpaper formatting</span>
     <span>Initials, dates &amp; tab status</span>
   </div>
-  <p class="atp-judgment-note"><strong>AuditTicks Pro handles workpaper mechanics.</strong> The auditor still owns the procedure, evidence, judgment, and conclusion.</p>
+  <p class="atp-judgment-note"><strong>AuditTicks handles workpaper mechanics.</strong> The auditor still owns the procedure, evidence, judgment, and conclusion.</p>
 </section>
 
 <section class="sp-section sp-section--dark atp-early-access" id="early-access">
   <div class="atp-early-access__copy">
     <p class="sp-kicker">Early access</p>
     <h2>Built for auditors who still do real work in Excel.</h2>
-    <p>AuditTicks Pro is being evaluated with Internal Audit, SOX, compliance, and assurance professionals. The goal is simple: determine whether it meaningfully saves time and is valuable enough to become a commercial product.</p>
+    <p>AuditTicks is being evaluated with Internal Audit, SOX, compliance, and assurance professionals. The goal is simple: determine whether it meaningfully saves time and is valuable enough to become a commercial product.</p>
     <div class="atp-actions">
       <a class="atp-button atp-button--primary" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer">Request early access <span>↗</span></a>
       <a class="sp-link sp-link--light" href="/auditticks-pro/guide/">Explore the user guide <span>→</span></a>
@@ -108,6 +108,6 @@ preload_image: "/assets/img/auditticks-overview.webp"
   </div>
 </section>
 
-<section class="sp-boundary"><strong>Independent product</strong><p>AuditTicks Pro is an independent product and portfolio project. Product examples use fictional demonstration data and do not contain employer, client, confidential audit, or proprietary information.</p></section>
+<section class="sp-boundary"><strong>Independent product</strong><p>AuditTicks™ is an independent product and portfolio project. Product examples use fictional demonstration data and do not contain employer, client, confidential audit, or proprietary information.</p></section>
 
 </article>
