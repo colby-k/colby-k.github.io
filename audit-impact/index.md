@@ -223,7 +223,7 @@ page_css: "/assets/css/audit-impact-v5.css"
     </div>
 
     <div class="sp-workflow-proof" aria-label="Examples of practical workflow improvement">
-      <article><span>Product evidence</span><h4>AuditTicks Pro</h4><p>An Excel add-in I designed to make common workpaper actions—tickmarks, references, annotations, legends, and setup—faster and more consistent.</p></article>
+      <article><span>Product evidence</span><h4>AuditTicks</h4><p>An Excel add-in I designed to make common workpaper actions—tickmarks, references, annotations, legends, and setup—faster and more consistent.</p></article>
       <article><span>Reusable structure</span><h4>Workpaper and planning templates</h4><p>Practical starting points that organize procedures, testing attributes, evidence references, exceptions, conclusions, and risk assessment.</p></article>
       <article><span>Review discipline</span><h4>Evidence and reasoning frameworks</h4><p>Structures that help preparers and reviewers trace the conclusion back to the risk, control, procedure, and retained support.</p></article>
       <article><span>Modern execution</span><h4>AI-supported workflows</h4><p>Controlled uses of AI for preparation, synthesis, drafting, gap identification, and review while maintaining source and human-accountability boundaries.</p></article>
@@ -238,7 +238,7 @@ page_css: "/assets/css/audit-impact-v5.css"
 
     <div class="sp-workflow-boundary"><strong>Audit boundary</strong><p>A template, tool, automation, or prompt can improve execution, but it cannot determine whether the procedure is responsive, the evidence is sufficient, or the conclusion is supportable. Those remain professional judgments.</p></div>
 
-    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/auditticks-pro/">Explore AuditTicks Pro <span>↗</span></a><a class="sp-link" href="/excel-tools/">View practical audit resources <span>↗</span></a></div>
+    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/auditticks-pro/">Explore AuditTicks <span>↗</span></a><a class="sp-link" href="/excel-tools/">View practical audit resources <span>↗</span></a></div>
   </article>
 
   <article id="responsible-ai" class="sp-ai-feature">
