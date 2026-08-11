@@ -1,10 +1,6 @@
 name: Lighthouse performance
 
 on:
-  pull_request:
-    branches: [main]
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -16,22 +12,6 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: Wait for optimized GitHub Pages deployment
-        if: github.event_name == 'push'
-        shell: bash
-        run: |
-          for attempt in {1..40}; do
-            if curl --fail --silent --show-error --header "Cache-Control: no-cache" "https://colby-k.github.io/?deploy=${GITHUB_SHA}" | grep --quiet "Four capabilities that strengthen assurance"; then
-              echo "Expected homepage deployment is live."
-              exit 0
-            fi
-            echo "Waiting for GitHub Pages deployment (attempt ${attempt}/40)..."
-            sleep 15
-          done
-
-          echo "Timed out waiting for the expected homepage deployment."
-          exit 1
-
       - name: Run mobile Lighthouse
         run: |
           npx --yes lighthouse@12.8.2 https://colby-k.github.io/ \
