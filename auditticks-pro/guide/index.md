@@ -75,8 +75,8 @@ preload_image: "/assets/img/auditticks-overview.webp"
       </nav>
       <div class="atg-sidebar__meta">
         <strong>Documentation baseline</strong>
-        <span>Commercial v1.2.29</span>
-        <span>Work v1.2.29</span>
+        <span>Commercial v1.2.30</span>
+        <span>Work v1.2.30</span>
         <a href="/auditticks-pro/">AuditTicks product page →</a>
       </div>
     </aside>
@@ -88,7 +88,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
           <h1>AuditTicks User Guide</h1>
           <p class="atg-lede">Audit-focused Excel tools for documenting testing, annotating evidence, creating references, formatting workpapers, using configurable keyboard shortcuts, and preparing files for review.</p>
           <div class="atg-version-row">
-            <span>Commercial v1.2.29</span><span>Work v1.2.29</span>
+            <span>Commercial v1.2.30</span><span>Work v1.2.30</span>
           </div>
           <div class="atg-hero-actions">
             <a class="atg-btn atg-btn--primary" href="#getting-started">Get started</a>
@@ -111,7 +111,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
           <a class="atg-feature-card atg-searchable" data-search-title="Create references" data-search-category="Workflow" href="#references"><span class="atg-feature-card__icon">↗</span><h3>Create references</h3><p>Use indexing symbols, financial references, tie-outs, and worksheet hyperlinks.</p><b>Go to references →</b></a>
           <a class="atg-feature-card atg-searchable" data-search-title="Build workpapers" data-search-category="Workflow" href="#workpapers"><span class="atg-feature-card__icon">▦</span><h3>Build workpapers</h3><p>Insert testing structures, legends, headers, rows, columns, and templates.</p><b>Go to workpapers →</b></a>
           <a class="atg-feature-card atg-searchable" data-search-title="Prepare for review" data-search-category="Workflow" href="#review"><span class="atg-feature-card__icon">◎</span><h3>Prepare for review</h3><p>Add initials and dates, then use tab-status colors to communicate review state.</p><b>Go to review →</b></a>
-          <a class="atg-feature-card atg-searchable" data-search-title="Configure settings and keyboard shortcuts" data-search-category="Workflow" href="#settings"><span class="atg-feature-card__icon">⚙</span><h3>Configure your workflow</h3><p>Set role and color defaults, template behavior, and up to eight keyboard shortcuts.</p><b>Go to settings →</b></a>
+          <a class="atg-feature-card atg-searchable" data-search-title="Configure settings and keyboard shortcuts" data-search-category="Workflow" href="#settings"><span class="atg-feature-card__icon">⚙</span><h3>Configure your workflow</h3><p>Set role and color defaults, template behavior, and up to ten keyboard shortcuts.</p><b>Go to settings →</b></a>
         </div>
       </section>
 
@@ -349,13 +349,13 @@ preload_image: "/assets/img/auditticks-overview.webp"
         <div class="atg-section-heading"><span>Configuration</span><h2>Keyboard shortcuts</h2><p>Assign frequently used AuditTicks actions to custom keyboard combinations so repetitive work can be completed without returning to the ribbon.</p></div>
 
         <div class="atg-split-cards">
-          <div class="atg-info-card"><span class="atg-chip">Configure</span><h3>Map up to eight shortcuts.</h3><ol><li>Open <strong>AuditTicks → Settings</strong>.</li><li>Check <strong>Enable keyboard shortcuts</strong>.</li><li>Select a combination from the <strong>Shortcut</strong> dropdown.</li><li>Select the corresponding AuditTicks command from the <strong>Action</strong> dropdown.</li><li>Repeat for additional slots and save the settings.</li></ol></div>
+          <div class="atg-info-card"><span class="atg-chip">Configure</span><h3>Map up to ten shortcuts.</h3><ol><li>Open <strong>AuditTicks → Settings</strong>.</li><li>Check <strong>Enable keyboard shortcuts</strong>.</li><li>Select a combination from the <strong>Shortcut</strong> dropdown.</li><li>Select the corresponding AuditTicks command from the <strong>Action</strong> dropdown.</li><li>Repeat for additional slots and save the settings.</li></ol></div>
           <div class="atg-info-card"><span class="atg-chip">Supported combinations</span><h3>Use modifier-plus-letter combinations.</h3><ul><li><code>Ctrl + Shift + [Letter]</code></li><li><code>Ctrl + Alt + [Letter]</code></li><li><code>Ctrl + Alt + Shift + [Letter]</code></li></ul><p>Duplicate shortcut combinations are blocked. AuditTicks overrides a matching Excel or other add-in shortcut while the AuditTicks mapping is enabled.</p></div>
         </div>
 
         <div class="atg-callout atg-callout--tip"><strong>Recommended:</strong> reserve one shortcut for <strong>Tool - Toggle Keyboard Shortcuts</strong>. This opens a quick-reference guide showing the mappings that are currently configured.</div>
 
-        <figure class="atg-figure"><img src="/assets/img/auditticks-keyboard-shortcuts-settings.webp" alt="AuditTicks Settings window showing eight configurable keyboard shortcut slots" width="420" height="631" loading="lazy"><figcaption>Configure up to eight keyboard shortcuts in Settings by pairing a key combination with an AuditTicks action.</figcaption></figure>
+        <figure class="atg-figure"><img src="/assets/img/auditticks-keyboard-shortcuts-settings.webp" alt="AuditTicks Settings window showing configurable keyboard shortcut slots" width="420" height="631" loading="lazy"><figcaption>Configure up to ten keyboard shortcuts in Settings by pairing a key combination with an AuditTicks action.</figcaption></figure>
 
         <div class="atg-table-wrap">
           <table class="atg-table">
@@ -388,7 +388,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
 
       <section id="work-edition" class="atg-section atg-searchable" data-search-title="Work Edition Guides IIA Standards Sample Size FJM Audit Guide User Guide templates" data-search-category="Configuration">
         <div class="atg-section-heading"><span>Work Edition</span><h2>Organization-specific additions</h2><p>AuditTicks Work includes the shared core feature set plus internal templates and resource links.</p></div>
-        <div class="atg-work-banner"><div><strong>Work v1.2.29</strong><h3>Same core workflow, additional internal resources.</h3><p>The Work edition adds Summary and Support / Evidence template actions and a Guides menu for organization-approved audit resources.</p></div><ul><li>Summary WP template</li><li>Support / Evidence WP template</li><li>IIA Standards link</li><li>Sample Size guidance</li><li>Department audit guide</li><li>User Guide link</li></ul></div>
+        <div class="atg-work-banner"><div><strong>Work v1.2.30</strong><h3>Same core workflow, additional internal resources.</h3><p>The Work edition adds Summary and Support / Evidence template actions and a Guides menu for organization-approved audit resources.</p></div><ul><li>Summary WP template</li><li>Support / Evidence WP template</li><li>IIA Standards link</li><li>Sample Size guidance</li><li>Department audit guide</li><li>User Guide link</li></ul></div>
         <p class="atg-muted">This public documentation intentionally describes the capability without publishing employer-specific SharePoint paths, internal documents, or proprietary content.</p>
       </section>
 
@@ -416,7 +416,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
           <div><h3>Does AuditTicks decide whether a control passed?</h3><p>No. It helps document the auditor's work; it does not replace evidence evaluation or professional judgment.</p></div>
           <div><h3>Does it require one standard workpaper template?</h3><p>No. Most tools work in the active workbook. Templates and workpaper elements are optional accelerators.</p></div>
           <div><h3>Can I change mark colors?</h3><p>Yes. Use the ribbon palette for the active color and Settings for your default/startup behavior.</p></div>
-          <div><h3>Can I create my own keyboard shortcuts?</h3><p>Yes. Configure up to eight mappings in Settings and choose from the supported AuditTicks action catalog. You can also assign one shortcut to toggle the on-screen shortcut guide.</p></div>
+          <div><h3>Can I create my own keyboard shortcuts?</h3><p>Yes. Configure up to ten mappings in Settings and choose from the supported AuditTicks action catalog. You can also assign one shortcut to toggle the on-screen shortcut guide.</p></div>
           <div><h3>What is the difference between Commercial and Work?</h3><p>The shared audit workflow is substantially the same. Work adds organization-specific templates and internal guide links.</p></div>
           <div><h3>Can I create a macro-free copy for sharing?</h3><p>Yes. Use <strong>Save XLSX Copy</strong> from Tools. The current workbook remains open and unchanged.</p></div>
         </div>
