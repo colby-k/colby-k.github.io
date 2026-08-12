@@ -75,8 +75,8 @@ preload_image: "/assets/img/auditticks-overview.webp"
       </nav>
       <div class="atg-sidebar__meta">
         <strong>Documentation baseline</strong>
-        <span>Commercial v1.2.27</span>
-        <span>Work v1.2.27</span>
+        <span>Commercial v1.2.28</span>
+        <span>Work v1.2.28</span>
         <a href="/auditticks-pro/">AuditTicks product page →</a>
       </div>
     </aside>
@@ -88,7 +88,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
           <h1>AuditTicks User Guide</h1>
           <p class="atg-lede">Audit-focused Excel tools for documenting testing, annotating evidence, creating references, formatting workpapers, using configurable keyboard shortcuts, and preparing files for review.</p>
           <div class="atg-version-row">
-            <span>Commercial v1.2.27</span><span>Work v1.2.27</span>
+            <span>Commercial v1.2.28</span><span>Work v1.2.28</span>
           </div>
           <div class="atg-hero-actions">
             <a class="atg-btn atg-btn--primary" href="#getting-started">Get started</a>
@@ -145,7 +145,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
               <tr><td><strong>Workpapers</strong></td><td>Reusable workpaper structures.</td><td>WP Header, legends, Testing Attributes Block, Testing Table, Templates</td></tr>
               <tr><td><strong>Review</strong></td><td>Reviewer identification and worksheet status.</td><td>Initials, Date, Tab Status</td></tr>
               <tr><td><strong>Tools</strong></td><td>Excel utilities used during audit work.</td><td>Gridlines, formula tracing, Unhide Tabs, Save XLSX Copy</td></tr>
-              <tr><td><strong>About</strong></td><td>User preferences and product information.</td><td>Settings, About AuditTicks</td></tr>
+              <tr><td><strong>About</strong></td><td>User preferences, shortcut reference, and product information.</td><td>Settings, Shortcuts, About AuditTicks</td></tr>
             </tbody>
           </table>
         </div>
@@ -367,6 +367,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
         <p>The Action dropdown exposes a broad catalog of shortcut-eligible AuditTicks commands. Categories include Mode, Position, Color, Font, Tickmark, Symbol, Math/Logic, Tie-Out, Reference, Format, Annotation, Evidence, Shape, Workpaper, Review, Tab Status, and Tool actions. The Work and Commercial editions expose their applicable edition-specific commands while sharing the same core shortcut framework.</p>
 
         <h3>Keyboard Shortcuts guide</h3>
+        <p>The guide can be opened directly from the <strong>Shortcuts</strong> button in the ribbon's <strong>About</strong> group. The same button closes the guide when it is already open.</p>
         <p>Assign a shortcut to <strong>Tool - Toggle Keyboard Shortcuts</strong> to display a modeless quick-reference window containing the user's current mappings. Press the assigned shortcut once to open the guide and press the <strong>same shortcut again</strong> to close it. The guide can also be dismissed with its <strong>Close</strong> button.</p>
         <figure class="atg-figure"><img src="/assets/img/auditticks-keyboard-shortcuts-guide.webp" alt="AuditTicks Keyboard Shortcuts popup showing currently configured shortcut mappings" width="760" height="430" loading="lazy"><figcaption>The modeless Keyboard Shortcuts guide shows the user's active mappings and can be toggled open or closed with the assigned shortcut.</figcaption></figure>
         <div class="atg-callout"><strong>Modeless behavior:</strong> the guide can remain visible while you continue working in Excel. It reads from the current AuditTicks settings, so the displayed list automatically reflects changes to the configured mappings.</div>
@@ -381,7 +382,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
 
       <section id="work-edition" class="atg-section atg-searchable" data-search-title="Work Edition Guides IIA Standards Sample Size FJM Audit Guide User Guide templates" data-search-category="Configuration">
         <div class="atg-section-heading"><span>Work Edition</span><h2>Organization-specific additions</h2><p>AuditTicks Work includes the shared core feature set plus internal templates and resource links.</p></div>
-        <div class="atg-work-banner"><div><strong>Work v1.2.27</strong><h3>Same core workflow, additional internal resources.</h3><p>The Work edition adds Summary and Support / Evidence template actions and a Guides menu for organization-approved audit resources.</p></div><ul><li>Summary WP template</li><li>Support / Evidence WP template</li><li>IIA Standards link</li><li>Sample Size guidance</li><li>Department audit guide</li><li>User Guide link</li></ul></div>
+        <div class="atg-work-banner"><div><strong>Work v1.2.28</strong><h3>Same core workflow, additional internal resources.</h3><p>The Work edition adds Summary and Support / Evidence template actions and a Guides menu for organization-approved audit resources.</p></div><ul><li>Summary WP template</li><li>Support / Evidence WP template</li><li>IIA Standards link</li><li>Sample Size guidance</li><li>Department audit guide</li><li>User Guide link</li></ul></div>
         <p class="atg-muted">This public documentation intentionally describes the capability without publishing employer-specific SharePoint paths, internal documents, or proprietary content.</p>
       </section>
 
