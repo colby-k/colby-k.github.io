@@ -1,0 +1,55 @@
+name: One-time AuditTicks shortcut guide image integration
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/auditticks-shortcut-images.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Insert screenshots into AuditTicks guide
+        shell: python
+        run: |
+          from pathlib import Path
+
+          path = Path('auditticks-pro/guide/index.md')
+          text = path.read_text(encoding='utf-8')
+
+          settings_img = '/assets/img/auditticks-keyboard-shortcuts-settings.webp'
+          guide_img = '/assets/img/auditticks-keyboard-shortcuts-guide.webp'
+
+          if settings_img not in text:
+              marker = '''        <div class="atg-callout atg-callout--tip"><strong>Recommended:</strong> reserve one shortcut for <strong>Tool - Toggle Keyboard Shortcuts</strong>. This opens a quick-reference guide showing the mappings that are currently configured.</div>'''
+              figure = '''\n\n        <figure class="atg-figure"><img src="/assets/img/auditticks-keyboard-shortcuts-settings.webp" alt="AuditTicks Settings window showing eight configurable keyboard shortcut slots" width="420" height="631" loading="lazy"><figcaption>Configure up to eight keyboard shortcuts in Settings by pairing a key combination with an AuditTicks action.</figcaption></figure>'''
+              if marker not in text:
+                  raise SystemExit('Settings screenshot insertion marker not found')
+              text = text.replace(marker, marker + figure, 1)
+
+          if guide_img not in text:
+              marker = '''        <p>Assign a shortcut to <strong>Tool - Toggle Keyboard Shortcuts</strong> to display a modeless quick-reference window containing the user's current mappings. Press the assigned shortcut once to open the guide and press the <strong>same shortcut again</strong> to close it. The guide can also be dismissed with its <strong>Close</strong> button.</p>'''
+              figure = '''\n        <figure class="atg-figure"><img src="/assets/img/auditticks-keyboard-shortcuts-guide.webp" alt="AuditTicks Keyboard Shortcuts popup showing currently configured shortcut mappings" width="760" height="430" loading="lazy"><figcaption>The modeless Keyboard Shortcuts guide shows the user's active mappings and can be toggled open or closed with the assigned shortcut.</figcaption></figure>'''
+              if marker not in text:
+                  raise SystemExit('Shortcut guide screenshot insertion marker not found')
+              text = text.replace(marker, marker + figure, 1)
+
+          path.write_text(text, encoding='utf-8')
+      - name: Commit guide update
+        run: |
+          if git diff --quiet; then
+            echo "No changes needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add auditticks-pro/guide/index.md
+          git commit -m "Add keyboard shortcut screenshots to AuditTicks guide"
+          git push
