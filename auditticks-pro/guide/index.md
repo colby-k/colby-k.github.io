@@ -75,8 +75,8 @@ preload_image: "/assets/img/auditticks-overview.webp"
       </nav>
       <div class="atg-sidebar__meta">
         <strong>Documentation baseline</strong>
-        <span>Commercial v1.2.28</span>
-        <span>Work v1.2.28</span>
+        <span>Commercial v1.2.29</span>
+        <span>Work v1.2.29</span>
         <a href="/auditticks-pro/">AuditTicks product page →</a>
       </div>
     </aside>
@@ -88,7 +88,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
           <h1>AuditTicks User Guide</h1>
           <p class="atg-lede">Audit-focused Excel tools for documenting testing, annotating evidence, creating references, formatting workpapers, using configurable keyboard shortcuts, and preparing files for review.</p>
           <div class="atg-version-row">
-            <span>Commercial v1.2.28</span><span>Work v1.2.28</span>
+            <span>Commercial v1.2.29</span><span>Work v1.2.29</span>
           </div>
           <div class="atg-hero-actions">
             <a class="atg-btn atg-btn--primary" href="#getting-started">Get started</a>
@@ -135,7 +135,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
             <thead><tr><th>Ribbon group</th><th>What it controls</th><th>Key tools</th></tr></thead>
             <tbody>
               <tr><td><strong>Mode</strong></td><td>Where marks are inserted.</td><td>In-Cell, Floating, Append</td></tr>
-              <tr><td><strong>Position</strong></td><td>Placement of new in-cell marks.</td><td>Left, Center, Right</td></tr>
+              <tr><td><strong>Position</strong></td><td>Horizontal alignment of the current selection and default placement of future in-cell marks.</td><td>Left, Center, Right</td></tr>
               <tr><td><strong>Color &amp; Font</strong></td><td>Active audit-mark color and text size.</td><td>Red, Green, Dark Blue, Orange, Magenta, Black, Font ±</td></tr>
               <tr><td><strong>Tickmarks</strong></td><td>Testing results and audit symbols.</td><td>Pass, Exception, N/A, Vouched, Traced, flags, logic marks</td></tr>
               <tr><td><strong>References</strong></td><td>Indexing and cross-reference symbols.</td><td>Circled/filled numbers and letters, Roman numerals, page references, custom reference</td></tr>
@@ -151,12 +151,18 @@ preload_image: "/assets/img/auditticks-overview.webp"
         </div>
       </section>
 
-      <section id="modes-position" class="atg-section atg-searchable" data-search-title="In-Cell Floating Append modes and position" data-search-category="Document Testing">
-        <div class="atg-section-heading"><span>Document testing</span><h2>Modes and in-cell position</h2><p>Mode determines whether AuditTicks writes into the selected cell or creates a movable annotation.</p></div>
+      <section id="modes-position" class="atg-section atg-searchable" data-search-title="In-Cell Floating Append modes position alignment Left Center Right" data-search-category="Document Testing">
+        <div class="atg-section-heading"><span>Document testing</span><h2>Modes and in-cell position</h2><p>Mode determines whether AuditTicks writes into the selected cell or creates a movable annotation. Position controls also provide immediate horizontal alignment for selected worksheet cells.</p></div>
         <div class="atg-split-cards">
-          <div class="atg-info-card"><span class="atg-chip">In-Cell</span><h3>Use the cell as the audit-mark container.</h3><p>Best for testing matrices, attribute columns, legends, schedules, and other structured workpapers.</p><h4>How to use</h4><ol><li>Select <strong>In-Cell</strong>.</li><li>Choose Left, Center, or Right position.</li><li>Select one or more worksheet cells.</li><li>Insert the desired tickmark or reference.</li></ol></div>
+          <div class="atg-info-card"><span class="atg-chip">In-Cell</span><h3>Use the cell as the audit-mark container.</h3><p>Best for testing matrices, attribute columns, legends, schedules, and other structured workpapers.</p><h4>How to use</h4><ol><li>Select <strong>In-Cell</strong>.</li><li>Select one or more worksheet cells.</li><li>Choose <strong>Left</strong>, <strong>Center</strong>, or <strong>Right</strong> to align the current selection and set the default position for future in-cell marks.</li><li>Insert the desired tickmark or reference.</li></ol></div>
           <div class="atg-info-card"><span class="atg-chip">Floating</span><h3>Place a movable mark over evidence.</h3><p>Best for invoice images, reconciliations, screenshots, scanned documents, and visual evidence.</p><h4>How to use</h4><ol><li>Select <strong>Floating</strong>.</li><li>Click the cell near the evidence you want to mark.</li><li>Insert the desired symbol.</li><li>Reposition the resulting textbox as needed.</li></ol></div>
         </div>
+        <div class="atg-card-grid atg-card-grid--3">
+          <div class="atg-mini-card"><h3>Left</h3><p>Left-aligns the current cell or selected range and makes Left the default position for future in-cell AuditTicks marks.</p></div>
+          <div class="atg-mini-card"><h3>Center</h3><p>Center-aligns the current cell or selected range and makes Center the default position for future in-cell AuditTicks marks.</p></div>
+          <div class="atg-mini-card"><h3>Right</h3><p>Right-aligns the current cell or selected range and makes Right the default position for future in-cell AuditTicks marks.</p></div>
+        </div>
+        <div class="atg-callout atg-callout--tip"><strong>Existing in-cell marks:</strong> because in-cell tickmarks are cell content, selecting their cells and choosing Left, Center, or Right repositions those existing marks immediately. The Position controls change horizontal alignment only; they do not change values, formulas, fonts, colors, or other formatting. Floating marks are separate worksheet objects and are not repositioned by these controls.</div>
         <div class="atg-callout atg-callout--tip"><strong>Append mode:</strong> Append is available in In-Cell mode. When enabled, new symbols are added to existing cell content instead of replacing it. AuditTicks starts with Append off when the add-in initializes, and switching to Floating mode does not use Append behavior.</div>
       </section>
 
@@ -382,7 +388,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
 
       <section id="work-edition" class="atg-section atg-searchable" data-search-title="Work Edition Guides IIA Standards Sample Size FJM Audit Guide User Guide templates" data-search-category="Configuration">
         <div class="atg-section-heading"><span>Work Edition</span><h2>Organization-specific additions</h2><p>AuditTicks Work includes the shared core feature set plus internal templates and resource links.</p></div>
-        <div class="atg-work-banner"><div><strong>Work v1.2.28</strong><h3>Same core workflow, additional internal resources.</h3><p>The Work edition adds Summary and Support / Evidence template actions and a Guides menu for organization-approved audit resources.</p></div><ul><li>Summary WP template</li><li>Support / Evidence WP template</li><li>IIA Standards link</li><li>Sample Size guidance</li><li>Department audit guide</li><li>User Guide link</li></ul></div>
+        <div class="atg-work-banner"><div><strong>Work v1.2.29</strong><h3>Same core workflow, additional internal resources.</h3><p>The Work edition adds Summary and Support / Evidence template actions and a Guides menu for organization-approved audit resources.</p></div><ul><li>Summary WP template</li><li>Support / Evidence WP template</li><li>IIA Standards link</li><li>Sample Size guidance</li><li>Department audit guide</li><li>User Guide link</li></ul></div>
         <p class="atg-muted">This public documentation intentionally describes the capability without publishing employer-specific SharePoint paths, internal documents, or proprietary content.</p>
       </section>
 
@@ -398,6 +404,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
           <details><summary>A row, column, or AutoFit action fails.</summary><div><p>Confirm the worksheet is not protected and that the active cell is inside the intended contiguous workpaper range. Insert Column also relies on the surrounding workpaper area to determine where the new column belongs.</p></div></details>
           <details><summary>The Template button cannot open the configured workbook.</summary><div><p>Open Settings, confirm the path is configured, test the workbook location, and verify you have access. Network, SharePoint, or HTTPS locations may also depend on your organization's authentication and Excel environment.</p></div></details>
           <details><summary>Audit marks start in the wrong color.</summary><div><p>Open Settings and check both the default mark color and the startup choice. “Use my default mark color” always starts from the configured default; “Restore my last-used mark color” starts from the most recently selected palette color.</p></div></details>
+          <details><summary>Left, Center, or Right did not move a floating mark.</summary><div><p>The Position controls apply horizontal alignment to worksheet cells and set the default position for future <strong>in-cell</strong> marks. Floating marks are independent worksheet objects, so reposition them directly on the worksheet instead.</p></div></details>
           <details><summary>I expected Append to work in Floating mode.</summary><div><p>Append is an In-Cell behavior. Floating marks are separate movable textboxes rather than additions to existing cell content.</p></div></details>
         </div>
       </section>
