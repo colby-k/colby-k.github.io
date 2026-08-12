@@ -2,7 +2,7 @@
 title: "AuditTicks User Guide"
 layout: default
 permalink: /auditticks-pro/guide/
-description: "User guide for AuditTicks, an Excel add-in for audit tickmarks, evidence annotation, references, workpaper formatting, and review tools."
+description: "User guide for AuditTicks, an Excel add-in for audit tickmarks, evidence annotation, references, workpaper formatting, keyboard shortcuts, and review tools."
 page_css: "/assets/css/auditticks-guide.css"
 preload_image: "/assets/img/auditticks-overview.webp"
 ---
@@ -31,7 +31,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
       <a href="#overview">Overview</a><a href="#getting-started">Getting Started</a><a href="#ribbon-reference">Ribbon Reference</a>
       <a href="#modes-position">Modes &amp; Position</a><a href="#tickmarks">Tickmarks</a><a href="#references">References</a><a href="#tie-outs">Tie-Outs</a>
       <a href="#evidence">Evidence</a><a href="#formatting">Formatting</a><a href="#workpapers">Workpapers</a><a href="#review">Review</a><a href="#tools">Tools</a>
-      <a href="#settings">Settings</a><a href="#work-edition">Work Edition</a><a href="#troubleshooting">Troubleshooting</a><a href="#faq">FAQ</a>
+      <a href="#settings">Settings</a><a href="#keyboard-shortcuts">Keyboard Shortcuts</a><a href="#work-edition">Work Edition</a><a href="#troubleshooting">Troubleshooting</a><a href="#faq">FAQ</a>
     </div>
   </details>
 
@@ -66,6 +66,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
         <p class="atg-nav-group">Configuration</p>
         <a class="atg-nav-link" href="#tools">Tools</a>
         <a class="atg-nav-link" href="#settings">Settings</a>
+        <a class="atg-nav-link" href="#keyboard-shortcuts">Keyboard Shortcuts</a>
         <a class="atg-nav-link" href="#work-edition">Work Edition</a>
 
         <p class="atg-nav-group">Help</p>
@@ -74,8 +75,8 @@ preload_image: "/assets/img/auditticks-overview.webp"
       </nav>
       <div class="atg-sidebar__meta">
         <strong>Documentation baseline</strong>
-        <span>Commercial v1.2.21</span>
-        <span>Work v1.2.21</span>
+        <span>Commercial v1.2.27</span>
+        <span>Work v1.2.27</span>
         <a href="/auditticks-pro/">AuditTicks product page →</a>
       </div>
     </aside>
@@ -85,9 +86,9 @@ preload_image: "/assets/img/auditticks-overview.webp"
         <div class="atg-hero__copy">
           <span class="atg-eyebrow">AuditTicks · Excel for Windows</span>
           <h1>AuditTicks User Guide</h1>
-          <p class="atg-lede">Audit-focused Excel tools for documenting testing, annotating evidence, creating references, formatting workpapers, and preparing files for review.</p>
+          <p class="atg-lede">Audit-focused Excel tools for documenting testing, annotating evidence, creating references, formatting workpapers, using configurable keyboard shortcuts, and preparing files for review.</p>
           <div class="atg-version-row">
-            <span>Commercial v1.2.21</span><span>Work v1.2.21</span>
+            <span>Commercial v1.2.27</span><span>Work v1.2.27</span>
           </div>
           <div class="atg-hero-actions">
             <a class="atg-btn atg-btn--primary" href="#getting-started">Get started</a>
@@ -110,7 +111,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
           <a class="atg-feature-card atg-searchable" data-search-title="Create references" data-search-category="Workflow" href="#references"><span class="atg-feature-card__icon">↗</span><h3>Create references</h3><p>Use indexing symbols, financial references, tie-outs, and worksheet hyperlinks.</p><b>Go to references →</b></a>
           <a class="atg-feature-card atg-searchable" data-search-title="Build workpapers" data-search-category="Workflow" href="#workpapers"><span class="atg-feature-card__icon">▦</span><h3>Build workpapers</h3><p>Insert testing structures, legends, headers, rows, columns, and templates.</p><b>Go to workpapers →</b></a>
           <a class="atg-feature-card atg-searchable" data-search-title="Prepare for review" data-search-category="Workflow" href="#review"><span class="atg-feature-card__icon">◎</span><h3>Prepare for review</h3><p>Add initials and dates, then use tab-status colors to communicate review state.</p><b>Go to review →</b></a>
-          <a class="atg-feature-card atg-searchable" data-search-title="Configure settings" data-search-category="Workflow" href="#settings"><span class="atg-feature-card__icon">⚙</span><h3>Configure settings</h3><p>Set a role preset, default mark color, startup behavior, and template location.</p><b>Go to settings →</b></a>
+          <a class="atg-feature-card atg-searchable" data-search-title="Configure settings and keyboard shortcuts" data-search-category="Workflow" href="#settings"><span class="atg-feature-card__icon">⚙</span><h3>Configure your workflow</h3><p>Set role and color defaults, template behavior, and up to eight keyboard shortcuts.</p><b>Go to settings →</b></a>
         </div>
       </section>
 
@@ -119,9 +120,9 @@ preload_image: "/assets/img/auditticks-overview.webp"
         <div class="atg-steps">
           <div class="atg-step"><i>1</i><div><h3>Install the add-in</h3><p>Save the <code>.xlam</code> file in a stable location. In Excel, go to <strong>File → Options → Add-ins</strong>, choose <strong>Excel Add-ins</strong>, select <strong>Go</strong>, then <strong>Browse</strong> to the AuditTicks file.</p></div></div>
           <div class="atg-step"><i>2</i><div><h3>Confirm the ribbon</h3><p>Make sure the <strong>AuditTicks</strong> tab appears in Excel. If Windows marks a downloaded file as blocked, use the file's Properties dialog only if the file is trusted and your organization's policy permits it.</p></div></div>
-          <div class="atg-step"><i>3</i><div><h3>Configure your defaults</h3><p>Open <strong>Settings</strong> to choose a reviewer-role preset, default mark color, startup color behavior, and template location.</p></div></div>
+          <div class="atg-step"><i>3</i><div><h3>Configure your defaults</h3><p>Open <strong>Settings</strong> to choose a reviewer-role preset, default mark color, startup color behavior, template location, and optional keyboard shortcuts.</p></div></div>
           <div class="atg-step"><i>4</i><div><h3>Choose a mode</h3><p>Use <strong>In-Cell</strong> for testing matrices and structured workpapers. Use <strong>Floating</strong> to place movable annotations over evidence or screenshots.</p></div></div>
-          <div class="atg-step"><i>5</i><div><h3>Start documenting</h3><p>Select a cell or range and use the ribbon tool that matches the procedure you are performing. Most tools preserve the surrounding workpaper and apply only the selected action.</p></div></div>
+          <div class="atg-step"><i>5</i><div><h3>Start documenting</h3><p>Select a cell or range and use the ribbon tool—or a configured keyboard shortcut—that matches the procedure you are performing. Most tools preserve the surrounding workpaper and apply only the selected action.</p></div></div>
         </div>
         <figure class="atg-figure"><img src="/assets/img/AuditTicksPro_Ribbon.webp" alt="AuditTicks ribbon in Microsoft Excel" loading="lazy"><figcaption>The AuditTicks ribbon groups tools by mode, testing, references, formatting, evidence, workpapers, review, and utilities.</figcaption></figure>
         <div class="atg-callout"><strong>Macro security:</strong> AuditTicks is a VBA-based Excel add-in. Organizations should evaluate and enable it under their own software, macro, and information-security policies rather than reducing global Excel security settings.</div>
@@ -311,7 +312,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
         <figure class="atg-figure"><img src="/assets/img/auditticks-review-ready.webp" alt="Completed audit workpaper with tickmarks, links, notes, signoff, and worksheet status cues" loading="lazy"><figcaption>A review-ready workpaper brings testing results, supporting links, notes, reviewer identification, and worksheet status together.</figcaption></figure>
       </section>
 
-      <section id="tools" class="atg-section atg-searchable" data-search-title="Tools Gridlines Trace Precedents Trace Dependents Clear Tracing Unhide Tabs Save XLSX Copy" data-search-category="Configuration">
+      <section id="tools" class="atg-section atg-searchable" data-search-title="Tools Gridlines Trace Precedents Trace Dependents Clear Tracing Unhide Tabs Save XLSX Copy keyboard shortcut guide" data-search-category="Configuration">
         <div class="atg-section-heading"><span>Utilities</span><h2>Excel tools</h2><p>Common workbook utilities are grouped into one split button so they remain available without leaving the audit ribbon.</p></div>
         <div class="atg-table-wrap"><table class="atg-table atg-table--compact"><tbody>
           <tr><td><strong>Gridlines</strong></td><td>Toggle worksheet gridlines on or off.</td></tr>
@@ -321,32 +322,73 @@ preload_image: "/assets/img/auditticks-overview.webp"
           <tr><td><strong>Unhide Tabs</strong></td><td>Unhide all worksheets in the active workbook.</td></tr>
           <tr><td><strong>Save XLSX Copy</strong></td><td>Create a complete <code>.xlsx</code> copy while leaving the current workbook open and unchanged.</td></tr>
         </tbody></table></div>
+        <div class="atg-callout atg-callout--tip"><strong>Keyboard access:</strong> many AuditTicks commands—including modes, tickmarks, references, formatting, shapes, review actions, and utilities—can also be mapped to configurable keyboard shortcuts in Settings.</div>
       </section>
 
-      <section id="settings" class="atg-section atg-searchable" data-search-title="Settings reviewer role preset default mark color startup last-used template import export reset" data-search-category="Configuration">
+      <section id="settings" class="atg-section atg-searchable" data-search-title="Settings reviewer role preset default mark color startup last-used template keyboard shortcuts import export reset" data-search-category="Configuration">
         <div class="atg-section-heading"><span>Configuration</span><h2>Settings</h2><p>Configure the add-in around your role and workpaper environment rather than resetting the same preferences each session.</p></div>
         <div class="atg-settings-grid">
           <div class="atg-settings-card"><h3>Reviewer role preset</h3><p>Choose Staff Auditor, Senior Auditor, Audit Manager, Director / Partner, or Custom. Presets populate a consistent default audit-mark color that can still be changed from the ribbon.</p></div>
           <div class="atg-settings-card"><h3>Default mark color</h3><p>Set the RGB values used as your normal AuditTicks mark color. The ribbon palette remains available for one-off changes.</p></div>
           <div class="atg-settings-card"><h3>When Excel starts</h3><p>Choose between <strong>Use my default mark color</strong> and <strong>Restore my last-used mark color</strong>.</p></div>
           <div class="atg-settings-card"><h3>Workpaper template</h3><p>Configure the workbook location used by the Template action. Test the path from Settings before relying on it in an engagement.</p></div>
-          <div class="atg-settings-card"><h3>Import / Export</h3><p>Settings can be exported and imported, which is useful when moving the add-in between approved workstations or sharing a standardized configuration.</p></div>
+          <div class="atg-settings-card"><h3>Keyboard shortcuts</h3><p>Enable the shortcut system and configure up to eight key combinations, each mapped to a supported AuditTicks action. See <a href="#keyboard-shortcuts">Keyboard Shortcuts</a> for details.</p></div>
+          <div class="atg-settings-card"><h3>Import / Export</h3><p>Settings can be exported and imported, which is useful when moving the add-in between approved workstations or sharing a standardized configuration. Keyboard shortcut mappings are included with these settings.</p></div>
           <div class="atg-settings-card"><h3>Reset</h3><p>Restore the edition's default settings if a local configuration needs to be rebuilt.</p></div>
         </div>
         <div class="atg-callout atg-callout--tip"><strong>Color behavior:</strong> the active ribbon color is the working color for new audit symbols and color-aware evidence annotations. If “Restore my last-used mark color” is enabled, later palette selections become the startup color for the next session.</div>
       </section>
 
+      <section id="keyboard-shortcuts" class="atg-section atg-searchable" data-search-title="Keyboard Shortcuts configurable shortcut mappings Ctrl Shift Alt toggle shortcut guide" data-search-category="Configuration">
+        <div class="atg-section-heading"><span>Configuration</span><h2>Keyboard shortcuts</h2><p>Assign frequently used AuditTicks actions to custom keyboard combinations so repetitive work can be completed without returning to the ribbon.</p></div>
+
+        <div class="atg-split-cards">
+          <div class="atg-info-card"><span class="atg-chip">Configure</span><h3>Map up to eight shortcuts.</h3><ol><li>Open <strong>AuditTicks → Settings</strong>.</li><li>Check <strong>Enable keyboard shortcuts</strong>.</li><li>Select a combination from the <strong>Shortcut</strong> dropdown.</li><li>Select the corresponding AuditTicks command from the <strong>Action</strong> dropdown.</li><li>Repeat for additional slots and save the settings.</li></ol></div>
+          <div class="atg-info-card"><span class="atg-chip">Supported combinations</span><h3>Use modifier-plus-letter combinations.</h3><ul><li><code>Ctrl + Shift + [Letter]</code></li><li><code>Ctrl + Alt + [Letter]</code></li><li><code>Ctrl + Alt + Shift + [Letter]</code></li></ul><p>Duplicate shortcut combinations are blocked. AuditTicks overrides a matching Excel or other add-in shortcut while the AuditTicks mapping is enabled.</p></div>
+        </div>
+
+        <div class="atg-callout atg-callout--tip"><strong>Recommended:</strong> reserve one shortcut for <strong>Tool - Toggle Keyboard Shortcuts</strong>. This opens a quick-reference guide showing the mappings that are currently configured.</div>
+
+        <div class="atg-table-wrap">
+          <table class="atg-table">
+            <thead><tr><th>Example shortcut</th><th>Example action</th><th>Use</th></tr></thead>
+            <tbody>
+              <tr><td><code>Ctrl + Shift + A</code></td><td><strong>Tool - Toggle Keyboard Shortcuts</strong></td><td>Open or close the current shortcut guide.</td></tr>
+              <tr><td><code>Ctrl + Shift + C</code></td><td><strong>Mode - In-Cell</strong></td><td>Switch directly to In-Cell mode.</td></tr>
+              <tr><td><code>Ctrl + Shift + F</code></td><td><strong>Mode - Floating</strong></td><td>Switch directly to Floating mode.</td></tr>
+              <tr><td><code>Ctrl + Alt + L</code></td><td><strong>Shape - Line</strong></td><td>Run the configured line action.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Available actions</h3>
+        <p>The Action dropdown exposes a broad catalog of shortcut-eligible AuditTicks commands. Categories include Mode, Position, Color, Font, Tickmark, Symbol, Math/Logic, Tie-Out, Reference, Format, Annotation, Evidence, Shape, Workpaper, Review, Tab Status, and Tool actions. The Work and Commercial editions expose their applicable edition-specific commands while sharing the same core shortcut framework.</p>
+
+        <h3>Keyboard Shortcuts guide</h3>
+        <p>Assign a shortcut to <strong>Tool - Toggle Keyboard Shortcuts</strong> to display a modeless quick-reference window containing the user's current mappings. Press the assigned shortcut once to open the guide and press the <strong>same shortcut again</strong> to close it. The guide can also be dismissed with its <strong>Close</strong> button.</p>
+        <div class="atg-callout"><strong>Modeless behavior:</strong> the guide can remain visible while you continue working in Excel. It reads from the current AuditTicks settings, so the displayed list automatically reflects changes to the configured mappings.</div>
+
+        <h3>Shortcut behavior and persistence</h3>
+        <div class="atg-card-grid atg-card-grid--3">
+          <div class="atg-mini-card"><h3>Optional</h3><p>The entire keyboard-shortcut feature can be enabled or disabled from Settings.</p></div>
+          <div class="atg-mini-card"><h3>Persistent</h3><p>Configured mappings are stored with AuditTicks settings and remain available across Excel sessions.</p></div>
+          <div class="atg-mini-card"><h3>Portable</h3><p>Shortcut mappings are included when AuditTicks settings are exported and imported.</p></div>
+        </div>
+      </section>
+
       <section id="work-edition" class="atg-section atg-searchable" data-search-title="Work Edition Guides IIA Standards Sample Size FJM Audit Guide User Guide templates" data-search-category="Configuration">
         <div class="atg-section-heading"><span>Work Edition</span><h2>Organization-specific additions</h2><p>AuditTicks Work includes the shared core feature set plus internal templates and resource links.</p></div>
-        <div class="atg-work-banner"><div><strong>Work v1.2.21</strong><h3>Same core workflow, additional internal resources.</h3><p>The Work edition adds Summary and Support / Evidence template actions and a Guides menu for organization-approved audit resources.</p></div><ul><li>Summary WP template</li><li>Support / Evidence WP template</li><li>IIA Standards link</li><li>Sample Size guidance</li><li>Department audit guide</li><li>User Guide link</li></ul></div>
+        <div class="atg-work-banner"><div><strong>Work v1.2.27</strong><h3>Same core workflow, additional internal resources.</h3><p>The Work edition adds Summary and Support / Evidence template actions and a Guides menu for organization-approved audit resources.</p></div><ul><li>Summary WP template</li><li>Support / Evidence WP template</li><li>IIA Standards link</li><li>Sample Size guidance</li><li>Department audit guide</li><li>User Guide link</li></ul></div>
         <p class="atg-muted">This public documentation intentionally describes the capability without publishing employer-specific SharePoint paths, internal documents, or proprietary content.</p>
       </section>
 
-      <section id="troubleshooting" class="atg-section atg-searchable" data-search-title="Troubleshooting ribbon missing macros blocked link to sheet template clipboard protected sheet colors" data-search-category="Help">
+      <section id="troubleshooting" class="atg-section atg-searchable" data-search-title="Troubleshooting ribbon missing macros blocked link to sheet template clipboard protected sheet colors keyboard shortcuts" data-search-category="Help">
         <div class="atg-section-heading"><span>Help</span><h2>Troubleshooting</h2><p>Start with the symptom below before changing Excel security or reinstalling the add-in.</p></div>
         <div class="atg-accordion">
           <details open><summary>The AuditTicks ribbon is missing.</summary><div><p>Confirm the XLAM is checked under <strong>File → Options → Add-ins → Manage: Excel Add-ins → Go</strong>. Also check Excel's Disabled Items if the add-in previously failed to load. Close and reopen Excel after re-enabling it.</p></div></details>
           <details><summary>Excel says macros are blocked.</summary><div><p>Follow your organization's macro-security policy. If a trusted XLAM downloaded from the internet is marked as blocked by Windows, the file's Properties dialog may include an Unblock option. Do not broadly lower Excel's macro-security settings to make the add-in run.</p></div></details>
+          <details><summary>My configured keyboard shortcut does not run.</summary><div><p>Open Settings and confirm <strong>Enable keyboard shortcuts</strong> is checked, both a shortcut and an action are selected for the row, and the same combination is not assigned to another AuditTicks action. AuditTicks must also be loaded in Excel for its mappings to be active.</p></div></details>
+          <details><summary>The Keyboard Shortcuts guide does not toggle closed.</summary><div><p>Confirm the mapped action is <strong>Tool - Toggle Keyboard Shortcuts</strong>. That action is specifically designed to open and close the guide using the same key combination. The guide can also be dismissed with its Close button.</p></div></details>
           <details><summary>Link to Sheet does not show the worksheet I need.</summary><div><p>The feature lists <strong>other visible worksheets</strong>. Hidden sheets are not offered as destinations, and the selected source cell cannot contain a formula.</p></div></details>
           <details><summary>Add Figure says no image was detected.</summary><div><p>Copy a screenshot or image to the Windows clipboard first, then select the destination cell and run Add Figure again.</p></div></details>
           <details><summary>A row, column, or AutoFit action fails.</summary><div><p>Confirm the worksheet is not protected and that the active cell is inside the intended contiguous workpaper range. Insert Column also relies on the surrounding workpaper area to determine where the new column belongs.</p></div></details>
@@ -356,13 +398,14 @@ preload_image: "/assets/img/auditticks-overview.webp"
         </div>
       </section>
 
-      <section id="faq" class="atg-section atg-searchable" data-search-title="FAQ frequently asked questions platform Windows Mac audit methodology data" data-search-category="Help">
+      <section id="faq" class="atg-section atg-searchable" data-search-title="FAQ frequently asked questions platform Windows Mac audit methodology data keyboard shortcuts" data-search-category="Help">
         <div class="atg-section-heading"><span>Help</span><h2>Frequently asked questions</h2></div>
         <div class="atg-faq-grid">
           <div><h3>Does AuditTicks work on Mac?</h3><p>The current add-in is designed for Excel desktop on Windows.</p></div>
           <div><h3>Does AuditTicks decide whether a control passed?</h3><p>No. It helps document the auditor's work; it does not replace evidence evaluation or professional judgment.</p></div>
           <div><h3>Does it require one standard workpaper template?</h3><p>No. Most tools work in the active workbook. Templates and workpaper elements are optional accelerators.</p></div>
           <div><h3>Can I change mark colors?</h3><p>Yes. Use the ribbon palette for the active color and Settings for your default/startup behavior.</p></div>
+          <div><h3>Can I create my own keyboard shortcuts?</h3><p>Yes. Configure up to eight mappings in Settings and choose from the supported AuditTicks action catalog. You can also assign one shortcut to toggle the on-screen shortcut guide.</p></div>
           <div><h3>What is the difference between Commercial and Work?</h3><p>The shared audit workflow is substantially the same. Work adds organization-specific templates and internal guide links.</p></div>
           <div><h3>Can I create a macro-free copy for sharing?</h3><p>Yes. Use <strong>Save XLSX Copy</strong> from Tools. The current workbook remains open and unchanged.</p></div>
         </div>
