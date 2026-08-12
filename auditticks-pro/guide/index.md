@@ -349,6 +349,8 @@ preload_image: "/assets/img/auditticks-overview.webp"
 
         <div class="atg-callout atg-callout--tip"><strong>Recommended:</strong> reserve one shortcut for <strong>Tool - Toggle Keyboard Shortcuts</strong>. This opens a quick-reference guide showing the mappings that are currently configured.</div>
 
+        <figure class="atg-figure"><img src="/assets/img/auditticks-keyboard-shortcuts-settings.webp" alt="AuditTicks Settings window showing eight configurable keyboard shortcut slots" width="420" height="631" loading="lazy"><figcaption>Configure up to eight keyboard shortcuts in Settings by pairing a key combination with an AuditTicks action.</figcaption></figure>
+
         <div class="atg-table-wrap">
           <table class="atg-table">
             <thead><tr><th>Example shortcut</th><th>Example action</th><th>Use</th></tr></thead>
@@ -366,6 +368,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
 
         <h3>Keyboard Shortcuts guide</h3>
         <p>Assign a shortcut to <strong>Tool - Toggle Keyboard Shortcuts</strong> to display a modeless quick-reference window containing the user's current mappings. Press the assigned shortcut once to open the guide and press the <strong>same shortcut again</strong> to close it. The guide can also be dismissed with its <strong>Close</strong> button.</p>
+        <figure class="atg-figure"><img src="/assets/img/auditticks-keyboard-shortcuts-guide.webp" alt="AuditTicks Keyboard Shortcuts popup showing currently configured shortcut mappings" width="760" height="430" loading="lazy"><figcaption>The modeless Keyboard Shortcuts guide shows the user's active mappings and can be toggled open or closed with the assigned shortcut.</figcaption></figure>
         <div class="atg-callout"><strong>Modeless behavior:</strong> the guide can remain visible while you continue working in Excel. It reads from the current AuditTicks settings, so the displayed list automatically reflects changes to the configured mappings.</div>
 
         <h3>Shortcut behavior and persistence</h3>
