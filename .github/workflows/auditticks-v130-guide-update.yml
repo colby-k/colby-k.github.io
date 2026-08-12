@@ -1,0 +1,31 @@
+name: One-time AuditTicks v1.2.30 guide update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/auditticks-v130-guide-update.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-guide:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Update AuditTicks guide
+        run: python .github/scripts/update_auditticks_v130_guide.py
+      - name: Commit guide update
+        run: |
+          if git diff --quiet; then
+            echo "No changes needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add auditticks-pro/guide/index.md
+          git commit -m "Update AuditTicks guide for v1.2.30 keyboard shortcuts"
+          git push
