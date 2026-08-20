@@ -1,0 +1,14 @@
+{
+  "name": "PromptShelf Mobile",
+  "short_name": "PromptShelf",
+  "description": "Read, search, and copy your synchronized PromptShelf prompt library on iPhone and iPad.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f8fa",
+  "theme_color": "#0969da",
+  "icons": [
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}
+  ]
+}
