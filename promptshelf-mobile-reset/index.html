@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0969da">
+<title>Updating PromptShelf Mobile</title>
+<style>
+:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color-scheme:light dark;background:#f6f8fa;color:#1f2328}
+@media(prefers-color-scheme:dark){:root{background:#0d1117;color:#f0f6fc}}
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;box-sizing:border-box}main{text-align:center;max-width:420px}h1{font-size:24px;margin:0 0 10px}p{line-height:1.45;opacity:.72}.spinner{width:34px;height:34px;margin:0 auto 18px;border:4px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<main><div class="spinner" aria-hidden="true"></div><h1>Updating PromptShelf Mobile</h1><p id="status">Removing the stale mobile cache…</p></main>
+<script>
+(async()=>{
+  const status=document.getElementById('status');
+  try{
+    if(!('serviceWorker' in navigator)) throw new Error('Service workers are unavailable.');
+    const regs=await navigator.serviceWorker.getRegistrations();
+    for(const reg of regs){
+      if(String(reg.scope||'').includes('/promptshelf-mobile/')) await reg.unregister();
+    }
+    if('caches' in window){
+      const keys=await caches.keys();
+      await Promise.all(keys.filter(k=>k.startsWith('promptshelf-mobile-')).map(k=>caches.delete(k)));
+    }
+    status.textContent='Installing the current PromptShelf Mobile build…';
+    const reg=await navigator.serviceWorker.register('/promptshelf-mobile/sw.js?reset=hierarchy3',{scope:'/promptshelf-mobile/'});
+    await reg.update();
+    const worker=reg.installing||reg.waiting||reg.active;
+    if(worker && worker.state!=='activated'){
+      await new Promise(resolve=>{
+        const timer=setTimeout(resolve,6000);
+        worker.addEventListener('statechange',()=>{if(worker.state==='activated'){clearTimeout(timer);resolve();}});
+      });
+    }
+    status.textContent='Updated. Opening PromptShelf…';
+    location.replace('/promptshelf-mobile/?hierarchy=3&t='+Date.now());
+  }catch(error){
+    console.error(error);
+    status.textContent='Update could not complete automatically. Open PromptShelf in Safari and reload once.';
+  }
+})();
+</script>
+</body>
+</html>
