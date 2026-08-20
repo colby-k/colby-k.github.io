@@ -1,4 +1,4 @@
-const CACHE = "promptshelf-mobile-v019-rc4";
+const CACHE = "promptshelf-mobile-v019-rc4-hierarchy1";
 const APP_SHELL = [
   "./",
   "./index.html",
