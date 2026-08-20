@@ -1,4 +1,4 @@
-const CACHE = "promptshelf-mobile-v019-rc4-hierarchy1";
+const CACHE = "promptshelf-mobile-v019-rc4-hierarchy2";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,8 +6,8 @@ const APP_SHELL = [
   "./icon.svg",
   "./icon-180.png",
   "./icon-192.png",
-  "./rc4.css",
-  "./rc4.js"
+  "./rc4.css?v=hierarchy2",
+  "./rc4.js?v=hierarchy2"
 ];
 
 function enhanceHtml(input) {
@@ -26,11 +26,15 @@ function enhanceHtml(input) {
     'b.className="card";b.type="button";',
     'b.className="card";b.type="button";b.dataset.promptId=p.id;'
   );
-  if (!html.includes('href="./rc4.css"')) {
-    html = html.replace("</head>", '<link rel="stylesheet" href="./rc4.css">\n</head>');
+  if (html.includes('href="./rc4.css"')) {
+    html = html.replace('href="./rc4.css"', 'href="./rc4.css?v=hierarchy2"');
+  } else if (!html.includes('href="./rc4.css?v=hierarchy2"')) {
+    html = html.replace("</head>", '<link rel="stylesheet" href="./rc4.css?v=hierarchy2">\n</head>');
   }
-  if (!html.includes('src="./rc4.js"')) {
-    html = html.replace("</body>", '<script src="./rc4.js"></script>\n</body>');
+  if (html.includes('src="./rc4.js"')) {
+    html = html.replace('src="./rc4.js"', 'src="./rc4.js?v=hierarchy2"');
+  } else if (!html.includes('src="./rc4.js?v=hierarchy2"')) {
+    html = html.replace("</body>", '<script src="./rc4.js?v=hierarchy2"></script>\n</body>');
   }
   return html;
 }
