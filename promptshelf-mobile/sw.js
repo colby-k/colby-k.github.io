@@ -1,12 +1,52 @@
-const CACHE = "promptshelf-mobile-v019-rc3-logo2";
+const CACHE = "promptshelf-mobile-v019-rc4";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./icon.svg",
   "./icon-180.png",
-  "./icon-192.png"
+  "./icon-192.png",
+  "./rc4.css",
+  "./rc4.js"
 ];
+
+function enhanceHtml(input) {
+  let html = String(input || "");
+  html = html.replaceAll("Mobile Library · v0.19 RC3", "Mobile Library · v0.19 RC4");
+  html = html.replaceAll("Read-only RC3", "RC4 · Favorites sync");
+  html = html.replace(
+    "RC3 reads and caches your library. It cannot upload, edit, delete, move, or overwrite prompts.",
+    "RC4 caches your library locally. Favorite/unfavorite can sync to Google Drive with a conflict check; other changes remain read-only."
+  );
+  html = html.replace(
+    "Clearing the mobile cache affects only this device. It does not change Google Drive or desktop PromptShelf.",
+    "RC4 can write only Favorite/Unfavorite. It verifies the current Drive library before saving and refuses to overwrite a newer desktop change."
+  );
+  html = html.replace(
+    'b.className="card";b.type="button";',
+    'b.className="card";b.type="button";b.dataset.promptId=p.id;'
+  );
+  if (!html.includes('href="./rc4.css"')) {
+    html = html.replace("</head>", '<link rel="stylesheet" href="./rc4.css">\n</head>');
+  }
+  if (!html.includes('src="./rc4.js"')) {
+    html = html.replace("</body>", '<script src="./rc4.js"></script>\n</body>');
+  }
+  return html;
+}
+
+async function transformNavigation(response) {
+  if (!response) return response;
+  const text = await response.text();
+  const headers = new Headers(response.headers);
+  headers.set("content-type", "text/html; charset=utf-8");
+  headers.delete("content-length");
+  return new Response(enhanceHtml(text), {
+    status: response.status,
+    statusText: response.statusText,
+    headers
+  });
+}
 
 self.addEventListener("install", event => {
   event.waitUntil(
@@ -34,16 +74,17 @@ self.addEventListener("fetch", event => {
   if (url.origin !== self.location.origin) return;
 
   if (event.request.mode === "navigate") {
-    event.respondWith(
-      fetch("./index.html", { cache: "no-store" })
-        .then(response => {
-          if (response.ok) {
-            caches.open(CACHE).then(cache => cache.put("./index.html", response.clone()));
-          }
-          return response;
-        })
-        .catch(() => caches.match("./index.html"))
-    );
+    event.respondWith((async () => {
+      try {
+        const response = await fetch("./index.html", { cache: "no-store" });
+        if (response.ok) {
+          caches.open(CACHE).then(cache => cache.put("./index.html", response.clone()));
+        }
+        return transformNavigation(response);
+      } catch {
+        return transformNavigation(await caches.match("./index.html"));
+      }
+    })());
     return;
   }
 
