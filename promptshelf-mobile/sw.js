@@ -1,9 +1,10 @@
-const CACHE = "promptshelf-mobile-v019-rc3-logo1";
+const CACHE = "promptshelf-mobile-v019-rc3-logo2";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./icon.svg",
+  "./icon-180.png",
   "./icon-192.png"
 ];
 
@@ -47,14 +48,11 @@ self.addEventListener("fetch", event => {
   }
 
   event.respondWith(
-    caches.match(event.request).then(cached => {
-      if (cached) return cached;
-      return fetch(event.request).then(response => {
-        if (response.ok) {
-          caches.open(CACHE).then(cache => cache.put(event.request, response.clone()));
-        }
+    fetch(event.request, { cache: "no-store" })
+      .then(response => {
+        if (response.ok) caches.open(CACHE).then(cache => cache.put(event.request, response.clone()));
         return response;
-      });
-    })
+      })
+      .catch(() => caches.match(event.request))
   );
 });
