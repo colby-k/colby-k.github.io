@@ -1,4 +1,4 @@
-const CACHE = "promptshelf-mobile-v019-rc4-hierarchy3";
+const CACHE = "promptshelf-mobile-v019-rc4-favoritefix1";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,8 +6,8 @@ const APP_SHELL = [
   "./icon.svg",
   "./icon-180.png",
   "./icon-192.png",
-  "./rc4.css?v=hierarchy3",
-  "./rc4.js?v=hierarchy3"
+  "./rc4.css?v=favoritefix1",
+  "./rc4.js?v=favoritefix1"
 ];
 
 function enhanceHtml(input) {
@@ -28,29 +28,19 @@ function enhanceHtml(input) {
   );
 
   // PromptShelf Schema 3 uses parentId. Older backups used parentFolderId.
-  // Keep both readable so the mobile app can preserve hierarchy across generations.
-  html = html.replaceAll(
-    'f=folder(f.parentFolderId)',
-    'f=folder(f.parentId??f.parentFolderId)'
-  );
-  html = html.replaceAll(
-    'String(f.parentFolderId||"")',
-    'String((f.parentId??f.parentFolderId)||"")'
-  );
-  html = html.replaceAll(
-    'String(x.parentFolderId||"")',
-    'String((x.parentId??x.parentFolderId)||"")'
-  );
+  html = html.replaceAll('f=folder(f.parentFolderId)', 'f=folder(f.parentId??f.parentFolderId)');
+  html = html.replaceAll('String(f.parentFolderId||"")', 'String((f.parentId??f.parentFolderId)||"")');
+  html = html.replaceAll('String(x.parentFolderId||"")', 'String((x.parentId??x.parentFolderId)||"")');
 
   if (html.includes('href="./rc4.css"')) {
-    html = html.replace('href="./rc4.css"', 'href="./rc4.css?v=hierarchy3"');
-  } else if (!html.includes('href="./rc4.css?v=hierarchy3"')) {
-    html = html.replace("</head>", '<link rel="stylesheet" href="./rc4.css?v=hierarchy3">\n</head>');
+    html = html.replace('href="./rc4.css"', 'href="./rc4.css?v=favoritefix1"');
+  } else if (!html.includes('href="./rc4.css?v=favoritefix1"')) {
+    html = html.replace("</head>", '<link rel="stylesheet" href="./rc4.css?v=favoritefix1">\n</head>');
   }
   if (html.includes('src="./rc4.js"')) {
-    html = html.replace('src="./rc4.js"', 'src="./rc4.js?v=hierarchy3"');
-  } else if (!html.includes('src="./rc4.js?v=hierarchy3"')) {
-    html = html.replace("</body>", '<script src="./rc4.js?v=hierarchy3"></script>\n</body>');
+    html = html.replace('src="./rc4.js"', 'src="./rc4.js?v=favoritefix1"');
+  } else if (!html.includes('src="./rc4.js?v=favoritefix1"')) {
+    html = html.replace("</body>", '<script src="./rc4.js?v=favoritefix1"></script>\n</body>');
   }
   return html;
 }
@@ -80,9 +70,7 @@ self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys()
       .then(keys => Promise.all(
-        keys
-          .filter(key => key !== CACHE && key.startsWith("promptshelf-mobile-"))
-          .map(key => caches.delete(key))
+        keys.filter(key => key !== CACHE && key.startsWith("promptshelf-mobile-")).map(key => caches.delete(key))
       ))
       .then(() => self.clients.claim())
   );
@@ -97,9 +85,7 @@ self.addEventListener("fetch", event => {
     event.respondWith((async () => {
       try {
         const response = await fetch("./index.html", { cache: "no-store" });
-        if (response.ok) {
-          caches.open(CACHE).then(cache => cache.put("./index.html", response.clone()));
-        }
+        if (response.ok) caches.open(CACHE).then(cache => cache.put("./index.html", response.clone()));
         return transformNavigation(response);
       } catch {
         return transformNavigation(await caches.match("./index.html"));
