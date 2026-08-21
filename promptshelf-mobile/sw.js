@@ -1,4 +1,4 @@
-const CACHE = "promptshelf-mobile-v019-rc4-favoritefix1";
+const CACHE = "promptshelf-mobile-v019-rc4-favoritefix2";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,8 +6,9 @@ const APP_SHELL = [
   "./icon.svg",
   "./icon-180.png",
   "./icon-192.png",
-  "./rc4.css?v=favoritefix1",
-  "./rc4.js?v=favoritefix1"
+  "./rc4.css?v=favoritefix2",
+  "./rc4.js?v=favoritefix2",
+  "./rc4-favorite-hotfix.js?v=favoritefix2"
 ];
 
 function enhanceHtml(input) {
@@ -27,20 +28,22 @@ function enhanceHtml(input) {
     'b.className="card";b.type="button";b.dataset.promptId=p.id;'
   );
 
-  // PromptShelf Schema 3 uses parentId. Older backups used parentFolderId.
   html = html.replaceAll('f=folder(f.parentFolderId)', 'f=folder(f.parentId??f.parentFolderId)');
   html = html.replaceAll('String(f.parentFolderId||"")', 'String((f.parentId??f.parentFolderId)||"")');
   html = html.replaceAll('String(x.parentFolderId||"")', 'String((x.parentId??x.parentFolderId)||"")');
 
   if (html.includes('href="./rc4.css"')) {
-    html = html.replace('href="./rc4.css"', 'href="./rc4.css?v=favoritefix1"');
-  } else if (!html.includes('href="./rc4.css?v=favoritefix1"')) {
-    html = html.replace("</head>", '<link rel="stylesheet" href="./rc4.css?v=favoritefix1">\n</head>');
+    html = html.replace('href="./rc4.css"', 'href="./rc4.css?v=favoritefix2"');
+  } else if (!html.includes('href="./rc4.css?v=favoritefix2"')) {
+    html = html.replace("</head>", '<link rel="stylesheet" href="./rc4.css?v=favoritefix2">\n</head>');
   }
   if (html.includes('src="./rc4.js"')) {
-    html = html.replace('src="./rc4.js"', 'src="./rc4.js?v=favoritefix1"');
-  } else if (!html.includes('src="./rc4.js?v=favoritefix1"')) {
-    html = html.replace("</body>", '<script src="./rc4.js?v=favoritefix1"></script>\n</body>');
+    html = html.replace('src="./rc4.js"', 'src="./rc4.js?v=favoritefix2"');
+  } else if (!html.includes('src="./rc4.js?v=favoritefix2"')) {
+    html = html.replace("</body>", '<script src="./rc4.js?v=favoritefix2"></script>\n</body>');
+  }
+  if (!html.includes('src="./rc4-favorite-hotfix.js?v=favoritefix2"')) {
+    html = html.replace("</body>", '<script src="./rc4-favorite-hotfix.js?v=favoritefix2"></script>\n</body>');
   }
   return html;
 }
