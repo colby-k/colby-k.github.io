@@ -79,11 +79,10 @@
     var content = {
       '/leadership/': ['professional_positioning', 'leadership'],
       '/audit-impact/': ['professional_positioning', 'audit_impact'],
-      '/auditticks-pro/': ['product', 'auditticks_pro'],
-      '/audit-intelligence/': ['innovation_lab', 'innovation_lab_overview'],
-      '/access-conflict-explorer/': ['innovation_application', 'access_conflict_explorer'],
-      '/vendor-relationship-intelligence/': ['innovation_application', 'vendor_relationship_intelligence'],
-      '/control-evidence-lab/': ['innovation_application', 'control_evidence_lab']
+      '/auditticks-pro/': ['tool_project', 'auditticks'],
+      '/auditpdf/': ['tool_project', 'auditpdf'],
+      '/promptshelf/': ['tool_project', 'promptshelf'],
+      '/audit-intelligence/': ['practical_modernization', 'innovation_overview']
     };
 
     if (!content[path]) return null;
@@ -94,15 +93,15 @@
     };
   }
 
-  function innovationApplication(pathname) {
+  function toolProject(pathname) {
     var path = normalizePath(pathname);
-    var applications = {
-      '/access-conflict-explorer/': 'access_conflict_explorer',
-      '/vendor-relationship-intelligence/': 'vendor_relationship_intelligence',
-      '/control-evidence-lab/': 'control_evidence_lab'
+    var tools = {
+      '/auditticks-pro/': 'auditticks',
+      '/auditpdf/': 'auditpdf',
+      '/promptshelf/': 'promptshelf'
     };
 
-    return applications[path] || null;
+    return tools[path] || null;
   }
 
   function fileExtension(pathname) {
@@ -153,14 +152,10 @@
       };
     }
 
-    var application = innovationApplication(path);
-    if (sameHost && application) {
-      parameters.app_name = application;
-      return { name: 'innovation_app_launch', parameters: parameters };
-    }
-
-    if (sameHost && path === '/auditticks-pro/') {
-      return { name: 'auditticks_interest_click', parameters: parameters };
+    var tool = toolProject(path);
+    if (sameHost && tool) {
+      parameters.tool_name = tool;
+      return { name: 'tool_project_click', parameters: parameters };
     }
 
     if (sameHost && path === '/leadership/') {

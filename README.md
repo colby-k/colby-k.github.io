@@ -13,19 +13,20 @@ The primary story is organized around four areas:
 - **Leadership & Experience** — career progression, engagement leadership, team development, manager review, reporting, and remediation.
 - **Career Impact** — selected results from building an Internal Audit function, improving audit quality, expanding testing coverage, reducing manual effort, and improving risk visibility.
 - **Modern Audit Practice** — generalized methods for full-population testing, analytical validation, evidence sufficiency, manager review, workflow improvement, responsible AI, and professional judgment.
-- **Innovation** — independent portfolio projects demonstrating analytics, automation, workflow design, and practical audit technology.
+- **Practical Audit Modernization** — independent tools, analytics, automation, workflow design, and responsible AI focused on recurring audit work.
 
 ## Independent portfolio projects
 
-The repository includes interactive and technical demonstrations such as:
+The primary tool projects are:
 
-- Access Conflict Explorer
-- Vendor Relationship Intelligence
-- Control Evidence Lab
-- AuditTicks
-- Audit analytics and SQL examples
+- **AuditTicks** — Excel workpaper workflow tooling for recurring audit documentation mechanics.
+- **AuditPDF** — audit-focused PDF evidence annotation and review workflow.
+- **PromptShelf** — local-first reusable prompt and AI workflow organization.
+- **Audit analytics and SQL examples** — population testing, monitoring, visualization, and reproducible analytical work.
 
 These projects support the professional leadership narrative; they are not represented as employer implementations.
+
+The repository also retains earlier experimental portfolio applications for archival/reference purposes. They are no longer part of the employer-facing site narrative.
 
 ## Design principles
 
@@ -44,6 +45,7 @@ Across the site and portfolio work:
 - Python / pandas
 - Power BI / data modeling
 - Excel / VBA / Ribbon XML
+- Browser extensions and web-based workflow tools
 - Applied AI / governed audit workflows
 
 ## Repository structure
@@ -55,11 +57,15 @@ Across the site and portfolio work:
 ├── leadership/                   # Leadership & Experience
 ├── audit-impact/                 # Career Impact
 ├── modern-audit-practice/        # Secondary methodology / professional-practice depth
-├── audit-intelligence/           # Innovation portfolio
+├── audit-intelligence/           # Practical Audit Modernization
 ├── auditticks-pro/               # AuditTicks independent portfolio project
-├── access-conflict-explorer/     # Synthetic access-analysis application
-├── vendor-relationship-intelligence/ # Synthetic relationship-analysis application
-├── control-evidence-lab/         # Synthetic control/evidence application
+├── auditpdf/                     # AuditPDF project overview
+├── promptshelf/                  # PromptShelf project overview
+├── auditpdf-mobile/              # AuditPDF mobile/web build
+├── promptshelf-mobile/           # PromptShelf mobile companion
+├── access-conflict-explorer/     # Retained experimental application
+├── vendor-relationship-intelligence/ # Retained experimental application
+├── control-evidence-lab/         # Retained experimental application
 ├── assets/                       # CSS, JavaScript, images, documents, downloads
 ├── index.md                      # Homepage
 └── _config.yml                   # GitHub Pages / Jekyll configuration
@@ -67,4 +73,4 @@ Across the site and portfolio work:
 
 ## Portfolio boundary
 
-Professional experience is described at a generalized level to protect employer, client, audit, and proprietary information. Interactive applications and downloadable examples use synthetic, demonstration, external, or public data unless clearly stated otherwise.
+Professional experience is described at a generalized level to protect employer, client, audit, and proprietary information. Independent tools and portfolio examples are presented separately from employer experience, and demonstration work uses synthetic, external, public, or sample data where appropriate.
