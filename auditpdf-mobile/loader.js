@@ -20,9 +20,11 @@
     const text=await new Response(stream).text();
     const p=JSON.parse(text);
 
+    // Mobile-specific zoom range and a verified bridge into the editor's real zoom engine.
+    p.editorMain=p.editorMain.replace('next=clamp(next,.75,2.2);if(Math.abs(next-old)<.01)return;','next=clamp(next,.45,3.0);if(Math.abs(next-old)<.01)return state.scale;');
     const zoomNeedle="async function fitWidth(){if(!state.pdfDoc)return;await changeScale(await calculateFitWidthScale());}";
     if(p.editorMain.includes(zoomNeedle)){
-      p.editorMain=p.editorMain.replace(zoomNeedle,zoomNeedle+"window.__auditPdfMobileZoom={changeScale,getScale:()=>state.scale};");
+      p.editorMain=p.editorMain.replace(zoomNeedle,zoomNeedle+"window.__auditPdfMobileZoom={commit:async next=>{await changeScale(Number(next));return Number(state.scale);},getScale:()=>Number(state.scale),min:.45,max:3};");
     }else{
       console.warn('AuditPDF Mobile could not expose the editor zoom bridge.');
     }
@@ -49,14 +51,29 @@
 
     const installPinchZoom=()=>{
       const area=document.querySelector('.document-area');
-      if(!area||area.dataset.mobilePinchZoom==='1')return;
-      area.dataset.mobilePinchZoom='1';
+      if(!area||area.dataset.mobilePinchZoom==='2')return;
+      area.dataset.mobilePinchZoom='2';
 
       let pinch=null;
       let zoomBusy=false;
       const distance=(a,b)=>Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY);
       const midpoint=(a,b)=>({x:(a.clientX+b.clientX)/2,y:(a.clientY+b.clientY)/2});
       const raf=()=>new Promise(resolve=>requestAnimationFrame(resolve));
+      const clampRatio=r=>Math.max(.55,Math.min(2.25,Number(r)||1));
+      const deviation=r=>Math.abs(Math.log(Math.max(.001,r)));
+
+      const applyPreview=(ratio,mid)=>{
+        if(!pinch)return;
+        ratio=clampRatio(ratio);
+        pinch.ratio=ratio;
+        if(deviation(ratio)>deviation(pinch.bestRatio))pinch.bestRatio=ratio;
+        const pages=document.querySelector('.pages-container');
+        if(!pages)return;
+        const pr=pages.getBoundingClientRect();
+        pages.style.transformOrigin=`${mid.x-pr.left}px ${mid.y-pr.top}px`;
+        pages.style.transform=`scale(${ratio})`;
+        pages.style.willChange='transform';
+      };
 
       area.addEventListener('touchstart',e=>{
         if(zoomBusy||e.touches.length!==2||!document.querySelector('.pdf-page'))return;
@@ -66,8 +83,8 @@
         const focusX=mid.x-rect.left,focusY=mid.y-rect.top;
         pinch={
           startDistance:Math.max(1,distance(a,b)),
-          ratio:1,
-          baseScale:api.getScale(),
+          ratio:1,bestRatio:1,gestureRatio:1,
+          baseScale:Number(api.getScale())||.75,
           focusX,focusY,
           nx:(area.scrollLeft+focusX)/Math.max(1,area.scrollWidth),
           ny:(area.scrollTop+focusY)/Math.max(1,area.scrollHeight)
@@ -78,16 +95,20 @@
       area.addEventListener('touchmove',e=>{
         if(!pinch||e.touches.length<2)return;
         e.preventDefault();
-        const ratio=Math.max(.7,Math.min(1.8,distance(e.touches[0],e.touches[1])/pinch.startDistance));
-        pinch.ratio=ratio;
-        const pages=document.querySelector('.pages-container');
-        if(pages){
-          const pr=pages.getBoundingClientRect();
-          const mid=midpoint(e.touches[0],e.touches[1]);
-          pages.style.transformOrigin=`${mid.x-pr.left}px ${mid.y-pr.top}px`;
-          pages.style.transform=`scale(${ratio})`;
-          pages.style.willChange='transform';
-        }
+        const mid=midpoint(e.touches[0],e.touches[1]);
+        applyPreview(distance(e.touches[0],e.touches[1])/pinch.startDistance,mid);
+      },{passive:false,capture:true});
+
+      area.addEventListener('gesturestart',e=>{
+        if(pinch)e.preventDefault();
+      },{passive:false,capture:true});
+      area.addEventListener('gesturechange',e=>{
+        if(!pinch)return;
+        e.preventDefault();
+        const ratio=clampRatio(e.scale);
+        pinch.gestureRatio=ratio;
+        const mid={x:Number(e.clientX)||area.getBoundingClientRect().left+area.clientWidth/2,y:Number(e.clientY)||area.getBoundingClientRect().top+area.clientHeight/2};
+        applyPreview(ratio,mid);
       },{passive:false,capture:true});
 
       const finishPinch=async()=>{
@@ -100,20 +121,28 @@
           pages.style.transformOrigin='';
           pages.style.willChange='';
         }
-        if(Math.abs(gesture.ratio-1)<.04)return;
+        const finalRatio=deviation(gesture.ratio)>=.035?gesture.ratio:gesture.bestRatio;
+        if(deviation(finalRatio)<.035)return;
         const api=window.__auditPdfMobileZoom;
-        if(!api||typeof api.changeScale!=='function')return;
-        const target=Math.max(.75,Math.min(2.2,gesture.baseScale*gesture.ratio));
-        if(Math.abs(target-gesture.baseScale)<.02)return;
+        if(!api||typeof api.commit!=='function')return;
+        const target=Math.max(api.min||.45,Math.min(api.max||3,gesture.baseScale*finalRatio));
+        if(Math.abs(target-gesture.baseScale)<.015)return;
         zoomBusy=true;
         try{
-          await api.changeScale(target);
+          const committed=await api.commit(target);
+          if(!Number.isFinite(committed)||Math.abs(committed-target)>.03){
+            throw new Error(`Zoom did not commit (${committed} vs ${target})`);
+          }
           await raf();
           await raf();
           area.scrollLeft=Math.max(0,gesture.nx*area.scrollWidth-gesture.focusX);
           area.scrollTop=Math.max(0,gesture.ny*area.scrollHeight-gesture.focusY);
         }catch(err){
           console.warn('AuditPDF Mobile pinch zoom failed',err);
+          const msg=document.createElement('div');
+          msg.textContent='Zoom could not be applied — try again';
+          Object.assign(msg.style,{position:'fixed',left:'50%',bottom:'calc(var(--mobile-bottom) + 16px)',transform:'translateX(-50%)',zIndex:'2000',background:'#222',color:'#fff',padding:'9px 12px',borderRadius:'9px',font:'12px system-ui'});
+          document.body.appendChild(msg);setTimeout(()=>msg.remove(),1800);
         }finally{
           zoomBusy=false;
         }
@@ -121,8 +150,7 @@
 
       area.addEventListener('touchend',e=>{if(pinch&&e.touches.length<2)finishPinch();},{passive:true,capture:true});
       area.addEventListener('touchcancel',()=>finishPinch(),{passive:true,capture:true});
-      area.addEventListener('gesturestart',e=>e.preventDefault(),{passive:false,capture:true});
-      area.addEventListener('gesturechange',e=>e.preventDefault(),{passive:false,capture:true});
+      area.addEventListener('gestureend',e=>{if(pinch){e.preventDefault();finishPinch();}},{passive:false,capture:true});
     };
 
     const mobileReady=()=>{liftMobileDrawers();installPinchZoom();};
