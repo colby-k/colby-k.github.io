@@ -92,17 +92,17 @@ page_css: "/assets/css/homepage-v4.css"
 
 <section class="lead-innovation" aria-labelledby="innovation-title">
   <div class="lead-section-heading lead-section-heading--light">
-    <div><p class="lead-kicker">Selected innovation</p><h2 id="innovation-title">Practical evidence of how I solve audit problems.</h2></div>
-    <p>Independent portfolio projects using synthetic or demonstration data to show analytics, workflow design, and audit judgment.</p>
+    <div><p class="lead-kicker">Practical modernization</p><h2 id="innovation-title">Tools built around real audit workflow friction.</h2></div>
+    <p>Independent tools I designed to make recurring audit work faster, more consistent, and easier to review without removing professional judgment.</p>
   </div>
 
   <div class="lead-lab-grid">
-    <a href="/access-conflict-explorer/"><span>01 · Access analytics</span><div><b>User</b><i>Role</i><i>Permission</i><em>Conflict</em></div><h3>Access Conflict Explorer</h3><p>Trace incompatible authority and simulate remediation.</p><strong>Open application ↗</strong></a>
-    <a href="/vendor-relationship-intelligence/"><span>02 · Relationship analytics</span><div><b>Vendor</b><i>Employee</i><i>Bank</i><em>Payment</em></div><h3>Vendor Relationship Intelligence</h3><p>Connect vendor, employee, change, and payment signals.</p><strong>Open application ↗</strong></a>
-    <a href="/control-evidence-lab/"><span>03 · Evidence judgment</span><div><b>Risk</b><i>Control</i><i>Evidence</i><em>Conclusion</em></div><h3>Control Evidence Lab</h3><p>Evaluate control design, implementation, and evidence sufficiency.</p><strong>Open application ↗</strong></a>
+    <a href="/auditticks-pro/"><span>01 · Workpaper workflow</span><div><b>Excel</b><i>Tickmarks</i><i>References</i><em>Review</em></div><h3>AuditTicks</h3><p>Standardize repetitive workpaper mechanics so attention stays on evidence and conclusions.</p><strong>Explore project ↗</strong></a>
+    <a href="/auditpdf/"><span>02 · Evidence workflow</span><div><b>PDF</b><i>Evidence</i><i>Markup</i><em>Export</em></div><h3>AuditPDF</h3><p>Bring audit-specific annotation and evidence-review conventions into a focused PDF workflow.</p><strong>Explore project ↗</strong></a>
+    <a href="/promptshelf/"><span>03 · AI workflow</span><div><b>Prompt</b><i>Context</i><i>Variables</i><em>Insert</em></div><h3>PromptShelf</h3><p>Organize reusable prompts and context so AI-assisted work is more consistent and repeatable.</p><strong>Explore project ↗</strong></a>
   </div>
 
-  <a class="lead-link lead-link--light" href="/audit-intelligence/">View All Innovation <span>↗</span></a>
+  <a class="lead-link lead-link--light" href="/audit-intelligence/">View Practical Modernization <span>↗</span></a>
 </section>
 
 <section class="lead-final">
