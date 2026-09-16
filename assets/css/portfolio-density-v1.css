@@ -1,0 +1,216 @@
+/* Executive-density layer
+   Reduces oversized display typography, vertical spacing, and forced card heights
+   while preserving body-copy readability and the existing visual language. */
+
+@media (min-width: 761px) {
+  /* Homepage */
+  .lead-home .lead-hero {
+    grid-template-columns:minmax(0,1fr) minmax(400px,.9fr);
+    gap:clamp(2rem,4vw,4rem);
+    min-height:560px;
+    padding:clamp(2.8rem,4.8vw,4.8rem);
+  }
+  #main_content .lead-home .lead-hero h1 {
+    max-width:820px;
+    font-size:clamp(3rem,4.6vw,4.85rem);
+    letter-spacing:-.06em;
+    line-height:.94;
+  }
+  #main_content .lead-home .lead-hero__lede {
+    max-width:680px;
+    margin:1.35rem 0 1.6rem;
+    font-size:clamp(.98rem,1.2vw,1.1rem);
+  }
+  .lead-home .lead-model {min-height:450px}
+  .lead-home .lead-hero__visual .lead-model__center {width:155px;height:155px}
+  .lead-home .lead-model:before {width:290px;height:290px}
+  .lead-home .lead-model:after {width:390px;height:390px}
+  .lead-home .lead-model__node {width:128px;padding:.7rem .8rem}
+  .lead-home .lead-model__node strong {font-size:.78rem}
+  .lead-home .lead-model__node span {font-size:.54rem}
+
+  .lead-home .lead-metrics,
+  .lead-home .lead-pillars,
+  .lead-home .lead-career,
+  .lead-home .lead-innovation,
+  .lead-home .lead-final {padding:clamp(2.8rem,4.8vw,4.8rem)}
+  .lead-home .lead-section-heading {gap:clamp(1.8rem,3.5vw,3.5rem);margin-bottom:1.8rem}
+  #main_content .lead-home .lead-section-heading h2 {
+    font-size:clamp(2.05rem,3.2vw,3.55rem);
+    letter-spacing:-.05em;
+    line-height:1;
+  }
+  .lead-home .lead-metric-card {min-height:175px;padding:clamp(1.1rem,1.8vw,1.7rem)}
+  .lead-home .lead-metric-card strong {font-size:clamp(2.45rem,3.7vw,3.7rem)}
+  .lead-home .lead-pillar-card {min-height:305px;padding:clamp(1.25rem,2.1vw,2rem)}
+  #main_content .lead-home .lead-pillar-card h3 {font-size:clamp(1.65rem,2.45vw,2.55rem)}
+  #main_content .lead-home .lead-pillar-card p {margin-bottom:1.25rem}
+  .lead-home .lead-career-track article {min-height:165px;padding:1.1rem}
+  #main_content .lead-home .lead-career-track h3 {margin:1.9rem 0 .55rem;font-size:1.05rem}
+  .lead-home .lead-lab-grid>a {min-height:285px;padding:1.2rem}
+  .lead-home .lead-lab-grid>a>div {margin:1.25rem 0}
+  .lead-home .lead-lab-grid>a>div>* {padding:.7rem .4rem}
+  #main_content .lead-home .lead-lab-grid h3 {font-size:1.4rem}
+  #main_content .lead-home .lead-final h2 {
+    max-width:850px;
+    font-size:clamp(2.9rem,4.8vw,4.85rem);
+    line-height:.92;
+  }
+  #main_content .lead-home .lead-final>p:not(.lead-kicker) {margin:1.35rem 0}
+
+  /* Shared Experience / Impact / Innovation / product pages */
+  .sp-page .sp-hero {
+    grid-template-columns:minmax(0,1fr) minmax(400px,.85fr);
+    gap:clamp(2rem,4vw,4rem);
+    min-height:560px;
+    padding:clamp(2.8rem,4.8vw,4.8rem);
+  }
+  #main_content .sp-page .sp-hero h1 {
+    max-width:850px;
+    font-size:clamp(2.9rem,4.5vw,4.75rem);
+    letter-spacing:-.06em;
+    line-height:.94;
+  }
+  #main_content .sp-page .sp-hero__lede {
+    margin:1.35rem 0 1.6rem;
+    font-size:clamp(.98rem,1.2vw,1.08rem);
+  }
+  .sp-page .sp-section,
+  .sp-page .sp-final {padding:clamp(2.8rem,4.8vw,4.8rem)}
+  .sp-page .sp-heading {gap:clamp(1.8rem,3.5vw,3.5rem);margin-bottom:1.8rem}
+  #main_content .sp-page .sp-heading h2 {
+    font-size:clamp(2rem,3.15vw,3.5rem);
+    letter-spacing:-.05em;
+    line-height:1;
+  }
+  .sp-page .sp-statement {gap:clamp(2rem,4vw,4rem);padding:clamp(3rem,5vw,5rem)}
+  #main_content .sp-page .sp-statement h2 {font-size:clamp(2.25rem,3.7vw,4rem)}
+  .sp-page .sp-card {min-height:285px;padding:clamp(1.2rem,2vw,2rem)}
+  #main_content .sp-page .sp-card h3 {font-size:clamp(1.55rem,2.35vw,2.45rem)}
+  #main_content .sp-page .sp-card p {margin-bottom:1.1rem}
+  .sp-page .sp-list-grid {gap:1rem}
+  .sp-page .sp-list-card {padding:1.25rem}
+  #main_content .sp-page .sp-list-card h3 {margin:1rem 0 .6rem;font-size:1.28rem}
+  .sp-page .sp-timeline article {
+    grid-template-columns:130px minmax(210px,.65fr) minmax(0,1.35fr);
+    gap:1.5rem;
+    padding:1.2rem 1.3rem;
+  }
+  #main_content .sp-page .sp-timeline h3 {font-size:1.15rem}
+  .sp-page .sp-impact-story {
+    grid-template-columns:minmax(190px,.3fr) minmax(0,.7fr);
+    gap:clamp(1.8rem,4vw,4rem);
+    padding:clamp(2.4rem,4vw,4rem) 0;
+  }
+  .sp-page .sp-impact-story__label strong {font-size:clamp(2.8rem,4.4vw,4.5rem)}
+  #main_content .sp-page .sp-impact-story h3 {font-size:clamp(1.8rem,2.8vw,2.9rem)}
+  .sp-page .sp-impact-story dl {margin:1.35rem 0}
+  .sp-page .sp-impact-story dl div {padding:.85rem}
+  .sp-page .sp-product-hero {grid-template-columns:minmax(0,.9fr) minmax(470px,1.1fr)}
+  .sp-page .sp-feature-grid article {min-height:235px;padding:1.25rem}
+  #main_content .sp-page .sp-feature-grid h3 {margin:2.4rem 0 .65rem;font-size:1.35rem}
+  #main_content .sp-page .sp-final h2 {
+    max-width:900px;
+    font-size:clamp(2.9rem,4.7vw,4.8rem);
+    line-height:.92;
+  }
+  #main_content .sp-page .sp-final>p:not(.sp-kicker) {margin:1.35rem 0}
+
+  /* Modern Audit Practice: keep the depth, reduce the presentation scale. */
+  .sp-population-feature,
+  .sp-visual-feature,
+  .sp-workflow-feature,
+  .sp-ai-feature {margin-bottom:3rem;padding:clamp(1.6rem,2.8vw,2.7rem)}
+  .sp-population-feature__header,
+  .sp-visual-feature__header,
+  .sp-workflow-feature__header,
+  .sp-ai-feature__header {gap:clamp(1.8rem,4vw,4rem)}
+  .sp-population-feature__mark strong,
+  .sp-visual-feature__mark strong,
+  .sp-workflow-feature__mark strong,
+  .sp-ai-feature__mark strong {font-size:clamp(3.4rem,5.8vw,5.8rem)}
+  #main_content .sp-population-feature__copy h3,
+  #main_content .sp-visual-feature__copy h3,
+  #main_content .sp-workflow-feature__copy h3,
+  #main_content .sp-ai-feature__copy h3 {font-size:clamp(1.9rem,3vw,3.15rem)}
+  .sp-population-flow,
+  .sp-visual-lenses,
+  .sp-workflow-cycle,
+  .sp-ai-operating-model {margin:2rem 0}
+  .sp-population-flow article,
+  .sp-visual-lenses article,
+  .sp-workflow-cycle article,
+  .sp-ai-operating-model article {min-height:185px;padding:1.1rem}
+  #main_content .sp-population-flow h4,
+  #main_content .sp-visual-lenses h4,
+  #main_content .sp-workflow-cycle h4,
+  #main_content .sp-ai-operating-model h4 {margin:2rem 0 .55rem}
+  .sp-ai-use-grid article,.sp-workflow-proof article {min-height:205px}
+
+  /* AuditTicks and other portfolio-project pages */
+  .atp-marketing-hero {min-height:520px}
+  .atp-benefit-card {min-height:215px;padding:clamp(1.2rem,2vw,1.9rem)}
+  #main_content .atp-benefit-card h3 {font-size:clamp(1.4rem,2vw,1.95rem)}
+  .atp-visual-media,.atp-visual-media img {min-height:230px}
+}
+
+@media (max-width: 1100px) and (min-width: 761px) {
+  .lead-home .lead-hero,.sp-page .sp-hero {
+    grid-template-columns:1fr;
+    min-height:auto;
+    padding:3.4rem 2.5rem;
+  }
+  .lead-home .lead-model {min-height:430px}
+  .sp-page .sp-timeline article {grid-template-columns:110px 1fr}
+  .sp-page .sp-timeline article p {grid-column:2}
+}
+
+@media (max-width: 760px) {
+  .lead-home .lead-hero,
+  .lead-home .lead-metrics,
+  .lead-home .lead-pillars,
+  .lead-home .lead-career,
+  .lead-home .lead-innovation,
+  .lead-home .lead-final,
+  .sp-page .sp-hero,
+  .sp-page .sp-statement,
+  .sp-page .sp-section,
+  .sp-page .sp-final {padding:2.7rem 1.2rem}
+
+  #main_content .lead-home .lead-hero h1,
+  #main_content .sp-page .sp-hero h1 {
+    font-size:clamp(2.45rem,10.5vw,3.35rem);
+    letter-spacing:-.05em;
+    line-height:.95;
+  }
+  #main_content .lead-home .lead-hero__lede,
+  #main_content .sp-page .sp-hero__lede {margin:1.2rem 0 1.4rem}
+  #main_content .lead-home .lead-section-heading h2,
+  #main_content .sp-page .sp-heading h2,
+  #main_content .sp-page .sp-statement h2 {font-size:clamp(2rem,8.2vw,2.7rem)}
+  .lead-home .lead-section-heading,.sp-page .sp-heading {margin-bottom:1.5rem}
+  .lead-home .lead-pillar-card,.lead-home .lead-lab-grid>a,.sp-page .sp-card {min-height:0}
+  .lead-home .lead-metric-card {min-height:165px}
+  .lead-home .lead-career-track article {min-height:0}
+  #main_content .lead-home .lead-final h2,
+  #main_content .sp-page .sp-final h2 {font-size:clamp(2.6rem,10vw,3.5rem)}
+
+  .sp-population-feature,
+  .sp-visual-feature,
+  .sp-workflow-feature,
+  .sp-ai-feature {margin-bottom:2.2rem;padding:1.25rem}
+  .sp-population-feature__mark strong,
+  .sp-visual-feature__mark strong,
+  .sp-workflow-feature__mark strong,
+  .sp-ai-feature__mark strong {font-size:3.4rem}
+  #main_content .sp-population-feature__copy h3,
+  #main_content .sp-visual-feature__copy h3,
+  #main_content .sp-workflow-feature__copy h3,
+  #main_content .sp-ai-feature__copy h3 {font-size:2rem}
+  .sp-population-flow article,
+  .sp-visual-lenses article,
+  .sp-workflow-cycle article,
+  .sp-ai-operating-model article,
+  .sp-ai-use-grid article,
+  .sp-workflow-proof article {min-height:0}
+}
