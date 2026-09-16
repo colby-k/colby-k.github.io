@@ -43,14 +43,16 @@ baseurl: ""
 
 google_analytics: G-QQ7MYYPFFW
 
-# Explicitly include portfolio application and positioning directories.
+# Explicitly include professional positioning and portfolio project directories.
 include:
   - leadership
   - audit-impact
   - modern-audit-practice
   - auditticks-pro
-  - access-conflict-explorer
+  - auditpdf
+  - promptshelf
   - audit-intelligence
+  - access-conflict-explorer
   - vendor-relationship-intelligence
   - control-evidence-lab
 
