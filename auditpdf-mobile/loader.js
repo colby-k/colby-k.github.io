@@ -20,6 +20,12 @@
     const text=await new Response(stream).text();
     const p=JSON.parse(text);
 
+    // Repair SVG data-URI colors that were double URL-encoded in the mobile payload.
+    const fixSvgEncoding=s=>typeof s==='string'?s.replaceAll('%2523','%23'):s;
+    p.body=fixSvgEncoding(p.body);
+    p.editorCss=fixSvgEncoding(p.editorCss);
+    p.mobileCss=fixSvgEncoding(p.mobileCss);
+
     // Mobile-specific zoom range and a verified bridge into the editor's real zoom engine.
     p.editorMain=p.editorMain.replace('next=clamp(next,.75,2.2);if(Math.abs(next-old)<.01)return;','next=clamp(next,.45,3.0);if(Math.abs(next-old)<.01)return state.scale;');
     const zoomNeedle="async function fitWidth(){if(!state.pdfDoc)return;await changeScale(await calculateFitWidthScale());}";
@@ -30,6 +36,19 @@
     }
 
     document.body.innerHTML=p.body;
+
+    // Also repair already-parsed inline/image SVG references defensively.
+    document.querySelectorAll('img').forEach(img=>{
+      const src=img.getAttribute('src');
+      if(src&&src.includes('%2523'))img.setAttribute('src',src.replaceAll('%2523','%23'));
+    });
+    document.querySelectorAll('svg [fill],svg [stroke]').forEach(el=>{
+      for(const attr of ['fill','stroke']){
+        const value=el.getAttribute(attr);
+        if(value&&value.startsWith('%23'))el.setAttribute(attr,'#'+value.slice(3));
+      }
+    });
+
     const style=document.createElement('style');
     style.textContent=p.editorCss+'\n'+p.mobileCss;
     document.head.appendChild(style);
