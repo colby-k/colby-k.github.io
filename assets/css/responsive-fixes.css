@@ -1,0 +1,20 @@
+/* Responsive layout corrections for portfolio grids.
+   Prevents odd-card grids from leaving an empty cell at tablet widths. */
+
+@media (min-width: 761px) and (max-width: 1100px) {
+  .lead-home .lead-lab-grid > :last-child:nth-child(odd),
+  .sp-page .sp-card-grid > :last-child:nth-child(odd),
+  .sp-page .sp-feature-grid > :last-child:nth-child(odd),
+  .sp-page .sp-list-grid > :last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .lead-home .lead-lab-grid > :last-child,
+  .sp-page .sp-card-grid > :last-child,
+  .sp-page .sp-feature-grid > :last-child,
+  .sp-page .sp-list-grid > :last-child {
+    grid-column: auto;
+  }
+}
