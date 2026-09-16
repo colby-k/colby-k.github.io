@@ -1,0 +1,64 @@
+@import url('/assets/css/homepage-v3.css');
+
+/* Employer-focused homepage extensions. Keeps the established visual system while
+   shifting emphasis toward career evidence, leadership scope, and measurable impact. */
+
+.lead-home .lead-hero__lede strong{color:#fff;font-weight:800}
+.lead-home .lead-hero__visual .lead-model__center{width:190px;height:190px}
+.lead-home .lead-model__center span{font-size:.62rem;letter-spacing:.08em;text-transform:uppercase}
+.lead-home .lead-model__center strong{font-size:1.4rem}
+
+.lead-metrics{padding:clamp(4rem,7vw,7rem);background:var(--lh-paper)}
+.lead-metric-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--lh-line);border:1px solid var(--lh-line)}
+.lead-metric-card{display:flex;min-height:245px;flex-direction:column;padding:clamp(1.5rem,2.6vw,2.6rem);background:#fff}
+.lead-metric-card--feature{background:var(--lh-ink);color:#fff}
+.lead-metric-card small{color:#087d69;font-size:.58rem;font-weight:900;letter-spacing:.11em;text-transform:uppercase}
+.lead-metric-card--feature small{color:var(--lh-signal)}
+.lead-metric-card strong{margin:auto 0 .7rem;color:var(--lh-ink);font-size:clamp(2.8rem,5vw,5.2rem);font-weight:850;letter-spacing:-.07em;line-height:.84}
+.lead-metric-card--feature strong{color:var(--lh-signal);font-size:clamp(2rem,3.5vw,3.6rem);line-height:.95}
+#main_content .lead-metric-card p{margin:0;color:var(--lh-muted);font-size:.77rem;line-height:1.5}
+#main_content .lead-metric-card--feature p{color:rgba(255,255,255,.64)}
+
+.lead-cases{padding:clamp(4rem,7vw,7rem);background:var(--lh-paper)}
+.lead-case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem}
+.lead-case-card{display:flex;min-height:520px;flex-direction:column;padding:clamp(1.5rem,2.8vw,2.7rem);background:#fff;box-shadow:0 16px 45px rgba(7,21,37,.06)}
+.lead-case-card:first-child{background:linear-gradient(145deg,#071525,#103858);color:#fff}
+.lead-case-card>span{color:#087d69;font-size:.59rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.lead-case-card:first-child>span{color:var(--lh-signal)}
+#main_content .lead-case-card h3{margin:1.4rem 0 2.2rem;font-size:clamp(1.8rem,2.6vw,2.8rem);letter-spacing:-.045em;line-height:1}
+#main_content .lead-case-card:first-child h3{color:#fff}
+.lead-case-detail{padding-top:1rem;border-top:1px solid #d9e0e1}
+.lead-case-card:first-child .lead-case-detail{border-color:rgba(255,255,255,.16)}
+.lead-case-detail+ .lead-case-detail{margin-top:1.1rem}
+.lead-case-detail small{display:block;margin-bottom:.35rem;color:#087d69;font-size:.55rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.lead-case-card:first-child .lead-case-detail small{color:var(--lh-signal)}
+#main_content .lead-case-detail p{margin:0;color:var(--lh-muted);font-size:.76rem;line-height:1.55}
+#main_content .lead-case-card:first-child .lead-case-detail p{color:rgba(255,255,255,.66)}
+.lead-case-result{margin-top:auto!important;padding-top:1.5rem!important;color:var(--lh-ink)!important;font-size:.84rem!important;font-weight:800}
+.lead-case-card:first-child .lead-case-result{color:#fff!important}
+
+.lead-career-track{grid-template-columns:repeat(5,1fr)}
+.lead-career-track article{min-height:320px}
+.lead-career-track article:first-child{background:var(--lh-signal)}
+
+.lead-lab-grid{grid-template-columns:repeat(4,1fr)}
+.lead-lab-grid>a{min-height:420px}
+.lead-lab-grid>a:nth-child(4)>div em{background:#8db6ff}
+.lead-lab-grid>a:nth-child(4)>div{grid-template-columns:repeat(2,1fr)}
+
+.lead-final__actions{display:flex;flex-wrap:wrap;gap:1.5rem}
+.lead-link--email{color:var(--lh-signal)!important}
+
+@media(max-width:1100px){
+  .lead-metric-grid{grid-template-columns:repeat(2,1fr)}
+  .lead-case-grid{grid-template-columns:1fr}
+  .lead-case-card{min-height:0}
+  .lead-lab-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:760px){
+  .lead-metric-grid{grid-template-columns:1fr}
+  .lead-metric-card{min-height:205px}
+  .lead-lab-grid{grid-template-columns:1fr}
+  .lead-case-card{padding:1.5rem}
+}
