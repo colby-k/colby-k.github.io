@@ -1,79 +1,70 @@
-# Internal Audit Tools, Analytics & Governance Portfolio
+# Internal Audit Leadership Portfolio
 
-This repository contains the source code for my GitHub Pages site, which serves as a professional portfolio showcasing audit-focused tools, analytics, automation, and governed AI workflows.
+This repository supports my professional Internal Audit portfolio site:
 
-The site highlights practical work developed in the context of internal audit, with an emphasis on improving efficiency, consistency, documentation quality, risk coverage, reviewability, and audit judgment.
+**https://colby-k.github.io/**
 
-🔗 **Live site:** https://colby-k.github.io/
+The site is designed to present my professional experience as an Internal Audit leader first, with measurable career impact and practical modernization capabilities as supporting evidence.
 
----
+## Portfolio focus
 
-## Overview
+The primary story is organized around four areas:
 
-The portfolio includes examples across several areas:
+- **Leadership & Experience** — career progression, engagement leadership, team development, manager review, reporting, and remediation.
+- **Career Impact** — selected results from building an Internal Audit function, improving audit quality, expanding testing coverage, reducing manual effort, and improving risk visibility.
+- **Modern Audit Practice** — generalized methods for full-population testing, analytical validation, evidence sufficiency, manager review, workflow improvement, responsible AI, and professional judgment.
+- **Innovation** — independent portfolio projects demonstrating analytics, automation, workflow design, and practical audit technology.
 
-### 🔹 Audit Tools
+## Independent portfolio projects
 
-- Custom Excel-based tooling, including a VBA-driven audit tickmark add-in
-- Templates designed to standardize audit documentation, risk assessment, and planning
-- Focus on repeatability, usability, review clarity, and workpaper consistency
+The repository includes interactive and technical demonstrations such as:
 
-### 🔹 Audit Analytics
+- Access Conflict Explorer
+- Vendor Relationship Intelligence
+- Control Evidence Lab
+- AuditTicks
+- Audit analytics and SQL examples
 
-- Power BI dashboards for audit monitoring, issue tracking, and risk-based reporting
-- Python and Streamlit applications supporting sampling, anomaly detection, fraud screening, and compliance analysis
-- Analytics designed to support audit judgment, not replace it
+These projects support the professional leadership narrative; they are not represented as employer implementations.
 
-### 🔹 Data Projects for Audit & Business Risk
+## Design principles
 
-- SQL and Power BI projects demonstrating data extraction, transformation, analysis, and dashboard development
-- Examples framed around audit-style review, business risk analysis, trend identification, and management reporting
-- Focus on translating raw data into structured, supportable insights
+Across the site and portfolio work:
 
-### 🔹 AI Workflows for Internal Audit
+- **Audit leadership first** — technology supports the assurance mission rather than defining it.
+- **Evidence before assertion** — conclusions should remain traceable to relevant and sufficient support.
+- **Explainable analytics** — analytical logic, assumptions, and exceptions should be reviewable.
+- **Practical modernization** — improve coverage, consistency, reviewability, or efficiency without adding unnecessary process.
+- **Human accountability** — automation and AI can accelerate work, but professional judgment remains with the auditor.
 
-- Governed AI workflows for audit documentation, evidence annotation, control identification, and quality review
-- Downloadable synthetic evidence-annotation demonstration with source PDF, annotated derivative, and Excel review workbook
-- Designed around audit methodology, sampling discipline, non-fabrication rules, and review-ready outputs
-- Demonstrates how AI-supported workflows can be governed through prompt design and auditor oversight
+## Technology stack
 
----
-
-## Design Principles
-
-Across all projects, the following principles guide development:
-
-- **Audit-first mindset** — tools support auditors; judgment remains with humans
-- **Governance and control** — methodology, documentation standards, and guardrails are built into the workflow
-- **Practical implementation** — solutions are designed around real internal audit needs
-- **Clarity and consistency** — outputs are intended to be review-ready, defensible, and easy to follow
-- **Responsible use of data and AI** — examples avoid proprietary data and emphasize transparency, limitations, and review
-
----
-
-## Technology Stack
-
-- Excel / VBA / Ribbon XML
-- Power BI / DAX / Data Modeling
+- GitHub Pages / Jekyll / Markdown / HTML / CSS / JavaScript
 - SQL
-- Python / pandas / Streamlit
-- Applied AI / AI Governance
-- GitHub Pages / Jekyll / Markdown / HTML / CSS
+- Python / pandas
+- Power BI / data modeling
+- Excel / VBA / Ribbon XML
+- Applied AI / governed audit workflows
 
----
-
-## Repository Structure
+## Repository structure
 
 ```text
 .
-├── _includes/              # Reusable Jekyll includes such as nav, analytics, and disclaimers
-├── _layouts/               # Page layout templates
-├── about/                  # About page
-├── ai-audit-assistant/     # AI workflows for internal audit page
-├── audit-analytics/        # Audit analytics dashboards and applications
-├── excel-tools/            # Audit tools, Excel add-ins, and templates
-├── sql-projects/           # Data projects for audit and business risk
-├── assets/                 # CSS, images, icons, documents, and downloadable files
-├── index.md                # Homepage
-├── _config.yml             # GitHub Pages / Jekyll configuration
-└── README.md               # Repository documentation
+├── _includes/                    # Shared navigation, header, analytics, disclosures
+├── _layouts/                     # Jekyll page layouts
+├── leadership/                   # Leadership & Experience
+├── audit-impact/                 # Career Impact
+├── modern-audit-practice/        # Secondary methodology / professional-practice depth
+├── audit-intelligence/           # Innovation portfolio
+├── auditticks-pro/               # AuditTicks independent portfolio project
+├── access-conflict-explorer/     # Synthetic access-analysis application
+├── vendor-relationship-intelligence/ # Synthetic relationship-analysis application
+├── control-evidence-lab/         # Synthetic control/evidence application
+├── assets/                       # CSS, JavaScript, images, documents, downloads
+├── index.md                      # Homepage
+└── _config.yml                   # GitHub Pages / Jekyll configuration
+```
+
+## Portfolio boundary
+
+Professional experience is described at a generalized level to protect employer, client, audit, and proprietary information. Interactive applications and downloadable examples use synthetic, demonstration, external, or public data unless clearly stated otherwise.

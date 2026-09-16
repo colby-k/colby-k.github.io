@@ -1,8 +1,8 @@
 ---
-title: "AuditTicks | Excel Workpaper Productivity for Auditors"
+title: "AuditTicks | Independent Internal Audit Workflow Project"
 layout: default
 permalink: /auditticks-pro/
-description: "AuditTicks is an Excel add-in that brings audit-focused tickmarks, references, evidence annotation, workpaper formatting, keyboard shortcuts, and review tools directly into Excel."
+description: "AuditTicks is an independently developed Excel audit-workpaper project demonstrating practical workflow design, repeatable documentation mechanics, and auditor-centered product thinking."
 page_css: "/assets/css/auditticks-product-v2.css"
 preload_image: "/assets/img/auditticks-overview.webp"
 ---
@@ -11,14 +11,14 @@ preload_image: "/assets/img/auditticks-overview.webp"
 
 <section class="sp-hero sp-product-hero atp-marketing-hero">
   <div class="sp-hero__copy">
-    <div class="atp-hero-badge">Early access · Current baseline V1.3.0 · Excel for Windows</div>
-    <p class="sp-kicker">AuditTicks™ · Excel audit workflow</p>
-    <h1>Audit workpapers are repetitive enough.<br><em>Make Excel work like it was built for auditors.</em></h1>
-    <p class="sp-hero__lede">AuditTicks adds audit-focused tickmarks, references, evidence tools, workpaper formatting, keyboard shortcuts, and review utilities directly to Excel.</p>
+    <div class="atp-hero-badge">Independent portfolio project · Current baseline V1.3.0 · Excel for Windows</div>
+    <p class="sp-kicker">AuditTicks · Audit workflow design</p>
+    <h1>A practical audit workflow project built around <em>recurring Excel friction.</em></h1>
+    <p class="sp-hero__lede">AuditTicks is an independently developed Excel add-in and a demonstration of how I approach recurring workflow problems: understand the friction, standardize mechanics that should be repeatable, and preserve auditor judgment where it matters.</p>
     <div class="atp-actions">
-      <a class="atp-button atp-button--primary" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer">Request early access <span>↗</span></a>
-      <a class="atp-button atp-button--ghost" href="/auditticks-pro/guide/">View User Guide <span>→</span></a>
-      <a class="sp-link sp-link--light" href="#workflow">See it in action <span>↓</span></a>
+      <a class="atp-button atp-button--primary" href="/auditticks-pro/guide/">View User Guide <span>→</span></a>
+      <a class="atp-button atp-button--ghost" href="/audit-intelligence/">Back to Innovation <span>↗</span></a>
+      <a class="sp-link sp-link--light" href="#workflow">See the workflow <span>↓</span></a>
     </div>
   </div>
   <div class="sp-product-window" aria-label="AuditTicks running in Microsoft Excel">
@@ -29,16 +29,16 @@ preload_image: "/assets/img/auditticks-overview.webp"
 
 <section class="sp-section sp-section--paper atp-benefits-section">
   <div class="atp-problem-grid">
-    <article class="atp-benefit-card atp-benefit-card--signal"><span>Work faster</span><h3>Turn repetitive workpaper actions into one-click tools.</h3><p>Spend less time recreating tickmarks, references, formatting, notes, evidence links, and testing structures.</p></article>
-    <article class="atp-benefit-card"><span>Document consistently</span><h3>Use a common workpaper language.</h3><p>Apply repeatable tickmarks, procedure-direction marks, references, tie-outs, evidence conventions, and formatting without forcing every audit into one template.</p></article>
-    <article class="atp-benefit-card atp-benefit-card--dark"><span>Review more clearly</span><h3>Make support and exceptions easier to follow.</h3><p>Help reviewers move through evidence, worksheet links, explanations, signoff, and testing results with less friction.</p></article>
+    <article class="atp-benefit-card atp-benefit-card--signal"><span>Identify the friction</span><h3>Repeated mechanics consume attention that should go to audit work.</h3><p>Tickmarks, references, formatting, notes, evidence links, and testing structures are frequently recreated even though much of the underlying mechanics are repeatable.</p></article>
+    <article class="atp-benefit-card"><span>Standardize the repeatable</span><h3>Create a common workpaper language without forcing one template.</h3><p>Repeatable tickmarks, procedure-direction marks, references, tie-outs, evidence conventions, and formatting reduce avoidable inconsistency while leaving the audit procedure flexible.</p></article>
+    <article class="atp-benefit-card atp-benefit-card--dark"><span>Preserve judgment</span><h3>Automate mechanics—not the audit conclusion.</h3><p>The tool can improve navigation, documentation consistency, and review clarity. The auditor still owns the procedure, evidence, professional judgment, and conclusion.</p></article>
   </div>
 </section>
 
 <section class="sp-section" id="workflow">
   <div class="sp-heading atp-heading-compact">
     <div><p class="sp-kicker sp-kicker--dark">See it in action</p><h2>Built around the way audit work actually happens in Excel.</h2></div>
-    <p>One fictional accounts-payable workpaper shows the workflow from testing through supporting evidence and review.</p>
+    <p>One fictional accounts-payable workpaper demonstrates the workflow from testing through supporting evidence and review.</p>
   </div>
 
   <div class="atp-visual-grid">
@@ -71,7 +71,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
 
 <section class="sp-section sp-section--paper atp-capabilities">
   <div class="sp-heading atp-heading-compact">
-    <div><p class="sp-kicker sp-kicker--dark">What you get</p><h2>The audit mechanics you reach for repeatedly.</h2></div>
+    <div><p class="sp-kicker sp-kicker--dark">What the project includes</p><h2>Repeatable audit mechanics built into the existing workflow.</h2></div>
   </div>
   <div class="atp-feature-list" aria-label="AuditTicks feature summary">
     <span>In-cell &amp; floating tickmarks</span>
@@ -90,29 +90,29 @@ preload_image: "/assets/img/auditticks-overview.webp"
   <p class="atp-judgment-note"><strong>AuditTicks handles workpaper mechanics.</strong> The auditor still owns the procedure, evidence, professional judgment, and conclusion.</p>
 </section>
 
-<section class="sp-section sp-section--dark atp-early-access" id="early-access">
+<section class="sp-section sp-section--dark atp-early-access">
   <div class="atp-early-access__copy">
-    <p class="sp-kicker">Early access</p>
-    <h2>Built for auditors who still do real work in Excel.</h2>
-    <p>AuditTicks has reached a stable V1.3.0 baseline and is being evaluated with Internal Audit, SOX, compliance, and assurance professionals. Early-access feedback is being used to validate workflow fit, deployment, and the feature set before broader commercial release.</p>
+    <p class="sp-kicker">What the project demonstrates</p>
+    <h2>Practical product thinking applied to an audit problem.</h2>
+    <p>AuditTicks demonstrates a problem-solving pattern that also applies to audit leadership: observe recurring friction, decide what should be standardized, design around the actual user workflow, test the solution through use, and keep responsibility with the professional where judgment matters.</p>
     <div class="atp-actions">
-      <a class="atp-button atp-button--primary" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer">Request early access <span>↗</span></a>
-      <a class="sp-link sp-link--light" href="/auditticks-pro/guide/">Explore the V1.3.0 user guide <span>→</span></a>
+      <a class="atp-button atp-button--primary" href="/auditticks-pro/guide/">Explore the V1.3.0 user guide <span>→</span></a>
+      <a class="sp-link sp-link--light" href="/audit-intelligence/">View other Innovation projects <span>↗</span></a>
     </div>
   </div>
   <div class="atp-early-access__panel">
-    <span>Current evaluation baseline</span>
+    <span>Portfolio project facts</span>
     <div class="atp-access-facts">
       <p><strong>Platform</strong> Excel desktop for Windows</p>
       <p><strong>Format</strong> VBA-based XLAM</p>
-      <p><strong>Version</strong> V1.3.0</p>
-      <p><strong>Status</strong> Early access / pilot</p>
-      <p><strong>Pricing</strong> Not yet finalized</p>
+      <p><strong>Current baseline</strong> V1.3.0</p>
+      <p><strong>Focus</strong> Audit workpaper workflow</p>
+      <p><strong>Design principle</strong> Standardize mechanics, preserve judgment</p>
     </div>
-    <small>Organizations should evaluate the add-in under their own software, macro, and information-security policies.</small>
+    <small>Public demonstrations use fictional data and are separate from employer work. Any organization evaluating an Excel add-in should apply its own software, macro, and information-security policies.</small>
   </div>
 </section>
 
-<section class="sp-boundary"><strong>Independent product</strong><p>AuditTicks™ is an independent product and portfolio project. Public examples use fictional demonstration data and do not contain employer, client, confidential audit, or proprietary information. Organization-specific templates and internal resource links are not included in the public product description.</p></section>
+<section class="sp-boundary"><strong>Independent portfolio project</strong><p>AuditTicks is independently developed and is presented here as evidence of workflow analysis, product thinking, and technical implementation. Public examples use fictional demonstration data and do not contain employer, client, confidential audit, or proprietary information.</p></section>
 
 </article>
