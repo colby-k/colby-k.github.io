@@ -1,0 +1,633 @@
+/* Executive portfolio presentation layer
+   Simplifies the earlier showcase-style design into a quieter professional site:
+   smaller display type, fewer visual treatments, flatter cards, restrained color,
+   and one primary dark closing section. */
+
+:root{
+  --exec-ink:#132238;
+  --exec-muted:#5f6f7c;
+  --exec-line:#d9e0e4;
+  --exec-soft:#f6f7f7;
+  --exec-accent:#087d69;
+  --exec-dark:#10243a;
+}
+
+/* Constrain employer-facing pages to a conventional professional reading width. */
+@media(min-width:1200px){
+  #main_content:has(.lead-home),
+  #main_content:has(.sp-page),
+  #main_content:has(.analytics-case){
+    max-width:1360px!important;
+    padding-right:28px!important;
+    padding-left:28px!important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Shared typography and section rhythm
+   -------------------------------------------------------------------------- */
+.lead-home,
+.sp-page,
+.analytics-case{color:var(--exec-ink)}
+
+.lead-home section,
+.sp-page section,
+.analytics-case section{box-shadow:none!important}
+
+.lead-home .lead-kicker,
+.sp-page .sp-kicker,
+.analytics-case .analytics-kicker{
+  margin-bottom:.7rem!important;
+  color:var(--exec-muted)!important;
+  font-size:.62rem;
+  letter-spacing:.09em;
+}
+
+/* Section eyebrow captions are intentionally removed. The page hierarchy is
+   carried by the actual heading, not repeated presentation labels. */
+.lead-home section:not(.lead-hero) .lead-kicker,
+.sp-page .sp-section .sp-kicker,
+.sp-page .sp-statement>.sp-kicker,
+.sp-page .sp-final>.sp-kicker,
+.analytics-case section:not(.analytics-hero)>.analytics-kicker,
+.analytics-case .analytics-section-heading .analytics-kicker{display:none!important}
+
+.lead-home .lead-metrics,
+.lead-home .lead-pillars,
+.lead-home .lead-career,
+.lead-home .lead-innovation,
+.lead-home .lead-final,
+.sp-page .sp-section,
+.sp-page .sp-statement,
+.sp-page .sp-final,
+.analytics-case .analytics-statement,
+.analytics-case .population-section,
+.analytics-case .analytics-solution,
+.analytics-case .signals-section,
+.analytics-case .investigation-section,
+.analytics-case .analytics-impact,
+.analytics-case .analytics-decisions,
+.analytics-case .related-analytics,
+.analytics-case .analytics-final{
+  padding:clamp(2.6rem,4.2vw,4.4rem)!important;
+}
+
+#main_content .lead-home .lead-section-heading h2,
+#main_content .sp-page .sp-heading h2,
+#main_content .analytics-case .analytics-section-heading h2,
+#main_content .analytics-case .analytics-solution__copy h2,
+#main_content .analytics-case .investigation-section__intro h2{
+  font-size:clamp(1.9rem,2.8vw,2.55rem)!important;
+  letter-spacing:-.035em!important;
+  line-height:1.06!important;
+}
+
+.lead-home .lead-section-heading,
+.sp-page .sp-heading,
+.analytics-case .analytics-section-heading--split{
+  gap:clamp(1.5rem,3vw,3rem)!important;
+  margin-bottom:1.75rem!important;
+}
+
+.lead-home .lead-section-heading>p,
+.sp-page .sp-heading>p,
+.analytics-case .analytics-section-heading--split>p{
+  color:var(--exec-muted)!important;
+  font-size:.88rem!important;
+  line-height:1.55!important;
+}
+
+/* --------------------------------------------------------------------------
+   Homepage
+   -------------------------------------------------------------------------- */
+.lead-home .lead-hero{
+  display:block!important;
+  min-height:0!important;
+  padding:clamp(3.4rem,5vw,5rem)!important;
+  border-bottom:1px solid var(--exec-line);
+  background:#fff!important;
+  color:var(--exec-ink)!important;
+}
+
+.lead-home .lead-hero:after{display:none!important}
+.lead-home .lead-hero__visual{display:none!important}
+.lead-home .lead-hero__copy{max-width:930px}
+
+#main_content .lead-home .lead-hero h1{
+  max-width:900px!important;
+  color:var(--exec-ink)!important;
+  font-size:clamp(2.8rem,4.3vw,3.75rem)!important;
+  letter-spacing:-.045em!important;
+  line-height:1.01!important;
+}
+.lead-home .lead-hero h1 em{color:var(--exec-accent)!important}
+#main_content .lead-home .lead-hero__lede{
+  max-width:760px!important;
+  margin:1.25rem 0 1.5rem!important;
+  color:var(--exec-muted)!important;
+  font-size:1.02rem!important;
+  line-height:1.62!important;
+}
+.lead-home .lead-hero__lede strong{color:var(--exec-ink)!important}
+.lead-home .lead-hero .lead-link--light{color:var(--exec-ink)!important}
+
+.lead-home .lead-metrics,
+.lead-home .lead-career{background:var(--exec-soft)!important;color:var(--exec-ink)!important}
+.lead-home .lead-pillars,
+.lead-home .lead-innovation{background:#fff!important;color:var(--exec-ink)!important}
+.lead-home .lead-section-heading--light{color:var(--exec-ink)!important}
+.lead-home .lead-section-heading--light>p{color:var(--exec-muted)!important}
+
+.lead-home .lead-metric-grid,
+.lead-home .lead-pillar-grid,
+.lead-home .lead-career-track,
+.lead-home .lead-lab-grid{
+  gap:1rem!important;
+  background:transparent!important;
+  border:0!important;
+}
+
+.lead-home .lead-metric-card,
+.lead-home .lead-pillar-card,
+.lead-home .lead-career-track article,
+.lead-home .lead-lab-grid>a{
+  min-height:0!important;
+  padding:1.4rem!important;
+  border:1px solid var(--exec-line)!important;
+  background:#fff!important;
+  color:var(--exec-ink)!important;
+  box-shadow:none!important;
+  transform:none!important;
+}
+
+.lead-home .lead-metric-card--feature,
+.lead-home .lead-pillar-card--dark,
+.lead-home .lead-pillar-card--signal,
+.lead-home .lead-career-track article:first-child{
+  background:#fff!important;
+  color:var(--exec-ink)!important;
+}
+
+.lead-home .lead-metric-card small,
+.lead-home .lead-metric-card--feature small,
+.lead-home .lead-pillar-card>span,
+.lead-home .lead-pillar-card--dark>span,
+.lead-home .lead-pillar-card--signal>span,
+.lead-home .lead-career-track span,
+.lead-home .lead-career-track article:first-child span,
+.lead-home .lead-lab-grid>a>span{
+  color:var(--exec-accent)!important;
+  font-size:.57rem!important;
+  letter-spacing:.07em!important;
+}
+
+.lead-home .lead-metric-card strong,
+.lead-home .lead-metric-card--feature strong{
+  margin:1.4rem 0 .55rem!important;
+  color:var(--exec-ink)!important;
+  font-size:clamp(2rem,2.7vw,2.65rem)!important;
+  letter-spacing:-.045em!important;
+  line-height:1!important;
+}
+#main_content .lead-home .lead-metric-card p,
+#main_content .lead-home .lead-metric-card--feature p,
+#main_content .lead-home .lead-pillar-card p,
+#main_content .lead-home .lead-pillar-card--dark p,
+#main_content .lead-home .lead-pillar-card--signal p,
+#main_content .lead-home .lead-career-track p,
+#main_content .lead-home .lead-career-track article:first-child p,
+#main_content .lead-home .lead-lab-grid p{
+  color:var(--exec-muted)!important;
+  font-size:.8rem!important;
+}
+
+#main_content .lead-home .lead-pillar-card h3{
+  margin:1.6rem 0 .7rem!important;
+  color:var(--exec-ink)!important;
+  font-size:clamp(1.3rem,1.9vw,1.7rem)!important;
+  letter-spacing:-.03em!important;
+  line-height:1.08!important;
+}
+.lead-home .lead-pillar-card b,
+.lead-home .lead-pillar-card--dark b{margin-top:auto;color:var(--exec-accent)!important}
+
+#main_content .lead-home .lead-career-track h3{
+  margin:1.45rem 0 .5rem!important;
+  color:var(--exec-ink)!important;
+  font-size:1.05rem!important;
+}
+.lead-home .lead-career .lead-link--light,
+.lead-home .lead-innovation .lead-link--light{color:var(--exec-ink)!important}
+
+/* Remove the old mini-diagram treatment from practical tool cards. */
+.lead-home .lead-lab-grid>a>div{display:none!important}
+#main_content .lead-home .lead-lab-grid h3{
+  margin:1.5rem 0 .55rem!important;
+  color:var(--exec-ink)!important;
+  font-size:1.35rem!important;
+}
+.lead-home .lead-lab-grid strong{margin-top:auto;color:var(--exec-accent)!important;font-size:.68rem!important}
+
+.lead-home .lead-final{
+  background:var(--exec-dark)!important;
+  color:#fff!important;
+}
+#main_content .lead-home .lead-final h2{
+  max-width:760px!important;
+  color:#fff!important;
+  font-size:clamp(2.2rem,3.4vw,3.25rem)!important;
+  letter-spacing:-.04em!important;
+  line-height:1.02!important;
+}
+#main_content .lead-home .lead-final>p:not(.lead-kicker){
+  max-width:650px!important;
+  margin:1rem 0 1.4rem!important;
+  color:rgba(255,255,255,.72)!important;
+}
+
+/* --------------------------------------------------------------------------
+   Shared Experience / Impact / Innovation / project pages
+   -------------------------------------------------------------------------- */
+.sp-page .sp-hero{
+  display:block!important;
+  min-height:0!important;
+  padding:clamp(3.4rem,5vw,5rem)!important;
+  border-bottom:1px solid var(--exec-line);
+  background:#fff!important;
+  color:var(--exec-ink)!important;
+}
+.sp-page .sp-hero-card{display:none!important}
+.sp-page .sp-hero__copy{max-width:940px}
+#main_content .sp-page .sp-hero h1{
+  max-width:900px!important;
+  color:var(--exec-ink)!important;
+  font-size:clamp(2.7rem,4.2vw,3.65rem)!important;
+  letter-spacing:-.045em!important;
+  line-height:1.01!important;
+}
+.sp-page .sp-hero h1 em{color:var(--exec-accent)!important}
+#main_content .sp-page .sp-hero__lede{
+  max-width:760px!important;
+  margin:1.25rem 0 1.5rem!important;
+  color:var(--exec-muted)!important;
+  font-size:1.01rem!important;
+  line-height:1.62!important;
+}
+.sp-page .sp-hero .sp-link--light{color:var(--exec-ink)!important}
+
+.sp-page .sp-section{background:#fff!important;color:var(--exec-ink)!important}
+.sp-page .sp-section--paper,
+.sp-page .sp-section--dark{background:var(--exec-soft)!important;color:var(--exec-ink)!important}
+.sp-page .sp-section--dark .sp-heading>p{color:var(--exec-muted)!important}
+
+.sp-page .sp-statement{
+  display:block!important;
+  background:var(--exec-soft)!important;
+}
+#main_content .sp-page .sp-statement h2{
+  max-width:920px;
+  color:var(--exec-ink)!important;
+  font-size:clamp(2rem,3vw,2.8rem)!important;
+  letter-spacing:-.04em!important;
+  line-height:1.06!important;
+}
+#main_content .sp-page .sp-statement>p:last-child{
+  max-width:760px;
+  margin-top:1rem!important;
+  color:var(--exec-muted)!important;
+}
+
+.sp-page .sp-card-grid,
+.sp-page .sp-feature-grid,
+.sp-page .sp-list-grid,
+.sp-page .sp-status-grid{
+  gap:1rem!important;
+  background:transparent!important;
+  border:0!important;
+}
+.sp-page .sp-card,
+.sp-page .sp-card--dark,
+.sp-page .sp-card--signal,
+.sp-page .sp-card--blue,
+.sp-page .sp-list-card,
+.sp-page .sp-feature-grid article,
+.sp-page .sp-status-grid div{
+  min-height:0!important;
+  padding:1.4rem!important;
+  border:1px solid var(--exec-line)!important;
+  background:#fff!important;
+  color:var(--exec-ink)!important;
+  box-shadow:none!important;
+}
+.sp-page .sp-card>span,
+.sp-page .sp-card--dark>span,
+.sp-page .sp-card--signal>span,
+.sp-page .sp-card--blue>span,
+.sp-page .sp-list-card span,
+.sp-page .sp-feature-grid span,
+.sp-page .sp-status-grid small{
+  color:var(--exec-accent)!important;
+  letter-spacing:.07em!important;
+}
+#main_content .sp-page .sp-card h3{
+  margin:1.5rem 0 .65rem!important;
+  color:var(--exec-ink)!important;
+  font-size:clamp(1.3rem,1.9vw,1.7rem)!important;
+  letter-spacing:-.03em!important;
+  line-height:1.08!important;
+}
+#main_content .sp-page .sp-card p,
+#main_content .sp-page .sp-card--dark p,
+#main_content .sp-page .sp-card--signal p,
+#main_content .sp-page .sp-card--blue p,
+#main_content .sp-page .sp-list-card p,
+#main_content .sp-page .sp-feature-grid p,
+.sp-page .sp-status-grid span{
+  color:var(--exec-muted)!important;
+}
+.sp-page .sp-card b,
+.sp-page .sp-card--dark b,
+.sp-page .sp-card--blue b{margin-top:auto;color:var(--exec-accent)!important}
+
+.sp-page .sp-timeline{
+  gap:.75rem!important;
+  background:transparent!important;
+  border:0!important;
+}
+.sp-page .sp-timeline article{
+  padding:1.3rem!important;
+  border:1px solid var(--exec-line);
+  background:#fff!important;
+}
+.sp-page .sp-timeline span{color:var(--exec-accent)!important}
+#main_content .sp-page .sp-timeline h3{color:var(--exec-ink)!important;font-size:1.15rem!important}
+#main_content .sp-page .sp-timeline p{color:var(--exec-muted)!important;font-size:.8rem!important}
+
+.sp-page .sp-impact-story{
+  gap:clamp(1.5rem,4vw,4rem)!important;
+  padding:2.5rem 0!important;
+}
+.sp-page .sp-impact-story__label span,
+.sp-page .sp-impact-story__content>small{color:var(--exec-accent)!important}
+.sp-page .sp-impact-story__label strong{
+  margin-top:.7rem!important;
+  font-size:clamp(2rem,3vw,2.75rem)!important;
+  line-height:1!important;
+}
+#main_content .sp-page .sp-impact-story h3{
+  font-size:clamp(1.6rem,2.4vw,2.2rem)!important;
+  letter-spacing:-.035em!important;
+  line-height:1.06!important;
+}
+.sp-page .sp-impact-story dl{gap:.75rem!important;background:transparent!important;border:0!important}
+.sp-page .sp-impact-story dl div{border:1px solid var(--exec-line);background:#fff!important}
+
+.sp-page .sp-facts{border-color:var(--exec-line)!important}
+.sp-page .sp-facts div{padding:1rem 1.35rem!important}
+.sp-page .sp-facts small{color:var(--exec-accent)!important}
+
+.sp-page .sp-boundary{
+  border:1px solid var(--exec-line)!important;
+  background:var(--exec-soft)!important;
+}
+
+.sp-page .sp-final{
+  background:var(--exec-dark)!important;
+  color:#fff!important;
+}
+#main_content .sp-page .sp-final h2{
+  max-width:800px!important;
+  color:#fff!important;
+  font-size:clamp(2.15rem,3.3vw,3.2rem)!important;
+  letter-spacing:-.04em!important;
+  line-height:1.03!important;
+}
+#main_content .sp-page .sp-final>p:not(.sp-kicker){
+  max-width:680px!important;
+  margin:1rem 0 1.4rem!important;
+  color:rgba(255,255,255,.72)!important;
+}
+.sp-page .sp-final .sp-link--light{color:#fff!important}
+
+/* --------------------------------------------------------------------------
+   Deep Modern Audit Practice — retain detail, remove showcase scale
+   -------------------------------------------------------------------------- */
+.sp-page .sp-population-feature,
+.sp-page .sp-visual-feature,
+.sp-page .sp-workflow-feature,
+.sp-page .sp-ai-feature{box-shadow:none!important}
+
+.sp-page .sp-population-feature__mark strong,
+.sp-page .sp-visual-feature__mark strong,
+.sp-page .sp-workflow-feature__mark strong,
+.sp-page .sp-ai-feature__mark strong{
+  font-size:clamp(2.2rem,3.5vw,3.2rem)!important;
+  letter-spacing:-.045em!important;
+  line-height:1!important;
+}
+
+#main_content .sp-page .sp-population-feature__copy h3,
+#main_content .sp-page .sp-visual-feature__copy h3,
+#main_content .sp-page .sp-workflow-feature__copy h3,
+#main_content .sp-page .sp-ai-feature__copy h3{
+  font-size:clamp(1.7rem,2.5vw,2.25rem)!important;
+  letter-spacing:-.035em!important;
+  line-height:1.06!important;
+}
+
+.sp-page .sp-population-flow article,
+.sp-page .sp-visual-lenses article,
+.sp-page .sp-workflow-track article,
+.sp-page .sp-ai-operating-model article,
+.sp-page .sp-ai-use-grid article{
+  min-height:0!important;
+  background:#fff!important;
+  color:var(--exec-ink)!important;
+}
+#main_content .sp-page .sp-population-flow h4,
+#main_content .sp-page .sp-visual-lenses h4,
+#main_content .sp-page .sp-workflow-track h4,
+#main_content .sp-page .sp-ai-operating-model h4,
+#main_content .sp-page .sp-ai-use-grid h4{color:var(--exec-ink)!important;margin-top:1.5rem!important}
+#main_content .sp-page .sp-ai-use-grid p{color:var(--exec-muted)!important}
+
+.sp-page .sp-ai-feature{background:var(--exec-soft)!important}
+.sp-page .sp-ai-nondelegable__intro,
+.sp-page .sp-population-panel--dark{background:var(--exec-dark)!important}
+
+/* --------------------------------------------------------------------------
+   AuditTicks and other practical project pages
+   -------------------------------------------------------------------------- */
+.sp-page .atp-hero-badge{
+  border-color:var(--exec-line)!important;
+  background:var(--exec-soft)!important;
+  color:var(--exec-accent)!important;
+}
+.sp-page .atp-benefit-card,
+.sp-page .atp-benefit-card--dark,
+.sp-page .atp-benefit-card--signal{
+  min-height:0!important;
+  border:1px solid var(--exec-line)!important;
+  background:#fff!important;
+  color:var(--exec-ink)!important;
+}
+#main_content .sp-page .atp-benefit-card h3,
+#main_content .sp-page .atp-benefit-card--dark h3{color:var(--exec-ink)!important;font-size:clamp(1.3rem,1.8vw,1.65rem)!important}
+#main_content .sp-page .atp-benefit-card p,
+#main_content .sp-page .atp-benefit-card--dark p,
+#main_content .sp-page .atp-benefit-card--signal p{color:var(--exec-muted)!important}
+.sp-page .atp-problem-grid{gap:1rem!important;background:transparent!important;border:0!important}
+.sp-page .atp-visual-card{box-shadow:none!important}
+#main_content .sp-page .atp-early-access__copy h2{font-size:clamp(1.9rem,2.8vw,2.55rem)!important}
+
+/* --------------------------------------------------------------------------
+   Audit analytics case study — keep the dashboard, simplify the presentation
+   -------------------------------------------------------------------------- */
+.analytics-case .analytics-hero{
+  min-height:0!important;
+  padding:clamp(3.4rem,5vw,5rem)!important;
+  border-bottom:1px solid var(--exec-line);
+  background:#fff!important;
+  color:var(--exec-ink)!important;
+}
+#main_content .analytics-case .analytics-hero h1{
+  color:var(--exec-ink)!important;
+  font-size:clamp(2.6rem,4vw,3.55rem)!important;
+  letter-spacing:-.045em!important;
+  line-height:1.01!important;
+}
+.analytics-case .analytics-hero h1 em{color:var(--exec-accent)!important}
+#main_content .analytics-case .analytics-hero__lede{color:var(--exec-muted)!important;font-size:1rem!important}
+.analytics-case .analytics-hero .analytics-link--light{color:var(--exec-ink)!important}
+.analytics-case .analytics-screen{border:1px solid var(--exec-line)!important;box-shadow:none!important}
+.analytics-case .signal-tag{display:none!important}
+
+.analytics-case .analytics-statement{display:block!important;background:var(--exec-soft)!important}
+#main_content .analytics-case .analytics-statement h2{
+  max-width:920px;
+  font-size:clamp(2rem,3vw,2.75rem)!important;
+  letter-spacing:-.04em!important;
+  line-height:1.06!important;
+}
+#main_content .analytics-case .analytics-statement>p:last-child{max-width:760px;margin-top:1rem!important;color:var(--exec-muted)!important}
+
+.analytics-case .population-section,
+.analytics-case .investigation-section,
+.analytics-case .signals-section,
+.analytics-case .analytics-decisions,
+.analytics-case .related-analytics{background:#fff!important;color:var(--exec-ink)!important}
+.analytics-case .analytics-solution,
+.analytics-case .analytics-impact{background:var(--exec-soft)!important;color:var(--exec-ink)!important}
+
+.analytics-case .population-flow,
+.analytics-case .investigation-track{
+  border-color:var(--exec-line)!important;
+}
+.analytics-case .population-flow div,
+.analytics-case .investigation-track div{min-height:0!important;border-color:var(--exec-line)!important}
+.analytics-case .population-flow small,
+.analytics-case .investigation-track small{color:var(--exec-accent)!important}
+.analytics-case .population-flow strong,
+.analytics-case .investigation-track strong,
+#main_content .analytics-case .investigation-section__intro h2{color:var(--exec-ink)!important}
+.analytics-case .population-flow span,
+.analytics-case .investigation-track span{color:var(--exec-muted)!important}
+
+.analytics-case .signals-grid{gap:1rem!important;background:transparent!important;border:0!important}
+.analytics-case .signal-card,
+.analytics-case .signal-card--cyan,
+.analytics-case .signal-card--blue{
+  min-height:0!important;
+  padding:1.4rem!important;
+  border:1px solid var(--exec-line)!important;
+  background:#fff!important;
+  color:var(--exec-ink)!important;
+}
+#main_content .analytics-case .signal-card h3,
+#main_content .analytics-case .signal-card--blue h3{
+  margin:1.5rem 0 .6rem!important;
+  color:var(--exec-ink)!important;
+  font-size:clamp(1.3rem,1.9vw,1.7rem)!important;
+}
+#main_content .analytics-case .signal-card p,
+#main_content .analytics-case .signal-card--blue p{color:var(--exec-muted)!important;font-size:.8rem!important}
+
+.analytics-case .analytics-impact{gap:3rem!important}
+.analytics-case .analytics-impact__statement strong{
+  font-size:clamp(2.2rem,3.4vw,3.2rem)!important;
+  letter-spacing:-.04em!important;
+  line-height:1.02!important;
+}
+
+.analytics-case .analytics-project-grid{gap:1rem!important}
+.analytics-case .analytics-project{border:1px solid var(--exec-line);box-shadow:none!important}
+#main_content .analytics-case .analytics-project h3{font-size:clamp(1.25rem,1.8vw,1.65rem)!important}
+
+.analytics-case .analytics-final{
+  min-height:0!important;
+  background:var(--exec-dark)!important;
+  color:#fff!important;
+}
+#main_content .analytics-case .analytics-final h2{
+  color:#fff!important;
+  font-size:clamp(2.15rem,3.3vw,3.2rem)!important;
+  letter-spacing:-.04em!important;
+  line-height:1.03!important;
+}
+.analytics-case .analytics-final .analytics-link--light{color:#fff!important}
+
+/* --------------------------------------------------------------------------
+   Responsive behavior
+   -------------------------------------------------------------------------- */
+@media(max-width:1100px){
+  .lead-home .lead-section-heading,
+  .sp-page .sp-heading,
+  .analytics-case .analytics-section-heading--split{grid-template-columns:1fr!important;gap:.8rem!important}
+  .lead-home .lead-section-heading>p,
+  .sp-page .sp-heading>p,
+  .analytics-case .analytics-section-heading--split>p{margin-left:0!important}
+}
+
+@media(max-width:760px){
+  .lead-home .lead-hero,
+  .lead-home .lead-metrics,
+  .lead-home .lead-pillars,
+  .lead-home .lead-career,
+  .lead-home .lead-innovation,
+  .lead-home .lead-final,
+  .sp-page .sp-hero,
+  .sp-page .sp-section,
+  .sp-page .sp-statement,
+  .sp-page .sp-final,
+  .analytics-case .analytics-hero,
+  .analytics-case .analytics-statement,
+  .analytics-case .population-section,
+  .analytics-case .analytics-solution,
+  .analytics-case .signals-section,
+  .analytics-case .investigation-section,
+  .analytics-case .analytics-impact,
+  .analytics-case .analytics-decisions,
+  .analytics-case .related-analytics,
+  .analytics-case .analytics-final{padding:2.5rem 1.2rem!important}
+
+  #main_content .lead-home .lead-hero h1,
+  #main_content .sp-page .sp-hero h1,
+  #main_content .analytics-case .analytics-hero h1{font-size:clamp(2.35rem,10vw,3rem)!important}
+
+  .lead-home .lead-metric-grid,
+  .lead-home .lead-pillar-grid,
+  .lead-home .lead-career-track,
+  .lead-home .lead-lab-grid,
+  .sp-page .sp-card-grid,
+  .sp-page .sp-feature-grid,
+  .sp-page .sp-list-grid,
+  .analytics-case .signals-grid{grid-template-columns:1fr!important}
+
+  .lead-home .lead-career-track article:last-child{grid-column:auto!important}
+  .sp-page .sp-card-grid>:last-child,
+  .sp-page .sp-feature-grid>:last-child,
+  .sp-page .sp-list-grid>:last-child{grid-column:auto!important}
+
+  .analytics-case .analytics-hero{grid-template-columns:1fr!important}
+  .analytics-case .analytics-hero__visual{margin-top:1.5rem}
+}
