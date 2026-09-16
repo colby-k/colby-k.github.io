@@ -1,0 +1,16 @@
+/* Small contrast/state corrections applied after executive-theme-v1.css. */
+
+/* Sections formerly using dark backgrounds are now light; their old light-link
+   treatment should therefore use the standard ink color. */
+.sp-page .sp-section .sp-link--light{color:var(--exec-ink)!important}
+.sp-page .sp-section--dark>.sp-heading h2{color:var(--exec-ink)!important}
+.sp-page .sp-section--dark>.sp-heading>p{color:var(--exec-muted)!important}
+
+/* AuditTicks uses legacy class names from an earlier dark CTA treatment. */
+#main_content .sp-page .atp-early-access__copy h2{color:var(--exec-ink)!important}
+#main_content .sp-page .atp-early-access__copy>p:not(.sp-kicker){color:var(--exec-muted)!important}
+.sp-page .atp-early-access .sp-link--light{color:var(--exec-ink)!important}
+
+/* Ensure flattened status/feature cards do not retain white text from old variants. */
+.sp-page .sp-status-grid strong,
+#main_content .sp-page .sp-feature-grid h3{color:var(--exec-ink)!important}
