@@ -10,6 +10,7 @@ page_css: "/assets/css/strategic-pages.css"
 
 <section class="sp-hero">
   <div class="sp-hero__copy">
+    <div class="tool-hero-brand"><img src="/promptshelf-mobile/icon-512.png" alt="PromptShelf icon"><strong>PromptShelf</strong></div>
     <p class="sp-kicker">Independent Portfolio Project · AI Workflow</p>
     <h1>Make recurring AI work <em>organized, reusable, and deliberate.</em></h1>
     <p class="sp-hero__lede">PromptShelf is a local-first Chrome extension I built to organize reusable prompts and supporting context. The goal is practical: reduce repeated setup, make recurring workflows easier to use consistently, and keep the user in control of what is inserted or sent.</p>
@@ -32,6 +33,20 @@ page_css: "/assets/css/strategic-pages.css"
   <div><small>Architecture</small><strong>Local-first</strong></div>
   <div><small>Workflow</small><strong>Reusable prompts + context</strong></div>
   <div><small>Project type</small><strong>Independent productivity tool</strong></div>
+</section>
+
+<section class="sp-section tool-preview-section" aria-labelledby="promptshelf-preview-title">
+  <div class="tool-preview-layout">
+    <div class="tool-preview-copy">
+      <div class="tool-hero-brand"><img src="/promptshelf-mobile/icon-512.png" alt=""><strong>PromptShelf interface</strong></div>
+      <h2 id="promptshelf-preview-title">A working companion view of the prompt library.</h2>
+      <p>This live preview shows PromptShelf's mobile library companion using the same project identity and prompt-library concept. The primary Chrome extension includes the fuller desktop library, insertion, variables, context, and workflow features described below.</p>
+    </div>
+    <div>
+      <div class="tool-live-preview"><iframe src="/promptshelf-mobile/" title="PromptShelf mobile library live preview" loading="lazy" tabindex="-1" aria-label="PromptShelf mobile library live preview"></iframe></div>
+      <small class="tool-preview-label">Live mobile-library preview · interaction disabled on this portfolio page</small>
+    </div>
+  </div>
 </section>
 
 <section id="workflow" class="sp-section sp-section--paper">
