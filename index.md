@@ -80,11 +80,11 @@ page_css: "/assets/css/homepage-v4.css"
   </div>
 
   <div class="lead-career-track">
-    <article><span>Current</span><div class="employer-mark employer-mark--fj"><img src="/fjm%20logo.svg" alt="FJ Management logo" loading="lazy" decoding="async"></div><h3>FJ Management</h3><p>Internal Audit Manager · financial and operational assurance.</p></article>
-    <article><span>Analytics</span><div class="employer-mark"><img src="/MACU%20logo.svg" alt="Mountain America Credit Union logo" loading="lazy" decoding="async"></div><h3>Mountain America</h3><p>Audit, compliance, and legal analytics · dashboards and automation.</p></article>
-    <article><span>Function leadership</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Academy_Mortgage_Corporation_logo.png" alt="Academy Mortgage logo" loading="lazy" decoding="async"></div><h3>Academy Mortgage</h3><p>Built the Internal Audit function · methodology, team, and analytics.</p></article>
-    <article><span>Global audit</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Alsco_Uniforms_Logo.svg" alt="Alsco Uniforms logo" loading="lazy" decoding="async"></div><h3>Alsco</h3><p>Five international divisions · six auditors managed and coached.</p></article>
-    <article><span>Foundation</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/KPMG_blue_logo.svg" alt="KPMG logo" loading="lazy" decoding="async"></div><h3>KPMG + earlier roles</h3><p>Big Four financial statement and SOX audit · accounting and reporting.</p></article>
+    <article><span>Current</span><div class="employer-mark employer-mark--fj"><img src="/fjm%20logo.svg" alt="FJ Management logo" loading="lazy" decoding="async"></div><h3>Internal Audit Manager</h3><p>FJ Management · financial and operational assurance.</p></article>
+    <article><span>Analytics</span><div class="employer-mark"><img src="/MACU%20logo.svg" alt="Mountain America Credit Union logo" loading="lazy" decoding="async"></div><h3>BI Analyst</h3><p>Audit, compliance, and legal analytics · dashboards and automation.</p></article>
+    <article><span>Function leadership</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Academy_Mortgage_Corporation_logo.png" alt="Academy Mortgage logo" loading="lazy" decoding="async"></div><h3>Senior Internal Audit Manager</h3><p>Built the Internal Audit function · methodology, team, and analytics.</p></article>
+    <article><span>Global audit</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Alsco_Uniforms_Logo.svg" alt="Alsco Uniforms logo" loading="lazy" decoding="async"></div><h3>Internal Audit Manager</h3><p>Five international divisions · six auditors managed and coached.</p></article>
+    <article><span>Foundation</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/KPMG_blue_logo.svg" alt="KPMG logo" loading="lazy" decoding="async"></div><h3>Big Four + Earlier Roles</h3><p>Financial statement and SOX audit · internal audit · accounting and reporting.</p></article>
   </div>
 
   <a class="lead-link lead-link--light" href="/leadership/">View Leadership &amp; Experience <span>↗</span></a>
