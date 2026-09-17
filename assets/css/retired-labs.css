@@ -1,9 +1,0 @@
-/* Retire earlier synthetic lab applications from the employer-facing portfolio.
-   The underlying pages remain in the repository for archival reference, but links
-   to them are intentionally suppressed on shared professional pages. */
-
-.sp-page a[href="/access-conflict-explorer/"],
-.sp-page a[href="/vendor-relationship-intelligence/"],
-.sp-page a[href="/control-evidence-lab/"] {
-  display: none !important;
-}
