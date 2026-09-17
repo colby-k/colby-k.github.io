@@ -1,0 +1,30 @@
+/* Final targeted QC overrides for the executive theme. */
+
+/* The previous homepage theme hid every direct DIV in tool cards; restore the new brand row. */
+#main_content .lead-home .lead-lab-grid > a > .tool-brand {
+  display: flex !important;
+}
+
+/* AuditTicks' former dark-theme ghost button now sits on a white hero. */
+#main_content .sp-page .sp-hero .atp-button--ghost {
+  border-color: var(--exec-line) !important;
+  background: #fff !important;
+  color: var(--exec-ink) !important;
+}
+
+/* Make embedded live interfaces read like compact phone screenshots. */
+.tool-live-preview {
+  width: min(100%, 320px) !important;
+  height: 520px !important;
+}
+.tool-live-preview iframe {
+  width: 430px !important;
+  height: 760px !important;
+  transform: scale(.744) !important;
+  transform-origin: top left !important;
+}
+
+@media(max-width:420px) {
+  .tool-live-preview { width: min(100%, 300px) !important; height: 490px !important; }
+  .tool-live-preview iframe { transform: scale(.697) !important; }
+}

@@ -11,6 +11,7 @@ preload_image: "/assets/img/auditticks-overview.webp"
 
 <section class="sp-hero sp-product-hero atp-marketing-hero">
   <div class="sp-hero__copy">
+    <div class="tool-hero-brand"><img src="/assets/img/AuditTicksPro_Icon.png" alt="AuditTicks icon"><strong>AuditTicks</strong></div>
     <div class="atp-hero-badge">Independent portfolio project · Current baseline V1.3.0 · Excel for Windows</div>
     <p class="sp-kicker">AuditTicks · Audit workflow design</p>
     <h1>A practical audit workflow project built around <em>recurring Excel friction.</em></h1>

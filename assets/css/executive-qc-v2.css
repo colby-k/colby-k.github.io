@@ -1,0 +1,279 @@
+/* Executive portfolio QC + restrained brand visuals.
+   Loaded last so light-section readability wins over legacy dark-theme rules. */
+
+/* --------------------------------------------------------------------------
+   Contrast corrections for sections converted from dark to light
+   -------------------------------------------------------------------------- */
+#main_content .lead-home .lead-career .lead-section-heading h2,
+#main_content .lead-home .lead-innovation .lead-section-heading h2 {
+  color: var(--exec-ink) !important;
+}
+
+#main_content .lead-home .lead-career .lead-section-heading > p,
+#main_content .lead-home .lead-innovation .lead-section-heading > p,
+#main_content .lead-home .lead-career p,
+#main_content .lead-home .lead-innovation p {
+  color: var(--exec-muted) !important;
+}
+
+#main_content .lead-home .lead-career a,
+#main_content .lead-home .lead-innovation a {
+  color: var(--exec-ink) !important;
+}
+
+#main_content .sp-page .sp-section--dark > .sp-heading h2,
+#main_content .sp-page .sp-section--dark > .sp-heading > div h2 {
+  color: var(--exec-ink) !important;
+}
+
+#main_content .sp-page .sp-section--dark > .sp-heading > p,
+#main_content .sp-page .sp-section--dark > p,
+#main_content .sp-page .sp-section--dark > .atp-early-access__copy > p:not(.sp-kicker) {
+  color: var(--exec-muted) !important;
+}
+
+#main_content .sp-page .sp-section--dark > .sp-actions a,
+#main_content .sp-page .sp-section--dark > .atp-early-access__copy a,
+#main_content .sp-page .sp-section--dark > a {
+  color: var(--exec-ink) !important;
+}
+
+/* Flattened cards must not retain white text from their former dark variants. */
+#main_content .sp-page .sp-card--dark h3,
+#main_content .sp-page .sp-card--blue h3,
+#main_content .sp-page .sp-card--signal h3,
+#main_content .lead-home .lead-pillar-card--dark h3,
+#main_content .lead-home .lead-pillar-card--signal h3 {
+  color: var(--exec-ink) !important;
+}
+
+/* Keep intentionally dark closing sections and dark sub-panels legible. */
+#main_content .lead-home .lead-final,
+#main_content .lead-home .lead-final h2,
+#main_content .lead-home .lead-final a,
+#main_content .sp-page .sp-final,
+#main_content .sp-page .sp-final h2,
+#main_content .sp-page .sp-final a,
+#main_content .sp-page .sp-population-panel--dark,
+#main_content .sp-page .sp-population-panel--dark h4,
+#main_content .sp-page .sp-workflow-panel--dark,
+#main_content .sp-page .sp-workflow-panel--dark h4,
+#main_content .sp-page .sp-ai-nondelegable__intro,
+#main_content .sp-page .sp-ai-nondelegable__intro h4,
+#main_content .analytics-case .analytics-final,
+#main_content .analytics-case .analytics-final h2,
+#main_content .analytics-case .analytics-final a {
+  color: #fff !important;
+}
+
+/* --------------------------------------------------------------------------
+   Employer marks
+   -------------------------------------------------------------------------- */
+.employer-mark {
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  margin: 1rem 0 .3rem;
+}
+.employer-mark img {
+  display: block;
+  width: auto;
+  max-width: 126px;
+  height: auto;
+  max-height: 42px;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  object-fit: contain;
+  box-shadow: none;
+}
+.employer-mark--square img { max-width: 54px; max-height: 54px; }
+.employer-mark--fj img { max-width: 136px; max-height: 50px; }
+
+#main_content .lead-home .lead-career-track h3 {
+  margin: .55rem 0 .5rem !important;
+}
+
+.sp-employer {
+  display: grid;
+  grid-template-columns: minmax(82px, 112px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+.sp-employer .employer-mark {
+  justify-content: flex-start;
+  margin: 0;
+}
+.sp-employer .employer-mark img {
+  max-width: 108px;
+  max-height: 44px;
+}
+#main_content .sp-page .sp-timeline .sp-employer h3 { margin: 0 !important; }
+
+/* --------------------------------------------------------------------------
+   Tool identity on homepage + Innovation
+   -------------------------------------------------------------------------- */
+.tool-brand {
+  display: flex;
+  align-items: center;
+  gap: .85rem;
+  margin-bottom: .25rem;
+}
+.tool-brand__logo {
+  display: block;
+  width: 54px;
+  height: 54px;
+  flex: 0 0 54px;
+  margin: 0;
+  border: 1px solid var(--exec-line);
+  border-radius: 12px;
+  background: #fff;
+  object-fit: contain;
+  box-shadow: none;
+}
+.tool-brand__logo--padded { padding: 6px; }
+.tool-brand > span {
+  color: var(--exec-accent) !important;
+  font-size: .58rem !important;
+  font-weight: 900;
+  letter-spacing: .07em !important;
+  text-transform: uppercase;
+}
+
+.lead-home .lead-lab-grid > a,
+.sp-page .tool-card { overflow: hidden; }
+
+#main_content .lead-home .lead-lab-grid h3 {
+  margin: 1rem 0 .55rem !important;
+}
+
+.sp-page .tool-card .tool-brand { margin-bottom: .7rem; }
+#main_content .sp-page .tool-card h3 { margin-top: .85rem !important; }
+
+.tool-card__media {
+  width: 100%;
+  height: 126px;
+  margin: .35rem 0 .8rem;
+  overflow: hidden;
+  border: 1px solid var(--exec-line);
+  background: var(--exec-soft);
+}
+.tool-card__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: top left;
+  box-shadow: none;
+}
+
+/* --------------------------------------------------------------------------
+   Tool project pages
+   -------------------------------------------------------------------------- */
+.tool-hero-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.tool-hero-brand img {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: 0;
+  padding: 5px;
+  border: 1px solid var(--exec-line);
+  border-radius: 16px;
+  background: #fff;
+  object-fit: contain;
+  box-shadow: none;
+}
+.tool-hero-brand strong {
+  color: var(--exec-ink);
+  font-size: 1rem;
+  letter-spacing: -.02em;
+}
+
+.tool-preview-section { background: var(--exec-soft) !important; }
+.tool-preview-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, .38fr) minmax(0, .62fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+}
+.tool-preview-copy { max-width: 520px; }
+.tool-preview-copy .tool-hero-brand { margin-bottom: 1.2rem; }
+#main_content .tool-preview-copy h2 {
+  margin: 0 0 .9rem;
+  color: var(--exec-ink);
+  font-size: clamp(1.8rem, 2.7vw, 2.45rem);
+  letter-spacing: -.035em;
+  line-height: 1.06;
+}
+#main_content .tool-preview-copy p {
+  margin: 0;
+  color: var(--exec-muted);
+  font-size: .9rem;
+}
+.tool-live-preview {
+  width: min(100%, 430px);
+  height: 560px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid var(--exec-line);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 18px 45px rgba(19,34,56,.08);
+}
+.tool-live-preview iframe {
+  display: block;
+  width: 430px;
+  height: 800px;
+  border: 0;
+  transform: scale(.70);
+  transform-origin: top left;
+  pointer-events: none;
+}
+.tool-live-preview--desktop {
+  width: min(100%, 720px);
+  height: 470px;
+  border-radius: 10px;
+}
+.tool-live-preview--desktop iframe {
+  width: 1024px;
+  height: 680px;
+  transform: scale(.69);
+}
+.tool-preview-label {
+  display: block;
+  margin-top: .65rem;
+  color: var(--exec-muted);
+  font-size: .62rem;
+  text-align: center;
+}
+
+/* AuditTicks already has a real product screenshot; keep its icon paired with it. */
+.auditticks-page .tool-hero-brand { margin-bottom: .85rem; }
+
+@media(max-width:1100px) {
+  .sp-employer { grid-template-columns: 100px minmax(0,1fr); }
+  .tool-preview-layout { grid-template-columns: 1fr; }
+  .tool-preview-copy { max-width: 720px; }
+}
+
+@media(max-width:760px) {
+  .employer-mark { min-height: 40px; margin-top: .8rem; }
+  .employer-mark img { max-width: 112px; max-height: 38px; }
+  .sp-employer { grid-template-columns: 1fr; gap: .5rem; }
+  .sp-employer .employer-mark { min-height: 36px; }
+  .tool-brand__logo { width: 48px; height: 48px; flex-basis: 48px; }
+  .tool-hero-brand img { width: 62px; height: 62px; }
+  .tool-live-preview { height: 500px; }
+  .tool-live-preview iframe { transform: scale(.625); }
+  .tool-live-preview--desktop { height: 390px; }
+  .tool-live-preview--desktop iframe { transform: scale(.56); }
+}

@@ -80,11 +80,11 @@ page_css: "/assets/css/homepage-v4.css"
   </div>
 
   <div class="lead-career-track">
-    <article><span>Current</span><h3>FJ Management</h3><p>Internal Audit Manager · financial and operational assurance.</p></article>
-    <article><span>Analytics</span><h3>Mountain America</h3><p>Audit, compliance, and legal analytics · dashboards and automation.</p></article>
-    <article><span>Function leadership</span><h3>Academy Mortgage</h3><p>Built the Internal Audit function · methodology, team, and analytics.</p></article>
-    <article><span>Global audit</span><h3>Alsco</h3><p>Five international divisions · six auditors managed and coached.</p></article>
-    <article><span>Foundation</span><h3>KPMG + earlier roles</h3><p>Big Four financial statement and SOX audit · accounting and reporting.</p></article>
+    <article><span>Current</span><div class="employer-mark employer-mark--fj"><img src="https://en.wikipedia.org/wiki/Special:Redirect/file/FJ_Management.jpg" alt="FJ Management logo" loading="lazy" decoding="async"></div><h3>FJ Management</h3><p>Internal Audit Manager · financial and operational assurance.</p></article>
+    <article><span>Analytics</span><div class="employer-mark employer-mark--square"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Macu-logo-2023-720x720.jpg" alt="Mountain America Credit Union logo" loading="lazy" decoding="async"></div><h3>Mountain America</h3><p>Audit, compliance, and legal analytics · dashboards and automation.</p></article>
+    <article><span>Function leadership</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Academy_Mortgage_Corporation_logo.png" alt="Academy Mortgage logo" loading="lazy" decoding="async"></div><h3>Academy Mortgage</h3><p>Built the Internal Audit function · methodology, team, and analytics.</p></article>
+    <article><span>Global audit</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Alsco_Uniforms_Logo.svg" alt="Alsco Uniforms logo" loading="lazy" decoding="async"></div><h3>Alsco</h3><p>Five international divisions · six auditors managed and coached.</p></article>
+    <article><span>Foundation</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/KPMG_blue_logo.svg" alt="KPMG logo" loading="lazy" decoding="async"></div><h3>KPMG + earlier roles</h3><p>Big Four financial statement and SOX audit · accounting and reporting.</p></article>
   </div>
 
   <a class="lead-link lead-link--light" href="/leadership/">View Leadership &amp; Experience <span>↗</span></a>
@@ -97,9 +97,9 @@ page_css: "/assets/css/homepage-v4.css"
   </div>
 
   <div class="lead-lab-grid">
-    <a href="/auditticks-pro/"><span>01 · Workpaper workflow</span><div><b>Excel</b><i>Tickmarks</i><i>References</i><em>Review</em></div><h3>AuditTicks</h3><p>Standardize repetitive workpaper mechanics so attention stays on evidence and conclusions.</p><strong>Explore project ↗</strong></a>
-    <a href="/auditpdf/"><span>02 · Evidence workflow</span><div><b>PDF</b><i>Evidence</i><i>Markup</i><em>Export</em></div><h3>AuditPDF</h3><p>Bring audit-specific annotation and evidence-review conventions into a focused PDF workflow.</p><strong>Explore project ↗</strong></a>
-    <a href="/promptshelf/"><span>03 · AI workflow</span><div><b>Prompt</b><i>Context</i><i>Variables</i><em>Insert</em></div><h3>PromptShelf</h3><p>Organize reusable prompts and context so AI-assisted work is more consistent and repeatable.</p><strong>Explore project ↗</strong></a>
+    <a href="/auditticks-pro/"><div class="tool-brand"><img class="tool-brand__logo tool-brand__logo--padded" src="/assets/img/AuditTicksPro_Icon.png" alt="AuditTicks icon" loading="lazy" decoding="async"><span>01 · Workpaper workflow</span></div><h3>AuditTicks</h3><p>Standardize repetitive workpaper mechanics so attention stays on evidence and conclusions.</p><strong>Explore project ↗</strong></a>
+    <a href="/auditpdf/"><div class="tool-brand"><img class="tool-brand__logo" src="/auditpdf-mobile/icon-512.png" alt="AuditPDF icon" loading="lazy" decoding="async"><span>02 · Evidence workflow</span></div><h3>AuditPDF</h3><p>Bring audit-specific annotation and evidence-review conventions into a focused PDF workflow.</p><strong>Explore project ↗</strong></a>
+    <a href="/promptshelf/"><div class="tool-brand"><img class="tool-brand__logo" src="/promptshelf-mobile/icon-512.png" alt="PromptShelf icon" loading="lazy" decoding="async"><span>03 · AI workflow</span></div><h3>PromptShelf</h3><p>Organize reusable prompts and context so AI-assisted work is more consistent and repeatable.</p><strong>Explore project ↗</strong></a>
   </div>
 
   <a class="lead-link lead-link--light" href="/audit-intelligence/">View Practical Modernization <span>↗</span></a>

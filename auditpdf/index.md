@@ -10,6 +10,7 @@ page_css: "/assets/css/strategic-pages.css"
 
 <section class="sp-hero">
   <div class="sp-hero__copy">
+    <div class="tool-hero-brand"><img src="/auditpdf-mobile/icon-512.png" alt="AuditPDF icon"><strong>AuditPDF</strong></div>
     <p class="sp-kicker">Independent Portfolio Project · Audit Evidence</p>
     <h1>Make PDF evidence review fit <em>the way auditors document work.</em></h1>
     <p class="sp-hero__lede">AuditPDF is a browser-based PDF annotation project I built around a recurring audit problem: evidence often arrives as PDFs, but general-purpose markup tools do not reflect audit-specific notation, legends, and review needs.</p>
@@ -32,6 +33,20 @@ page_css: "/assets/css/strategic-pages.css"
   <div><small>Format</small><strong>Browser-based PDF workflow</strong></div>
   <div><small>Designed for</small><strong>Preparers + reviewers</strong></div>
   <div><small>Project type</small><strong>Independent audit tool</strong></div>
+</section>
+
+<section class="sp-section tool-preview-section" aria-labelledby="auditpdf-preview-title">
+  <div class="tool-preview-layout">
+    <div class="tool-preview-copy">
+      <div class="tool-hero-brand"><img src="/auditpdf-mobile/icon-512.png" alt=""><strong>AuditPDF interface</strong></div>
+      <h2 id="auditpdf-preview-title">A real working interface, not a portfolio mockup.</h2>
+      <p>The preview is the current browser/mobile build of AuditPDF. It shows the actual project interface while keeping this portfolio page focused on the audit problem and design decisions behind it.</p>
+    </div>
+    <div>
+      <div class="tool-live-preview"><iframe src="/auditpdf-mobile/" title="AuditPDF live interface preview" loading="lazy" tabindex="-1" aria-label="AuditPDF live interface preview"></iframe></div>
+      <small class="tool-preview-label">Live interface preview · interaction disabled on this portfolio page</small>
+    </div>
+  </div>
 </section>
 
 <section id="workflow" class="sp-section sp-section--paper">
