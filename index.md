@@ -99,7 +99,7 @@ page_css: "/assets/css/homepage-v4.css"
   <div class="lead-lab-grid">
     <a href="/auditticks-pro/"><div class="tool-brand"><img class="tool-brand__logo tool-brand__logo--padded" src="/assets/img/AuditTicksPro_Icon.png" alt="AuditTicks icon" loading="lazy" decoding="async"><span>01 · Workpaper workflow</span></div><h3>AuditTicks</h3><p>Standardize repetitive workpaper mechanics so attention stays on evidence and conclusions.</p><strong>Explore project ↗</strong></a>
     <a href="/auditpdf/"><div class="tool-brand"><img class="tool-brand__logo" src="/auditpdf-mobile/icon-512.png" alt="AuditPDF icon" loading="lazy" decoding="async"><span>02 · Evidence workflow</span></div><h3>AuditPDF</h3><p>Bring audit-specific annotation and evidence-review conventions into a focused PDF workflow.</p><strong>Explore project ↗</strong></a>
-    <a href="/promptshelf/"><div class="tool-brand"><img class="tool-brand__logo" src="/promptshelf-mobile/icon-512.png" alt="PromptShelf icon" loading="lazy" decoding="async"><span>03 · AI workflow</span></div><h3>PromptShelf</h3><p>Organize reusable prompts and context so AI-assisted work is more consistent and repeatable.</p><strong>Explore project ↗</strong></a>
+    <a href="/promptshelf/"><div class="tool-brand"><img class="tool-brand__logo" src="/assets/img/promptshelf/icon-128.png" alt="PromptShelf icon" loading="lazy" decoding="async"><span>03 · AI workflow</span></div><h3>PromptShelf</h3><p>Organize reusable prompts and context so AI-assisted work is more consistent and repeatable.</p><strong>Explore project ↗</strong></a>
   </div>
 
   <a class="lead-link lead-link--light" href="/audit-intelligence/">View Practical Modernization <span>↗</span></a>
