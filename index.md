@@ -93,7 +93,7 @@ page_css: "/assets/css/homepage-v4.css"
 <section class="lead-innovation lead-innovation--compact" aria-labelledby="innovation-title">
   <div class="lead-section-heading lead-section-heading--light">
     <div><p class="lead-kicker">Practical modernization</p><h2 id="innovation-title">Tools built around real audit workflow friction.</h2></div>
-    <p>AuditTicks, AuditPDF, and PromptShelf are independent projects that demonstrate practical workflow design without turning the homepage into a software portfolio.</p>
+    <p>Independent projects focused on making recurring workpaper, evidence, and AI-assisted workflows more consistent and reviewable.</p>
   </div>
 
   <div class="lead-tool-strip" aria-label="Selected tools I built">
