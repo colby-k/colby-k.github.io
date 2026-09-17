@@ -1,8 +1,57 @@
 /* Final targeted QC overrides for the executive theme. */
 
-/* The previous homepage theme hid every direct DIV in tool cards; restore the new brand row. */
-#main_content .lead-home .lead-lab-grid > a > .tool-brand {
-  display: flex !important;
+/* Compact homepage modernization proof. */
+.lead-tool-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .85rem;
+  margin: 1.35rem 0 1.5rem;
+}
+.lead-tool-strip__item {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  min-width: 0;
+  padding: .85rem .95rem;
+  border: 1px solid var(--exec-line);
+  background: #fff;
+  color: var(--exec-ink) !important;
+  text-decoration: none;
+}
+.lead-tool-strip__item:hover {
+  border-color: rgba(15, 124, 105, .42);
+  transform: translateY(-1px);
+}
+.lead-tool-strip__item img {
+  display: block;
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  margin: 0;
+  padding: 2px;
+  border: 1px solid var(--exec-line);
+  border-radius: 13px;
+  background: #fff;
+  object-fit: contain;
+  box-shadow: none;
+}
+.lead-tool-strip__item span {
+  display: grid;
+  gap: .12rem;
+  min-width: 0;
+}
+.lead-tool-strip__item strong {
+  color: var(--exec-ink) !important;
+  font-size: .96rem;
+  line-height: 1.1;
+}
+.lead-tool-strip__item small {
+  color: var(--exec-muted) !important;
+  font-size: .67rem;
+  line-height: 1.25;
+}
+.lead-innovation--compact .lead-section-heading {
+  margin-bottom: 0 !important;
 }
 
 /* AuditTicks' former dark-theme ghost button now sits on a white hero. */
@@ -22,6 +71,16 @@
   height: 760px !important;
   transform: scale(.744) !important;
   transform-origin: top left !important;
+}
+
+@media(max-width:760px) {
+  .lead-tool-strip { grid-template-columns: 1fr; }
+  .lead-tool-strip__item { padding: .75rem .85rem; }
+  .lead-tool-strip__item img {
+    width: 56px;
+    height: 56px;
+    flex-basis: 56px;
+  }
 }
 
 @media(max-width:420px) {
