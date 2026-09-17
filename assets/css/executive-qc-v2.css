@@ -89,11 +89,25 @@
   box-shadow: none;
 }
 .employer-mark--square img { max-width: 54px; max-height: 54px; }
-.employer-mark--fj { min-height: 68px; }
-.employer-mark--fj img {
+
+/* The supplied FJ PNG uses a large 1672×941 canvas around the actual mark.
+   Crop that canvas in CSS rather than redrawing or modifying the employer logo. */
+.employer-mark--fj {
+  position: relative;
   width: 220px;
-  max-width: 220px;
-  max-height: 70px;
+  height: 64px;
+  min-height: 64px;
+  overflow: hidden;
+}
+.employer-mark--fj img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 220px;
+  max-width: none;
+  height: auto;
+  max-height: none;
+  transform: translateY(-50%);
 }
 
 #main_content .lead-home .lead-career-track h3 {
@@ -102,7 +116,7 @@
 
 .sp-employer {
   display: grid;
-  grid-template-columns: minmax(120px, 140px) minmax(0, 1fr);
+  grid-template-columns: minmax(140px, 160px) minmax(0, 1fr);
   gap: 1rem;
   align-items: center;
 }
@@ -114,10 +128,15 @@
   max-width: 108px;
   max-height: 44px;
 }
+.sp-employer .employer-mark--fj {
+  width: 150px;
+  height: 50px;
+  min-height: 50px;
+}
 .sp-employer .employer-mark--fj img {
-  width: 140px;
-  max-width: 140px;
-  max-height: 58px;
+  width: 150px;
+  max-width: none;
+  max-height: none;
 }
 #main_content .sp-page .sp-timeline .sp-employer h3 { margin: 0 !important; }
 
@@ -270,7 +289,7 @@
 .auditticks-page .tool-hero-brand { margin-bottom: .85rem; }
 
 @media(max-width:1100px) {
-  .sp-employer { grid-template-columns: 140px minmax(0,1fr); }
+  .sp-employer { grid-template-columns: 160px minmax(0,1fr); }
   .tool-preview-layout { grid-template-columns: 1fr; }
   .tool-preview-copy { max-width: 720px; }
 }
@@ -278,19 +297,27 @@
 @media(max-width:760px) {
   .employer-mark { min-height: 40px; margin-top: .8rem; }
   .employer-mark img { max-width: 112px; max-height: 38px; }
-  .employer-mark--fj { min-height: 68px; }
+  .employer-mark--fj {
+    width: 220px;
+    height: 64px;
+    min-height: 64px;
+  }
   .employer-mark--fj img {
-    width: 200px;
-    max-width: 200px;
-    max-height: 64px;
+    width: 220px;
+    max-width: none;
+    max-height: none;
   }
   .sp-employer { grid-template-columns: 1fr; gap: .5rem; }
   .sp-employer .employer-mark { min-height: 36px; }
-  .sp-employer .employer-mark--fj { min-height: 60px; }
+  .sp-employer .employer-mark--fj {
+    width: 180px;
+    height: 56px;
+    min-height: 56px;
+  }
   .sp-employer .employer-mark--fj img {
     width: 180px;
-    max-width: 180px;
-    max-height: 60px;
+    max-width: none;
+    max-height: none;
   }
   .tool-brand__logo {
     width: 64px;
