@@ -43,7 +43,7 @@ page_css: "/assets/css/audit-impact-v5.css"
 <section id="professional-practice" class="sp-section">
   <div class="sp-heading">
     <div><p class="sp-kicker sp-kicker--dark">Professional practice</p><h2>Methods that strengthen assurance work.</h2></div>
-    <p>These are generalized descriptions of approaches used across audit, compliance, risk, and analytics environments. They are intentionally deeper than the employer-facing Career Impact page and are distinct from the synthetic portfolio applications elsewhere on this site.</p>
+    <p>These are generalized descriptions of approaches used across audit, compliance, risk, and analytics environments. They are intentionally deeper than the employer-facing Career Impact page and connect to practical tools and technical examples without disclosing employer information.</p>
   </div>
 
   <article id="population-testing" class="sp-population-feature">
@@ -101,7 +101,7 @@ page_css: "/assets/css/audit-impact-v5.css"
 
     <div class="sp-population-boundary"><strong>Audit boundary</strong><p>Testing every record does not eliminate judgment or establish that every flagged item is an exception. It improves the information available for scoping, selection, investigation, and conclusion.</p></div>
 
-    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/sql-projects/">View full-population testing examples <span>↗</span></a><a class="sp-link" href="/access-conflict-explorer/">See an interactive population test <span>↗</span></a></div>
+    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/sql-projects/">View full-population testing examples <span>↗</span></a></div>
   </article>
 
   <article id="risk-visualization" class="sp-visual-feature">
@@ -172,7 +172,7 @@ page_css: "/assets/css/audit-impact-v5.css"
 
     <div class="sp-visual-boundary"><strong>Audit boundary</strong><p>A visualization can show that records differ, cluster, or change. It does not establish why the pattern exists or whether it represents an error, control failure, or misconduct. Those conclusions require evidence and investigation.</p></div>
 
-    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/audit-analytics/">Explore audit analytics work <span>↗</span></a><a class="sp-link" href="/vendor-relationship-intelligence/">See visual investigation in practice <span>↗</span></a></div>
+    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/audit-analytics/">Explore audit analytics work <span>↗</span></a></div>
   </article>
 
   <article id="workflow-improvement" class="sp-workflow-feature">
@@ -236,7 +236,7 @@ page_css: "/assets/css/audit-impact-v5.css"
 
     <div class="sp-workflow-boundary"><strong>Audit boundary</strong><p>A standardized workflow can improve consistency and reviewability. It should not force a procedure, evidence decision, issue rating, or conclusion that does not fit the actual risk and facts.</p></div>
 
-    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/auditticks-pro/">Explore AuditTicks <span>↗</span></a><a class="sp-link" href="/excel-tools/">View practical audit resources <span>↗</span></a></div>
+    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/auditticks-pro/">Explore AuditTicks <span>↗</span></a><a class="sp-link" href="/auditpdf/">Explore AuditPDF <span>↗</span></a></div>
   </article>
 
   <article id="responsible-ai" class="sp-ai-feature">
@@ -316,7 +316,7 @@ page_css: "/assets/css/audit-impact-v5.css"
 
     <div class="sp-ai-boundary"><strong>Audit boundary</strong><p>An AI-generated summary, analysis, or draft is not audit evidence. It is an intermediate work product that must be verified against authorized sources and reviewed by the auditor responsible for the conclusion.</p></div>
 
-    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/ai-audit-assistant/">Review the Responsible AI framework <span>↗</span></a><a class="sp-link" href="/control-evidence-lab/">Explore evidence judgment <span>↗</span></a></div>
+    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/ai-audit-assistant/">Review the Responsible AI framework <span>↗</span></a><a class="sp-link" href="/promptshelf/">Explore PromptShelf <span>↗</span></a></div>
   </article>
 </section>
 
@@ -334,13 +334,13 @@ page_css: "/assets/css/audit-impact-v5.css"
 
 <section class="sp-section sp-section--paper">
   <div class="sp-heading">
-    <div><p class="sp-kicker sp-kicker--dark">See the methods in practice</p><h2>Portfolio demonstrations and technical examples.</h2></div>
-    <p>These independent projects use synthetic, demonstration, external, or public data to make analytical methods and audit judgment visible without disclosing employer information.</p>
+    <div><p class="sp-kicker sp-kicker--dark">See the methods in practice</p><h2>Portfolio tools and technical examples.</h2></div>
+    <p>Independent projects and technical examples make analytical methods, workflow design, and audit judgment visible without disclosing employer information.</p>
   </div>
   <div class="sp-card-grid">
     <a class="sp-card" href="/sql-projects/"><span>Population testing</span><h3>SQL testing examples</h3><p>Defined tests, population reconciliation, exception logic, and reproducible analytical procedures.</p><b>Explore examples ↗</b></a>
     <a class="sp-card sp-card--dark" href="/audit-analytics/"><span>Visualization</span><h3>Audit analytics</h3><p>Dashboards and analytical examples focused on risk visibility, exception analysis, and decision support.</p><b>Explore analytics ↗</b></a>
-    <a class="sp-card sp-card--signal" href="/audit-intelligence/"><span>Interactive applications</span><h3>Innovation</h3><p>Access, vendor-relationship, control-evidence, and workflow projects that demonstrate practical audit modernization.</p><b>View Innovation ↗</b></a>
+    <a class="sp-card sp-card--signal" href="/audit-intelligence/"><span>Practical tools</span><h3>Innovation</h3><p>AuditTicks, AuditPDF, and PromptShelf demonstrate practical workflow modernization across workpapers, evidence review, and AI-assisted work.</p><b>View Innovation ↗</b></a>
   </div>
 </section>
 
