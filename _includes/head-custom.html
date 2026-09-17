@@ -1,5 +1,9 @@
 <meta name="theme-color" content="#f5f5f7">
 
+{% if page.url == '/access-conflict-explorer/' or page.url == '/vendor-relationship-intelligence/' or page.url == '/control-evidence-lab/' %}
+<meta name="robots" content="noindex">
+{% endif %}
+
 <link
   rel="stylesheet"
   href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"

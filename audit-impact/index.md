@@ -100,7 +100,7 @@ page_css: "/assets/css/strategic-pages.css"
   <p class="sp-kicker">Career impact</p>
   <h2>Strengthen the assurance.<br>Improve how the function operates.</h2>
   <p>The strongest improvements make the current audit better and the next one easier to execute well.</p>
-  <div class="sp-actions"><a class="sp-link sp-link--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a><a class="sp-link sp-link--light" href="/leadership/">View Experience <span>↗</span></a><a class="sp-link sp-link--light" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span>↗</span></a></div>
+  <div class="sp-actions"><a class="sp-link sp-link--light" href="/assets/docs/Resume.pdf" target="_blank" rel="noopener">View résumé <span>↗</span></a><a class="sp-link sp-link--light" href="/audit-intelligence/">View Innovation <span>↗</span></a><a class="sp-link sp-link--light" href="https://www.linkedin.com/in/colby-k/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span>↗</span></a></div>
 </section>
 
 </article>

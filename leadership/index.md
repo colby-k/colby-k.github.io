@@ -67,7 +67,7 @@ page_css: "/assets/css/strategic-pages.css"
   </div>
 </section>
 
-<section class="sp-boundary"><strong>Portfolio boundary</strong><p>Professional experience is generalized to protect employer, client, audit, and proprietary information. Interactive applications and downloadable examples elsewhere on the site are independent portfolio work using synthetic, demonstration, external, or public data.</p></section>
+<section class="sp-boundary"><strong>Portfolio boundary</strong><p>Professional experience is generalized to protect employer, client, audit, and proprietary information. Independent tools and technical examples elsewhere on the site are separate portfolio work; demonstration examples use synthetic, external, public, or sample data where appropriate.</p></section>
 
 <section class="sp-final">
   <p class="sp-kicker">Leadership trajectory</p>
