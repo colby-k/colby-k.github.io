@@ -89,7 +89,12 @@
   box-shadow: none;
 }
 .employer-mark--square img { max-width: 54px; max-height: 54px; }
-.employer-mark--fj img { max-width: 136px; max-height: 50px; }
+.employer-mark--fj { min-height: 68px; }
+.employer-mark--fj img {
+  width: 220px;
+  max-width: 220px;
+  max-height: 70px;
+}
 
 #main_content .lead-home .lead-career-track h3 {
   margin: .55rem 0 .5rem !important;
@@ -97,7 +102,7 @@
 
 .sp-employer {
   display: grid;
-  grid-template-columns: minmax(82px, 112px) minmax(0, 1fr);
+  grid-template-columns: minmax(120px, 140px) minmax(0, 1fr);
   gap: 1rem;
   align-items: center;
 }
@@ -109,6 +114,11 @@
   max-width: 108px;
   max-height: 44px;
 }
+.sp-employer .employer-mark--fj img {
+  width: 140px;
+  max-width: 140px;
+  max-height: 58px;
+}
 #main_content .sp-page .sp-timeline .sp-employer h3 { margin: 0 !important; }
 
 /* --------------------------------------------------------------------------
@@ -117,22 +127,22 @@
 .tool-brand {
   display: flex;
   align-items: center;
-  gap: .85rem;
+  gap: .95rem;
   margin-bottom: .25rem;
 }
 .tool-brand__logo {
   display: block;
-  width: 54px;
-  height: 54px;
-  flex: 0 0 54px;
+  width: 68px;
+  height: 68px;
+  flex: 0 0 68px;
   margin: 0;
   border: 1px solid var(--exec-line);
-  border-radius: 12px;
+  border-radius: 14px;
   background: #fff;
   object-fit: contain;
   box-shadow: none;
 }
-.tool-brand__logo--padded { padding: 6px; }
+.tool-brand__logo--padded { padding: 2px; }
 .tool-brand > span {
   color: var(--exec-accent) !important;
   font-size: .58rem !important;
@@ -182,12 +192,12 @@
 }
 .tool-hero-brand img {
   display: block;
-  width: 72px;
-  height: 72px;
+  width: 88px;
+  height: 88px;
   margin: 0;
-  padding: 5px;
+  padding: 4px;
   border: 1px solid var(--exec-line);
-  border-radius: 16px;
+  border-radius: 18px;
   background: #fff;
   object-fit: contain;
   box-shadow: none;
@@ -260,7 +270,7 @@
 .auditticks-page .tool-hero-brand { margin-bottom: .85rem; }
 
 @media(max-width:1100px) {
-  .sp-employer { grid-template-columns: 100px minmax(0,1fr); }
+  .sp-employer { grid-template-columns: 140px minmax(0,1fr); }
   .tool-preview-layout { grid-template-columns: 1fr; }
   .tool-preview-copy { max-width: 720px; }
 }
@@ -268,10 +278,26 @@
 @media(max-width:760px) {
   .employer-mark { min-height: 40px; margin-top: .8rem; }
   .employer-mark img { max-width: 112px; max-height: 38px; }
+  .employer-mark--fj { min-height: 68px; }
+  .employer-mark--fj img {
+    width: 200px;
+    max-width: 200px;
+    max-height: 64px;
+  }
   .sp-employer { grid-template-columns: 1fr; gap: .5rem; }
   .sp-employer .employer-mark { min-height: 36px; }
-  .tool-brand__logo { width: 48px; height: 48px; flex-basis: 48px; }
-  .tool-hero-brand img { width: 62px; height: 62px; }
+  .sp-employer .employer-mark--fj { min-height: 60px; }
+  .sp-employer .employer-mark--fj img {
+    width: 180px;
+    max-width: 180px;
+    max-height: 60px;
+  }
+  .tool-brand__logo {
+    width: 64px;
+    height: 64px;
+    flex-basis: 64px;
+  }
+  .tool-hero-brand img { width: 78px; height: 78px; }
   .tool-live-preview { height: 500px; }
   .tool-live-preview iframe { transform: scale(.625); }
   .tool-live-preview--desktop { height: 390px; }
