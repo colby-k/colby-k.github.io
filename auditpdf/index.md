@@ -35,18 +35,23 @@ page_css: "/assets/css/strategic-pages.css"
   <div><small>Project type</small><strong>Independent audit tool</strong></div>
 </section>
 
-<section class="sp-section tool-preview-section" aria-labelledby="auditpdf-preview-title">
-  <div class="tool-preview-layout">
-    <div class="tool-preview-copy">
-      <div class="tool-hero-brand"><img src="/auditpdf-mobile/icon-512.png" alt=""><strong>AuditPDF interface</strong></div>
-      <h2 id="auditpdf-preview-title">A real working interface, not a portfolio mockup.</h2>
-      <p>The preview is the current browser/mobile build of AuditPDF. It shows the actual project interface while keeping this portfolio page focused on the audit problem and design decisions behind it.</p>
-    </div>
-    <div>
-      <div class="tool-live-preview"><iframe src="/auditpdf-mobile/" title="AuditPDF live interface preview" loading="lazy" tabindex="-1" aria-label="AuditPDF live interface preview"></iframe></div>
-      <small class="tool-preview-label">Live interface preview · interaction disabled on this portfolio page</small>
-    </div>
+<section class="sp-section tool-preview-section tool-screenshot-section" aria-labelledby="auditpdf-preview-title">
+  <div class="sp-heading">
+    <div><p class="sp-kicker sp-kicker--dark">Working interface</p><h2 id="auditpdf-preview-title">See the audit workflow in the product.</h2></div>
+    <p>These screenshots show the current AuditPDF interface using sample content: audit-specific tickmarks, an editable legend, document markup, and the surrounding review workspace.</p>
   </div>
+
+  <figure class="tool-screenshot tool-screenshot--primary">
+    <div class="tool-screenshot__frame"><img src="/assets/img/auditpdf/evidence-review.png" alt="AuditPDF reviewing a sample PDF with audit tickmarks, legend, annotations, page controls, and the tickmark library" loading="lazy" decoding="async"></div>
+    <figcaption><strong>Audit-focused evidence review.</strong> Reusable tickmarks, legends, annotations, and PDF handling in one review workspace.</figcaption>
+  </figure>
+
+  <figure class="tool-screenshot">
+    <div class="tool-screenshot__frame"><img src="/assets/img/auditpdf/workspace.png" alt="AuditPDF workspace showing PDF markup tools, document controls, page panel, tickmark library, and the Open a PDF screen" loading="lazy" decoding="async"></div>
+    <figcaption><strong>Purpose-built workspace.</strong> Common PDF, annotation, signing, and audit-notation tools organized around the evidence-review workflow.</figcaption>
+  </figure>
+
+  <div class="sp-actions"><a class="sp-link" href="/auditpdf-mobile/" target="_blank" rel="noopener">Open mobile build <span>↗</span></a></div>
 </section>
 
 <section id="workflow" class="sp-section sp-section--paper">
