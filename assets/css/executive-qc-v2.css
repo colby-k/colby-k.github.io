@@ -200,6 +200,45 @@
   box-shadow: none;
 }
 
+.tool-card__media--interface {
+  height: 150px;
+  background: #fff;
+}
+.tool-card__media--interface img {
+  object-position: top center;
+}
+
+/* Real product screenshots used as employer-facing proof, not decorative mockups. */
+.tool-screenshot-section .sp-heading { margin-bottom: 1.7rem; }
+.tool-screenshot {
+  margin: 0 0 2rem;
+}
+.tool-screenshot__frame {
+  overflow: hidden;
+  border: 1px solid var(--exec-line);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 16px 38px rgba(19,34,56,.08);
+}
+.tool-screenshot__frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.tool-screenshot figcaption {
+  max-width: 900px;
+  margin-top: .7rem;
+  color: var(--exec-muted);
+  font-size: .72rem;
+  line-height: 1.55;
+}
+.tool-screenshot figcaption strong { color: var(--exec-ink); }
+.tool-screenshot--primary { margin-bottom: 2.6rem; }
+
 /* --------------------------------------------------------------------------
    Tool project pages
    -------------------------------------------------------------------------- */
