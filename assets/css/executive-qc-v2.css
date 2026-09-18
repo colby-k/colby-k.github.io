@@ -94,16 +94,16 @@
    Crop that canvas in CSS rather than redrawing or modifying the employer logo. */
 .employer-mark--fj {
   position: relative;
-  width: 220px;
-  height: 64px;
-  min-height: 64px;
+  width: 168px;
+  height: 54px;
+  min-height: 54px;
   overflow: hidden;
 }
 .employer-mark--fj img {
   position: absolute;
   top: 50%;
   left: 0;
-  width: 220px;
+  width: 168px;
   max-width: none;
   height: auto;
   max-height: none;
@@ -129,12 +129,12 @@
   max-height: 44px;
 }
 .sp-employer .employer-mark--fj {
-  width: 150px;
-  height: 50px;
-  min-height: 50px;
+  width: 126px;
+  height: 44px;
+  min-height: 44px;
 }
 .sp-employer .employer-mark--fj img {
-  width: 150px;
+  width: 126px;
   max-width: none;
   max-height: none;
 }
@@ -298,24 +298,24 @@
   .employer-mark { min-height: 40px; margin-top: .8rem; }
   .employer-mark img { max-width: 112px; max-height: 38px; }
   .employer-mark--fj {
-    width: 220px;
-    height: 64px;
-    min-height: 64px;
+    width: 172px;
+    height: 54px;
+    min-height: 54px;
   }
   .employer-mark--fj img {
-    width: 220px;
+    width: 172px;
     max-width: none;
     max-height: none;
   }
   .sp-employer { grid-template-columns: 1fr; gap: .5rem; }
   .sp-employer .employer-mark { min-height: 36px; }
   .sp-employer .employer-mark--fj {
-    width: 180px;
-    height: 56px;
-    min-height: 56px;
+    width: 140px;
+    height: 46px;
+    min-height: 46px;
   }
   .sp-employer .employer-mark--fj img {
-    width: 180px;
+    width: 140px;
     max-width: none;
     max-height: none;
   }
