@@ -35,18 +35,23 @@ page_css: "/assets/css/strategic-pages.css"
   <div><small>Project type</small><strong>Independent productivity tool</strong></div>
 </section>
 
-<section class="sp-section tool-preview-section" aria-labelledby="promptshelf-preview-title">
-  <div class="tool-preview-layout">
-    <div class="tool-preview-copy">
-      <div class="tool-hero-brand"><img src="/assets/img/promptshelf/icon-128.png" alt=""><strong>PromptShelf interface</strong></div>
-      <h2 id="promptshelf-preview-title">A working companion view of the prompt library.</h2>
-      <p>This live preview shows PromptShelf's mobile library companion using the same project identity and prompt-library concept. The primary Chrome extension includes the fuller desktop library, insertion, variables, context, and workflow features described below.</p>
-    </div>
-    <div>
-      <div class="tool-live-preview"><iframe src="/promptshelf-mobile/" title="PromptShelf mobile library live preview" loading="lazy" tabindex="-1" aria-label="PromptShelf mobile library live preview"></iframe></div>
-      <small class="tool-preview-label">Live mobile-library preview · interaction disabled on this portfolio page</small>
-    </div>
+<section class="sp-section tool-preview-section tool-screenshot-section" aria-labelledby="promptshelf-preview-title">
+  <div class="sp-heading">
+    <div><p class="sp-kicker sp-kicker--dark">Working interface</p><h2 id="promptshelf-preview-title">See the reusable workflow in the extension.</h2></div>
+    <p>These screenshots show the actual PromptShelf Chrome extension interface rather than a portfolio mockup. The emphasis is on making recurring prompts easier to organize, retrieve, adapt, and use deliberately.</p>
   </div>
+
+  <figure class="tool-screenshot tool-screenshot--primary">
+    <div class="tool-screenshot__frame"><img src="/assets/img/promptshelf/screenshots/view-1.png" alt="PromptShelf Chrome extension interface showing a reusable prompt-library workflow" loading="lazy" decoding="async"></div>
+    <figcaption><strong>Reusable prompt library.</strong> PromptShelf keeps recurring prompts and supporting structure in a dedicated local-first workspace instead of scattered notes.</figcaption>
+  </figure>
+
+  <figure class="tool-screenshot">
+    <div class="tool-screenshot__frame"><img src="/assets/img/promptshelf/screenshots/view-2.png" alt="PromptShelf Chrome extension interface showing prompt organization and reusable workflow controls" loading="lazy" decoding="async"></div>
+    <figcaption><strong>Working extension interface.</strong> Organization and reuse stay close to the AI workflow so the user can retrieve, adapt, and review the right material before execution.</figcaption>
+  </figure>
+
+  <div class="sp-actions"><a class="sp-link" href="/promptshelf-mobile/" target="_blank" rel="noopener">Open mobile library companion <span>↗</span></a></div>
 </section>
 
 <section id="workflow" class="sp-section sp-section--paper">
