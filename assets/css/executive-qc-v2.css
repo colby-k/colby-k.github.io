@@ -182,7 +182,7 @@
 
 .tool-card__media {
   width: 100%;
-  height: 126px;
+  height: 142px;
   margin: .35rem 0 .8rem;
   overflow: hidden;
   border: 1px solid var(--exec-line);
@@ -201,17 +201,26 @@
 }
 
 .tool-card__media--interface {
-  height: 150px;
   background: #fff;
 }
 .tool-card__media--interface img {
   object-position: top center;
 }
+.sp-page .tool-card p {
+  flex: 1 1 auto;
+}
+.sp-page .tool-card b {
+  margin-top: auto;
+}
 
 /* Real product screenshots used as employer-facing proof, not decorative mockups. */
 .tool-screenshot-section .sp-heading { margin-bottom: 1.7rem; }
 .tool-screenshot {
-  margin: 0 0 2rem;
+  width: min(100%, 1120px);
+  margin: 0 auto 2rem;
+}
+.tool-screenshot:not(.tool-screenshot--primary) {
+  width: min(100%, 980px);
 }
 .tool-screenshot__frame {
   overflow: hidden;
@@ -230,7 +239,6 @@
   box-shadow: none;
 }
 .tool-screenshot figcaption {
-  max-width: 900px;
   margin-top: .7rem;
   color: var(--exec-muted);
   font-size: .72rem;
