@@ -278,9 +278,9 @@
   text-decoration: none;
 }
 .sp-credential-mark--wordmark img {
-  width: 118px;
+  width: 130px;
   height: auto;
-  max-height: 40px;
+  max-height: 42px;
 }
 .sp-credential-mark--utah img {
   width: 82px;
@@ -303,7 +303,7 @@
     max-width: 112px;
   }
   .sp-credential-mark--wordmark img {
-    width: 106px;
+    width: 116px;
     height: auto;
   }
   .sp-credential-mark--utah img {
