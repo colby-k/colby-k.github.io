@@ -250,20 +250,19 @@
 
 /* Subtle identity marks for credentials and education on Experience. */
 .sp-credential-card {
-  min-height: 230px;
+  min-height: 190px;
 }
 .sp-credential-mark {
   display: flex;
   align-items: center;
-  gap: .7rem;
-  min-height: 50px;
-  margin-bottom: .2rem;
+  min-height: 44px;
+  margin-bottom: .35rem;
 }
 .sp-credential-mark img {
   display: block;
   width: auto;
-  height: 46px;
-  max-width: 130px;
+  height: 40px;
+  max-width: 128px;
   margin: 0;
   border: 0;
   border-radius: 0;
@@ -279,25 +278,37 @@
   text-decoration: none;
 }
 .sp-credential-mark--wordmark img {
-  width: 128px;
+  width: 118px;
   height: auto;
-  max-height: 44px;
-}
-.sp-credential-mark span {
-  color: #087d69;
-  font-size: .57rem;
-  font-weight: 900;
-  letter-spacing: .1em;
-  text-transform: uppercase;
+  max-height: 40px;
 }
 #main_content .sp-credential-card h3 {
-  margin-top: 1.05rem;
+  margin-top: .7rem;
 }
 
 @media(max-width:760px) {
-  .sp-credential-card { min-height: 0; }
-  .sp-credential-mark img { height: 42px; max-width: 120px; }
-  .sp-credential-mark--wordmark img { width: 118px; height: auto; }
+  .sp-credential-card {
+    min-height: 0;
+    padding: 1.15rem;
+  }
+  .sp-credential-mark {
+    min-height: 38px;
+    margin-bottom: .2rem;
+  }
+  .sp-credential-mark img {
+    height: 36px;
+    max-width: 112px;
+  }
+  .sp-credential-mark--wordmark img {
+    width: 106px;
+    height: auto;
+  }
+  .sp-credential-mark--utah img {
+    width: 112px;
+  }
+  #main_content .sp-credential-card h3 {
+    margin-top: .55rem;
+  }
 }
 
 /* --------------------------------------------------------------------------
