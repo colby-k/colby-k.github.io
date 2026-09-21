@@ -282,6 +282,9 @@
   height: auto;
   max-height: 40px;
 }
+.sp-credential-mark--utah img {
+  width: 82px;
+}
 #main_content .sp-credential-card h3 {
   margin-top: .7rem;
 }
@@ -304,7 +307,7 @@
     height: auto;
   }
   .sp-credential-mark--utah img {
-    width: 112px;
+    width: 72px;
   }
   #main_content .sp-credential-card h3 {
     margin-top: .55rem;
