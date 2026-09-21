@@ -61,19 +61,19 @@ page_css: "/assets/css/strategic-pages.css"
   </div>
   <div class="sp-list-grid sp-credential-grid">
     <article class="sp-list-card sp-credential-card">
-      <div class="sp-credential-mark"><img src="https://www.theiia.org/globalassets/site/certifications/social-badging/2021-3444-cert-social-badges_1200x1200-cia.png" alt="Certified Internal Auditor badge" loading="lazy" decoding="async"><span>CIA</span></div>
+      <div class="sp-credential-mark"><img src="https://www.theiia.org/globalassets/site/certifications/social-badging/2021-3444-cert-social-badges_1200x1200-cia.png" alt="Certified Internal Auditor badge" loading="lazy" decoding="async"></div>
       <h3>Certified Internal Auditor</h3><p>Governance, risk, control, engagement execution, and Internal Audit professional practice.</p>
     </article>
     <article class="sp-list-card sp-credential-card">
-      <div class="sp-credential-mark"><a href="https://www.acfe.com/" target="_blank" rel="noopener noreferrer" aria-label="Association of Certified Fraud Examiners"><img src="https://www.acfe.com/-/media/images/acfe/membership/welcome-to-the-acfe/cfe-seal-320x250.png?h=250&amp;hash=CE465A5DDC9C5EE97CF871370A838AF0&amp;la=en&amp;w=300" alt="Certified Fraud Examiner seal" loading="lazy" decoding="async"></a><span>CFE</span></div>
+      <div class="sp-credential-mark"><a href="https://www.acfe.com/" target="_blank" rel="noopener noreferrer" aria-label="Association of Certified Fraud Examiners"><img src="https://www.acfe.com/-/media/images/acfe/membership/welcome-to-the-acfe/cfe-seal-320x250.png?h=250&amp;hash=CE465A5DDC9C5EE97CF871370A838AF0&amp;la=en&amp;w=300" alt="Certified Fraud Examiner seal" loading="lazy" decoding="async"></a></div>
       <h3>Certified Fraud Examiner</h3><p>Fraud risk, investigation, evidence evaluation, and prevention considerations.</p>
     </article>
     <article class="sp-list-card sp-credential-card">
-      <div class="sp-credential-mark sp-credential-mark--wordmark"><img src="https://www.suu.edu/mc/identity/images/2024/suu-logo-1.jpg" alt="Southern Utah University logo" loading="lazy" decoding="async"><span>MAcc</span></div>
+      <div class="sp-credential-mark sp-credential-mark--wordmark"><img src="https://www.suu.edu/mc/identity/images/2024/suu-logo-1.jpg" alt="Southern Utah University logo" loading="lazy" decoding="async"></div>
       <h3>Master of Accountancy</h3><p>Southern Utah University.</p>
     </article>
     <article class="sp-list-card sp-credential-card">
-      <div class="sp-credential-mark"><img src="https://www.utah.edu/_resources/images/fast-facts/icon-block-u.svg" alt="University of Utah Block U" loading="lazy" decoding="async"><span>BS</span></div>
+      <div class="sp-credential-mark sp-credential-mark--wordmark sp-credential-mark--utah"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/University_of_Utah_horizontal_logo.svg" alt="University of Utah logo" loading="lazy" decoding="async"></div>
       <h3>Accounting</h3><p>University of Utah.</p>
     </article>
   </div>
