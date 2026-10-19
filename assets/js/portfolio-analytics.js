@@ -79,8 +79,6 @@
     var content = {
       '/leadership/': ['professional_positioning', 'leadership'],
       '/audit-impact/': ['professional_positioning', 'audit_impact'],
-      '/auditpdf/': ['tool_project', 'auditpdf'],
-      '/promptshelf/': ['tool_project', 'promptshelf'],
       '/audit-intelligence/': ['practical_modernization', 'innovation_overview']
     };
 
@@ -90,16 +88,6 @@
       content_group: content[path][0],
       content_name: content[path][1]
     };
-  }
-
-  function toolProject(pathname) {
-    var path = normalizePath(pathname);
-    var tools = {
-      '/auditpdf/': 'auditpdf',
-      '/promptshelf/': 'promptshelf'
-    };
-
-    return tools[path] || null;
   }
 
   function fileExtension(pathname) {
@@ -142,12 +130,6 @@
         name: 'linkedin_profile_click',
         parameters: parameters
       };
-    }
-
-    var tool = toolProject(path);
-    if (sameHost && tool) {
-      parameters.tool_name = tool;
-      return { name: 'tool_project_click', parameters: parameters };
     }
 
     if (sameHost && path === '/leadership/') {
