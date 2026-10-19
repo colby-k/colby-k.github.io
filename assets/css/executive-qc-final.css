@@ -1,6 +1,6 @@
 /* Final targeted QC overrides for the executive theme. */
 
-/* Compact homepage modernization proof. */
+/* Compact homepage technology capability summaries. */
 .lead-tool-strip {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -17,10 +17,6 @@
   background: #fff;
   color: var(--exec-ink) !important;
   text-decoration: none;
-}
-.lead-tool-strip__item:hover {
-  border-color: rgba(15, 124, 105, .42);
-  transform: translateY(-1px);
 }
 .lead-tool-strip__item img {
   display: block;
@@ -54,7 +50,7 @@
   margin-bottom: 0 !important;
 }
 
-/* AuditTicks' former dark-theme ghost button now sits on a white hero. */
+/* Legacy archive styles, retained for reference. */
 #main_content .sp-page .sp-hero .atp-button--ghost {
   border-color: var(--exec-line) !important;
   background: #fff !important;
