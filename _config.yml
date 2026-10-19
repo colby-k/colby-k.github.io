@@ -66,6 +66,24 @@ exclude:
   - assets/img/auditpdf
   - assets/img/promptshelf
   - assets/img/AuditTicksPro_Icon.png
+  - assets/css/auditticks-case-study.css
+  - assets/css/auditticks-guide.css
+  - assets/css/auditticks-pro.css
+  - assets/css/auditticks-product-v2.css
+  - assets/img/AuditTicksPro_Ribbon.png
+  - assets/img/AuditTicksPro_Ribbon.webp
+  - assets/img/AuditTicksPro_Tms.png
+  - assets/img/AuditTicksPro_Tms.webp
+  - assets/img/auditticks-evidence-annotations.webp
+  - assets/img/auditticks-floating-invoice.png
+  - assets/img/auditticks-keyboard-shortcuts-guide.webp
+  - assets/img/auditticks-keyboard-shortcuts-settings.webp
+  - assets/img/auditticks-link-to-sheet.webp
+  - assets/img/auditticks-overview.webp
+  - assets/img/auditticks-review-ready.webp
+  - assets/img/auditticks-testing-matrix.webp
+  - assets/js/auditticks-guide.js
+  - assets/js/auditticks-pro.js
   - _old
   - Gemfile
   - Gemfile.lock
