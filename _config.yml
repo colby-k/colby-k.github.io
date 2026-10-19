@@ -48,15 +48,24 @@ include:
   - leadership
   - audit-impact
   - modern-audit-practice
-  - auditpdf
-  - promptshelf
   - audit-intelligence
   - access-conflict-explorer
   - vendor-relationship-intelligence
   - control-evidence-lab
 
 exclude:
+  # Archived product and demonstration builds remain in Git history but are not published.
   - auditticks-pro
+  - auditpdf
+  - promptshelf
+  - auditpdf-mobile
+  - auditpdf-windows
+  - promptshelf-mobile
+  - promptshelf-mobile-reset
+  # Product-specific marketing and UI assets are retained in source control.
+  - assets/img/auditpdf
+  - assets/img/promptshelf
+  - assets/img/AuditTicksPro_Icon.png
   - _old
   - Gemfile
   - Gemfile.lock
