@@ -93,11 +93,10 @@ page_css: "/assets/css/homepage-v4.css"
 <section class="lead-innovation lead-innovation--compact" aria-labelledby="innovation-title">
   <div class="lead-section-heading lead-section-heading--light">
     <div><p class="lead-kicker">Practical modernization</p><h2 id="innovation-title">Tools built around real audit workflow friction.</h2></div>
-    <p>Independent projects focused on making recurring workpaper, evidence, and AI-assisted workflows more consistent and reviewable.</p>
+    <p>Independent projects and technical work focused on making evidence review, AI-assisted workflows, and Excel-based audit documentation more consistent and reviewable.</p>
   </div>
 
   <div class="lead-tool-strip" aria-label="Selected tools I built">
-    <a class="lead-tool-strip__item" href="/auditticks-pro/"><img src="/assets/img/AuditTicksPro_Icon.png" alt="AuditTicks icon" loading="lazy" decoding="async"><span><strong>AuditTicks</strong><small>Workpaper workflow</small></span></a>
     <a class="lead-tool-strip__item" href="/auditpdf/"><img src="/auditpdf-mobile/icon-512.png" alt="AuditPDF icon" loading="lazy" decoding="async"><span><strong>AuditPDF</strong><small>Evidence workflow</small></span></a>
     <a class="lead-tool-strip__item" href="/promptshelf/"><img src="/assets/img/promptshelf/icon-128.png" alt="PromptShelf icon" loading="lazy" decoding="async"><span><strong>PromptShelf</strong><small>AI workflow</small></span></a>
   </div>
