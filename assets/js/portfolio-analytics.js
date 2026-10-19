@@ -79,7 +79,6 @@
     var content = {
       '/leadership/': ['professional_positioning', 'leadership'],
       '/audit-impact/': ['professional_positioning', 'audit_impact'],
-      '/auditticks-pro/': ['tool_project', 'auditticks'],
       '/auditpdf/': ['tool_project', 'auditpdf'],
       '/promptshelf/': ['tool_project', 'promptshelf'],
       '/audit-intelligence/': ['practical_modernization', 'innovation_overview']
@@ -96,7 +95,6 @@
   function toolProject(pathname) {
     var path = normalizePath(pathname);
     var tools = {
-      '/auditticks-pro/': 'auditticks',
       '/auditpdf/': 'auditpdf',
       '/promptshelf/': 'promptshelf'
     };
@@ -139,15 +137,9 @@
       return { name: 'resume_view', parameters: parameters };
     }
 
-    if (path === '/assets/img/user guide.png') {
-      return { name: 'auditticks_user_guide_view', parameters: parameters };
-    }
-
     if (host === 'www.linkedin.com' || host === 'linkedin.com') {
       return {
-        name: normalizePath(window.location.pathname) === '/auditticks-pro/'
-          ? 'auditticks_product_discussion_click'
-          : 'linkedin_profile_click',
+        name: 'linkedin_profile_click',
         parameters: parameters
       };
     }
