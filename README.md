@@ -19,7 +19,7 @@ The primary story is organized around four areas:
 
 The primary tool projects are:
 
-- **AuditTicks** — Excel workpaper workflow tooling for recurring audit documentation mechanics.
+- **Excel VBA/XLAM automation** — earlier work to simplify Excel-based audit documentation, summarized without a product listing.
 - **AuditPDF** — audit-focused PDF evidence annotation and review workflow.
 - **PromptShelf** — local-first reusable prompt and AI workflow organization.
 - **Audit analytics and SQL examples** — population testing, monitoring, visualization, and reproducible analytical work.
@@ -27,6 +27,8 @@ The primary tool projects are:
 These projects support the professional leadership narrative; they are not represented as employer implementations.
 
 The repository also retains earlier experimental portfolio applications for archival/reference purposes. They are no longer part of the employer-facing site narrative.
+
+The legacy Excel add-in user guide and product page remain preserved in source control under `auditticks-pro/` for future documentation reference. That directory is excluded from GitHub Pages, so neither page is published or linked from the portfolio. The source files have not been deleted.
 
 ## Design principles
 
@@ -58,7 +60,7 @@ Across the site and portfolio work:
 ├── audit-impact/                 # Career Impact
 ├── modern-audit-practice/        # Secondary methodology / professional-practice depth
 ├── audit-intelligence/           # Practical Audit Modernization
-├── auditticks-pro/               # AuditTicks independent portfolio project
+├── auditticks-pro/               # Archived Excel add-in page and guide (excluded from site build)
 ├── auditpdf/                     # AuditPDF project overview
 ├── promptshelf/                  # PromptShelf project overview
 ├── auditpdf-mobile/              # AuditPDF mobile/web build
