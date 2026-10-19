@@ -15,20 +15,18 @@ The primary story is organized around four areas:
 - **Modern Audit Practice** — generalized methods for full-population testing, analytical validation, evidence sufficiency, manager review, workflow improvement, responsible AI, and professional judgment.
 - **Practical Audit Modernization** — independent tools, analytics, automation, workflow design, and responsible AI focused on recurring audit work.
 
-## Independent portfolio projects
+## Selected technology and automation experience
 
-The primary tool projects are:
+The public portfolio describes capabilities rather than branded software products:
 
-- **Excel VBA/XLAM automation** — earlier work to simplify Excel-based audit documentation, summarized without a product listing.
-- **AuditPDF** — audit-focused PDF evidence annotation and review workflow.
-- **PromptShelf** — local-first reusable prompt and AI workflow organization.
+- **PDF evidence annotation** — a markup utility for reviewing and annotating supporting documents.
+- **Custom AI prompt library** — a solution for organizing and reusing prompts and supporting context.
+- **Excel VBA/XLAM automation** — an earlier add-in developed to streamline recurring audit documentation.
 - **Audit analytics and SQL examples** — population testing, monitoring, visualization, and reproducible analytical work.
 
-These projects support the professional leadership narrative; they are not represented as employer implementations.
+These summaries demonstrate problem-solving and technical experience. They are not commercial product listings or statements about intellectual-property ownership.
 
-The repository also retains earlier experimental portfolio applications for archival/reference purposes. They are no longer part of the employer-facing site narrative.
-
-The legacy Excel add-in user guide and product page remain preserved in source control under `auditticks-pro/` for future documentation reference. That directory is excluded from GitHub Pages, so neither page is published or linked from the portfolio. The source files have not been deleted.
+Legacy landing pages, user guides, marketing images, and hosted demonstration builds are retained in the public repository for reference, but excluded from the GitHub Pages build. **Publishing exclusions do not make GitHub source code or history private.** Any materials requiring confidentiality should be moved to a separate private repository after appropriate review.
 
 ## Design principles
 
@@ -60,11 +58,8 @@ Across the site and portfolio work:
 ├── audit-impact/                 # Career Impact
 ├── modern-audit-practice/        # Secondary methodology / professional-practice depth
 ├── audit-intelligence/           # Practical Audit Modernization
-├── auditticks-pro/               # Archived Excel add-in page and guide (excluded from site build)
-├── auditpdf/                     # AuditPDF project overview
-├── promptshelf/                  # PromptShelf project overview
-├── auditpdf-mobile/              # AuditPDF mobile/web build
-├── promptshelf-mobile/           # PromptShelf mobile companion
+├── excel-tools/                 # Excel documentation and planning resources
+├── [archived project directories] # Retained in source control, excluded from site publication
 ├── access-conflict-explorer/     # Retained experimental application
 ├── vendor-relationship-intelligence/ # Retained experimental application
 ├── control-evidence-lab/         # Retained experimental application
