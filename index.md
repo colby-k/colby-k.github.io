@@ -93,12 +93,13 @@ page_css: "/assets/css/homepage-v4.css"
 <section class="lead-innovation lead-innovation--compact" aria-labelledby="innovation-title">
   <div class="lead-section-heading lead-section-heading--light">
     <div><p class="lead-kicker">Practical modernization</p><h2 id="innovation-title">Tools built around real audit workflow friction.</h2></div>
-    <p>Independent projects and technical work focused on making evidence review, AI-assisted workflows, and Excel-based audit documentation more consistent and reviewable.</p>
+    <p>Selected technology work includes a custom prompt library, a PDF annotation utility, and Excel VBA automation. These examples demonstrate practical problem-solving rather than active product offerings.</p>
   </div>
 
-  <div class="lead-tool-strip" aria-label="Selected tools I built">
-    <a class="lead-tool-strip__item" href="/auditpdf/"><img src="/auditpdf-mobile/icon-512.png" alt="AuditPDF icon" loading="lazy" decoding="async"><span><strong>AuditPDF</strong><small>Evidence workflow</small></span></a>
-    <a class="lead-tool-strip__item" href="/promptshelf/"><img src="/assets/img/promptshelf/icon-128.png" alt="PromptShelf icon" loading="lazy" decoding="async"><span><strong>PromptShelf</strong><small>AI workflow</small></span></a>
+  <div class="lead-tool-strip" aria-label="Selected technical solutions">
+    <div class="lead-tool-strip__item"><span><strong>PDF annotation</strong><small>Evidence markup and review</small></span></div>
+    <div class="lead-tool-strip__item"><span><strong>Custom prompt library</strong><small>Reusable AI instructions</small></span></div>
+    <div class="lead-tool-strip__item"><span><strong>Excel VBA automation</strong><small>Workpaper documentation</small></span></div>
   </div>
 
   <a class="lead-link lead-link--light" href="/audit-intelligence/">View Practical Modernization <span>↗</span></a>
