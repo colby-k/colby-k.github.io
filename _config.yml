@@ -48,7 +48,6 @@ include:
   - leadership
   - audit-impact
   - modern-audit-practice
-  - auditticks-pro
   - auditpdf
   - promptshelf
   - audit-intelligence
@@ -57,6 +56,7 @@ include:
   - control-evidence-lab
 
 exclude:
+  - auditticks-pro
   - _old
   - Gemfile
   - Gemfile.lock
