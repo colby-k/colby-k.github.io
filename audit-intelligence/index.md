@@ -13,7 +13,7 @@ page_css: "/assets/css/strategic-pages.css"
     <p class="sp-kicker">Practical Audit Modernization</p>
     <h1>Build better audit workflows around <em>real recurring friction.</em></h1>
     <p class="sp-hero__lede">I use analytics, automation, workflow design, and responsible AI when they make audit work easier to execute, easier to review, or more informative without weakening evidence or professional judgment.</p>
-    <div class="sp-actions"><a class="sp-link sp-link--light" href="#tools">View tools I built <span>↓</span></a><a class="sp-link sp-link--light" href="/modern-audit-practice/">Modern Audit Practice <span>↗</span></a></div>
+    <div class="sp-actions"><a class="sp-link sp-link--light" href="#tools">Selected technical work <span>↓</span></a><a class="sp-link sp-link--light" href="/modern-audit-practice/">Modern Audit Practice <span>↗</span></a></div>
   </div>
   <div class="sp-hero-card" aria-label="Audit modernization principles">
     <div class="sp-hero-card__header"><strong>Modernization test</strong><span>Useful before technical</span></div>
@@ -29,13 +29,13 @@ page_css: "/assets/css/strategic-pages.css"
 
 <section id="tools" class="sp-section sp-section--paper">
   <div class="sp-heading">
-    <div><p class="sp-kicker sp-kicker--dark">Tools I built</p><h2>Independent tools and practical Excel automation.</h2></div>
-    <p>Two independent tools and an earlier Excel automation effort illustrate ways to address recurring evidence, documentation, and AI-workflow needs.</p>
+    <div><p class="sp-kicker sp-kicker--dark">Selected technology &amp; automation projects</p><h2>Practical solutions to recurring workflow problems.</h2></div>
+    <p>I have developed tools for PDF evidence annotation, organizing reusable AI prompts, and improving Excel workpaper documentation. These are technical examples rather than product listings or commercial offerings.</p>
   </div>
   <div class="sp-card-grid">
-    <a class="sp-card sp-card--dark tool-card" href="/auditpdf/"><div class="tool-brand"><img class="tool-brand__logo" src="/auditpdf-mobile/icon-512.png" alt="AuditPDF icon" loading="lazy" decoding="async"><span>PDF · Evidence review</span></div><div class="tool-card__media tool-card__media--interface"><img src="/assets/img/auditpdf/evidence-review.png" alt="AuditPDF reviewing a sample PDF with audit tickmarks and legend" loading="lazy" decoding="async"></div><h3>AuditPDF</h3><p>Provides an audit-focused PDF annotation workflow for marking evidence, documenting notation, and preparing reviewable support.</p><b>Explore AuditPDF ↗</b></a>
-    <a class="sp-card tool-card" href="/promptshelf/"><div class="tool-brand"><img class="tool-brand__logo" src="/assets/img/promptshelf/icon-128.png" alt="PromptShelf icon" loading="lazy" decoding="async"><span>AI · Workflow organization</span></div><div class="tool-card__media tool-card__media--interface"><img src="/assets/img/promptshelf/screenshots/browser-workflow.png" alt="PromptShelf interface shown within a browser workflow" loading="lazy" decoding="async"></div><h3>PromptShelf</h3><p>Organizes reusable prompts, variables, context, and insertion workflows so recurring AI-assisted work is easier to use consistently.</p><b>Explore PromptShelf ↗</b></a>
-    <article class="sp-card sp-card--signal"><span>Excel · VBA automation</span><h3>Excel Workpaper Automation</h3><p>Developed a VBA-based Excel add-in (.xlam) to reduce repetitive audit documentation steps and support more consistent workpaper preparation.</p><b>Technical experience · Excel</b></article>
+    <article class="sp-card sp-card--dark"><span>PDF · Evidence handling</span><h3>PDF Annotation Utility</h3><p>Built a PDF markup utility for annotating supporting documents, adding review notation, and keeping evidence easier to follow.</p><b>Document tools · Review workflow</b></article>
+    <article class="sp-card"><span>AI · Reusable instructions</span><h3>Custom Prompt Library</h3><p>Developed a personal prompt library to organize, retrieve, and adapt reusable AI instructions and supporting context across recurring workflows.</p><b>Workflow design · Prompt management</b></article>
+    <article class="sp-card sp-card--signal"><span>Excel · VBA automation</span><h3>Excel Workpaper Automation</h3><p>Developed a VBA-based Excel add-in (.xlam) to reduce repetitive audit documentation steps and support more consistent workpaper preparation.</p><b>Excel VBA · Documentation efficiency</b></article>
   </div>
 </section>
 
@@ -51,7 +51,7 @@ page_css: "/assets/css/strategic-pages.css"
   </div>
 </section>
 
-<section class="sp-boundary"><strong>Portfolio boundary</strong><p>AuditPDF and PromptShelf are independent projects. The Excel VBA/XLAM work is described at a high level as prior technical experience. Other portfolio examples use demonstration, external, public, or synthetic data where appropriate, without disclosing employer or client materials.</p></section>
+<section class="sp-boundary"><strong>Portfolio boundary</strong><p>Technical work is described at a high level to illustrate design and automation skills, not to present products for sale. Portfolio demonstrations use synthetic, external, public, or sample data as appropriate. Employer, client, and proprietary information is not included.</p></section>
 
 <section class="sp-final">
   <p class="sp-kicker">Innovation that supports assurance</p>
