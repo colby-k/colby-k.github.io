@@ -236,7 +236,7 @@ page_css: "/assets/css/audit-impact-v5.css"
 
     <div class="sp-workflow-boundary"><strong>Audit boundary</strong><p>A standardized workflow can improve consistency and reviewability. It should not force a procedure, evidence decision, issue rating, or conclusion that does not fit the actual risk and facts.</p></div>
 
-    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/excel-tools/">Explore Excel resources <span>↗</span></a><a class="sp-link" href="/auditpdf/">Explore AuditPDF <span>↗</span></a></div>
+    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/excel-tools/">Explore Excel resources <span>↗</span></a><a class="sp-link" href="/audit-intelligence/">View technical examples <span>↗</span></a></div>
   </article>
 
   <article id="responsible-ai" class="sp-ai-feature">
@@ -316,7 +316,7 @@ page_css: "/assets/css/audit-impact-v5.css"
 
     <div class="sp-ai-boundary"><strong>Audit boundary</strong><p>An AI-generated summary, analysis, or draft is not audit evidence. It is an intermediate work product that must be verified against authorized sources and reviewed by the auditor responsible for the conclusion.</p></div>
 
-    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/ai-audit-assistant/">Review the Responsible AI framework <span>↗</span></a><a class="sp-link" href="/promptshelf/">Explore PromptShelf <span>↗</span></a></div>
+    <div class="sp-actions" style="margin-top:2rem"><a class="sp-link" href="/ai-audit-assistant/">Review the Responsible AI framework <span>↗</span></a><a class="sp-link" href="/audit-intelligence/">View workflow examples <span>↗</span></a></div>
   </article>
 </section>
 
@@ -340,7 +340,7 @@ page_css: "/assets/css/audit-impact-v5.css"
   <div class="sp-card-grid">
     <a class="sp-card" href="/sql-projects/"><span>Population testing</span><h3>SQL testing examples</h3><p>Defined tests, population reconciliation, exception logic, and reproducible analytical procedures.</p><b>Explore examples ↗</b></a>
     <a class="sp-card sp-card--dark" href="/audit-analytics/"><span>Visualization</span><h3>Audit analytics</h3><p>Dashboards and analytical examples focused on risk visibility, exception analysis, and decision support.</p><b>Explore analytics ↗</b></a>
-    <a class="sp-card sp-card--signal" href="/audit-intelligence/"><span>Practical tools</span><h3>Innovation</h3><p>Excel VBA/XLAM automation, AuditPDF, and PromptShelf illustrate approaches to audit documentation, evidence review, and AI-assisted work.</p><b>View Innovation ↗</b></a>
+    <a class="sp-card sp-card--signal" href="/audit-intelligence/"><span>Practical tools</span><h3>Innovation</h3><p>Excel VBA/XLAM automation, PDF evidence annotation, and reusable AI prompt management illustrate practical approaches to documentation and workflow improvement.</p><b>View Innovation ↗</b></a>
   </div>
 </section>
 
