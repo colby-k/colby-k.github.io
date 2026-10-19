@@ -12,13 +12,13 @@ page_css: "/assets/css/strategic-pages.css"
   <div class="sp-hero__copy">
     <p class="sp-kicker">Practical audit resources</p>
     <h1>Reusable tools for <em>clearer audit execution.</em></h1>
-    <p class="sp-hero__lede">This supporting resources page contains practical templates and examples for Excel-based audit work. AuditTicks now has a dedicated product page with its own feature, release, and product-development information.</p>
-    <div class="sp-actions"><a class="sp-link sp-link--light" href="/auditticks-pro/">Open AuditTicks <span>↗</span></a><a class="sp-link sp-link--light" href="#resources">View resources <span>↓</span></a></div>
+    <p class="sp-hero__lede">These resources include Excel workpaper templates, risk assessment examples, and a brief look at a VBA-based Excel add-in (.xlam) developed to simplify recurring audit documentation tasks.</p>
+    <div class="sp-actions"><a class="sp-link sp-link--light" href="#resources">View resources <span>↓</span></a><a class="sp-link sp-link--light" href="/audit-intelligence/">View Innovation <span>↗</span></a></div>
   </div>
   <div class="sp-hero-card" aria-label="Practical audit resource categories">
     <div class="sp-hero-card__header"><strong>Audit execution resources</strong><span>Reusable starting points</span></div>
     <div class="sp-hero-card__rows">
-      <div><span>01</span><div><strong>AuditTicks</strong><small>Excel add-in · documentation workflow</small></div></div>
+      <div><span>01</span><div><strong>Excel automation</strong><small>VBA/XLAM · documentation workflow</small></div></div>
       <div><span>02</span><div><strong>Workpaper templates</strong><small>Testing · evidence · exceptions</small></div></div>
       <div><span>03</span><div><strong>Risk assessment</strong><small>Criteria · scoring · heatmap</small></div></div>
     </div>
@@ -27,7 +27,7 @@ page_css: "/assets/css/strategic-pages.css"
 </section>
 
 <section class="sp-facts" aria-label="Resource facts">
-  <div><small>Product</small><strong>AuditTicks</strong></div>
+  <div><small>Automation</small><strong>Excel VBA/XLAM</strong></div>
   <div><small>Templates</small><strong>Excel workpapers</strong></div>
   <div><small>Planning</small><strong>Risk assessment matrix</strong></div>
   <div><small>Data</small><strong>Synthetic examples</strong></div>
@@ -41,11 +41,11 @@ page_css: "/assets/css/strategic-pages.css"
 
 <section id="resources" class="sp-section sp-section--paper">
   <div class="sp-heading">
-    <div><p class="sp-kicker sp-kicker--dark">Available resources</p><h2>Products and templates built around recurring audit work.</h2></div>
+    <div><p class="sp-kicker sp-kicker--dark">Available resources</p><h2>Excel automation experience and reusable audit templates.</h2></div>
     <p>Each item addresses a specific point of friction in Excel-based audit planning, testing, documentation, or review.</p>
   </div>
   <div class="sp-card-grid">
-    <a class="sp-card sp-card--dark" href="/auditticks-pro/"><span>Excel add-in</span><h3>AuditTicks</h3><p>A standalone product designed to make tickmarks, references, annotations, legends, and workpaper setup faster and more consistent.</p><b>Explore the product ↗</b></a>
+    <article class="sp-card sp-card--dark"><span>VBA/XLAM · Technical experience</span><h3>Excel Documentation Automation</h3><p>Developed a VBA-based Excel add-in (.xlam) to make repetitive audit documentation and workpaper formatting easier and more consistent. This is an experience summary, not a product listing.</p><b>Workflow design · Excel VBA</b></article>
     <a class="sp-card" href="/assets/files/Audit_Workpaper_Template.xlsx"><span>Downloadable template</span><h3>Audit Workpaper Template Pack</h3><p>A structured starting point for procedures, testing attributes, samples, evidence references, exceptions, conclusions, and review notes.</p><b>Download template ↓</b></a>
     <a class="sp-card sp-card--signal" href="/assets/files/Risk_Assessment_Template.xlsx"><span>Downloadable template</span><h3>Risk Assessment Matrix</h3><p>Configurable criteria, weighted scoring, prioritization, and a heatmap for organizing and comparing risk assessments.</p><b>Download template ↓</b></a>
   </div>
@@ -63,13 +63,13 @@ page_css: "/assets/css/strategic-pages.css"
   </div>
 </section>
 
-<section class="sp-boundary"><strong>Portfolio demonstration</strong><p>AuditTicks, templates, screenshots, and related examples are independent portfolio work built with demonstration data. They do not contain employer, client, confidential audit, or proprietary information.</p></section>
+<section class="sp-boundary"><strong>Portfolio demonstration</strong><p>The Excel automation work is described at a generalized level. Templates, screenshots, and related examples use demonstration data and do not disclose employer, client, confidential audit, or proprietary information.</p></section>
 
 <section class="sp-final">
   <p class="sp-kicker">Practical audit resources</p>
   <h2>Build once.<br>Improve every engagement.</h2>
-  <p>Use the dedicated AuditTicks page for product information, current release status, features, demonstrations, and future early-access options.</p>
-  <div class="sp-actions"><a class="sp-link sp-link--light" href="/auditticks-pro/">Explore AuditTicks <span>↗</span></a><a class="sp-link sp-link--light" href="/audit-impact/">View audit impact <span>↗</span></a></div>
+  <p>Use practical templates and targeted automation to make workpapers easier to prepare, interpret, and review.</p>
+  <div class="sp-actions"><a class="sp-link sp-link--light" href="#resources">View resources <span>↑</span></a><a class="sp-link sp-link--light" href="/audit-impact/">View audit impact <span>↗</span></a></div>
 </section>
 
 </article>
