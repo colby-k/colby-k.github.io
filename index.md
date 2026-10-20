@@ -25,7 +25,7 @@ page_css: "/assets/css/homepage-v4.css"
       <div class="lead-model__node lead-model__node--one"><small>01</small><strong>15+ years</strong><span>Audit + risk experience</span></div>
       <div class="lead-model__node lead-model__node--two"><small>02</small><strong>Function build</strong><span>Plan · methodology · team</span></div>
       <div class="lead-model__node lead-model__node--three"><small>03</small><strong>Team leadership</strong><span>Coach · review · develop</span></div>
-      <div class="lead-model__node lead-model__node--four"><small>04</small><strong>Global scope</strong><span>Five international divisions</span></div>
+      <div class="lead-model__node lead-model__node--four"><small>04</small><strong>Global scope</strong><span>Domestic &amp; international audit</span></div>
       <div class="lead-model__node lead-model__node--five"><small>05</small><strong>Modernization</strong><span>Analytics · automation · AI</span></div>
     </div>
   </div>
@@ -34,14 +34,14 @@ page_css: "/assets/css/homepage-v4.css"
 <section class="lead-metrics" aria-labelledby="career-impact-title">
   <div class="lead-section-heading">
     <div><p class="lead-kicker lead-kicker--dark">Selected career impact</p><h2 id="career-impact-title">Measured improvement—not just methodology.</h2></div>
-    <p>Four results that summarize how I improve audit quality, coverage, team execution, and efficiency.</p>
+    <p>Four measurable results across executive reporting, operational improvement, audit efficiency, and analytics at scale.</p>
   </div>
 
   <div class="lead-metric-grid">
-    <article class="lead-metric-card lead-metric-card--feature"><small>Audit quality</small><strong>45%</strong><p>Reduction in report rework through stronger review, training, and clearer quality expectations.</p></article>
-    <article class="lead-metric-card"><small>Testing coverage</small><strong>50K+</strong><p>Transactions included in automated full-population testing using SQL and Python.</p></article>
-    <article class="lead-metric-card"><small>Leadership scale</small><strong>6</strong><p>Auditors managed and coached across work spanning five international divisions.</p></article>
-    <article class="lead-metric-card"><small>Efficiency</small><strong>120+</strong><p>Manual testing hours reduced annually through automated audit alerts and thresholds.</p></article>
+    <article class="lead-metric-card lead-metric-card--feature"><small>Audit quality</small><strong>45%</strong><p>Less audit-report rework through concise, decision-focused communication.</p></article>
+    <article class="lead-metric-card"><small>Process improvement</small><strong>25%</strong><p>Faster complaint processing enabled by reporting and workflow solutions.</p></article>
+    <article class="lead-metric-card"><small>Efficiency</small><strong>120+</strong><p>Administrative hours saved annually by automating branch control self-assessments.</p></article>
+    <article class="lead-metric-card"><small>Analytics reach</small><strong>75+</strong><p>Stakeholders supported through 10+ Power BI dashboards and reporting solutions.</p></article>
   </div>
 </section>
 
@@ -82,8 +82,8 @@ page_css: "/assets/css/homepage-v4.css"
   <div class="lead-career-track">
     <article><span>Current</span><div class="employer-mark employer-mark--fj"><img src="/assets/img/employers/fj-management.png" alt="FJ Management logo" loading="lazy" decoding="async"></div><h3>Internal Audit Manager</h3><p>Financial and operational assurance.</p></article>
     <article><span>Analytics</span><div class="employer-mark"><img src="/MACU%20logo.svg" alt="Mountain America Credit Union logo" loading="lazy" decoding="async"></div><h3>BI Analyst</h3><p>Audit, compliance, and legal analytics · dashboards and automation.</p></article>
-    <article><span>Function leadership</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Academy_Mortgage_Corporation_logo.png" alt="Academy Mortgage logo" loading="lazy" decoding="async"></div><h3>Senior Internal Audit Manager</h3><p>Built the Internal Audit function · methodology, team, and analytics.</p></article>
-    <article><span>Global audit</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Alsco_Uniforms_Logo.svg" alt="Alsco Uniforms logo" loading="lazy" decoding="async"></div><h3>Internal Audit Manager</h3><p>Five international divisions · six auditors managed and coached.</p></article>
+    <article><span>Audit &amp; compliance leadership</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Academy_Mortgage_Corporation_logo.png" alt="Academy Mortgage logo" loading="lazy" decoding="async"></div><h3>Internal Audit Manager → Senior Compliance Manager</h3><p>Rebuilt Internal Audit · developed continuous compliance monitoring.</p></article>
+    <article><span>Multinational audit</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Alsco_Uniforms_Logo.svg" alt="Alsco Uniforms logo" loading="lazy" decoding="async"></div><h3>Internal Audit Manager</h3><p>Risk-based domestic and international coverage · six auditors led.</p></article>
     <article><span>Foundation</span><div class="employer-mark"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/KPMG_blue_logo.svg" alt="KPMG logo" loading="lazy" decoding="async"></div><h3>Big Four + Earlier Roles</h3><p>Financial statement and SOX audit · internal audit · accounting and reporting.</p></article>
   </div>
 

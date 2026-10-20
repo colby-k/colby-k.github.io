@@ -2,7 +2,7 @@
 title: "Career Impact | Internal Audit Leadership Results"
 layout: default
 permalink: /audit-impact/
-description: "Selected career impact from Colby Kellersberger across Internal Audit function building, audit quality, full-population testing, global audit execution, efficiency, and risk analytics."
+description: "Selected measurable results in audit function building, executive reporting, risk-based global audit planning, continuous compliance monitoring, and operational analytics."
 page_css: "/assets/css/strategic-pages.css"
 ---
 
@@ -18,10 +18,10 @@ page_css: "/assets/css/strategic-pages.css"
   <div class="sp-hero-card" aria-label="Selected career outcomes">
     <div class="sp-hero-card__header"><strong>Selected outcomes</strong><span>Career evidence</span></div>
     <div class="sp-hero-card__rows">
-      <div><span>45%</span><div><strong>Less report rework</strong><small>Review · training · quality expectations</small></div></div>
-      <div><span>50K+</span><div><strong>Transactions tested</strong><small>SQL · Python · full population</small></div></div>
-      <div><span>120+</span><div><strong>Hours reduced annually</strong><small>Automated alerts · thresholds</small></div></div>
-      <div><span>10+</span><div><strong>Power BI dashboards</strong><small>Risk visibility · reporting</small></div></div>
+      <div><span>45%</span><div><strong>Less report rework</strong><small>Clearer · executive-focused reporting</small></div></div>
+      <div><span>25%</span><div><strong>Faster complaint processing</strong><small>Intake · tracking · resolution</small></div></div>
+      <div><span>120+</span><div><strong>Administrative hours saved annually</strong><small>Automated control self-assessments</small></div></div>
+      <div><span>75+</span><div><strong>Stakeholders supported</strong><small>10+ business intelligence solutions</small></div></div>
     </div>
     <div class="sp-hero-card__footer"><small>Leadership range</small><strong>Function building · teams · global audit · analytics</strong></div>
   </div>
@@ -29,66 +29,66 @@ page_css: "/assets/css/strategic-pages.css"
 
 <section id="cases" class="sp-section sp-section--paper">
   <div class="sp-heading">
-    <div><p class="sp-kicker sp-kicker--dark">Selected case studies</p><h2>Four examples. Clear problem, action, and result.</h2></div>
-    <p>Professional experience is summarized at a high level so the value is easy to scan while protecting employer and audit-specific information.</p>
+    <div><p class="sp-kicker sp-kicker--dark">Selected case studies</p><h2>Four transformations. Measurable results and stronger risk decisions.</h2></div>
+    <p>Examples from prior roles show how audit leadership, risk-based planning, continuous monitoring, and operational analytics can improve the way organizations work. Details are generalized to protect employer and client information.</p>
   </div>
 
   <article class="sp-impact-story">
-    <div class="sp-impact-story__label"><span>Function leadership</span><strong>45%</strong></div>
+    <div class="sp-impact-story__label"><span>Audit function leadership</span><strong>45%</strong></div>
     <div class="sp-impact-story__content">
-      <small>Academy Mortgage · Senior Internal Audit Manager</small>
-      <h3>Build the function and make quality repeatable.</h3>
-      <p>Established the Internal Audit operating model, strengthened team development and review discipline, and reduced report rework.</p>
+      <small>Academy Mortgage · Internal Audit Manager</small>
+      <h3>Rebuild Internal Audit and improve executive reporting.</h3>
+      <p>Reestablished the audit function after the previous team departed, rebuilt the operating methodology, and made reports more concise, coherent, and decision-focused for leadership.</p>
       <dl>
-        <div><dt>Challenge</dt><dd>Create a consistent risk-based audit function in a regulated environment.</dd></div>
-        <div><dt>Action</dt><dd>Built planning, testing, reporting, training, and review practices.</dd></div>
-        <div><dt>Result</dt><dd>Reduced report rework by 45%.</dd></div>
-        <div><dt>Why it matters</dt><dd>Quality improvement became part of the operating model rather than a one-time correction.</dd></div>
+        <div><dt>Challenge</dt><dd>Restore risk-based audit coverage and produce useful, consistent reporting for executive and Audit Committee audiences.</dd></div>
+        <div><dt>Action</dt><dd>Rebuilt planning, methodology, staffing, review, and reporting practices, with clearer communication of audit findings and their implications.</dd></div>
+        <div><dt>Result</dt><dd>Reduced audit-report rework by approximately 45% through more precise, executive-focused reporting.</dd></div>
+        <div><dt>Why it matters</dt><dd>A stronger audit function delivers defensible assurance and information leaders can act on.</dd></div>
       </dl>
     </div>
   </article>
 
   <article class="sp-impact-story">
-    <div class="sp-impact-story__label"><span>Testing coverage</span><strong>50K+</strong></div>
-    <div class="sp-impact-story__content">
-      <small>Academy Mortgage · SQL + Python</small>
-      <h3>Expand coverage beyond traditional sampling.</h3>
-      <p>Applied defined testing logic across large transaction populations and directed detailed audit attention toward higher-risk records and exceptions.</p>
-      <dl>
-        <div><dt>Challenge</dt><dd>Sampling alone limited visibility into patterns, concentrations, timing, and exceptions.</dd></div>
-        <div><dt>Action</dt><dd>Automated full-population testing with SQL and Python.</dd></div>
-        <div><dt>Result</dt><dd>Tested more than 50,000 transactions with broader coverage and faster exception identification.</dd></div>
-        <div><dt>Why it matters</dt><dd>Analytics improved focus while evidence evaluation and conclusions remained with the auditor.</dd></div>
-      </dl>
-    </div>
-  </article>
-
-  <article class="sp-impact-story">
-    <div class="sp-impact-story__label"><span>Global execution</span><strong>120+</strong></div>
+    <div class="sp-impact-story__label"><span>Risk-based global auditing</span><strong>120+</strong></div>
     <div class="sp-impact-story__content">
       <small>Alsco · Internal Audit Manager</small>
-      <h3>Reduce recurring manual effort across global operations.</h3>
-      <p>Led audit work across five international divisions, managed six auditors, and used analytics, alerts, and thresholds to improve focus.</p>
+      <h3>Target audit resources to risk—and automate recurring administration.</h3>
+      <p>Helped shift domestic and international audit coverage from a five-year rotational branch-audit cycle toward KPI-informed risk selection, while improving the efficiency of recurring control assessments.</p>
       <dl>
-        <div><dt>Challenge</dt><dd>Recurring manual testing consumed audit capacity across a multinational environment.</dd></div>
-        <div><dt>Action</dt><dd>Introduced dashboards, key risk indicators, automated alerts, and audit thresholds.</dd></div>
-        <div><dt>Result</dt><dd>Reduced manual testing by more than 120 hours annually.</dd></div>
-        <div><dt>Why it matters</dt><dd>Freed capacity while improving visibility into financial and operational risk.</dd></div>
+        <div><dt>Challenge</dt><dd>Rotational audit visits and manually administered branch assessments consumed capacity without consistently reflecting the greatest risk.</dd></div>
+        <div><dt>Action</dt><dd>Introduced risk indicators and Tableau monitoring for audit planning; separately automated Control Self-Assessment survey distribution, tracking, and summarization.</dd></div>
+        <div><dt>Result</dt><dd>Enabled more targeted audit coverage and reduced control-assessment administration by more than 120 hours annually.</dd></div>
+        <div><dt>Why it matters</dt><dd>Audit resources can focus on emerging risk instead of repeating low-value administrative activity.</dd></div>
       </dl>
     </div>
   </article>
 
   <article class="sp-impact-story">
-    <div class="sp-impact-story__label"><span>Risk visibility</span><strong>10+</strong></div>
+    <div class="sp-impact-story__label"><span>Continuous compliance monitoring</span><strong>5K+</strong></div>
     <div class="sp-impact-story__content">
-      <small>Mountain America Credit Union · BI Analyst</small>
-      <h3>Turn risk data into usable management information.</h3>
-      <p>Translated audit, compliance, and legal needs into repeatable SQL analyses, automated reporting, exception monitoring, and business-intelligence views.</p>
+      <small>Academy Mortgage · Senior Compliance Manager</small>
+      <h3>Identify regulatory and fair-lending concerns earlier.</h3>
+      <p>Built an internal analytics and monitoring capability and integrated previously separate compliance teams, shifting risk identification toward recurring, data-driven review rather than dependence on an annual assessment.</p>
       <dl>
-        <div><dt>Challenge</dt><dd>Risk information needed to be easier to access, validate, and use.</dd></div>
-        <div><dt>Action</dt><dd>Built analytical routines, dashboards, and automated reporting.</dd></div>
-        <div><dt>Result</dt><dd>Designed and launched more than 10 Power BI dashboards.</dd></div>
-        <div><dt>Why it matters</dt><dd>Improved issue visibility, reporting efficiency, and access to key risk indicators.</dd></div>
+        <div><dt>Challenge</dt><dd>Annual reviews and siloed testing limited opportunities to address potential concerns earlier in the loan lifecycle.</dd></div>
+        <div><dt>Action</dt><dd>Developed SQL-based monitoring across approximately 5,000–9,000 applications and completed loans per quarter, including full-population checks of selected higher-risk reporting elements.</dd></div>
+        <div><dt>Result</dt><dd>Established recurring quarterly monitoring and earlier opportunities to investigate, correct, and address potential compliance issues.</dd></div>
+        <div><dt>Why it matters</dt><dd>Proactive monitoring helps teams respond before problems accumulate into end-of-period exceptions.</dd></div>
+      </dl>
+    </div>
+  </article>
+
+  <article class="sp-impact-story">
+    <div class="sp-impact-story__label"><span>Operational analytics</span><strong>25%</strong></div>
+    <div class="sp-impact-story__content">
+      <small>Mountain America Credit Union · Business Intelligence Analyst</small>
+      <h3>Turn reporting and workflow data into faster resolution.</h3>
+      <p>Designed more than 10 Power BI dashboards and automated reporting solutions used by over 75 colleagues across Internal Audit, Compliance, and Legal, including workflow improvements for complaint management.</p>
+      <dl>
+        <div><dt>Challenge</dt><dd>Teams needed timely, accessible information and more efficient ways to manage recurring investigations, exceptions, and complaints.</dd></div>
+        <div><dt>Action</dt><dd>Developed repeatable SQL datasets, dashboards, exception reporting, and complaint intake, tracking, and resolution workflows.</dd></div>
+        <div><dt>Result</dt><dd>Enabled the complaints team to process complaints approximately 25% faster than its previous approach.</dd></div>
+        <div><dt>Why it matters</dt><dd>Analytics creates greater value when it supports measurable improvements in day-to-day operations.</dd></div>
       </dl>
     </div>
   </article>
